@@ -3,6 +3,7 @@
 - [Matt Daniels' hip hop graphics](http://www.mdaniels.com/)
 - [Listen to Wikipedia](http://listen.hatnote.com/#en)
 - [what if?](http://whatif.xkcd.com/)
+- [ESC Analysis](http://www.student.dtu.dk/~s093020/dataAnalysisWebsite/)
 
 
 ## Scraping sources
@@ -32,6 +33,7 @@
 - Starting position
 - Unique word counts
 - Recurrence of artists: effects of participating multiple times (songwriters, artists)
+- Tittarsiffror
 
 
 ## More input
