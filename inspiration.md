@@ -2,6 +2,7 @@
 
 - [Matt Daniels' hip hop graphics](http://www.mdaniels.com/)
 - [Listen to Wikipedia](http://listen.hatnote.com/#en)
+- [what if?](http://whatif.xkcd.com/)
 
 
 ## Scraping sources
@@ -19,7 +20,10 @@
 - Votes: jury votes, telephone votes
 - Audience attendance
 - Tweets, FB posts, other social media
+- YouTube
+- Google Trends
 - Newspaper articles
+- [Lilla Melodifestivalen](http://sverigesradio.se/lillamelodifestivalen)
 
 
 ## Possible analyses, visualizations, ideas
