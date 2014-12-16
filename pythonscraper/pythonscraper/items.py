@@ -12,3 +12,11 @@ class ParticipantItem(Item):
     votes_round2 = Field()
     place = Field()
     remark = Field()
+
+class ResultItem(Item):
+    
+    startposition_final = Field()
+    song = Field()
+    jury_points = Field()
+    tel_points = Field()
+    final_place = Field()
