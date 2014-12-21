@@ -20,3 +20,8 @@ class ResultItem(Item):
     jury_points = Field()
     tel_points = Field()
     final_place = Field()
+
+class LyricsItem(Item):
+    
+    song = Field()
+    lyrics = Field()
