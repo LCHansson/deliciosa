@@ -6,11 +6,6 @@ library(stringr)
 library(rvest)
 
 ## Scraping base data ----
-songs <- participants$song
-# Warn if there are duplicate titles
-if (length(songs) != length(unique(songs)))
-  warning("There are duplicate song titles! This might corrupt the lyrics dataset.")
-
 base_url <- "http://artists.letssingit.com/melodifestivalen-olcr2/lyrics"
 
 
@@ -46,14 +41,25 @@ song_links <- song_nodes %>%
   html_attr("href")
 
 song_link_db <- data_frame(
-  song_names,
-  song_artists,
-  song_links
+  song_name = song_names,
+  song_artist = song_artists,
+  song_link = song_links
 )
 
+# Cleanup
+rm(song_nodes, song_names, song_artists, song_links, song_list, base_url, webpage)
 
 # Merge to data frame
 save(song_link_db, file = "data/song_link_db.Rdata")
 
 ## Get lyrics
+participants <- participants %>%
+  mutate(song_name = tolower(song))
+
+# Warn if there are duplicate titles
+if (length(songs) != length(unique(songs)))
+  warning("There are duplicate song titles! This might corrupt the lyrics dataset.")
+
+participants %>%
+  left_join(song_link_db)
 
