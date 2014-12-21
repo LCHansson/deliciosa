@@ -124,7 +124,7 @@
     "round": 2, 
     "song": "Make Me No 1", 
     "startposition": "2", 
-    "textmusic": "Henrik Wikström(tm), & Ingela "Pling" Forsman(tm), & Amir Aly(tm), & Maria Haukaas Mittet(tm)", 
+    "textmusic": "Henrik Wikström(tm), & Ingela \"Pling\" Forsman(tm), & Amir Aly(tm), & Maria Haukaas Mittet(tm)", 
     "textmusic_wikilinks": "sv.wikipedia.org/wiki/Henrik_Wikstr%C3%B6m & sv.wikipedia.org/wiki/Ingela_Forsman & sv.wikipedia.org/wiki/Amir_Aly & sv.wikipedia.org/wiki/Maria_Mittet", 
     "votes_round1": "19 559", 
     "votes_round2": "35 490"
@@ -414,6 +414,6 @@
     "textmusic_wikilinks": "sv.wikipedia.org/wiki/Thomas_G:son & sv.wikipedia.org/wiki/Peter_Bostr%C3%B6m & sv.wikipedia.org/wiki/Ulrik_Munther", 
     "votes_round1": "70 204", 
     "votes_round2": "58 160"
-},
+}
 
 ]
