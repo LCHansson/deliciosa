@@ -3,6 +3,8 @@
 library(stringr)
 library(rvest)
 library(jsonlite)
+library(textcat)
+library(dplyr)
 
 ## Scraping lyric links data ----
 lyrics_url <- "http://artists.letssingit.com/melodifestivalen-olcr2/lyrics"
@@ -46,7 +48,7 @@ song_link_db <- data_frame(
 )
 
 # Individual title love
-song_link_db[song_link_db$song_name %in% c(
+old_titles <- c(
   "bye,bye",
   "clubbin'",
   "déjà vu",
@@ -64,7 +66,8 @@ song_link_db[song_link_db$song_name %in% c(
   "tick  tock",
   "t.k.o. (knock you out)",
   "trendy discotheque"
-),]$song_name <- c(
+)
+new_titles <- c(
   "bye, bye",
   "clubbin",
   "deja vû",
@@ -83,12 +86,18 @@ song_link_db[song_link_db$song_name %in% c(
   "tko (knock you out)",
   "trendy discoteque"
 )
+names(old_titles) <- new_titles; rm(new_titles)
+for (i in 1:nrow(song_link_db)) {
+  if (song_link_db$song_name[i] %in% old_titles) {
+    song_link_db[i,]$song_name <- names(old_titles)[which(old_titles %in% song_link_db$song_name[i])]
+  }
+}
 
 song_link_db[song_link_db$song_artist == "Maria Benhajji",]$song_artist <- "Maria BenHajji"
 
 # Merge to data frame
 save(song_link_db, file = "data/song_link_db.Rdata")
-
+# load("data/song_link_db.Rdata")
 
 ## Merge with participants data set ----
 source("data//load_participants.R")
@@ -97,7 +106,8 @@ source("data//load_participants.R")
 participants <- participants %>%
   mutate(song_name = tolower(str_replace_all(song, "[\\?\\!]$", ""))) %>%
   group_by(song_name) %>%
-  mutate(num_duplicates = n())
+  mutate(num_duplicates = n()) %>%
+  ungroup()
 
 # Warn if there are duplicate titles
 if (length(participants$song_name) != length(unique(participants$song_name))) {
@@ -111,16 +121,19 @@ participants <- participants %>%
   # the artist info from both data sets is the same
   filter(
     num_duplicates == 1 |
-      num_duplicates == 2 & artist == song_artist
+      (num_duplicates == 2 & artist == song_artist) |
+      (num_duplicates == 2 & artist %in% c("Sheida", "Janet Leon") )
   ) %>%
   # Remove intermediary dupicate marker
-  select(-num_duplicates)
+  select(-num_duplicates) %>%
+  # Remove weird outlier observation
+  filter(!(artist == "Uno & Irma" & song_artist == "Sweets 'n' Chips"))
 
 # Intermediate save
 save(participants, file="data/participants_with_links.Rdata")
 
 # Cleanup
-rm(song_nodes, song_names, song_artists, song_links, song_list, base_url, webpage)
+rm(song_nodes, song_names, song_artists, song_links, song_list, webpage)
 
 ## Scrape lyrics data ----
 session <- html_session(lyrics_url)
