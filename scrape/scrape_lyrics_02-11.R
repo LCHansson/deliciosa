@@ -124,8 +124,13 @@ session <- html_session(lyrics_url)
 
 lyrics_list <- list()
 
-for (lyriclink in participants$song_link) {
+for (rownum in 1:nrow(participants)) {
+  song <- participants[rownum, "song_name"][[1]]
+  artist <- participants[rownum, "artist"][[1]]
+  lyriclink <- participants[rownum, "song_link"][[1]]
+  
   if(is.na(lyriclink)) next()
+  
   cat("Following link: ", lyriclink, "...\n")
   lyricpage <- session %>% jump_to(lyriclink) %>% html()
   
@@ -133,9 +138,9 @@ for (lyriclink in participants$song_link) {
     html_node("#lyrics") %>%
     html_text()
   
-  lyrics_list[[length(lyrics_list) + 1]] <- list(
-    artist = participants$artist,
-    song = participants$song_name,
+  lyrics_list[[rownum]] <- list(
+    artist = artist,
+    song = song,
     lyrics = lyrics
   )
 }
