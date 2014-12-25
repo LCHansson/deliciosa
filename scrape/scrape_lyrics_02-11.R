@@ -145,6 +145,9 @@ for (rownum in 1:nrow(participants_02_11)) {
     html_node("#lyrics") %>%
     html_text()
   
+  if (str_detect(lyrics, "^Unfortunately we don't have the lyrics of this song"))
+    lyrics <- "null"
+  
   participants_02_11$lyrics[[rownum]] <- lyrics
   
   lyrics_list[[rownum]] <- list(
