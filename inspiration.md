@@ -38,4 +38,4 @@
 
 ## More input
 - [A beginners' guide to collecting Twitter data](http://knightlab.northwestern.edu/2014/03/15/a-beginners-guide-to-collecting-twitter-data-and-a-bit-of-web-scraping/)
-
+- Twitter's own [R package for breakout detection in time series](http://blog.revolutionanalytics.com/2014/11/breakout-detection.html)
