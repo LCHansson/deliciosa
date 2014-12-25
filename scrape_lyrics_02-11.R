@@ -120,11 +120,24 @@ save(participants, file="data/participants_with_links.Rdata")
 rm(song_nodes, song_names, song_artists, song_links, song_list, base_url, webpage)
 
 ## Scrape lyrics data ----
-test_data <- participants[1,]
+session <- html_session(lyrics_url)
+
+lyrics_list <- list()
 
 for (lyriclink in participants$song_link) {
+  if(is.na(lyriclink)) next()
   cat("Following link: ", lyriclink, "...\n")
-  lyricpage <- follow_link(lyriclink)
+  lyricpage <- session %>% jump_to(lyriclink) %>% html()
+  
+  lyrics <- lyricpage %>%
+    html_node("#lyrics") %>%
+    html_text()
+  
+  lyrics_list[[length(lyrics_list) + 1]] <- list(
+    artist = participants$artist,
+    song = participants$song_name,
+    lyrics = lyrics
+  )
 }
 
 ## TODO:
