@@ -123,11 +123,12 @@ rm(song_nodes, song_names, song_artists, song_links, song_list, base_url, webpag
 session <- html_session(lyrics_url)
 
 lyrics_list <- list()
+participants_02_11 <- participants %>% filter(year < 2012)
 
-for (rownum in 1:nrow(participants)) {
-  song <- participants[rownum, "song_name"][[1]]
-  artist <- participants[rownum, "artist"][[1]]
-  lyriclink <- participants[rownum, "song_link"][[1]]
+for (rownum in 1:nrow(participants_02_11)) {
+  song <- participants_02_11[rownum, "song_name"][[1]]
+  artist <- participants_02_11[rownum, "artist"][[1]]
+  lyriclink <- participants_02_11[rownum, "song_link"][[1]]
   
   if(is.na(lyriclink)) next()
   
@@ -138,15 +139,21 @@ for (rownum in 1:nrow(participants)) {
     html_node("#lyrics") %>%
     html_text()
   
+  participants_02_11$lyrics[[rownum]] <- lyrics
+  
   lyrics_list[[rownum]] <- list(
     artist = artist,
     song = song,
+    url = lyriclink,
     lyrics = lyrics
   )
 }
 
 lyrics_json <- jsonlite::toJSON(lyrics_list, pretty = TRUE)
-cat(lyrics_json, file = "lyrics.db")
+cat(lyrics_json, file = "data/lyrics.json")
+
+participant_db_json <- jsonlite::toJSON(participants_02_11, pretty = TRUE)
+cat(participant_db_json, file = "data/participants_with_lyrics.json")
 
 ## TODO:
 #' - Define JSON structure with the entire dataset
