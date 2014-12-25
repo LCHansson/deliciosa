@@ -2,7 +2,7 @@
 ## Libraries ----
 library(stringr)
 library(rvest)
-
+library(jsonlite)
 
 ## Scraping lyric links data ----
 lyrics_url <- "http://artists.letssingit.com/melodifestivalen-olcr2/lyrics"
@@ -140,8 +140,10 @@ for (lyriclink in participants$song_link) {
   )
 }
 
+lyrics_json <- jsonlite::toJSON(lyrics_list, pretty = TRUE)
+cat(lyrics_json, file = "lyrics.db")
+
 ## TODO:
-#' - Follow links to song titles and scrape text
 #' - Define JSON structure with the entire dataset
 #' - Save everything to a mongoDB database
-#'  
+
