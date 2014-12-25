@@ -114,6 +114,7 @@ participants <- participants %>%
       num_duplicates == 2 & artist == song_artist
   )
 
+save(participants, file="data/participants_with_links.Rdata")
 
 # Cleanup
 rm(song_nodes, song_names, song_artists, song_links, song_list, base_url, webpage)
