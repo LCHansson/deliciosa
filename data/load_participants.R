@@ -44,3 +44,4 @@ participants <- rbind_all(participants_list)
 
 # Cleanup
 rm(participants_df, finals_df, year, participants_list)
+
