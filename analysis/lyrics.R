@@ -11,7 +11,7 @@ library(jsonlite)
 lyrics_data <- jsonlite::fromJSON(readLines("data/participants_with_lyrics.json"))
 
 
-#  Wordcloud
+## Wordclouds ----
 mello_lyrics_corpus <- Corpus(VectorSource(
   lyrics_data[lyrics_data$language == "english",]$lyrics
 ))
@@ -29,3 +29,14 @@ mello_lyrics_corpus <- tm_map(mello_lyrics_corpus, removePunctuation, mc.cores=1
 mello_lyrics_corpus <- tm_map(mello_lyrics_corpus, function(x)removeWords(x,stopwords("swedish")), mc.cores=1)
 
 wordcloud(mello_lyrics_corpus, max.words = 250, colors = brewer.pal(8, "RdBu"), scale = c(3, .5))
+
+term.matrix <- TermDocumentMatrix(mello_lyrics_corpus)
+term.matrix <- as.matrix(term.matrix)
+comparison.cloud(term.matrix,max.words=40,random.order=FALSE)
+commonality.cloud(term.matrix,max.words=40,random.order=FALSE, max.words = 100)
+
+## Tables and other numeric stuff ----
+
+
+
+
