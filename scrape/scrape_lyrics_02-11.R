@@ -112,8 +112,11 @@ participants <- participants %>%
   filter(
     num_duplicates == 1 |
       num_duplicates == 2 & artist == song_artist
-  )
+  ) %>%
+  # Remove intermediary dupicate marker
+  select(-num_duplicates)
 
+# Intermediate save
 save(participants, file="data/participants_with_links.Rdata")
 
 # Cleanup
@@ -123,8 +126,11 @@ rm(song_nodes, song_names, song_artists, song_links, song_list, base_url, webpag
 session <- html_session(lyrics_url)
 
 lyrics_list <- list()
+
+# Only look at lyrics between 2002 and 2011 (Lumi will do the latest years)
 participants_02_11 <- participants %>% filter(year < 2012)
 
+# Find lyrics
 for (rownum in 1:nrow(participants_02_11)) {
   song <- participants_02_11[rownum, "song_name"][[1]]
   artist <- participants_02_11[rownum, "artist"][[1]]
@@ -149,9 +155,31 @@ for (rownum in 1:nrow(participants_02_11)) {
   )
 }
 
+## Analytical munging ----
+# Guess language
+# Analysis
+# table(textcat(participants_02_11$lyrics))
+# for (i in which(!textcat(participants_02_11$lyrics) %in% c("swedish", "english", "scots"))) {
+# # for (i in 1:30) {
+#   rows <- paste((str_split(participants_02_11$lyrics[i], "\n")[[1]][1:4]), collapse="\n")
+#   lang <- textcat(participants_02_11$lyrics[i])
+#   
+#   cat("Text:\n", rows, "\n")
+#   cat("Language: ", lang, "\n")
+#   cat("*******************************\n\n")
+# }
+# table(participants_02_11$language)
+
+
+# Guess language and save it to the participants data set
+participants_02_11$language <- textcat(participants_02_11$lyrics)
+participants_02_11[participants_02_11$language %in% c("scots", "middle_frisian", "french"),]$language <- "english"
+
+# Save the lyrics separately
 lyrics_json <- jsonlite::toJSON(lyrics_list, pretty = TRUE)
 cat(lyrics_json, file = "data/lyrics.json")
 
+# Save lyrics paired together with the songs
 participant_db_json <- jsonlite::toJSON(participants_02_11, pretty = TRUE)
 cat(participant_db_json, file = "data/participants_with_lyrics.json")
 
