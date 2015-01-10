@@ -69,5 +69,5 @@ for (i in 1:nrow(mello_data)) {
 ## Write files ----
 save(metadatalist, file="metadatalist.Rdata")
 
-json <- toJSON(metadatalist)
+json <- toJSON(metadatalist, pretty = TRUE)
 cat(json, file = "data/echonest_metadata.json")
