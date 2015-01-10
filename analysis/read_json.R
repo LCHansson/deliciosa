@@ -5,11 +5,11 @@ library("jsonlite")
 library("textcat")
 
 ## Get raw JSON ----
-con <- file.path("./data/all_participants_all_data_2002_2014.json")
+con <- file.path("./data/all_participants_all_data_2002_2014_2.json")
 data <- fromJSON(con)
 
 ## Convert to data.frame ----
-mello_data <- rbind_all(data)
+mello_data <- as_data_frame(data)
 
 ## Munge ---
 ## Language for songs without language in the database (i.e. 2012-2014 songs)
