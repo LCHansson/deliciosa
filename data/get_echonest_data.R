@@ -65,9 +65,9 @@ for (i in 1:nrow(mello_data)) {
   Sys.sleep(3.5)
 }
 
-save(metadatalist, file="metadatalist_tmp.Rdata")
 
-# meta_df <- bind_rows(metadatalist)
-# save(meta_df, file="meta_df.Rdata")
+## Write files ----
+save(metadatalist, file="metadatalist.Rdata")
 
-
+json <- toJSON(metadatalist)
+cat(json, file = "data/echonest_metadata.json")
