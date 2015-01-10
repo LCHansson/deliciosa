@@ -39,3 +39,23 @@
 ## More input
 - [A beginners' guide to collecting Twitter data](http://knightlab.northwestern.edu/2014/03/15/a-beginners-guide-to-collecting-twitter-data-and-a-bit-of-web-scraping/)
 - Twitter's own [R package for breakout detection in time series](http://blog.revolutionanalytics.com/2014/11/breakout-detection.html)
+
+## TODO 
+Lyrics:
+- languages, words (frequencies, unique words), sentiment, topics ---> Love
+- title
+- King James type of analysis ---> Lumi 
+
+
+General:
+- prepare data for prediction ---> Lumi
+
+
+Artists:
+- locations - get data from Wikipedia? ---> Lumi  
+- gender 
+- genre 
+- age 
+- how many times they've been to mello
+- collaboration with song writers
+
