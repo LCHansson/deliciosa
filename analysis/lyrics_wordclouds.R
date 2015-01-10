@@ -8,7 +8,9 @@ library(lubridate)
 library(jsonlite)
 
 ## Read JSON ----
-lyrics_data <- jsonlite::fromJSON(readLines("data/participants_with_lyrics.json"))
+lyrics_data <- jsonlite::fromJSON(readLines("data/participants_with_lyrics.json")) %>%
+  tbl_df() %>%
+  select(-artist_wikilink, -votes_round1, -votes_round2, -song_link, -textmusic_wikilinks)
 
 
 ## Wordclouds ----
@@ -36,7 +38,5 @@ comparison.cloud(term.matrix,max.words=40,random.order=FALSE)
 commonality.cloud(term.matrix,max.words=40,random.order=FALSE, max.words = 100)
 
 ## Tables and other numeric stuff ----
-
-
 
 
