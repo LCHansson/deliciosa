@@ -20,5 +20,5 @@ mello_data[
   ]
 mello_data[language == "scots", language := "english"]
 # Inspect results
-mello_data$language %>% table
+# mello_data$language %>% table
 
