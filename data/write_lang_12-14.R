@@ -11,4 +11,5 @@ lyrics_1214 <- mello_data %>%
   select(id, language)
 
 ## Write ----
-json <- jsonlite::stream_out(lyrics_1214, con=file("data/languages_1214.json"))
+json <- toJSON(lyrics_1214, pretty = TRUE)
+cat(json, file = "data/language_1214.json")
