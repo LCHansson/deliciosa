@@ -1,0 +1,84 @@
+```{r, warning=FALSE, message=FALSE, echo=FALSE, results='hide'}
+library("knitr")
+opts_knit$set(root.dir = "~/dev/deliciosa")
+opts_knit$set()
+setwd("~/dev/deliciosa")
+source("./analysis/read_json.R")
+source("./analysis/lovecount.R")
+```
+
+<style>
+.thumbnail {
+    float: left;
+    width: 110px;
+    height: 90px;
+    margin: 5px;
+}
+
+.text_line {
+    clear: both;
+    margin-bottom: 2px;
+}
+</style>
+
+<center>
+## Texterna
+
+#### Vad sjunger Mello om?
+</center>
+
+Du kanske redan har gissat det. I ett enda ord: _kärlek_. Inget annat ämne är så populärt i Melodifestivalen som att sjunga om något man verkligen älskar. Oavsett om det handlar om [bitterljuva minnen](http://www.svt.se/melodifestivalen/bidragsbibeln-yohio-heartbreak-hotel), kärleken till [förlorade bröder](http://www.svt.se/melodifestivalen/artister/2014/linus-svenning/bidragsbibeln-linus-svenning-broder) eller helt enkelt [rå passion](http://www.svt.se/melodifestivalen/artister/2014/eko/bidragsbibeln-eko-red). Bara för att ta några exempel.
+
+Ironiskt nog kunde man kanske tro att kärlekstemat också skulle innebära att texterna i Mello generellt är glada, men Mello-artisterna tycks vara minst lika förtjusta i att sjunga om smärta som om hjärta.
+
+
+```{r, echo = FALSE, fig.width=4, out.extra='style="float:left"'}
+ggplot(mello_data, aes(x = factor(1), fill = factor(lovebins))) +
+  #   geom_bar(color = "#17ACD2", size = 1, width = 1) +
+  geom_bar(size = 1, width = 1) +
+  coord_polar(theta = "y", direction = -1) +
+  scale_fill_manual(values = c("#FFFFFF", "lightgrey", "#17ACD2")) +
+  theme_tufte() +
+  theme(axis.text.x = element_blank(), axis.ticks.x = element_blank(),
+        axis.text.y = element_blank(), axis.ticks.y = element_blank(),
+        axis.title.y = element_blank(), axis.title.x = element_blank(),
+        legend.position = "bottom")
+```
+
+```{r, echo=FALSE, fig.width=4, out.extra='style="float:right"'}
+ggplot(mello_data, aes(x = factor(1), fill = factor(lovebins))) +
+  geom_bar(color = "#17ACD2", size = 1, width = 1) +
+  coord_polar(theta = "y", direction = -1) +
+  scale_fill_manual(values = c("#FFFFFF", "lightgrey", "#17ACD2")) +
+  theme_tufte() +
+  theme(axis.text.x = element_blank(), axis.ticks.x = element_blank(),
+        axis.text.y = element_blank(), axis.ticks.y = element_blank(),
+        axis.title.y = element_blank(), axis.title.x = element_blank(),
+        legend.position = "none")
+
+```
+
+<p class="text_line"></p>
+
+
+<h3> Test </h3>
+
+Bla bla
+
+- Andra populära textämnen
+- Frekvenstabeller på kärleksord
+- Låtar efter kärleks-count
+
+
+```{r, echo = FALSE}
+ggplot(plotdata_texter, aes(x = wordfac, y = freqs)) +
+  geom_bar(stat = "identity", fill = "#17ACD2") +
+  geom_text(aes(y = freqs, label = words, hjust = -0.2)) +
+  coord_flip() +
+  theme_tufte() +
+  theme(axis.text.y = element_blank(), axis.ticks.y = element_blank(),
+        axis.title.y = element_blank(), axis.title.x = element_blank()) +
+  ylim(0, 900)
+
+```
+
