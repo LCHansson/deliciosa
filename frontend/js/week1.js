@@ -62,8 +62,68 @@ function buildLovePiechart(data) {
 
 }
 
+function buildWordFrequencyChart(data) {
+    var freqData = [];
+    var catData = [];
 
-// pie chart about love songs
+    for (var i=0; i<data.length; ++i) {
+        freqData.push(data[i].freqs);
+        catData.push(data[i].words);
+    }
+    console.log(catData);
+    console.log(freqData);
+
+
+    var barChart = new Highcharts.Chart(
+        {
+            plotOptions: {
+                bar: {
+                    pointPadding: 0.0
+                }
+            },
+            chart: {
+                renderTo: 'wordFreqChart',
+                type: 'bar'
+            },
+            title: {
+                text: 'Word frequencies'
+            },
+            xAxis: {
+                categories: catData,
+                title: {
+                    text: null
+                }
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                  text: null
+                },
+                labels: {
+                    overflow: 'justify'
+                }
+            },
+            plotOptions: {
+                bar: {
+                    dataLabels: {
+                        enabled: true
+                    }
+                }
+            },
+
+            credits: {
+                enabled: false
+            },
+            series: [{
+                name: 'Year 1800',
+                color: '#17ACD2',
+                data: freqData
+            }]
+        }
+    );
+
+}
+
 function week1() {
     $.ajax({
         type: "GET",
@@ -71,6 +131,18 @@ function week1() {
         dataType: "json",
         success: function(response) {
             buildLovePiechart(response);
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+            console.log("Error!" + textStatus   );
+        }
+    });
+
+    $.ajax({
+        type: "GET",
+        url: "./data/texterna_wordfreqs.json",
+        dataType: "json",
+        success: function(response) {
+            buildWordFrequencyChart(response);
         },
         error: function(jqXHR, textStatus, errorThrown) {
             console.log("Error!" + textStatus   );
