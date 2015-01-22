@@ -60,7 +60,7 @@ function buildLovePiechart(data) {
     });
 
     $(pieChart.series[0].data).each(function(i, slice){
-        $(slice.legendSymbol.element).attr('stroke-width','1');
+        $(slice.legendSymbol.element).attr('stroke-width','3');
         $(slice.legendSymbol.element).attr('stroke',  '#00bbdb');
 
     });
