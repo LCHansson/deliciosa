@@ -17,7 +17,7 @@ function buildLovePiechart(data) {
         },
         plotOptions: {
             pie: {
-                borderColor: '#17ACD2',
+                borderColor: '#00bbdb',
                 borderWidth: 4,
                 allowPointSelect: true,
                 cursor: 'pointer',
@@ -33,15 +33,15 @@ function buildLovePiechart(data) {
                 data: [
                     {
                         y: data["Kärlek"][0],
-                        color: '#17ACD2',
+                        color: '#00bbdb',
                         name: 'Kärlek'
                     },
                     {
                         y: data["Lite kärlek"][0],
                         color: {
                             pattern: 'images/pattern-blue.png',
-                            width: 40,
-                            height: 40
+                            width: 32,
+                            height: 32
                         },
                         name: 'Lite kärlek'
                     },
@@ -50,13 +50,18 @@ function buildLovePiechart(data) {
                         color: '#FFFFFF',
                         name: 'Ingen kärlek',
                     }
-                ]
+                ],
+                states: {
+                    hover: {
+                        enabled: false
+                    }
+                }
             }]
     });
 
     $(pieChart.series[0].data).each(function(i, slice){
         $(slice.legendSymbol.element).attr('stroke-width','1');
-        $(slice.legendSymbol.element).attr('stroke',  '#17ACD2');
+        $(slice.legendSymbol.element).attr('stroke',  '#00bbdb');
 
     });
 
