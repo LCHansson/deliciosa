@@ -1,0 +1,147 @@
+```{r, warning=FALSE, message=FALSE, echo=FALSE, results='hide'}
+library("knitr")
+opts_knit$set(root.dir = "~/dev/deliciosa")
+opts_knit$set()
+setwd("~/dev/deliciosa")
+source("./analysis/read_json.R")
+source("./analysis/lovecount.R")
+```
+
+<style>
+.thumbnail {
+    float: left;
+    width: 110px;
+    height: 90px;
+    margin: 5px;
+}
+
+.text_line {
+    clear: both;
+    margin-bottom: 2px;
+}
+</style>
+
+<center>
+## Texterna
+
+#### Vad sjunger Mello om?
+</center>
+
+Du kanske redan har gissat det. I ett enda ord: _kärlek_. Inget annat ämne är så populärt i Melodifestivalen som att sjunga om något man verkligen älskar. Oavsett om det handlar om [bitterljuva minnen](http://www.svt.se/melodifestivalen/bidragsbibeln-yohio-heartbreak-hotel), kärleken till [förlorade bröder](http://www.svt.se/melodifestivalen/artister/2014/linus-svenning/bidragsbibeln-linus-svenning-broder) eller helt enkelt [rå passion](http://www.svt.se/melodifestivalen/artister/2014/eko/bidragsbibeln-eko-red). Bara för att ta några exempel.
+
+Ironiskt nog kunde man kanske tro att kärlekstemat också skulle innebära att texterna i Mello generellt är glada, men Mello-artisterna tycks vara minst lika förtjusta i att sjunga om smärta som om hjärta.
+
+
+```{r, echo = FALSE, fig.width=4, out.extra='style="float:left"'}
+ggplot(mello_data, aes(x = factor(1), fill = factor(lovebins))) +
+  #   geom_bar(color = "#17ACD2", size = 1, width = 1) +
+  geom_bar(size = 1, width = 1) +
+  coord_polar(theta = "y", direction = -1) +
+  scale_fill_manual(values = c("#FFFFFF", "lightgrey", "#17ACD2")) +
+  theme_tufte() +
+  theme(axis.text.x = element_blank(), axis.ticks.x = element_blank(),
+        axis.text.y = element_blank(), axis.ticks.y = element_blank(),
+        axis.title.y = element_blank(), axis.title.x = element_blank(),
+        legend.position = "bottom")
+```
+
+```{r, echo=FALSE, fig.width=4, out.extra='style="float:right"'}
+ggplot(mello_data, aes(x = factor(1), fill = factor(lovebins))) +
+  geom_bar(color = "#17ACD2", size = 1, width = 1) +
+  coord_polar(theta = "y", direction = -1) +
+  scale_fill_manual(values = c("#FFFFFF", "lightgrey", "#17ACD2")) +
+  theme_tufte() +
+  theme(axis.text.x = element_blank(), axis.ticks.x = element_blank(),
+        axis.text.y = element_blank(), axis.ticks.y = element_blank(),
+        axis.title.y = element_blank(), axis.title.x = element_blank(),
+        legend.position = "none")
+
+```
+
+<p class="text_line"></p>
+
+
+<h2> Så räknade vi </h2>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+<h3> Kärleksorden </h3>
+
+För att räkna ut vilka låtar som har kärlek som tema gick vi igenom samtliga texter och räknade hur många ord som är relaterade till "kärlek". Enbart ord som är _direkt_ kopplade till kärlekstemat (och sex!) togs med, alltså inte t.ex. "tycker om", "vänskap" eller "passion". Vi valde dock att ta med orden "hjärta" och "heart", eftersom dessa så gott som alltid är metaforer för kärlek.
+
+```{r, echo = FALSE, out.extra='style="align:center"'}
+ggplot(plotdata_texter, aes(x = wordfac, y = freqs)) +
+  geom_bar(stat = "identity", fill = "#17ACD2") +
+  geom_text(aes(y = freqs, label = words, hjust = -0.2)) +
+  coord_flip() +
+  theme_tufte() +
+  theme(axis.text.y = element_blank(), axis.ticks.y = element_blank(),
+        axis.title.y = element_blank(), axis.title.x = element_blank()) +
+  ylim(0, 900)
+
+```
+<p class="text_line"></p>
+<center><small>_Alla kärleksord 2002-2014, från vanligast till ovanligast_</small></center>
+
+Vissa låtar innehåller bara 1-3 kärleksord, och i de fallen gjorde vi bedömningen att låten inte handlar _primärt_ om kärlek. Det är de som har etiketten "lite kärlek" i grafiken ovan.
+
+<hr/>
+
+<h3> Andra populära ämnesområden </h3>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+```{r, echo=FALSE, fig.width=3, out.extra='style="float:left"'}
+ggplot(mello_data, aes(x = factor(1), fill = factor(lovebins))) +
+  geom_bar(color = "#17ACD2", size = 1, width = 1) +
+  coord_polar(theta = "y", direction = -1) +
+  scale_fill_manual(values = c("#FFFFFF", "lightgrey", "#17ACD2")) +
+  theme_tufte() +
+  theme(axis.text.x = element_blank(), axis.ticks.x = element_blank(),
+        axis.text.y = element_blank(), axis.ticks.y = element_blank(),
+        axis.title.y = element_blank(), axis.title.x = element_blank(),
+        legend.position = "none") +
+  labs(title = "Årstider")
+
+```
+
+```{r, echo=FALSE, fig.width=3, out.extra='style="float:left"'}
+ggplot(mello_data, aes(x = factor(1), fill = factor(lovebins))) +
+  geom_bar(color = "#17ACD2", size = 1, width = 1) +
+  coord_polar(theta = "y", direction = -1) +
+  scale_fill_manual(values = c("#FFFFFF", "lightgrey", "#17ACD2")) +
+  theme_tufte() +
+  theme(axis.text.x = element_blank(), axis.ticks.x = element_blank(),
+        axis.text.y = element_blank(), axis.ticks.y = element_blank(),
+        axis.title.y = element_blank(), axis.title.x = element_blank(),
+        legend.position = "none") +
+  labs(title = "Äventyr")
+
+```
+
+```{r, echo=FALSE, fig.width=3, out.extra='style="float:left"'}
+ggplot(mello_data, aes(x = factor(1), fill = factor(lovebins))) +
+  geom_bar(color = "#17ACD2", size = 1, width = 1) +
+  coord_polar(theta = "y", direction = -1) +
+  scale_fill_manual(values = c("#FFFFFF", "lightgrey", "#17ACD2")) +
+  theme_tufte() +
+  theme(axis.text.x = element_blank(), axis.ticks.x = element_blank(),
+        axis.text.y = element_blank(), axis.ticks.y = element_blank(),
+        axis.title.y = element_blank(), axis.title.x = element_blank(),
+        legend.position = "none") +
+  labs(title = "Ödemarken")
+
+```
+
+<p class="text_line"></p>
+
+
+<h3> Vilka låtar handlar mest om kärlek? </h3>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+```{r, results='asis', echo=FALSE, fig.width=5}
+kable(mello_data %>% select(artist, song_name, year, lovecount) %>% arrange(desc(lovecount)),
+      caption = "Antal karleksord per text, 2002-2014",
+      col.names = c("Artist", "Låt", "År", "Antal kärleksord"))
+```
