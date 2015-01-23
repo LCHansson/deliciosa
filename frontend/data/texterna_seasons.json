@@ -1,4 +1,10 @@
-{
-	"Inte tid" : 340,
-	"Tid" : 76
-}
+[
+ {
+   "name": "Tid",
+   "freq": 76
+  },
+  {
+    "name": "Ej tid",
+    "freq": 340
+  }
+]

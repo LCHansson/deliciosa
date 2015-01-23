@@ -1,4 +1,10 @@
-{
-	"Ej religion" : 350,
-	"Religion" : 66
-}
+[
+  {
+    "name": "Religion",
+    "freq": 66
+  },
+  {
+    "name": "Ej Religion",
+    "freq": 350
+  }
+]
