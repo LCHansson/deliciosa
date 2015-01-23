@@ -84,3 +84,11 @@ ul.nav-pills>li>a {
 .nav-pills.blue>li>a:hover {
     color: #00bbdb;
 }
+
+.alignTextRight {
+    text-align: right;
+}
+
+.alignTextLeft {
+    text-align: left;
+}
