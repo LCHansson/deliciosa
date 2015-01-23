@@ -12,12 +12,12 @@ ggplot(mello_data, aes(x = factor(1), fill = factor(lovebins))) +
         axis.text.y = element_blank(), axis.ticks.y = element_blank(),
         axis.title.y = element_blank(), axis.title.x = element_blank(),
         legend.position = "bottom")
-ggsave("posts/texterna_loveprops.png")
+ggsave("posts/texterna/texterna_loveprops.png")
 
-json <- toJSON(
-  as.list(table(mello_data$lovebins)),
-  pretty = TRUE)
-cat(json, file = "posts/texterna_loveprops.json")
+json <- RJSONIO::toJSON(
+  sapply(table(mello_data$lovebins), function(x) return(list(x))),
+  pretty = TRUE) %>% cat
+cat(json, file = "frontend/data/texterna_loveprops.json")
 
 
 
@@ -29,11 +29,76 @@ ggplot(plotdata_texter, aes(x = wordfac, y = freqs)) +
   theme(axis.text.y = element_blank(), axis.ticks.y = element_blank(),
         axis.title.y = element_blank(), axis.title.x = element_blank()) +
   ylim(0, 900)
-ggsave("posts/texterna_wordfreqs.png")
+ggsave("posts/texterna/texterna_wordfreqs.png")
 
 json <- toJSON(
   plotdata_texter %>% select(-wordfac),
   pretty = TRUE)
-cat(json, file = "posts/texterna_wordfreqs.json")
+cat(json, file = "posts/texterna/texterna_wordfreqs.json")
+
+
+json <- toJSON(
+  lyrdata %>% select(-lyrics_cleaned),
+  pretty = TRUE)
+cat(json, file = "frontend/data/texterna_peppodepp.json")
+
+
+ggplot(mello_data, aes(x = factor(1), fill = factor(seasonbins))) +
+  geom_bar(color = "#17ACD2", size = 1, width = 1) +
+  coord_polar(theta = "y", direction = -1) +
+  scale_fill_manual(values = c("#FFFFFF", "#17ACD2")) +
+  theme_tufte() +
+  theme(axis.text.x = element_blank(), axis.ticks.x = element_blank(),
+        axis.text.y = element_blank(), axis.ticks.y = element_blank(),
+        axis.title.y = element_blank(), axis.title.x = element_blank(),
+        legend.position = "none") +
+  labs(title = "Årstider")
+ggsave("posts/texterna_arstider.png")
+
+json <- RJSONIO::toJSON(
+  sapply(table(mello_data$seasonbins), function(x) return(list(x))),
+  pretty = TRUE
+)
+cat(json, file = "frontend/data/texterna_seasons.json")
+
+
+ggplot(mello_data, aes(x = factor(1), fill = factor(godbins))) +
+  geom_bar(color = "#17ACD2", size = 1, width = 1) +
+  coord_polar(theta = "y", direction = -1) +
+  scale_fill_manual(values = c("#FFFFFF", "#17ACD2")) +
+  theme_tufte() +
+  theme(axis.text.x = element_blank(), axis.ticks.x = element_blank(),
+        axis.text.y = element_blank(), axis.ticks.y = element_blank(),
+        axis.title.y = element_blank(), axis.title.x = element_blank(),
+        legend.position = "none") +
+  labs(title = "Religion")
+ggsave("posts/texterna/texterna_religion.png")
+
+json <- RJSONIO::toJSON(
+  sapply(table(mello_data$godbins), function(x) return(list(x))),
+  pretty = TRUE
+) %>% cat
+cat(json, file = "frontend/data/texterna_religion.json")
+
+
+ggplot(mello_data, aes(x = factor(1), fill = factor(partybins))) +
+  geom_bar(color = "#17ACD2", size = 1, width = 1) +
+  coord_polar(theta = "y", direction = -1) +
+  scale_fill_manual(values = c("#FFFFFF", "#17ACD2")) +
+  theme_tufte() +
+  theme(axis.text.x = element_blank(), axis.ticks.x = element_blank(),
+        axis.text.y = element_blank(), axis.ticks.y = element_blank(),
+        axis.title.y = element_blank(), axis.title.x = element_blank(),
+        legend.position = "none") +
+  labs(title = "Fest och äventyr")
+ggsave("posts/texterna/texterna_aventyr.png")
+
+json <- RJSONIO::toJSON(
+  sapply(table(mello_data$partybins), function(x) return(list(x))),
+  pretty = TRUE
+) %>% cat
+cat(json, file = "frontend/data/texterna_aventyr.json")
+
+
 
 
