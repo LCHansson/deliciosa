@@ -100,5 +100,8 @@ json <- RJSONIO::toJSON(
 cat(json, file = "frontend/data/texterna_aventyr.json")
 
 
-
-
+json <- jsonlite::toJSON(
+  mello_data %>% select(artist, song_name, year, lovecount) %>% arrange(desc(lovecount)) %>% filter(lovecount > -1),
+  pretty = TRUE
+) %>% cat
+cat(json, file = "frontend/data/texterna_lovecounts.json")
