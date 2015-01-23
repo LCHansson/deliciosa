@@ -15,7 +15,7 @@ ggplot(mello_data, aes(x = factor(1), fill = factor(lovebins))) +
 ggsave("posts/texterna/texterna_loveprops.png")
 
 json <- RJSONIO::toJSON(
-  sapply(table(mello_data$lovebins), function(x) return(list(x))),
+  table(mello_data$lovebins) %>% as.data.frame() %>% dplyr::rename(name = Var1, freq = Freq),
   pretty = TRUE)
 cat(json, file = "frontend/data/texterna_loveprops.json")
 
@@ -56,7 +56,7 @@ ggplot(mello_data, aes(x = factor(1), fill = factor(seasonbins))) +
 ggsave("posts/texterna_arstider.png")
 
 json <- RJSONIO::toJSON(
-  sapply(table(mello_data$seasonbins), function(x) return(list(x))),
+  table(mello_data$seasonbins) %>% as.data.frame() %>% dplyr::rename(name = Var1, freq = Freq),
   pretty = TRUE
 )
 cat(json, file = "frontend/data/texterna_seasons.json")
@@ -75,7 +75,7 @@ ggplot(mello_data, aes(x = factor(1), fill = factor(godbins))) +
 ggsave("posts/texterna/texterna_religion.png")
 
 json <- RJSONIO::toJSON(
-  sapply(table(mello_data$godbins), function(x) return(list(x))),
+  table(mello_data$godbins) %>% as.data.frame() %>% dplyr::rename(name = Var1, freq = Freq),
   pretty = TRUE
 ) %>% cat
 cat(json, file = "frontend/data/texterna_religion.json")
@@ -93,15 +93,15 @@ ggplot(mello_data, aes(x = factor(1), fill = factor(partybins))) +
   labs(title = "Fest och äventyr")
 ggsave("posts/texterna/texterna_aventyr.png")
 
-json <- RJSONIO::toJSON(
-  sapply(table(mello_data$partybins), function(x) return(list(x))),
+json <- jsonlite::toJSON(
+  table(mello_data$partybins) %>% as.data.frame() %>% dplyr::rename(name = Var1, freq = Freq),
   pretty = TRUE
-) %>% cat
+)
 cat(json, file = "frontend/data/texterna_aventyr.json")
 
 
 json <- jsonlite::toJSON(
-  mello_data %>% select(artist, song_name, year, lovecount) %>% arrange(desc(lovecount)) %>% filter(lovecount > -1),
+  mello_data %>% select(artist, song_name, year, lovecount, lyrics_cleaned, id) %>% arrange(desc(lovecount)) %>% filter(lovecount > -1),
   pretty = TRUE
-) %>% cat
+)
 cat(json, file = "frontend/data/texterna_lovecounts.json")
