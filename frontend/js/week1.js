@@ -1,4 +1,21 @@
 function buildLovePiechart(data) {
+
+    var formattedData = [];
+    var colPat = {
+        pattern: 'images/pattern-blue.png',
+        width: 5,
+        height: 5
+    };
+    var colors = ['#00bbdb', colPat, '#FFFFFF'];
+
+    for (var i=0; i<data.length; ++i) {
+        formattedData.push({
+            color: colors[i],
+            name: data[i].name,
+            y: data[i].freq
+        });
+    }
+
     var pieChart = new Highcharts.Chart({
         credits: {
             enabled: false
@@ -30,27 +47,7 @@ function buildLovePiechart(data) {
         series: [
             {
                 type: 'pie',
-                data: [
-                    {
-                        y: data["Kärlek"][0],
-                        color: '#00bbdb',
-                        name: 'Kärlek'
-                    },
-                    {
-                        y: data["Lite kärlek"][0],
-                        color: {
-                            pattern: 'images/pattern-blue.png',
-                            width: 5,
-                            height: 5
-                        },
-                        name: 'Lite kärlek'
-                    },
-                    {
-                        y: data["Inte kärlek"][0],
-                        color: '#FFFFFF',
-                        name: 'Ingen kärlek',
-                    }
-                ],
+                data: formattedData,
                 states: {
                     hover: {
                         enabled: true,
