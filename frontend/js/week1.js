@@ -245,8 +245,7 @@ function buildSmallPiechart(data, title, whereToRender) {
 
 }
 
-function week1() {
-    // make the first pie chart
+function lovePie(){
     $.ajax({
         type: "GET",
         url: "./data/texterna_loveprops.json",
@@ -258,6 +257,10 @@ function week1() {
             console.log("Error!" + textStatus   );
         }
     });
+}
+
+function week1() {
+
 
     // make the bar chart
     $.ajax({
