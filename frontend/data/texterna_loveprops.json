@@ -1,11 +1,5 @@
 {
-  "Inte kärlek": [
-    12
-  ],
-  "Lite kärlek": [
-    97
-  ],
-  "Kärlek": [
-    307
-  ]
+	"Inte kärlek" : 88,
+	"Lite kärlek" : 85,
+	"Kärlek" : 218
 }
