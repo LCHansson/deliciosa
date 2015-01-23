@@ -17,6 +17,9 @@ function buildLovePiechart(data) {
     }
 
     var pieChart = new Highcharts.Chart({
+        exporting: {
+            enabled: false
+        },
         credits: {
             enabled: false
         },
@@ -91,6 +94,9 @@ function buildWordFrequencyChart(data) {
 
     var barChart = new Highcharts.Chart(
         {
+            exporting: {
+                enabled: false
+            },
             chart: {
                 renderTo: 'wordFreqChart',
                 type: 'bar'
@@ -186,6 +192,9 @@ function buildSmallPiechart(data, title, whereToRender) {
     }
 
     var pieChart = new Highcharts.Chart({
+        exporting: {
+            enabled: false
+        },
         credits: {
             enabled: false
         },
