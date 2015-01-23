@@ -1,11 +1,18 @@
 .pieChart {
-    height: 80%;
-    margin: 0 auto;
+    width: 30%;
     float: left;
+    margin-bottom: 3cm;
 }
 
 .barChart {
-    height: 80%;
-    margin: 0 auto;
-    float: left;
+    width: 50%;
+    margin-bottom: 3cm;
+    float: right;
 }
+
+.smallPieChart {
+    width: 33%;
+    float: left;
+    margin-bottom: 3cm;
+}
+
