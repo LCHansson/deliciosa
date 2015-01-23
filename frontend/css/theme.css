@@ -1,0 +1,86 @@
+.yellow {
+    color: #fdba00;
+}
+
+.orange {
+    color: #ed4d17;
+}
+
+.cerise {
+    color: #e70074;
+}
+
+.purple {
+    color: #6e328f;
+}
+
+.blue {
+    color: #00bbdb;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'League Spartan';
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+.title h1 {
+    font-size: 3em;
+    /*display: none;*/
+
+
+}
+
+.container {
+    width: 750px;
+}
+
+.title {
+    margin-top: 5em;
+    font-family: 'League Spartan';
+}
+
+.title p {
+    margin-top: 2em;
+
+}
+
+.row {
+    margin-top: 2em;
+}
+
+
+div.border {
+    margin-top: 2.5em;
+    border-bottom: solid 1px lightgray;
+}
+
+ul.nav-pills>li {
+    width: 50%;
+    border: 2px solid black;
+    margin: 0;
+}
+
+.nav-pills.blue>li {
+    border-color: #00bbdb;
+}
+
+ul.nav-pills>li>a {
+    border-radius: 0;
+}
+
+.nav-pills.blue>li.active>a,
+.nav-pills.blue>li.active.blue>a:focus,
+.nav-pills.blue>li.active>a:hover {
+    background-color: #00bbdb;
+    color: #ffffff;
+}
+
+.nav-pills.blue>li>a,
+.nav-pills.blue>li.blue>a:focus,
+.nav-pills.blue>li>a:hover {
+    color: #00bbdb;
+}
