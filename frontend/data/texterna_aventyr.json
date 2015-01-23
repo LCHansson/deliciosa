@@ -1,10 +1,10 @@
 [
-  {
-    "name": "BLA",
-    "freq": 50
-  },
-  {
-    "name": "BLABLA",
-    "freq": 366
-  }
+    {
+        "name": "Ingen fest",
+        "freq": 264
+    },
+    {
+        "name": "Fest!",
+        "freq": 152
+    }
 ]
