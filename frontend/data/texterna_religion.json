@@ -1,10 +1,10 @@
 [
   {
-    "name": "Religion",
-    "freq": 66
-  },
-  {
     "name": "Ej Religion",
     "freq": 350
+  },
+  {
+    "name": "Religion",
+    "freq": 66
   }
 ]
