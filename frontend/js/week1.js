@@ -245,26 +245,7 @@ function buildSmallPiechart(data, title, whereToRender) {
 
 }
 
-function buildTableLoveCounts(data, whereToRender) {
-    var table = "<table class='tableLoveWords'><thead class='tableLoveWordsHeader'>";
-    table += "<tr>"
-    table += "<th align='left'>Artist</th><th align='left'>Låt</th><th align='right'>År</th>";
-    table += "<th align='right'>Antal kärleksord</th>";
-    table += "</tr></thead><tbody>";
-
-    var rows = ""
-    for (var i=0; i<data.length; ++i) {
-
-    }
-    table += "</tbody></table>";
-
-    $("#" + whereToRender).append(table);
-    console.log("Added in " + whereToRender);
-}
-
-function week1() {
-
-    // make the first pie chart
+function lovePie(){
     $.ajax({
         type: "POST",
         url: "./data/texterna_loveprops.json",
@@ -276,7 +257,9 @@ function week1() {
             console.log("Error!" + textStatus   );
         }
     });
+}
 
+function week1() {
     // make the bar chart
     $.ajax({
         type: "POST",
