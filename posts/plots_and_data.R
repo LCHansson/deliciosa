@@ -16,7 +16,7 @@ ggsave("posts/texterna/texterna_loveprops.png")
 
 json <- RJSONIO::toJSON(
   sapply(table(mello_data$lovebins), function(x) return(list(x))),
-  pretty = TRUE) %>% cat
+  pretty = TRUE)
 cat(json, file = "frontend/data/texterna_loveprops.json")
 
 
