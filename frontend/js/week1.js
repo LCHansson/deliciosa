@@ -245,10 +245,28 @@ function buildSmallPiechart(data, title, whereToRender) {
 
 }
 
+function buildTableLoveCounts(data, whereToRender) {
+    var table = "<table class='tableLoveWords'><thead class='tableLoveWordsHeader'>";
+    table += "<tr>"
+    table += "<th align='left'>Artist</th><th align='left'>Låt</th><th align='right'>År</th>";
+    table += "<th align='right'>Antal kärleksord</th>";
+    table += "</tr></thead><tbody>";
+
+    var rows = ""
+    for (var i=0; i<data.length; ++i) {
+
+    }
+    table += "</tbody></table>";
+
+    $("#" + whereToRender).append(table);
+    console.log("Added in " + whereToRender);
+}
+
 function week1() {
+
     // make the first pie chart
     $.ajax({
-        type: "GET",
+        type: "POST",
         url: "./data/texterna_loveprops.json",
         dataType: "json",
         success: function(response) {
@@ -261,7 +279,7 @@ function week1() {
 
     // make the bar chart
     $.ajax({
-        type: "GET",
+        type: "POST",
         url: "./data/texterna_wordfreqs.json",
         dataType: "json",
         success: function(response) {
@@ -291,11 +309,10 @@ function week1() {
         }
     ]
 
-
     for (var i=0; i<smallPies.length; i++) {
         (function (i) {
             $.ajax({
-                type: "GET",
+                type: "POST",
                 url: smallPies[i].filename,
                 dataType: "json",
                 success: function (response) {
@@ -307,4 +324,71 @@ function week1() {
             });
         })(i);
     }
+
+    // the table
+    var myTable = $('#loveWordsTable').dataTable( {
+        order: [[ 3, "desc" ]],
+        info: false,
+        searching: false,
+        bProcessing: true,
+        sAjaxSource: "./data/texterna_lovecounts_datatables.json",
+        aoColumns: [
+
+            {
+                sClass: "alignTextLeft",
+                aTargets: [ 0 ],
+                bSortable: true,
+                sTitle: "Artist"
+            },
+            {
+                sClass: "alignTextLeft",
+                aTargets: [ 1 ],
+                bSortable: true,
+                sTitle:"Låt"
+                /*,
+
+                "mRender": function (url, type, full) {
+                    console.log(full);
+                    return '<a href="' + url + '">' + url + '</a>';
+                }*/
+            },
+            {
+                sClass: "alignTextLeft",
+                aTargets: [ 2 ],
+                bSortable: true,
+                sTitle:"År"
+
+            },
+            {
+                sClass: "alignTextRight",
+                aTargets: [ 3 ],
+                bSortable: true,
+                aDataSort: [3, 2],
+                sTitle:"Antal kärleksord"
+            },
+            {
+                aTargets: [ 4 ],
+                bVisible: false
+            }
+        ]
+        /*
+        "fnInitComplete": function (){
+            $(myTable.fnGetNodes()).click(function (){
+                console.log("Blae");
+            });
+        }*/
+    } );
+
+    /*
+    $.ajax({
+        type: "GET",
+        url: "./data/texterna_lovecounts.json",
+        dataType: "json",
+        success: function(response) {
+            buildTableLoveCounts(response, "loveWordsDiv");
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+            console.log("Error!" + textStatus   );
+        }
+    });*/
 }

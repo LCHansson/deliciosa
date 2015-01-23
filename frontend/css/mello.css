@@ -1,3 +1,9 @@
+body {
+    width: 90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 .pieChart {
     width: 30%;
     float: left;
@@ -16,3 +22,18 @@
     margin-bottom: 3cm;
 }
 
+.tableDiv {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 3cm;
+    clear: both;
+    align-content: center;
+}
+
+.alignTextRight {
+    text-align: right;
+}
+
+.alignTextLeft {
+    text-align: left;
+}
