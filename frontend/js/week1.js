@@ -10,7 +10,7 @@ function buildLovePiechart(data) {
             plotShadow: false
         },
         title: {
-            text: 'Vas sjunger de om?'
+            text: 'Vad sjunger de om?'
         },
         tooltip: {
             pointFormat: '<b>{point.percentage:.1f}%</b>'
@@ -84,20 +84,16 @@ function buildWordFrequencyChart(data) {
     var catData = [];
 
     for (var i=0; i<data.length; ++i) {
-        freqData.push(data[i].freqs);
-        catData.push(data[i].words);
-    }
-    console.log(catData);
-    console.log(freqData);
+        freqData.push({
+            name: data[i].words,
+            y: data[i].freqs
+        });
+        catData.push(data[i].words)
+     }
 
 
     var barChart = new Highcharts.Chart(
         {
-            plotOptions: {
-                bar: {
-                    pointPadding: 0.0
-                }
-            },
             chart: {
                 renderTo: 'wordFreqChart',
                 type: 'bar'
@@ -105,11 +101,23 @@ function buildWordFrequencyChart(data) {
             title: {
                 text: 'Word frequencies'
             },
+            legend: {
+                enabled:false
+            },
             xAxis: {
                 categories: catData,
                 title: {
                     text: null
-                }
+                },
+                gridLineWidth: 0.0,
+                labels: {
+                    formatter: function() {
+                        return "";
+                    }
+                },
+                tickLength: 0,
+                tickWidth: 0,
+                lineWidth: 0
             },
             yAxis: {
                 min: 0,
@@ -118,22 +126,39 @@ function buildWordFrequencyChart(data) {
                 },
                 labels: {
                     overflow: 'justify'
-                }
+                },
+                gridLineWidth: 0.0,
+                tickLength: 5,
+                tickWidth: 2.0,
+                tickColor: '#000000',
+                tickInterval: 250,
+
+                endOnTick: false
             },
+
             plotOptions: {
                 bar: {
+                    groupPadding: 0,
+                    pointPadding: 0,
                     dataLabels: {
-                        enabled: true
+
+                        enabled: true,
+                        formatter: function() {
+                            return this.point.name;
+                        }
                     }
                 }
+            },
+
+            tooltip: {
+                pointFormat: '<b>{point.y}</b>'
             },
 
             credits: {
                 enabled: false
             },
             series: [{
-                name: 'Year 1800',
-                color: '#17ACD2',
+                color: '#00bbdb',
                 data: freqData
             }]
         }

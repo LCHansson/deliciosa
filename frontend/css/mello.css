@@ -1,12 +1,10 @@
 .pieChart {
-    min-width: 40%;
-    height: 40%;
+    height: 80%;
     margin: 0 auto;
     float: left;
 }
 
 .barChart {
-    min-width: 60%;
     height: 80%;
     margin: 0 auto;
     float: left;
