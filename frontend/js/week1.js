@@ -297,6 +297,7 @@ function formatSongTexts(text, loveWords) {
 }
 
 function buildCountsTable(loveWords) {
+
     $('#textModalID').on('show.bs.modal', function (event) {
         var button = $(event.relatedTarget); // Button that triggered the modal
         var filename = "data/lyrics/" + button.attr('id') + "_lyrics.json";
@@ -305,6 +306,7 @@ function buildCountsTable(loveWords) {
         modal.find('.modal-body').html("");
 
         $.ajax({
+            async: false,
             type: "POST",
             url: filename,
             dataType: "json",
@@ -312,9 +314,11 @@ function buildCountsTable(loveWords) {
                 var text = formatSongTexts(response.lyrics, loveWords);
                 modal.find('.modal-title').html(response.song_name);
                 modal.find('.modal-body').html(text);
+                return false;
             },
             error: function(jqXHR, textStatus, errorThrown) {
                 console.log("Error!" + textStatus   );
+                return true;
             }
         });
 
