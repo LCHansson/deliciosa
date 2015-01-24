@@ -1,14 +1,14 @@
 [
-  {
-    "name": "Kärlek",
-    "freq" : 218
-  },
-  {
-    "name": "Lite kärlek",
-    "freq": 85
-  },
-  {
-    "name": "Ingen kärlek",
-    "freq": 88
-  }
+    {
+        "name": "Inte kärlek",
+        "freq": 112
+    },
+    {
+        "name": "Lite kärlek",
+        "freq": 83
+    },
+    {
+        "name": "Kärlek",
+        "freq": 196
+    }
 ]
