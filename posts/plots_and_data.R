@@ -2,7 +2,7 @@ library("jsonlite")
 library("ggplot2")
 
 ## Texterna ----
-ggplot(mello_data %>% filter(lovebins != "<NA>"), aes(x = factor(1), fill = factor(lovebins))) +
+ggplot(mello_data %>% filter(as.character(lovebins) != "<NA>"), aes(x = factor(1), fill = factor(lovebins))) +
   #   geom_bar(color = "#17ACD2", size = 1, width = 1) +
   geom_bar(size = 1, width = 1) +
   coord_polar(theta = "y", direction = -1) +
