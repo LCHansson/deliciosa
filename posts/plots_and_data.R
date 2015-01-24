@@ -105,3 +105,19 @@ json <- jsonlite::toJSON(
   pretty = TRUE
 )
 cat(json, file = "frontend/data/texterna_lovecounts.json")
+
+
+love_words <- lovewords[!lovewords %in% c("natten", "snälla", "skilja", "själ", "soul")]
+json <- jsonlite::toJSON(
+  list(love_words = love_words),
+  pretty = TRUE
+)
+cat(json, file = "frontend/data/love_words.json")
+rm(love_words)
+
+
+
+
+
+
+
