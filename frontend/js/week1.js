@@ -301,6 +301,8 @@ function buildCountsTable(loveWords) {
         var button = $(event.relatedTarget); // Button that triggered the modal
         var filename = "data/lyrics/" + button.attr('id') + "_lyrics.json";
         var modal = $(this);
+        modal.find('.modal-title').html("");
+        modal.find('.modal-body').html("");
 
         $.ajax({
             type: "POST",
