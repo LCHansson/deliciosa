@@ -25,16 +25,19 @@ lovewords <- c(
   "älska", "älskar", "älskad", "älskade", "älskas", "älskare", "älskarinna", "älskat",
   "älskling", "älskade", "älskats",
   "förälska", "förälskad", "förälskar", "förälskas", "förälskats",
-  "love", "lover", "loved", "loves", "loving", "lovers",
+  "love", "lover", "loved", "loves", "loving", "lovers", "lovin",
   "romance", "romans", "romantik", "romantisk", "romantic", "romancer",
   "kvinnokarl", "womanizer", "womaniser", "casanova",
-  "amour", "amourous", "amore", "amor", "taime",
+  "amour", "amourous", "amore", "amor", "taime", "quiero",
   "hjärta", "heart", "hearts", "hjärtat", "hjärtan", "hjärtats",
   "sex", "sexual", "sexuell", "sexig", "sexy",
-  # "själ", "soul",
+  "själ", "soul",
   # Udda ord
   # "natten", "snälla", "varann", "varandra", "skilja",
-  "baby","kiss"
+  "baby","kiss", "skiljas", "kyss", "kyssa", "kyssas", "kyssas", "kysser", "kyssar",
+  "attraktion", "addraherad", "attrahera", "attraction", "attraheras",
+  "kissing", "kisses",
+  "begär", "passionerad"
 )
 
 lovecount <- sapply(lyrics, function(lyric) {
@@ -42,6 +45,35 @@ lovecount <- sapply(lyrics, function(lyric) {
   matches <- match(lyric[[1]], lovewords) %>% is.na() %>% `!`() %>% sum()
   matches
 })
+
+lovephrases <- c(
+  "i miss you",
+  "bara du",
+  "jag och du",
+  "du och jag",
+  "ha dig",
+  "förlorat dig",
+  "här för dig",
+  "me and you",
+  "jag tar dig",
+  "ger dig allt",
+  "right for each other",
+  "lämna dig",
+  "hålla dig",
+  "wants you",
+  "minnen utav dig"
+)
+
+for (i in 1:nrow(mello_data)) {
+  if (lovecount[i] != 0) {
+    phrase_matches <- 0
+  } else {
+    phrase_matches <- str_count(mello_data$lyrics_cleaned[i] %>% tolower(), lovephrases) %>% sum()
+  }
+  lovecount[i] <- lovecount[i] + phrase_matches
+}
+
+lovewords_phrases <- append(lovewords, lovephrases)
 
 lovefreqs <- sapply(lyrics, function(lyric) {
   loveindexes <- match(lyric[[1]], lovewords)
@@ -54,6 +86,8 @@ lovefreqs <- lovefreqs[!is.na(lovefreqs)]
 lovecount[order(lovecount)]
 
 lovebins <- cut(lovecount, breaks = c(-Inf, -1, 0, 2, Inf), labels = c(NA, "Inte kärlek", "Lite kärlek", "Kärlek"))
+table(lovebins)
+table(lovebins)[2]/(416-25)
 
 mello_data$lovecount <- lovecount
 mello_data$lovebins <- lovebins
