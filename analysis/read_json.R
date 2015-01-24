@@ -21,4 +21,12 @@ mello_data[
 mello_data[language == "scots", language := "english"]
 # Inspect results
 # mello_data$language %>% table
+mello_data <- tbl_df(mello_data)
 
+## Get winners/losers JSON ----
+losers <- file.path("data/losers.json")
+winners <- file.path("data/winners.json")
+wl <- bind_rows(
+  fromJSON(losers) %>% mutate(winner = 0),
+  fromJSON(winners) %>% mutate(winner = 1)
+)
