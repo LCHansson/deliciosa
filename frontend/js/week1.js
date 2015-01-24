@@ -289,7 +289,7 @@ function formatSongTexts(text, loveWords) {
     var formattedText = text.replace(/\n/g, " <br> ");
     var regexp;
     for (var i=0; i<loveWords.length; ++i) {
-        regexp = new RegExp(loveWords[i] +"(\\W+)", "ig");
+        regexp = new RegExp(loveWords[i] +"(\\W+|$)", "ig");
         formattedText = formattedText.replace(regexp, "<span style='color: #00bbdb'>" + loveWords[i] + "</span>$1");
     }
 
