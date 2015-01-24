@@ -16,11 +16,19 @@
         "words": "älskar"
     },
     {
+        "freqs": 3,
+        "words": "älskat"
+    },
+    {
         "freqs": 5,
         "words": "älskling"
     },
     {
-        "freqs": 66,
+        "freqs": 41,
+        "words": "amor"
+    },
+    {
+        "freqs": 25,
         "words": "amore"
     },
     {
@@ -28,16 +36,40 @@
         "words": "amour"
     },
     {
+        "freqs": 329,
+        "words": "baby"
+    },
+    {
+        "freqs": 6,
+        "words": "casanova"
+    },
+    {
         "freqs": 1,
         "words": "förälskad"
     },
     {
-        "freqs": 356,
+        "freqs": 211,
         "words": "heart"
+    },
+    {
+        "freqs": 26,
+        "words": "hearts"
     },
     {
         "freqs": 55,
         "words": "hjärta"
+    },
+    {
+        "freqs": 9,
+        "words": "hjärtan"
+    },
+    {
+        "freqs": 24,
+        "words": "hjärtat"
+    },
+    {
+        "freqs": 7,
+        "words": "hjärtats"
     },
     {
         "freqs": 4,
@@ -52,6 +84,38 @@
         "words": "kärlek"
     },
     {
+        "freqs": 42,
+        "words": "kärleken"
+    },
+    {
+        "freqs": 7,
+        "words": "kärlekens"
+    },
+    {
+        "freqs": 4,
+        "words": "kärleks"
+    },
+    {
+        "freqs": 1,
+        "words": "kärleksambassad"
+    },
+    {
+        "freqs": 1,
+        "words": "kärleksfull"
+    },
+    {
+        "freqs": 1,
+        "words": "kärleksfullt"
+    },
+    {
+        "freqs": 26,
+        "words": "kiss"
+    },
+    {
+        "freqs": 2,
+        "words": "kvinnokarl"
+    },
+    {
         "freqs": 828,
         "words": "love"
     },
@@ -64,12 +128,24 @@
         "words": "lover"
     },
     {
+        "freqs": 4,
+        "words": "lovers"
+    },
+    {
         "freqs": 5,
         "words": "loves"
     },
     {
-        "freqs": 21,
+        "freqs": 9,
         "words": "loving"
+    },
+    {
+        "freqs": 2,
+        "words": "romance"
+    },
+    {
+        "freqs": 1,
+        "words": "romans"
     },
     {
         "freqs": 1,
