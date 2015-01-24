@@ -36,8 +36,20 @@
         "words": "amour"
     },
     {
+        "freqs": 7,
+        "words": "attraction"
+    },
+    {
+        "freqs": 3,
+        "words": "attraheras"
+    },
+    {
         "freqs": 329,
         "words": "baby"
+    },
+    {
+        "freqs": 26,
+        "words": "begär"
     },
     {
         "freqs": 6,
@@ -113,7 +125,27 @@
     },
     {
         "freqs": 2,
+        "words": "kisses"
+    },
+    {
+        "freqs": 2,
         "words": "kvinnokarl"
+    },
+    {
+        "freqs": 10,
+        "words": "kyss"
+    },
+    {
+        "freqs": 7,
+        "words": "kyssa"
+    },
+    {
+        "freqs": 6,
+        "words": "kyssar"
+    },
+    {
+        "freqs": 1,
+        "words": "kysser"
     },
     {
         "freqs": 828,
@@ -136,8 +168,20 @@
         "words": "loves"
     },
     {
+        "freqs": 12,
+        "words": "lovin"
+    },
+    {
         "freqs": 9,
         "words": "loving"
+    },
+    {
+        "freqs": 4,
+        "words": "passionerad"
+    },
+    {
+        "freqs": 2,
+        "words": "quiero"
     },
     {
         "freqs": 2,
@@ -158,5 +202,17 @@
     {
         "freqs": 4,
         "words": "sexy"
+    },
+    {
+        "freqs": 14,
+        "words": "själ"
+    },
+    {
+        "freqs": 1,
+        "words": "skiljas"
+    },
+    {
+        "freqs": 31,
+        "words": "soul"
     }
 ]
