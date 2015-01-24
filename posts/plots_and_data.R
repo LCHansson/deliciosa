@@ -14,8 +14,8 @@ ggplot(mello_data, aes(x = factor(1), fill = factor(lovebins))) +
         legend.position = "bottom")
 ggsave("posts/texterna/texterna_loveprops.png")
 
-json <- RJSONIO::toJSON(
-  table(mello_data$lovebins) %>% as.data.frame() %>% dplyr::rename(name = Var1, freq = Freq),
+json <- jsonlite::toJSON(
+  table(mello_data$lovebins) %>% as.data.frame() %>% filter(1:n() > 1) %>% dplyr::rename(name = Var1, freq = Freq),
   pretty = TRUE)
 cat(json, file = "frontend/data/texterna_loveprops.json")
 
@@ -34,7 +34,7 @@ ggsave("posts/texterna/texterna_wordfreqs.png")
 json <- toJSON(
   plotdata_texter %>% select(-wordfac),
   pretty = TRUE)
-cat(json, file = "posts/texterna/texterna_wordfreqs.json")
+cat(json, file = "frontend/data/texterna_wordfreqs.json")
 
 
 json <- toJSON(
@@ -55,7 +55,7 @@ ggplot(mello_data, aes(x = factor(1), fill = factor(seasonbins))) +
   labs(title = "Årstider")
 ggsave("posts/texterna_arstider.png")
 
-json <- RJSONIO::toJSON(
+json <- jsonlite::toJSON(
   table(mello_data$seasonbins) %>% as.data.frame() %>% dplyr::rename(name = Var1, freq = Freq),
   pretty = TRUE
 )
@@ -74,10 +74,10 @@ ggplot(mello_data, aes(x = factor(1), fill = factor(godbins))) +
   labs(title = "Religion")
 ggsave("posts/texterna/texterna_religion.png")
 
-json <- RJSONIO::toJSON(
+json <- jsonlite::toJSON(
   table(mello_data$godbins) %>% as.data.frame() %>% dplyr::rename(name = Var1, freq = Freq),
   pretty = TRUE
-) %>% cat
+)
 cat(json, file = "frontend/data/texterna_religion.json")
 
 
@@ -107,13 +107,11 @@ json <- jsonlite::toJSON(
 cat(json, file = "frontend/data/texterna_lovecounts.json")
 
 
-love_words <- lovewords[!lovewords %in% c("natten", "snälla", "skilja", "själ", "soul")]
 json <- jsonlite::toJSON(
-  list(love_words = love_words),
+  list(love_words = lovewords_phrases),
   pretty = TRUE
 )
 cat(json, file = "frontend/data/love_words.json")
-rm(love_words)
 
 
 
