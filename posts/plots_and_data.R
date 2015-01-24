@@ -2,7 +2,7 @@ library("jsonlite")
 library("ggplot2")
 
 ## Texterna ----
-ggplot(mello_data, aes(x = factor(1), fill = factor(lovebins))) +
+ggplot(mello_data %>% filter(lovebins != "<NA>"), aes(x = factor(1), fill = factor(lovebins))) +
   #   geom_bar(color = "#17ACD2", size = 1, width = 1) +
   geom_bar(size = 1, width = 1) +
   coord_polar(theta = "y", direction = -1) +
@@ -53,7 +53,7 @@ ggplot(mello_data, aes(x = factor(1), fill = factor(seasonbins))) +
         axis.title.y = element_blank(), axis.title.x = element_blank(),
         legend.position = "none") +
   labs(title = "Årstider")
-ggsave("posts/texterna_arstider.png")
+ggsave("posts/texterna/texterna_arstider.png")
 
 json <- jsonlite::toJSON(
   table(mello_data$seasonbins) %>% as.data.frame() %>% dplyr::rename(name = Var1, freq = Freq),
