@@ -268,17 +268,124 @@ function week1(){
     });
 }
 
+function onClickSongName(element) {
+    var filename = "data/lyrics/" + $(element).attr('id') + "_lyrics.json";
+    console.log("You clicked " + $(element).attr('id'));
+    $.ajax({
+        type: "POST",
+        url: filename,
+        dataType: "json",
+        success: function(response) {
+            var text = response.lyrics;
+            $("#textModalID").html(text);
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+            console.log("Error!" + textStatus   );
+        }
+    });
+}
+
+function formatSongTexts(text, loveWords) {
+    var formattedText = text.replace(/\n/g, " <br> ");
+    var regexp;
+    for (var i=0; i<loveWords.length; ++i) {
+        regexp = new RegExp(loveWords[i], "ig");
+        formattedText = formattedText.replace(regexp, "<span style='color: #00bbdb'>" + loveWords[i] + "</span>");
+    }
+
+    return formattedText;
+}
+
+function buildCountsTable(loveWords) {
+    $('#textModalID').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget); // Button that triggered the modal
+        var filename = "data/lyrics/" + button.attr('id') + "_lyrics.json";
+        var modal = $(this);
+
+        $.ajax({
+            type: "POST",
+            url: filename,
+            dataType: "json",
+            success: function(response) {
+                var text = formatSongTexts(response.lyrics, loveWords);
+                modal.find('.modal-title').html(response.song_name);
+                modal.find('.modal-body').html(text);
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+                console.log("Error!" + textStatus   );
+            }
+        });
+
+    });
+
+    // the table
+    var myTable = $('#loveWordsTable').dataTable({
+        order: [[3, "desc"]],
+        info: false,
+        searching: false,
+        bProcessing: true,
+        sAjaxSource: "./data/texterna_lovecounts_datatables.json",
+        aoColumns: [
+
+            {
+                sClass: "alignTextLeft",
+                aTargets: [0],
+                bSortable: true,
+                sTitle: "Artist"
+            },
+            {
+                sClass: "alignTextLeft",
+                aTargets: [1],
+                bSortable: true,
+                sTitle: "Låt",
+                "mRender": function (songName, type, row) {
+                    var button = '<button type="button" class="btn btn-link" data-toggle="modal" ';
+                    button += 'data-target="#textModalID" id="' + row[4] + '" ';
+                    button += '>';
+                    button += songName + '</button>';
+
+                    return button;
+                }
+            },
+            {
+                sClass: "alignTextLeft",
+                aTargets: [2],
+                bSortable: true,
+                sTitle: "År"
+            },
+            {
+                sClass: "alignTextRight",
+                aTargets: [3],
+                bSortable: true,
+                aDataSort: [3, 2],
+                sTitle: "Antal kärleksord"
+            },
+            {
+                aTargets: [4],
+                bVisible: false
+            }
+        ]
+        /*
+         "fnInitComplete": function (){
+         $(myTable.fnGetNodes()).click(function (){
+         console.log("Bla");
+         });
+         }*/
+    });
+
+}
+
 function week1Collapse() {
     // make the bar chart
     $.ajax({
         type: "POST",
         url: "./data/texterna_wordfreqs.json",
         dataType: "json",
-        success: function(response) {
+        success: function (response) {
             buildWordFrequencyChart(response);
         },
-        error: function(jqXHR, textStatus, errorThrown) {
-            console.log("Error!" + textStatus   );
+        error: function (jqXHR, textStatus, errorThrown) {
+            console.log("Error!" + textStatus);
         }
     });
 
@@ -301,7 +408,7 @@ function week1Collapse() {
         }
     ]
 
-    for (var i=0; i<smallPies.length; i++) {
+    for (var i = 0; i < smallPies.length; i++) {
         (function (i) {
             $.ajax({
                 type: "POST",
@@ -317,70 +424,19 @@ function week1Collapse() {
         })(i);
     }
 
-    // the table
-    var myTable = $('#loveWordsTable').dataTable( {
-        order: [[ 3, "desc" ]],
-        info: false,
-        searching: false,
-        bProcessing: true,
-        sAjaxSource: "./data/texterna_lovecounts_datatables.json",
-        aoColumns: [
-
-            {
-                sClass: "alignTextLeft",
-                aTargets: [ 0 ],
-                bSortable: true,
-                sTitle: "Artist"
-            },
-            {
-                sClass: "alignTextLeft",
-                aTargets: [ 1 ],
-                bSortable: true,
-                sTitle:"Låt"
-                /*,
-
-                "mRender": function (url, type, full) {
-                    console.log(full);
-                    return '<a href="' + url + '">' + url + '</a>';
-                }*/
-            },
-            {
-                sClass: "alignTextLeft",
-                aTargets: [ 2 ],
-                bSortable: true,
-                sTitle:"År"
-
-            },
-            {
-                sClass: "alignTextRight",
-                aTargets: [ 3 ],
-                bSortable: true,
-                aDataSort: [3, 2],
-                sTitle:"Antal kärleksord"
-            },
-            {
-                aTargets: [ 4 ],
-                bVisible: false
-            }
-        ]
-        /*
-        "fnInitComplete": function (){
-            $(myTable.fnGetNodes()).click(function (){
-                console.log("Blae");
-            });
-        }*/
-    } );
-
-    /*
+    // build the table
     $.ajax({
-        type: "GET",
-        url: "./data/texterna_lovecounts.json",
+        type: "POST",
+        url: "./data/love_words.json",
         dataType: "json",
-        success: function(response) {
-            buildTableLoveCounts(response, "loveWordsDiv");
+        success: function (response) {
+            buildCountsTable(response.love_words);
         },
-        error: function(jqXHR, textStatus, errorThrown) {
-            console.log("Error!" + textStatus   );
+        error: function (jqXHR, textStatus, errorThrown) {
+            console.log("Error!" + textStatus);
         }
-    });*/
-}
+    });
+
+
+
+ }
