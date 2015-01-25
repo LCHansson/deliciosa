@@ -32,13 +32,16 @@ function buildLovePiechart(data) {
         title: {
             text: 'Vad sjunger de om?'
         },
+        subtitle: {
+            text: 'Andel låtar som handlade om kärlek 2002-2014'
+        },
         tooltip: {
             pointFormat: '<b>{point.percentage:.1f}%</b>'
         },
-        legend: {y: -20},
-        credits: {
-            text: "Baserad på en analys av 391 sångtexter från Melodifestivalen 2002-2014"
-        },
+        //legend: {y: -20},
+        //credits: {
+        //    text: "Baserad på en analys av 391 sångtexter från Melodifestivalen 2002-2014"
+        //},
         plotOptions: {
             pie: {
                 borderColor: '#00bbdb',
@@ -114,6 +117,9 @@ function buildWordFrequencyChart(data) {
             },
             title: {
                 text: 'Vanligaste kärleksorden'
+            },
+            subtitle: {
+                text: 'Antal gånger ett kärleksord nämndes 2002-2014'
             },
             legend: {
                 enabled:false
