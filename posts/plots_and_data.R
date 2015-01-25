@@ -46,6 +46,14 @@ json <- toJSON(
   pretty = TRUE)
 cat(json, file = "frontend/data/texterna_peppodepp.json")
 
+sentiments_dt <- lyrdata %>%
+  mutate(title = paste0(artist, ": ", song_name, " (", year, ")")) %>%
+  select(title, sent_score, id) %>%
+  arrange(desc(sent_score)) %>%
+  as.matrix()
+json <- jsonlite::toJSON(list(data = sentiments_dt), pretty = TRUE)
+cat(json, file = "frontend/data/texterna_peppodepp_dt.json")
+
 
 ggplot(mello_data, aes(x = factor(1), fill = factor(seasonbins))) +
   geom_bar(color = "#17ACD2", size = 1, width = 1) +
