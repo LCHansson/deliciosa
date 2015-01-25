@@ -295,61 +295,9 @@ function week1(){
             console.log("Error!" + textStatus   );
         }
     });
-<<<<<<< HEAD
+
     week1Collapse();
-=======
 
-    // make the bar chart
-    $.ajax({
-        type: "POST",
-        url: "./data/texterna_wordfreqs.json",
-        dataType: "json",
-        success: function (response) {
-            buildWordFrequencyChart(response);
-        },
-        error: function (jqXHR, textStatus, errorThrown) {
-            console.log("Error!" + textStatus);
-        }
-    });
-
-    // make the other pie charts
-    smallPies = [
-        {
-            filename: "./data/texterna_seasons.json",
-            title: "Tid",
-            subtitle: 'Säsonger, månader och veckodagar',
-            divToRender: "seasonPieChart"
-        },
-        {
-            filename: "./data/texterna_aventyr.json",
-            title: "Äventyr",
-            subtitle: 'Längtan, fest och upplevelser',
-            divToRender: "adventurePieChart"
-        },
-        {
-            filename: "./data/texterna_religion.json",
-            title: "Religion",
-            subtitle: 'Gudar, himmel och helvete',
-            divToRender: "religionPieChart"
-        }
-    ]
-
-    for (var i = 0; i < smallPies.length; i++) {
-        (function (i) {
-            $.ajax({
-                type: "POST",
-                url: smallPies[i].filename,
-                dataType: "json",
-                success: function (response) {
-                    buildSmallPiechart(response, smallPies[i].title, smallPies[i].subtitle, smallPies[i].divToRender);
-                },
-                error: function (jqXHR, textStatus, errorThrown) {
-                    console.log("Error!" + textStatus);
-                }
-            });
-        })(i);
-    }
->>>>>>> FETCH_HEAD
 }
 
 function onClickSongName(element) {
@@ -489,6 +437,56 @@ function week1Collapse() {
         }
     });
 
+    // make the bar chart
+    $.ajax({
+        type: "POST",
+        url: "./data/texterna_wordfreqs.json",
+        dataType: "json",
+        success: function (response) {
+            buildWordFrequencyChart(response);
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+            console.log("Error!" + textStatus);
+        }
+    });
+
+    // make the other pie charts
+    smallPies = [
+        {
+            filename: "./data/texterna_seasons.json",
+            title: "Tid",
+            subtitle: 'Säsonger, månader och veckodagar',
+            divToRender: "seasonPieChart"
+        },
+        {
+            filename: "./data/texterna_aventyr.json",
+            title: "Äventyr",
+            subtitle: 'Längtan, fest och upplevelser',
+            divToRender: "adventurePieChart"
+        },
+        {
+            filename: "./data/texterna_religion.json",
+            title: "Religion",
+            subtitle: 'Gudar, himmel och helvete',
+            divToRender: "religionPieChart"
+        }
+    ]
+
+    for (var i = 0; i < smallPies.length; i++) {
+        (function (i) {
+            $.ajax({
+                type: "POST",
+                url: smallPies[i].filename,
+                dataType: "json",
+                success: function (response) {
+                    buildSmallPiechart(response, smallPies[i].title, smallPies[i].subtitle, smallPies[i].divToRender);
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    console.log("Error!" + textStatus);
+                }
+            });
+        })(i);
+    }
 
 
  }
