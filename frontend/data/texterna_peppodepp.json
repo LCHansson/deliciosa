@@ -1,164 +1,108 @@
 [
     {
-        "artist": "Excellence",
-        "id": "2002_1_1",
-        "language": "english",
-        "song_name": "Last to Know",
-        "sent_score": -4
+        "artist": "Björn Ranelid & Sara Li",
+        "id": "2012_3_8",
+        "language": "swedish",
+        "song_name": "Mirakel",
+        "sent_score": 146
     },
     {
-        "artist": "Tom Nordahl",
-        "id": "2002_1_2",
+        "artist": "Eko",
+        "id": "2014_3_2",
         "language": "english",
-        "song_name": "Blue as Her Angel Eyes",
-        "sent_score": -2
+        "song_name": "Red",
+        "sent_score": 141
     },
     {
-        "artist": "Méndez",
-        "id": "2002_1_8",
+        "artist": "Danny Saucedo",
+        "id": "2012_4_8",
         "language": "english",
-        "song_name": "Adrenaline",
-        "sent_score": -8
+        "song_name": "Amazing",
+        "sent_score": 114
     },
     {
-        "artist": "Poets",
-        "id": "2002_2_1",
-        "language": "english",
-        "song_name": "What Difference Does It Make?",
-        "sent_score": 10
+        "artist": "Kalle Moraeus & Orsa Spelmän",
+        "id": "2010_2_7",
+        "language": "swedish",
+        "song_name": "Underbart",
+        "sent_score": 112
     },
     {
-        "artist": "Afro-Dite",
-        "id": "2002_2_7",
+        "artist": "Caracola",
+        "id": "2008_3_6",
         "language": "english",
-        "song_name": "Never Let It Go",
-        "sent_score": -16
+        "song_name": "Smiling in Love",
+        "sent_score": 110
     },
     {
-        "artist": "Annika Ljungberg",
-        "id": "2002_2_8",
+        "artist": "Linda Sundblad",
+        "id": "2011_3_1",
         "language": "english",
-        "song_name": "Sail Away",
-        "sent_score": 12
+        "song_name": "Lucky You",
+        "sent_score": 96
     },
     {
-        "artist": "Hanna & Lina",
-        "id": "2002_3_8",
+        "artist": "The Moniker",
+        "id": "2011_2_6",
         "language": "english",
-        "song_name": "Big Time Party",
-        "sent_score": 49
+        "song_name": "Oh My God!",
+        "sent_score": 89
     },
     {
-        "artist": "Solo",
-        "id": "2002_4_2",
+        "artist": "Agnes",
+        "id": "2009_4_1",
         "language": "english",
-        "song_name": "Ge mig himlen för en dag",
-        "sent_score": -4
+        "song_name": "Love Love Love",
+        "sent_score": 84
     },
     {
-        "artist": "Friends",
-        "id": "2002_4_4",
-        "language": "english",
-        "song_name": "The One That You Need",
-        "sent_score": -13
+        "artist": "Uno & Irma",
+        "id": "2007_1_8",
+        "language": "swedish",
+        "song_name": "God morgon",
+        "sent_score": 83
     },
     {
-        "artist": "Crosstalk",
-        "id": "2003_1_1",
+        "artist": "Charlotte Perrelli",
+        "id": "2008_4_8",
         "language": "english",
-        "song_name": "Stronger",
-        "sent_score": 50
+        "song_name": "Hero",
+        "sent_score": 82
     },
     {
-        "artist": "DeDe Lopez",
-        "id": "2003_1_2",
+        "artist": "J.E.M",
+        "id": "2014_2_1",
         "language": "english",
-        "song_name": "Someone, Somewhere, Someday",
-        "sent_score": -1
+        "song_name": "Love Trigger",
+        "sent_score": 80
     },
     {
-        "artist": "Méndez",
-        "id": "2003_1_3",
+        "artist": "BWO",
+        "id": "2006_3_1",
         "language": "english",
-        "song_name": "Carnaval",
-        "sent_score": -1
+        "song_name": "Temple of Love",
+        "sent_score": 76
     },
     {
-        "artist": "Jill Johnson",
-        "id": "2003_1_5",
-        "language": "english",
-        "song_name": "Crazy in Love",
-        "sent_score": 30
+        "artist": "Nanne Grönvall",
+        "id": "2003_3_3",
+        "language": "swedish",
+        "song_name": "Evig kärlek",
+        "sent_score": 75
     },
     {
-        "artist": "Da Buzz",
-        "id": "2003_1_6",
+        "artist": "Rednex",
+        "id": "2006_4_6",
         "language": "english",
-        "song_name": "Stop! Look! Listen!",
-        "sent_score": -17
+        "song_name": "Mama Take Me Home",
+        "sent_score": 70
     },
     {
-        "artist": "Pernilla Wahlgren & Jan Johansen",
-        "id": "2003_1_8",
+        "artist": "Caroline Wennergren",
+        "id": "2005_4_7",
         "language": "english",
-        "song_name": "Let Your Spirit Fly",
-        "sent_score": 48
-    },
-    {
-        "artist": "Andrés Esteche",
-        "id": "2003_2_1",
-        "language": "english",
-        "song_name": "Just Like a Boomerang",
-        "sent_score": 12
-    },
-    {
-        "artist": "Kerli & Locatellies",
-        "id": "2003_2_3",
-        "language": "english",
-        "song_name": "Let's Go",
-        "sent_score": 28
-    },
-    {
-        "artist": "Fame",
-        "id": "2003_2_6",
-        "language": "english",
-        "song_name": "Give Me Your Love",
-        "sent_score": 65
-    },
-    {
-        "artist": "Aleena",
-        "id": "2003_2_7",
-        "language": "english",
-        "song_name": "Better Believe It",
-        "sent_score": 33
-    },
-    {
-        "artist": "Alcazar",
-        "id": "2003_2_8",
-        "language": "english",
-        "song_name": "Not a Sinner, Nor a Saint",
-        "sent_score": -28
-    },
-    {
-        "artist": "Barbados",
-        "id": "2003_3_1",
-        "language": "english",
-        "song_name": "Bye, Bye",
-        "sent_score": -14
-    },
-    {
-        "artist": "Shanna Smith",
-        "id": "2003_3_2",
-        "language": "english",
-        "song_name": "Tonight's the Night",
-        "sent_score": 23
-    },
-    {
-        "artist": "Sofia Källgren & Robert Wells",
-        "id": "2003_3_5",
-        "language": "english",
-        "song_name": "My Love",
-        "sent_score": 19
+        "song_name": "A Different Kind of Love",
+        "sent_score": 69
     },
     {
         "artist": "Liverpool",
@@ -168,11 +112,900 @@
         "sent_score": 68
     },
     {
-        "artist": "Shirley Clamp",
-        "id": "2003_3_7",
+        "artist": "BWO",
+        "id": "2008_3_1",
         "language": "english",
-        "song_name": "Mr. Memory",
-        "sent_score": 5
+        "song_name": "Lay Your Love on Me",
+        "sent_score": 66
+    },
+    {
+        "artist": "Fame",
+        "id": "2003_2_6",
+        "language": "english",
+        "song_name": "Give Me Your Love",
+        "sent_score": 65
+    },
+    {
+        "artist": "Mikael Rickfors",
+        "id": "2009_3_5",
+        "language": "swedish",
+        "song_name": "Du vinner över mig",
+        "sent_score": 65
+    },
+    {
+        "artist": "Le Kid",
+        "id": "2011_1_5",
+        "language": "english",
+        "song_name": "Oh My God",
+        "sent_score": 65
+    },
+    {
+        "artist": "Pauline",
+        "id": "2010_2_5",
+        "language": "english",
+        "song_name": "Sucker for Love",
+        "sent_score": 63
+    },
+    {
+        "artist": "Sanna Nielsen",
+        "id": "2011_2_5",
+        "language": "english",
+        "song_name": "I'm in Love",
+        "sent_score": 63
+    },
+    {
+        "artist": "Eric Saade",
+        "id": "2011_3_8",
+        "language": "english",
+        "song_name": "Popular",
+        "sent_score": 61
+    },
+    {
+        "artist": "Karl Martindahl",
+        "id": "2004_1_4",
+        "language": "english",
+        "song_name": "Love Turns Water Into Wine",
+        "sent_score": 60
+    },
+    {
+        "artist": "Christer Sjögren",
+        "id": "2008_1_8",
+        "language": "english",
+        "song_name": "I Love Europe",
+        "sent_score": 60
+    },
+    {
+        "artist": "The Attic & Therese",
+        "id": "2007_3_5",
+        "language": "english",
+        "song_name": "The Arrival",
+        "sent_score": 56
+    },
+    {
+        "artist": "Shirley Clamp",
+        "id": "2004_4_7",
+        "language": "swedish",
+        "song_name": "Min kärlek",
+        "sent_score": 55
+    },
+    {
+        "artist": "Sarah Dawn Finer",
+        "id": "2007_4_6",
+        "language": "english",
+        "song_name": "I Remember Love",
+        "sent_score": 53
+    },
+    {
+        "artist": "Östen med Resten",
+        "id": "2002_3_5",
+        "language": "swedish",
+        "song_name": "Hon kommer med solsken",
+        "sent_score": 51
+    },
+    {
+        "artist": "Crosstalk",
+        "id": "2003_1_1",
+        "language": "english",
+        "song_name": "Stronger",
+        "sent_score": 50
+    },
+    {
+        "artist": "Hanna & Lina",
+        "id": "2002_3_8",
+        "language": "english",
+        "song_name": "Big Time Party",
+        "sent_score": 49
+    },
+    {
+        "artist": "Emilia",
+        "id": "2009_1_5",
+        "language": "english",
+        "song_name": "You're My World",
+        "sent_score": 49
+    },
+    {
+        "artist": "Thorleifs",
+        "id": "2009_4_5",
+        "language": "swedish",
+        "song_name": "Sweet Kissin' In The Moonlight",
+        "sent_score": 49
+    },
+    {
+        "artist": "Pernilla Wahlgren & Jan Johansen",
+        "id": "2003_1_8",
+        "language": "english",
+        "song_name": "Let Your Spirit Fly",
+        "sent_score": 48
+    },
+    {
+        "artist": "Linus Svenning",
+        "id": "2014_1_3",
+        "language": "swedish",
+        "song_name": "Bröder",
+        "sent_score": 48
+    },
+    {
+        "artist": "Joachim Bergström",
+        "id": "2004_1_2",
+        "language": "english",
+        "song_name": "Still Believe",
+        "sent_score": 47
+    },
+    {
+        "artist": "Jennifer Escola",
+        "id": "2004_2_4",
+        "language": "english",
+        "song_name": "You are the Sunshine of My Life",
+        "sent_score": 46
+    },
+    {
+        "artist": "Magnus Bäcklund",
+        "id": "2006_1_4",
+        "language": "english",
+        "song_name": "The Name of Love",
+        "sent_score": 46
+    },
+    {
+        "artist": "Fronda",
+        "id": "2008_4_7",
+        "language": "swedish",
+        "song_name": "Ingen mår så bra som jag",
+        "sent_score": 46
+    },
+    {
+        "artist": "Yohio",
+        "id": "2014_1_1",
+        "language": "english",
+        "song_name": "To The End",
+        "sent_score": 46
+    },
+    {
+        "artist": "Electric Banana Band",
+        "id": "2006_1_2",
+        "language": "swedish",
+        "song_name": "Kameleont",
+        "sent_score": 45
+    },
+    {
+        "artist": "Michael Michailoff",
+        "id": "2008_1_5",
+        "language": "english",
+        "song_name": "That's Love",
+        "sent_score": 45
+    },
+    {
+        "artist": "Axel Algmark",
+        "id": "2012_4_6",
+        "language": "swedish",
+        "song_name": "Kyss mig",
+        "sent_score": 45
+    },
+    {
+        "artist": "Elin Lanto",
+        "id": "2007_1_1",
+        "language": "english",
+        "song_name": "Money",
+        "sent_score": 44
+    },
+    {
+        "artist": "Amy Diamond",
+        "id": "2008_1_6",
+        "language": "english",
+        "song_name": "Thank You",
+        "sent_score": 44
+    },
+    {
+        "artist": "Julia Alvgard",
+        "id": "2011_4_2",
+        "language": "english",
+        "song_name": "Better Or Worse",
+        "sent_score": 44
+    },
+    {
+        "artist": "Alcazar",
+        "id": "2005_1_1",
+        "language": "english",
+        "song_name": "Alcastar",
+        "sent_score": 43
+    },
+    {
+        "artist": "Face-84",
+        "id": "2008_1_2",
+        "language": "swedish",
+        "song_name": "Alla gamla x",
+        "sent_score": 43
+    },
+    {
+        "artist": "Linda Pritchard",
+        "id": "2011_4_4",
+        "language": "english",
+        "song_name": "Alive",
+        "sent_score": 43
+    },
+    {
+        "artist": "Gregor",
+        "id": "2006_3_3",
+        "language": "swedish",
+        "song_name": "Mi Amor",
+        "sent_score": 42
+    },
+    {
+        "artist": "Swedish House Wives",
+        "id": "2013_2_4",
+        "language": "english",
+        "song_name": "On Top of the World",
+        "sent_score": 41
+    },
+    {
+        "artist": "Behrang Miri & Loulou Lamotte & Oscar Zia",
+        "id": "2013_4_6",
+        "language": "swedish",
+        "song_name": "Jalla Dansa Sawa",
+        "sent_score": 41
+    },
+    {
+        "artist": "Hannah Graaf",
+        "id": "2006_1_7",
+        "language": "english",
+        "song_name": "Naughty Boy",
+        "sent_score": 40
+    },
+    {
+        "artist": "Lili & Susie",
+        "id": "2009_2_1",
+        "language": "english",
+        "song_name": "Show Me Heaven",
+        "sent_score": 40
+    },
+    {
+        "artist": "Måns Zelmerlöw",
+        "id": "2009_2_8",
+        "language": "english",
+        "song_name": "Hope & Glory",
+        "sent_score": 40
+    },
+    {
+        "artist": "Johnson & Häggkvist",
+        "id": "2008_2_8",
+        "language": "english",
+        "song_name": "One Love",
+        "sent_score": 38
+    },
+    {
+        "artist": "Anton Ewald",
+        "id": "2014_4_8",
+        "language": "english",
+        "song_name": "Natural",
+        "sent_score": 38
+    },
+    {
+        "artist": "Py Bäckman",
+        "id": "2010_4_2",
+        "language": "swedish",
+        "song_name": "Magisk stjärna",
+        "sent_score": 36
+    },
+    {
+        "artist": "Camilla Brinck",
+        "id": "2005_2_2",
+        "language": "swedish",
+        "song_name": "Jenny",
+        "sent_score": 35
+    },
+    {
+        "artist": "Babsan",
+        "id": "2011_2_3",
+        "language": "swedish",
+        "song_name": "Ge mig en spanjor",
+        "sent_score": 35
+    },
+    {
+        "artist": "Loreen",
+        "id": "2012_1_8",
+        "language": "english",
+        "song_name": "Euphoria",
+        "sent_score": 35
+    },
+    {
+        "artist": "Aleena",
+        "id": "2003_2_7",
+        "language": "english",
+        "song_name": "Better Believe It",
+        "sent_score": 33
+    },
+    {
+        "artist": "Maja Gullstrand",
+        "id": "2009_3_6",
+        "language": "swedish",
+        "song_name": "Här för mig själv",
+        "sent_score": 33
+    },
+    {
+        "artist": "Helena Paparizou",
+        "id": "2014_1_8",
+        "language": "english",
+        "song_name": "Survivor",
+        "sent_score": 33
+    },
+    {
+        "artist": "Sonya (Sonja Aldén)",
+        "id": "2006_2_3",
+        "language": "english",
+        "song_name": "Etymon",
+        "sent_score": 32
+    },
+    {
+        "artist": "Regina Lund",
+        "id": "2007_2_1",
+        "language": "english",
+        "song_name": "Rainbow Star",
+        "sent_score": 32
+    },
+    {
+        "artist": "Linda Bengtzing",
+        "id": "2014_4_6",
+        "language": "swedish",
+        "song_name": "Ta mig",
+        "sent_score": 32
+    },
+    {
+        "artist": "Anders Borgius",
+        "id": "2004_4_2",
+        "language": "english",
+        "song_name": "Just Like Me",
+        "sent_score": 31
+    },
+    {
+        "artist": "Jessica Folcker",
+        "id": "2006_3_2",
+        "language": "english",
+        "song_name": "When Love's Comin' Back Again",
+        "sent_score": 31
+    },
+    {
+        "artist": "Günther & The & \nSunshine Girls",
+        "id": "2006_4_3",
+        "language": "english",
+        "song_name": "Like Fire Tonight",
+        "sent_score": 31
+    },
+    {
+        "artist": "Suzzie Tapper",
+        "id": "2008_1_7",
+        "language": "swedish",
+        "song_name": "Visst finns mirakel",
+        "sent_score": 31
+    },
+    {
+        "artist": "Molly Sandén",
+        "id": "2009_3_3",
+        "language": "swedish",
+        "song_name": "Så vill stjärnorna",
+        "sent_score": 31
+    },
+    {
+        "artist": "Jonas Matsson",
+        "id": "2011_1_4",
+        "language": "english",
+        "song_name": "On my own",
+        "sent_score": 31
+    },
+    {
+        "artist": "Melody Club",
+        "id": "2011_4_1",
+        "language": "english",
+        "song_name": "The Hunter",
+        "sent_score": 31
+    },
+    {
+        "artist": "Jill Johnson",
+        "id": "2003_1_5",
+        "language": "english",
+        "song_name": "Crazy in Love",
+        "sent_score": 30
+    },
+    {
+        "artist": "Fredrik Kempe",
+        "id": "2004_2_1",
+        "language": "english",
+        "song_name": "Finally",
+        "sent_score": 29
+    },
+    {
+        "artist": "Andreas Johnson",
+        "id": "2007_4_8",
+        "language": "english",
+        "song_name": "A Little Bit of Love",
+        "sent_score": 29
+    },
+    {
+        "artist": "Jonathan Fagerlund",
+        "id": "2009_1_2",
+        "language": "english",
+        "song_name": "Welcome to My Life",
+        "sent_score": 29
+    },
+    {
+        "artist": "Eric Saade",
+        "id": "2010_2_1",
+        "language": "english",
+        "song_name": "Manboy",
+        "sent_score": 29
+    },
+    {
+        "artist": "Jenny Silver",
+        "id": "2011_1_3",
+        "language": "english",
+        "song_name": "Something in Your Eyes",
+        "sent_score": 29
+    },
+    {
+        "artist": "Kerli & Locatellies",
+        "id": "2003_2_3",
+        "language": "english",
+        "song_name": "Let's Go",
+        "sent_score": 28
+    },
+    {
+        "artist": "After Dark",
+        "id": "2004_4_4",
+        "language": "swedish",
+        "song_name": "La dolce vita",
+        "sent_score": 28
+    },
+    {
+        "artist": "Caroline af Ugglas",
+        "id": "2009_1_7",
+        "language": "swedish",
+        "song_name": "Snälla, snälla",
+        "sent_score": 28
+    },
+    {
+        "artist": "Mattias Andréasson",
+        "id": "2012_3_3",
+        "language": "swedish",
+        "song_name": "Förlåt mig",
+        "sent_score": 28
+    },
+    {
+        "artist": "Pay TV",
+        "id": "2004_2_5",
+        "language": "english",
+        "song_name": "Trendy Discoteque",
+        "sent_score": 27
+    },
+    {
+        "artist": "Sonja Aldén",
+        "id": "2007_3_7",
+        "language": "swedish",
+        "song_name": "För att du finns",
+        "sent_score": 27
+    },
+    {
+        "artist": "Bosson",
+        "id": "2004_3_8",
+        "language": "english",
+        "song_name": "Efharisto",
+        "sent_score": 26
+    },
+    {
+        "artist": "Pablo Cepeda",
+        "id": "2006_2_5",
+        "language": "english",
+        "song_name": "La chica de la copa",
+        "sent_score": 26
+    },
+    {
+        "artist": "Ola",
+        "id": "2008_2_1",
+        "language": "english",
+        "song_name": "Love in Stereo",
+        "sent_score": 26
+    },
+    {
+        "artist": "Manda",
+        "id": "2014_2_3",
+        "language": "english",
+        "song_name": "Glow",
+        "sent_score": 26
+    },
+    {
+        "artist": "Niklas Strömstedt",
+        "id": "2008_4_1",
+        "language": "swedish",
+        "song_name": "För många ord om kärlek",
+        "sent_score": 25
+    },
+    {
+        "artist": "Youngblood",
+        "id": "2012_3_1",
+        "language": "english",
+        "song_name": "Youngblood",
+        "sent_score": 24
+    },
+    {
+        "artist": "Shanna Smith",
+        "id": "2003_3_2",
+        "language": "english",
+        "song_name": "Tonight's the Night",
+        "sent_score": 23
+    },
+    {
+        "artist": "Martin Stenmarck",
+        "id": "2005_3_8",
+        "language": "english",
+        "song_name": "Las Vegas",
+        "sent_score": 23
+    },
+    {
+        "artist": "Rickard Engfors & Katarina Fallholm",
+        "id": "2005_4_4",
+        "language": "english",
+        "song_name": "Ready For Me",
+        "sent_score": 23
+    },
+    {
+        "artist": "Andra Generationen & Dogge Doggelito",
+        "id": "2010_2_2",
+        "language": "swedish",
+        "song_name": "Hippare Hoppare",
+        "sent_score": 23
+    },
+    {
+        "artist": "Elisa Lindström",
+        "id": "2014_1_4",
+        "language": "swedish",
+        "song_name": "Casanova",
+        "sent_score": 23
+    },
+    {
+        "artist": "Cosmo4",
+        "id": "2007_2_4",
+        "language": "english",
+        "song_name": "What's Your Name",
+        "sent_score": 22
+    },
+    {
+        "artist": "Nanne",
+        "id": "2007_3_8",
+        "language": "swedish",
+        "song_name": "Jag måste kyssa dig",
+        "sent_score": 22
+    },
+    {
+        "artist": "Next3",
+        "id": "2009_4_7",
+        "language": "swedish",
+        "song_name": "Esta Noche",
+        "sent_score": 22
+    },
+    {
+        "artist": "Pernilla Wahlgren",
+        "id": "2010_4_6",
+        "language": "swedish",
+        "song_name": "Jag vill om du vågar",
+        "sent_score": 22
+    },
+    {
+        "artist": "Linda Bengtzing",
+        "id": "2011_4_6",
+        "language": "swedish",
+        "song_name": "E det fel på mej",
+        "sent_score": 22
+    },
+    {
+        "artist": "The Moniker",
+        "id": "2012_1_3",
+        "language": "english",
+        "song_name": "I Want To Be Chris Isaak (This Is Just the Beginning)",
+        "sent_score": 22
+    },
+    {
+        "artist": "Lisa Miskovsky",
+        "id": "2012_4_7",
+        "language": "english",
+        "song_name": "Why Start a Fire",
+        "sent_score": 22
+    },
+    {
+        "artist": "Sylvia Vrethammar",
+        "id": "2002_3_7",
+        "language": "swedish",
+        "song_name": "Hon är en annan nu",
+        "sent_score": 21
+    },
+    {
+        "artist": "Sanne Salomonsen",
+        "id": "2005_2_8",
+        "language": "english",
+        "song_name": "Higher Ground",
+        "sent_score": 21
+    },
+    {
+        "artist": "Evan",
+        "id": "2006_4_5",
+        "language": "english",
+        "song_name": "Under Your Spell",
+        "sent_score": 21
+    },
+    {
+        "artist": "Björn Kjellman",
+        "id": "2006_4_7",
+        "language": "swedish",
+        "song_name": "Älskar du livet",
+        "sent_score": 21
+    },
+    {
+        "artist": "Eskobar",
+        "id": "2008_3_8",
+        "language": "english",
+        "song_name": "Hallelujah New World",
+        "sent_score": 21
+    },
+    {
+        "artist": "Simon Forsberg",
+        "id": "2011_3_2",
+        "language": "swedish",
+        "song_name": "Tid att andas",
+        "sent_score": 21
+    },
+    {
+        "artist": "Sylvia Vrethammar",
+        "id": "2013_4_4",
+        "language": "swedish",
+        "song_name": "Trivialitet",
+        "sent_score": 21
+    },
+    {
+        "artist": "LaGaylia Frazier",
+        "id": "2004_1_5",
+        "language": "english",
+        "song_name": "It's in the Stars",
+        "sent_score": 20
+    },
+    {
+        "artist": "Arja Saijonmaa",
+        "id": "2005_2_4",
+        "language": "swedish",
+        "song_name": "Vad du än trodde så trodde du fel",
+        "sent_score": 20
+    },
+    {
+        "artist": "Velvet",
+        "id": "2006_2_8",
+        "language": "english",
+        "song_name": "Mi Amore",
+        "sent_score": 20
+    },
+    {
+        "artist": "Carola",
+        "id": "2006_4_8",
+        "language": "swedish",
+        "song_name": "Evighet",
+        "sent_score": 20
+    },
+    {
+        "artist": "Anna Book",
+        "id": "2007_1_3",
+        "language": "swedish",
+        "song_name": "Samba Sambero",
+        "sent_score": 20
+    },
+    {
+        "artist": "Velvet",
+        "id": "2008_1_3",
+        "language": "english",
+        "song_name": "Deja Vû",
+        "sent_score": 20
+    },
+    {
+        "artist": "Markoolio",
+        "id": "2009_2_5",
+        "language": "swedish",
+        "song_name": "Kärlekssång från mig",
+        "sent_score": 20
+    },
+    {
+        "artist": "Velvet",
+        "id": "2009_3_1",
+        "language": "english",
+        "song_name": "The Queen",
+        "sent_score": 20
+    },
+    {
+        "artist": "Sean Banan",
+        "id": "2012_1_1",
+        "language": "swedish",
+        "song_name": "Sean den förste Banan",
+        "sent_score": 20
+    },
+    {
+        "artist": "David Lindgren",
+        "id": "2013_1_1",
+        "language": "english",
+        "song_name": "Skyline",
+        "sent_score": 20
+    },
+    {
+        "artist": "Ellinore Holmer",
+        "id": "2014_4_7",
+        "language": "swedish",
+        "song_name": "En himmelsk sång",
+        "sent_score": 20
+    },
+    {
+        "artist": "Sofia Källgren & Robert Wells",
+        "id": "2003_3_5",
+        "language": "english",
+        "song_name": "My Love",
+        "sent_score": 19
+    },
+    {
+        "artist": "Shirley Clamp",
+        "id": "2005_1_8",
+        "language": "swedish",
+        "song_name": "Att älska dig",
+        "sent_score": 19
+    },
+    {
+        "artist": "NaNa",
+        "id": "2005_3_1",
+        "language": "english",
+        "song_name": "Wherever You Go",
+        "sent_score": 19
+    },
+    {
+        "artist": "The Ark",
+        "id": "2007_2_8",
+        "language": "english",
+        "song_name": "The Worrying Kind",
+        "sent_score": 19
+    },
+    {
+        "artist": "Thérèse Andersson",
+        "id": "2008_3_4",
+        "language": "english",
+        "song_name": "When You Need Me",
+        "sent_score": 19
+    },
+    {
+        "artist": "Rigo & The Topaz Sound & Red Fox",
+        "id": "2009_3_2",
+        "language": "english",
+        "song_name": "I Got U",
+        "sent_score": 19
+    },
+    {
+        "artist": "Elisabeth Andreassen",
+        "id": "2011_2_4",
+        "language": "swedish",
+        "song_name": "Vaken i en dröm",
+        "sent_score": 19
+    },
+    {
+        "artist": "State of Drama",
+        "id": "2013_3_7",
+        "language": "english",
+        "song_name": "Falling",
+        "sent_score": 19
+    },
+    {
+        "artist": "Lucia Piñera",
+        "id": "2013_4_2",
+        "language": "english",
+        "song_name": "Must Be Love",
+        "sent_score": 19
+    },
+    {
+        "artist": "Niklas Andersson",
+        "id": "2004_1_7",
+        "language": "swedish",
+        "song_name": "Tro på mig",
+        "sent_score": 18
+    },
+    {
+        "artist": "E-Type",
+        "id": "2004_2_8",
+        "language": "english",
+        "song_name": "Paradise",
+        "sent_score": 18
+    },
+    {
+        "artist": "Brolle",
+        "id": "2011_2_1",
+        "language": "english",
+        "song_name": "7 Days And 7 Nights",
+        "sent_score": 18
+    },
+    {
+        "artist": "Erik Segerstedt & Tone Damli",
+        "id": "2013_2_5",
+        "language": "english",
+        "song_name": "Hello Goodbye",
+        "sent_score": 18
+    },
+    {
+        "artist": "Martin",
+        "id": "2002_2_4",
+        "language": "swedish",
+        "song_name": "Du och jag (i hela världen)",
+        "sent_score": 17
+    },
+    {
+        "artist": "Anna Sahlene",
+        "id": "2006_1_3",
+        "language": "english",
+        "song_name": "This Woman",
+        "sent_score": 17
+    },
+    {
+        "artist": "Måns Zelmerlöw",
+        "id": "2007_3_1",
+        "language": "english",
+        "song_name": "Cara Mia",
+        "sent_score": 17
+    },
+    {
+        "artist": "Yohio",
+        "id": "2013_1_6",
+        "language": "english",
+        "song_name": "Heartbreak Hotel",
+        "sent_score": 17
+    },
+    {
+        "artist": "Sean Banan",
+        "id": "2013_2_8",
+        "language": "swedish",
+        "song_name": "Copacabanana",
+        "sent_score": 17
+    },
+    {
+        "artist": "Papa Dee",
+        "id": "2005_1_3",
+        "language": "english",
+        "song_name": "My no. 1",
+        "sent_score": 16
+    },
+    {
+        "artist": "Jimmy Jansson",
+        "id": "2007_2_3",
+        "language": "swedish",
+        "song_name": "Amanda",
+        "sent_score": 16
+    },
+    {
+        "artist": "Star Pilots",
+        "id": "2009_4_2",
+        "language": "english",
+        "song_name": "Higher",
+        "sent_score": 16
+    },
+    {
+        "artist": "Oscar Zia",
+        "id": "2014_3_3",
+        "language": "english",
+        "song_name": "Yes We Can",
+        "sent_score": 16
     },
     {
         "artist": "Style",
@@ -189,27 +1022,6 @@
         "sent_score": 15
     },
     {
-        "artist": "Bubbles",
-        "id": "2003_4_3",
-        "language": "english",
-        "song_name": "TKO (Knock You Out)",
-        "sent_score": -1
-    },
-    {
-        "artist": "Maarja",
-        "id": "2003_4_4",
-        "language": "english",
-        "song_name": "He Is Always On My Mind",
-        "sent_score": 3
-    },
-    {
-        "artist": "Lina Hedlund",
-        "id": "2003_4_6",
-        "language": "english",
-        "song_name": "Nothing Can Stop Me",
-        "sent_score": -1
-    },
-    {
         "artist": "Afro-dite",
         "id": "2003_4_8",
         "language": "english",
@@ -217,88 +1029,32 @@
         "sent_score": 15
     },
     {
-        "artist": "Joachim Bergström",
-        "id": "2004_1_2",
-        "language": "english",
-        "song_name": "Still Believe",
-        "sent_score": 47
+        "artist": "Sheida",
+        "id": "2007_3_4",
+        "language": "swedish",
+        "song_name": "I Mina Drömmar",
+        "sent_score": 15
     },
     {
-        "artist": "Karl Martindahl",
-        "id": "2004_1_4",
-        "language": "english",
-        "song_name": "Love Turns Water Into Wine",
-        "sent_score": 60
+        "artist": "Maria BenHajji",
+        "id": "2012_3_2",
+        "language": "swedish",
+        "song_name": "I mina drömmar",
+        "sent_score": 15
     },
     {
-        "artist": "LaGaylia Frazier",
-        "id": "2004_1_5",
+        "artist": "Mahan Moin",
+        "id": "2014_1_2",
         "language": "english",
-        "song_name": "It's in the Stars",
-        "sent_score": 20
+        "song_name": "Aleo",
+        "sent_score": 15
     },
     {
-        "artist": "Petra Nielsen",
-        "id": "2004_1_8",
-        "language": "english",
-        "song_name": "Tango! Tango!",
-        "sent_score": 6
-    },
-    {
-        "artist": "Fredrik Kempe",
-        "id": "2004_2_1",
-        "language": "english",
-        "song_name": "Finally",
-        "sent_score": 29
-    },
-    {
-        "artist": "Baccara",
-        "id": "2004_2_2",
-        "language": "english",
-        "song_name": "Soy tu Venus",
-        "sent_score": 4
-    },
-    {
-        "artist": "Jennifer Escola",
-        "id": "2004_2_4",
-        "language": "english",
-        "song_name": "You are the Sunshine of My Life",
-        "sent_score": 46
-    },
-    {
-        "artist": "Pay TV",
-        "id": "2004_2_5",
-        "language": "english",
-        "song_name": "Trendy Discoteque",
-        "sent_score": 27
-    },
-    {
-        "artist": "LaRoxx",
-        "id": "2004_2_7",
-        "language": "english",
-        "song_name": "(Are U) Ready or Not",
-        "sent_score": 13
-    },
-    {
-        "artist": "E-Type",
-        "id": "2004_2_8",
-        "language": "english",
-        "song_name": "Paradise",
-        "sent_score": 18
-    },
-    {
-        "artist": "Bubbles",
-        "id": "2004_3_1",
-        "language": "english",
-        "song_name": "Blow the Spot",
-        "sent_score": 8
-    },
-    {
-        "artist": "Emil Sigfridsson",
-        "id": "2004_3_2",
-        "language": "english",
-        "song_name": "Innan mörkret faller",
-        "sent_score": -4
+        "artist": "Ann-Louise Hanson & Molle Holmberg",
+        "id": "2002_2_5",
+        "language": "swedish",
+        "song_name": "Sluta!",
+        "sent_score": 14
     },
     {
         "artist": "Gladys del Pilar",
@@ -308,249 +1064,60 @@
         "sent_score": 14
     },
     {
-        "artist": "Itchycoo",
-        "id": "2004_3_5",
-        "language": "english",
-        "song_name": "Super Mega Nova",
-        "sent_score": -6
+        "artist": "Date",
+        "id": "2005_4_5",
+        "language": "swedish",
+        "song_name": "Hörde änglarna viska ditt namn",
+        "sent_score": 14
     },
     {
-        "artist": "Autolove",
-        "id": "2004_3_7",
-        "language": "english",
-        "song_name": "Bulletproof Heart",
-        "sent_score": 5
+        "artist": "Östen Med Resten",
+        "id": "2006_2_4",
+        "language": "swedish",
+        "song_name": "Ge mig en kaka till kaffet",
+        "sent_score": 14
     },
     {
-        "artist": "Bosson",
-        "id": "2004_3_8",
-        "language": "english",
-        "song_name": "Efharisto",
-        "sent_score": 26
-    },
-    {
-        "artist": "Anders Borgius",
-        "id": "2004_4_2",
-        "language": "english",
-        "song_name": "Just Like Me",
-        "sent_score": 31
-    },
-    {
-        "artist": "Pandora",
-        "id": "2004_4_5",
-        "language": "english",
-        "song_name": "Runaway",
-        "sent_score": 5
-    },
-    {
-        "artist": "Andrés Esteche",
-        "id": "2004_4_8",
-        "language": "english",
-        "song_name": "Olé olé",
-        "sent_score": 3
+        "artist": "Kikki Danielsson",
+        "id": "2006_2_6",
+        "language": "swedish",
+        "song_name": "I dag & i morgon",
+        "sent_score": 14
     },
     {
         "artist": "Alcazar",
-        "id": "2005_1_1",
+        "id": "2009_1_6",
         "language": "english",
-        "song_name": "Alcastar",
-        "sent_score": 43
+        "song_name": "Stay the Night",
+        "sent_score": 14
     },
     {
-        "artist": "Papa Dee",
-        "id": "2005_1_3",
-        "language": "english",
-        "song_name": "My no. 1",
-        "sent_score": 16
+        "artist": "Susanne Alfvengren",
+        "id": "2009_4_3",
+        "language": "swedish",
+        "song_name": "Du är älskad där du går",
+        "sent_score": 14
     },
     {
-        "artist": "The Wallstones",
-        "id": "2005_1_5",
-        "language": "english",
-        "song_name": "Invisible People",
-        "sent_score": -22
+        "artist": "Lasse Stefanz",
+        "id": "2011_4_3",
+        "language": "swedish",
+        "song_name": "En blick och nånting händer",
+        "sent_score": 14
     },
     {
-        "artist": "Pay TV",
-        "id": "2005_1_6",
-        "language": "english",
-        "song_name": "Refrain refrain",
-        "sent_score": -10
+        "artist": "Camilla Lindén",
+        "id": "2002_1_4",
+        "language": "swedish",
+        "song_name": "Du har rört vid min själ",
+        "sent_score": 13
     },
     {
-        "artist": "Bodies Without Organs",
-        "id": "2005_2_7",
+        "artist": "LaRoxx",
+        "id": "2004_2_7",
         "language": "english",
-        "song_name": "Gone",
-        "sent_score": -15
-    },
-    {
-        "artist": "Sanne Salomonsen",
-        "id": "2005_2_8",
-        "language": "english",
-        "song_name": "Higher Ground",
-        "sent_score": 21
-    },
-    {
-        "artist": "NaNa",
-        "id": "2005_3_1",
-        "language": "english",
-        "song_name": "Wherever You Go",
-        "sent_score": 19
-    },
-    {
-        "artist": "LaGaylia",
-        "id": "2005_3_4",
-        "language": "english",
-        "song_name": "Nothing at all",
-        "sent_score": 9
-    },
-    {
-        "artist": "Martin Stenmarck",
-        "id": "2005_3_8",
-        "language": "english",
-        "song_name": "Las Vegas",
-        "sent_score": 23
-    },
-    {
-        "artist": "B-Boys International & Paul M",
-        "id": "2005_4_2",
-        "language": "english",
-        "song_name": "One Step Closer",
-        "sent_score": 11
-    },
-    {
-        "artist": "Rickard Engfors & Katarina Fallholm",
-        "id": "2005_4_4",
-        "language": "english",
-        "song_name": "Ready For Me",
-        "sent_score": 23
-    },
-    {
-        "artist": "Caroline Wennergren",
-        "id": "2005_4_7",
-        "language": "english",
-        "song_name": "A Different Kind of Love",
-        "sent_score": 69
-    },
-    {
-        "artist": "Katrina & The Nameless",
-        "id": "2005_4_8",
-        "language": "english",
-        "song_name": "As If Tomorrow Will Never Come",
-        "sent_score": -6
-    },
-    {
-        "artist": "Anna Sahlene",
-        "id": "2006_1_3",
-        "language": "english",
-        "song_name": "This Woman",
-        "sent_score": 17
-    },
-    {
-        "artist": "Magnus Bäcklund",
-        "id": "2006_1_4",
-        "language": "english",
-        "song_name": "The Name of Love",
-        "sent_score": 46
-    },
-    {
-        "artist": "Hannah Graaf",
-        "id": "2006_1_7",
-        "language": "english",
-        "song_name": "Naughty Boy",
-        "sent_score": 40
-    },
-    {
-        "artist": "Andreas Johnson",
-        "id": "2006_1_8",
-        "language": "english",
-        "song_name": "Sing for Me",
-        "sent_score": 12
-    },
-    {
-        "artist": "Sonya (Sonja Aldén)",
-        "id": "2006_2_3",
-        "language": "english",
-        "song_name": "Etymon",
-        "sent_score": 32
-    },
-    {
-        "artist": "Pablo Cepeda",
-        "id": "2006_2_5",
-        "language": "english",
-        "song_name": "La chica de la copa",
-        "sent_score": 26
-    },
-    {
-        "artist": "Velvet",
-        "id": "2006_2_8",
-        "language": "english",
-        "song_name": "Mi Amore",
-        "sent_score": 20
-    },
-    {
-        "artist": "BWO",
-        "id": "2006_3_1",
-        "language": "english",
-        "song_name": "Temple of Love",
-        "sent_score": 76
-    },
-    {
-        "artist": "Jessica Folcker",
-        "id": "2006_3_2",
-        "language": "english",
-        "song_name": "When Love's Comin' Back Again",
-        "sent_score": 31
-    },
-    {
-        "artist": "The Poodles",
-        "id": "2006_3_5",
-        "language": "english",
-        "song_name": "Night of Passion",
-        "sent_score": -23
-    },
-    {
-        "artist": "Elysion",
-        "id": "2006_3_6",
-        "language": "english",
-        "song_name": "Golden Star",
-        "sent_score": 10
-    },
-    {
-        "artist": "Laila Adéle",
-        "id": "2006_4_2",
-        "language": "english",
-        "song_name": "Don't Try To Stop Me",
-        "sent_score": -15
-    },
-    {
-        "artist": "Günther & The & \nSunshine Girls",
-        "id": "2006_4_3",
-        "language": "english",
-        "song_name": "Like Fire Tonight",
-        "sent_score": 31
-    },
-    {
-        "artist": "Evan",
-        "id": "2006_4_5",
-        "language": "english",
-        "song_name": "Under Your Spell",
-        "sent_score": 21
-    },
-    {
-        "artist": "Rednex",
-        "id": "2006_4_6",
-        "language": "english",
-        "song_name": "Mama Take Me Home",
-        "sent_score": 70
-    },
-    {
-        "artist": "Elin Lanto",
-        "id": "2007_1_1",
-        "language": "english",
-        "song_name": "Money",
-        "sent_score": 44
+        "song_name": "(Are U) Ready or Not",
+        "sent_score": 13
     },
     {
         "artist": "Andersson & Gibson",
@@ -560,25 +1127,88 @@
         "sent_score": 13
     },
     {
-        "artist": "Andreas Lundstedt",
-        "id": "2007_1_5",
+        "artist": "Ola Svensson",
+        "id": "2010_1_1",
         "language": "english",
-        "song_name": "Move",
-        "sent_score": 11
+        "song_name": "Unstoppable",
+        "sent_score": 13
     },
     {
-        "artist": "Sofia",
-        "id": "2007_1_7",
+        "artist": "Salem Al Fakir",
+        "id": "2010_1_8",
         "language": "english",
-        "song_name": "Hypnotized",
-        "sent_score": -6
+        "song_name": "Keep On Walking",
+        "sent_score": 13
     },
     {
-        "artist": "Regina Lund",
-        "id": "2007_2_1",
+        "artist": "Thomas Di Leva",
+        "id": "2012_2_8",
+        "language": "swedish",
+        "song_name": "Ge aldrig upp",
+        "sent_score": 13
+    },
+    {
+        "artist": "Terese Fredenwall",
+        "id": "2013_4_7",
         "language": "english",
-        "song_name": "Rainbow Star",
-        "sent_score": 32
+        "song_name": "Breaking the Silence",
+        "sent_score": 13
+    },
+    {
+        "artist": "Annika Ljungberg",
+        "id": "2002_2_8",
+        "language": "english",
+        "song_name": "Sail Away",
+        "sent_score": 12
+    },
+    {
+        "artist": "Andrés Esteche",
+        "id": "2003_2_1",
+        "language": "english",
+        "song_name": "Just Like a Boomerang",
+        "sent_score": 12
+    },
+    {
+        "artist": "Sara Löfgren",
+        "id": "2004_1_6",
+        "language": "swedish",
+        "song_name": "Som stormen",
+        "sent_score": 12
+    },
+    {
+        "artist": "Cameron Cartio",
+        "id": "2005_2_6",
+        "language": "swahili",
+        "song_name": "Roma",
+        "sent_score": 12
+    },
+    {
+        "artist": "Jimmy Jansson",
+        "id": "2005_3_3",
+        "language": "swedish",
+        "song_name": "Vi kan gunga",
+        "sent_score": 12
+    },
+    {
+        "artist": "Andreas Johnson",
+        "id": "2006_1_8",
+        "language": "english",
+        "song_name": "Sing for Me",
+        "sent_score": 12
+    },
+    {
+        "artist": "Niclas Wahlgren",
+        "id": "2006_2_7",
+        "language": "swedish",
+        "song_name": "En droppe regn",
+        "sent_score": 12
+    },
+    {
+        "artist": "Sandra Dahlberg",
+        "id": "2006_4_4",
+        "language": "swedish",
+        "song_name": "Jag tar det jag vill ha",
+        "sent_score": 12
     },
     {
         "artist": "Marie Lindberg",
@@ -588,67 +1218,165 @@
         "sent_score": 12
     },
     {
-        "artist": "Cosmo4",
-        "id": "2007_2_4",
-        "language": "english",
-        "song_name": "What's Your Name",
-        "sent_score": 22
+        "artist": "Svante Thuresson & Anne-Lie Rydé",
+        "id": "2007_2_7",
+        "language": "swedish",
+        "song_name": "Första gången",
+        "sent_score": 12
     },
     {
-        "artist": "The Ark",
-        "id": "2007_2_8",
+        "artist": "Daniel Mitsogiannis",
+        "id": "2008_4_3",
         "language": "english",
-        "song_name": "The Worrying Kind",
-        "sent_score": 19
+        "song_name": "Pame",
+        "sent_score": 12
     },
     {
-        "artist": "Måns Zelmerlöw",
-        "id": "2007_3_1",
-        "language": "english",
-        "song_name": "Cara Mia",
-        "sent_score": 17
+        "artist": "Östen med Resten",
+        "id": "2003_4_5",
+        "language": "swedish",
+        "song_name": "Maria",
+        "sent_score": 11
     },
     {
-        "artist": "MissMatch",
-        "id": "2007_3_2",
-        "language": "english",
-        "song_name": "Drop Dead",
-        "sent_score": -37
+        "artist": "Hanson & Carson & Malmkvist",
+        "id": "2004_3_6",
+        "language": "swedish",
+        "song_name": "C'est la vie",
+        "sent_score": 11
     },
     {
-        "artist": "Magnus Carlsson",
-        "id": "2007_3_3",
+        "artist": "B-Boys International & Paul M",
+        "id": "2005_4_2",
         "language": "english",
-        "song_name": "Live Forever",
-        "sent_score": -27
+        "song_name": "One Step Closer",
+        "sent_score": 11
     },
     {
-        "artist": "The Attic & Therese",
-        "id": "2007_3_5",
+        "artist": "Andreas Lundstedt",
+        "id": "2007_1_5",
         "language": "english",
-        "song_name": "The Arrival",
-        "sent_score": 56
+        "song_name": "Move",
+        "sent_score": 11
     },
     {
-        "artist": "Sebastian",
-        "id": "2007_3_6",
-        "language": "english",
-        "song_name": "When the Night Comes Falling",
-        "sent_score": -16
+        "artist": "Tommy Nilsson",
+        "id": "2007_1_6",
+        "language": "swedish",
+        "song_name": "Jag tror på människan",
+        "sent_score": 11
     },
     {
-        "artist": "Sarah Dawn Finer",
-        "id": "2007_4_6",
+        "artist": "Emilè Azar",
+        "id": "2007_4_2",
+        "language": "swedish",
+        "song_name": "Vi hade nåt",
+        "sent_score": 11
+    },
+    {
+        "artist": "Amy Diamond",
+        "id": "2009_2_6",
         "language": "english",
-        "song_name": "I Remember Love",
-        "sent_score": 53
+        "song_name": "It's My Life",
+        "sent_score": 11
+    },
+    {
+        "artist": "Anders Ekborg",
+        "id": "2010_1_5",
+        "language": "english",
+        "song_name": "The Saviour (Il Salvatore)",
+        "sent_score": 11
+    },
+    {
+        "artist": "Anna-Maria Espinosa",
+        "id": "2010_2_3",
+        "language": "swedish",
+        "song_name": "Innan alla ljusen brunnit ut",
+        "sent_score": 11
+    },
+    {
+        "artist": "Peter Jöback",
+        "id": "2010_4_8",
+        "language": "english",
+        "song_name": "Hollow",
+        "sent_score": 11
+    },
+    {
+        "artist": "Swingfly",
+        "id": "2011_1_2",
+        "language": "english",
+        "song_name": "Me and My Drum",
+        "sent_score": 11
+    },
+    {
+        "artist": "Sylvester Schlegel",
+        "id": "2014_1_7",
+        "language": "swedish",
+        "song_name": "Bygdens son",
+        "sent_score": 11
+    },
+    {
+        "artist": "Poets",
+        "id": "2002_2_1",
+        "language": "english",
+        "song_name": "What Difference Does It Make?",
+        "sent_score": 10
+    },
+    {
+        "artist": "Sarek",
+        "id": "2004_1_3",
+        "language": "swedish",
+        "song_name": "Älvorna",
+        "sent_score": 10
+    },
+    {
+        "artist": "Elysion",
+        "id": "2006_3_6",
+        "language": "english",
+        "song_name": "Golden Star",
+        "sent_score": 10
+    },
+    {
+        "artist": "Sanna Nielsen",
+        "id": "2007_4_3",
+        "language": "swedish",
+        "song_name": "Vågar du, vågar jag",
+        "sent_score": 10
+    },
+    {
+        "artist": "Linda Pritchard",
+        "id": "2010_1_3",
+        "language": "english",
+        "song_name": "You're Making Me Hot-Hot-Hot",
+        "sent_score": 10
+    },
+    {
+        "artist": "Jessica Andersson",
+        "id": "2010_1_6",
+        "language": "english",
+        "song_name": "I Did It for Love",
+        "sent_score": 10
     },
     {
         "artist": "Andreas Johnson",
-        "id": "2007_4_8",
+        "id": "2012_3_6",
         "language": "english",
-        "song_name": "A Little Bit of Love",
-        "sent_score": 29
+        "song_name": "Lovelight",
+        "sent_score": 10
+    },
+    {
+        "artist": "OPA",
+        "id": "2012_4_2",
+        "language": "swedish",
+        "song_name": "Allting blir bra igen",
+        "sent_score": 10
+    },
+    {
+        "artist": "LaGaylia",
+        "id": "2005_3_4",
+        "language": "english",
+        "song_name": "Nothing at all",
+        "sent_score": 9
     },
     {
         "artist": "E-Type & The Poodles",
@@ -658,11 +1386,179 @@
         "sent_score": 9
     },
     {
-        "artist": "Velvet",
-        "id": "2008_1_3",
+        "artist": "Malena Ernman",
+        "id": "2009_4_8",
         "language": "english",
-        "song_name": "Deja Vû",
-        "sent_score": 20
+        "song_name": "La Voix",
+        "sent_score": 9
+    },
+    {
+        "artist": "Erik Linder",
+        "id": "2010_3_4",
+        "language": "swedish",
+        "song_name": "Hur kan jag tro på kärlek",
+        "sent_score": 9
+    },
+    {
+        "artist": "Anders Fernette",
+        "id": "2011_4_5",
+        "language": "english",
+        "song_name": "Run",
+        "sent_score": 9
+    },
+    {
+        "artist": "Mary N'diaye",
+        "id": "2013_1_4",
+        "language": "swedish",
+        "song_name": "Gosa",
+        "sent_score": 9
+    },
+    {
+        "artist": "Sanna Nielsen",
+        "id": "2003_2_2",
+        "language": "swedish",
+        "song_name": "Hela världen för mig",
+        "sent_score": 8
+    },
+    {
+        "artist": "Bubbles",
+        "id": "2004_3_1",
+        "language": "english",
+        "song_name": "Blow the Spot",
+        "sent_score": 8
+    },
+    {
+        "artist": "Fre",
+        "id": "2004_4_6",
+        "language": "swedish",
+        "song_name": "Äntligen",
+        "sent_score": 8
+    },
+    {
+        "artist": "Jessica Andersson",
+        "id": "2007_2_6",
+        "language": "swedish",
+        "song_name": "Kom",
+        "sent_score": 8
+    },
+    {
+        "artist": "Alexander Schöld",
+        "id": "2008_2_4",
+        "language": "swedish",
+        "song_name": "Den första svalan",
+        "sent_score": 8
+    },
+    {
+        "artist": "Andra generationen",
+        "id": "2008_2_7",
+        "language": "swedish",
+        "song_name": "Kebabpizza Slivovitza",
+        "sent_score": 8
+    },
+    {
+        "artist": "Scotts",
+        "id": "2009_1_4",
+        "language": "swedish",
+        "song_name": "Jag tror på oss",
+        "sent_score": 8
+    },
+    {
+        "artist": "Sara Varga",
+        "id": "2011_3_7",
+        "language": "swedish",
+        "song_name": "Spring för livet",
+        "sent_score": 8
+    },
+    {
+        "artist": "Top Cats",
+        "id": "2012_2_2",
+        "language": "english",
+        "song_name": "Baby Doll",
+        "sent_score": 8
+    },
+    {
+        "artist": "Timoteij",
+        "id": "2012_2_5",
+        "language": "swedish",
+        "song_name": "Stormande hav",
+        "sent_score": 8
+    },
+    {
+        "artist": "Anton Ewald",
+        "id": "2013_2_1",
+        "language": "english",
+        "song_name": "Begging",
+        "sent_score": 8
+    },
+    {
+        "artist": "Joacim Cans",
+        "id": "2013_2_3",
+        "language": "swedish",
+        "song_name": "Annelie",
+        "sent_score": 8
+    },
+    {
+        "artist": "Ravaillacz",
+        "id": "2013_3_3",
+        "language": "swedish",
+        "song_name": "En riktig jävla schlager",
+        "sent_score": 8
+    },
+    {
+        "artist": "Martin Stenmarck",
+        "id": "2014_2_8",
+        "language": "swedish",
+        "song_name": "När änglarna går hem",
+        "sent_score": 8
+    },
+    {
+        "artist": "Josef Johansson",
+        "id": "2014_4_5",
+        "language": "swedish",
+        "song_name": "Hela natten",
+        "sent_score": 8
+    },
+    {
+        "artist": "Fame",
+        "id": "2004_2_3",
+        "language": "swedish",
+        "song_name": "Vindarna vänder oss",
+        "sent_score": 7
+    },
+    {
+        "artist": "Josefin Nilsson",
+        "id": "2005_2_5",
+        "language": "swedish",
+        "song_name": "Med hjärtats egna ord",
+        "sent_score": 7
+    },
+    {
+        "artist": "Dilba",
+        "id": "2011_1_1",
+        "language": "english",
+        "song_name": "Try Again",
+        "sent_score": 7
+    },
+    {
+        "artist": "Anniela",
+        "id": "2011_2_7",
+        "language": "swedish",
+        "song_name": "Elektrisk",
+        "sent_score": 7
+    },
+    {
+        "artist": "Martin Rolinski",
+        "id": "2013_3_5",
+        "language": "english",
+        "song_name": "In And out of Love",
+        "sent_score": 7
+    },
+    {
+        "artist": "Petra Nielsen",
+        "id": "2004_1_8",
+        "language": "english",
+        "song_name": "Tango! Tango!",
+        "sent_score": 6
     },
     {
         "artist": "Brandur",
@@ -672,32 +1568,242 @@
         "sent_score": 6
     },
     {
-        "artist": "Michael Michailoff",
-        "id": "2008_1_5",
+        "artist": "Christian Walz",
+        "id": "2011_2_8",
         "language": "english",
-        "song_name": "That's Love",
-        "sent_score": 45
+        "song_name": "Like Suicide",
+        "sent_score": 6
     },
     {
-        "artist": "Amy Diamond",
-        "id": "2008_1_6",
+        "artist": "State of Drama",
+        "id": "2014_3_5",
         "language": "english",
-        "song_name": "Thank You",
-        "sent_score": 44
+        "song_name": "All We Are",
+        "sent_score": 6
     },
     {
-        "artist": "Christer Sjögren",
-        "id": "2008_1_8",
+        "artist": "Shirley Clamp",
+        "id": "2003_3_7",
         "language": "english",
-        "song_name": "I Love Europe",
-        "sent_score": 60
+        "song_name": "Mr. Memory",
+        "sent_score": 5
     },
     {
-        "artist": "Ola",
-        "id": "2008_2_1",
+        "artist": "Sandra Dahlberg",
+        "id": "2004_3_4",
+        "language": "swedish",
+        "song_name": "Här stannar jag kvar",
+        "sent_score": 5
+    },
+    {
+        "artist": "Autolove",
+        "id": "2004_3_7",
         "language": "english",
-        "song_name": "Love in Stereo",
-        "sent_score": 26
+        "song_name": "Bulletproof Heart",
+        "sent_score": 5
+    },
+    {
+        "artist": "Pandora",
+        "id": "2004_4_5",
+        "language": "english",
+        "song_name": "Runaway",
+        "sent_score": 5
+    },
+    {
+        "artist": "Nordman",
+        "id": "2005_1_7",
+        "language": "swedish",
+        "song_name": "Ödet var min väg",
+        "sent_score": 5
+    },
+    {
+        "artist": "Nanne Grönvall",
+        "id": "2005_4_6",
+        "language": "swedish",
+        "song_name": "Håll om mig",
+        "sent_score": 5
+    },
+    {
+        "artist": "Shirley's Angels",
+        "id": "2011_3_5",
+        "language": "english",
+        "song_name": "I Thought It Was Forever",
+        "sent_score": 5
+    },
+    {
+        "artist": "Lotta Engberg & Christer Sjögren",
+        "id": "2012_4_4",
+        "language": "english",
+        "song_name": "Don't Let Me Down",
+        "sent_score": 5
+    },
+    {
+        "artist": "Alvaro Estrella",
+        "id": "2014_1_5",
+        "language": "english",
+        "song_name": "Bedroom",
+        "sent_score": 5
+    },
+    {
+        "artist": "Pink Pistols",
+        "id": "2014_2_5",
+        "language": "english",
+        "song_name": "I am somebody",
+        "sent_score": 5
+    },
+    {
+        "artist": "Baccara",
+        "id": "2004_2_2",
+        "language": "english",
+        "song_name": "Soy tu Venus",
+        "sent_score": 4
+    },
+    {
+        "artist": "Anne-Lie Rydé",
+        "id": "2005_4_1",
+        "language": "swedish",
+        "song_name": "Så nära",
+        "sent_score": 4
+    },
+    {
+        "artist": "Patrik Isaksson",
+        "id": "2006_3_7",
+        "language": "swedish",
+        "song_name": "Faller du så faller jag",
+        "sent_score": 4
+    },
+    {
+        "artist": "Frida Muranius & Headline",
+        "id": "2008_3_3",
+        "language": "swedish",
+        "song_name": "Upp o hoppa",
+        "sent_score": 4
+    },
+    {
+        "artist": "Afro-Dite",
+        "id": "2012_1_4",
+        "language": "english",
+        "song_name": "The Boy Can Dance",
+        "sent_score": 4
+    },
+    {
+        "artist": "Thorsten Flinck & Revolutionsorkestern",
+        "id": "2012_1_7",
+        "language": "swedish",
+        "song_name": "Jag reser mig igen",
+        "sent_score": 4
+    },
+    {
+        "artist": "Hanna Lindblad",
+        "id": "2012_4_5",
+        "language": "english",
+        "song_name": "Goosebumps",
+        "sent_score": 4
+    },
+    {
+        "artist": "Maarja",
+        "id": "2003_4_4",
+        "language": "english",
+        "song_name": "He Is Always On My Mind",
+        "sent_score": 3
+    },
+    {
+        "artist": "Andrés Esteche",
+        "id": "2004_4_8",
+        "language": "english",
+        "song_name": "Olé olé",
+        "sent_score": 3
+    },
+    {
+        "artist": "Kayo",
+        "id": "2006_3_8",
+        "language": "swedish",
+        "song_name": "Innan natten är över",
+        "sent_score": 3
+    },
+    {
+        "artist": "Shirley Clamp",
+        "id": "2009_1_3",
+        "language": "swedish",
+        "song_name": "Med hjärtat fyllt av ljus",
+        "sent_score": 3
+    },
+    {
+        "artist": "Sonja Aldén",
+        "id": "2012_2_3",
+        "language": "swedish",
+        "song_name": "I din himmel",
+        "sent_score": 3
+    },
+    {
+        "artist": "Eric Gadd",
+        "id": "2013_1_5",
+        "language": "swedish",
+        "song_name": "Vi kommer aldrig att förlora",
+        "sent_score": 3
+    },
+    {
+        "artist": "Michael Feiner & Caisa",
+        "id": "2013_1_8",
+        "language": "english",
+        "song_name": "We're Still Kids",
+        "sent_score": 3
+    },
+    {
+        "artist": "Felicia Olsson",
+        "id": "2013_2_2",
+        "language": "english",
+        "song_name": "Make Me No 1",
+        "sent_score": 3
+    },
+    {
+        "artist": "CajsaStina Åkerström",
+        "id": "2014_3_6",
+        "language": "swedish",
+        "song_name": "En enkel sång",
+        "sent_score": 3
+    },
+    {
+        "artist": "Barbados",
+        "id": "2002_1_3",
+        "language": "swedish",
+        "song_name": "Världen utanför",
+        "sent_score": 2
+    },
+    {
+        "artist": "Linda Bengtzing",
+        "id": "2006_1_5",
+        "language": "swedish",
+        "song_name": "Jag ljuger så bra",
+        "sent_score": 2
+    },
+    {
+        "artist": "Highlights & MiSt",
+        "id": "2010_2_4",
+        "language": "english",
+        "song_name": "Come and Get Me Now",
+        "sent_score": 2
+    },
+    {
+        "artist": "Anna Järvinen",
+        "id": "2013_1_7",
+        "language": "swedish",
+        "song_name": "Porslin",
+        "sent_score": 2
+    },
+    {
+        "artist": "The Refreshments",
+        "id": "2014_2_2",
+        "language": "english",
+        "song_name": "Hallelujah",
+        "sent_score": 2
+    },
+    {
+        "artist": "Kikki, Bettan & Lotta",
+        "id": "2002_4_6",
+        "language": "swedish",
+        "song_name": "Vem é dé du vill ha",
+        "sent_score": 1
     },
     {
         "artist": "The Nicole",
@@ -714,158 +1820,11 @@
         "sent_score": 1
     },
     {
-        "artist": "Sanna Nielsen",
-        "id": "2008_2_6",
-        "language": "english",
-        "song_name": "Empty Room",
-        "sent_score": -19
-    },
-    {
-        "artist": "Johnson & Häggkvist",
-        "id": "2008_2_8",
-        "language": "english",
-        "song_name": "One Love",
-        "sent_score": 38
-    },
-    {
-        "artist": "BWO",
-        "id": "2008_3_1",
-        "language": "english",
-        "song_name": "Lay Your Love on Me",
-        "sent_score": 66
-    },
-    {
-        "artist": "Thérèse Andersson",
-        "id": "2008_3_4",
-        "language": "english",
-        "song_name": "When You Need Me",
-        "sent_score": 19
-    },
-    {
-        "artist": "Caracola",
-        "id": "2008_3_6",
-        "language": "english",
-        "song_name": "Smiling in Love",
-        "sent_score": 110
-    },
-    {
-        "artist": "Eskobar",
-        "id": "2008_3_8",
-        "language": "english",
-        "song_name": "Hallelujah New World",
-        "sent_score": 21
-    },
-    {
-        "artist": "Calaisa",
-        "id": "2008_4_2",
-        "language": "english",
-        "song_name": "If I Could",
-        "sent_score": -8
-    },
-    {
-        "artist": "Daniel Mitsogiannis",
-        "id": "2008_4_3",
-        "language": "english",
-        "song_name": "Pame",
-        "sent_score": 12
-    },
-    {
-        "artist": "Sibel",
-        "id": "2008_4_6",
-        "language": "english",
-        "song_name": "That is Where I'll Go",
-        "sent_score": -5
-    },
-    {
-        "artist": "Charlotte Perrelli",
-        "id": "2008_4_8",
-        "language": "english",
-        "song_name": "Hero",
-        "sent_score": 82
-    },
-    {
-        "artist": "Nina Söderquist",
-        "id": "2009_1_1",
-        "language": "english",
-        "song_name": "Tick Tock",
-        "sent_score": -23
-    },
-    {
-        "artist": "Jonathan Fagerlund",
-        "id": "2009_1_2",
-        "language": "english",
-        "song_name": "Welcome to My Life",
-        "sent_score": 29
-    },
-    {
-        "artist": "Emilia",
-        "id": "2009_1_5",
-        "language": "english",
-        "song_name": "You're My World",
-        "sent_score": 49
-    },
-    {
-        "artist": "Alcazar",
-        "id": "2009_1_6",
-        "language": "english",
-        "song_name": "Stay the Night",
-        "sent_score": 14
-    },
-    {
-        "artist": "Marie Serneholt",
-        "id": "2009_1_8",
-        "language": "english",
-        "song_name": "Disconnect Me",
-        "sent_score": -2
-    },
-    {
-        "artist": "Lili & Susie",
-        "id": "2009_2_1",
-        "language": "english",
-        "song_name": "Show Me Heaven",
-        "sent_score": 40
-    },
-    {
-        "artist": "H.E.A.T.",
-        "id": "2009_2_4",
-        "language": "english",
-        "song_name": "1000 Miles",
-        "sent_score": -3
-    },
-    {
-        "artist": "Amy Diamond",
-        "id": "2009_2_6",
-        "language": "english",
-        "song_name": "It's My Life",
-        "sent_score": 11
-    },
-    {
-        "artist": "Cookies 'N' Beans",
-        "id": "2009_2_7",
-        "language": "english",
-        "song_name": "What If",
-        "sent_score": -12
-    },
-    {
-        "artist": "Måns Zelmerlöw",
-        "id": "2009_2_8",
-        "language": "english",
-        "song_name": "Hope & Glory",
-        "sent_score": 40
-    },
-    {
-        "artist": "Velvet",
-        "id": "2009_3_1",
-        "language": "english",
-        "song_name": "The Queen",
-        "sent_score": 20
-    },
-    {
-        "artist": "Rigo & The Topaz Sound & Red Fox",
-        "id": "2009_3_2",
-        "language": "english",
-        "song_name": "I Got U",
-        "sent_score": 19
+        "artist": "Mickey Huskic",
+        "id": "2008_3_2",
+        "language": "slovenian-iso8859_2",
+        "song_name": "Izdajice",
+        "sent_score": 1
     },
     {
         "artist": "E.M.D.",
@@ -875,116 +1834,193 @@
         "sent_score": 1
     },
     {
-        "artist": "BWO",
-        "id": "2009_3_8",
-        "language": "english",
-        "song_name": "You're Not Alone",
-        "sent_score": -48
+        "artist": "Zoë",
+        "id": "2002_1_6",
+        "language": "",
+        "song_name": "Hollywood-do",
+        "sent_score": 0
     },
     {
-        "artist": "Agnes",
-        "id": "2009_4_1",
-        "language": "english",
-        "song_name": "Love Love Love",
-        "sent_score": 84
+        "artist": "Richard Sköld",
+        "id": "2002_1_7",
+        "language": "",
+        "song_name": "En värld som alltid brinner",
+        "sent_score": 0
     },
     {
-        "artist": "Star Pilots",
-        "id": "2009_4_2",
-        "language": "english",
-        "song_name": "Higher",
-        "sent_score": 16
+        "artist": "Jennifer Newberry",
+        "id": "2002_2_2",
+        "language": "",
+        "song_name": "Ingenting ingenting",
+        "sent_score": 0
     },
     {
-        "artist": "Anna Sahlene & Maria Haukaas Storeng",
-        "id": "2009_4_4",
-        "language": "english",
-        "song_name": "Killing Me Tenderly",
-        "sent_score": -19
+        "artist": "Javiera",
+        "id": "2002_2_3",
+        "language": "",
+        "song_name": "No hay nada más",
+        "sent_score": 0
     },
     {
-        "artist": "Sarah Dawn Finer",
-        "id": "2009_4_6",
-        "language": "english",
-        "song_name": "Moving On",
-        "sent_score": -7
+        "artist": "Jakob Stadell & Voice Boys",
+        "id": "2002_2_6",
+        "language": "",
+        "song_name": "Ge mig mitt hjärta tillbaka",
+        "sent_score": 0
     },
     {
-        "artist": "Malena Ernman",
-        "id": "2009_4_8",
-        "language": "english",
-        "song_name": "La Voix",
-        "sent_score": 9
+        "artist": "Tove Jaarnek",
+        "id": "2002_3_1",
+        "language": "",
+        "song_name": "Back Again",
+        "sent_score": 0
     },
     {
-        "artist": "Ola Svensson",
-        "id": "2010_1_1",
-        "language": "english",
-        "song_name": "Unstoppable",
-        "sent_score": 13
+        "artist": "Linda Grip",
+        "id": "2002_3_3",
+        "language": "",
+        "song_name": "You're the Best Thing",
+        "sent_score": 0
     },
     {
-        "artist": "Jenny Silver",
-        "id": "2010_1_2",
-        "language": "english",
-        "song_name": "A Place to Stay",
-        "sent_score": -2
+        "artist": "Arvingarna",
+        "id": "2002_3_4",
+        "language": "",
+        "song_name": "Ingenting är större än vi",
+        "sent_score": 0
     },
     {
-        "artist": "Linda Pritchard",
-        "id": "2010_1_3",
-        "language": "english",
-        "song_name": "You're Making Me Hot-Hot-Hot",
-        "sent_score": 10
+        "artist": "Rolf Carlsson",
+        "id": "2002_3_6",
+        "language": "",
+        "song_name": "Tidig är tiden",
+        "sent_score": 0
     },
     {
-        "artist": "Pain of Salvation",
-        "id": "2010_1_4",
-        "language": "english",
-        "song_name": "Road Salt",
-        "sent_score": -16
+        "artist": "Carina Jaarnek",
+        "id": "2002_4_1",
+        "language": "",
+        "song_name": "Son of a Liar",
+        "sent_score": 0
     },
     {
-        "artist": "Anders Ekborg",
-        "id": "2010_1_5",
-        "language": "english",
-        "song_name": "The Saviour (Il Salvatore)",
-        "sent_score": 11
+        "artist": "Niklas Andersson",
+        "id": "2002_4_3",
+        "language": "",
+        "song_name": "I Want You",
+        "sent_score": 0
     },
     {
-        "artist": "Jessica Andersson",
-        "id": "2010_1_6",
-        "language": "english",
-        "song_name": "I Did It for Love",
-        "sent_score": 10
+        "artist": "The Honeydrops",
+        "id": "2002_4_5",
+        "language": "",
+        "song_name": "It Takes 2",
+        "sent_score": 0
     },
     {
-        "artist": "Salem Al Fakir",
-        "id": "2010_1_8",
-        "language": "english",
-        "song_name": "Keep On Walking",
-        "sent_score": 13
+        "artist": "Fredrik Wännman",
+        "id": "2002_4_8",
+        "language": "",
+        "song_name": "Vackrare nu",
+        "sent_score": 0
     },
     {
-        "artist": "Eric Saade",
-        "id": "2010_2_1",
-        "language": "english",
-        "song_name": "Manboy",
-        "sent_score": 29
+        "artist": "Markus Landgren",
+        "id": "2003_1_7",
+        "language": "",
+        "song_name": "Television",
+        "sent_score": 0
     },
     {
-        "artist": "Highlights & MiSt",
-        "id": "2010_2_4",
-        "language": "english",
-        "song_name": "Come and Get Me Now",
-        "sent_score": 2
+        "artist": "Pandora",
+        "id": "2003_2_4",
+        "language": "",
+        "song_name": "You",
+        "sent_score": 0
     },
     {
-        "artist": "Pauline",
-        "id": "2010_2_5",
-        "language": "english",
-        "song_name": "Sucker for Love",
-        "sent_score": 63
+        "artist": "Fernando Brito",
+        "id": "2003_4_2",
+        "language": "",
+        "song_name": "No dudes en llamarme",
+        "sent_score": 0
+    },
+    {
+        "artist": "Mikael Erlandsson",
+        "id": "2003_4_7",
+        "language": "",
+        "song_name": "Tills jag mötte dig",
+        "sent_score": 0
+    },
+    {
+        "artist": "Group Avalon",
+        "id": "2005_2_3",
+        "language": "",
+        "song_name": "Big up",
+        "sent_score": 0
+    },
+    {
+        "artist": "Kwanzaa",
+        "id": "2005_3_2",
+        "language": "",
+        "song_name": "Lovin' Your Feen",
+        "sent_score": 0
+    },
+    {
+        "artist": "Josef",
+        "id": "2005_3_5",
+        "language": "",
+        "song_name": "Rain",
+        "sent_score": 0
+    },
+    {
+        "artist": "K2 & Alannah Myles",
+        "id": "2005_3_6",
+        "language": "",
+        "song_name": "We Got It All",
+        "sent_score": 0
+    },
+    {
+        "artist": "Simone Moreno",
+        "id": "2006_1_1",
+        "language": "",
+        "song_name": "Aiayeh (The Music of the Samba)",
+        "sent_score": 0
+    },
+    {
+        "artist": "The Elephantz",
+        "id": "2006_2_2",
+        "language": "",
+        "song_name": "Oh Yeah",
+        "sent_score": 0
+    },
+    {
+        "artist": "Addis Black Widow",
+        "id": "2007_1_4",
+        "language": "",
+        "song_name": "Clubbin",
+        "sent_score": 0
+    },
+    {
+        "artist": "Verona",
+        "id": "2007_4_7",
+        "language": "italian",
+        "song_name": "La musica",
+        "sent_score": 0
+    },
+    {
+        "artist": "Jennifer Brown",
+        "id": "2009_2_3",
+        "language": "",
+        "song_name": "Never Been Here Before",
+        "sent_score": 0
+    },
+    {
+        "artist": "Sofia",
+        "id": "2009_3_7",
+        "language": "esperanto",
+        "song_name": "Alla",
+        "sent_score": 0
     },
     {
         "artist": "Andreas Johnson",
@@ -994,235 +2030,11 @@
         "sent_score": 0
     },
     {
-        "artist": "Hanna Lindblad",
-        "id": "2010_2_8",
-        "language": "english",
-        "song_name": "Manipulated",
-        "sent_score": -3
-    },
-    {
-        "artist": "Alcazar",
-        "id": "2010_3_1",
-        "language": "english",
-        "song_name": "Headlines",
-        "sent_score": -16
-    },
-    {
-        "artist": "Johannes Bah Kuhnke",
-        "id": "2010_3_2",
-        "language": "english",
-        "song_name": "Tonight",
-        "sent_score": -39
-    },
-    {
-        "artist": "Elin Lanto",
-        "id": "2010_3_3",
-        "language": "english",
-        "song_name": "Doctor Doctor",
-        "sent_score": -8
-    },
-    {
-        "artist": "Darin",
-        "id": "2010_3_7",
-        "language": "english",
-        "song_name": "You're Out of My Life",
-        "sent_score": -52
-    },
-    {
-        "artist": "Crucified Barbara",
-        "id": "2010_3_8",
-        "language": "english",
-        "song_name": "Heaven or Hell",
-        "sent_score": -25
-    },
-    {
-        "artist": "Sibel",
-        "id": "2010_4_1",
-        "language": "english",
-        "song_name": "Stop",
-        "sent_score": -34
-    },
-    {
-        "artist": "NEO",
-        "id": "2010_4_3",
-        "language": "english",
-        "song_name": "Human Frontier",
-        "sent_score": -13
-    },
-    {
-        "artist": "Lovestoned",
-        "id": "2010_4_4",
-        "language": "english",
-        "song_name": "Thursdays",
-        "sent_score": -11
-    },
-    {
-        "artist": "Anna Bergendahl",
-        "id": "2010_4_5",
-        "language": "english",
-        "song_name": "This Is My Life",
-        "sent_score": -6
-    },
-    {
-        "artist": "Peter Jöback",
-        "id": "2010_4_8",
-        "language": "english",
-        "song_name": "Hollow",
-        "sent_score": 11
-    },
-    {
-        "artist": "Dilba",
-        "id": "2011_1_1",
-        "language": "english",
-        "song_name": "Try Again",
-        "sent_score": 7
-    },
-    {
-        "artist": "Swingfly",
-        "id": "2011_1_2",
-        "language": "english",
-        "song_name": "Me and My Drum",
-        "sent_score": 11
-    },
-    {
-        "artist": "Jenny Silver",
-        "id": "2011_1_3",
-        "language": "english",
-        "song_name": "Something in Your Eyes",
-        "sent_score": 29
-    },
-    {
-        "artist": "Jonas Matsson",
-        "id": "2011_1_4",
-        "language": "english",
-        "song_name": "On my own",
-        "sent_score": 31
-    },
-    {
-        "artist": "Le Kid",
-        "id": "2011_1_5",
-        "language": "english",
-        "song_name": "Oh My God",
-        "sent_score": 65
-    },
-    {
-        "artist": "Rasmus Viberg",
-        "id": "2011_1_6",
-        "language": "english",
-        "song_name": "Social Butterfly",
-        "sent_score": -28
-    },
-    {
-        "artist": "Danny Saucedo",
-        "id": "2011_1_8",
-        "language": "english",
-        "song_name": "In the Club",
-        "sent_score": -4
-    },
-    {
-        "artist": "Brolle",
-        "id": "2011_2_1",
-        "language": "english",
-        "song_name": "7 Days And 7 Nights",
-        "sent_score": 18
-    },
-    {
-        "artist": "Loreen",
-        "id": "2011_2_2",
-        "language": "english",
-        "song_name": "My Heart is Refusing Me",
-        "sent_score": -30
-    },
-    {
-        "artist": "Sanna Nielsen",
-        "id": "2011_2_5",
-        "language": "english",
-        "song_name": "I'm in Love",
-        "sent_score": 63
-    },
-    {
-        "artist": "The Moniker",
-        "id": "2011_2_6",
-        "language": "english",
-        "song_name": "Oh My God!",
-        "sent_score": 89
-    },
-    {
-        "artist": "Christian Walz",
-        "id": "2011_2_8",
-        "language": "english",
-        "song_name": "Like Suicide",
-        "sent_score": 6
-    },
-    {
-        "artist": "Linda Sundblad",
-        "id": "2011_3_1",
-        "language": "english",
-        "song_name": "Lucky You",
-        "sent_score": 96
-    },
-    {
-        "artist": "Sara Lumholdt",
-        "id": "2011_3_3",
-        "language": "english",
-        "song_name": "Enemy",
-        "sent_score": -4
-    },
-    {
-        "artist": "The Playtones",
-        "id": "2011_3_4",
-        "language": "english",
-        "song_name": "The King",
-        "sent_score": -4
-    },
-    {
-        "artist": "Shirley's Angels",
-        "id": "2011_3_5",
-        "language": "english",
-        "song_name": "I Thought It Was Forever",
-        "sent_score": 5
-    },
-    {
-        "artist": "Sebastian",
-        "id": "2011_3_6",
-        "language": "english",
-        "song_name": "No One Else Could",
-        "sent_score": -14
-    },
-    {
-        "artist": "Eric Saade",
-        "id": "2011_3_8",
-        "language": "english",
-        "song_name": "Popular",
-        "sent_score": 61
-    },
-    {
-        "artist": "Melody Club",
-        "id": "2011_4_1",
-        "language": "english",
-        "song_name": "The Hunter",
-        "sent_score": 31
-    },
-    {
-        "artist": "Julia Alvgard",
-        "id": "2011_4_2",
-        "language": "english",
-        "song_name": "Better Or Worse",
-        "sent_score": 44
-    },
-    {
-        "artist": "Linda Pritchard",
-        "id": "2011_4_4",
-        "language": "english",
-        "song_name": "Alive",
-        "sent_score": 43
-    },
-    {
-        "artist": "Anders Fernette",
-        "id": "2011_4_5",
-        "language": "english",
-        "song_name": "Run",
-        "sent_score": 9
+        "artist": "Timoteij",
+        "id": "2010_3_6",
+        "language": "swedish",
+        "song_name": "Kom",
+        "sent_score": 0
     },
     {
         "artist": "Nicke Borg",
@@ -1232,242 +2044,11 @@
         "sent_score": 0
     },
     {
-        "artist": "Love Generation",
-        "id": "2011_4_8",
-        "language": "english",
-        "song_name": "Dance Alone",
-        "sent_score": -25
-    },
-    {
-        "artist": "The Moniker",
-        "id": "2012_1_3",
-        "language": "english",
-        "song_name": "I Want To Be Chris Isaak (This Is Just the Beginning)",
-        "sent_score": 22
-    },
-    {
-        "artist": "Afro-Dite",
-        "id": "2012_1_4",
-        "language": "english",
-        "song_name": "The Boy Can Dance",
-        "sent_score": 4
-    },
-    {
-        "artist": "Dead by April",
-        "id": "2012_1_5",
-        "language": "english",
-        "song_name": "Mystery",
-        "sent_score": -9
-    },
-    {
-        "artist": "Marie Serneholt",
-        "id": "2012_1_6",
-        "language": "english",
-        "song_name": "Salt & Pepper",
-        "sent_score": -24
-    },
-    {
-        "artist": "Loreen",
-        "id": "2012_1_8",
-        "language": "english",
-        "song_name": "Euphoria",
-        "sent_score": 35
-    },
-    {
-        "artist": "Ulrik Munther",
-        "id": "2012_2_1",
-        "language": "english",
-        "song_name": "Soldiers",
-        "sent_score": -11
-    },
-    {
-        "artist": "Top Cats",
-        "id": "2012_2_2",
-        "language": "english",
-        "song_name": "Baby Doll",
-        "sent_score": 8
-    },
-    {
         "artist": "David Lindgren",
         "id": "2012_2_6",
         "language": "english",
         "song_name": "Shout It Out",
         "sent_score": 0
-    },
-    {
-        "artist": "Youngblood",
-        "id": "2012_3_1",
-        "language": "english",
-        "song_name": "Youngblood",
-        "sent_score": 24
-    },
-    {
-        "artist": "Love Generation",
-        "id": "2012_3_4",
-        "language": "english",
-        "song_name": "Just A Little Bit",
-        "sent_score": -35
-    },
-    {
-        "artist": "Andreas Johnson",
-        "id": "2012_3_6",
-        "language": "english",
-        "song_name": "Lovelight",
-        "sent_score": 10
-    },
-    {
-        "artist": "Molly Sandén",
-        "id": "2012_3_7",
-        "language": "english",
-        "song_name": "Why Am I Crying",
-        "sent_score": -36
-    },
-    {
-        "artist": "Charlotte Perrelli",
-        "id": "2012_4_1",
-        "language": "english",
-        "song_name": "The Girl",
-        "sent_score": -17
-    },
-    {
-        "artist": "Dynazty",
-        "id": "2012_4_3",
-        "language": "english",
-        "song_name": "Land Of Broken Dreams",
-        "sent_score": -29
-    },
-    {
-        "artist": "Lotta Engberg & Christer Sjögren",
-        "id": "2012_4_4",
-        "language": "english",
-        "song_name": "Don't Let Me Down",
-        "sent_score": 5
-    },
-    {
-        "artist": "Hanna Lindblad",
-        "id": "2012_4_5",
-        "language": "english",
-        "song_name": "Goosebumps",
-        "sent_score": 4
-    },
-    {
-        "artist": "Lisa Miskovsky",
-        "id": "2012_4_7",
-        "language": "english",
-        "song_name": "Why Start a Fire",
-        "sent_score": 22
-    },
-    {
-        "artist": "Danny Saucedo",
-        "id": "2012_4_8",
-        "language": "english",
-        "song_name": "Amazing",
-        "sent_score": 114
-    },
-    {
-        "artist": "David Lindgren",
-        "id": "2013_1_1",
-        "language": "english",
-        "song_name": "Skyline",
-        "sent_score": 20
-    },
-    {
-        "artist": "Cookies 'N' Beans",
-        "id": "2013_1_2",
-        "language": "english",
-        "song_name": "Burning Flags",
-        "sent_score": -4
-    },
-    {
-        "artist": "Jay-Jay Johanson",
-        "id": "2013_1_3",
-        "language": "english",
-        "song_name": "Paris",
-        "sent_score": -28
-    },
-    {
-        "artist": "Yohio",
-        "id": "2013_1_6",
-        "language": "english",
-        "song_name": "Heartbreak Hotel",
-        "sent_score": 17
-    },
-    {
-        "artist": "Michael Feiner & Caisa",
-        "id": "2013_1_8",
-        "language": "english",
-        "song_name": "We're Still Kids",
-        "sent_score": 3
-    },
-    {
-        "artist": "Anton Ewald",
-        "id": "2013_2_1",
-        "language": "english",
-        "song_name": "Begging",
-        "sent_score": 8
-    },
-    {
-        "artist": "Felicia Olsson",
-        "id": "2013_2_2",
-        "language": "english",
-        "song_name": "Make Me No 1",
-        "sent_score": 3
-    },
-    {
-        "artist": "Swedish House Wives",
-        "id": "2013_2_4",
-        "language": "english",
-        "song_name": "On Top of the World",
-        "sent_score": 41
-    },
-    {
-        "artist": "Erik Segerstedt & Tone Damli",
-        "id": "2013_2_5",
-        "language": "english",
-        "song_name": "Hello Goodbye",
-        "sent_score": 18
-    },
-    {
-        "artist": "Louise Hoffsten",
-        "id": "2013_2_6",
-        "language": "english",
-        "song_name": "Only the Dead Fish Follow The Stream",
-        "sent_score": -14
-    },
-    {
-        "artist": "Eddie Razaz",
-        "id": "2013_3_1",
-        "language": "english",
-        "song_name": "Alibi",
-        "sent_score": -48
-    },
-    {
-        "artist": "Elin Petersson",
-        "id": "2013_3_2",
-        "language": "english",
-        "song_name": "Island",
-        "sent_score": -9
-    },
-    {
-        "artist": "Amanda Fondell",
-        "id": "2013_3_4",
-        "language": "english",
-        "song_name": "Dumb",
-        "sent_score": -9
-    },
-    {
-        "artist": "Martin Rolinski",
-        "id": "2013_3_5",
-        "language": "english",
-        "song_name": "In And out of Love",
-        "sent_score": 7
-    },
-    {
-        "artist": "State of Drama",
-        "id": "2013_3_7",
-        "language": "english",
-        "song_name": "Falling",
-        "sent_score": 19
     },
     {
         "artist": "Janet Leon",
@@ -1484,32 +2065,67 @@
         "sent_score": 0
     },
     {
-        "artist": "Lucia Piñera",
-        "id": "2013_4_2",
-        "language": "english",
-        "song_name": "Must Be Love",
-        "sent_score": 19
+        "artist": "Brandsta City Släckers",
+        "id": "2002_1_5",
+        "language": "swedish",
+        "song_name": "Kom och ta mig",
+        "sent_score": -1
     },
     {
-        "artist": "Robin Stjernberg",
-        "id": "2013_4_3",
+        "artist": "DeDe Lopez",
+        "id": "2003_1_2",
         "language": "english",
-        "song_name": "You",
-        "sent_score": -2
+        "song_name": "Someone, Somewhere, Someday",
+        "sent_score": -1
     },
     {
-        "artist": "Ralf Gyllenhammar",
-        "id": "2013_4_5",
+        "artist": "Méndez",
+        "id": "2003_1_3",
         "language": "english",
-        "song_name": "Bed on Fire",
-        "sent_score": -27
+        "song_name": "Carnaval",
+        "sent_score": -1
     },
     {
-        "artist": "Terese Fredenwall",
-        "id": "2013_4_7",
+        "artist": "Alive & Jessie Martins",
+        "id": "2003_1_4",
+        "language": "swedish",
+        "song_name": "Ingen annan",
+        "sent_score": -1
+    },
+    {
+        "artist": "Bubbles",
+        "id": "2003_4_3",
         "language": "english",
-        "song_name": "Breaking the Silence",
-        "sent_score": 13
+        "song_name": "TKO (Knock You Out)",
+        "sent_score": -1
+    },
+    {
+        "artist": "Lina Hedlund",
+        "id": "2003_4_6",
+        "language": "english",
+        "song_name": "Nothing Can Stop Me",
+        "sent_score": -1
+    },
+    {
+        "artist": "Magnus Carlsson",
+        "id": "2006_2_1",
+        "language": "swedish",
+        "song_name": "Lev livet!",
+        "sent_score": -1
+    },
+    {
+        "artist": "After Dark",
+        "id": "2007_4_5",
+        "language": "swedish",
+        "song_name": "(Åh) När ni tar saken i egna händer",
+        "sent_score": -1
+    },
+    {
+        "artist": "Getty Domein",
+        "id": "2010_3_5",
+        "language": "slovenian-ascii",
+        "song_name": "Yeba",
+        "sent_score": -1
     },
     {
         "artist": "Ulrik Munther",
@@ -1519,25 +2135,277 @@
         "sent_score": -1
     },
     {
-        "artist": "Yohio",
-        "id": "2014_1_1",
+        "artist": "Dr. Alban & Jessica Folcker",
+        "id": "2014_3_8",
         "language": "english",
-        "song_name": "To The End",
-        "sent_score": 46
+        "song_name": "Around the World",
+        "sent_score": -1
     },
     {
-        "artist": "Mahan Moin",
-        "id": "2014_1_2",
+        "artist": "Tom Nordahl",
+        "id": "2002_1_2",
         "language": "english",
-        "song_name": "Aleo",
-        "sent_score": 15
+        "song_name": "Blue as Her Angel Eyes",
+        "sent_score": -2
     },
     {
-        "artist": "Alvaro Estrella",
-        "id": "2014_1_5",
+        "artist": "Brandsta City Släckers",
+        "id": "2003_2_5",
+        "language": "swedish",
+        "song_name": "15 minuter",
+        "sent_score": -2
+    },
+    {
+        "artist": "Lotta Nilsson & Glenn Borgkvist",
+        "id": "2004_4_3",
+        "language": "swedish",
+        "song_name": "Boom bang-a-bang",
+        "sent_score": -2
+    },
+    {
+        "artist": "Cecilia Vennersten",
+        "id": "2005_1_2",
+        "language": "swedish",
+        "song_name": "Var mig nära",
+        "sent_score": -2
+    },
+    {
+        "artist": "Linda Bengtzing",
+        "id": "2005_1_4",
+        "language": "swedish",
+        "song_name": "Alla flickor",
+        "sent_score": -2
+    },
+    {
+        "artist": "Marie Serneholt",
+        "id": "2009_1_8",
         "language": "english",
-        "song_name": "Bedroom",
-        "sent_score": 5
+        "song_name": "Disconnect Me",
+        "sent_score": -2
+    },
+    {
+        "artist": "Jenny Silver",
+        "id": "2010_1_2",
+        "language": "english",
+        "song_name": "A Place to Stay",
+        "sent_score": -2
+    },
+    {
+        "artist": "Robin Stjernberg",
+        "id": "2013_4_3",
+        "language": "english",
+        "song_name": "You",
+        "sent_score": -2
+    },
+    {
+        "artist": "Shirley Clamp",
+        "id": "2014_3_4",
+        "language": "english",
+        "song_name": "Burning Alive",
+        "sent_score": -2
+    },
+    {
+        "artist": "Pandang",
+        "id": "2006_1_6",
+        "language": "swedish",
+        "song_name": "Kuddkrig",
+        "sent_score": -3
+    },
+    {
+        "artist": "Roger Pontare",
+        "id": "2006_4_1",
+        "language": "swedish",
+        "song_name": "Silverland",
+        "sent_score": -3
+    },
+    {
+        "artist": "H.E.A.T.",
+        "id": "2009_2_4",
+        "language": "english",
+        "song_name": "1000 Miles",
+        "sent_score": -3
+    },
+    {
+        "artist": "Hanna Lindblad",
+        "id": "2010_2_8",
+        "language": "english",
+        "song_name": "Manipulated",
+        "sent_score": -3
+    },
+    {
+        "artist": "Carolina Wallin Pérez",
+        "id": "2012_3_5",
+        "language": "swedish",
+        "song_name": "Sanningen",
+        "sent_score": -3
+    },
+    {
+        "artist": "Excellence",
+        "id": "2002_1_1",
+        "language": "english",
+        "song_name": "Last to Know",
+        "sent_score": -4
+    },
+    {
+        "artist": "Date",
+        "id": "2002_3_2",
+        "language": "swedish",
+        "song_name": "Det innersta rummet",
+        "sent_score": -4
+    },
+    {
+        "artist": "Solo",
+        "id": "2002_4_2",
+        "language": "english",
+        "song_name": "Ge mig himlen för en dag",
+        "sent_score": -4
+    },
+    {
+        "artist": "Emil Sigfridsson",
+        "id": "2004_3_2",
+        "language": "english",
+        "song_name": "Innan mörkret faller",
+        "sent_score": -4
+    },
+    {
+        "artist": "Fredrik Kempe & Sanna Nielsen",
+        "id": "2005_2_1",
+        "language": "swedish",
+        "song_name": "Du och jag mot världen",
+        "sent_score": -4
+    },
+    {
+        "artist": "Danny Saucedo",
+        "id": "2011_1_8",
+        "language": "english",
+        "song_name": "In the Club",
+        "sent_score": -4
+    },
+    {
+        "artist": "Sara Lumholdt",
+        "id": "2011_3_3",
+        "language": "english",
+        "song_name": "Enemy",
+        "sent_score": -4
+    },
+    {
+        "artist": "The Playtones",
+        "id": "2011_3_4",
+        "language": "english",
+        "song_name": "The King",
+        "sent_score": -4
+    },
+    {
+        "artist": "Mimi Oh",
+        "id": "2012_2_7",
+        "language": "swedish",
+        "song_name": "Det går för långsamt",
+        "sent_score": -4
+    },
+    {
+        "artist": "Cookies 'N' Beans",
+        "id": "2013_1_2",
+        "language": "english",
+        "song_name": "Burning Flags",
+        "sent_score": -4
+    },
+    {
+        "artist": "Ammotrack",
+        "id": "2014_4_4",
+        "language": "english",
+        "song_name": "Raise Your Hands",
+        "sent_score": -4
+    },
+    {
+        "artist": "Nina & Kim",
+        "id": "2004_1_1",
+        "language": "swedish",
+        "song_name": "En gång för alla",
+        "sent_score": -5
+    },
+    {
+        "artist": "Ainbusk",
+        "id": "2008_3_7",
+        "language": "swedish",
+        "song_name": "Jag saknar dig ibland",
+        "sent_score": -5
+    },
+    {
+        "artist": "Sibel",
+        "id": "2008_4_6",
+        "language": "english",
+        "song_name": "That is Where I'll Go",
+        "sent_score": -5
+    },
+    {
+        "artist": "Rikard Wolff & Sara Isaksson",
+        "id": "2013_2_7",
+        "language": "swedish",
+        "song_name": "En förlorad sommar",
+        "sent_score": -5
+    },
+    {
+        "artist": "Itchycoo",
+        "id": "2004_3_5",
+        "language": "english",
+        "song_name": "Super Mega Nova",
+        "sent_score": -6
+    },
+    {
+        "artist": "Mathias Holmgren",
+        "id": "2005_4_3",
+        "language": "swedish",
+        "song_name": "Långt bort om tid och rum",
+        "sent_score": -6
+    },
+    {
+        "artist": "Katrina & The Nameless",
+        "id": "2005_4_8",
+        "language": "english",
+        "song_name": "As If Tomorrow Will Never Come",
+        "sent_score": -6
+    },
+    {
+        "artist": "Sofia",
+        "id": "2007_1_7",
+        "language": "english",
+        "song_name": "Hypnotized",
+        "sent_score": -6
+    },
+    {
+        "artist": "Anna Bergendahl",
+        "id": "2010_4_5",
+        "language": "english",
+        "song_name": "This Is My Life",
+        "sent_score": -6
+    },
+    {
+        "artist": "Jan Johansen",
+        "id": "2002_4_7",
+        "language": "swedish",
+        "song_name": "Sista andetaget",
+        "sent_score": -7
+    },
+    {
+        "artist": "Anne-Lie Rydé",
+        "id": "2004_2_6",
+        "language": "swedish",
+        "song_name": "Säg att du har ångrat dig",
+        "sent_score": -7
+    },
+    {
+        "artist": "Lustans Lakejer",
+        "id": "2007_2_5",
+        "language": "swedish",
+        "song_name": "Allt vi en gång trodde på",
+        "sent_score": -7
+    },
+    {
+        "artist": "Sarah Dawn Finer",
+        "id": "2009_4_6",
+        "language": "english",
+        "song_name": "Moving On",
+        "sent_score": -7
     },
     {
         "artist": "Ellen Benediktson",
@@ -1547,39 +2415,396 @@
         "sent_score": -7
     },
     {
-        "artist": "Helena Paparizou",
-        "id": "2014_1_8",
+        "artist": "Méndez",
+        "id": "2002_1_8",
         "language": "english",
-        "song_name": "Survivor",
-        "sent_score": 33
+        "song_name": "Adrenaline",
+        "sent_score": -8
     },
     {
-        "artist": "J.E.M",
-        "id": "2014_2_1",
+        "artist": "Calaisa",
+        "id": "2008_4_2",
         "language": "english",
-        "song_name": "Love Trigger",
-        "sent_score": 80
+        "song_name": "If I Could",
+        "sent_score": -8
     },
     {
-        "artist": "The Refreshments",
-        "id": "2014_2_2",
+        "artist": "Elin Lanto",
+        "id": "2010_3_3",
         "language": "english",
-        "song_name": "Hallelujah",
-        "sent_score": 2
+        "song_name": "Doctor Doctor",
+        "sent_score": -8
     },
     {
-        "artist": "Manda",
-        "id": "2014_2_3",
+        "artist": "Dead by April",
+        "id": "2012_1_5",
         "language": "english",
-        "song_name": "Glow",
-        "sent_score": 26
+        "song_name": "Mystery",
+        "sent_score": -9
     },
     {
-        "artist": "Pink Pistols",
-        "id": "2014_2_5",
+        "artist": "Elin Petersson",
+        "id": "2013_3_2",
         "language": "english",
-        "song_name": "I am somebody",
-        "sent_score": 5
+        "song_name": "Island",
+        "sent_score": -9
+    },
+    {
+        "artist": "Amanda Fondell",
+        "id": "2013_3_4",
+        "language": "english",
+        "song_name": "Dumb",
+        "sent_score": -9
+    },
+    {
+        "artist": "Caroline af Ugglas",
+        "id": "2013_3_6",
+        "language": "swedish",
+        "song_name": "Hon har inte",
+        "sent_score": -9
+    },
+    {
+        "artist": "Sarek",
+        "id": "2003_3_4",
+        "language": "swedish",
+        "song_name": "Genom eld och vatten",
+        "sent_score": -10
+    },
+    {
+        "artist": "Pay TV",
+        "id": "2005_1_6",
+        "language": "english",
+        "song_name": "Refrain refrain",
+        "sent_score": -10
+    },
+    {
+        "artist": "Patrik Isaksson",
+        "id": "2008_3_5",
+        "language": "swedish",
+        "song_name": "Under mitt tunna skinn",
+        "sent_score": -10
+    },
+    {
+        "artist": "Jessica Andersson",
+        "id": "2006_3_4",
+        "language": "swedish",
+        "song_name": "Kalla nätter",
+        "sent_score": -11
+    },
+    {
+        "artist": "Lasse Lindh",
+        "id": "2008_2_2",
+        "language": "swedish",
+        "song_name": "Du behöver aldrig mer vara rädd",
+        "sent_score": -11
+    },
+    {
+        "artist": "Lovestoned",
+        "id": "2010_4_4",
+        "language": "english",
+        "song_name": "Thursdays",
+        "sent_score": -11
+    },
+    {
+        "artist": "Ulrik Munther",
+        "id": "2012_2_1",
+        "language": "english",
+        "song_name": "Soldiers",
+        "sent_score": -11
+    },
+    {
+        "artist": "Cookies 'N' Beans",
+        "id": "2009_2_7",
+        "language": "english",
+        "song_name": "What If",
+        "sent_score": -12
+    },
+    {
+        "artist": "Friends",
+        "id": "2002_4_4",
+        "language": "english",
+        "song_name": "The One That You Need",
+        "sent_score": -13
+    },
+    {
+        "artist": "Magnus Uggla",
+        "id": "2007_4_1",
+        "language": "swedish",
+        "song_name": "För kung och fosterland",
+        "sent_score": -13
+    },
+    {
+        "artist": "NEO",
+        "id": "2010_4_3",
+        "language": "english",
+        "song_name": "Human Frontier",
+        "sent_score": -13
+    },
+    {
+        "artist": "Abalone Dots",
+        "id": "2012_1_2",
+        "language": "swedish",
+        "song_name": "På väg",
+        "sent_score": -13
+    },
+    {
+        "artist": "Ace Wilder",
+        "id": "2014_3_7",
+        "language": "english",
+        "song_name": "Busy Doin' Nothin'",
+        "sent_score": -13
+    },
+    {
+        "artist": "Barbados",
+        "id": "2003_3_1",
+        "language": "english",
+        "song_name": "Bye, Bye",
+        "sent_score": -14
+    },
+    {
+        "artist": "Noll disciplin",
+        "id": "2010_4_7",
+        "language": "swedish",
+        "song_name": "Idiot",
+        "sent_score": -14
+    },
+    {
+        "artist": "Sebastian",
+        "id": "2011_3_6",
+        "language": "english",
+        "song_name": "No One Else Could",
+        "sent_score": -14
+    },
+    {
+        "artist": "Louise Hoffsten",
+        "id": "2013_2_6",
+        "language": "english",
+        "song_name": "Only the Dead Fish Follow The Stream",
+        "sent_score": -14
+    },
+    {
+        "artist": "Bodies Without Organs",
+        "id": "2005_2_7",
+        "language": "english",
+        "song_name": "Gone",
+        "sent_score": -15
+    },
+    {
+        "artist": "Laila Adéle",
+        "id": "2006_4_2",
+        "language": "english",
+        "song_name": "Don't Try To Stop Me",
+        "sent_score": -15
+    },
+    {
+        "artist": "Caroline af Ugglas",
+        "id": "2007_4_4",
+        "language": "swedish",
+        "song_name": "Tror på dig",
+        "sent_score": -15
+    },
+    {
+        "artist": "Afro-Dite",
+        "id": "2002_2_7",
+        "language": "english",
+        "song_name": "Never Let It Go",
+        "sent_score": -16
+    },
+    {
+        "artist": "Sebastian",
+        "id": "2007_3_6",
+        "language": "english",
+        "song_name": "When the Night Comes Falling",
+        "sent_score": -16
+    },
+    {
+        "artist": "Pain of Salvation",
+        "id": "2010_1_4",
+        "language": "english",
+        "song_name": "Road Salt",
+        "sent_score": -16
+    },
+    {
+        "artist": "Frispråkarn",
+        "id": "2010_1_7",
+        "language": "swedish",
+        "song_name": "Singel",
+        "sent_score": -16
+    },
+    {
+        "artist": "Alcazar",
+        "id": "2010_3_1",
+        "language": "english",
+        "song_name": "Headlines",
+        "sent_score": -16
+    },
+    {
+        "artist": "Andreas Lundstedt",
+        "id": "2012_2_4",
+        "language": "swedish",
+        "song_name": "Aldrig aldrig",
+        "sent_score": -16
+    },
+    {
+        "artist": "Da Buzz",
+        "id": "2003_1_6",
+        "language": "english",
+        "song_name": "Stop! Look! Listen!",
+        "sent_score": -17
+    },
+    {
+        "artist": "Lasse Lindh",
+        "id": "2009_2_2",
+        "language": "swedish",
+        "song_name": "Jag ska slåss i dina kvarter!",
+        "sent_score": -17
+    },
+    {
+        "artist": "Charlotte Perrelli",
+        "id": "2012_4_1",
+        "language": "english",
+        "song_name": "The Girl",
+        "sent_score": -17
+    },
+    {
+        "artist": "Janet Leon",
+        "id": "2014_4_3",
+        "language": "english",
+        "song_name": "Hollow",
+        "sent_score": -17
+    },
+    {
+        "artist": "Sanna Nielsen",
+        "id": "2008_2_6",
+        "language": "english",
+        "song_name": "Empty Room",
+        "sent_score": -19
+    },
+    {
+        "artist": "Nordman",
+        "id": "2008_4_5",
+        "language": "swedish",
+        "song_name": "I lågornas sken",
+        "sent_score": -19
+    },
+    {
+        "artist": "Anna Sahlene & Maria Haukaas Storeng",
+        "id": "2009_4_4",
+        "language": "english",
+        "song_name": "Killing Me Tenderly",
+        "sent_score": -19
+    },
+    {
+        "artist": "Linda Bengtzing",
+        "id": "2008_4_4",
+        "language": "swedish",
+        "song_name": "Hur svårt kan det va?",
+        "sent_score": -20
+    },
+    {
+        "artist": "Pernilla Andersson",
+        "id": "2011_1_7",
+        "language": "swedish",
+        "song_name": "Desperados",
+        "sent_score": -20
+    },
+    {
+        "artist": "The Wallstones",
+        "id": "2005_1_5",
+        "language": "english",
+        "song_name": "Invisible People",
+        "sent_score": -22
+    },
+    {
+        "artist": "Outtrigger",
+        "id": "2014_3_1",
+        "language": "english",
+        "song_name": "Echo",
+        "sent_score": -22
+    },
+    {
+        "artist": "Jessica Folcker",
+        "id": "2005_3_7",
+        "language": "swedish",
+        "song_name": "Om natten",
+        "sent_score": -23
+    },
+    {
+        "artist": "The Poodles",
+        "id": "2006_3_5",
+        "language": "english",
+        "song_name": "Night of Passion",
+        "sent_score": -23
+    },
+    {
+        "artist": "Nina Söderquist",
+        "id": "2009_1_1",
+        "language": "english",
+        "song_name": "Tick Tock",
+        "sent_score": -23
+    },
+    {
+        "artist": "Marie Serneholt",
+        "id": "2012_1_6",
+        "language": "english",
+        "song_name": "Salt & Pepper",
+        "sent_score": -24
+    },
+    {
+        "artist": "Crucified Barbara",
+        "id": "2010_3_8",
+        "language": "english",
+        "song_name": "Heaven or Hell",
+        "sent_score": -25
+    },
+    {
+        "artist": "Love Generation",
+        "id": "2011_4_8",
+        "language": "english",
+        "song_name": "Dance Alone",
+        "sent_score": -25
+    },
+    {
+        "artist": "Magnus Carlsson",
+        "id": "2007_3_3",
+        "language": "english",
+        "song_name": "Live Forever",
+        "sent_score": -27
+    },
+    {
+        "artist": "Ralf Gyllenhammar",
+        "id": "2013_4_5",
+        "language": "english",
+        "song_name": "Bed on Fire",
+        "sent_score": -27
+    },
+    {
+        "artist": "Alcazar",
+        "id": "2003_2_8",
+        "language": "english",
+        "song_name": "Not a Sinner, Nor a Saint",
+        "sent_score": -28
+    },
+    {
+        "artist": "Rasmus Viberg",
+        "id": "2011_1_6",
+        "language": "english",
+        "song_name": "Social Butterfly",
+        "sent_score": -28
+    },
+    {
+        "artist": "Jay-Jay Johanson",
+        "id": "2013_1_3",
+        "language": "english",
+        "song_name": "Paris",
+        "sent_score": -28
+    },
+    {
+        "artist": "Dynazty",
+        "id": "2012_4_3",
+        "language": "english",
+        "song_name": "Land Of Broken Dreams",
+        "sent_score": -29
     },
     {
         "artist": "Sanna Nielsen",
@@ -1596,60 +2821,11 @@
         "sent_score": -29
     },
     {
-        "artist": "Outtrigger",
-        "id": "2014_3_1",
+        "artist": "Loreen",
+        "id": "2011_2_2",
         "language": "english",
-        "song_name": "Echo",
-        "sent_score": -22
-    },
-    {
-        "artist": "Eko",
-        "id": "2014_3_2",
-        "language": "english",
-        "song_name": "Red",
-        "sent_score": 141
-    },
-    {
-        "artist": "Oscar Zia",
-        "id": "2014_3_3",
-        "language": "english",
-        "song_name": "Yes We Can",
-        "sent_score": 16
-    },
-    {
-        "artist": "Shirley Clamp",
-        "id": "2014_3_4",
-        "language": "english",
-        "song_name": "Burning Alive",
-        "sent_score": -2
-    },
-    {
-        "artist": "State of Drama",
-        "id": "2014_3_5",
-        "language": "english",
-        "song_name": "All We Are",
-        "sent_score": 6
-    },
-    {
-        "artist": "Ace Wilder",
-        "id": "2014_3_7",
-        "language": "english",
-        "song_name": "Busy Doin' Nothin'",
-        "sent_score": -13
-    },
-    {
-        "artist": "Dr. Alban & Jessica Folcker",
-        "id": "2014_3_8",
-        "language": "english",
-        "song_name": "Around the World",
-        "sent_score": -1
-    },
-    {
-        "artist": "Alcazar",
-        "id": "2014_4_1",
-        "language": "english",
-        "song_name": "Blame It on the Disco",
-        "sent_score": -53
+        "song_name": "My Heart is Refusing Me",
+        "sent_score": -30
     },
     {
         "artist": "I.D.A",
@@ -1659,24 +2835,80 @@
         "sent_score": -32
     },
     {
-        "artist": "Janet Leon",
-        "id": "2014_4_3",
+        "artist": "Sibel",
+        "id": "2010_4_1",
         "language": "english",
-        "song_name": "Hollow",
-        "sent_score": -17
+        "song_name": "Stop",
+        "sent_score": -34
     },
     {
-        "artist": "Ammotrack",
-        "id": "2014_4_4",
+        "artist": "Love Generation",
+        "id": "2012_3_4",
         "language": "english",
-        "song_name": "Raise Your Hands",
-        "sent_score": -4
+        "song_name": "Just A Little Bit",
+        "sent_score": -35
     },
     {
-        "artist": "Anton Ewald",
-        "id": "2014_4_8",
+        "artist": "Molly Sandén",
+        "id": "2012_3_7",
         "language": "english",
-        "song_name": "Natural",
-        "sent_score": 38
+        "song_name": "Why Am I Crying",
+        "sent_score": -36
+    },
+    {
+        "artist": "MissMatch",
+        "id": "2007_3_2",
+        "language": "english",
+        "song_name": "Drop Dead",
+        "sent_score": -37
+    },
+    {
+        "artist": "Johannes Bah Kuhnke",
+        "id": "2010_3_2",
+        "language": "english",
+        "song_name": "Tonight",
+        "sent_score": -39
+    },
+    {
+        "artist": "BWO",
+        "id": "2009_3_8",
+        "language": "english",
+        "song_name": "You're Not Alone",
+        "sent_score": -48
+    },
+    {
+        "artist": "Eddie Razaz",
+        "id": "2013_3_1",
+        "language": "english",
+        "song_name": "Alibi",
+        "sent_score": -48
+    },
+    {
+        "artist": "Darin",
+        "id": "2010_3_7",
+        "language": "english",
+        "song_name": "You're Out of My Life",
+        "sent_score": -52
+    },
+    {
+        "artist": "Alcazar",
+        "id": "2014_4_1",
+        "language": "english",
+        "song_name": "Blame It on the Disco",
+        "sent_score": -53
+    },
+    {
+        "artist": "Lena Philipsson",
+        "id": "2004_4_1",
+        "language": "swedish",
+        "song_name": "Det gör ont",
+        "sent_score": -55
+    },
+    {
+        "artist": "Panetoz",
+        "id": "2014_2_4",
+        "language": "swedish",
+        "song_name": "Efter solsken",
+        "sent_score": -55
     }
 ]
