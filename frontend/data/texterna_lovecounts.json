@@ -72,14 +72,6 @@
         "id": "2008_3_6"
     },
     {
-        "artist": "Alive & Jessie Martins",
-        "song_name": "Ingen annan",
-        "year": 2003,
-        "lovecount": 26,
-        "lyrics_cleaned": "Bara du och jag\nKan du inte stanna?\nBara du och jag\nVi håller om varandra\nBara du och jag\nJag vill att du ska vakna med mig\nJag kryper under täcket med dig\nIngen annan än du kan ana\nAllting som jag ser i dig\nOch ingen annan än du kan se\nAtt världen har förändrat sig\nVarje gång som du ser på mig\nSå känns det som om allting ordnar sig\nVarje gång som du rör vid mig\nSå stannar jag hos dig\nBara du och jag\nKan du inte stanna?\nBara du och jag\nVi håller om varandra\nBara du och jag\nJag vill att du ska vakna med mig\nJag kryper under täcket med dig\nIngen annan än du kan säga\nSaker som du rör\nOch ingen annan än du får tiden\nAtt vänta utanför\nVarje gång som du ser på mig\nSå känns det som om tiden stannar till\nVarje gång som du rör vid mig\nSå vet jag att du vill\nBara du och jag\nKan du inte stanna?\nBara du och jag\nVi håller om varandra\nBara du och jag\nJag vill att du ska vakna med mig\nJag kryper under täcket med dig\nVi vaknar tillsammans nästa dag\nJag lyssnar på dina andetag\nDet finns ingen annanstans\nDet enda jag vill ha\nJag vet vad jag känner\nJag vet jag vill\nJust nu\nBara du och jag\nKan du inte stanna?\nBara du och jag\nVi håller om varandra\nBara du och jag\nJag vill att du ska vakna med mig\nJag kryper under täcket med dig\nUh uh, ingen annan än du\nUh uh, ingen annan än du\nBara du och jag\nJag vill att du ska vakna med mig\nJag kryper under täcket med dig",
-        "id": "2003_1_4"
-    },
-    {
         "artist": "The Attic & Therese",
         "song_name": "The Arrival",
         "year": 2007,
@@ -272,6 +264,14 @@
         "id": "2011_2_6"
     },
     {
+        "artist": "Axel Algmark",
+        "song_name": "Kyss mig",
+        "year": 2012,
+        "lovecount": 18,
+        "lyrics_cleaned": "Ååååååh\nLalalala…\nJag hör trummorna på dörren, nästa stund är jag omkull\nNär jag reste mig från golvet så var hela rummet fullt, oh kyss mig!\nLalalala…\nPang på och tack för kaffet, stig in och välkommen\nKalendern visar måndag men vi lever lördag kväll\nSamma gamla skiva spelas, dansar runt jag hör oss sjunga\nWa pa babababa we're in love\nKarin jag vill ha dig nära, vi är gjorda för varandra\nWa pababababa we'’re in love, oh kyss mig!\nLalalala…\nSom om natten var skriven utav Plura, så dansar vi i paradis\nFörsökt få dig att bli lurad på alla sätt och vis\nSamma gamla skiva spelas, dansar runt jag hör oss sjunga\nWa pa babababa we're in love\nKarin jag vill ha dig nära, vi är gjorda för varandra\nWa pababababawe’re in love, oh kyss mig!\nKyss mig, kyss mig!\nSamma gamla skiva spelas\nSamma gamla skiva spelas, dansar runt jag hör oss sjunga\nWa pa babababa we're in love\nKarin jag vill ha dig nära, vi är gjorda för varandra\nWa pababababawe’re in love, oh kyss mig!\nLalalalala… Wa pa babababa we’re in love\nLalalalala… Wa pa babababa we’re in love\nKyss mig!\n",
+        "id": "2012_4_6"
+    },
+    {
         "artist": "Oscar Zia",
         "song_name": "Yes We Can",
         "year": 2014,
@@ -312,6 +312,14 @@
         "id": "2014_4_5"
     },
     {
+        "artist": "Martin",
+        "song_name": "Du och jag (i hela världen)",
+        "year": 2002,
+        "lovecount": 15,
+        "lyrics_cleaned": "Föreställ dig solen\nStjärnor och planeter\nIdag kom himlen och tog mig\nOch jag vet vad hon heter\nDu och jag är dom enda i hela världen\nSom älskar varann\nDu och jag är dom enda i hela världen\nSom förstår varann, förstår varann\nFöreställ dig månljus\nÖver marionetter\nOch där i mitten\nFinns två utan dubbletter\nDu och jag är dom enda i hela världen\nSom älskar varann\nDu och jag är dom enda i hela världen\nSom förstår varann, förstår varann\nDu och jag är dom enda i hela världen\nSom älskar varann\nDu och jag är dom enda i hela världen\nSom förstår varann, förstår varann\nOch det känns som om du\nVerkligen tror på mig\nNär jag viskar dom orden\nSom jag sparat åt dig\nDu och jag är dom enda i hela världen\nSom älskar varann\nDu och jag är dom enda i hela världen\nSom förstår varann, förstår varann\nDu och jag är dom enda i hela världen\nSom älskar varann\nDu och jag är dom enda i hela världen\nSom förstår varann, förstår varann",
+        "id": "2002_2_4"
+    },
+    {
         "artist": "Fredrik Kempe & Sanna Nielsen",
         "song_name": "Du och jag mot världen",
         "year": 2005,
@@ -320,20 +328,20 @@
         "id": "2005_2_1"
     },
     {
+        "artist": "Caroline Wennergren",
+        "song_name": "A Different Kind of Love",
+        "year": 2005,
+        "lovecount": 15,
+        "lyrics_cleaned": "Love in the twenty first century\nPeople can be what they wanna be\nAnyway you want it (simple, exotic)\nAnyway you want it (do as you please)\nLove in the twent first century\nThough we're living in a modern world\nI still believe in (I still believe in)\nBaby, maybe I'm a special girl\n'Cause I'm looking for\nA different kind of love\nNot the ordinary one\nI'm trying to find\nA different kind of love\nOne that gives me what I want\nI'm dying to find\nA different kind of love\nLove me the way love was meant to be\nPeople living in harmony\nNow I've told you what I'm all about\nIt's up to you now (it's up to you now)\nIs it genuine or mess around?\n'Cause I'm looking for\nA different kind of love\nNot the ordinary one\nI'm trying to find\nA different kind of love\nOne that gives me what I want\nI'm dying to find\nA different kind of love\nOne that can save me\nThat feels so good (that feels so good)\nLasts forever just for me and you\nDifferent kind of love\nNot the ordinary one\nI'm trying to find\nA different kind of love\nOne that gives me what I want\nI'm dying to find\nA different kind of love",
+        "id": "2005_4_7"
+    },
+    {
         "artist": "Top Cats",
         "song_name": "Baby Doll",
         "year": 2012,
         "lovecount": 15,
         "lyrics_cleaned": "Cruisin' down the streets at midnight\nMusic bop-in', ladies rockin'\nDudes and dudettes all over town\nSaw this bird walkin' down the pavement\nTraffic stopin', fellas dropin'\nShe just kept walkin' straight on by\nAnd I realized she's all I'm missin'\nI pulled my wheels aside\nAnd with a smile\nI rolled my window down\nBaby doll\nYou need some rock & roll\nYou need someone tohold you\nOn a cold and lone some night\nBaby doll-doll-doll\nRock and roll-roll-roll over here\nNow bring it, bring it over here\nBaby doll\nDon't be cruel, don't leave me hangin' \nOn a wire, my heart's on fire\nDon't make me beg now pretty please\nStreets look good when you’re in the front seat\nMotor runnin', bird is hummin'\nRight here beside at the wheel\nWith her by my side nothing’s missing\nI turn my wheels ahead\nAnd with a smile I press my right foot down\nBaby doll\nYou need some rock & roll\nYou need someone to hold you\nOn a cold and lone some night\nBaby doll-doll-doll\nRock and roll-roll-roll over here\nNow bring it, bring it over here\nBaby doll\nBaby my ride is gonna take you high\nStraight down Rocky Road \nAnd then we'll hit the sky\nTonight, oh yes tonight\nGonna steer us steady down Lovers Lane\nUp to Seventh Heaven \nAnd then back again\nUp to Seventh Heaven and then back again\nTonight\nOh-ba-by doll-doll-doll\nRock and roll-roll-roll\nOver here now, bring it, bring it over here\nBaby doll\nYou need some rock & roll\nYou need someone to hold you\nOn a cold and lone some night\nBaby doll-doll-doll\nRock and roll-roll-roll over here\nNow bring it, bring it over here\nBaby doll\nMy baby doll\nMy baby doll\nMy baby doll\n",
         "id": "2012_2_2"
-    },
-    {
-        "artist": "Axel Algmark",
-        "song_name": "Kyss mig",
-        "year": 2012,
-        "lovecount": 15,
-        "lyrics_cleaned": "Ååååååh\nLalalala…\nJag hör trummorna på dörren, nästa stund är jag omkull\nNär jag reste mig från golvet så var hela rummet fullt, oh kyss mig!\nLalalala…\nPang på och tack för kaffet, stig in och välkommen\nKalendern visar måndag men vi lever lördag kväll\nSamma gamla skiva spelas, dansar runt jag hör oss sjunga\nWa pa babababa we're in love\nKarin jag vill ha dig nära, vi är gjorda för varandra\nWa pababababa we'’re in love, oh kyss mig!\nLalalala…\nSom om natten var skriven utav Plura, så dansar vi i paradis\nFörsökt få dig att bli lurad på alla sätt och vis\nSamma gamla skiva spelas, dansar runt jag hör oss sjunga\nWa pa babababa we're in love\nKarin jag vill ha dig nära, vi är gjorda för varandra\nWa pababababawe’re in love, oh kyss mig!\nKyss mig, kyss mig!\nSamma gamla skiva spelas\nSamma gamla skiva spelas, dansar runt jag hör oss sjunga\nWa pa babababa we're in love\nKarin jag vill ha dig nära, vi är gjorda för varandra\nWa pababababawe’re in love, oh kyss mig!\nLalalalala… Wa pa babababa we’re in love\nLalalalala… Wa pa babababa we’re in love\nKyss mig!\n",
-        "id": "2012_4_6"
     },
     {
         "artist": "Crosstalk",
@@ -352,20 +360,36 @@
         "id": "2004_2_1"
     },
     {
-        "artist": "Caroline Wennergren",
-        "song_name": "A Different Kind of Love",
-        "year": 2005,
-        "lovecount": 14,
-        "lyrics_cleaned": "Love in the twenty first century\nPeople can be what they wanna be\nAnyway you want it (simple, exotic)\nAnyway you want it (do as you please)\nLove in the twent first century\nThough we're living in a modern world\nI still believe in (I still believe in)\nBaby, maybe I'm a special girl\n'Cause I'm looking for\nA different kind of love\nNot the ordinary one\nI'm trying to find\nA different kind of love\nOne that gives me what I want\nI'm dying to find\nA different kind of love\nLove me the way love was meant to be\nPeople living in harmony\nNow I've told you what I'm all about\nIt's up to you now (it's up to you now)\nIs it genuine or mess around?\n'Cause I'm looking for\nA different kind of love\nNot the ordinary one\nI'm trying to find\nA different kind of love\nOne that gives me what I want\nI'm dying to find\nA different kind of love\nOne that can save me\nThat feels so good (that feels so good)\nLasts forever just for me and you\nDifferent kind of love\nNot the ordinary one\nI'm trying to find\nA different kind of love\nOne that gives me what I want\nI'm dying to find\nA different kind of love",
-        "id": "2005_4_7"
-    },
-    {
         "artist": "Jessica Folcker",
         "song_name": "When Love's Comin' Back Again",
         "year": 2006,
         "lovecount": 14,
         "lyrics_cleaned": "Hey, yeah\nLife,\nIs nothing but a miracle\nTo me it's something mystical\nThat feeling in your heart\n'Cause I,\nI know when you think love is gone\nThen suddenly you are the one\nTo feel it in your heart\nAlthough my hope was gone\nI found a way to move on\nAnd now I am stronger\nI'm back on my feet again\nWhen love's comin' back again\nWhen life turns around and then\nYou think it's from heaven sent\nYou know love is back again\nWhen love's coming over you\nThere's nothing for you to do\nThere's no greater feeling than\nWhen love's comin' back again\nWhen love's comin' back again\nLife,\nSometimes it's so mysterious\nYou never know just what it does\nBut something's in your heart\nAnd then you are stronger\nYou're back on your feet again\nWhen love's comin' back again\nWhen life turns around and then\nYou think it's from heaven sent\nYou know love is back again\nWhen love's coming over you\nThere's nothing for you to do\nThere's no greater feeling than\nWhen love's comin' back again\nWhen love's comin' back again",
         "id": "2006_3_2"
+    },
+    {
+        "artist": "Anna Book",
+        "song_name": "Samba Sambero",
+        "year": 2007,
+        "lovecount": 14,
+        "lyrics_cleaned": "Jag följer ljudet av hjärtats röst\nJag följer nåt inom mig\nFör varje slag som mitt hjärta slår\nSå dras jag närmare dig\nI dina ögon ser jag en ny värld\nOch jag vill alltid vara där\nDu finns i varje andetag\nFinns bara vi, vi två, du och jag\nSamba sambero\nSamba samberio\nMitt hjärta dansar\nAv kärleken i mitt blod\nSamba sambero\nSamba samberio\nEn dans för kärlek\nMin egen samberio\nI mina drömmar så är allting\nOch där är allting såhär\nDär har jag allt som jag har just nu\nDär kan jag va den jag är\nI dina ögon ser jag alla svar\nDär vill jag alltid stanna kvar\nI varje andetag finns du\nFinns bara vi, vi två, jag och du\nSamba sambero\nSamba samberio\nMitt hjärta dansar\nAv kärleken i mitt blod\nSamba sambero\nSamba samberio\nEn dans för kärlek\nMin egen samberio\nHjärtat slår här inom mig\nJag är fast, fast för dig\nDu gör mig varm\nDu gör mig het\nDet är en dröm\nEn sång, en evighet\nSamba sambero\nSamba samberio\nMitt hjärta dansar\nAv kärleken i mitt blod\nSamba sambero\nSamba samberio\nEn dans för kärlek\nSamba samberio",
+        "id": "2007_1_3"
+    },
+    {
+        "artist": "Next3",
+        "song_name": "Esta Noche",
+        "year": 2009,
+        "lovecount": 14,
+        "lyrics_cleaned": "Next3\nOh, sexy girls, kvällen är vår\nRör på din kropp som du visa igår\nSättet som jag tycker om\nHöften i cykeln hela natten lång\nDansa, visa klart du vill med mig hem\nOh sexy girl, allt kan hända sen\nBubbelbad, bara du och jag\nHela natten lång tills den blir dag, yeah!\nKlart vi får dig i form\nKommer tillbaks med toner\nDet är svenskt reggaeton\nHela natten lång vi kan röra varann\nAtt gunga till rytmen är det bästa du kan\nOkej, hela världen ska nu se\nRytmen i kroppen och allt vi kan ge\nOh sexy girls, sexy girls\nHöj på, på reggaeton, det är sånt vi gör\nEsta noche tú y yo, vamos ah ah ah\nEsta noche tú y yo, mi amor, tu amor, la pasión\nEsta noche tú y yo, vamos ah ah ah\nEsta noche tú y yo, sígueme, sígueme, sígueme\nEsta noche!\nYo te quiero sólo para mí, te deseo aquí junto a mí\nNo lo ves que estoy loco por ti? Déjate enamorar no seas así\nAh sí, escúchame ahh, enamórate, yeah\nDéjame vencer que esto es pura pasión\nKommer tillbaks med lines om sättet som du rör dig\nFlyter som vinden, det tar mig innan du för mig (Boom)\nVi gungar till takten\nNu blir det en sen kväll, kanske redan sagt det\nShake it ma girl, du gör det så kallt\nDina fuktiga läppar får mig ur balans\nDin stil är lika fin som en lamborghini bil\nOm jag hade det beviset skulle jag med dig\nEsta noche tú y yo, vamos ah ah ah\nEsta noche tú y yo, mi amor, tu amor, la pasión\nEsta noche tú y yo, vamos ah ah ah\nEsta noche tú y yo, sígueme, sígueme, sígueme\nEsta noche!\nEsta noche tú y yo\n(Bara du och jag! Bara du och jag!)\nEsta noche (Next 3, ey!)\nWoh!\nEsta noche tú y yo, vamos ah ah ah\nEsta noche tú y yo, mi amor, tu amor, la pasión\nEsta noche tú y yo, vamos ah ah ah\nEsta noche tú y yo, sígueme, sígueme, sígueme\nEsta noche!",
+        "id": "2009_4_7"
+    },
+    {
+        "artist": "Alive & Jessie Martins",
+        "song_name": "Ingen annan",
+        "year": 2003,
+        "lovecount": 13,
+        "lyrics_cleaned": "Bara du och jag\nKan du inte stanna?\nBara du och jag\nVi håller om varandra\nBara du och jag\nJag vill att du ska vakna med mig\nJag kryper under täcket med dig\nIngen annan än du kan ana\nAllting som jag ser i dig\nOch ingen annan än du kan se\nAtt världen har förändrat sig\nVarje gång som du ser på mig\nSå känns det som om allting ordnar sig\nVarje gång som du rör vid mig\nSå stannar jag hos dig\nBara du och jag\nKan du inte stanna?\nBara du och jag\nVi håller om varandra\nBara du och jag\nJag vill att du ska vakna med mig\nJag kryper under täcket med dig\nIngen annan än du kan säga\nSaker som du rör\nOch ingen annan än du får tiden\nAtt vänta utanför\nVarje gång som du ser på mig\nSå känns det som om tiden stannar till\nVarje gång som du rör vid mig\nSå vet jag att du vill\nBara du och jag\nKan du inte stanna?\nBara du och jag\nVi håller om varandra\nBara du och jag\nJag vill att du ska vakna med mig\nJag kryper under täcket med dig\nVi vaknar tillsammans nästa dag\nJag lyssnar på dina andetag\nDet finns ingen annanstans\nDet enda jag vill ha\nJag vet vad jag känner\nJag vet jag vill\nJust nu\nBara du och jag\nKan du inte stanna?\nBara du och jag\nVi håller om varandra\nBara du och jag\nJag vill att du ska vakna med mig\nJag kryper under täcket med dig\nUh uh, ingen annan än du\nUh uh, ingen annan än du\nBara du och jag\nJag vill att du ska vakna med mig\nJag kryper under täcket med dig",
+        "id": "2003_1_4"
     },
     {
         "artist": "Nanne Grönvall",
@@ -440,14 +464,6 @@
         "id": "2006_4_6"
     },
     {
-        "artist": "Anna Book",
-        "song_name": "Samba Sambero",
-        "year": 2007,
-        "lovecount": 12,
-        "lyrics_cleaned": "Jag följer ljudet av hjärtats röst\nJag följer nåt inom mig\nFör varje slag som mitt hjärta slår\nSå dras jag närmare dig\nI dina ögon ser jag en ny värld\nOch jag vill alltid vara där\nDu finns i varje andetag\nFinns bara vi, vi två, du och jag\nSamba sambero\nSamba samberio\nMitt hjärta dansar\nAv kärleken i mitt blod\nSamba sambero\nSamba samberio\nEn dans för kärlek\nMin egen samberio\nI mina drömmar så är allting\nOch där är allting såhär\nDär har jag allt som jag har just nu\nDär kan jag va den jag är\nI dina ögon ser jag alla svar\nDär vill jag alltid stanna kvar\nI varje andetag finns du\nFinns bara vi, vi två, jag och du\nSamba sambero\nSamba samberio\nMitt hjärta dansar\nAv kärleken i mitt blod\nSamba sambero\nSamba samberio\nEn dans för kärlek\nMin egen samberio\nHjärtat slår här inom mig\nJag är fast, fast för dig\nDu gör mig varm\nDu gör mig het\nDet är en dröm\nEn sång, en evighet\nSamba sambero\nSamba samberio\nMitt hjärta dansar\nAv kärleken i mitt blod\nSamba sambero\nSamba samberio\nEn dans för kärlek\nSamba samberio",
-        "id": "2007_1_3"
-    },
-    {
         "artist": "Frida Muranius & Headline",
         "song_name": "Upp o hoppa",
         "year": 2008,
@@ -470,6 +486,14 @@
         "lovecount": 12,
         "lyrics_cleaned": "Mhh\nCloak and dagger man, your just like a toxic drug to me (aha)\nYour tantalizing eyes, start a fire in my blood, you see (aha)\nAnd hey, I know I ought a breakaway\nYour killing me tenderly, everytime you look at me\nOh its so bittersweet baby, baby, dont you know what you do to me\nIts cracking my heart in two, just to come close to you\nAnd I can see it in your eyes, a thief of hearts in disguise\nTrapped in your web and I dont wanna be released, oh no (aha)\nDevour by the game, feeling how the stakes increase (aha)\nAnd hey, I know I oughta breakaway\nYour killing me tenderly, everytime you look at me\nOh its so bittersweet baby, baby, dont you know what you do to me\nIts cracking my heart in two, just to come close to you\nAnd I can see it in your eyes, a thief of hearts in disguise\nAnd though reason tells me get out while you can\nBut damn you, I want you myself\nYour killing me tenderly, everytime you look at me\nOh its so bittersweet baby, baby, dont you know what you do to me\nIts cracking my heart in two, just to come close to you\nAnd I can see it in your eyes, a thief of hearts in disguise\nYour killing me tenderly",
         "id": "2009_4_4"
+    },
+    {
+        "artist": "LaGaylia Frazier",
+        "song_name": "It's in the Stars",
+        "year": 2004,
+        "lovecount": 11,
+        "lyrics_cleaned": "Oa oa oa\nIt's written in the stars\n(Yeah, yeah, yeah)\nIt's in the stars\nI know that it's true\nBaby, you know it's me and you\nIt's in the stars\nYou've got to believe\nYou are the only one I need\nIt's in the stars\nOa oa oa\nIt's written in the stars\nI had a mission\nI wanted to search the world and you\nBecame my addiction\nCause you had me right from the start\nIt's hard to believe that we're inside a dream come true\nIt's in the stars\nI know that it's true\nBaby, you know it's me and you\nIt's in the stars\nYou've got to believe\nYou are the only one I need\nIt's in the stars\nOa oa oa\nIt's written in the stars\nLook into the future\nSee, that it was made for you and me\nBaby, when we're together\nWe can reach for the sky\nIt's hard to believe that we're inside a dream come true\nIt's in the stars\nI know that it's true\nBaby, you know it's me and you\nIt's in the stars\nYou've got to believe\nYou are the only one I need\nIt's in the stars\nOa oa oa\nIt's written in the stars\nIt's hard to believe that we're inside a dream come true\nIt's in the,\nIt's in the stars\nI know that it's true\nBaby, you know it's me and you\nIt's in the stars\nYou've got to believe\nYou are the only one I need\nIt's in the stars\nI know that it's true\nBaby, you know it's me and you\nIt's in the stars\nYou've got to believe\nYou are the only one I need\nIt's in the stars\nOa oa oa\nIt's written in the stars\nOa oa oa\nIt's written in the stars",
+        "id": "2004_1_5"
     },
     {
         "artist": "Autolove",
@@ -496,12 +520,12 @@
         "id": "2006_4_4"
     },
     {
-        "artist": "Next3",
-        "song_name": "Esta Noche",
+        "artist": "Markoolio",
+        "song_name": "Kärlekssång från mig",
         "year": 2009,
         "lovecount": 11,
-        "lyrics_cleaned": "Next3\nOh, sexy girls, kvällen är vår\nRör på din kropp som du visa igår\nSättet som jag tycker om\nHöften i cykeln hela natten lång\nDansa, visa klart du vill med mig hem\nOh sexy girl, allt kan hända sen\nBubbelbad, bara du och jag\nHela natten lång tills den blir dag, yeah!\nKlart vi får dig i form\nKommer tillbaks med toner\nDet är svenskt reggaeton\nHela natten lång vi kan röra varann\nAtt gunga till rytmen är det bästa du kan\nOkej, hela världen ska nu se\nRytmen i kroppen och allt vi kan ge\nOh sexy girls, sexy girls\nHöj på, på reggaeton, det är sånt vi gör\nEsta noche tú y yo, vamos ah ah ah\nEsta noche tú y yo, mi amor, tu amor, la pasión\nEsta noche tú y yo, vamos ah ah ah\nEsta noche tú y yo, sígueme, sígueme, sígueme\nEsta noche!\nYo te quiero sólo para mí, te deseo aquí junto a mí\nNo lo ves que estoy loco por ti? Déjate enamorar no seas así\nAh sí, escúchame ahh, enamórate, yeah\nDéjame vencer que esto es pura pasión\nKommer tillbaks med lines om sättet som du rör dig\nFlyter som vinden, det tar mig innan du för mig (Boom)\nVi gungar till takten\nNu blir det en sen kväll, kanske redan sagt det\nShake it ma girl, du gör det så kallt\nDina fuktiga läppar får mig ur balans\nDin stil är lika fin som en lamborghini bil\nOm jag hade det beviset skulle jag med dig\nEsta noche tú y yo, vamos ah ah ah\nEsta noche tú y yo, mi amor, tu amor, la pasión\nEsta noche tú y yo, vamos ah ah ah\nEsta noche tú y yo, sígueme, sígueme, sígueme\nEsta noche!\nEsta noche tú y yo\n(Bara du och jag! Bara du och jag!)\nEsta noche (Next 3, ey!)\nWoh!\nEsta noche tú y yo, vamos ah ah ah\nEsta noche tú y yo, mi amor, tu amor, la pasión\nEsta noche tú y yo, vamos ah ah ah\nEsta noche tú y yo, sígueme, sígueme, sígueme\nEsta noche!",
-        "id": "2009_4_7"
+        "lyrics_cleaned": "Du e för söt, varje gång som du fyller mig med smicker\nAtt jag rappar ballt, kan sjunga allt, varje tänkbar stil\nMen älskling, den sång som du helst vill höra\nRåkar vara just den jag inte kan göra\nSå vänta dig ingen kärlekssång från mig\nNågon smäktande ballad kommer inte att bli av\nJag älskar dig men jag måste säga nej\nDet blir aldrig, aldrig, aldrig någon kärlekssång från mig\nTänk dig själv, en duett mellan Thåström och Carola\nEller Kent på scen på Diggiloo-turnén, det vore ganska fel\nAtt höra mig känslosam skulle folk ha svårt att tåla\nAldrig någonsin att jag sätter min hela trovärdighet på spel\nSå älskling, kan du inte bara sluta tjata?\nFör den idén kommer jag ändå alltid att rata\nSå vänta dig ingen kärlekssång från mig.\nNågon smäktande ballad kommer inte att bli av\nJag älskar dig men jag måste säga nej\nDet blir aldrig, aldrig, aldrig någon kärlekssång från mig\nSeså lugna ner dig, sluta gråta\nDu får ju ändå aldrig höra hur det skulle låta\nVänta dig ingen kärlekssång från mig\nNågon smäktande ballad kommer inte att bli av\nJag älskar dig men jag måste säga nej\nDet blir aldrig, aldrig, aldrig någon kärlekssång från mig",
+        "id": "2009_2_5"
     },
     {
         "artist": "Marie Serneholt",
@@ -512,12 +536,28 @@
         "id": "2012_1_6"
     },
     {
+        "artist": "Hanson & Carson & Malmkvist",
+        "song_name": "C'est la vie",
+        "year": 2004,
+        "lovecount": 10,
+        "lyrics_cleaned": "Tunga moln de sänker sig, som ett täcke över stan\nJag vandrar för mig själv på väg, till ja vem vet vad\nJag är förlorad här, här i min egen värld\nOh, jag önskar det gick vrida klockan tillbaks\nOch det gick att stanna precis där vi var\nAllting som händer, vindar som vänder\nC'est la vie, c'est la vie\nHjärtan som älskar, slutar att älska\nC'est la vie, c'est la vie\nAldrig jag kommer att glömma den dan\nDu tog dina väskor och lämnade stan\nVad skulle jag göra, allt jag fick höra\nC'est la vie, c'est la vie, c'est la vie\nLjudet av en dörr som stängs, och tunga steg som går\nDin röst, som ekar inom mig, jag hoppas du förstår\nJag var förlorad där, där i en annan värld\nDär det enda som levde och fanns det var vi\nNån helt annanstans i en helt annan tid\nAllting som händer, vindar som vänder\nC'est la vie, c'est la vie\nHjärtan som älskar, slutar att älska\nC'est la vie, c'est la vie\nAldrig jag kommer att glömma den dan\nDu tog dina väskor och lämnade stan\nVad skulle jag göra, allt jag fick höra\nC'est la vie, c'est la vie, c'est la vie\nTänk, jag som trodde att just du och jag, var gjorda för varann\nAldrig jag kommer att glömma den dan\nDu tog dina väskor och lämnade stan\nAllting som händer, vindar som vänder\nC'est la vie, c'est la vie\nHjärtan som älskar, slutar att älska\nC'est la vie, c'est la vie\nAldrig jag kommer att glömma den dan\nDu tog dina väskor och lämnade stan\nVad skulle jag göra, allt jag fick höra\nC'est la vie, c'est la vie, c'est la vie\nC'est la vie, c'est la vie, c'est la vie",
+        "id": "2004_3_6"
+    },
+    {
         "artist": "Alcazar",
         "song_name": "Alcastar",
         "year": 2005,
         "lovecount": 10,
         "lyrics_cleaned": "Ahhhhh Ohh\nYou can be an alcastar\nWe're the VIP, everything's for free\nIt's a life filled with love and emotion\nThis is wonderland, try to understand\nTo get in it takes more than devotion\nGotta open up your heart, show us who you are\nTo become an alcastar!\nWelcome to our galaxy\nThe place to be, our universe\nSee the stars where love comes first\nStay forever, you can be an alcastar\nWelcome to our galaxy\nThe place to be, our universe\nSee the stars where love comes first\nNow or never, you can be an alcastar\nIf you let us in, underneath your skin\nWe deliver complete transformation\nIn the loop of fame, nothing stays the same\nCome with us and you're in for sensation\nGotta open up your heart, show us who you are\nTo become an alcastar!\nWelcome to our galaxy\nThe place to be, our universe\nSee the stars where love comes first\nStay forever, you can be an alcastar\nWelcome to our galaxy\nThe place to be, our universe\nSee the stars where love comes first\nNow or never, you can be an alcastar\nMake a wish upon a star, and forever trust in who you are\nLet happiness be the source, and love be the force\nTo become an alcastar!\nWelcome to our galaxy\nThe place to be, our universe\nSee the stars where love comes first\nStay forever, you can be an alcastar\nWelcome to our galaxy\nThe place to be, our universe\nSee the stars where love comes first\nNow or never, you can be an alcastar\nYou can be an alcastar!",
         "id": "2005_1_1"
+    },
+    {
+        "artist": "Nanne Grönvall",
+        "song_name": "Håll om mig",
+        "year": 2005,
+        "lovecount": 10,
+        "lyrics_cleaned": "Att vår värld behöver ha\nMera kärlek varje dag\nDet vet både jag och du\nLåt oss börja här och nu\nSå håll om mig\nSläpp inte taget om mig\nÄr som förhäxad av dig\nOch jag vill ha dig\nKom och håll om mig nu\nJa kom närmare ett slag\nHör du mina andetag?\nBlodet rusar vilt och hett\nJa på många skilda sätt\nSå kom och håll om mig\nSläpp inte taget om mig\nÄr som förhäxad av dig\nOch jag vill ha dig\nKom och håll om mig nu\nPulsen slår, jag ser din blick\nÅhh, jag är i ett hjälplöst skick\nJag kan bli räddad först om du\nGer mun-mot-mun-metoden nu\nSå håll om mig\nSläpp inte taget om mig\nÄr som förhäxad av dig\nOch jag vill ha dig\nKom och håll om mig nu\nJa kom och håll om mig\nSläpp inte taget om mig\nÄr som förhäxad av dig\nOch jag vill ha dig\nKom och håll om mig nu\nÄr förlorad och förförd\nJag är skakad och berörd\nHjärtat slår så hårt\nLåta bli dig blir för svårt\nOch jag tror du ser\nAtt jag faller mer och mer\nHåll om mig\n(Ja håll om mig)\n(Släpp inte taget) om mig\nÄr som förhäxad av dig\nOch jag vill ha dig\nKom och håll om mig nu\nJa kom och håll om mig\nSläpp inte taget om mig\nÄr som förhäxad av dig\nOch jag vill ha dig\nKom och håll om mig nu\n(Ooohh, ooohh)\nWouh, kom och håll om mig\n(Ooohh, ooohh)\nSläpp inte taget om mig\nOch jag vill ha dig\nKom och håll om mig nu",
+        "id": "2005_4_6"
     },
     {
         "artist": "Sonya (Sonja Aldén)",
@@ -568,14 +608,6 @@
         "id": "2013_2_1"
     },
     {
-        "artist": "Joacim Cans",
-        "song_name": "Annelie",
-        "year": 2013,
-        "lovecount": 10,
-        "lyrics_cleaned": "Vakna Annelie\nLa-la-la-la-lie\nSlå upp ögonen\nVakna Annelie\nDu har sovit länge nu\nParaden har gått förbi\nVad hände med dina drömmar\nOm prinsen och om mig\nVad hände med dina tankar\nJa säg mig\nBara säg.\nSå ge mig dina drömmar\nLåt mig visa att det går\nJag låter dig\nfå smaka lite grann\nSå ge mig dina tankar\nJa jag lägger dem i en ask\nOch gömmer dom\ndär ingen kan se\nRef:\nBara du och jag Annelie\nBara du och jag Anne\nLa-la-la-la-lie.\nTa ett steg Annelie\nJag lovar att ta emot\nJag fångar dig om du faller\nLåt inte rädslan få slå rot\nJag ser att du fryser\nDin hud är vit som snö\nDina läppar är som skaren\nsom isen på en sjö.\nJa du är en ängel\nPå besök från himmelen\nLåt nu dina vingar\nta dig hem\nJa flyg ut över världen\nSnälla hälsa ifrån mig\nOm du vill ta med mig\nBara säg.\nRef:\nBara du och jag Annelie\nBara du och jag Anne\nLa-la-la-la-lie\nVakna Annelie.\nMellanspel  (0´20)\nSå ge mig dina drömmar\nLåt mig visa att det går\nJag låter dig\nFå smaka lite grann\nSå ge mig dina tankar\nJa jag lägger dom i en ask\nOch gömmer dom\ndär ingen kan se.\nVakna Annelie\nLa-la-la-la-la\nAnne-la-la-lie\nVakna Annelie\nBara du och jag\nBara för en dag\nAnnelie.",
-        "id": "2013_2_3"
-    },
-    {
         "artist": "Anton Ewald",
         "song_name": "Natural",
         "year": 2014,
@@ -598,14 +630,6 @@
         "lovecount": 9,
         "lyrics_cleaned": "I wash my mind out in the summer rain\nAnd feel a breeze touching my soul\nWhen I'm not with him then I understand\nI'm but half without his hand to hold\nI wrote his name up in the sky one day\nBut silent winds blew it away\nAnd so I wrote it in my heart instead\nAn that is where it will always stay\nAh, ah, ah, ah, ah\nWatch me now for eternity\nAh, ah, ah, ah, ah\nPromise once and again\nMy love will go on with you near my love\nThe lonely silence of the rising sun\nLeaves floating gently down the stream\nConstant reminders of sweet harmony\nI can swear that we were ment to be\nAh, ah, ah, ah, ah\nWatch me now for eternity\nAh, ah, ah, ah, ah\nPromise once and again\nMy love will go on with you near my love\nIf you see me falling down, falling down, falling down\nYou can bring the light along and shine\n'Cause I'm yours and you are mine\nFor eternity\nAh, ah, ah, ah, ah\nPromise once and again\nMy love will go on\nMy love will go on with you near my love",
         "id": "2003_3_5"
-    },
-    {
-        "artist": "Hanson & Carson & Malmkvist",
-        "song_name": "C'est la vie",
-        "year": 2004,
-        "lovecount": 9,
-        "lyrics_cleaned": "Tunga moln de sänker sig, som ett täcke över stan\nJag vandrar för mig själv på väg, till ja vem vet vad\nJag är förlorad här, här i min egen värld\nOh, jag önskar det gick vrida klockan tillbaks\nOch det gick att stanna precis där vi var\nAllting som händer, vindar som vänder\nC'est la vie, c'est la vie\nHjärtan som älskar, slutar att älska\nC'est la vie, c'est la vie\nAldrig jag kommer att glömma den dan\nDu tog dina väskor och lämnade stan\nVad skulle jag göra, allt jag fick höra\nC'est la vie, c'est la vie, c'est la vie\nLjudet av en dörr som stängs, och tunga steg som går\nDin röst, som ekar inom mig, jag hoppas du förstår\nJag var förlorad där, där i en annan värld\nDär det enda som levde och fanns det var vi\nNån helt annanstans i en helt annan tid\nAllting som händer, vindar som vänder\nC'est la vie, c'est la vie\nHjärtan som älskar, slutar att älska\nC'est la vie, c'est la vie\nAldrig jag kommer att glömma den dan\nDu tog dina väskor och lämnade stan\nVad skulle jag göra, allt jag fick höra\nC'est la vie, c'est la vie, c'est la vie\nTänk, jag som trodde att just du och jag, var gjorda för varann\nAldrig jag kommer att glömma den dan\nDu tog dina väskor och lämnade stan\nAllting som händer, vindar som vänder\nC'est la vie, c'est la vie\nHjärtan som älskar, slutar att älska\nC'est la vie, c'est la vie\nAldrig jag kommer att glömma den dan\nDu tog dina väskor och lämnade stan\nVad skulle jag göra, allt jag fick höra\nC'est la vie, c'est la vie, c'est la vie\nC'est la vie, c'est la vie, c'est la vie",
-        "id": "2004_3_6"
     },
     {
         "artist": "Bosson",
@@ -664,6 +688,14 @@
         "id": "2013_3_5"
     },
     {
+        "artist": "Kikki, Bettan & Lotta",
+        "song_name": "Vem é dé du vill ha",
+        "year": 2002,
+        "lovecount": 8,
+        "lyrics_cleaned": "Allt är upp och ner, du är allt jag ser\nVarför é dé så här när allt jag begär, det är ja eller nej\nVan att ge och ta och få det jag vill ha\nMen vad hjälper det nu, det finns bara du för mig\nVem é dé du vill ha, känner du som jag\nÉ jag den för dig som du ju är för mig\nSvara snälla du, jag vill veta nu\nSå säg (så säg) till mig (till mig)\nVem é dé du vill ha, é dé du och jag\nVet du vad du vill så säg då gärna till\nIngenting kan få mitt hjärta sluta slå\nFör dig (för dig) nej nej (nej nej)\nFörsöker ta det kallt, men é ändå trots allt\nLite osäker på om jag vet dé ändå, é dé ja eller nej\nAllting som jag har (allting som jag har) är frågor utan svar\nMen jag känner dé nu, det finns bara du för mig\nVem é dé du vill ha, känner du som jag\nÉ jag den för dig som du ju är för mig\nSvara snälla du, jag vill veta nu\nSå säg (så säg) till mig (till mig)\nVem é dé du vill ha, é dé du och jag\nVet du vad du vill så säg då gärna till\nIngenting kan få mitt hjärta sluta slå\nFör dig (för dig) nej nej (nej nej)\nVarför é dé så?\nVem é dé du vill ha, känner du som jag\nÉ jag den för dig som du ju är för mig\nSvara snälla du, jag vill veta nu\nSå säg (så säg) till mig (till mig)\nVem é dé du vill ha, é dé du och jag\nVet du vad du vill så säg då gärna till\nIngenting kan få mitt hjärta sluta slå\nFör dig (för dig) nej nej (nej nej)\nVem é dé du vill ha, känner du som jag\nÉ jag den för dig som du ju är för mig\nIngenting kan få mitt hjärta sluta slå\nFör dig (för dig) nej nej (nej nej)\nVem é dé du vill ha?",
+        "id": "2002_4_6"
+    },
+    {
         "artist": "Karl Martindahl",
         "song_name": "Love Turns Water Into Wine",
         "year": 2004,
@@ -688,6 +720,14 @@
         "id": "2005_2_4"
     },
     {
+        "artist": "Jimmy Jansson",
+        "song_name": "Vi kan gunga",
+        "year": 2005,
+        "lovecount": 8,
+        "lyrics_cleaned": "Tja la la la la la la\nTja la la la la la la\nJag är kung, kung, kung men kanske bara för en dag, woho\nGodmorgon världen säg vad som står på\nJag tror jag drömt och svävar i det blå\nHon var så vacker och hon gör mig galen\n(Hon gör mig galen)\nJag minns ett leende och undrar vem\nSom finns där bakom solglasögonen\nJag är förälskad och helt betagen\nJag sa: Vill du följa med mig ut på nya äventyr?\nVi kan gung, gung, gunga du och jag\nVi kan sjung, sjung, sjunga tjalala\nJag är kung, kung, kung men kanske bara för en dag, woho\nVi kan gung, gung, gunga du och jag\nVi är ung, ung, unga tjalala\nJag är kung, kung, kung men kanske bara för en dag, woho\nWoho\nAtt leva livet är helt underbart\nNär känslor svallar med en väldig fart\nDet snurrar runt så det gör ont i magen\nJag sa: Vill du följa med mig ut på nya äventyr?\nVi kan gung, gung, gunga du och jag\nVi kan sjung, sjung, sjunga tjalala\nJag är kung, kung, kung men kanske bara för en dag, woho\nVi kan gung, gung, gunga du och jag\nVi är ung, ung, unga tjalala\nJag är kung, kung, kung men kanske bara för en dag, woho\nSå säg mig: Vill du följa med\nPå en resa vi drar på en gång\nVi stannar ute natten lång\nVi kan gung, gung, gunga du och jag\nGung, gung, gunga du och jag\nVi kan sjung, sjung, sjunga tjalala\nJag är kung, kung, kung men kanske bara för en dag, woho\nVi kan gung, gung, gunga du och jag\nVi är ung, ung, unga tjalala\nJag är kung, kung, kung men kanske bara för en dag, woho\nWoho, jag är kung",
+        "id": "2005_3_3"
+    },
+    {
         "artist": "LaGaylia",
         "song_name": "Nothing at all",
         "year": 2005,
@@ -696,12 +736,36 @@
         "id": "2005_3_4"
     },
     {
+        "artist": "Kayo",
+        "song_name": "Innan natten är över",
+        "year": 2006,
+        "lovecount": 8,
+        "lyrics_cleaned": "Ensam i mörkret med dig så nära intill\nBlickar som möter varann, vi vet vad vi vill\nInnan det är för sent\nKom håll mig nära dig\nDet händer nåt i mig när vi rör varann\nInnan natten är över är allt jag behöver\nAtt få känna ditt hjärta mot mitt\nJag ger allt jag har när du stannar kvar\nInnan natten är över är allt jag behöver\nAtt få hålla din kropp emot min\nBara du och jag\nInnan natten blir till dag\nÖgon som glittrar och hungriga läppar som ler\nHjärtan som brinner men du är allt som jag ser\nInnan det är för sent\nVi drunknar i varann\nSom bara vi två kan\nBara du och jag\nInnan natten är över är allt jag behöver\nAtt få känna ditt hjärta mot mitt\nJag ger allt jag har när du stannar kvar\nInnan natten är över är allt jag behöver\nAtt få hålla din kropp emot min\nBara du och jag\nInnan natten blir till dag\nVi glömmer att det finns en morgondag\nFör nånting händer när vi rör varann\n(Innan natten är över är allt jag behöver)\n(Att få känna ditt hjärta mot mitt)\nJag ger allt jag har när du stannar kvar\nInnan natten är över är allt jag behöver\nAtt få hålla din kropp emot min\nBara du och jag\nInnan natten blir till dag\nInnan natten blir till dag",
+        "id": "2006_3_8"
+    },
+    {
+        "artist": "Evan",
+        "song_name": "Under Your Spell",
+        "year": 2006,
+        "lovecount": 8,
+        "lyrics_cleaned": "I remember the days that used to be\nWhen we still were we\nJust you and me\nNow you live on your own\nAnd so do I\nOur bonds was so strong\nI can't see why\nWas it something I said\nWas it something I did\nWas it something I\nNever had (money)\nBut whatever you do\nPlease give me one more try\nIf I love you or not\nI'm not really sure\nThe time will tell\nBut I miss you like I've never done before\nI'm under your spell\nNow my only way of staying alive\nIs by waiting everyday\nFor you to pass by\nWas it my fault\nIs that true\nI will change to be with you\nWas it something I said\nWas it something I did\nWas it something I\nNever had (passion)\nBut whatever you do\nPlease give me one more try\nIf I love you or not\nI'm not really sure\nThe time will tell\nBut I miss you like I've never done before\nI'm under your spell\nThere's one thing I still can not see\nYes I know it's too late for me\nBut I want you to tell me why\nOr give me one more try\nIf I love you or not\nI'm not really sure\nThe time will tell\nBut I miss you like I've never done before\nI'm under your spell\nIf I love you or not\nI'm not really sure\nThe time will tell\nBut I miss you like I've never done before\nI'm under your spell",
+        "id": "2006_4_5"
+    },
+    {
         "artist": "Verona",
         "song_name": "La musica",
         "year": 2007,
         "lovecount": 8,
         "lyrics_cleaned": "Ho nel mio cuore\n-e non so perche'\nquesto languore\n-e non so perche'\nUn 'emozione\nor si fa sentir\nuna tentazione\nche mi fa uscir\nOoo\nC'e'amore nella musica\nma dov'e'\nsi dove'e'?\nC'e' amore nella musica\nci sara'\nci sara'\nC'e'amore nella musica\nsi dov'e'\nsi dov'e'?\nC'e'amore nella musica\nla musica!\nUn'immersione\nquesto si mi va\nla soluzione\nquesto si mi va\nSe tu ci sei\ne mi fai danzar\nma, a chi lo dici\nche mi vuoi baciar!\nOoo\nC'e'amore nella musica\nma dov'e'\nsi dove'e'?\nC'e' amore nella musica\nci sara'\nci sara'\nC'e'amore nella musica\nsi dov'e'\nsi dov'e'?\nC'e'amore nella musica\nla musica!",
         "id": "2007_4_7"
+    },
+    {
+        "artist": "Andreas Johnson",
+        "song_name": "A Little Bit of Love",
+        "year": 2007,
+        "lovecount": 8,
+        "lyrics_cleaned": "We've got to make a move\nTake a chance\nWhile the night is young\nOn sweet romance\nThough we fuzz and fight\nYou're my song and dance\nAlmost every night\nYour heart is mine\nYeah, we break up a little bit\nMake up a little bit\nShape up a little bit\nTry some harder\nAnd that's just a part of it\nIt's all for a little bit of love\nWe've come a long, long way\nFrom the world we knew\nAnd the streets we played\nIn our neighbourhood\nNo matter what they say\nAbout me and you\nWe live the way we do\nThe way we do\nYeah, we break up a little bit\nMake up a little bit\nShape up a little bit\nTry some harder\nAnd that's just a part of it\nIt's all for a little bit of love\nOhh, you better believe it (aha)\nDarling, ohh,\nYou better believe it\nWe all need it\nSo we break up a little bit\nMake up a little bit\nShape up a little bit\nTry some harder\nAnd that's just a part of it\nIt's all for a little bit of love\nHeey!\nOhh, you better believe it (aha)\nDarling, ohh,\nYou better believe it\nWe all need it\nI wanna be with you\nIn every room\nI wanna walk with you\nAs bride and groom\nThough we crash and burn\nWe're still in bloom\nIt's a give and take\nAnd you're my fate\nSo we break up a little bit\nMake up a little bit\nShape up a little bit\nTry some harder\nAnd that's just a part of it\nYeah, we're always gonna\nBreak up a little bit\nMake up a little bit\nShape up a little bit\nTry some harder\nAnd that's just a part of it\nIt's all for a little bit of love\nAnd that's just a part of it\nIt's all for a little bit of love",
+        "id": "2007_4_8"
     },
     {
         "artist": "Shirley Clamp",
@@ -734,6 +798,14 @@
         "lovecount": 8,
         "lyrics_cleaned": "She's the girl you won't forget\nShe'll fly away without regrets\nShe'll twist your mind\nYou'll go insane\nShe's the master of this game\nShe's a social butterfly\nShe will steal your heart\nAnd then she'll walk on by\nAnd all your life you'll wonder why\nWhat you did wrong\nWhat you did wrong\nShe's a social butterfly\nShe will steal your heart\nShe's gonna make you cry\nAnd all your life you'll wonder where\nWhere is she now\nWhere is she now\nIt's almost like you're hypnotized\nMight take some time to realize\nBut when you finally do wake up\nThere's nothing left but ache for love\nShe's a social butterfly\nShe will steal your heart\nAnd then she'll walk on by\nAnd all your life you'll wonder why\nWhat you did wrong\nWhat you did wrong\nShe's a social butterfly\nShe will steal your heart\nShe's gonna make you cry\nAnd all your life you'll wonder where\nWhere is she now\nWhere is she now\nWell now she's gone or so I've heard\nWith all those hearts it's so absurd\nBut I always knew\nThat she would go down\nWhat goes around comes around\nYeah\nShe's a social butterfly\nShe'll steal your heart\nAnd then she'll walk on by\nAnd all your life you'll wonder why\nWhat you did wrong\nWhat you did wrong\nShe's a social butterfly\nShe'll steal your heart\nShe's gonna make you cry\nAnd all your life you'll wonder where\nWhere is she now\nWhere is she now\nWhere is she now",
         "id": "2011_1_6"
+    },
+    {
+        "artist": "Brolle",
+        "song_name": "7 Days And 7 Nights",
+        "year": 2011,
+        "lovecount": 8,
+        "lyrics_cleaned": "(O o oh)\n(Love so beautiful)\n(Aah)\nIt's over, the curtain calls\nI have to move on, I need to be strong, I must let you go\nI've been crying, I haven't slept at all\nI've been wondering all those nights\nYou've been away from home\nTell me what's wrong\nTell me, have you met someone\nBut that's all right\nIf I can't make you stay\nSeven days and seven nights\n(Aaah)\nA love so beautiful\nAnd we just let it die\nWe could find a way back\nAnd learn how to stay alive\nAs long as we ask for love\nYou've been lying, yeah, you've been untrue\nBeen away one week without calling\nBroke my heart in two\nStill I miss you\nI'm about to break\nEvery dream we shared, all the hopes we had, all our memories\nTell me what's wrong\nTell me, have you met someone\nBut that's all right\nIf I can't make you stay\nSeven days and seven nights\n(Aaah)\nA love so beautiful\nAnd we just let it die\nWe could find a way back\nAnd learn how to stay alive\nAs long as we ask for love\nSeven days and seven nights\nAnd we just let it die\nWe could find a way back\nAnd learn how to stay alive\nYes, we could find a way back\nAnd learn how to stay alive\nAs long as we ask for love\nSeven days and seven nights\nAnd we just let it die\nSeven days and seven nights",
+        "id": "2011_2_1"
     },
     {
         "artist": "Loreen",
@@ -840,14 +912,6 @@
         "id": "2006_4_7"
     },
     {
-        "artist": "Andreas Johnson",
-        "song_name": "A Little Bit of Love",
-        "year": 2007,
-        "lovecount": 7,
-        "lyrics_cleaned": "We've got to make a move\nTake a chance\nWhile the night is young\nOn sweet romance\nThough we fuzz and fight\nYou're my song and dance\nAlmost every night\nYour heart is mine\nYeah, we break up a little bit\nMake up a little bit\nShape up a little bit\nTry some harder\nAnd that's just a part of it\nIt's all for a little bit of love\nWe've come a long, long way\nFrom the world we knew\nAnd the streets we played\nIn our neighbourhood\nNo matter what they say\nAbout me and you\nWe live the way we do\nThe way we do\nYeah, we break up a little bit\nMake up a little bit\nShape up a little bit\nTry some harder\nAnd that's just a part of it\nIt's all for a little bit of love\nOhh, you better believe it (aha)\nDarling, ohh,\nYou better believe it\nWe all need it\nSo we break up a little bit\nMake up a little bit\nShape up a little bit\nTry some harder\nAnd that's just a part of it\nIt's all for a little bit of love\nHeey!\nOhh, you better believe it (aha)\nDarling, ohh,\nYou better believe it\nWe all need it\nI wanna be with you\nIn every room\nI wanna walk with you\nAs bride and groom\nThough we crash and burn\nWe're still in bloom\nIt's a give and take\nAnd you're my fate\nSo we break up a little bit\nMake up a little bit\nShape up a little bit\nTry some harder\nAnd that's just a part of it\nYeah, we're always gonna\nBreak up a little bit\nMake up a little bit\nShape up a little bit\nTry some harder\nAnd that's just a part of it\nIt's all for a little bit of love\nAnd that's just a part of it\nIt's all for a little bit of love",
-        "id": "2007_4_8"
-    },
-    {
         "artist": "Lili & Susie",
         "song_name": "Show Me Heaven",
         "year": 2009,
@@ -880,14 +944,6 @@
         "id": "2009_4_8"
     },
     {
-        "artist": "Brolle",
-        "song_name": "7 Days And 7 Nights",
-        "year": 2011,
-        "lovecount": 7,
-        "lyrics_cleaned": "(O o oh)\n(Love so beautiful)\n(Aah)\nIt's over, the curtain calls\nI have to move on, I need to be strong, I must let you go\nI've been crying, I haven't slept at all\nI've been wondering all those nights\nYou've been away from home\nTell me what's wrong\nTell me, have you met someone\nBut that's all right\nIf I can't make you stay\nSeven days and seven nights\n(Aaah)\nA love so beautiful\nAnd we just let it die\nWe could find a way back\nAnd learn how to stay alive\nAs long as we ask for love\nYou've been lying, yeah, you've been untrue\nBeen away one week without calling\nBroke my heart in two\nStill I miss you\nI'm about to break\nEvery dream we shared, all the hopes we had, all our memories\nTell me what's wrong\nTell me, have you met someone\nBut that's all right\nIf I can't make you stay\nSeven days and seven nights\n(Aaah)\nA love so beautiful\nAnd we just let it die\nWe could find a way back\nAnd learn how to stay alive\nAs long as we ask for love\nSeven days and seven nights\nAnd we just let it die\nWe could find a way back\nAnd learn how to stay alive\nYes, we could find a way back\nAnd learn how to stay alive\nAs long as we ask for love\nSeven days and seven nights\nAnd we just let it die\nSeven days and seven nights",
-        "id": "2011_2_1"
-    },
-    {
         "artist": "Loreen",
         "song_name": "Euphoria",
         "year": 2012,
@@ -912,20 +968,20 @@
         "id": "2013_2_2"
     },
     {
-        "artist": "LaGaylia Frazier",
-        "song_name": "It's in the Stars",
-        "year": 2004,
+        "artist": "Camilla Lindén",
+        "song_name": "Du har rört vid min själ",
+        "year": 2002,
         "lovecount": 6,
-        "lyrics_cleaned": "Oa oa oa\nIt's written in the stars\n(Yeah, yeah, yeah)\nIt's in the stars\nI know that it's true\nBaby, you know it's me and you\nIt's in the stars\nYou've got to believe\nYou are the only one I need\nIt's in the stars\nOa oa oa\nIt's written in the stars\nI had a mission\nI wanted to search the world and you\nBecame my addiction\nCause you had me right from the start\nIt's hard to believe that we're inside a dream come true\nIt's in the stars\nI know that it's true\nBaby, you know it's me and you\nIt's in the stars\nYou've got to believe\nYou are the only one I need\nIt's in the stars\nOa oa oa\nIt's written in the stars\nLook into the future\nSee, that it was made for you and me\nBaby, when we're together\nWe can reach for the sky\nIt's hard to believe that we're inside a dream come true\nIt's in the stars\nI know that it's true\nBaby, you know it's me and you\nIt's in the stars\nYou've got to believe\nYou are the only one I need\nIt's in the stars\nOa oa oa\nIt's written in the stars\nIt's hard to believe that we're inside a dream come true\nIt's in the,\nIt's in the stars\nI know that it's true\nBaby, you know it's me and you\nIt's in the stars\nYou've got to believe\nYou are the only one I need\nIt's in the stars\nI know that it's true\nBaby, you know it's me and you\nIt's in the stars\nYou've got to believe\nYou are the only one I need\nIt's in the stars\nOa oa oa\nIt's written in the stars\nOa oa oa\nIt's written in the stars",
-        "id": "2004_1_5"
+        "lyrics_cleaned": "Du går ofta förbi\nFörsöker fånga din blick\nDu tittar alltid åt, något annat håll\nHur är svaret jag fick\nJag vet ej var du bor\nJag känner inte ditt namn\nDet finns något som, jag inte tvekar om\nDu har rört vid min själ\nJag vill att du ska finnas här hos mig\nOch känna hur det värmer inom mig\nMåste hålla dig, måste känna dig\nJag vill va inom dig\nJag vill att vi försvinner i varann\nFörför oss med att drömmen blivit'sann\nJag vill ge dig mer, ge dig allt du ser\nDu har rört vid min själ\nBlir det bara en dröm?\nSka jag aldrig nå fram?\nHar jag något som, du inte tycker om\nKommer tanken på skalv\nJag vill att du ska finnas här hos mig\nOch känna hur det värmer inom mig\nMåste hålla dig, måste känna dig\nJag vill va inom dig\nJag vill att vi försvinner i varann\nFörför oss med att drömmen blivit'sann\nJag vill ge dig mer, ge dig allt du ser\nDu har rört vid min själ\nJag vill att vi försvinner i varann\nFörför oss med att drömmen blivit'sann\nJag vill ge dig mer, ge dig allt du ser\nDu har rört vid min själ",
+        "id": "2002_1_4"
     },
     {
-        "artist": "Camilla Brinck",
-        "song_name": "Jenny",
-        "year": 2005,
+        "artist": "Sara Löfgren",
+        "song_name": "Som stormen",
+        "year": 2004,
         "lovecount": 6,
-        "lyrics_cleaned": "Whooh\nOhh ohh\nJag vet hur det är, det är ett helvete\nSom en sorglig film, som ingen annan ser\nEtt hål i dig, mörkt och stort\nJag vet hur det känns, det är turbulens\nDet är över nu, han är borta nu\nHan har flyttat in hos sin nya vän\nDet är ditt liv nu, så ta för dig nu\nDet kommer aldrig igen\nÅh Jenny du vet att du är bra\n(Du räcker till, du räcker till)\nÅh Jenny du får vad du vill ha\n(Bara du vill, bara du vill)\nÅh Jenny\nSå kom med oss nu, vi går ut ikväll\nVi går vart du vill, och du får va dig själv\nIngen blick som ser, ingen mun som ler\nMot kvinnan bredvid dig\nFör det är över nu, han är borta nu\nHan har flyttat in hos sin nya vän\nDet är ditt liv nu, så ta för dig nu\nDet kommer aldrig igen\nÅh Jenny du vet att du är bra\n(Du räcker till, du räcker till)\nÅh Jenny du får vad du vill ha\n(Bara du vill, bara du vill)\nÅh Jenny du vet att det är sant\nAtt du är vacker, du är stark\nÅh Jenny du vet att du är bra\nOhh ohh Jenny\nDu räcker, du räcker till\nJenny du vet, du räcker till\nDu räcker, du räcker till\nJenny du vet, du räcker till\nDu räcker, du räcker till\nJenny du vet, du räcker till\nDu räcker, du räcker till\nJenny du vet, du räcker till\nÅh Jenny du vet att du är bra (Ohh Jenny)\n(Du räcker till, du räcker till)\nÅh Jenny du får vad du vill ha (Ohh Jenny)\n(Bara du vill, bara du vill)\nÅh Jenny du vet att det är sant\nAtt du är vacker, du är stark\nÅh Jenny du vet att du är bra\nOhh ohh oh Jenny",
-        "id": "2005_2_2"
+        "lyrics_cleaned": "När alla ljusen brunnit ut\nOch drömmarna har tagit'slut\nVar finns du då?\nJag letar ibland flydda dar\nOch alla minnen som finns kvar\nAv det som var\nAlla dagar det var jag och du\nAlla nätterna så tomma nu\nGe mig svar säg mig hur\nJag väntar ännu\nRefr.\nSom stormen driver ett hav\nSom om solen gick ner\nOch aldrig vaknar mer\nMen vi ska älska varann\nSom vågorna smeker en strand\nOch viskar ditt namn\nMinuter blir till långa år\nOch om din tid blir tung och svår\nDå finns jag här\nJag offrar allting som jag har\nOm du kunde stanna kvar\nOch tro på mig\nInom mig brinner elden än\nOch den kommer brinna länge än\nSå se på mig\nJag vill va hos dig\nOooohhh\nRefr.\nSom stormen driver ett hav\nSom om solen gick ner\nOch aldrig vaknar mer\nMen vi ska älska, varann\nSom vågorna smeker en strand\nOch viskar ditt namn\nSom stormen driver ett hav\nVi ska älska\nOooohooo\nJag kan vänta en evighet\nOm jag vet att du kommer till mig\nJag lovar jag svär\nJag finns alltid här\nVi ska älska varann\nOooh ooohh\nSom stormen driver ett hav\nSom om solen gick ner\nOch aldrig vaknar mer\nMen vi ska älska varann\nSom vågorna smeker en strand\nOohh\nSom vågorna smeker en strand\nOch viskar ditt namn",
+        "id": "2004_1_6"
     },
     {
         "artist": "Josefin Nilsson",
@@ -992,12 +1048,28 @@
         "id": "2007_3_8"
     },
     {
+        "artist": "Caroline af Ugglas",
+        "song_name": "Tror på dig",
+        "year": 2007,
+        "lovecount": 6,
+        "lyrics_cleaned": "Vill ha ett svar\nJag vill veta när du är redo\nMen är rädd att förlåta dig\nSå om du älskar mig, som du säger att du gör\nKan det inte va' så svårt\nSå jag ska tro på dig\nJag ska ge dig all den tid som du vill ha\nJag finns här för dig\nJag ska offra allt, jag ska ge vad du vill ha\nÅh, tro på dig, jag tror på dig\nDin kärlek är ett frö som behöver tid att gro\nJag tror på oss\nAtt du får vara fri\nJu längre man väntar\nDesto mognare blir smaken på ett vin\nSå jag ska tro på dig\nJag ska ge dig all den tid som du vill ha\nJag finns här för dig\nJag ska offra allt, jag ska ge vad du vill ha\nÅh, tro på dig, jag tror på dig\nHur ska jag få dig, hur ska jag få dig att förstå\nAtt jag orkar inte längre, men jag är här för dig ändå?\nFör jag ska ge dig tid, den tid, den tid, den tid det tar\nSå jag ska tro på dig\nJag ska ge dig all den tid som du vill ha\nJag finns här för dig\nJag ska offra allt, jag ska ge vad du vill ha\nÅh, tro på dig, jag tror på\nTror på dig, tror på dig\nJag ska alltid tro på\nTror på dig, tror på dig\nJag ska alltid tro på\nTror på dig, tror på dig\nJag ska alltid tro på dig\nJa, jag ska alltid tro på dig",
+        "id": "2007_4_4"
+    },
+    {
         "artist": "Face-84",
         "song_name": "Alla gamla x",
         "year": 2008,
         "lovecount": 6,
         "lyrics_cleaned": "Det sjungs om evig kärlek, men\nHur många älskar varann än?\nNej vi gör slut och börjar om\nDet är väl så det ska va?\nVi traskar vidare och möts\nSer till att hälsningsfraser nöts\nOm man förväntas bry sig om\nAtt det ska gå så bra för dem\nFast man känner tvärtom\nOch säg mig sen\nÄr kärlek evig eller ej?\nJag vill ha en hönsnätsbur\nMed alla gamla x på vinden\nKunna gå upp då och då\nOch ge dem varsin snäll klapp på kinden\nMin kärlekskarta har ett kryss\nFör varje oförglömlig kyss\nJag minns vartenda vackert ord\nDet är väl så det ska va?\nDu sa: ''Du skulle jämt va min''\nMed samma lätthet som försvinn\nNu är det du som stannar kvar\nLika kärleksfull och rar\nSom jag minns att du var\nSå säg mig sen\nÄr kärlek evig eller ej?\nJag vill ha en hönsnätsbur\nMed alla gamla x på vinden\nPlocka fram dem då och då\nOch ge dem varsin snäll klapp på kinden\nJag ska vara så ömt förstående\nMuntra upp, ge tröst\nOch då ska dem ropa\n''Snälla! Ta mig tillbaka!''\nJag vill ha en\nJag vill ha en hönsnätsbur\nMed alla gamla x på vinden\nPlocka fram dem då och då\nOch ge dem varsin snäll klapp på kinden\nJag vill ha en hönsnätsbur\nMed alla gamla x på vinden\nPlocka fram dem då och då\nOch ge dem varsin snäll klapp på kinden",
         "id": "2008_1_2"
+    },
+    {
+        "artist": "Daniel Mitsogiannis",
+        "song_name": "Pame",
+        "year": 2008,
+        "lovecount": 6,
+        "lyrics_cleaned": "What's going on?\nI wanna feel you\nWe're having fun\nI wanna hold you\nCloser and closer to me\nSay do you feel\nIt's getting crazy\nSay what's for real\nAnd you'll amaze me\nNothing can break us apart\nCome on come, pame, pame\nCome on come, pame, pame\nLet's dance on the ceiling tonight\nCome on come, pame, pame\nCome on come, pame, pame\nLet's dance in the morning light\nShow what you feel\nWhat feels real for your heart\nShow what you feel for me\nCome on come, pame, pame\nCome on come, pame, pame\nDance through the night with me\nTell me what's true\nI think I'm dreaming\nJust me and you\nThat's what I'm feeling\nTake me and make me your man\nCome on come, pame, pame\nCome on come, pame, pame\nLet's dance on the ceiling tonight\nCome on come, pame, pame\nCome on come, pame, pame\nLet's dance in the morning light\nShow what you feel\nWhat feels real for your heart\nShow what you feel for me\nCome on come, pame, pame\nCome on come, pame, pame\nDance through the night with me\nLet's take the fight for the right to the night\nLet's find a place where the love never dies\nI'm gonna love you for ever and ever\nI know that you will be mine\nBe mine\n(Come on come, pame, pame)\n(Come on come, pame, pame)\n(Let's dance on the ceiling tonight)\n(Come on come, pame, pame)\nCome on come, pame, pame\nLet's dance in the morning light\nShow what you feel\nWhat feels real for your heart\nShow what you feel for me\nCome on come, pame, pame\nCome on come, pame, pame\nDance through the night\n(Pame, pame, pame)\nShow what you feel\n(Pame, pame, pame)\nShow what you feel for me\n(Pame, pame, pame)\nPame",
+        "id": "2008_4_3"
     },
     {
         "artist": "Erik Linder",
@@ -1048,22 +1120,6 @@
         "id": "2014_4_2"
     },
     {
-        "artist": "Martin",
-        "song_name": "Du och jag (i hela världen)",
-        "year": 2002,
-        "lovecount": 5,
-        "lyrics_cleaned": "Föreställ dig solen\nStjärnor och planeter\nIdag kom himlen och tog mig\nOch jag vet vad hon heter\nDu och jag är dom enda i hela världen\nSom älskar varann\nDu och jag är dom enda i hela världen\nSom förstår varann, förstår varann\nFöreställ dig månljus\nÖver marionetter\nOch där i mitten\nFinns två utan dubbletter\nDu och jag är dom enda i hela världen\nSom älskar varann\nDu och jag är dom enda i hela världen\nSom förstår varann, förstår varann\nDu och jag är dom enda i hela världen\nSom älskar varann\nDu och jag är dom enda i hela världen\nSom förstår varann, förstår varann\nOch det känns som om du\nVerkligen tror på mig\nNär jag viskar dom orden\nSom jag sparat åt dig\nDu och jag är dom enda i hela världen\nSom älskar varann\nDu och jag är dom enda i hela världen\nSom förstår varann, förstår varann\nDu och jag är dom enda i hela världen\nSom älskar varann\nDu och jag är dom enda i hela världen\nSom förstår varann, förstår varann",
-        "id": "2002_2_4"
-    },
-    {
-        "artist": "Kikki, Bettan & Lotta",
-        "song_name": "Vem é dé du vill ha",
-        "year": 2002,
-        "lovecount": 5,
-        "lyrics_cleaned": "Allt är upp och ner, du är allt jag ser\nVarför é dé så här när allt jag begär, det är ja eller nej\nVan att ge och ta och få det jag vill ha\nMen vad hjälper det nu, det finns bara du för mig\nVem é dé du vill ha, känner du som jag\nÉ jag den för dig som du ju är för mig\nSvara snälla du, jag vill veta nu\nSå säg (så säg) till mig (till mig)\nVem é dé du vill ha, é dé du och jag\nVet du vad du vill så säg då gärna till\nIngenting kan få mitt hjärta sluta slå\nFör dig (för dig) nej nej (nej nej)\nFörsöker ta det kallt, men é ändå trots allt\nLite osäker på om jag vet dé ändå, é dé ja eller nej\nAllting som jag har (allting som jag har) är frågor utan svar\nMen jag känner dé nu, det finns bara du för mig\nVem é dé du vill ha, känner du som jag\nÉ jag den för dig som du ju är för mig\nSvara snälla du, jag vill veta nu\nSå säg (så säg) till mig (till mig)\nVem é dé du vill ha, é dé du och jag\nVet du vad du vill så säg då gärna till\nIngenting kan få mitt hjärta sluta slå\nFör dig (för dig) nej nej (nej nej)\nVarför é dé så?\nVem é dé du vill ha, känner du som jag\nÉ jag den för dig som du ju är för mig\nSvara snälla du, jag vill veta nu\nSå säg (så säg) till mig (till mig)\nVem é dé du vill ha, é dé du och jag\nVet du vad du vill så säg då gärna till\nIngenting kan få mitt hjärta sluta slå\nFör dig (för dig) nej nej (nej nej)\nVem é dé du vill ha, känner du som jag\nÉ jag den för dig som du ju är för mig\nIngenting kan få mitt hjärta sluta slå\nFör dig (för dig) nej nej (nej nej)\nVem é dé du vill ha?",
-        "id": "2002_4_6"
-    },
-    {
         "artist": "Sarek",
         "song_name": "Genom eld och vatten",
         "year": 2003,
@@ -1072,12 +1128,12 @@
         "id": "2003_3_4"
     },
     {
-        "artist": "Sara Löfgren",
-        "song_name": "Som stormen",
+        "artist": "Nina & Kim",
+        "song_name": "En gång för alla",
         "year": 2004,
         "lovecount": 5,
-        "lyrics_cleaned": "När alla ljusen brunnit ut\nOch drömmarna har tagit'slut\nVar finns du då?\nJag letar ibland flydda dar\nOch alla minnen som finns kvar\nAv det som var\nAlla dagar det var jag och du\nAlla nätterna så tomma nu\nGe mig svar säg mig hur\nJag väntar ännu\nRefr.\nSom stormen driver ett hav\nSom om solen gick ner\nOch aldrig vaknar mer\nMen vi ska älska varann\nSom vågorna smeker en strand\nOch viskar ditt namn\nMinuter blir till långa år\nOch om din tid blir tung och svår\nDå finns jag här\nJag offrar allting som jag har\nOm du kunde stanna kvar\nOch tro på mig\nInom mig brinner elden än\nOch den kommer brinna länge än\nSå se på mig\nJag vill va hos dig\nOooohhh\nRefr.\nSom stormen driver ett hav\nSom om solen gick ner\nOch aldrig vaknar mer\nMen vi ska älska, varann\nSom vågorna smeker en strand\nOch viskar ditt namn\nSom stormen driver ett hav\nVi ska älska\nOooohooo\nJag kan vänta en evighet\nOm jag vet att du kommer till mig\nJag lovar jag svär\nJag finns alltid här\nVi ska älska varann\nOooh ooohh\nSom stormen driver ett hav\nSom om solen gick ner\nOch aldrig vaknar mer\nMen vi ska älska varann\nSom vågorna smeker en strand\nOohh\nSom vågorna smeker en strand\nOch viskar ditt namn",
-        "id": "2004_1_6"
+        "lyrics_cleaned": "En gång för alla, en gång för alla x2\nWhoa, whoa, whoa whoa\nSå du, okej, du har nog känt att jag försummat dig.\n(du vet, det brinner i dig)\nJag hoppas att det inte är för sent att ändra sig. (ohh nej nej nej)\nSå från och med ikväll ska du bli kvitt min ensamhet.\n(ajaj, natten blir het.)\nJag lovar att min kärlek ska bli lite mer konkret, jag tror du vet.\nSå du, håll i dig nu.\nEn gång för alla, ska jag ta dig dit du vill.\nFå dig att falla, så att tiden stannar till.\nAll min längtan, ska ta form under min hand.\nFör jag ska sätta den i brand.\nDet är så lätt att bara ta för givet det man har.\n(jag vet, tills inget finns kvar)\nJag vet så väl, den läxan har man lärt i sina dar, vill ha dig kvar.\nSå du, kom till mig nu.\nEn gång för alla, ska jag ta dig dit du vill.\nFå dig att falla, så att tiden stannar till.\nAll min längtan, ska ta form under min hand.\nFör jag ska sätta den i brand.\nEn gång för alla, ska du skrika ut mitt namn.\nKänslorna svalla, tills du slocknar i min famn.\nJa jag ska ge dig, allt det där som du vill ha.\nEn gång för alla, du och jag.\nWoah, whoa, whoa whoa. x2\nEn gång för alla, ska jag ta dig dit du vill.\nFå dig att falla, så att tiden stannar till.\nAll min längtan, ska ta form under min hand.\nFör jag ska sätta den i brand.\nEn gång för alla, ska du skrika ut mitt namn.\nKänslorna svalla, tills du slocknar i min famn.\nJa jag ska ge dig, allt det där som du vill ha.\nEn gång för alla, du och jag.\nWhoa (whoa). En gång för alla, du och jag.",
+        "id": "2004_1_1"
     },
     {
         "artist": "Papa Dee",
@@ -1104,14 +1160,6 @@
         "id": "2005_4_5"
     },
     {
-        "artist": "Kikki Danielsson",
-        "song_name": "I dag & i morgon",
-        "year": 2006,
-        "lovecount": 5,
-        "lyrics_cleaned": "Du, för mig finns bara du\nBara dig som jag ser\nJag vill bara ha mer och mer\nJag vet hur det borde va\nBorde va här hos mig\nFör det är nåt i dig som jag ser\nOch i en mycket bättre värld\nSå är du alltid här\nIdag och imorgon och från och med nu\nDet finns ingen annan, det finns bara du\nDet enda jag vill är att va där du är\nI en mycket bättre värld\nIdag och imorgon och hela mitt liv\nDet finns inget annat, det finns bara vi\nOch vad som än händer och vart du än går\nSå finns jag där idag och imorgon ändå\nVi, det borde vara vi\nDu och jag varje dag\nDet är allt jag vill ha i mitt liv\nOch i en mycket bättre värld\n(Och i en mycket bättre värld)\nSå är du alltid här\nIdag och imorgon och från och med nu\nDet finns ingen annan, det finns bara du\nDet enda jag vill är att va där du är\nI en mycket bättre värld\nIdag och imorgon och hela mitt liv\nDet finns inget annat, det finns bara vi\nOch vad som än händer och vart du än går\nSå finns jag där idag och imorgon ändå\nIdag och imorgon ändå\nJag kommer alltid va här\n(Idag och imorgon och från och med nu)\nIdag och imorgon\n(Det finns ingen annan, det finns bara du)\nDet enda jag vill är att va där du är\nI en mycket bättre värld\nIdag och imorgon och hela mitt liv\nDet finns inget annat, det finns bara vi\nOch vad som än händer och vart du än går\nSå finns jag där idag och imorgon ändå",
-        "id": "2006_2_6"
-    },
-    {
         "artist": "Thérèse Andersson",
         "song_name": "When You Need Me",
         "year": 2008,
@@ -1128,14 +1176,6 @@
         "id": "2008_3_8"
     },
     {
-        "artist": "Daniel Mitsogiannis",
-        "song_name": "Pame",
-        "year": 2008,
-        "lovecount": 5,
-        "lyrics_cleaned": "What's going on?\nI wanna feel you\nWe're having fun\nI wanna hold you\nCloser and closer to me\nSay do you feel\nIt's getting crazy\nSay what's for real\nAnd you'll amaze me\nNothing can break us apart\nCome on come, pame, pame\nCome on come, pame, pame\nLet's dance on the ceiling tonight\nCome on come, pame, pame\nCome on come, pame, pame\nLet's dance in the morning light\nShow what you feel\nWhat feels real for your heart\nShow what you feel for me\nCome on come, pame, pame\nCome on come, pame, pame\nDance through the night with me\nTell me what's true\nI think I'm dreaming\nJust me and you\nThat's what I'm feeling\nTake me and make me your man\nCome on come, pame, pame\nCome on come, pame, pame\nLet's dance on the ceiling tonight\nCome on come, pame, pame\nCome on come, pame, pame\nLet's dance in the morning light\nShow what you feel\nWhat feels real for your heart\nShow what you feel for me\nCome on come, pame, pame\nCome on come, pame, pame\nDance through the night with me\nLet's take the fight for the right to the night\nLet's find a place where the love never dies\nI'm gonna love you for ever and ever\nI know that you will be mine\nBe mine\n(Come on come, pame, pame)\n(Come on come, pame, pame)\n(Let's dance on the ceiling tonight)\n(Come on come, pame, pame)\nCome on come, pame, pame\nLet's dance in the morning light\nShow what you feel\nWhat feels real for your heart\nShow what you feel for me\nCome on come, pame, pame\nCome on come, pame, pame\nDance through the night\n(Pame, pame, pame)\nShow what you feel\n(Pame, pame, pame)\nShow what you feel for me\n(Pame, pame, pame)\nPame",
-        "id": "2008_4_3"
-    },
-    {
         "artist": "Nina Söderquist",
         "song_name": "Tick Tock",
         "year": 2009,
@@ -1144,20 +1184,20 @@
         "id": "2009_1_1"
     },
     {
-        "artist": "Markoolio",
-        "song_name": "Kärlekssång från mig",
-        "year": 2009,
-        "lovecount": 5,
-        "lyrics_cleaned": "Du e för söt, varje gång som du fyller mig med smicker\nAtt jag rappar ballt, kan sjunga allt, varje tänkbar stil\nMen älskling, den sång som du helst vill höra\nRåkar vara just den jag inte kan göra\nSå vänta dig ingen kärlekssång från mig\nNågon smäktande ballad kommer inte att bli av\nJag älskar dig men jag måste säga nej\nDet blir aldrig, aldrig, aldrig någon kärlekssång från mig\nTänk dig själv, en duett mellan Thåström och Carola\nEller Kent på scen på Diggiloo-turnén, det vore ganska fel\nAtt höra mig känslosam skulle folk ha svårt att tåla\nAldrig någonsin att jag sätter min hela trovärdighet på spel\nSå älskling, kan du inte bara sluta tjata?\nFör den idén kommer jag ändå alltid att rata\nSå vänta dig ingen kärlekssång från mig.\nNågon smäktande ballad kommer inte att bli av\nJag älskar dig men jag måste säga nej\nDet blir aldrig, aldrig, aldrig någon kärlekssång från mig\nSeså lugna ner dig, sluta gråta\nDu får ju ändå aldrig höra hur det skulle låta\nVänta dig ingen kärlekssång från mig\nNågon smäktande ballad kommer inte att bli av\nJag älskar dig men jag måste säga nej\nDet blir aldrig, aldrig, aldrig någon kärlekssång från mig",
-        "id": "2009_2_5"
-    },
-    {
         "artist": "Thorleifs",
         "song_name": "Sweet Kissin' In The Moonlight",
         "year": 2009,
         "lovecount": 5,
         "lyrics_cleaned": "Vem kan veta säkert om ett älskande par\nKommer leva lyckligt alla sina dar?\n(Wo-oh, wo-weh-oh)\nOm det är för evigt spelar inte nån roll\nNär man het och kär bortom all kontroll\n(Wo-oh, wo-weh-oh)\nFör då när allt känns rätt\nÄr varje beslut så lätt\nSweet kissin' in the moonlight\nDen första kyssen som du gav mig\nDina händer sökte mina\nMina drömmar mötte dina\nSweet kissin' in the moonlight\nDen första gången som du log mot mig\nBara du är hela världen\nEtt minne som dröjer kvar\nDen första stora kärleken är magisk i sig\nOch kyssen som den börja' med finns kvar i mig\n(Wo-oh, wo-weh-oh)\nOch just när drömmen slår in\nSaknar man ingenting\nSweet kissin' in the moonlight\nDen första kyssen som du gav mig\nDina händer sökte mina\nMina drömmar mötte dina\nSweet kissin' in the moonlight\nDen första gången som du log mot mig\nBara du är hela världen\nEtt minne som dröjer kvar\nVärlden stannade och allt blev tyst\nNär våra läppar möttes i en kyss\nOch i den stunden anade vi allt vi vet nu\nAtt inget nånsin mer skulle bli som det va förut\nSweet kissin' in the\nSweet kiss in the moonlight\nDen första kyssen som du gav mig\nDina händer sökte mina\nMina drömmar mötte dina\nSweet kissin' in the moonlight\nDen första gången som du log mot mig\nBara du är hela världen\nEtt minne som dröjer kvar\nA sweet kiss in the moonlight",
         "id": "2009_4_5"
+    },
+    {
+        "artist": "Jenny Silver",
+        "song_name": "Something in Your Eyes",
+        "year": 2011,
+        "lovecount": 5,
+        "lyrics_cleaned": "Unstoppable\nMy love for you is simply irresistable\nYou came to me\nA rainy cold November night you came to me\nI felt it in a heartbeat\nOnly time will tell\nWill we be together\nWill it be now and forever\nThere is something in your eyes\nSomething in your smile\nJust tells me that you're mine\nTell me that you are the only one\nThe only one for me\nI would never leave you\nI would never let you go\n'Cause there is something in your eyes\nSomething in your smile\nJust tells me that you're mine\nSay that you will be forever true\nAll that we can do\nTrust in me and you\nThere will never be another\nThere's no reason to think twice\n'Cause there is something in your\nDestiny\nMy love for you is meant to be my destiny\nMiracle\nThe moment that I caught your eye - a miracle\nI felt it in a heartbeat\nOnly time will tell\nWill we be together\nWill it be now and forever\nThere is something in your eyes\nSomething in your smile\nJust tells me that you're mine\nTell me that you are the only one\nThe only one for me\nI would never leave you\nI would never let you go\n'Cause there is something in your eyes\nSomething in your smile\nJust tells me that you're mine\nSay that you will be forever true\nAll that we can do\nTrust in me and you\nThere will never be another\nThere's no reason to think twice\n'Cause there is something in your eyes\n(There will never be another)\n(There's no reason to think twice)\nWe will be together\nIt will be now and forever\nThere is something in your eyes\nSomething in your smile\nJust tells me that you're mine\nTell me that you are the only one\nThe only one for me\nI would never leave you\nI would never let you go\n'Cause there is something in your eyes\nSomething in your smile\nJust tells me that you're mine\nSay that you will be forever true\nAll that we can do\nTrust in me and you\nThere will never be another\nThere's no reason to think twice\n'Cause there is something in your eyes\n(Something in your eyes)\nSomething in your eyes\nThere's something in your eyes",
+        "id": "2011_1_3"
     },
     {
         "artist": "Christian Walz",
@@ -1192,12 +1232,28 @@
         "id": "2011_3_5"
     },
     {
+        "artist": "Lasse Stefanz",
+        "song_name": "En blick och nånting händer",
+        "year": 2011,
+        "lovecount": 5,
+        "lyrics_cleaned": "Jag vandrar längs gator vi vandrat, du och jag\nTräffade någon som sett dig här i dag\nHan såg dig med en vän\nIngen han kände igen\nVi möttes och delade allt för en liten stund\nJag tänkte på dig varje timme och var sekund\nEn dag var allt förbi\nFast ingen kan älska som vi\nEn blick och nånting händer\nAllt börjar om igen\nMinnena återvänder\nTill den stora kärleken\nEn blick och nånting händer\nDet händer nånting med mig\nKan jag säga dig allt jag känner\nHur ska jag kunna glömma dig\nKunna glömma dig\nKunna glömma dig\nJag går ner för gatan och spelar vår musik\nDansen har slutat, jag möter en publik\nJag undrar var du finns\nJag tänker på dig och jag minns\nEn blick och nånting händer\nAllt börjar om igen\nMinnena återvänder\nTill den stora kärleken\nFörstod aldrig vad jag kände\nDet som hände med mig\nJag reste min väg och förlora' dig\nEn blick och nånting händer\nAllt börjar om igen\nMinnena återvänder\nTill den stora kärleken\nEn blick och nånting händer\nDet händer nånting med mig\nKan jag säga dig allt jag känner\nHur ska jag kunna glömma dig\nKunna glömma dig\nKunna glömma dig\nKunna glömma dig",
+        "id": "2011_4_3"
+    },
+    {
         "artist": "Yohio",
         "song_name": "Heartbreak Hotel",
         "year": 2013,
         "lovecount": 5,
         "lyrics_cleaned": "Ohoo Ohoo\nOhoo Ohoo\nOhoo Ohoo\nOhoo \nOhoo Ohoo\nOhoo Ohoo\nOhoo Ohoo\nOhoo\nThe taste of love\nIs bittersweet\nI can´t compete\nWith a memory\nYou gave your heart\nTo someone else.\nI´ve been here for sure\nOne too many times before\nIt´s harder everytime\nTo ignore\nOh Heartbreak Hotel.\nRef:\nYou better \nWake up\nAnd face the \nHeartache you´ve felt\nYou better \nStay strong\nWhen love´s gone\nAt the Heartbreak Hotel.\nMellanspel  (0,10”)\nOhoo Ohoo\nOhoo Ohoo\nHeartbreak Hotel\nOhoo Ohoo\nOhoo \nI don´t know what\nWhat we´ve become\nEven  when you´re here\nYou´re  always gone\nNeed to let go\nto break the spell\nI´ve been here for sure\nOne too many \ntimes before\nIt´s harder everytime\nTo ignore\nOh Heartbreak Hotel.\nRef:\nYou better \nWake up\nAnd face the \nHeartache you´ve felt\nYou better \nStay strong\nWhen loves gone\nAt the Heartbreak Hotel.\nMellanspel  (0,08”)\nOhoo Ohoo\nOhoo Ohoo\nHeartbreak Hotel\nOhoo Ohoo\nOhoo \nI still believe in us\nBut this is like a \nhopeless story \nI give my everything\nBut always seems to end \nup lonely\nHeartbreak \nHotel.\nRef:\nYou better \nWake up\nAnd face the \nHeartache you´ve felt\nYou better \nStay strong\nWhen loves gone\nAt the Heartbreak Hotel\nOhoo Ohoo\nOhoo Ohoo\nHeartbreak \nOhoo Ohoo\nOhoo \nHotel",
         "id": "2013_1_6"
+    },
+    {
+        "artist": "Joacim Cans",
+        "song_name": "Annelie",
+        "year": 2013,
+        "lovecount": 5,
+        "lyrics_cleaned": "Vakna Annelie\nLa-la-la-la-lie\nSlå upp ögonen\nVakna Annelie\nDu har sovit länge nu\nParaden har gått förbi\nVad hände med dina drömmar\nOm prinsen och om mig\nVad hände med dina tankar\nJa säg mig\nBara säg.\nSå ge mig dina drömmar\nLåt mig visa att det går\nJag låter dig\nfå smaka lite grann\nSå ge mig dina tankar\nJa jag lägger dem i en ask\nOch gömmer dom\ndär ingen kan se\nRef:\nBara du och jag Annelie\nBara du och jag Anne\nLa-la-la-la-lie.\nTa ett steg Annelie\nJag lovar att ta emot\nJag fångar dig om du faller\nLåt inte rädslan få slå rot\nJag ser att du fryser\nDin hud är vit som snö\nDina läppar är som skaren\nsom isen på en sjö.\nJa du är en ängel\nPå besök från himmelen\nLåt nu dina vingar\nta dig hem\nJa flyg ut över världen\nSnälla hälsa ifrån mig\nOm du vill ta med mig\nBara säg.\nRef:\nBara du och jag Annelie\nBara du och jag Anne\nLa-la-la-la-lie\nVakna Annelie.\nMellanspel  (0´20)\nSå ge mig dina drömmar\nLåt mig visa att det går\nJag låter dig\nFå smaka lite grann\nSå ge mig dina tankar\nJa jag lägger dom i en ask\nOch gömmer dom\ndär ingen kan se.\nVakna Annelie\nLa-la-la-la-la\nAnne-la-la-lie\nVakna Annelie\nBara du och jag\nBara för en dag\nAnnelie.",
+        "id": "2013_2_3"
     },
     {
         "artist": "Rikard Wolff & Sara Isaksson",
@@ -1240,20 +1296,20 @@
         "id": "2002_1_1"
     },
     {
-        "artist": "Camilla Lindén",
-        "song_name": "Du har rört vid min själ",
-        "year": 2002,
-        "lovecount": 4,
-        "lyrics_cleaned": "Du går ofta förbi\nFörsöker fånga din blick\nDu tittar alltid åt, något annat håll\nHur är svaret jag fick\nJag vet ej var du bor\nJag känner inte ditt namn\nDet finns något som, jag inte tvekar om\nDu har rört vid min själ\nJag vill att du ska finnas här hos mig\nOch känna hur det värmer inom mig\nMåste hålla dig, måste känna dig\nJag vill va inom dig\nJag vill att vi försvinner i varann\nFörför oss med att drömmen blivit'sann\nJag vill ge dig mer, ge dig allt du ser\nDu har rört vid min själ\nBlir det bara en dröm?\nSka jag aldrig nå fram?\nHar jag något som, du inte tycker om\nKommer tanken på skalv\nJag vill att du ska finnas här hos mig\nOch känna hur det värmer inom mig\nMåste hålla dig, måste känna dig\nJag vill va inom dig\nJag vill att vi försvinner i varann\nFörför oss med att drömmen blivit'sann\nJag vill ge dig mer, ge dig allt du ser\nDu har rört vid min själ\nJag vill att vi försvinner i varann\nFörför oss med att drömmen blivit'sann\nJag vill ge dig mer, ge dig allt du ser\nDu har rört vid min själ",
-        "id": "2002_1_4"
-    },
-    {
         "artist": "Solo",
         "song_name": "Ge mig himlen för en dag",
         "year": 2002,
         "lovecount": 4,
         "lyrics_cleaned": "You kept me holding on\nI'm always the last to know\nUhh, yeah\nWhen I saw you out with her\nI was torn in pieces\nFelt like something died inside me\nAnd I never find the words\nNever know the reasons\nI just put it all behind me\nBut before I go\nI want you to know\nJust how much I loved you\nYou kept me holding on\nNow I can't let you go\nSo tell me where we went wrong\nI'm always the last to know\nAfter all the things we shared\nAll our times together\nAfter all the nights you held me\nIf you really didn't care\nIf we're lost forever\n(If we're lost forever)\nBaby I thought you would tell me\nHow could I be blind?\nWas it all a lie?\nDid you ever loved me?\nYou kept me holding on\nNow I can't let you go\nSo tell me where we went wrong\nI'm always the last to know\nUuhh, uuhh\nThe last to know\nWill it ever turn out right\nWhen our love was sended\nWill I ever always be a last to know\nYou kept me holding on\nNow I can't let you go\nSo tell me where we went wrong\nI'm always the last to know\nYou kept me holding on\nNow I can't let you go\nSo tell me where we went wrong\nI'm always the last to know",
         "id": "2002_4_2"
+    },
+    {
+        "artist": "Jan Johansen",
+        "song_name": "Sista andetaget",
+        "year": 2002,
+        "lovecount": 4,
+        "lyrics_cleaned": "Om jag inte klarar av\nDet jag tror du kommer svara\nOm du bara ger dig av\nUtan att jag fått förklara\nOm jag inte hunnit visa vem jag är\nInnan morgonen är här\nOm du tvivlar för en stund\nSå finns jag alltid här\nTill det sista andetaget\nPå en hundradel sekund\nJag gör vad du begär\nTill det sista andetaget\nJag ger dig allt jag nånsin kan\nVi står och faller med varann\nDu är den som håller mig\nNär jag sjunker i förtvivlan\nDu kan tvinga mig att se\nLjuset från den andra sidan\nNär jag tvekar får jag styrkan ifrån dig\nTill när du behöver mig\nOm du tvivlar för en stund\nSå finns jag alltid här\nTill det sista andetaget\nPå en hundradel sekund\nJag gör vad du begär\nTill det sista andetaget\nJag ger dig allt jag nånsin kan\nVi står och faller med varann\nOm du tvivlar för en stund\nSå finns jag alltid här\nTill det sista andetaget\nTill det sista andetaget\nDet sista andetaget",
+        "id": "2002_4_7"
     },
     {
         "artist": "Da Buzz",
@@ -1326,22 +1382,6 @@
         "lovecount": 4,
         "lyrics_cleaned": "La la la la la\nLa la la la la\nLet the golden star\nKnow anywhere you are\nEveryone who breaths in sorrow\nNeed a place to call there home\nLooking for a new tomorrow\nHeaven thinks forever more\nFar up in heaven the light shines for you\nLet the golden star\nKnow anywhere you are\nGlimmer right into your heart\nLiving all your dreams\nAll the faith you need\nAnywhere you are\nAnyone to fear the darkness\nNever need to walk alone\nLight will be the caring mother\nIn your dreams your on you own\nStrong winds from heaven\nThey whisper your name\nLet the golden star\nKnow anywhere you are\nGlimmer right into your heart\nLiving all your dreams\nAll the faith you need\nAnywhere you are\nLet the golden star\nKnow anywhere you are\nGlimmer right into your heart\nLiving all your dreams\nAll the faith you need\nAnywhere you are tonight\n(Let the golden star\nKnow anywhere you are)\nGlimmer right into your heart\nLiving all your dreams\nAll the faith you need\nAnywhere you are\nFind your golden star tonight",
         "id": "2006_3_6"
-    },
-    {
-        "artist": "Kayo",
-        "song_name": "Innan natten är över",
-        "year": 2006,
-        "lovecount": 4,
-        "lyrics_cleaned": "Ensam i mörkret med dig så nära intill\nBlickar som möter varann, vi vet vad vi vill\nInnan det är för sent\nKom håll mig nära dig\nDet händer nåt i mig när vi rör varann\nInnan natten är över är allt jag behöver\nAtt få känna ditt hjärta mot mitt\nJag ger allt jag har när du stannar kvar\nInnan natten är över är allt jag behöver\nAtt få hålla din kropp emot min\nBara du och jag\nInnan natten blir till dag\nÖgon som glittrar och hungriga läppar som ler\nHjärtan som brinner men du är allt som jag ser\nInnan det är för sent\nVi drunknar i varann\nSom bara vi två kan\nBara du och jag\nInnan natten är över är allt jag behöver\nAtt få känna ditt hjärta mot mitt\nJag ger allt jag har när du stannar kvar\nInnan natten är över är allt jag behöver\nAtt få hålla din kropp emot min\nBara du och jag\nInnan natten blir till dag\nVi glömmer att det finns en morgondag\nFör nånting händer när vi rör varann\n(Innan natten är över är allt jag behöver)\n(Att få känna ditt hjärta mot mitt)\nJag ger allt jag har när du stannar kvar\nInnan natten är över är allt jag behöver\nAtt få hålla din kropp emot min\nBara du och jag\nInnan natten blir till dag\nInnan natten blir till dag",
-        "id": "2006_3_8"
-    },
-    {
-        "artist": "Evan",
-        "song_name": "Under Your Spell",
-        "year": 2006,
-        "lovecount": 4,
-        "lyrics_cleaned": "I remember the days that used to be\nWhen we still were we\nJust you and me\nNow you live on your own\nAnd so do I\nOur bonds was so strong\nI can't see why\nWas it something I said\nWas it something I did\nWas it something I\nNever had (money)\nBut whatever you do\nPlease give me one more try\nIf I love you or not\nI'm not really sure\nThe time will tell\nBut I miss you like I've never done before\nI'm under your spell\nNow my only way of staying alive\nIs by waiting everyday\nFor you to pass by\nWas it my fault\nIs that true\nI will change to be with you\nWas it something I said\nWas it something I did\nWas it something I\nNever had (passion)\nBut whatever you do\nPlease give me one more try\nIf I love you or not\nI'm not really sure\nThe time will tell\nBut I miss you like I've never done before\nI'm under your spell\nThere's one thing I still can not see\nYes I know it's too late for me\nBut I want you to tell me why\nOr give me one more try\nIf I love you or not\nI'm not really sure\nThe time will tell\nBut I miss you like I've never done before\nI'm under your spell\nIf I love you or not\nI'm not really sure\nThe time will tell\nBut I miss you like I've never done before\nI'm under your spell",
-        "id": "2006_4_5"
     },
     {
         "artist": "Lustans Lakejer",
@@ -1448,14 +1488,6 @@
         "id": "2011_3_7"
     },
     {
-        "artist": "Lasse Stefanz",
-        "song_name": "En blick och nånting händer",
-        "year": 2011,
-        "lovecount": 4,
-        "lyrics_cleaned": "Jag vandrar längs gator vi vandrat, du och jag\nTräffade någon som sett dig här i dag\nHan såg dig med en vän\nIngen han kände igen\nVi möttes och delade allt för en liten stund\nJag tänkte på dig varje timme och var sekund\nEn dag var allt förbi\nFast ingen kan älska som vi\nEn blick och nånting händer\nAllt börjar om igen\nMinnena återvänder\nTill den stora kärleken\nEn blick och nånting händer\nDet händer nånting med mig\nKan jag säga dig allt jag känner\nHur ska jag kunna glömma dig\nKunna glömma dig\nKunna glömma dig\nJag går ner för gatan och spelar vår musik\nDansen har slutat, jag möter en publik\nJag undrar var du finns\nJag tänker på dig och jag minns\nEn blick och nånting händer\nAllt börjar om igen\nMinnena återvänder\nTill den stora kärleken\nFörstod aldrig vad jag kände\nDet som hände med mig\nJag reste min väg och förlora' dig\nEn blick och nånting händer\nAllt börjar om igen\nMinnena återvänder\nTill den stora kärleken\nEn blick och nånting händer\nDet händer nånting med mig\nKan jag säga dig allt jag känner\nHur ska jag kunna glömma dig\nKunna glömma dig\nKunna glömma dig\nKunna glömma dig",
-        "id": "2011_4_3"
-    },
-    {
         "artist": "Anders Fernette",
         "song_name": "Run",
         "year": 2011,
@@ -1544,6 +1576,14 @@
         "id": "2014_4_3"
     },
     {
+        "artist": "Poets",
+        "song_name": "What Difference Does It Make?",
+        "year": 2002,
+        "lovecount": 3,
+        "lyrics_cleaned": "It all comes over me\nI'd really like to see\nWhy did you have to go\nI need to know\nI miss you so\nIf I could turn back time\nI would have changed your mind\nI'd never let you go\nI love you so\nBut still I know\nWhat difference does it make\nIf I still want you (ooh)\nWhen I know for sure that\nI can't make you mine, ooh\nWhat difference does it make\nIf I still need you (ooh)\nWhen we already have waved\nThat our last goodbye, goodbye\nGoodbye-ye-ye-ye-ye\nHow was I to know\nWhen you said you loved me so\nIt all was make believe\nI tried to see\nIs it up to me\nWhat difference does it make\nIf I still want you (ooh)\nWhen I know for sure that\nI can't make you mine, ooh\nWhat difference does it make\nIf I still need you (ooh)\nWhen we already have waved\nThat our last goodbye, goodbye\nGoodbye-ye-ye-ye-ye\nGoodbye, goodbye\nGoodbye-ye-ye-ye-ye\nOooh yeeah\nI tried to see\nIs it up to me\nWhat difference does it make\nIf I still want you (ooh)\nWhen I know for sure that\nI can't make you mine, ooh\nWhat difference does it make\nIf I still need you (ooh)\nWhen we already have waved\nThat our last goodbye, goodbye\nGoodbye-ye-ye-ye-ye\nWhat difference does it make\nIf I still want you (ooh)\nWhen I know for sure that\nI can't make you mine, ooh\nWhat difference does it make\nIf I still need you (ooh)\nWhen we already have waved\nThat our last goodbye, goodbye\nGoodbye-ye-ye-ye-ye\nGoodbye, goodbye\nGoodbye-ye-ye-ye-ye",
+        "id": "2002_2_1"
+    },
+    {
         "artist": "Ann-Louise Hanson & Molle Holmberg",
         "song_name": "Sluta!",
         "year": 2002,
@@ -1584,12 +1624,28 @@
         "id": "2005_1_4"
     },
     {
+        "artist": "Katrina & The Nameless",
+        "song_name": "As If Tomorrow Will Never Come",
+        "year": 2005,
+        "lovecount": 3,
+        "lyrics_cleaned": "Oh yeah\nWow\nAre you ready to rock, ready to rock 'n' roll?\nDo you wanna have fun, are you ready to lose control?\n'Cause tonight is the night, everything's alright\nThe heat is on and we'll rock 'til dawn\nYeah, ready to rock, ready to scream and shout\nWanna lose control, yeah I really wanna let it all out\nThere's no time to lose, baby me and you\nWe can make the whole world shake\nThere will never be another, never be another tonight\nAlright\nAs if tomorrow will never come\nAs if tomorrow we will be gone\nI wish I could make this moment last forever\nWhy bother whether it's right or wrong?\nPretend this night is the only one\nAs if tomorrow will never come\nThere's a party going on, baby let's celebrate\nWe have no time to lose, but you know it's never too late\n'Cause tonight is the night, everything's alright\nThe heat is on and we'll rock 'til dawn\nThere will never be another, never be another tonight\nOh yeah\nAs if tomorrow will never come\nAs if tomorrow we will be gone\nI wish I could make this moment last forever\nWhy bother whether it's right or wrong?\nPretend this night is the only one\nAs if tomorrow will never come\nNever come\nAs if tomorrow will never come\nAs if tomorrow we will be gone\nI wish I could make this moment last forever\nWhy bother whether it's right or wrong?\nPretend this night is the only one\nAs if tomorrow will never come\nWhy bother whether it's right or wrong?\nPretend this night is the only one\nAs if tomorrow will never come\nAs if tomorrow will never come",
+        "id": "2005_4_8"
+    },
+    {
         "artist": "Linda Bengtzing",
         "song_name": "Jag ljuger så bra",
         "year": 2006,
         "lovecount": 3,
         "lyrics_cleaned": "Jag har allt jag vill ha\nDet är klart jag mår bra\nSom jag sa, när du ringde idag\nJag ljuger så bra\nÅh, jag ljuger så bra\nJag har bytt lås på hjärtats alla dörrar\nSagt upp ditt hyreskontrakt\nOch talat om för alla mina vänner\nAtt sista kortet är lagt\nÅh, går du omkring och tror jag är förtvivlad\nOch bara tänker på dig\nOch ångrar mig, haa, det kan du glömma\nOm du vill veta om jag har slutat drömma\nOch sover lugnt i min säng\nÅh, jag önskar du var här nu så att du kunde se\nJag överlever utan dig\nJag kan klara mig själv, kan gå ut varje kväll\nKomma hem när jag vill\nSe en skräckfilm och sen kan jag somna igen\nUtan dig tätt intill\nHar min tidning ifred och en säng som är bred\nSå bättre kan ingenting va\nJag har allt jag vill ha\nSom jag sa, när du ringde idag\nÅhh, jag ljuger så bra\nDu kanske tror jag ligger här och gråter\nMen baby där har du fel\nMm, man mister en så står där tusen åter\nJag går och shoppar och dricker dyra drinkar\nOch jag tänker bara på mig\nJag kan klara mig själv, kan gå ut varje kväll\nKomma hem när jag vill\nSe en skräckfilm och sen kan jag somna igen\nUtan dig tätt intill\nHar min tidning ifred och en säng som är bred\nSå bättre kan ingenting va\nJag ljuger så bra\nMen ibland är det svårt att va stark\nInte följa sitt hjärta\nOch inte skicka nåt dumt sms\nAtt jag saknar dig så\nJag kan klara mig själv, kan gå ut varje kväll\nKomma hem när jag vill\nSe en skräckfilm och sen kan jag somna igen\nUtan dig tätt intill\nHar min tidning ifred och en säng som är bred\nSå bättre kan ingenting va\nJag har allt jag vill ha\nSom jag sa, när du ringde idag\nÅh åh, jag ljuger så, ja jag ljuger så bra",
         "id": "2006_1_5"
+    },
+    {
+        "artist": "Jessica Andersson",
+        "song_name": "Kalla nätter",
+        "year": 2006,
+        "lovecount": 3,
+        "lyrics_cleaned": "I min fantasi\nGår vi närmre och närmre varann\nAllt står still när du viskar mitt namn\nI min fantasi\nSer jag allting så tydligt och klart\nDen där natten det var du och jag\nI min fantasi\nDu var min men försvann\nMed mitt hjärta som stod i brand\nNär kalla nätter sänker sig\nOch fängslar mig, då väntar jag\nNär kalla nätter plågar mig\nMed minnen om hur det var\nNär kalla nätter sänker sig\nTar rädslan vid, då längtar jag\nTill heta nätter nära dig\nMen kylan håller mig kvar\nKalla nätter längtar jag\nI min fantasi\nKan jag känna din hud mot min hud\nKnappast medveten om nattens ljud\nI min fantasi\nDu var min men försvann\nMed mitt hjärta som stod i brand\nNär kalla nätter sänker sig\nOch fängslar mig, då väntar jag\nNär kalla nätter plågar mig\nMed minnen om hur det var\nKalla nätter längtar jag\nNu står jag ensam kvar så här\nHelt oviss om vart livet bär\nVill bara vara där du är\nNär kalla nätter sänker sig\n(Och fängslar mig, då väntar jag)\nNär kalla nätter plågar mig\nMed minnen om hur det var\nNär kalla nätter sänker sig\nTar rädslan vid, då längtar jag\nTill heta nätter nära dig\nMen kylan håller mig kvar\nKalla nätter längtar jag\nKalla nätter längtar jag",
+        "id": "2006_3_4"
     },
     {
         "artist": "Tommy Nilsson",
@@ -1616,6 +1672,14 @@
         "id": "2007_2_2"
     },
     {
+        "artist": "Jessica Andersson",
+        "song_name": "Kom",
+        "year": 2007,
+        "lovecount": 3,
+        "lyrics_cleaned": "Yeah eh yeah, ohh\nDu tror att alla kvinnor vill ha dig\nHar nog aldrig fått ett nej\nVem väljer du ikväll?\nNån sexig blond modell\nVem får dyra drinkar av dig\nDu tror att pengar kan ge dig allting\nOch du saknar ingenting\nMen mycket vill ha mer\nMycket, mycket mer\nDu har missat någonting, så\nKom! Om du tror att du kan förföra mig\nBara kom! Men med den taktiken\nTror jag att du blir besviken\nKom! Om du tror att du kan förföra mig\nOm du vill va min man\nVisa vad du kan\nJa, kom och visa att du är en man\nVarför skulle jag vilja ha dig?\nNär du kommer fram till mig\nMed samma dryga stil\nSom skylten på din bil\nTror du att det lockar mig, så\nKom! Om du tror att du kan förföra mig (förföra mig)\nBara kom! Men med den taktiken\nTror jag att du blir besviken\nKom! Om du tror att du kan förföra mig\nOm du vill va min man\nVisa vad du kan\nJa, kom och visa att du är en man\nDet känns som natten kan bli lång, åh\nMan vinner inte varje gång\n(Kom! Om du tror att du kan förföra mig)\nÅh, här har du mig!\n(Bara kom!) Bara kom! (Men med den taktiken)\nTror jag att du blir besviken\n(Kom! Om du tror att du kan förföra mig)\nOm du vill va min man\nVisa vad du kan\nJa, kom och visa att du är en man",
+        "id": "2007_2_6"
+    },
+    {
         "artist": "Sanna Nielsen",
         "song_name": "Vågar du, vågar jag",
         "year": 2007,
@@ -1630,6 +1694,14 @@
         "lovecount": 3,
         "lyrics_cleaned": "I can hear you call my name\nLike a flash from yesterday\nAs if you were here beside me\nIt's all happening again\nThere's no reason to pretend\nWe were made for one another\nSo vividly\nThose memories\nAre taking control over me\nIt's all coming back like a déjà vu\nEverything that you used to do\nWhen you were in my life\nNow I feel that I'm ready to try it again\nIt's all coming back like a déjà vu\nOnce again only me and you\nWe can make it right\nAnd rewind back in time\nAnd start over again\nJust like a déjà vu\nIt feels like we've been here before\nBut this is new of that I'm sure\nNow that you are here to guide me\nSo vividly\nThose memories\nAre taking control over me\nIt's all coming back like a déjà vu\nEverything that you used to do\nWhen you were in my life\nNow I feel that I'm ready to try it again\nIt's all coming back like a déjà vu\nOnce again only me and you\nWe can make it right\nAnd rewind back in time\nAnd start over again\nLike a déjà vu\nI can hear you\nCall my name\nI'm ready to try it again\n(It's all coming back like a déjà vu)\nEverything that you used to do\nWhen you were in my life\nNow I feel that I'm ready to try it again\n(It's all coming back like a déjà vu)\nOnce again only me and you\nWe can make it right\nAnd rewind back in time\nAnd start over again\nJust like a déjà vu",
         "id": "2008_1_3"
+    },
+    {
+        "artist": "Alexander Schöld",
+        "song_name": "Den första svalan",
+        "year": 2008,
+        "lovecount": 3,
+        "lyrics_cleaned": "Sommaren var allt vi fick\nnätterna var korta\nvi älskade ett ögonblick\nmen sen så var du borta\noch regnet föll och blev till snö\nseptember log och sa adjö\nNär vintern kom så blev den väldigt lång\nRef:\nFör idag såg jag den första svalan\nflyga över taken,\nsommartecken nummer ett\njust idag, så vet jag att du kommer\noch en doft av sommarn,\ngör så att jag svävar så lätt\nsom svalorna\nJanuari var så mörk\nkall var februari\nmen värmen fanns där inom mig\nför hjärtat fanns du kvar i\nmin dröm om dig, i varje slag\nkom närmare för varje dag\nI mars, april så vaknade jag till\nRef:\nOch idag såg jag den första svalan\nflyga över taken,\nsommartecken nummer ett\njust idag, så vet jag att du kommer\noch en doft av sommar,\ngör så att jag svävar så lätt\nsom svalorna\noch snart så får jag hålla dig\noch jag kan knappast hålla mig\nför alla tecken säger mig\natt du är påväg\nRef:\nFör idag såg jag den första svalan\nflyga över taken,\nsommartecken nummer ett\njust idag, så vet jag att du kommer\noch en doft av sommar,\ngör så att jag svävar så lätt\nsom svalorna",
+        "id": "2008_2_4"
     },
     {
         "artist": "Sanna Nielsen",
@@ -1752,14 +1824,6 @@
         "id": "2014_4_4"
     },
     {
-        "artist": "Poets",
-        "song_name": "What Difference Does It Make?",
-        "year": 2002,
-        "lovecount": 2,
-        "lyrics_cleaned": "It all comes over me\nI'd really like to see\nWhy did you have to go\nI need to know\nI miss you so\nIf I could turn back time\nI would have changed your mind\nI'd never let you go\nI love you so\nBut still I know\nWhat difference does it make\nIf I still want you (ooh)\nWhen I know for sure that\nI can't make you mine, ooh\nWhat difference does it make\nIf I still need you (ooh)\nWhen we already have waved\nThat our last goodbye, goodbye\nGoodbye-ye-ye-ye-ye\nHow was I to know\nWhen you said you loved me so\nIt all was make believe\nI tried to see\nIs it up to me\nWhat difference does it make\nIf I still want you (ooh)\nWhen I know for sure that\nI can't make you mine, ooh\nWhat difference does it make\nIf I still need you (ooh)\nWhen we already have waved\nThat our last goodbye, goodbye\nGoodbye-ye-ye-ye-ye\nGoodbye, goodbye\nGoodbye-ye-ye-ye-ye\nOooh yeeah\nI tried to see\nIs it up to me\nWhat difference does it make\nIf I still want you (ooh)\nWhen I know for sure that\nI can't make you mine, ooh\nWhat difference does it make\nIf I still need you (ooh)\nWhen we already have waved\nThat our last goodbye, goodbye\nGoodbye-ye-ye-ye-ye\nWhat difference does it make\nIf I still want you (ooh)\nWhen I know for sure that\nI can't make you mine, ooh\nWhat difference does it make\nIf I still need you (ooh)\nWhen we already have waved\nThat our last goodbye, goodbye\nGoodbye-ye-ye-ye-ye\nGoodbye, goodbye\nGoodbye-ye-ye-ye-ye",
-        "id": "2002_2_1"
-    },
-    {
         "artist": "Annika Ljungberg",
         "song_name": "Sail Away",
         "year": 2002,
@@ -1774,14 +1838,6 @@
         "lovecount": 2,
         "lyrics_cleaned": "I, I wonder where you are, ah\nWhy, why did you have to go?\nI would give anything to you\nThe love that we shared was all so true\nWanna be by your side!\nI'll be the one, who'll stand by your side\nWanna be there to hold you whenever you cry\nMy comfort will guide you and make you believe that\nI'll be the one that you need\nI'll be the one\nI, I didn't need your lies, no\nI've tried to tell you one more time\nThat I would give anything to you\nThe love that we shared was all so true\nWanna be by your side!\nI'll be the one, who'll stand by your side\nWanna be there to hold you whenever you cry\nMy comfort will guide you and make you believe that\nI'll be the one that you need\nI'll be the one, I'll be the one\nMy comfort will guide you and make you believe that\nI'll be the one that you need\nI'll be the one\nI'll be the one, who'll stand by your side\nWanna be there to hold you whenever you cry\nMy comfort will guide you and make you believe that\nI'll be the one that you need\nI'll be the one, who'll stand by your side\nWanna be there to hold you whenever you cry\nMy comfort will guide you and make you believe that\nI'll be the one that you need\n(The one that you need)\nI'll be the one that you need\nI'll be the one",
         "id": "2002_4_4"
-    },
-    {
-        "artist": "Jan Johansen",
-        "song_name": "Sista andetaget",
-        "year": 2002,
-        "lovecount": 2,
-        "lyrics_cleaned": "Om jag inte klarar av\nDet jag tror du kommer svara\nOm du bara ger dig av\nUtan att jag fått förklara\nOm jag inte hunnit visa vem jag är\nInnan morgonen är här\nOm du tvivlar för en stund\nSå finns jag alltid här\nTill det sista andetaget\nPå en hundradel sekund\nJag gör vad du begär\nTill det sista andetaget\nJag ger dig allt jag nånsin kan\nVi står och faller med varann\nDu är den som håller mig\nNär jag sjunker i förtvivlan\nDu kan tvinga mig att se\nLjuset från den andra sidan\nNär jag tvekar får jag styrkan ifrån dig\nTill när du behöver mig\nOm du tvivlar för en stund\nSå finns jag alltid här\nTill det sista andetaget\nPå en hundradel sekund\nJag gör vad du begär\nTill det sista andetaget\nJag ger dig allt jag nånsin kan\nVi står och faller med varann\nOm du tvivlar för en stund\nSå finns jag alltid här\nTill det sista andetaget\nTill det sista andetaget\nDet sista andetaget",
-        "id": "2002_4_7"
     },
     {
         "artist": "Méndez",
@@ -1824,36 +1880,12 @@
         "id": "2005_2_7"
     },
     {
-        "artist": "Jessica Folcker",
-        "song_name": "Om natten",
+        "artist": "Mathias Holmgren",
+        "song_name": "Långt bort om tid och rum",
         "year": 2005,
         "lovecount": 2,
-        "lyrics_cleaned": "Om natten kommer längtan att somna\n(Aaahh)\nDimman sänker sig ner\nNär vi närmar oss varann\nIngen hör, ingen ser\nBara månen står i brand\n(Jag vet) Allt kan hända\n(Jag vet) Allt kan vända\nNär drömmen blir verklighet\n(Just nu) Vill jag vara\n(Just nu) Vill jag bara få stanna i min hemlighet\nOm natten kommer känslan tillbaks till mig\nOm natten kommer rädslan att mista dig\nOm natten kommer längtan att somna\nNär skuggorna jagar mig\nGlömmer bort tid och rum\nBara du och jag är här\nLämnar allt för en stund\nAllting stannar där vi är\n(Jag vet) Allt kan hända\n(Jag vet) Allt kan vända\nNär drömmen blir verklighet\n(Just nu) Vill jag vara\n(Just nu) Vill jag bara få stanna i min hemlighet\nOm natten kommer känslan tillbaks till mig\nOm natten kommer rädslan att mista dig\nOm natten kommer längtan att somna\nNär skuggorna jagar mig\nOm natten kommer känslan tillbaks till mig\nOm natten kommer rädslan att mista dig\nOm natten kommer ängslan att vakna\nNär saknaden kväver mig\nVill för alltid va kvar\nStanna tiden en stund\nUtan dig får jag inte en blund\nVill för alltid va kvar\nOch förvandla en dröm till en ny verklighet\nOm natten kommer känslan (tillbaks till mig)\nOm natten kommer rädslan (att mista dig)\n(Om natten kommer längtan) Då kommer längtan\n(Att somna) Längtan att somna\n(När skuggorna jagar mig)\nOm natten kommer känslan tillbaks till mig\nOm natten kommer rädslan att mista dig\nOm natten kommer ängslan att vakna\nNär saknaden kväver mig",
-        "id": "2005_3_7"
-    },
-    {
-        "artist": "Nanne Grönvall",
-        "song_name": "Håll om mig",
-        "year": 2005,
-        "lovecount": 2,
-        "lyrics_cleaned": "Att vår värld behöver ha\nMera kärlek varje dag\nDet vet både jag och du\nLåt oss börja här och nu\nSå håll om mig\nSläpp inte taget om mig\nÄr som förhäxad av dig\nOch jag vill ha dig\nKom och håll om mig nu\nJa kom närmare ett slag\nHör du mina andetag?\nBlodet rusar vilt och hett\nJa på många skilda sätt\nSå kom och håll om mig\nSläpp inte taget om mig\nÄr som förhäxad av dig\nOch jag vill ha dig\nKom och håll om mig nu\nPulsen slår, jag ser din blick\nÅhh, jag är i ett hjälplöst skick\nJag kan bli räddad först om du\nGer mun-mot-mun-metoden nu\nSå håll om mig\nSläpp inte taget om mig\nÄr som förhäxad av dig\nOch jag vill ha dig\nKom och håll om mig nu\nJa kom och håll om mig\nSläpp inte taget om mig\nÄr som förhäxad av dig\nOch jag vill ha dig\nKom och håll om mig nu\nÄr förlorad och förförd\nJag är skakad och berörd\nHjärtat slår så hårt\nLåta bli dig blir för svårt\nOch jag tror du ser\nAtt jag faller mer och mer\nHåll om mig\n(Ja håll om mig)\n(Släpp inte taget) om mig\nÄr som förhäxad av dig\nOch jag vill ha dig\nKom och håll om mig nu\nJa kom och håll om mig\nSläpp inte taget om mig\nÄr som förhäxad av dig\nOch jag vill ha dig\nKom och håll om mig nu\n(Ooohh, ooohh)\nWouh, kom och håll om mig\n(Ooohh, ooohh)\nSläpp inte taget om mig\nOch jag vill ha dig\nKom och håll om mig nu",
-        "id": "2005_4_6"
-    },
-    {
-        "artist": "Katrina & The Nameless",
-        "song_name": "As If Tomorrow Will Never Come",
-        "year": 2005,
-        "lovecount": 2,
-        "lyrics_cleaned": "Oh yeah\nWow\nAre you ready to rock, ready to rock 'n' roll?\nDo you wanna have fun, are you ready to lose control?\n'Cause tonight is the night, everything's alright\nThe heat is on and we'll rock 'til dawn\nYeah, ready to rock, ready to scream and shout\nWanna lose control, yeah I really wanna let it all out\nThere's no time to lose, baby me and you\nWe can make the whole world shake\nThere will never be another, never be another tonight\nAlright\nAs if tomorrow will never come\nAs if tomorrow we will be gone\nI wish I could make this moment last forever\nWhy bother whether it's right or wrong?\nPretend this night is the only one\nAs if tomorrow will never come\nThere's a party going on, baby let's celebrate\nWe have no time to lose, but you know it's never too late\n'Cause tonight is the night, everything's alright\nThe heat is on and we'll rock 'til dawn\nThere will never be another, never be another tonight\nOh yeah\nAs if tomorrow will never come\nAs if tomorrow we will be gone\nI wish I could make this moment last forever\nWhy bother whether it's right or wrong?\nPretend this night is the only one\nAs if tomorrow will never come\nNever come\nAs if tomorrow will never come\nAs if tomorrow we will be gone\nI wish I could make this moment last forever\nWhy bother whether it's right or wrong?\nPretend this night is the only one\nAs if tomorrow will never come\nWhy bother whether it's right or wrong?\nPretend this night is the only one\nAs if tomorrow will never come\nAs if tomorrow will never come",
-        "id": "2005_4_8"
-    },
-    {
-        "artist": "Jessica Andersson",
-        "song_name": "Kalla nätter",
-        "year": 2006,
-        "lovecount": 2,
-        "lyrics_cleaned": "I min fantasi\nGår vi närmre och närmre varann\nAllt står still när du viskar mitt namn\nI min fantasi\nSer jag allting så tydligt och klart\nDen där natten det var du och jag\nI min fantasi\nDu var min men försvann\nMed mitt hjärta som stod i brand\nNär kalla nätter sänker sig\nOch fängslar mig, då väntar jag\nNär kalla nätter plågar mig\nMed minnen om hur det var\nNär kalla nätter sänker sig\nTar rädslan vid, då längtar jag\nTill heta nätter nära dig\nMen kylan håller mig kvar\nKalla nätter längtar jag\nI min fantasi\nKan jag känna din hud mot min hud\nKnappast medveten om nattens ljud\nI min fantasi\nDu var min men försvann\nMed mitt hjärta som stod i brand\nNär kalla nätter sänker sig\nOch fängslar mig, då väntar jag\nNär kalla nätter plågar mig\nMed minnen om hur det var\nKalla nätter längtar jag\nNu står jag ensam kvar så här\nHelt oviss om vart livet bär\nVill bara vara där du är\nNär kalla nätter sänker sig\n(Och fängslar mig, då väntar jag)\nNär kalla nätter plågar mig\nMed minnen om hur det var\nNär kalla nätter sänker sig\nTar rädslan vid, då längtar jag\nTill heta nätter nära dig\nMen kylan håller mig kvar\nKalla nätter längtar jag\nKalla nätter längtar jag",
-        "id": "2006_3_4"
+        "lyrics_cleaned": "Eldar tänds och eldar släcks inatt\nOch vinner nån förlorar nästan allt\nMen vi är ett du och jag, vi ger och tar\nOch ingen kan ta ifrån oss det vi har\nRefräng:\nLångt bortom tid och rum\nLångt bortom allt vi vet\nHär stannar vi kvar i alla evighet\nLångt bortom tid och rum\nLångt bortom allt vi kan\nSå långt ifrån allt, så nära varann\nOch vi bara ser varandra, bara rör varandra\nBara har varandra, vi är\nLångt bortom tid och rum\nFör oss och för ingen annan\nNågon annanstans, en annan verklighet\nTvå hjärtan slår, det enda som vi vet\nSom i en helt annan värld, en egen värld\nDär ingen kan ta ifrån oss det vi är\nRefräng:\nLångt bortom tid och rum\nLångt bortom allt vi vet\nHär stannar vi kvar i alla evighet\nLångt bortom tid och rum\nLångt bortom allt vi kan\nSå långt ifrån allt, så nära varann\nOch vi bara ser varandra, bara rör varandra\nBara har varandra, vi är\nLångt bortom tid och rum\nFör oss och för ingen annan\n(Här stannar vi kvar)\nLångt bortom tid och rum\nLångt bortom tid och rum\nLångt bortom allt vi kan\nSå långt ifrån allt, så nära varann\nOch vi bara ser varandra, bara rör varandra\nBara ha varandra, vi är\nLångt bortom tid och rum\nFör oss och för ingen annan\nLångt bortom tid och rum",
+        "id": "2005_4_3"
     },
     {
         "artist": "Patrik Isaksson",
@@ -1880,28 +1912,12 @@
         "id": "2007_3_3"
     },
     {
-        "artist": "Caroline af Ugglas",
-        "song_name": "Tror på dig",
-        "year": 2007,
-        "lovecount": 2,
-        "lyrics_cleaned": "Vill ha ett svar\nJag vill veta när du är redo\nMen är rädd att förlåta dig\nSå om du älskar mig, som du säger att du gör\nKan det inte va' så svårt\nSå jag ska tro på dig\nJag ska ge dig all den tid som du vill ha\nJag finns här för dig\nJag ska offra allt, jag ska ge vad du vill ha\nÅh, tro på dig, jag tror på dig\nDin kärlek är ett frö som behöver tid att gro\nJag tror på oss\nAtt du får vara fri\nJu längre man väntar\nDesto mognare blir smaken på ett vin\nSå jag ska tro på dig\nJag ska ge dig all den tid som du vill ha\nJag finns här för dig\nJag ska offra allt, jag ska ge vad du vill ha\nÅh, tro på dig, jag tror på dig\nHur ska jag få dig, hur ska jag få dig att förstå\nAtt jag orkar inte längre, men jag är här för dig ändå?\nFör jag ska ge dig tid, den tid, den tid, den tid det tar\nSå jag ska tro på dig\nJag ska ge dig all den tid som du vill ha\nJag finns här för dig\nJag ska offra allt, jag ska ge vad du vill ha\nÅh, tro på dig, jag tror på\nTror på dig, tror på dig\nJag ska alltid tro på\nTror på dig, tror på dig\nJag ska alltid tro på\nTror på dig, tror på dig\nJag ska alltid tro på dig\nJa, jag ska alltid tro på dig",
-        "id": "2007_4_4"
-    },
-    {
         "artist": "Lasse Lindh",
         "song_name": "Du behöver aldrig mer vara rädd",
         "year": 2008,
         "lovecount": 2,
         "lyrics_cleaned": "Vi träffades liksom på chans\npå nåt sätt ramla vi in i varann\noch tänk att något jag alltid trott\nskulle vara så svårt va så lätt\nvi träffades liksom på chans\ntvå katter i skydd ifrån regnet nånstans\noch aldrig har kärlek drabbat mig så\noch jag vet\njag är hopplöst svår ibland\nmen aldrig aldrig att jag\ntänker låta något ont\nhända dig jag håller dig hårt\ntätt intill mig genom regn och blåst\noch alltid alltid att jag\nkommer vaka över dig\ngenom mörkret jag leder dig\njag finns i varje steg du tar\nså du behöver aldrig mer vara rädd\ningen ser och ingen vet\nhur du lyser och hur du fångar\nupp min skugga när jag är svag\noch hur jag älskar att vakna\nupp bland dina blonda lockar\noch aldrig aldrig att jag\ntänker låta något ont\nhända dig jag håller dig hårt\ntätt intill mig genom regn och blåst\noch alltid alltid att jag\nkommer vaka över dig\ngenom mörkret jag leder dig\njag finns i varje steg du tar\nså du behöver aldrig mer vara rädd\noch alltid alltid att jag\nkommer vaka över dig\ngenom mörkret jag leder dig\njag finns i varje steg du tar\nså du behöver aldrig mer vara rädd",
         "id": "2008_2_2"
-    },
-    {
-        "artist": "Alexander Schöld",
-        "song_name": "Den första svalan",
-        "year": 2008,
-        "lovecount": 2,
-        "lyrics_cleaned": "Sommaren var allt vi fick\nnätterna var korta\nvi älskade ett ögonblick\nmen sen så var du borta\noch regnet föll och blev till snö\nseptember log och sa adjö\nNär vintern kom så blev den väldigt lång\nRef:\nFör idag såg jag den första svalan\nflyga över taken,\nsommartecken nummer ett\njust idag, så vet jag att du kommer\noch en doft av sommarn,\ngör så att jag svävar så lätt\nsom svalorna\nJanuari var så mörk\nkall var februari\nmen värmen fanns där inom mig\nför hjärtat fanns du kvar i\nmin dröm om dig, i varje slag\nkom närmare för varje dag\nI mars, april så vaknade jag till\nRef:\nOch idag såg jag den första svalan\nflyga över taken,\nsommartecken nummer ett\njust idag, så vet jag att du kommer\noch en doft av sommar,\ngör så att jag svävar så lätt\nsom svalorna\noch snart så får jag hålla dig\noch jag kan knappast hålla mig\nför alla tecken säger mig\natt du är påväg\nRef:\nFör idag såg jag den första svalan\nflyga över taken,\nsommartecken nummer ett\njust idag, så vet jag att du kommer\noch en doft av sommar,\ngör så att jag svävar så lätt\nsom svalorna",
-        "id": "2008_2_4"
     },
     {
         "artist": "Scotts",
@@ -1944,14 +1960,6 @@
         "id": "2010_3_8"
     },
     {
-        "artist": "Jenny Silver",
-        "song_name": "Something in Your Eyes",
-        "year": 2011,
-        "lovecount": 2,
-        "lyrics_cleaned": "Unstoppable\nMy love for you is simply irresistable\nYou came to me\nA rainy cold November night you came to me\nI felt it in a heartbeat\nOnly time will tell\nWill we be together\nWill it be now and forever\nThere is something in your eyes\nSomething in your smile\nJust tells me that you're mine\nTell me that you are the only one\nThe only one for me\nI would never leave you\nI would never let you go\n'Cause there is something in your eyes\nSomething in your smile\nJust tells me that you're mine\nSay that you will be forever true\nAll that we can do\nTrust in me and you\nThere will never be another\nThere's no reason to think twice\n'Cause there is something in your\nDestiny\nMy love for you is meant to be my destiny\nMiracle\nThe moment that I caught your eye - a miracle\nI felt it in a heartbeat\nOnly time will tell\nWill we be together\nWill it be now and forever\nThere is something in your eyes\nSomething in your smile\nJust tells me that you're mine\nTell me that you are the only one\nThe only one for me\nI would never leave you\nI would never let you go\n'Cause there is something in your eyes\nSomething in your smile\nJust tells me that you're mine\nSay that you will be forever true\nAll that we can do\nTrust in me and you\nThere will never be another\nThere's no reason to think twice\n'Cause there is something in your eyes\n(There will never be another)\n(There's no reason to think twice)\nWe will be together\nIt will be now and forever\nThere is something in your eyes\nSomething in your smile\nJust tells me that you're mine\nTell me that you are the only one\nThe only one for me\nI would never leave you\nI would never let you go\n'Cause there is something in your eyes\nSomething in your smile\nJust tells me that you're mine\nSay that you will be forever true\nAll that we can do\nTrust in me and you\nThere will never be another\nThere's no reason to think twice\n'Cause there is something in your eyes\n(Something in your eyes)\nSomething in your eyes\nThere's something in your eyes",
-        "id": "2011_1_3"
-    },
-    {
         "artist": "Elisabeth Andreassen",
         "song_name": "Vaken i en dröm",
         "year": 2011,
@@ -1990,6 +1998,14 @@
         "lovecount": 2,
         "lyrics_cleaned": "Can you hear the night \ntime call see the\nstreet lights come alive\nWanna live it off the wall\nYeah tonight\nWe don´t  walk the line\nAdrenaline rush\nGo all the way\nBaby we´re gonna \nseize the day\nLet´s turn it up\nJust let it play\nUntil we see the\nbreak of day.\nRef:\nHere we are\nRising up\nRising up\nAnd we shine bright\nHere we are\nLike the sun\nWe are touching\nThe skyline\nHere we are\nRising up\nRising up\nAnd we shine bright\nHere we are\nLike the sun\nWe are touching\nThe skyline.\nWe´re the ones who\nown the world\nNow we´re kicking up \nthe speed\nFeel our hearts get \nsynchronized\nLiving on the city beats.\nLet´s turn it up\nJust let it play\nUntil we see the \nbreak of day.\nRef:\nHere we are\nRising up\nRising up\nAnd we shine bright\nHere we are\nLike the sun\nWe are touching\nThe skyline\nHere we are\nRising up\nRising up\nAnd we shine bright.\nHere we are\nLike the sun\nWe are touching\nThe skyline.\nMellanspel  (0,14”)\nLet´s turn it up\nJust let it play\nUntil we see  the\nbreak of day.\nRef:\nHere we are\nRising up\nRising up\nAnd we shine bright\nHere we are\nLike the sun\nWe are touching\nThe skyline\nHere we are\nRising up\nRising up\nAnd we shine bright\nHere we are\nLike the sun\nWe are touching\nThe skyline.\nOhoooo\nTouching the skyline\nOhoooo\nTouching the skyline\n/Bom/",
         "id": "2013_1_1"
+    },
+    {
+        "artist": "Anna Järvinen",
+        "song_name": "Porslin",
+        "year": 2013,
+        "lovecount": 2,
+        "lyrics_cleaned": "I tjugo år\nHar vi haft varann\nDet finns ingen \ndel av dig\nSom inte passar \nin i mig\nJa du och jag\nHar filat ner varann\nJag kan nästan se \nmig själv\n I det som blivit \nutav dig\nFörvånar mig hur snabbt\nDet faktiskt går.\nSå du\nVi kör väl\nKanske inte tjugo till\nMen tills vårt hjärta\nStår helt still\nOch du\nMinns du\nVad som gjorde oss \nså bra\nFör det gör nu \ninte jag.\nEn otrohet\nOch ett fyllebråk\nNågra barn\nOch ett nytt hus\nEtt liv som vänt sig\nIn och ut \nSå sakta då\nSom det faktiskt går\nJa du märker ingenting\nFörens du har vatten\nmot din kind\nMen jag har tryckt bort\nVärre känslor \nän de här.\nSå du\nVi kör väl\nOm inte för vår \negen skull\nSå för barnen\nOch dess lugn\nOch du\nSer du\nKanske känns som \nskit för dig\nMen tänk på hur\ndet är för mig.\nAhahahaha\nAhahahaha\nAhahahaha\nAhahahaha",
+        "id": "2013_1_7"
     },
     {
         "artist": "Alvaro Estrella",
@@ -2072,14 +2088,6 @@
         "id": "2003_4_5"
     },
     {
-        "artist": "Nina & Kim",
-        "song_name": "En gång för alla",
-        "year": 2004,
-        "lovecount": 1,
-        "lyrics_cleaned": "En gång för alla, en gång för alla x2\nWhoa, whoa, whoa whoa\nSå du, okej, du har nog känt att jag försummat dig.\n(du vet, det brinner i dig)\nJag hoppas att det inte är för sent att ändra sig. (ohh nej nej nej)\nSå från och med ikväll ska du bli kvitt min ensamhet.\n(ajaj, natten blir het.)\nJag lovar att min kärlek ska bli lite mer konkret, jag tror du vet.\nSå du, håll i dig nu.\nEn gång för alla, ska jag ta dig dit du vill.\nFå dig att falla, så att tiden stannar till.\nAll min längtan, ska ta form under min hand.\nFör jag ska sätta den i brand.\nDet är så lätt att bara ta för givet det man har.\n(jag vet, tills inget finns kvar)\nJag vet så väl, den läxan har man lärt i sina dar, vill ha dig kvar.\nSå du, kom till mig nu.\nEn gång för alla, ska jag ta dig dit du vill.\nFå dig att falla, så att tiden stannar till.\nAll min längtan, ska ta form under min hand.\nFör jag ska sätta den i brand.\nEn gång för alla, ska du skrika ut mitt namn.\nKänslorna svalla, tills du slocknar i min famn.\nJa jag ska ge dig, allt det där som du vill ha.\nEn gång för alla, du och jag.\nWoah, whoa, whoa whoa. x2\nEn gång för alla, ska jag ta dig dit du vill.\nFå dig att falla, så att tiden stannar till.\nAll min längtan, ska ta form under min hand.\nFör jag ska sätta den i brand.\nEn gång för alla, ska du skrika ut mitt namn.\nKänslorna svalla, tills du slocknar i min famn.\nJa jag ska ge dig, allt det där som du vill ha.\nEn gång för alla, du och jag.\nWhoa (whoa). En gång för alla, du och jag.",
-        "id": "2004_1_1"
-    },
-    {
         "artist": "Petra Nielsen",
         "song_name": "Tango! Tango!",
         "year": 2004,
@@ -2112,14 +2120,6 @@
         "id": "2004_4_1"
     },
     {
-        "artist": "Lotta Nilsson & Glenn Borgkvist",
-        "song_name": "Boom bang-a-bang",
-        "year": 2004,
-        "lovecount": 1,
-        "lyrics_cleaned": "Boom bang-a-bang\nBoom bang-a-bang\nNatt efter natt för lite sömn\nUtan nån mening levt på en lögn\nHar saknat mål och perspektiv på\nAlla ensamma nätter i mitt liv\nDu kom som sänd från himlen\nDök upp som en oväntad Halleys komet\nBoom bang-a-bang\nBoom bang-a-bang\nOch du kommer till mig\nBoom bang-a-bang\nEn explosion som jag känner hos dig\nFör varje andetag för varje minut\nVill ha mer\nJa, ge mig mer\nBoom bang-a-bang\nAllt var så svårt det kändes fel\nOch det fanns inget som kunde få mig hel\nMed varje steg jag tänkte ta tog det stop\nOch jag fick starta från noll och börja om\nDå kom du sänd från himlen\nDök upp som en oväntad Halleys komet\nBoom bang-a-bang\nBoom bang-a-bang\nOch du kommer till mig\nBoom bang-a-bang\nEn explosion som jag känner hos dig\nFör varje andetag för varje minut\nVill ha mer\nJa, ge mig mer\nBoom bang-a-bang\nBoom bang-a-bang\nGe mig en mening i mitt tomma liv\nTomma liv\nOm bara du kunde komma hit\nKomma hit\nDet är nåt som händer\nNär vi rör varann\nBoom bang-a-bang\nBoom bang-a-bang\nOch du kommer till mig\nBoom bang-a-bang\nEn explosion som jag känner hos dig\nFör varje andetag för varje minut\nVill ha mer\nJa, ge mig mer\nBoom bang-a-bang\nBoom bang-a-bang\nOch du kommer till mig\nBoom bang-a-bang\nEn explosion som jag känner hos dig\nFör varje andetag för varje minut\nVill ha mer\nJa, ge mig mer\nBoom bang-a-bang",
-        "id": "2004_4_3"
-    },
-    {
         "artist": "Fre",
         "song_name": "Äntligen",
         "year": 2004,
@@ -2136,12 +2136,12 @@
         "id": "2005_1_6"
     },
     {
-        "artist": "Jimmy Jansson",
-        "song_name": "Vi kan gunga",
+        "artist": "Jessica Folcker",
+        "song_name": "Om natten",
         "year": 2005,
         "lovecount": 1,
-        "lyrics_cleaned": "Tja la la la la la la\nTja la la la la la la\nJag är kung, kung, kung men kanske bara för en dag, woho\nGodmorgon världen säg vad som står på\nJag tror jag drömt och svävar i det blå\nHon var så vacker och hon gör mig galen\n(Hon gör mig galen)\nJag minns ett leende och undrar vem\nSom finns där bakom solglasögonen\nJag är förälskad och helt betagen\nJag sa: Vill du följa med mig ut på nya äventyr?\nVi kan gung, gung, gunga du och jag\nVi kan sjung, sjung, sjunga tjalala\nJag är kung, kung, kung men kanske bara för en dag, woho\nVi kan gung, gung, gunga du och jag\nVi är ung, ung, unga tjalala\nJag är kung, kung, kung men kanske bara för en dag, woho\nWoho\nAtt leva livet är helt underbart\nNär känslor svallar med en väldig fart\nDet snurrar runt så det gör ont i magen\nJag sa: Vill du följa med mig ut på nya äventyr?\nVi kan gung, gung, gunga du och jag\nVi kan sjung, sjung, sjunga tjalala\nJag är kung, kung, kung men kanske bara för en dag, woho\nVi kan gung, gung, gunga du och jag\nVi är ung, ung, unga tjalala\nJag är kung, kung, kung men kanske bara för en dag, woho\nSå säg mig: Vill du följa med\nPå en resa vi drar på en gång\nVi stannar ute natten lång\nVi kan gung, gung, gunga du och jag\nGung, gung, gunga du och jag\nVi kan sjung, sjung, sjunga tjalala\nJag är kung, kung, kung men kanske bara för en dag, woho\nVi kan gung, gung, gunga du och jag\nVi är ung, ung, unga tjalala\nJag är kung, kung, kung men kanske bara för en dag, woho\nWoho, jag är kung",
-        "id": "2005_3_3"
+        "lyrics_cleaned": "Om natten kommer längtan att somna\n(Aaahh)\nDimman sänker sig ner\nNär vi närmar oss varann\nIngen hör, ingen ser\nBara månen står i brand\n(Jag vet) Allt kan hända\n(Jag vet) Allt kan vända\nNär drömmen blir verklighet\n(Just nu) Vill jag vara\n(Just nu) Vill jag bara få stanna i min hemlighet\nOm natten kommer känslan tillbaks till mig\nOm natten kommer rädslan att mista dig\nOm natten kommer längtan att somna\nNär skuggorna jagar mig\nGlömmer bort tid och rum\nBara du och jag är här\nLämnar allt för en stund\nAllting stannar där vi är\n(Jag vet) Allt kan hända\n(Jag vet) Allt kan vända\nNär drömmen blir verklighet\n(Just nu) Vill jag vara\n(Just nu) Vill jag bara få stanna i min hemlighet\nOm natten kommer känslan tillbaks till mig\nOm natten kommer rädslan att mista dig\nOm natten kommer längtan att somna\nNär skuggorna jagar mig\nOm natten kommer känslan tillbaks till mig\nOm natten kommer rädslan att mista dig\nOm natten kommer ängslan att vakna\nNär saknaden kväver mig\nVill för alltid va kvar\nStanna tiden en stund\nUtan dig får jag inte en blund\nVill för alltid va kvar\nOch förvandla en dröm till en ny verklighet\nOm natten kommer känslan (tillbaks till mig)\nOm natten kommer rädslan (att mista dig)\n(Om natten kommer längtan) Då kommer längtan\n(Att somna) Längtan att somna\n(När skuggorna jagar mig)\nOm natten kommer känslan tillbaks till mig\nOm natten kommer rädslan att mista dig\nOm natten kommer ängslan att vakna\nNär saknaden kväver mig",
+        "id": "2005_3_7"
     },
     {
         "artist": "Anne-Lie Rydé",
@@ -2150,14 +2150,6 @@
         "lovecount": 1,
         "lyrics_cleaned": "Det händer äntligen idag\nLivet väntar här och nu\nJag har allt och allt är du\nJag känner varje andetag\nVarje gång du tar på mig\nTiden stannar nära dig\nVad är dröm och vad är verklighet?\nSå nära jag kan, så nära det går\nSäg att du vill och säg att jag får\nKomma så nära att jag kan nå\nDet jag väntar på\nSå nära jag kan, så nära det går\nSäg att du vill och säg att jag får\nLångsamma lekar i natten med dig\nStanna här så nära, nära mig\nJag glömmer allt när du är här\nSom om bara vi två fanns\nHär på jorden någonstans\nVill bara vara där du är\nDina kyssar lovar mer\nJag vill smaka allt du ger\nVad är dröm och vad är verklighet?\nSå nära jag kan, så nära det går\nSäg att du vill och säg att jag får\nKomma så nära att jag kan nå\nDet jag väntar på\nSå nära jag kan, så nära det går\nSäg att du vill och säg att jag får\nLångsamma lekar i natten med dig\nStanna här så nära, nära mig\nImorgon dröjer länge än (Imorgon dröjer länge än)\nVi gör det om och om igen (Vi gör det om igen)\nSå nära jag kan, så nära det går\nSäg att du vill och säg att jag får\nKomma så nära att jag kan nå\nDet jag väntar på\nSå nära jag kan, så nära det går\nSäg att du vill och säg att jag får\nLångsamma lekar i natten med dig\nStanna här så nära, nära\nStanna här så nära, nära mig",
         "id": "2005_4_1"
-    },
-    {
-        "artist": "Mathias Holmgren",
-        "song_name": "Långt bort om tid och rum",
-        "year": 2005,
-        "lovecount": 1,
-        "lyrics_cleaned": "Eldar tänds och eldar släcks inatt\nOch vinner nån förlorar nästan allt\nMen vi är ett du och jag, vi ger och tar\nOch ingen kan ta ifrån oss det vi har\nRefräng:\nLångt bortom tid och rum\nLångt bortom allt vi vet\nHär stannar vi kvar i alla evighet\nLångt bortom tid och rum\nLångt bortom allt vi kan\nSå långt ifrån allt, så nära varann\nOch vi bara ser varandra, bara rör varandra\nBara har varandra, vi är\nLångt bortom tid och rum\nFör oss och för ingen annan\nNågon annanstans, en annan verklighet\nTvå hjärtan slår, det enda som vi vet\nSom i en helt annan värld, en egen värld\nDär ingen kan ta ifrån oss det vi är\nRefräng:\nLångt bortom tid och rum\nLångt bortom allt vi vet\nHär stannar vi kvar i alla evighet\nLångt bortom tid och rum\nLångt bortom allt vi kan\nSå långt ifrån allt, så nära varann\nOch vi bara ser varandra, bara rör varandra\nBara har varandra, vi är\nLångt bortom tid och rum\nFör oss och för ingen annan\n(Här stannar vi kvar)\nLångt bortom tid och rum\nLångt bortom tid och rum\nLångt bortom allt vi kan\nSå långt ifrån allt, så nära varann\nOch vi bara ser varandra, bara rör varandra\nBara ha varandra, vi är\nLångt bortom tid och rum\nFör oss och för ingen annan\nLångt bortom tid och rum",
-        "id": "2005_4_3"
     },
     {
         "artist": "Anna Sahlene",
@@ -2174,6 +2166,14 @@
         "lovecount": 1,
         "lyrics_cleaned": "Staring at a photograph\nOf where we used to be\nWhen the sky was bright\nAnd crystal clear\nAnd life was just a breeze, oh well\nThere's somethings taking you over\nYou burned all your bridges\nAnd you left without a clue\nAnd you wonder why these memories\nKeeps staring back at you, oh well\nNow don't look over you shoulder\nSing for life, sing for joy\nSing for every man and woman\nGirl and boy\nSing a song, a simple melody\nSing out loud or just hum\nSing for moments in the past\nAnd times to come\nSing for history and destiny\nWon't you sing for me?\nStanding at the station\nAnd you don't know where to go\nYou're trying hard to hold on to\nThe world you used to know, oh well\nDon't let it get to you baby\nSing for life, sing for joy\nSing for every man and woman\nGirl and boy\nSing a song, a simple melody\nSing out loud or just hum\nSing for moments in the past\nAnd times to come\nSing for history and destiny\nWon't you sing for me?\nDon't look back\nJust keep moving on\nGet your feel and walk\nInto a different song\nDon't care what they\nSay just let the music play\nHeeeey\nWon't you sing for me?\nSing for me\nSing for me\nSing for life, sing for joy\nSing for every man and woman\nGirl and boy\nSing a song, a simple melody\nSing out loud or just hum\nSing for moments in the past\nAnd times to come\nSing for history and destiny\nWon't you sing for me?\nSing for me",
         "id": "2006_1_8"
+    },
+    {
+        "artist": "Kikki Danielsson",
+        "song_name": "I dag & i morgon",
+        "year": 2006,
+        "lovecount": 1,
+        "lyrics_cleaned": "Du, för mig finns bara du\nBara dig som jag ser\nJag vill bara ha mer och mer\nJag vet hur det borde va\nBorde va här hos mig\nFör det är nåt i dig som jag ser\nOch i en mycket bättre värld\nSå är du alltid här\nIdag och imorgon och från och med nu\nDet finns ingen annan, det finns bara du\nDet enda jag vill är att va där du är\nI en mycket bättre värld\nIdag och imorgon och hela mitt liv\nDet finns inget annat, det finns bara vi\nOch vad som än händer och vart du än går\nSå finns jag där idag och imorgon ändå\nVi, det borde vara vi\nDu och jag varje dag\nDet är allt jag vill ha i mitt liv\nOch i en mycket bättre värld\n(Och i en mycket bättre värld)\nSå är du alltid här\nIdag och imorgon och från och med nu\nDet finns ingen annan, det finns bara du\nDet enda jag vill är att va där du är\nI en mycket bättre värld\nIdag och imorgon och hela mitt liv\nDet finns inget annat, det finns bara vi\nOch vad som än händer och vart du än går\nSå finns jag där idag och imorgon ändå\nIdag och imorgon ändå\nJag kommer alltid va här\n(Idag och imorgon och från och med nu)\nIdag och imorgon\n(Det finns ingen annan, det finns bara du)\nDet enda jag vill är att va där du är\nI en mycket bättre värld\nIdag och imorgon och hela mitt liv\nDet finns inget annat, det finns bara vi\nOch vad som än händer och vart du än går\nSå finns jag där idag och imorgon ändå",
+        "id": "2006_2_6"
     },
     {
         "artist": "Niclas Wahlgren",
@@ -2198,14 +2198,6 @@
         "lovecount": 1,
         "lyrics_cleaned": "Hon är vind, hon är vatten\nEn sol mitt på natten\nEn oas i en öken full med sand\nHon är himmel, hon är hav\nMitt hjul och mitt nav\nHon är dröm, hon är sann\nHon är socker, hon är salt\nVarmt, hon är kallt\nDrömmen som jag drömmer varje natt\nLuften jag andas, morgonen som randas\nHon är gråt, hon är skratt\nHon är allt jag ser\nKom och ge mig mer\nA-Amanda, A-Amanda\nJa, tiden stannar när hon går förbi\nA-Amanda, A-Amanda\nJag önskar att det bara vore vi\nHon är vått, hon är torrt\nHon är en egen sort\nHon är från en annan värld\nHon är höst, hon är vår\nTiden som går\nHon är allt jag begär\nHon är av, hon är på\nHon är stanna, hon är gå\nHon är allt jag vill ha\nHon är natt, hon är dag\nStark, hon är svag\nJag vill va i hennes lag\nHon är allt jag ser\nKom och ge mig mer\nA-Amanda, A-Amanda\nJa, tiden stannar när hon går förbi\nA-Amanda, A-Amanda\nJag önskar att det bara vore vi\nOh, Amanda\nJag pratar och jag drömmer\nOch jag tänker och jag längtar\nOch jag lever för Amanda varje dag\nA-Amanda, A-Amanda\nJa, tiden stannar när hon går förbi\nOh, Amanda, A-Amanda\nJag önskar att det bara vore vi\nOh, Amanda\nOh, Amanda\nA-Amanda, A-Amanda",
         "id": "2007_2_3"
-    },
-    {
-        "artist": "Jessica Andersson",
-        "song_name": "Kom",
-        "year": 2007,
-        "lovecount": 1,
-        "lyrics_cleaned": "Yeah eh yeah, ohh\nDu tror att alla kvinnor vill ha dig\nHar nog aldrig fått ett nej\nVem väljer du ikväll?\nNån sexig blond modell\nVem får dyra drinkar av dig\nDu tror att pengar kan ge dig allting\nOch du saknar ingenting\nMen mycket vill ha mer\nMycket, mycket mer\nDu har missat någonting, så\nKom! Om du tror att du kan förföra mig\nBara kom! Men med den taktiken\nTror jag att du blir besviken\nKom! Om du tror att du kan förföra mig\nOm du vill va min man\nVisa vad du kan\nJa, kom och visa att du är en man\nVarför skulle jag vilja ha dig?\nNär du kommer fram till mig\nMed samma dryga stil\nSom skylten på din bil\nTror du att det lockar mig, så\nKom! Om du tror att du kan förföra mig (förföra mig)\nBara kom! Men med den taktiken\nTror jag att du blir besviken\nKom! Om du tror att du kan förföra mig\nOm du vill va min man\nVisa vad du kan\nJa, kom och visa att du är en man\nDet känns som natten kan bli lång, åh\nMan vinner inte varje gång\n(Kom! Om du tror att du kan förföra mig)\nÅh, här har du mig!\n(Bara kom!) Bara kom! (Men med den taktiken)\nTror jag att du blir besviken\n(Kom! Om du tror att du kan förföra mig)\nOm du vill va min man\nVisa vad du kan\nJa, kom och visa att du är en man",
-        "id": "2007_2_6"
     },
     {
         "artist": "Sheida",
@@ -2440,14 +2432,6 @@
         "id": "2012_4_5"
     },
     {
-        "artist": "Anna Järvinen",
-        "song_name": "Porslin",
-        "year": 2013,
-        "lovecount": 1,
-        "lyrics_cleaned": "I tjugo år\nHar vi haft varann\nDet finns ingen \ndel av dig\nSom inte passar \nin i mig\nJa du och jag\nHar filat ner varann\nJag kan nästan se \nmig själv\n I det som blivit \nutav dig\nFörvånar mig hur snabbt\nDet faktiskt går.\nSå du\nVi kör väl\nKanske inte tjugo till\nMen tills vårt hjärta\nStår helt still\nOch du\nMinns du\nVad som gjorde oss \nså bra\nFör det gör nu \ninte jag.\nEn otrohet\nOch ett fyllebråk\nNågra barn\nOch ett nytt hus\nEtt liv som vänt sig\nIn och ut \nSå sakta då\nSom det faktiskt går\nJa du märker ingenting\nFörens du har vatten\nmot din kind\nMen jag har tryckt bort\nVärre känslor \nän de här.\nSå du\nVi kör väl\nOm inte för vår \negen skull\nSå för barnen\nOch dess lugn\nOch du\nSer du\nKanske känns som \nskit för dig\nMen tänk på hur\ndet är för mig.\nAhahahaha\nAhahahaha\nAhahahaha\nAhahahaha",
-        "id": "2013_1_7"
-    },
-    {
         "artist": "Sean Banan",
         "song_name": "Copacabanana",
         "year": 2013,
@@ -2664,6 +2648,14 @@
         "id": "2004_3_4"
     },
     {
+        "artist": "Lotta Nilsson & Glenn Borgkvist",
+        "song_name": "Boom bang-a-bang",
+        "year": 2004,
+        "lovecount": 0,
+        "lyrics_cleaned": "Boom bang-a-bang\nBoom bang-a-bang\nNatt efter natt för lite sömn\nUtan nån mening levt på en lögn\nHar saknat mål och perspektiv på\nAlla ensamma nätter i mitt liv\nDu kom som sänd från himlen\nDök upp som en oväntad Halleys komet\nBoom bang-a-bang\nBoom bang-a-bang\nOch du kommer till mig\nBoom bang-a-bang\nEn explosion som jag känner hos dig\nFör varje andetag för varje minut\nVill ha mer\nJa, ge mig mer\nBoom bang-a-bang\nAllt var så svårt det kändes fel\nOch det fanns inget som kunde få mig hel\nMed varje steg jag tänkte ta tog det stop\nOch jag fick starta från noll och börja om\nDå kom du sänd från himlen\nDök upp som en oväntad Halleys komet\nBoom bang-a-bang\nBoom bang-a-bang\nOch du kommer till mig\nBoom bang-a-bang\nEn explosion som jag känner hos dig\nFör varje andetag för varje minut\nVill ha mer\nJa, ge mig mer\nBoom bang-a-bang\nBoom bang-a-bang\nGe mig en mening i mitt tomma liv\nTomma liv\nOm bara du kunde komma hit\nKomma hit\nDet är nåt som händer\nNär vi rör varann\nBoom bang-a-bang\nBoom bang-a-bang\nOch du kommer till mig\nBoom bang-a-bang\nEn explosion som jag känner hos dig\nFör varje andetag för varje minut\nVill ha mer\nJa, ge mig mer\nBoom bang-a-bang\nBoom bang-a-bang\nOch du kommer till mig\nBoom bang-a-bang\nEn explosion som jag känner hos dig\nFör varje andetag för varje minut\nVill ha mer\nJa, ge mig mer\nBoom bang-a-bang",
+        "id": "2004_4_3"
+    },
+    {
         "artist": "Andrés Esteche",
         "song_name": "Olé olé",
         "year": 2004,
@@ -2678,6 +2670,14 @@
         "lovecount": 0,
         "lyrics_cleaned": "Here she comes, there she goes\nShe's the girl no one knows\nOne of the invisible people, yeah\nShe's got style, so much class\nWhat the hell, no one cares\nAbout the invisible people\nHow does it feel?\nBeing left on the outside\nWhen no one saw you coming, join the club\nWe're the invisible people (invisible people)\nStuck on the outside, trying to get in\nWe're the invisible people (invisible people)\nYou're just another face in a crowded place\nWhere no one can see you\nBut me\nWhen you're old in the dark\nAnother stranger in the park\nOne of the invisible people, yeah\nSay hello, no reply\nSay hello, say goodbye\nIt's undeniable\nHow does it feel?\nBeing left on the outside\nWhen no one saw you coming, join the club\nWe're the invisible people (invisible people)\nStuck on the outside, trying to get in\nWe're the invisible people (invisible people)\nYou're just another face in a crowded place\nWhere no one can see you\nBut me\nYou're so tired of being all alone\nAnd you want to be remembered\nAnd no one ever calls you on the phone\nYou're longing so badly for company\nYou wanna make a change in history\nLa la la la la, la la la la\nWe're the invisible people\nLa la la la la, la la la la\nWe're the invisible people\nWhen no one saw you coming, join the club\nWe're the invisible people (invisible people)\nStuck on the outside, trying to get in\nWe're the invisible people (invisible people)\nYou're just another face in a crowded place\nWhere no one can see you\n(No one can see you, no one can see you)\nBut me",
         "id": "2005_1_5"
+    },
+    {
+        "artist": "Camilla Brinck",
+        "song_name": "Jenny",
+        "year": 2005,
+        "lovecount": 0,
+        "lyrics_cleaned": "Whooh\nOhh ohh\nJag vet hur det är, det är ett helvete\nSom en sorglig film, som ingen annan ser\nEtt hål i dig, mörkt och stort\nJag vet hur det känns, det är turbulens\nDet är över nu, han är borta nu\nHan har flyttat in hos sin nya vän\nDet är ditt liv nu, så ta för dig nu\nDet kommer aldrig igen\nÅh Jenny du vet att du är bra\n(Du räcker till, du räcker till)\nÅh Jenny du får vad du vill ha\n(Bara du vill, bara du vill)\nÅh Jenny\nSå kom med oss nu, vi går ut ikväll\nVi går vart du vill, och du får va dig själv\nIngen blick som ser, ingen mun som ler\nMot kvinnan bredvid dig\nFör det är över nu, han är borta nu\nHan har flyttat in hos sin nya vän\nDet är ditt liv nu, så ta för dig nu\nDet kommer aldrig igen\nÅh Jenny du vet att du är bra\n(Du räcker till, du räcker till)\nÅh Jenny du får vad du vill ha\n(Bara du vill, bara du vill)\nÅh Jenny du vet att det är sant\nAtt du är vacker, du är stark\nÅh Jenny du vet att du är bra\nOhh ohh Jenny\nDu räcker, du räcker till\nJenny du vet, du räcker till\nDu räcker, du räcker till\nJenny du vet, du räcker till\nDu räcker, du räcker till\nJenny du vet, du räcker till\nDu räcker, du räcker till\nJenny du vet, du räcker till\nÅh Jenny du vet att du är bra (Ohh Jenny)\n(Du räcker till, du räcker till)\nÅh Jenny du får vad du vill ha (Ohh Jenny)\n(Bara du vill, bara du vill)\nÅh Jenny du vet att det är sant\nAtt du är vacker, du är stark\nÅh Jenny du vet att du är bra\nOhh ohh oh Jenny",
+        "id": "2005_2_2"
     },
     {
         "artist": "Cameron Cartio",
