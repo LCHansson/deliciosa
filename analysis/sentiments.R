@@ -5,7 +5,7 @@ library("stringr")
 ## Data ----
 # mello_data from read_json.R
 lyrdata <- mello_data %>%
-  select(translated_lyric_cleaned, artist, id, language, song_name)
+  select(translated_lyric_cleaned, artist, id, language, song_name, year)
 
 
 ## Sentiment data ----
