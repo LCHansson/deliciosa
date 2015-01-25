@@ -1,14 +1,14 @@
 [
     {
-        "name": "Inte kärlek",
-        "freq": 72
+        "name": "Mycket kärlek",
+        "freq": 219
     },
     {
         "name": "Lite kärlek",
         "freq": 100
     },
     {
-        "name": "Kärlek",
-        "freq": 219
+        "name": "Inte kärlek",
+        "freq": 72
     }
 ]
