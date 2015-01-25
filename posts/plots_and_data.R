@@ -15,7 +15,11 @@ ggplot(mello_data %>% filter(as.character(lovebins) != "<NA>"), aes(x = factor(1
 ggsave("posts/texterna/texterna_loveprops.png")
 
 json <- jsonlite::toJSON(
-  table(mello_data$lovebins) %>% as.data.frame() %>% filter(1:n() > 1) %>% dplyr::rename(name = Var1, freq = Freq),
+  table(mello_data$lovebins) %>%
+    as.data.frame() %>%
+    filter(1:n() > 1) %>%
+    dplyr::rename(name = Var1, freq = Freq) %>%
+    arrange(desc(freq)),
   pretty = TRUE)
 cat(json, file = "frontend/data/texterna_loveprops.json")
 
@@ -32,13 +36,13 @@ ggplot(plotdata_texter, aes(x = wordfac, y = freqs)) +
 ggsave("posts/texterna/texterna_wordfreqs.png")
 
 json <- toJSON(
-  plotdata_texter %>% select(-wordfac),
+  plotdata_texter %>% select(-wordfac) %>% slice(1:10),
   pretty = TRUE)
 cat(json, file = "frontend/data/texterna_wordfreqs.json")
 
 
 json <- toJSON(
-  lyrdata %>% select(-lyrics_cleaned),
+  lyrdata %>% select(-translated_lyric_cleaned) %>% arrange(desc(sent_score)),
   pretty = TRUE)
 cat(json, file = "frontend/data/texterna_peppodepp.json")
 
@@ -56,7 +60,10 @@ ggplot(mello_data, aes(x = factor(1), fill = factor(seasonbins))) +
 ggsave("posts/texterna/texterna_arstider.png")
 
 json <- jsonlite::toJSON(
-  table(mello_data$seasonbins) %>% as.data.frame() %>% dplyr::rename(name = Var1, freq = Freq),
+  table(mello_data$seasonbins) %>%
+    as.data.frame() %>%
+    dplyr::rename(name = Var1, freq = Freq) %>%
+    arrange(freq),
   pretty = TRUE
 )
 cat(json, file = "frontend/data/texterna_seasons.json")
@@ -75,7 +82,10 @@ ggplot(mello_data, aes(x = factor(1), fill = factor(godbins))) +
 ggsave("posts/texterna/texterna_religion.png")
 
 json <- jsonlite::toJSON(
-  table(mello_data$godbins) %>% as.data.frame() %>% dplyr::rename(name = Var1, freq = Freq),
+  table(mello_data$godbins) %>%
+    as.data.frame() %>%
+    dplyr::rename(name = Var1, freq = Freq) %>%
+    arrange(freq),
   pretty = TRUE
 )
 cat(json, file = "frontend/data/texterna_religion.json")
@@ -94,7 +104,10 @@ ggplot(mello_data, aes(x = factor(1), fill = factor(partybins))) +
 ggsave("posts/texterna/texterna_aventyr.png")
 
 json <- jsonlite::toJSON(
-  table(mello_data$partybins) %>% as.data.frame() %>% dplyr::rename(name = Var1, freq = Freq),
+  table(mello_data$partybins) %>%
+    as.data.frame() %>%
+    dplyr::rename(name = Var1, freq = Freq) %>%
+    arrange(freq),
   pretty = TRUE
 )
 cat(json, file = "frontend/data/texterna_aventyr.json")
@@ -105,6 +118,15 @@ json <- jsonlite::toJSON(
   pretty = TRUE
 )
 cat(json, file = "frontend/data/texterna_lovecounts.json")
+
+lovecounts_dt <- mello_data %>%
+  mutate(title = paste0(artist, ": ", song_name, " (", year, ")")) %>%
+  select(title, lovecount, id) %>%
+  arrange(desc(lovecount)) %>%
+  filter(lovecount > -1) %>%
+  as.matrix()
+json <- jsonlite::toJSON(list(data = lovecounts_dt), pretty = TRUE)
+cat(json, file = "frontend/data/texterna_lovecounts_datatables_LH.json")
 
 
 json <- jsonlite::toJSON(
