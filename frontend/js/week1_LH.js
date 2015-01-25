@@ -295,6 +295,7 @@ function week1(){
             console.log("Error!" + textStatus   );
         }
     });
+    week1Collapse();
 }
 
 function onClickSongName(element) {
