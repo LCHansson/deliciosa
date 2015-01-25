@@ -21,7 +21,7 @@ lyrics <- lapply(mello_data$lyrics_cleaned, function(lyric) {
 
 lovewords <- c(
   "kärlek", "kär", "kära", "käresta", "käraste",
-  "kärleks", "kärleksfull", "kärleksfullt", "kärleksambassad", "kärleken", "kärlekens",
+  "kärleks", "kärleksfull", "kärleksfullt", "kärleksambassad", "kärleken", "kärlekens", "kärlekssång",
   "älska", "älskar", "älskad", "älskade", "älskas", "älskare", "älskarinna", "älskat",
   "älskling", "älskade", "älskats",
   "förälska", "förälskad", "förälskar", "förälskas", "förälskats",
@@ -48,7 +48,7 @@ lovecount <- sapply(lyrics, function(lyric) {
 
 lovephrases <- c(
   "i miss you",
-  "bara du",
+  # "bara du",
   "jag och du",
   "du och jag",
   "ha dig",
@@ -65,12 +65,13 @@ lovephrases <- c(
 )
 
 for (i in 1:nrow(mello_data)) {
-  if (lovecount[i] != 0) {
+  if (lovecount[i] < 0) {
     phrase_matches <- 0
   } else {
     phrase_matches <- str_count(mello_data$lyrics_cleaned[i] %>% tolower(), lovephrases) %>% sum()
   }
   lovecount[i] <- lovecount[i] + phrase_matches
+  # if(phrase_matches > 5) cat(i, phrase_matches, "\n")
 }
 
 lovewords_phrases <- append(lovewords, lovephrases)
@@ -85,7 +86,7 @@ lovefreqs <- lovefreqs[!is.na(lovefreqs)]
 
 lovecount[order(lovecount)]
 
-lovebins <- cut(lovecount, breaks = c(-Inf, -1, 0, 2, Inf), labels = c(NA, "Inte kärlek", "Lite kärlek", "Kärlek"))
+lovebins <- cut(lovecount, breaks = c(-Inf, -1, 0, 2, Inf), labels = c(NA, "Inte kärlek", "Lite kärlek", "Mycket kärlek"))
 table(lovebins)
 table(lovebins)[2]/(416-25)
 
@@ -93,10 +94,46 @@ mello_data$lovecount <- lovecount
 mello_data$lovebins <- lovebins
 
 ## Word frequencies ----
-plotdata_texter <- data_frame(
-  freqs = as.vector(table(lovewords[lovefreqs])),
-  words = table(lovewords[lovefreqs]) %>% names
+lovecategories <- list(
+  "kärlek" = c("kärlek", "kärleks", "kärleken", "kärlekens"),
+  "kär" = c("kär", "kära"),
+  "käresta" = c("käresta", "käraste"),
+  "kärleksfull" = c("kärleksfull", "kärleksfullt"),
+  "kärleksambassad" = c("kärleksambassad"),
+  "kärlekssång" = c("kärlekssång"),
+  "älska" = c("älska", "älskar", "älskad", "älskade", "älskas", "älskat", "älskade", "älskats"),
+  "älskare" = c("älskare", "älskarinna"),
+  "älskling" = c("älskling"),
+  "förälskad" = c("förälska", "förälskad", "förälskar", "förälskas", "förälskats"),
+  "love" = c("love", "lover", "loved", "loves", "loving", "lovers", "lovin"),
+  "romance" = c("romance", "romantic", "romancer"),
+  "romans" = c("romans", "romantik", "romantisk"),
+  "kvinnokarl" = c("kvinnokarl"),
+  "womaniser" = c("womanizer", "womaniser"),
+  "casanova" = c("casanova"),
+  "amour" = c("amour", "amourous", "amore", "amor"),
+  "t'aime" = c("taime"), 
+  "quiero" = c("quiero"),
+  "hjärta" = c("hjärta", "hjärtat", "hjärtan", "hjärtats"),
+  "heart" = c("heart", "hearts"),
+  "sex" = c("sex", "sexual", "sexuell", "sexig", "sexy"),
+  "själ" = c("själ"),
+  "soul" = c("soul"),
+  # Udda ord
+  "baby" = c("baby"),
+  "kiss" = c("kiss", "kissing", "kisses"),
+  "skiljas" = c("skiljas"), 
+  "kyss" = c("kyss", "kyssa", "kyssas", "kyssas", "kysser", "kyssar"),
+  "attraktion" = c("attraktion", "attraherad", "attrahera", "attraheras"),
+  "attraction" = c("attraction"),
+  "begär" = c("begär", "begära"),
+  "passionerad" = c("passionerad")
 )
+lovecatmatches <- sapply(lovecategories, function(category) { lovewords[lovefreqs] %in% category %>% sum})
+plotdata_texter <- data_frame(
+  freqs = lovecatmatches,
+  words = names(lovecatmatches)
+) %>% arrange(desc(freqs))
 plotdata_texter <- plotdata_texter %>%
   mutate(wordfac = factor(words, levels = words[order(freqs)]))
 
@@ -210,3 +247,4 @@ partyfreqs <- partyfreqs[!is.na(partyfreqs)]
 partybins <- cut(partycounts, breaks = c(-Inf, 0, Inf), labels = c("Ingen fest", "Fest!"))
 mello_data$partycount <- partycounts
 mello_data$partybins <- partybins
+
