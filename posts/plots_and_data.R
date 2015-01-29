@@ -146,9 +146,10 @@ cat(json, file = "frontend/data/love_words.json")
 
 ## New cool scatter plot data
 json <- jsonlite::toJSON(
-  list(data = mello_data %>%
-    select(id, lovecount, godcount, partycount, seasoncount, sent_score, year) %>%
-    as.matrix()
+  list(
+    data = mello_data %>%
+      select(id, lovecount, godcount, partycount, seasoncount, sent_score, year) %>%
+      mutate(r = 1)
   ),
   pretty = TRUE
 )
