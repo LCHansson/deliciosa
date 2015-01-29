@@ -35,6 +35,10 @@ function buildLovePiechart(data) {
         tooltip: {
             pointFormat: '<b>{point.percentage:.1f}%</b>'
         },
+        legend: {y: -20},
+        credits: {
+            text: "Baserad på en analys av 391 sångtexter från Melodifestivalen 2002-2014"
+        },
         plotOptions: {
             pie: {
                 borderColor: '#00bbdb',
@@ -44,7 +48,14 @@ function buildLovePiechart(data) {
                 dataLabels: {
                     enabled: false
                 },
-                showInLegend: true
+                showInLegend: true,
+                point: {
+                    events: {
+                        legendItemClick: function () {
+                            return false; // <== returning false will cancel the default action
+                        }
+                    }
+                }
             }
         },
         series: [
@@ -102,7 +113,7 @@ function buildWordFrequencyChart(data) {
                 type: 'bar'
             },
             title: {
-                text: 'Word frequencies'
+                text: 'Vanligaste kärleksorden'
             },
             legend: {
                 enabled:false
@@ -118,6 +129,9 @@ function buildWordFrequencyChart(data) {
                         return "";
                     }
                 },
+                //labels: {
+                //    enabled: false
+                //},
                 tickLength: 0,
                 tickWidth: 0,
                 lineWidth: 0
@@ -127,16 +141,20 @@ function buildWordFrequencyChart(data) {
                 title: {
                   text: null
                 },
+                //labels: {
+                //    overflow: 'justify'
+                //},
                 labels: {
-                    overflow: 'justify'
+                    enabled: false
                 },
                 gridLineWidth: 0.0,
                 tickLength: 5,
-                tickWidth: 2.0,
+                tickWidth: 0,
                 tickColor: '#000000',
                 tickInterval: 250,
 
-                endOnTick: false
+                endOnTick: false,
+                max: 1000
             },
 
             plotOptions: {
@@ -149,7 +167,8 @@ function buildWordFrequencyChart(data) {
                         formatter: function() {
                             return this.point.name;
                         }
-                    }
+                    },
+                    borderWidth: 7
                 }
             },
 
@@ -169,7 +188,7 @@ function buildWordFrequencyChart(data) {
 
 }
 
-function buildSmallPiechart(data, title, whereToRender) {
+function buildSmallPiechart(data, title, subtitle, whereToRender) {
 
     var formattedData = [];
     var colPat = {
@@ -207,6 +226,9 @@ function buildSmallPiechart(data, title, whereToRender) {
         title: {
             text: title
         },
+        subtitle: {
+           text: subtitle
+        },
         tooltip: {
             pointFormat: '<b>{point.percentage:.1f}%</b>'
         },
@@ -219,7 +241,14 @@ function buildSmallPiechart(data, title, whereToRender) {
                 dataLabels: {
                     enabled: false
                 },
-                showInLegend: true
+                showInLegend: true,
+                point: {
+                    events: {
+                        legendItemClick: function () {
+                            return false; // <== returning false will cancel the default action
+                        }
+                    }
+                }
             }
         },
         series: [
@@ -326,48 +355,56 @@ function buildCountsTable(loveWords) {
 
     // the table
     var myTable = $('#loveWordsTable').dataTable({
-        order: [[3, "desc"]],
+        order: [[1, "desc"]],
         info: false,
         searching: false,
         bProcessing: true,
-        sAjaxSource: "./data/texterna_lovecounts_datatables.json",
+        sAjaxSource: "./data/texterna_lovecounts_datatables_LH.json",
         aoColumns: [
 
             {
                 sClass: "alignTextLeft",
                 aTargets: [0],
                 bSortable: true,
-                sTitle: "Artist"
-            },
-            {
-                sClass: "alignTextLeft",
-                aTargets: [1],
-                bSortable: true,
-                sTitle: "Låt",
+                sTitle: "Artist",
                 "mRender": function (songName, type, row) {
                     var button = '<button type="button" class="btn btn-link" data-toggle="modal" ';
-                    button += 'data-target="#textModalID" id="' + row[4] + '" ';
+                    button += 'data-target="#textModalID" id="' + row[2] + '" ';
                     button += '>';
                     button += songName + '</button>';
 
                     return button;
                 }
             },
-            {
-                sClass: "alignTextLeft",
-                aTargets: [2],
-                bSortable: true,
-                sTitle: "År"
-            },
+            //{
+            //    sClass: "alignTextLeft",
+            //    aTargets: [1],
+            //    bSortable: true,
+            //    sTitle: "Låt",
+            //    "mRender": function (songName, type, row) {
+            //        var button = '<button type="button" class="btn btn-link" data-toggle="modal" ';
+            //        button += 'data-target="#textModalID" id="' + row[4] + '" ';
+            //        button += '>';
+            //        button += songName + '</button>';
+            //
+            //        return button;
+            //    }
+            //},
+            //{
+            //    sClass: "alignTextLeft",
+            //    aTargets: [2],
+            //    bSortable: true,
+            //    sTitle: "År"
+            //},
             {
                 sClass: "alignTextRight",
-                aTargets: [3],
+                aTargets: [1],
                 bSortable: true,
-                aDataSort: [3, 2],
+                aDataSort: [1, 0],
                 sTitle: "Antal kärleksord"
             },
             {
-                aTargets: [4],
+                aTargets: [3],
                 bVisible: false
             }
         ]
@@ -399,17 +436,20 @@ function week1Collapse() {
     smallPies = [
         {
             filename: "./data/texterna_seasons.json",
-            title: "Årstider",
+            title: "Tid",
+            subtitle: 'Säsonger, månader och veckodagar',
             divToRender: "seasonPieChart"
         },
         {
             filename: "./data/texterna_aventyr.json",
             title: "Äventyr",
+            subtitle: 'Längtan, fest och upplevelser',
             divToRender: "adventurePieChart"
         },
         {
             filename: "./data/texterna_religion.json",
-            title: "Ödermarken",
+            title: "Religion",
+            subtitle: 'Gudar, himmel och helvete',
             divToRender: "religionPieChart"
         }
     ]
@@ -421,7 +461,7 @@ function week1Collapse() {
                 url: smallPies[i].filename,
                 dataType: "json",
                 success: function (response) {
-                    buildSmallPiechart(response, smallPies[i].title, smallPies[i].divToRender);
+                    buildSmallPiechart(response, smallPies[i].title, smallPies[i].subtitle, smallPies[i].divToRender);
                 },
                 error: function (jqXHR, textStatus, errorThrown) {
                     console.log("Error!" + textStatus);

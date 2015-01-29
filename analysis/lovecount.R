@@ -179,7 +179,7 @@ seasonfreqs <- seasonfreqs[!is.na(seasonfreqs)]
 # table(seasonwords[seasonfreqs])
 # plot(table(seasonwords[seasonfreqs]))
 
-seasonbins <- cut(seasoncounts, breaks = c(-Inf, 0, Inf), labels = c("Inte tid", "Tid"))
+seasonbins <- cut(seasoncounts, breaks = c(-Inf, 0, Inf), labels = c("Tidlös", "Tid"))
 mello_data$seasoncount <- seasoncounts
 mello_data$seasonbins <- seasonbins
 
