@@ -28,7 +28,7 @@ h1, h2 {
 }
 
 .title h1 {
-    font-size: 3em;
+   /* font-size: 3em;
     /*display: none;*/
 
 
@@ -39,7 +39,7 @@ h1, h2 {
 }
 
 .title {
-    margin-top: 5em;
+    /*margin-top: 5em;*/
     font-family: 'League Spartan';
 }
 
