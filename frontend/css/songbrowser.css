@@ -1,0 +1,9 @@
+/* Song browser CSS */
+
+.song-circle {
+    /*margin-top: 160px;*/
+    border-radius: 50%;
+    /*background-position: center center;*/
+    background-color: #000;
+    /*background-size: 35px auto;*/
+}
