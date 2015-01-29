@@ -1,0 +1,4164 @@
+{
+    "data": [
+        {
+            "id": "2002_1_1",
+            "lovecount": 4,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": -4,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2002_1_2",
+            "lovecount": 1,
+            "godcount": 11,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -2,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2002_1_3",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 2,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2002_1_4",
+            "lovecount": 6,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 13,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2002_1_5",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -1,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2002_1_6",
+            "lovecount": -1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 0,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2002_1_7",
+            "lovecount": -1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 0,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2002_1_8",
+            "lovecount": 12,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -8,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2002_2_1",
+            "lovecount": 3,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 10,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2002_2_2",
+            "lovecount": -1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 0,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2002_2_3",
+            "lovecount": -1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 0,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2002_2_4",
+            "lovecount": 15,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 17,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2002_2_5",
+            "lovecount": 3,
+            "godcount": 0,
+            "partycount": 7,
+            "seasoncount": 0,
+            "sent_score": 14,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2002_2_6",
+            "lovecount": -1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 0,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2002_2_7",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 3,
+            "seasoncount": 0,
+            "sent_score": -16,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2002_2_8",
+            "lovecount": 2,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 12,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2002_3_1",
+            "lovecount": -1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 0,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2002_3_2",
+            "lovecount": 9,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -4,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2002_3_3",
+            "lovecount": -1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 0,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2002_3_4",
+            "lovecount": -1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 0,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2002_3_5",
+            "lovecount": 0,
+            "godcount": 1,
+            "partycount": 0,
+            "seasoncount": 4,
+            "sent_score": 51,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2002_3_6",
+            "lovecount": -1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 0,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2002_3_7",
+            "lovecount": 1,
+            "godcount": 1,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 21,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2002_3_8",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 10,
+            "seasoncount": 1,
+            "sent_score": 49,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2002_4_1",
+            "lovecount": -1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 0,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2002_4_2",
+            "lovecount": 4,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": -4,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2002_4_3",
+            "lovecount": -1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 0,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2002_4_4",
+            "lovecount": 2,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -13,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2002_4_5",
+            "lovecount": -1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 0,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2002_4_6",
+            "lovecount": 8,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 1,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2002_4_7",
+            "lovecount": 4,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -7,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2002_4_8",
+            "lovecount": -1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 0,
+            "year": 2002,
+            "r": 1
+        },
+        {
+            "id": "2003_1_1",
+            "lovecount": 14,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 50,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2003_1_2",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 3,
+            "seasoncount": 1,
+            "sent_score": -1,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2003_1_3",
+            "lovecount": 2,
+            "godcount": 0,
+            "partycount": 10,
+            "seasoncount": 0,
+            "sent_score": -1,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2003_1_4",
+            "lovecount": 13,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -1,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2003_1_5",
+            "lovecount": 18,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 30,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2003_1_6",
+            "lovecount": 4,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": -17,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2003_1_7",
+            "lovecount": -1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 0,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2003_1_8",
+            "lovecount": 7,
+            "godcount": 6,
+            "partycount": 0,
+            "seasoncount": 2,
+            "sent_score": 48,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2003_2_1",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 10,
+            "seasoncount": 0,
+            "sent_score": 12,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2003_2_2",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 8,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2003_2_3",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 14,
+            "seasoncount": 0,
+            "sent_score": 28,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2003_2_4",
+            "lovecount": -1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 0,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2003_2_5",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -2,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2003_2_6",
+            "lovecount": 18,
+            "godcount": 1,
+            "partycount": 0,
+            "seasoncount": 2,
+            "sent_score": 65,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2003_2_7",
+            "lovecount": 3,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 33,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2003_2_8",
+            "lovecount": 7,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -28,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2003_3_1",
+            "lovecount": 0,
+            "godcount": 1,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -14,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2003_3_2",
+            "lovecount": 4,
+            "godcount": 0,
+            "partycount": 9,
+            "seasoncount": 0,
+            "sent_score": 23,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2003_3_3",
+            "lovecount": 13,
+            "godcount": 0,
+            "partycount": 3,
+            "seasoncount": 1,
+            "sent_score": 75,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2003_3_4",
+            "lovecount": 5,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -10,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2003_3_5",
+            "lovecount": 9,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 4,
+            "sent_score": 19,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2003_3_6",
+            "lovecount": 18,
+            "godcount": 1,
+            "partycount": 0,
+            "seasoncount": 2,
+            "sent_score": 68,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2003_3_7",
+            "lovecount": 7,
+            "godcount": 0,
+            "partycount": 3,
+            "seasoncount": 1,
+            "sent_score": 5,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2003_3_8",
+            "lovecount": 7,
+            "godcount": 0,
+            "partycount": 12,
+            "seasoncount": 0,
+            "sent_score": 15,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2003_4_1",
+            "lovecount": 4,
+            "godcount": 1,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 15,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2003_4_2",
+            "lovecount": -1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 0,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2003_4_3",
+            "lovecount": 0,
+            "godcount": 2,
+            "partycount": 2,
+            "seasoncount": 0,
+            "sent_score": -1,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2003_4_4",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 3,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2003_4_5",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 1,
+            "sent_score": 11,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2003_4_6",
+            "lovecount": 3,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -1,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2003_4_7",
+            "lovecount": -1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 0,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2003_4_8",
+            "lovecount": 7,
+            "godcount": 1,
+            "partycount": 3,
+            "seasoncount": 0,
+            "sent_score": 15,
+            "year": 2003,
+            "r": 1
+        },
+        {
+            "id": "2004_1_1",
+            "lovecount": 5,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": -5,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2004_1_2",
+            "lovecount": 20,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 47,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2004_1_3",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 10,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2004_1_4",
+            "lovecount": 8,
+            "godcount": 3,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 60,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2004_1_5",
+            "lovecount": 11,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 20,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2004_1_6",
+            "lovecount": 6,
+            "godcount": 1,
+            "partycount": 0,
+            "seasoncount": 2,
+            "sent_score": 12,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2004_1_7",
+            "lovecount": 4,
+            "godcount": 9,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 18,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2004_1_8",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 7,
+            "seasoncount": 0,
+            "sent_score": 6,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2004_2_1",
+            "lovecount": 14,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 29,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2004_2_2",
+            "lovecount": 3,
+            "godcount": 0,
+            "partycount": 9,
+            "seasoncount": 0,
+            "sent_score": 4,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2004_2_3",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 7,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2004_2_4",
+            "lovecount": 19,
+            "godcount": 0,
+            "partycount": 2,
+            "seasoncount": 0,
+            "sent_score": 46,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2004_2_5",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 18,
+            "seasoncount": 0,
+            "sent_score": 27,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2004_2_6",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": -7,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2004_2_7",
+            "lovecount": 7,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 13,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2004_2_8",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 1,
+            "sent_score": 18,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2004_3_1",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 2,
+            "seasoncount": 0,
+            "sent_score": 8,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2004_3_2",
+            "lovecount": 4,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": -4,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2004_3_3",
+            "lovecount": 18,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 14,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2004_3_4",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 5,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2004_3_5",
+            "lovecount": 2,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -6,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2004_3_6",
+            "lovecount": 10,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 11,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2004_3_7",
+            "lovecount": 11,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 5,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2004_3_8",
+            "lovecount": 9,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 1,
+            "sent_score": 26,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2004_4_1",
+            "lovecount": 1,
+            "godcount": 1,
+            "partycount": 3,
+            "seasoncount": 0,
+            "sent_score": -55,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2004_4_2",
+            "lovecount": 11,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 31,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2004_4_3",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 3,
+            "seasoncount": 0,
+            "sent_score": -2,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2004_4_4",
+            "lovecount": 4,
+            "godcount": 0,
+            "partycount": 3,
+            "seasoncount": 0,
+            "sent_score": 28,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2004_4_5",
+            "lovecount": 8,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 5,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2004_4_6",
+            "lovecount": 1,
+            "godcount": 1,
+            "partycount": 0,
+            "seasoncount": 6,
+            "sent_score": 8,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2004_4_7",
+            "lovecount": 19,
+            "godcount": 1,
+            "partycount": 3,
+            "seasoncount": 0,
+            "sent_score": 55,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2004_4_8",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 3,
+            "year": 2004,
+            "r": 1
+        },
+        {
+            "id": "2005_1_1",
+            "lovecount": 10,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 43,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2005_1_2",
+            "lovecount": 2,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 1,
+            "sent_score": -2,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2005_1_3",
+            "lovecount": 5,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 16,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2005_1_4",
+            "lovecount": 3,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -2,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2005_1_5",
+            "lovecount": 0,
+            "godcount": 1,
+            "partycount": 4,
+            "seasoncount": 0,
+            "sent_score": -22,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2005_1_6",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": -10,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2005_1_7",
+            "lovecount": 2,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 5,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2005_1_8",
+            "lovecount": 7,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 19,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2005_2_1",
+            "lovecount": 15,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": -4,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2005_2_2",
+            "lovecount": 0,
+            "godcount": 1,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 35,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2005_2_3",
+            "lovecount": -1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 0,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2005_2_4",
+            "lovecount": 8,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 1,
+            "sent_score": 20,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2005_2_5",
+            "lovecount": 6,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 7,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2005_2_6",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 12,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2005_2_7",
+            "lovecount": 2,
+            "godcount": 0,
+            "partycount": 2,
+            "seasoncount": 0,
+            "sent_score": -15,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2005_2_8",
+            "lovecount": 6,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 21,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2005_3_1",
+            "lovecount": 4,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 19,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2005_3_2",
+            "lovecount": -1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 0,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2005_3_3",
+            "lovecount": 8,
+            "godcount": 0,
+            "partycount": 3,
+            "seasoncount": 0,
+            "sent_score": 12,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2005_3_4",
+            "lovecount": 8,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 9,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2005_3_5",
+            "lovecount": -1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 0,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2005_3_6",
+            "lovecount": -1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 0,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2005_3_7",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 16,
+            "seasoncount": 0,
+            "sent_score": -23,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2005_3_8",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 23,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2005_4_1",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 3,
+            "seasoncount": 2,
+            "sent_score": 4,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2005_4_2",
+            "lovecount": 6,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 11,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2005_4_3",
+            "lovecount": 2,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 2,
+            "sent_score": -6,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2005_4_4",
+            "lovecount": 5,
+            "godcount": 3,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 23,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2005_4_5",
+            "lovecount": 5,
+            "godcount": 5,
+            "partycount": 4,
+            "seasoncount": 0,
+            "sent_score": 14,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2005_4_6",
+            "lovecount": 10,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 5,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2005_4_7",
+            "lovecount": 15,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 69,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2005_4_8",
+            "lovecount": 3,
+            "godcount": 0,
+            "partycount": 7,
+            "seasoncount": 11,
+            "sent_score": -6,
+            "year": 2005,
+            "r": 1
+        },
+        {
+            "id": "2006_1_1",
+            "lovecount": -1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 0,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2006_1_2",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 45,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2006_1_3",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 17,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2006_1_4",
+            "lovecount": 18,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 46,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2006_1_5",
+            "lovecount": 3,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 2,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2006_1_6",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 8,
+            "seasoncount": 0,
+            "sent_score": -3,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2006_1_7",
+            "lovecount": 7,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 40,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2006_1_8",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 12,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2006_2_1",
+            "lovecount": 4,
+            "godcount": 0,
+            "partycount": 3,
+            "seasoncount": 0,
+            "sent_score": -1,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2006_2_2",
+            "lovecount": -1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 0,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2006_2_3",
+            "lovecount": 10,
+            "godcount": 3,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 32,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2006_2_4",
+            "lovecount": 21,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 6,
+            "sent_score": 14,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2006_2_5",
+            "lovecount": 6,
+            "godcount": 4,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 26,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2006_2_6",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 11,
+            "sent_score": 14,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2006_2_7",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 12,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2006_2_8",
+            "lovecount": 58,
+            "godcount": 8,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 20,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2006_3_1",
+            "lovecount": 22,
+            "godcount": 0,
+            "partycount": 7,
+            "seasoncount": 0,
+            "sent_score": 76,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2006_3_2",
+            "lovecount": 14,
+            "godcount": 2,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 31,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2006_3_3",
+            "lovecount": 24,
+            "godcount": 0,
+            "partycount": 7,
+            "seasoncount": 0,
+            "sent_score": 42,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2006_3_4",
+            "lovecount": 3,
+            "godcount": 0,
+            "partycount": 21,
+            "seasoncount": 0,
+            "sent_score": -11,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2006_3_5",
+            "lovecount": 12,
+            "godcount": 0,
+            "partycount": 9,
+            "seasoncount": 0,
+            "sent_score": -23,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2006_3_6",
+            "lovecount": 4,
+            "godcount": 7,
+            "partycount": 0,
+            "seasoncount": 1,
+            "sent_score": 10,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2006_3_7",
+            "lovecount": 2,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 4,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2006_3_8",
+            "lovecount": 8,
+            "godcount": 0,
+            "partycount": 10,
+            "seasoncount": 0,
+            "sent_score": 3,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2006_4_1",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -3,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2006_4_2",
+            "lovecount": 2,
+            "godcount": 1,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": -15,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2006_4_3",
+            "lovecount": 10,
+            "godcount": 0,
+            "partycount": 9,
+            "seasoncount": 0,
+            "sent_score": 31,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2006_4_4",
+            "lovecount": 11,
+            "godcount": 0,
+            "partycount": 10,
+            "seasoncount": 0,
+            "sent_score": 12,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2006_4_5",
+            "lovecount": 8,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 21,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2006_4_6",
+            "lovecount": 12,
+            "godcount": 1,
+            "partycount": 9,
+            "seasoncount": 0,
+            "sent_score": 70,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2006_4_7",
+            "lovecount": 7,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 21,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2006_4_8",
+            "lovecount": 6,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 8,
+            "sent_score": 20,
+            "year": 2006,
+            "r": 1
+        },
+        {
+            "id": "2007_1_1",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 44,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2007_1_2",
+            "lovecount": 6,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 1,
+            "sent_score": 13,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2007_1_3",
+            "lovecount": 14,
+            "godcount": 0,
+            "partycount": 3,
+            "seasoncount": 1,
+            "sent_score": 20,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2007_1_4",
+            "lovecount": -1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 0,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2007_1_5",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 11,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2007_1_6",
+            "lovecount": 3,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 11,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2007_1_7",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 7,
+            "seasoncount": 0,
+            "sent_score": -6,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2007_1_8",
+            "lovecount": 3,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 83,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2007_2_1",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 32,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2007_2_2",
+            "lovecount": 3,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 12,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2007_2_3",
+            "lovecount": 1,
+            "godcount": 1,
+            "partycount": 4,
+            "seasoncount": 1,
+            "sent_score": 16,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2007_2_4",
+            "lovecount": 18,
+            "godcount": 0,
+            "partycount": 2,
+            "seasoncount": 0,
+            "sent_score": 22,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2007_2_5",
+            "lovecount": 4,
+            "godcount": 0,
+            "partycount": 3,
+            "seasoncount": 0,
+            "sent_score": -7,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2007_2_6",
+            "lovecount": 3,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 8,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2007_2_7",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 2,
+            "sent_score": 12,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2007_2_8",
+            "lovecount": 6,
+            "godcount": 2,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 19,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2007_3_1",
+            "lovecount": 13,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 17,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2007_3_2",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -37,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2007_3_3",
+            "lovecount": 2,
+            "godcount": 8,
+            "partycount": 0,
+            "seasoncount": 4,
+            "sent_score": -27,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2007_3_4",
+            "lovecount": 1,
+            "godcount": 1,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 15,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2007_3_5",
+            "lovecount": 26,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 56,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2007_3_6",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 5,
+            "seasoncount": 0,
+            "sent_score": -16,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2007_3_7",
+            "lovecount": 4,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 27,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2007_3_8",
+            "lovecount": 6,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 22,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2007_4_1",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -13,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2007_4_2",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 11,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2007_4_3",
+            "lovecount": 3,
+            "godcount": 1,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 10,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2007_4_4",
+            "lovecount": 6,
+            "godcount": 10,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -15,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2007_4_5",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -1,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2007_4_6",
+            "lovecount": 16,
+            "godcount": 1,
+            "partycount": 1,
+            "seasoncount": 1,
+            "sent_score": 53,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2007_4_7",
+            "lovecount": 8,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 0,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2007_4_8",
+            "lovecount": 8,
+            "godcount": 0,
+            "partycount": 5,
+            "seasoncount": 0,
+            "sent_score": 29,
+            "year": 2007,
+            "r": 1
+        },
+        {
+            "id": "2008_1_1",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 9,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2008_1_2",
+            "lovecount": 6,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 43,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2008_1_3",
+            "lovecount": 3,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 1,
+            "sent_score": 20,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2008_1_4",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 3,
+            "sent_score": 6,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2008_1_5",
+            "lovecount": 22,
+            "godcount": 1,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 45,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2008_1_6",
+            "lovecount": 30,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 44,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2008_1_7",
+            "lovecount": 10,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 31,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2008_1_8",
+            "lovecount": 16,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 60,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2008_2_1",
+            "lovecount": 9,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 26,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2008_2_2",
+            "lovecount": 2,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -11,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2008_2_3",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 1,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2008_2_4",
+            "lovecount": 3,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 9,
+            "sent_score": 8,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2008_2_5",
+            "lovecount": 10,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 1,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2008_2_6",
+            "lovecount": 3,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 2,
+            "sent_score": -19,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2008_2_7",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 8,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2008_2_8",
+            "lovecount": 21,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 38,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2008_3_1",
+            "lovecount": 21,
+            "godcount": 0,
+            "partycount": 13,
+            "seasoncount": 0,
+            "sent_score": 66,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2008_3_2",
+            "lovecount": 3,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 1,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2008_3_3",
+            "lovecount": 12,
+            "godcount": 1,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 4,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2008_3_4",
+            "lovecount": 5,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 1,
+            "sent_score": 19,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2008_3_5",
+            "lovecount": 4,
+            "godcount": 0,
+            "partycount": 4,
+            "seasoncount": 0,
+            "sent_score": -10,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2008_3_6",
+            "lovecount": 27,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 2,
+            "sent_score": 110,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2008_3_7",
+            "lovecount": 1,
+            "godcount": 1,
+            "partycount": 0,
+            "seasoncount": 3,
+            "sent_score": -5,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2008_3_8",
+            "lovecount": 5,
+            "godcount": 10,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 21,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2008_4_1",
+            "lovecount": 4,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 25,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2008_4_2",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -8,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2008_4_3",
+            "lovecount": 6,
+            "godcount": 0,
+            "partycount": 13,
+            "seasoncount": 0,
+            "sent_score": 12,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2008_4_4",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 3,
+            "seasoncount": 0,
+            "sent_score": -20,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2008_4_5",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 1,
+            "sent_score": -19,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2008_4_6",
+            "lovecount": 3,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -5,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2008_4_7",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 2,
+            "sent_score": 46,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2008_4_8",
+            "lovecount": 13,
+            "godcount": 1,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 82,
+            "year": 2008,
+            "r": 1
+        },
+        {
+            "id": "2009_1_1",
+            "lovecount": 5,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 2,
+            "sent_score": -23,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2009_1_2",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 29,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2009_1_3",
+            "lovecount": 8,
+            "godcount": 2,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 3,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2009_1_4",
+            "lovecount": 2,
+            "godcount": 0,
+            "partycount": 3,
+            "seasoncount": 2,
+            "sent_score": 8,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2009_1_5",
+            "lovecount": 26,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 49,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2009_1_6",
+            "lovecount": 13,
+            "godcount": 0,
+            "partycount": 23,
+            "seasoncount": 0,
+            "sent_score": 14,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2009_1_7",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 1,
+            "sent_score": 28,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2009_1_8",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": -2,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2009_2_1",
+            "lovecount": 7,
+            "godcount": 11,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 40,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2009_2_2",
+            "lovecount": 1,
+            "godcount": 1,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": -17,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2009_2_3",
+            "lovecount": -1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 0,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2009_2_4",
+            "lovecount": 4,
+            "godcount": 0,
+            "partycount": 2,
+            "seasoncount": 1,
+            "sent_score": -3,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2009_2_5",
+            "lovecount": 11,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 20,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2009_2_6",
+            "lovecount": 2,
+            "godcount": 0,
+            "partycount": 4,
+            "seasoncount": 0,
+            "sent_score": 11,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2009_2_7",
+            "lovecount": 3,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -12,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2009_2_8",
+            "lovecount": 12,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 40,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2009_3_1",
+            "lovecount": 9,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 20,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2009_3_2",
+            "lovecount": 4,
+            "godcount": 1,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 19,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2009_3_3",
+            "lovecount": 7,
+            "godcount": 2,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 31,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2009_3_4",
+            "lovecount": 7,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 1,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2009_3_5",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 65,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2009_3_6",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 3,
+            "sent_score": 33,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2009_3_7",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 0,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2009_3_8",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": -48,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2009_4_1",
+            "lovecount": 31,
+            "godcount": 4,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 84,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2009_4_2",
+            "lovecount": 3,
+            "godcount": 0,
+            "partycount": 2,
+            "seasoncount": 0,
+            "sent_score": 16,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2009_4_3",
+            "lovecount": 8,
+            "godcount": 0,
+            "partycount": 2,
+            "seasoncount": 0,
+            "sent_score": 14,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2009_4_4",
+            "lovecount": 12,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -19,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2009_4_5",
+            "lovecount": 5,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 1,
+            "sent_score": 49,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2009_4_6",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": -7,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2009_4_7",
+            "lovecount": 14,
+            "godcount": 0,
+            "partycount": 3,
+            "seasoncount": 1,
+            "sent_score": 22,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2009_4_8",
+            "lovecount": 7,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 9,
+            "year": 2009,
+            "r": 1
+        },
+        {
+            "id": "2010_1_1",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 13,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2010_1_2",
+            "lovecount": 2,
+            "godcount": 2,
+            "partycount": 5,
+            "seasoncount": 0,
+            "sent_score": -2,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2010_1_3",
+            "lovecount": 13,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 10,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2010_1_4",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 1,
+            "sent_score": -16,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2010_1_5",
+            "lovecount": 4,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 11,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2010_1_6",
+            "lovecount": 9,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 2,
+            "sent_score": 10,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2010_1_7",
+            "lovecount": 2,
+            "godcount": 0,
+            "partycount": 2,
+            "seasoncount": 1,
+            "sent_score": -16,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2010_1_8",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 13,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2010_2_1",
+            "lovecount": 10,
+            "godcount": 3,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 29,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2010_2_2",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 11,
+            "seasoncount": 0,
+            "sent_score": 23,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2010_2_3",
+            "lovecount": 4,
+            "godcount": 1,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 11,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2010_2_4",
+            "lovecount": 1,
+            "godcount": 1,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 2,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2010_2_5",
+            "lovecount": 28,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 63,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2010_2_6",
+            "lovecount": 4,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 0,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2010_2_7",
+            "lovecount": 16,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 112,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2010_2_8",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -3,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2010_3_1",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -16,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2010_3_2",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -39,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2010_3_3",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": -8,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2010_3_4",
+            "lovecount": 6,
+            "godcount": 4,
+            "partycount": 0,
+            "seasoncount": 2,
+            "sent_score": 9,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2010_3_5",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -1,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2010_3_6",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 3,
+            "seasoncount": 4,
+            "sent_score": 0,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2010_3_7",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -52,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2010_3_8",
+            "lovecount": 2,
+            "godcount": 16,
+            "partycount": 2,
+            "seasoncount": 0,
+            "sent_score": -25,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2010_4_1",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -34,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2010_4_2",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 10,
+            "seasoncount": 0,
+            "sent_score": 36,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2010_4_3",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 4,
+            "sent_score": -13,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2010_4_4",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 1,
+            "sent_score": -11,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2010_4_5",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 1,
+            "sent_score": -6,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2010_4_6",
+            "lovecount": 8,
+            "godcount": 0,
+            "partycount": 4,
+            "seasoncount": 0,
+            "sent_score": 22,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2010_4_7",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -14,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2010_4_8",
+            "lovecount": 6,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 11,
+            "year": 2010,
+            "r": 1
+        },
+        {
+            "id": "2011_1_1",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 7,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2011_1_2",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 11,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2011_1_3",
+            "lovecount": 5,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 1,
+            "sent_score": 29,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2011_1_4",
+            "lovecount": 3,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 31,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2011_1_5",
+            "lovecount": 24,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 65,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2011_1_6",
+            "lovecount": 8,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -28,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2011_1_7",
+            "lovecount": 4,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -20,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2011_1_8",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 16,
+            "seasoncount": 1,
+            "sent_score": -4,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2011_2_1",
+            "lovecount": 8,
+            "godcount": 0,
+            "partycount": 9,
+            "seasoncount": 1,
+            "sent_score": 18,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2011_2_2",
+            "lovecount": 8,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -30,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2011_2_3",
+            "lovecount": 4,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 35,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2011_2_4",
+            "lovecount": 2,
+            "godcount": 0,
+            "partycount": 4,
+            "seasoncount": 2,
+            "sent_score": 19,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2011_2_5",
+            "lovecount": 29,
+            "godcount": 0,
+            "partycount": 3,
+            "seasoncount": 0,
+            "sent_score": 63,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2011_2_6",
+            "lovecount": 18,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 89,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2011_2_7",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 7,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2011_2_8",
+            "lovecount": 5,
+            "godcount": 0,
+            "partycount": 3,
+            "seasoncount": 0,
+            "sent_score": 6,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2011_3_1",
+            "lovecount": 5,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 96,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2011_3_2",
+            "lovecount": 3,
+            "godcount": 6,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 21,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2011_3_3",
+            "lovecount": 4,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": -4,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2011_3_4",
+            "lovecount": 5,
+            "godcount": 0,
+            "partycount": 2,
+            "seasoncount": 0,
+            "sent_score": -4,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2011_3_5",
+            "lovecount": 5,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 5,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2011_3_6",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -14,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2011_3_7",
+            "lovecount": 4,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 3,
+            "sent_score": 8,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2011_3_8",
+            "lovecount": 6,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 61,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2011_4_1",
+            "lovecount": 8,
+            "godcount": 0,
+            "partycount": 2,
+            "seasoncount": 0,
+            "sent_score": 31,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2011_4_2",
+            "lovecount": 21,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 1,
+            "sent_score": 44,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2011_4_3",
+            "lovecount": 5,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 14,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2011_4_4",
+            "lovecount": 9,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 43,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2011_4_5",
+            "lovecount": 4,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 9,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2011_4_6",
+            "lovecount": 3,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 22,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2011_4_7",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 0,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2011_4_8",
+            "lovecount": 2,
+            "godcount": 0,
+            "partycount": 15,
+            "seasoncount": 0,
+            "sent_score": -25,
+            "year": 2011,
+            "r": 1
+        },
+        {
+            "id": "2012_1_1",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 20,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2012_1_2",
+            "lovecount": 3,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -13,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2012_1_3",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 2,
+            "seasoncount": 0,
+            "sent_score": 22,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2012_1_4",
+            "lovecount": 4,
+            "godcount": 0,
+            "partycount": 10,
+            "seasoncount": 0,
+            "sent_score": 4,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2012_1_5",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -9,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2012_1_6",
+            "lovecount": 11,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -24,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2012_1_7",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 4,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2012_1_8",
+            "lovecount": 7,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 1,
+            "sent_score": 35,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2012_2_1",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -11,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2012_2_2",
+            "lovecount": 15,
+            "godcount": 2,
+            "partycount": 3,
+            "seasoncount": 0,
+            "sent_score": 8,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2012_2_3",
+            "lovecount": 0,
+            "godcount": 3,
+            "partycount": 0,
+            "seasoncount": 1,
+            "sent_score": 3,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2012_2_4",
+            "lovecount": 4,
+            "godcount": 2,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -16,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2012_2_5",
+            "lovecount": 2,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 8,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2012_2_6",
+            "lovecount": 4,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 0,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2012_2_7",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 1,
+            "sent_score": -4,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2012_2_8",
+            "lovecount": 3,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 13,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2012_3_1",
+            "lovecount": 8,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 24,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2012_3_2",
+            "lovecount": 1,
+            "godcount": 1,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 15,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2012_3_3",
+            "lovecount": 22,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 2,
+            "sent_score": 28,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2012_3_4",
+            "lovecount": 2,
+            "godcount": 0,
+            "partycount": 2,
+            "seasoncount": 0,
+            "sent_score": -35,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2012_3_5",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -3,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2012_3_6",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 3,
+            "seasoncount": 0,
+            "sent_score": 10,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2012_3_7",
+            "lovecount": 4,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -36,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2012_3_8",
+            "lovecount": 20,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 1,
+            "sent_score": 146,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2012_4_1",
+            "lovecount": 4,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -17,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2012_4_2",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 10,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2012_4_3",
+            "lovecount": 7,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -29,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2012_4_4",
+            "lovecount": 8,
+            "godcount": 0,
+            "partycount": 2,
+            "seasoncount": 1,
+            "sent_score": 5,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2012_4_5",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 4,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2012_4_6",
+            "lovecount": 18,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 45,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2012_4_7",
+            "lovecount": 3,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 22,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2012_4_8",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 114,
+            "year": 2012,
+            "r": 1
+        },
+        {
+            "id": "2013_1_1",
+            "lovecount": 2,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 20,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2013_1_2",
+            "lovecount": 0,
+            "godcount": 2,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -4,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2013_1_3",
+            "lovecount": 9,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -28,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2013_1_4",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 11,
+            "seasoncount": 0,
+            "sent_score": 9,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2013_1_5",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 3,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2013_1_6",
+            "lovecount": 5,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 17,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2013_1_7",
+            "lovecount": 2,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 1,
+            "sent_score": 2,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2013_1_8",
+            "lovecount": 6,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 3,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2013_2_1",
+            "lovecount": 10,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 8,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2013_2_2",
+            "lovecount": 7,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 3,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2013_2_3",
+            "lovecount": 5,
+            "godcount": 1,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 8,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2013_2_4",
+            "lovecount": 13,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 41,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2013_2_5",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 2,
+            "seasoncount": 0,
+            "sent_score": 18,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2013_2_6",
+            "lovecount": 0,
+            "godcount": 1,
+            "partycount": 2,
+            "seasoncount": 0,
+            "sent_score": -14,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2013_2_7",
+            "lovecount": 5,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 10,
+            "sent_score": -5,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2013_2_8",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 5,
+            "seasoncount": 0,
+            "sent_score": 17,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2013_3_1",
+            "lovecount": 4,
+            "godcount": 0,
+            "partycount": 3,
+            "seasoncount": 0,
+            "sent_score": -48,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2013_3_2",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -9,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2013_3_3",
+            "lovecount": 0,
+            "godcount": 1,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 8,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2013_3_4",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -9,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2013_3_5",
+            "lovecount": 9,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 7,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2013_3_6",
+            "lovecount": 3,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 1,
+            "sent_score": -9,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2013_3_7",
+            "lovecount": 5,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 19,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2013_3_8",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 0,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2013_4_1",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 1,
+            "sent_score": 0,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2013_4_2",
+            "lovecount": 5,
+            "godcount": 0,
+            "partycount": 2,
+            "seasoncount": 0,
+            "sent_score": 19,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2013_4_3",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": -2,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2013_4_4",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 1,
+            "sent_score": 21,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2013_4_5",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 2,
+            "seasoncount": 0,
+            "sent_score": -27,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2013_4_6",
+            "lovecount": 25,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 41,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2013_4_7",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 1,
+            "sent_score": 13,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2013_4_8",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -1,
+            "year": 2013,
+            "r": 1
+        },
+        {
+            "id": "2014_1_1",
+            "lovecount": 20,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 46,
+            "year": 2014,
+            "r": 1
+        },
+        {
+            "id": "2014_1_2",
+            "lovecount": 4,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 15,
+            "year": 2014,
+            "r": 1
+        },
+        {
+            "id": "2014_1_3",
+            "lovecount": 34,
+            "godcount": 0,
+            "partycount": 3,
+            "seasoncount": 0,
+            "sent_score": 48,
+            "year": 2014,
+            "r": 1
+        },
+        {
+            "id": "2014_1_4",
+            "lovecount": 6,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 23,
+            "year": 2014,
+            "r": 1
+        },
+        {
+            "id": "2014_1_5",
+            "lovecount": 2,
+            "godcount": 0,
+            "partycount": 2,
+            "seasoncount": 0,
+            "sent_score": 5,
+            "year": 2014,
+            "r": 1
+        },
+        {
+            "id": "2014_1_6",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": -7,
+            "year": 2014,
+            "r": 1
+        },
+        {
+            "id": "2014_1_7",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 2,
+            "sent_score": 11,
+            "year": 2014,
+            "r": 1
+        },
+        {
+            "id": "2014_1_8",
+            "lovecount": 4,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 33,
+            "year": 2014,
+            "r": 1
+        },
+        {
+            "id": "2014_2_1",
+            "lovecount": 31,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 80,
+            "year": 2014,
+            "r": 1
+        },
+        {
+            "id": "2014_2_2",
+            "lovecount": 1,
+            "godcount": 19,
+            "partycount": 0,
+            "seasoncount": 1,
+            "sent_score": 2,
+            "year": 2014,
+            "r": 1
+        },
+        {
+            "id": "2014_2_3",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 26,
+            "year": 2014,
+            "r": 1
+        },
+        {
+            "id": "2014_2_4",
+            "lovecount": 4,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -55,
+            "year": 2014,
+            "r": 1
+        },
+        {
+            "id": "2014_2_5",
+            "lovecount": 3,
+            "godcount": 1,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 5,
+            "year": 2014,
+            "r": 1
+        },
+        {
+            "id": "2014_2_6",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -29,
+            "year": 2014,
+            "r": 1
+        },
+        {
+            "id": "2014_2_7",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -29,
+            "year": 2014,
+            "r": 1
+        },
+        {
+            "id": "2014_2_8",
+            "lovecount": 1,
+            "godcount": 6,
+            "partycount": 2,
+            "seasoncount": 0,
+            "sent_score": 8,
+            "year": 2014,
+            "r": 1
+        },
+        {
+            "id": "2014_3_1",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -22,
+            "year": 2014,
+            "r": 1
+        },
+        {
+            "id": "2014_3_2",
+            "lovecount": 52,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 141,
+            "year": 2014,
+            "r": 1
+        },
+        {
+            "id": "2014_3_3",
+            "lovecount": 18,
+            "godcount": 3,
+            "partycount": 4,
+            "seasoncount": 0,
+            "sent_score": 16,
+            "year": 2014,
+            "r": 1
+        },
+        {
+            "id": "2014_3_4",
+            "lovecount": 1,
+            "godcount": 1,
+            "partycount": 2,
+            "seasoncount": 0,
+            "sent_score": -2,
+            "year": 2014,
+            "r": 1
+        },
+        {
+            "id": "2014_3_5",
+            "lovecount": 2,
+            "godcount": 0,
+            "partycount": 3,
+            "seasoncount": 0,
+            "sent_score": 6,
+            "year": 2014,
+            "r": 1
+        },
+        {
+            "id": "2014_3_6",
+            "lovecount": 3,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 3,
+            "year": 2014,
+            "r": 1
+        },
+        {
+            "id": "2014_3_7",
+            "lovecount": 0,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 3,
+            "sent_score": -13,
+            "year": 2014,
+            "r": 1
+        },
+        {
+            "id": "2014_3_8",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -1,
+            "year": 2014,
+            "r": 1
+        },
+        {
+            "id": "2014_4_1",
+            "lovecount": 5,
+            "godcount": 0,
+            "partycount": 64,
+            "seasoncount": 6,
+            "sent_score": -53,
+            "year": 2014,
+            "r": 1
+        },
+        {
+            "id": "2014_4_2",
+            "lovecount": 6,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -32,
+            "year": 2014,
+            "r": 1
+        },
+        {
+            "id": "2014_4_3",
+            "lovecount": 4,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -17,
+            "year": 2014,
+            "r": 1
+        },
+        {
+            "id": "2014_4_4",
+            "lovecount": 3,
+            "godcount": 5,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": -4,
+            "year": 2014,
+            "r": 1
+        },
+        {
+            "id": "2014_4_5",
+            "lovecount": 16,
+            "godcount": 0,
+            "partycount": 18,
+            "seasoncount": 1,
+            "sent_score": 8,
+            "year": 2014,
+            "r": 1
+        },
+        {
+            "id": "2014_4_6",
+            "lovecount": 2,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 32,
+            "year": 2014,
+            "r": 1
+        },
+        {
+            "id": "2014_4_7",
+            "lovecount": 1,
+            "godcount": 0,
+            "partycount": 0,
+            "seasoncount": 0,
+            "sent_score": 20,
+            "year": 2014,
+            "r": 1
+        },
+        {
+            "id": "2014_4_8",
+            "lovecount": 10,
+            "godcount": 0,
+            "partycount": 1,
+            "seasoncount": 0,
+            "sent_score": 38,
+            "year": 2014,
+            "r": 1
+        }
+    ]
+}
