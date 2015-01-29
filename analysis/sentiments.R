@@ -37,4 +37,4 @@ scores = sapply(lyrdata$translated_lyric_cleaned, function(lyric, sentwords) {
 }, sentwords, USE.NAMES = FALSE)
 
 lyrdata$sent_score <- scores
-
+mello_data$sent_score <- lyrdata$sent_score
