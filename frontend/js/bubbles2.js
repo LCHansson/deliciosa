@@ -1,6 +1,77 @@
 /**
  * Created by love on 29/01/15.
  */
+function calculateOffset(maxR) {
+    return function(d) {
+        neighbours = findNeighbours(quadroot,
+            xScale(d.year),
+            rScale(d.r),
+            maxR);
+        var n=neighbours.length;
+        //console.log(j + " neighbours");
+        var upperEnd = 0, lowerEnd = 0;
+
+        if (n){
+            //for every circle in the neighbour array
+            // calculate how much farther above
+            //or below this one has to be to not overlap;
+            //keep track of the max values
+            var j=n, occupied=new Array(n);
+            while (j--) {
+                var p = neighbours[j];
+                var hypoteneuse = rScale(d.r)+rScale(p.r)+padding;
+                //length of line between center points, if only
+                // "padding" space in between circles
+
+                var base = xScale(d.x) - xScale(p.x);
+                // horizontal offset between centres
+
+                var vertical = Math.sqrt(Math.pow(hypoteneuse,2) -
+                Math.pow(base, 2));
+                //Pythagorean theorem
+
+                occupied[j]=[p.offset+vertical,
+                    p.offset-vertical];
+                //max and min of the zone occupied
+                //by this circle at x=xScale(d.x)
+            }
+            occupied = occupied.sort(
+                function(a,b){
+                    return a[0] - b[0];
+                });
+            //sort by the max value of the occupied block
+            //console.log(occupied);
+            lowerEnd = upperEnd = 1/0;//infinity
+
+            j=n;
+            while (j--){
+                //working from the end of the "occupied" array,
+                //i.e. the circle with highest positive blocking
+                //value:
+
+                if (lowerEnd > occupied[j][0]) {
+                    //then there is space beyond this neighbour
+                    //inside of all previous compared neighbours
+                    upperEnd = Math.min(lowerEnd,
+                        occupied[j][0]);
+                    lowerEnd = occupied[j][1];
+                }
+                else {
+                    lowerEnd = Math.min(lowerEnd,
+                        occupied[j][1]);
+                }
+                //console.log("at " + formatPercent(d.x) + ": "
+                //          + upperEnd + "," + lowerEnd);
+            }
+        }
+
+        //assign this circle the offset that is smaller
+        //in magnitude:
+        return d.offset =
+            (Math.abs(upperEnd)<Math.abs(lowerEnd))?
+                upperEnd : lowerEnd;
+    };
+}
 
 function songBrowser(data) {
 
@@ -74,7 +145,7 @@ function songBrowser(data) {
             //Update the tooltip position and value
             d3.select("#tooltip")
                 .style("left", xPosition + "px")
-                .style("top", yPosition + "px")
+                .style("top", yPosition - 177 + "px")
                 .select("#value")
                 .text(d.sent_score);
             d3.select("#tooltip")
@@ -89,7 +160,7 @@ function songBrowser(data) {
 
         .on("mouseout", function () {
             //Hide the tooltip
-            //d3.select("#tooltip").classed("hidden", true);
+            d3.select("#tooltip").classed("hidden", true);
         })
 
 
