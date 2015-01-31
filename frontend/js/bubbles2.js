@@ -7,43 +7,50 @@ function songBrowser(data) {
     console.log(data);
 
     var w = 800;
-    var h = 600;
-    var r = 25;
+    var h = 330;
+    var r = 20;
+    margin = r;
 
 //Set up SVG and axis//
-    var svg = d3.select("#songBrowser")
-        ;
-    d3.select("svg")
+    var songbrowser = d3.select("#songBrowser");
+
+
+
+
+    d3.selectAll("#songbrowsersvg")
+        .attr("width", w + "px")
+        .attr("height", h + "px")
         .append("g") // append the average line
         .attr("id", "x-axis") //
-        .attr("transform", "translate(0,50)")
+        .attr("transform", "translate(0,177)")
         .append("line")
         .attr("x1", "0")
-        .attr("x2", w);
+        .attr("x2", w.toString())
+        .style("stroke", "black");
 
-//d3.select("svg")
-//    .append("g") // append the average line
-//    .attr("id", "shakespeare") //
-//    .attr("transform", "translate(604,140)")
-//    .append("line")
-//    .attr("y1", "-80")
-//    .attr("y2", "33");
+    //d3.select("svg")
+    //    .append("g") // append the average line
+    //    .attr("id", "shakespeare") //
+    //    .attr("transform", "translate(604,140)")
+    //    .append("line")
+    //    .attr("y1", "-80")
+    //    .attr("y2", "33");
 
-//d3.select("svg")
-//    .append("g") // append the average line
-//    .attr("id", "moby") //
-//    .attr("transform", "translate(834,140)")
-//    .append("line")
-//    .attr("y1", "-80")
-//    .attr("y2", "33");
+    //d3.select("svg")
+    //    .append("g") // append the average line
+    //    .attr("id", "moby") //
+    //    .attr("transform", "translate(834,140)")
+    //    .append("line")
+    //    .attr("y1", "-80")
+    //    .attr("y2", "33");
 
 
-    svg.selectAll("div")
+    songbrowser.selectAll("div")
         .data(data)
         .enter()
         .append("div")
         .attr("class", function (d) {
-            return "song-circle ";
+            return "song-circle blue";
         })
         .style("position", "absolute")
         .style("width", r + "px")
@@ -53,7 +60,7 @@ function songBrowser(data) {
         //    return "url(" + d.id + ".png)";
         //})
         .style("left", function (d) {
-            return (parseInt(d.year) - 2002) * (w/13) + "px";
+            return (parseInt(d.year) - 2002) * ((w - 2 * margin)/12) + margin + "px";
         })
         .style("top", function (d) {
             return (201 - parseInt(d.sent_score)) + "px";
@@ -61,29 +68,29 @@ function songBrowser(data) {
         .attr("id", function (d) {
             return d.id;
         })
-        //.on("mouseover", function (d) {
-        //    var xPosition = parseFloat(d3.select(this).style("left"));
-        //    var yPosition = parseFloat(d3.select(this).style("top"));
-        //    //Update the tooltip position and value
-        //    d3.select("#tooltip")
-        //        .style("left", xPosition + "px")
-        //        .style("top", yPosition + "px")
-        //        .select("#value")
-        //        .text(d.words);
-        //    d3.select("#tooltip")
-        //        .select("#rapper")
-        //        .text(d.rapper + ":");
-        //    d3.select("#puff-daddy")
-        //        .classed("default", false);
-        //    //Show the tooltip
-        //
-        //    d3.select("#tooltip").classed("hidden", false);
-        //})
-        //
-        //.on("mouseout", function () {
-        //    //Hide the tooltip
-        //    d3.select("#tooltip").classed("hidden", true);
-        //})
+        .on("mouseover", function (d) {
+            var xPosition = parseFloat(d3.select(this).style("left"));
+            var yPosition = parseFloat(d3.select(this).style("top"));
+            //Update the tooltip position and value
+            d3.select("#tooltip")
+                .style("left", xPosition + "px")
+                .style("top", yPosition + "px")
+                .select("#value")
+                .text(d.sent_score);
+            d3.select("#tooltip")
+                .select("#songhead")
+                .text(d.id + ":");
+            //d3.select("#puff-daddy")
+            //    .classed("default", false);
+            //Show the tooltip
+
+            d3.select("#tooltip").classed("hidden", false);
+        })
+
+        .on("mouseout", function () {
+            //Hide the tooltip
+            //d3.select("#tooltip").classed("hidden", true);
+        })
 
 
 
