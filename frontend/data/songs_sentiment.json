@@ -1,0 +1,212 @@
+[
+    {
+        "sentiment": -60,
+        "winners": 0,
+        "losers": 0
+    },
+    {
+        "sentiment": -55,
+        "winners": 3,
+        "losers": 0
+    },
+    {
+        "sentiment": -50,
+        "winners": 0,
+        "losers": 0
+    },
+    {
+        "sentiment": -45,
+        "winners": 0,
+        "losers": 0
+    },
+    {
+        "sentiment": -40,
+        "winners": 0,
+        "losers": 0
+    },
+    {
+        "sentiment": -35,
+        "winners": 0,
+        "losers": 1
+    },
+    {
+        "sentiment": -30,
+        "winners": 2,
+        "losers": 1
+    },
+    {
+        "sentiment": -25,
+        "winners": 1,
+        "losers": 0
+    },
+    {
+        "sentiment": -20,
+        "winners": 2,
+        "losers": 4
+    },
+    {
+        "sentiment": -15,
+        "winners": 2,
+        "losers": 2
+    },
+    {
+        "sentiment": -10,
+        "winners": 2,
+        "losers": 6
+    },
+    {
+        "sentiment": -5,
+        "winners": 3,
+        "losers": 5
+    },
+    {
+        "sentiment": 0,
+        "winners": 4,
+        "losers": 9
+    },
+    {
+        "sentiment": 5,
+        "winners": 3,
+        "losers": 7
+    },
+    {
+        "sentiment": 10,
+        "winners": 2,
+        "losers": 6
+    },
+    {
+        "sentiment": 15,
+        "winners": 4,
+        "losers": 5
+    },
+    {
+        "sentiment": 20,
+        "winners": 2,
+        "losers": 7
+    },
+    {
+        "sentiment": 25,
+        "winners": 4,
+        "losers": 2
+    },
+    {
+        "sentiment": 30,
+        "winners": 2,
+        "losers": 4
+    },
+    {
+        "sentiment": 35,
+        "winners": 1,
+        "losers": 2
+    },
+    {
+        "sentiment": 40,
+        "winners": 1,
+        "losers": 2
+    },
+    {
+        "sentiment": 45,
+        "winners": 0,
+        "losers": 0
+    },
+    {
+        "sentiment": 50,
+        "winners": 1,
+        "losers": 0
+    },
+    {
+        "sentiment": 55,
+        "winners": 1,
+        "losers": 0
+    },
+    {
+        "sentiment": 60,
+        "winners": 2,
+        "losers": 0
+    },
+    {
+        "sentiment": 65,
+        "winners": 2,
+        "losers": 0
+    },
+    {
+        "sentiment": 70,
+        "winners": 0,
+        "losers": 0
+    },
+    {
+        "sentiment": 75,
+        "winners": 1,
+        "losers": 0
+    },
+    {
+        "sentiment": 80,
+        "winners": 1,
+        "losers": 0
+    },
+    {
+        "sentiment": 85,
+        "winners": 1,
+        "losers": 0
+    },
+    {
+        "sentiment": 90,
+        "winners": 0,
+        "losers": 0
+    },
+    {
+        "sentiment": 95,
+        "winners": 0,
+        "losers": 0
+    },
+    {
+        "sentiment": 100,
+        "winners": 0,
+        "losers": 0
+    },
+    {
+        "sentiment": 105,
+        "winners": 0,
+        "losers": 0
+    },
+    {
+        "sentiment": 110,
+        "winners": 1,
+        "losers": 0
+    },
+    {
+        "sentiment": 115,
+        "winners": 0,
+        "losers": 0
+    },
+    {
+        "sentiment": 120,
+        "winners": 0,
+        "losers": 0
+    },
+    {
+        "sentiment": 125,
+        "winners": 0,
+        "losers": 0
+    },
+    {
+        "sentiment": 130,
+        "winners": 0,
+        "losers": 0
+    },
+    {
+        "sentiment": 135,
+        "winners": 0,
+        "losers": 0
+    },
+    {
+        "sentiment": 140,
+        "winners": 0,
+        "losers": 1
+    },
+    {
+        "sentiment": 145,
+        "winners": 0,
+        "losers": 0
+    }
+]
