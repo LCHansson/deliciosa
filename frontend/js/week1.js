@@ -290,6 +290,39 @@ function buildSmallPiechart(data, title, subtitle, whereToRender) {
 }
 
 function week1(){
+    window.loveWords = [];
+
+    $('#textModalID').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget); // Button that triggered the modal
+        var filename = "data/lyrics/" + button.attr('id') + "_lyrics.json";
+        var modal = $(this);
+        modal.find('.modal-title').html("");
+        modal.find('.modal-body').html("");
+
+        $.ajax({
+            async: false,
+            type: "POST",
+            url: filename,
+            dataType: "json",
+            success: function(response) {
+                if (button.attr("data-hl-lovewords") == "true") {
+                    var text = formatSongTexts(response.lyrics, loveWords);
+                } else {
+                    var text = formatSongTexts(response.lyrics, []);
+                }
+
+                modal.find('.modal-title').html(response.song_name);
+                modal.find('.modal-body').html(text);
+                return false;
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+                console.log("Error!" + textStatus   );
+                return true;
+            }
+        });
+
+    });
+
     $.ajax({
         type: "POST",
         url: "./data/texterna_loveprops.json",
@@ -320,7 +353,6 @@ function week1(){
 
 function onClickSongName(element) {
     var filename = "data/lyrics/" + $(element).attr('id') + "_lyrics.json";
-    console.log("You clicked " + $(element).attr('id'));
     $.ajax({
         type: "POST",
         url: filename,
@@ -348,32 +380,6 @@ function formatSongTexts(text, loveWords) {
 
 function buildCountsTable(loveWords) {
 
-    $('#textModalID').on('show.bs.modal', function (event) {
-        var button = $(event.relatedTarget); // Button that triggered the modal
-        var filename = "data/lyrics/" + button.attr('id') + "_lyrics.json";
-        var modal = $(this);
-        modal.find('.modal-title').html("");
-        modal.find('.modal-body').html("");
-
-        $.ajax({
-            async: false,
-            type: "POST",
-            url: filename,
-            dataType: "json",
-            success: function(response) {
-                var text = formatSongTexts(response.lyrics, loveWords);
-                modal.find('.modal-title').html(response.song_name);
-                modal.find('.modal-body').html(text);
-                return false;
-            },
-            error: function(jqXHR, textStatus, errorThrown) {
-                console.log("Error!" + textStatus   );
-                return true;
-            }
-        });
-
-    });
-
     // the table
     var myTable = $('#loveWordsTable').dataTable({
         dom: 'flitp',
@@ -397,7 +403,7 @@ function buildCountsTable(loveWords) {
                 searchable: true,
                 "mRender": function (songName, type, row) {
                     var button = '<button type="button" class="btn btn-link" data-toggle="modal" ';
-                    button += 'data-target="#textModalID" id="' + row[3] + '" ';
+                    button += 'data-target="#textModalID" data-hl-lovewords="true" id="' + row[3] + '" ';
                     button += '>';
                     button += songName + '</button>';
 
@@ -465,6 +471,7 @@ function week1Collapse() {
         url: "./data/love_words.json",
         dataType: "json",
         success: function (response) {
+            window.loveWords = response.love_words;
             buildCountsTable(response.love_words);
         },
         error: function (jqXHR, textStatus, errorThrown) {
