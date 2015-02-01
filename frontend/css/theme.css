@@ -216,3 +216,15 @@ div#firstPost div.dataTables_paginate a.paginate_button {
     background: none;
     border: none;
 }
+
+div.social i {
+    font-size: 1.5em;
+}
+
+div.social {
+    margin-bottom: 2em;
+}
+
+div.social .fa-facebook {
+    padding: 0 1em;
+}
