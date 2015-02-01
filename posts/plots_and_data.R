@@ -158,3 +158,48 @@ cat(json, file = "frontend/data/texterna_allcounts.json")
 
 
 
+## Låtarna ---- 
+# Tempo
+json <- jsonlite::toJSON(
+  wl %>% 
+    mutate(tempo = round(echonest_tempo) %/% 2 * 2) %>%
+    group_by(tempo) %>%
+    dplyr::summarise(freq = length(tempo)) %>%
+    full_join(data_frame(tempo = seq(76, 194, 2))) %>%
+    mutate(freq = ifelse(is.na(freq), 0, freq)) %>%
+    arrange(tempo),
+  pretty = TRUE
+)
+
+cat(json, file = "frontend/data/songs_tempo.json")
+
+# Sentiment
+json <- jsonlite::toJSON(
+  data_frame(sentiment = seq(-60, 145, 5)) %>% 
+    left_join(
+      wl %>%
+        filter(winner == 1) %>% 
+        mutate(sentiment = sent_score %/% 5 * 5) %>%
+        group_by(sentiment) %>%
+        dplyr::summarise(winners = length(sentiment))
+      ) %>% 
+    left_join(
+      wl %>%
+        filter(winner == 0) %>% 
+        mutate(sentiment = sent_score %/% 5 * 5) %>%
+        group_by(sentiment) %>%
+        dplyr::summarise(losers = length(sentiment))
+    ) %>% 
+    mutate(
+      winners = ifelse(is.na(winners), 0, winners),
+      losers = ifelse(is.na(losers), 0, losers)
+    )
+  ,
+    pretty = TRUE
+)
+
+cat(json, file = "frontend/data/songs_sentiment.json")
+  
+  
+  
+  
