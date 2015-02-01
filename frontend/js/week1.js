@@ -32,13 +32,16 @@ function buildLovePiechart(data) {
         title: {
             text: 'Vad sjunger de om?'
         },
+        subtitle: {
+            text: 'Andel låtar som handlade om kärlek 2002-2014'
+        },
         tooltip: {
             pointFormat: '<b>{point.percentage:.1f}%</b>'
         },
-        legend: {y: -20},
-        credits: {
-            text: "Baserad på en analys av 391 sångtexter från Melodifestivalen 2002-2014"
-        },
+        //legend: {y: -20},
+        //credits: {
+        //    text: "Baserad på en analys av 391 sångtexter från Melodifestivalen 2002-2014"
+        //},
         plotOptions: {
             pie: {
                 borderColor: '#00bbdb',
@@ -114,6 +117,9 @@ function buildWordFrequencyChart(data) {
             },
             title: {
                 text: 'Vanligaste kärleksorden'
+            },
+            subtitle: {
+                text: 'Antal gånger ett kärleksord nämndes 2002-2014'
             },
             legend: {
                 enabled:false
@@ -295,6 +301,21 @@ function week1(){
             console.log("Error!" + textStatus   );
         }
     });
+
+    // make the bar chart
+    $.ajax({
+        type: "POST",
+        url: "./data/texterna_wordfreqs.json",
+        dataType: "json",
+        success: function (response) {
+            buildWordFrequencyChart(response);
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+            console.log("Error!" + textStatus);
+        }
+    });
+
+
 }
 
 function onClickSongName(element) {
@@ -365,8 +386,8 @@ function buildCountsTable(loveWords) {
             {
                 sClass: "alignTextLeft",
                 aTargets: [0],
-                bSortable: true,
-                sTitle: "Artist",
+                bSortable: false,
+                sTitle: "Låt",
                 "mRender": function (songName, type, row) {
                     var button = '<button type="button" class="btn btn-link" data-toggle="modal" ';
                     button += 'data-target="#textModalID" id="' + row[2] + '" ';
@@ -419,56 +440,7 @@ function buildCountsTable(loveWords) {
 }
 
 function week1Collapse() {
-    // make the bar chart
-    $.ajax({
-        type: "POST",
-        url: "./data/texterna_wordfreqs.json",
-        dataType: "json",
-        success: function (response) {
-            buildWordFrequencyChart(response);
-        },
-        error: function (jqXHR, textStatus, errorThrown) {
-            console.log("Error!" + textStatus);
-        }
-    });
 
-    // make the other pie charts
-    smallPies = [
-        {
-            filename: "./data/texterna_seasons.json",
-            title: "Tid",
-            subtitle: 'Säsonger, månader och veckodagar',
-            divToRender: "seasonPieChart"
-        },
-        {
-            filename: "./data/texterna_aventyr.json",
-            title: "Äventyr",
-            subtitle: 'Längtan, fest och upplevelser',
-            divToRender: "adventurePieChart"
-        },
-        {
-            filename: "./data/texterna_religion.json",
-            title: "Religion",
-            subtitle: 'Gudar, himmel och helvete',
-            divToRender: "religionPieChart"
-        }
-    ]
-
-    for (var i = 0; i < smallPies.length; i++) {
-        (function (i) {
-            $.ajax({
-                type: "POST",
-                url: smallPies[i].filename,
-                dataType: "json",
-                success: function (response) {
-                    buildSmallPiechart(response, smallPies[i].title, smallPies[i].subtitle, smallPies[i].divToRender);
-                },
-                error: function (jqXHR, textStatus, errorThrown) {
-                    console.log("Error!" + textStatus);
-                }
-            });
-        })(i);
-    }
 
     // build the table
     $.ajax({
@@ -482,7 +454,6 @@ function week1Collapse() {
             console.log("Error!" + textStatus);
         }
     });
-
 
 
  }
