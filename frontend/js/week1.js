@@ -376,7 +376,8 @@ function buildCountsTable(loveWords) {
 
     // the table
     var myTable = $('#loveWordsTable').dataTable({
-        dom: 'litpf',
+        dom: 'flitp',
+        pageLength: 25,
         paging: true,
         order: [[1, "desc"]],
         info: false,
