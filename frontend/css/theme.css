@@ -24,12 +24,22 @@ div#firstPost .btn-link,
 div#firstPost .btn-link:active,
 div#firstPost .btn-link:focus,
 div#firstPost .btn-link:hover {
-    color: #00bbdb;
+    color: #00bbdb !important;
 }
 
 
-h1, h2, h3, h4, h5, h6 {
+div#firstPost a:active,
+div#firstPost a:focus,
+div#firstPost a:hover {
+    text-decoration: underline !important;
+}
+
+h1, h2, h3, h4, h5, h6, .leaguespartan {
     font-family: 'League Spartan';
+}
+
+.leaguespartan {
+    font-size: 1.2em;
 }
 
 h1, h2 {
@@ -129,7 +139,7 @@ div#firstPost .nav-pills.blue>li.active>a,
 div#firstPost .nav-pills.blue>li.active.blue>a:focus,
 div#firstPost .nav-pills.blue>li.active>a:hover {
     background-color: #00bbdb;
-    color: #ffffff;
+    color: #ffffff !important;
 }
 
 div#firstPost .nav-pills.blue>li>a,
@@ -192,4 +202,17 @@ div#firstPost #loveWordsTable .btn {
 .dataTables_wrapper .dataTables_paginate {
     text-align: center;
     float: none;
+}
+
+div.dataTables_wrapper {
+    margin-top: 2em;
+}
+
+div#firstPost div.dataTables_paginate a.disabled {
+    color: transparent !important;
+}
+
+div#firstPost div.dataTables_paginate a.paginate_button {
+    background: none;
+    border: none;
 }
