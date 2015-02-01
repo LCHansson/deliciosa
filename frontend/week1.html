@@ -41,6 +41,16 @@
 
 <body role="document">
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/sv_SE/sdk.js#xfbml=1&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
 
 
 <div class="container-fluid theme-showcase" role="main">
@@ -259,7 +269,6 @@
 
                             <div class="modal-body">
                             </div>
-
                             <!--<div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                             </div>-->
@@ -286,7 +295,7 @@
                 </div>
 
 
-                <p><a class="btn" href="#" id="lasVidareID">Såhär räknade vi &raquo;</a></p>
+                <p><a class="btn read-on" href="#texterna" id="lasVidareID">Såhär räknade vi &raquo;</a></p>
                 <div class="border"></div>
             </div>
             <div class="col-md-2"></div>
@@ -370,7 +379,7 @@
         <a href="https://twitter.com/intent/tweet?text=Mellokollen - en nördig djupdykning i datan bakom Melodifestivalen.&url=http://www.mellokollen.se" target="_blank"><!--
                         --><i class="fa fa-twitter"></i><!--
                     --></a>
-        <a href="https://www.facebook.com/sharer.php" target="_blank"><!--
+        <a href="javascript:fbShare();" target="_blank"><!--
                         --><i class="fa fa-facebook"></i><!--
                     --></a>
         <a href="mailto:?subject=Mellokollen.se&body=Mellokollen - en nördig djupdykning i datan bakom Melodifestivalen. %0D%0Ahttp://www.mellokollen.se"><!--
@@ -388,7 +397,8 @@
 
     <div class="authors text-center">
         Mellokollen.se har skapats av <br>
-        <a href="http://lchansson.com/" target="_blank">Love Hansson</a>, <a href="#">Luminita Moruz</a> och <a href="mailto:c@perriard.se">Cédric Perriard</a>.
+        <a href="http://lchansson.com/" target="_blank">Love Hansson</a>, <a href="#">Luminita Moruz</a> och <a href="mailto:c@perriard.se">Cédric Perriard</a>.<br>
+        Designidé av <br><a href="http://www.hisekaldma.com/">Jonathan Hise Kaldma</a>.
     </div>
 
 </div> <!-- /container -->
