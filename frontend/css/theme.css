@@ -174,8 +174,10 @@ div#firstPost table.dataTable.no-footer {
     border-bottom: 1px solid #00bbdb;
 }
 
-div#firstPost .btn {
+div#firstPost #loveWordsTable .btn {
     padding: 0;
+    white-space: normal;
+    text-align: left;
 }
 
 .modal-content {
