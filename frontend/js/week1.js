@@ -376,6 +376,7 @@ function buildCountsTable(loveWords) {
 
     // the table
     var myTable = $('#loveWordsTable').dataTable({
+        dom: 'litpf',
         paging: true,
         order: [[1, "desc"]],
         info: false,
@@ -384,6 +385,7 @@ function buildCountsTable(loveWords) {
         info : false,
         lengthChange: false,
         sAjaxSource: "./data/texterna_sent_lovew_counts.json",
+
         aoColumns: [
 
             {
@@ -391,6 +393,7 @@ function buildCountsTable(loveWords) {
                 aTargets: [0],
                 bSortable: false,
                 sTitle: "Låt",
+                searchable: true,
                 "mRender": function (songName, type, row) {
                     var button = '<button type="button" class="btn btn-link" data-toggle="modal" ';
                     button += 'data-target="#textModalID" id="' + row[3] + '" ';
@@ -425,6 +428,7 @@ function buildCountsTable(loveWords) {
                 aTargets: [1],
                 bSortable: true,
                 aDataSort: [1],
+                searchable: true,
                 sTitle: "Antal kärleksord"
             },
             {
@@ -432,11 +436,13 @@ function buildCountsTable(loveWords) {
                 aTargets: [2],
                 bSortable: true,
                 aDataSort: [2],
+                searchable: true,
                 sTitle: "Glädje poäng"
             },
             {
                 aTargets: [3],
-                bVisible: false
+                bVisible: false,
+                searchable: false
             }
         ]
         /*
