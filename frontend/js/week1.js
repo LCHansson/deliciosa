@@ -391,6 +391,13 @@ function buildCountsTable(loveWords) {
         bProcessing: true,
         info : false,
         lengthChange: false,
+        language: {
+            paginate: {
+                next: "nästa sida",
+                previous: "föregående sida"
+            },
+            search: "Sök:"
+        },
         sAjaxSource: "./data/texterna_sent_lovew_counts.json",
 
         aoColumns: [
@@ -444,7 +451,7 @@ function buildCountsTable(loveWords) {
                 bSortable: true,
                 aDataSort: [2],
                 searchable: true,
-                sTitle: "Glädje poäng"
+                sTitle: "Glädjepoäng"
             },
             {
                 aTargets: [3],
