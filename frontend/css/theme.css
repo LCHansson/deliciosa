@@ -248,3 +248,11 @@ div.authors a {
 div.social .fa-facebook {
     padding: 0 1em;
 }
+
+text.highcharts-title {
+    font-family: 'League Spartan';
+}
+
+svg {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
