@@ -125,6 +125,7 @@ ul.nav-pills>li {
     width: 50%;
     border: 2px solid black;
     margin: 0;
+    font-family: 'League Spartan';
 }
 
 div#firstPost .nav-pills.blue>li {
@@ -165,15 +166,31 @@ div#firstPost .nav-pills.blue>li>a:hover {
 
 
 
-div#firstPost thead,
+/*div#firstPost thead,*/
+div#firstPost table.dataTable thead th.sorting_disabled,
+div#firstPost table.dataTable thead th.sorting_desc,
+div#firstPost table.dataTable thead th.sorting_asc,
 div#firstPost .modal-header,
 div#firstPost .modal-footer {
     background-color: #00bbdb;
     color: #ffffff;
 }
 
+div#firstPost table.dataTable thead th.sorting {
+    color: #00bbdb;
+}
+
+
+table.dataTable {
+    border-collapse: collapse;
+}
+
+table thead {
+    font-family: 'League Spartan';
+}
+
 div#firstPost thead th {
-    border-bottom: none;
+    border: 2px solid #00bbdb;
 }
 
 div#firstPost tbody td {
