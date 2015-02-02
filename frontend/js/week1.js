@@ -290,7 +290,17 @@ function buildSmallPiechart(data, title, subtitle, whereToRender) {
 }
 
 function week1(){
-    window.loveWords = [];
+    $.ajax({
+        type: "POST",
+        url: "./data/love_words.json",
+        dataType: "json",
+        success: function (response) {
+            window.loveWords = response.love_words;
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+            console.log("Error!" + textStatus);
+        }
+    });
 
     $('#textModalID').on('show.bs.modal', function (event) {
         var button = $(event.relatedTarget); // Button that triggered the modal
@@ -305,11 +315,8 @@ function week1(){
             url: filename,
             dataType: "json",
             success: function(response) {
-                if (button.attr("data-hl-lovewords") == "true") {
-                    var text = formatSongTexts(response.lyrics, loveWords);
-                } else {
-                    var text = formatSongTexts(response.lyrics, []);
-                }
+                var text = formatSongTexts(response.lyrics, loveWords);
+
 
                 modal.find('.modal-title').html(response.song_name);
                 modal.find('.modal-body').html(text);
@@ -378,7 +385,7 @@ function formatSongTexts(text, loveWords) {
     return formattedText;
 }
 
-function buildCountsTable(loveWords) {
+function buildCountsTable() {
 
     // the table
     var myTable = $('#loveWordsTable').dataTable({
@@ -471,20 +478,11 @@ function buildCountsTable(loveWords) {
 
 function week1Collapse() {
 
-
     // build the table
-    $.ajax({
-        type: "POST",
-        url: "./data/love_words.json",
-        dataType: "json",
-        success: function (response) {
-            window.loveWords = response.love_words;
-            buildCountsTable(response.love_words);
-        },
-        error: function (jqXHR, textStatus, errorThrown) {
-            console.log("Error!" + textStatus);
-        }
-    });
+    buildCountsTable();
+
+
+
 
 
  }
