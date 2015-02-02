@@ -245,7 +245,7 @@ div.social i{
     font-size: 1.5em;
 }
 
-div.social {
+div.social.global {
     margin-bottom: 4em;
 }
 
@@ -257,7 +257,7 @@ div.authors p {
     color: gray;
 }
 
-div.social a {
+div.social.global a {
     color: gray;
 }
 
