@@ -187,15 +187,20 @@ table.dataTable {
 
 table thead {
     font-family: 'League Spartan';
+    font-size: 14px;
 }
 
 div#firstPost thead th {
     border: 2px solid #00bbdb;
 }
 
-div#firstPost tbody td,
-div#firstPost thead th {
+div#firstPost tbody td {
     padding: 6px 17px 6px 10px;
+}
+
+
+div#firstPost thead th {
+    padding: 10px 17px 10px 10px;
 }
 
 div#firstPost table td:first-child,
@@ -291,6 +296,7 @@ div.social .fa-facebook {
 
 text.highcharts-title {
     font-family: 'League Spartan';
+    font-size: 14px !important;
 }
 
 svg {
@@ -302,6 +308,7 @@ a.read-on {
     text-align: center;
     font-family: 'League Spartan';
     border-radius: 0;
+    padding: 10px 15px;
 }
 
 a.read-on i {
