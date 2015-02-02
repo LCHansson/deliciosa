@@ -320,3 +320,7 @@ div#firstPost a.read-on {
             transition-duration: .55s;
 
 }
+
+div.tab-pane ol {
+    margin-top: 0.5em;
+}
