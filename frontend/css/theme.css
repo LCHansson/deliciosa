@@ -170,8 +170,8 @@ div#firstPost .nav-pills.blue>li>a:hover {
 div#firstPost table.dataTable thead th.sorting_disabled,
 div#firstPost table.dataTable thead th.sorting_desc,
 div#firstPost table.dataTable thead th.sorting_asc,
-div#firstPost .modal-header,
-div#firstPost .modal-footer {
+div#firstPost .modal-header/*,
+div#firstPost .modal-footer*/ {
     background-color: #00bbdb;
     color: #ffffff;
 }
@@ -193,8 +193,14 @@ div#firstPost thead th {
     border: 2px solid #00bbdb;
 }
 
-div#firstPost tbody td {
-    padding: 6px 18px;
+div#firstPost tbody td,
+div#firstPost thead th {
+    padding: 6px 17px 6px 10px;
+}
+
+div#firstPost table td:first-child,
+div#firstPost table th:first-child{
+    padding-right: 0;
 }
 
 div#firstPost table.dataTable.no-footer {
@@ -206,8 +212,18 @@ div#firstPost table.dataTable.no-footer {
     text-align: left;
 }
 
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 0.5em 0;
+}
+
 div#firstPost #loveWordsTable .btn {
     padding: 0;
+}
+
+@media(max-width:767px){
+    div.col-md-6:first-child {
+        margin-bottom: 2em;
+    }
 }
 
 .btn {

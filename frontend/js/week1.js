@@ -400,10 +400,11 @@ function buildCountsTable() {
         lengthChange: false,
         language: {
             paginate: {
-                next: "nästa sida",
-                previous: "föregående sida"
+                next: "nästa",
+                previous: "föregående"
             },
-            search: "Sök:"
+            search: "Sök:",
+            loadingRecords: "Laddar ..."
         },
         sAjaxSource: "./data/texterna_sent_lovew_counts.json",
 
