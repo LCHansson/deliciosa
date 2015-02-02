@@ -34,12 +34,16 @@ div#firstPost a:hover {
     text-decoration: underline !important;
 }
 
-h1, h2, h3, h4, h5, h6, .leaguespartan {
+h1, h2, h3, h4, h5, h6, .leaguespartan, .leaguespartansmall {
     font-family: 'League Spartan';
 }
 
 .leaguespartan {
     font-size: 1.2em;
+}
+
+.leaguespartansmall {
+    font-size: 1.0em;
 }
 
 h1, h2 {

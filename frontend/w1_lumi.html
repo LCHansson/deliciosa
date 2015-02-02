@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="En nördig djupdykning i datan bakom Melodifestivalen.">
+    <meta name="author" content="Love Hansson, Luminita Moruz, Cédric Perriard">
+    <link rel="icon" href="images/favicon.ico">
+
+    <meta property="og:title" content="Mellokollen" />
+    <meta property="og:description" content="En nördig djupdykning i datan bakom Melodifestivalen." />
+    <meta property="og:image" content="images/header-xs2.png" />
+    <meta property="og:url" content="http://www.mellokollen.se"/>
+
+    <title>MELLOKOLLEN</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- DataTables css -->
+    <link rel="stylesheet" type="text/css" href="css/jquery.dataTables.min.css">
+
+    <!-- Font awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="fonts/leaguespartan.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+
+    <!-- D3.js (maybe move this to bottom later -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body role="document">
+
+
+
+
+
+
+<div class="container-fluid theme-showcase" role="main">
+
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-xs-12 col-md-8 title text-center">
+            <img src="images/header.png" alt="MELLOKOLLEN" class="img-responsive hidden-xs" style="margin-top: 3em;">
+            <img src="images/header-xs2.png" alt="MELLOKOLLEN" class="img-responsive visible-xs-block" style="margin-top: 1em;">
+
+            <p class="leaguespartan">En nördig djupdykning i datan bakom Melodifestivalen.<br>
+                Nytt avsnitt varje vecka fram till finalen.</p>
+            <div class="border"></div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+
+
+
+
+    <div id="firstPost">
+        <a id="texterna" name="texterna"></a>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-xs-12 col-md-8 collapse-group" data-post="1">
+                <div class="text-center">
+                    <h2 class="blue">TEXTERNA</h2>
+                    <h3>Vad sjunger de egentligen om?</h3>
+                </div>
+
+                <p>Alla "vet" hur en bra Mellovinnare ska låta. Den ska handla om kärlek, och vara så peppig och glad som möjlig. Men … är det verkligen så? För att stilla vår nyfikenhet gjorde vi en textanalys av så gott som samtliga låtar som deltagit i Mellon sedan 2002. Och här är vad vi hittade.</p>
+                <br>
+                <p class="leaguespartansmall"> Handlar alla Mellolåter om kärlek? Kort svar: JA!</p>
+                <p>
+                    Mer än 80% av låtarna handlar faktiskt om kärlek. Det överlägset popularäste kärleks ordet är “love”. Inte oväntat eller hur?!
+                </p>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div id="lovePieChart" class="pieChart"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="wordFreqChart" class="barChart"></div>
+                    </div>
+                </div>
+
+
+            <div class="row">
+                    <div class="col-md-12" style="align-items: 'center';">
+
+                        <p class="leaguespartansmall"> Är alla mello låtar peppiga? Kort svar: NEJ!</p>
+                        <p>Vår avancerade känslo analys visade att x% of låtar utrycker ångest, nedstemdhät eller smärta. Om du är nyfiken, här finns en lista med de mest ledsna och glada låtar enligt vår ranking.
+
+                        <ul class="nav nav-pills blue text-center" role="tablist">
+                            <li role="presentation" class="active">
+                                <a href="#peppigast" aria-controls="peppigast" role="tab" data-toggle="tab">Peppigast</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#deppigast" aria-controls="deppigast" role="tab" data-toggle="tab">Deppigast</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="peppigast">
+                                <ol>
+                                    <li>
+                                        <button type="button" class="btn btn-link" data-toggle="modal"
+                                                data-target="#textModalID" id="2012_3_8">
+                                            Björn Ranelid & Sara Li: Mirakel (2012)
+                                        </button>
+                                    </li>
+
+                                    <li>
+                                        <button type="button" class="btn btn-link" data-toggle="modal"
+                                                data-target="#textModalID" id="2014_3_2">
+                                            Eko: Red (2014)
+                                        </button>
+                                    </li>
+
+                                    <li>
+                                        <button type="button" class="btn btn-link" data-toggle="modal"
+                                                data-target="#textModalID" id="2012_4_8">
+                                            Danny Saucedo: Amazing (2012)
+                                        </button>
+                                    </li>
+
+                                    <li>
+                                        <button type="button" class="btn btn-link" data-toggle="modal"
+                                                data-target="#textModalID" id="2010_2_7">
+                                            Kalle Moraeus & Orsa Spelmän: Underbart (2010)
+                                        </button>
+                                    </li>
+
+                                    <li>
+                                        <button type="button" class="btn btn-link" data-toggle="modal"
+                                                data-target="#textModalID" id="2008_3_6">
+                                            Caracola: Smiling in Love (2008)
+                                        </button>
+                                    </li>
+
+                                    <li>
+                                        <button type="button" class="btn btn-link" data-toggle="modal"
+                                                data-target="#textModalID" id="2011_3_1">
+                                            Linda Sundblad: Lucky You (2011)
+                                        </button>
+                                    </li>
+
+                                    <li>
+                                        <button type="button" class="btn btn-link" data-toggle="modal"
+                                                data-target="#textModalID" id="2011_2_6">
+                                            The Moniker: Oh My God! (2011)
+                                        </button>
+                                    </li>
+
+                                    <li>
+                                        <button type="button" class="btn btn-link" data-toggle="modal"
+                                                data-target="#textModalID" id="2009_4_1">
+                                            Agnes: Love Love Love (2009)
+                                        </button>
+                                    </li>
+
+                                    <li>
+                                        <button type="button" class="btn btn-link" data-toggle="modal"
+                                                data-target="#textModalID" id="2007_1_8">
+                                            Uno & Irma: God morgon (2007)
+                                        </button>
+                                    </li>
+
+                                    <li>
+                                        <button type="button" class="btn btn-link" data-toggle="modal"
+                                                data-target="#textModalID" id="2008_4_8">
+                                            Charlotte Perrelli: Hero (2008)
+                                        </button>
+                                    </li>
+                                </ol>
+                            </div>
+
+                            <div role="tabpanel" class="tab-pane" id="deppigast">
+
+                                <ol>
+                                    <li>
+                                        <button type="button" class="btn btn-link" data-toggle="modal"
+                                                data-target="#textModalID" id="2014_2_4">
+                                            Panetoz: Efter solsken (2014)
+                                        </button>
+                                    </li>
+
+                                  <li>
+                                        <button type="button" class="btn btn-link" data-toggle="modal"
+                                                data-target="#textModalID" id="2004_4_1">
+                                            Lena Philipsson: Det gör ont (2004)
+                                        </button>
+                                    </li>
+
+                                    <li>
+                                        <button type="button" class="btn btn-link" data-toggle="modal"
+                                                data-target="#textModalID" id="2014_4_1">
+                                            Alcazar: Blame It on the Disco (2014)
+                                        </button>
+                                    </li>
+
+                                    <li>
+                                        <button type="button" class="btn btn-link" data-toggle="modal"
+                                                data-target="#textModalID" id="2010_3_7">
+                                            Darin: You're Out of My Life (2010)
+                                        </button>
+                                    </li>
+
+                                    <li>
+                                        <button type="button" class="btn btn-link" data-toggle="modal"
+                                                data-target="#textModalID" id="2013_3_1">
+                                            Eddie Razaz: Alibi (2013)
+                                        </button>
+                                    </li>
+
+                                    <li>
+                                        <button type="button" class="btn btn-link" data-toggle="modal"
+                                                data-target="#textModalID" id="2009_3_8">
+                                            BWO: You're Not Alone (2009)
+                                        </button>
+                                    </li>
+                                  <li>
+                                        <button type="button" class="btn btn-link" data-toggle="modal"
+                                                data-target="#textModalID" id="2010_3_2">
+                                            Johannes Bah Kuhnke: Tonight (2010)
+                                        </button>
+                                    </li>
+
+                                    <li>
+                                        <button type="button" class="btn btn-link" data-toggle="modal"
+                                                data-target="#textModalID" id="2007_3_2">
+                                            MissMatch: Drop Dead (2007)
+                                        </button>
+                                    </li>
+
+                                    <li>
+                                        <button type="button" class="btn btn-link" data-toggle="modal"
+                                                data-target="#textModalID" id="2012_3_7">
+                                            Molly Sandén: Why Am I Crying (2012)
+                                        </button>
+                                    </li>
+
+                                    <li>
+                                        <button type="button" class="btn btn-link" data-toggle="modal"
+                                                data-target="#textModalID" id="2012_3_4">
+                                            Love Generation: Just A Little Bit (2012)
+                                        </button>
+                                    </li>
+
+                                </ol>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="textModalID" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel"></h4>
+                            </div>
+
+                            <div class="modal-body">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="collapse" id="firstCollapse">
+
+                    <div class="text-center">
+                        <h3>Så räknade vi</h3>
+                    </div>
+                    <p>Hur avgör man vad en låt handlar om? Hur mycket får man tolka? För att få en bra uppfattning om vad artisterna i Melodifestivalen sjunger om gjorde vi först en översiktlig karta över de ämnen som vanligtvis brukar förekomma i låttexter, t.ex. <em>kärlek</em>, <em>längtan/äventyr</em>, <em>tidsangivelser</em>, <em>religion</em>, <em>familj</em> och många andra. Sedan skapade vi en ordlista med ord relaterade till varje ämne och räknade ut hur många ord av varje slag som förekom i Mellolåtarna. Inte helt förvånande vann <em>kärlek</em> helt överlägset. Mer än 80% av alla bidrag till Mello handlar om kärlek - och då har vi ändå inte lyckats fånga upp de låtar som bara använder metaforer för att beskriva kärlek. De låtar som hade få (1-3) kärleksord har vi klassat som "lite kärlek", och de som hade fler kärleksord som "mycket kärlek".</p>
+                    <p>Förr i tiden var alla låtar i Mello tvungna att vara på svenska, men de reglerna togs bort för länge sedan. Sedan dess har vi fått höra låtar på svenska och engelska, men även serbokroatiska, spanska och flera andra språk.</p>
+                    <p>De vanligaste kärleksorden är numera på engelska. Vanligast är olika varianter av "love", vilket kanske inte är så konstigt med tanke på att de svenska orden "älska", "kärlek" och "kär" alla översätts med "love" eller "in love" på engelska. På andra plats kommer "baby", ett ord som till vår förvåning enbart förekommer i kärlekslåtar. Några sånger om nyfödda barn tycks inte ha varit med i Mello, åtminstone inte de senaste femton åren. Det vanligaste svenska ordet, "kärlek", kommer först på fjärde plats. Och då är tredjepristagaren, "heart", ändå nästan tre gånger så vanligt.</p>
+                    <p>För att avgöra vilka låtar som är "peppigast" och "deppigast" har vi gjort en så kallad sentimentanalys på låttexterna. Alla ord i texten får en poäng baserad på om ordet ofta förekommer i glada eller ledsna sammanhang. Detta är ofta en mycket effektiv metod, men kan ibland leda till en del överraskande resultat. <a href="" data-toggle="modal" data-target="#textModalID" id="2014_2_4">Efter solsken</a> av Panetoz är verkligen inte någon deppig låt, men är ändå den låt som har den "ledsnaste" texten enligt vår modell.</p>
+                    <p>Det samlade låtmaterialet i vår undersökning består av 391 av totalt 416 låtar mellan åren 2002 och 2014. Till 25 av låtarna har vi inte kunnat hitta någon text och de ingår därför inte i analysen.</p>
+
+                    <table id="loveWordsTable" class="row-border" width="100%"></table>
+
+
+
+
+                </div>
+
+                <div class="social text-center">
+                            <a href="https://twitter.com/intent/tweet?text=Mellokollen - visste du att över 75 procent av texterna handlar om kärlek?&url=http://www.mellokollen.se#texterna" target="_blank"><!--
+                        --><i class="fa fa-twitter"></i><!--
+                    --></a>
+                            <a href="https://www.facebook.com/sharer.php?u=http://www.mellokollen.se#texterna" target="_blank"><!--
+                        --><i class="fa fa-facebook"></i><!--
+                    --></a>
+                            <a href="mailto:?subject=Mellokollen.se&body=Mellokollen - visste du att över 75 procent av texterna handlar om kärlek?. %0D%0Ahttp://www.mellokollen.se#texterna"><!--
+                        --><i class="fa fa-envelope"></i><!--
+                    --></a>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-xs-12 col-md-4 text-center">
+                        <a class="btn read-on" href="#texterna">Läs mer<i class="fa fa-caret-square-o-down"></i></a>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+
+                <div class="border"></div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div> <!-- #firstPost end -->
+
+
+
+
+    <div id="secondPost">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-xs-12 col-md-8 collapse-group" data-post="2">
+                <div class="text-center">
+                    <h2 class="purple">LÅTARNA</h2>
+                    <p class="leaguespartan">2015-02-13 08:00</p>
+                </div>
+                <div class="border"></div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div> <!-- #secondPost end -->
+
+    <div id="thirdPost">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-xs-12 col-md-8 collapse-group" data-post="3">
+                <div class="text-center">
+                    <h2 class="yellow">LÅTSKRIVARNA</h2>
+                    <p class="leaguespartan">2015-02-20 08:00</p>
+                </div>
+                <div class="border"></div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div> <!-- #thirdPost end -->
+
+    <div id="fourthPost">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-xs-12 col-md-8 collapse-group" data-post="4">
+                <div class="text-center">
+                    <h2 class="cerise">ARTISTERNA</h2>
+                    <p class="leaguespartan">2015-02-27 08:00</p>
+                </div>
+                <div class="border"></div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div> <!-- #fourthPost end -->
+
+    <div id="fifthPost">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-xs-12 col-md-8 collapse-group" data-post="5">
+                <div class="text-center">
+                    <h2 class="orange">???</h2>
+                    <p class="leaguespartan">2015-03-06 08:00</p>
+                </div>
+                <div class="border"></div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div> <!-- #fifthPost end -->
+
+    <div id="fifthPost">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-xs-12 col-md-8 collapse-group" data-post="6">
+                <div class="text-center">
+                    <h2 class="blue">VINNARNA</h2>
+                    <p class="leaguespartan">2015-03-13 08:00</p>
+                </div>
+                <div class="border"></div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div> <!-- #fifthPost end -->
+
+
+    <div id="get-data">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-xs-12 col-md-8">
+                <div class="row" style="margin-top: 0;">
+                    <div class="col-xs-2 col-md-1 cerise" style="font-size: 4em;">
+                        <a href="https://github.com/" target="_blank" class="cerise"><i class="fa fa-file-o"></i></a>
+                    </div>
+                    <div class="col-xs-10">
+                        <h4>Ladda ner datan</h4>
+                        <p>Självklart har vi gjort datan bakom det här öppen för alla att använda. <a href="https://github.com/" target="_blank" class="cerise">Ladda ner datan på Github.</a></p>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+                <div class="border"></div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div> <!-- #get-data end -->
+
+    <div class="authors">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-xs-12 col-md-8">
+                <p>
+                    <a href="mailto:mail@mellokollen.se">Mellokollen</a> har skapats av
+                    <a href="http://lchansson.com/" target="_blank">Love Hansson</a>, <a href="#">Luminita Moruz</a> och <a href="mailto:c@perriard.se">Cédric Perriard</a>.
+                    Designidé av <a href="http://www.hisekaldma.com/">Jonathan Hise Kaldma</a>. <br>
+                    Vi <3 data och vad man kan göra med den. Dela gärna om du också gör det.
+                </p>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+
+    <div class="social global">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-xs-12 col-md-8 text-center">
+                <a href="https://twitter.com/intent/tweet?text=Mellokollen - en nördig djupdykning i datan bakom Melodifestivalen.&url=http://www.mellokollen.se" target="_blank"><!--
+                        --><i class="fa fa-twitter"></i><!--
+                    --></a>
+                <a href="https://www.facebook.com/sharer.php?u=http://www.mellokollen.se" target="_blank"><!--
+                        --><i class="fa fa-facebook"></i><!--
+                    --></a>
+                <a href="mailto:?subject=Mellokollen.se&body=Mellokollen - en nördig djupdykning i datan bakom Melodifestivalen. %0D%0Ahttp://www.mellokollen.se"><!--
+                        --><i class="fa fa-envelope"></i><!--
+                    --></a>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+
+</div> <!-- /container -->
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!--<script src="js/docs.min.js"></script>-->
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+<script src="js/highcharts.js"> </script>
+<script src="js/exporting.js"> </script>
+<script src="js/pattern-fill.js"> </script>
+<script src="js/jquery.dataTables.min.js"></script>
+
+<script src="js/week1_noheaders_nosubtitle.js"> </script>
+<script src="js/main.js"> </script>
+</body>
+</html>
