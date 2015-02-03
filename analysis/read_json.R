@@ -23,6 +23,10 @@ mello_data[language == "scots", language := "english"]
 # mello_data$language %>% table
 mello_data <- tbl_df(mello_data)
 
+## Further munge ----
+source("analysis/lovecount.R")
+# source("analysis/sentiments.R")
+
 ## Get winners/losers JSON ----
 losers <- file.path("data/losers.json")
 winners <- file.path("data/winners.json")
