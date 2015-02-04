@@ -18,6 +18,10 @@
     color: #00bbdb;
 }
 
+.gray {
+    color: #bbbbbb;
+}
+
 div#firstPost a,
 div#firstPost .btn-link,
 div#firstPost .btn-link:active,
