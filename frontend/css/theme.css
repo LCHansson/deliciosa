@@ -120,8 +120,16 @@ h1, h2 {
 
 }
 
-.row {
+.row, .tspacing {
     margin-top: 3em;
+}
+
+.tpadding {
+    padding-top: 3em;
+}
+
+.collapse {
+    clear: both;
 }
 
 
@@ -205,12 +213,13 @@ div#firstPost thead th {
 }
 
 div#firstPost tbody td {
-    padding: 6px 17px 6px 10px;
+    padding: 6px 10px 6px 10px;
 }
 
 
 div#firstPost thead th {
-    padding: 10px 17px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    background: none;
 }
 
 div#firstPost table td:first-child,
@@ -357,4 +366,8 @@ div.tab-pane ol {
         text-decoration: initial !important;
         cursor: default;
     }
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    text-decoration: underline !important;
 }
