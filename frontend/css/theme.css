@@ -79,6 +79,26 @@ body {
 }
 
 
+/* Lists */
+
+ol {
+    list-style-type: none;
+    counter-reset: ol-counter;
+    padding: 0;
+    margin: 20px 0;
+}
+ol li:before {
+    content: counter(ol-counter) ".";
+    counter-increment: ol-counter;
+    display: inline-block;
+    width: 24px;
+}
+ol li .btn-link {
+    padding: 4px;
+}
+
+
+
 /*.container {
     width: 750px;
 }*/
@@ -379,10 +399,6 @@ div#firstPost a.read-on {
          -o-transition-duration: .55s;
             transition-duration: .55s;
 
-}
-
-div.tab-pane ol {
-    margin-top: 0.5em;
 }
 
 
