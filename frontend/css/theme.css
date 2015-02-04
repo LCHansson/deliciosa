@@ -18,13 +18,16 @@
     color: #00bbdb;
 }
 
-/* link colors */
 div#firstPost a,
 div#firstPost .btn-link,
 div#firstPost .btn-link:active,
 div#firstPost .btn-link:focus,
 div#firstPost .btn-link:hover {
     color: #00bbdb !important;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
 }
 
 
@@ -33,6 +36,9 @@ div#firstPost a:focus,
 div#firstPost a:hover {
     text-decoration: underline !important;
 }
+
+
+/* Typography */
 
 h1, h2, h3, h4, h5, h6, .intro, .leaguespartansmall {
     font-family: 'League Spartan';
@@ -61,9 +67,17 @@ h3, .intro {
 .title h1 {
    /* font-size: 3em;
     /*display: none;*/
-
-
 }
+
+body {
+    font: 18px/28px Helvetica, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 200;
+}
+
+.small {
+    font-size: 16px;
+}
+
 
 /*.container {
     width: 750px;
