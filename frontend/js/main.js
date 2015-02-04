@@ -20,6 +20,12 @@ $(function () {
         }
     });
 
+        $( ".nav-pills" ).find( "a" ).on( "show.bs.tab", function( e ){
+        if ( window.innerWidth >= 768 ) {
+            e.preventDefault();
+        }
+    });
+
     week1();
 
     window.fbShare = function(){
