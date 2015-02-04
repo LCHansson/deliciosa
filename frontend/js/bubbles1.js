@@ -100,13 +100,13 @@ function songBrowser(data) {
     //create an empty adjacency tree;
     //the function returns the root node.
 
-// Find the all nodes in the tree that overlap a given circle.
-// quadroot is the root node of the tree, scaledX and scaledR
-//are the position and dimensions of the circle on screen
-//maxR is the (scaled) maximum radius of dots that have
-//already been positioned.
-//This will be most efficient if you add the circles
-//starting with the smallest.
+    // Find the all nodes in the tree that overlap a given circle.
+    // quadroot is the root node of the tree, scaledX and scaledR
+    //are the position and dimensions of the circle on screen
+    //maxR is the (scaled) maximum radius of dots that have
+    //already been positioned.
+    //This will be most efficient if you add the circles
+    //starting with the smallest.
     function findNeighbours(root, scaledX, scaledR, maxR) {
 
         var neighbours = [];
@@ -225,9 +225,10 @@ function songBrowser(data) {
         ))
         .enter()
         .append("circle")
-        .attr("r", function(d){
-            var r=rScale(d.r);
-            maxR = Math.max(r,maxR);
+        .attr("r", function(d) {
+            //var r=rScale(d.r);
+            //maxR = Math.max(r,maxR);
+            var r=10;
             return r;})
         .each(function(d, i) {
             //for each circle, calculate it's position
@@ -236,6 +237,7 @@ function songBrowser(data) {
 
             //console.log("Bubble " + i);
             var scaledX = xScale(d.year);
+            console.log(scaledX);
             var scaledY = yScale(d.sent_score)
             d3.select(this)
                 .attr("cx", scaledX)
@@ -255,7 +257,7 @@ function songBrowser(data) {
                 .attr({x1:scaledX, x2:scaledX, y1: scaledY, y2:scaledY})
                 .attr("y1", margin)
                 .transition().delay(300*i).duration(250)
-                //.attr("y1", (baselineHeight+d.offset));
+            //.attr("y1", (baselineHeight+d.offset));
         });
 }
 

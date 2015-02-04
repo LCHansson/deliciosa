@@ -120,8 +120,16 @@ h1, h2 {
 
 }
 
-.row {
+.row, .tspacing {
     margin-top: 3em;
+}
+
+.tpadding {
+    padding-top: 3em;
+}
+
+.collapse {
+    clear: both;
 }
 
 
@@ -148,14 +156,16 @@ div#firstPost ul.nav-pills>li>a {
 div#firstPost .nav-pills.blue>li.active>a,
 div#firstPost .nav-pills.blue>li.active.blue>a:focus,
 div#firstPost .nav-pills.blue>li.active>a:hover {
-    background-color: #00bbdb;
-    color: #ffffff !important;
+    color: #00bbdb !important;
+    background-color: transparent;
 }
 
 div#firstPost .nav-pills.blue>li>a,
 div#firstPost .nav-pills.blue>li.blue>a:focus,
 div#firstPost .nav-pills.blue>li>a:hover {
-    color: #00bbdb;
+
+    background-color: #00bbdb;
+    color: #ffffff !important;
 }
 
 .alignTextRight {
@@ -181,12 +191,23 @@ div#firstPost table.dataTable thead th.sorting_desc,
 div#firstPost table.dataTable thead th.sorting_asc,
 div#firstPost .modal-header/*,
 div#firstPost .modal-footer*/ {
+
+    /*background-color: #00bbdb;
+    color: #ffffff;*/
+    color: #00bbdb;
+}
+
+div#firstPost table.dataTable thead th.sorting,
+div#firstPost .modal-header{
+    /*color: #00bbdb;*/
     background-color: #00bbdb;
     color: #ffffff;
 }
 
-div#firstPost table.dataTable thead th.sorting {
-    color: #00bbdb;
+div#firstPost table.dataTable thead th.sorting:hover,
+div#firstPost table.dataTable thead th.sorting_desc:hover,
+div#firstPost table.dataTable thead th.sorting_asc:hover {
+    text-decoration: underline;
 }
 
 
@@ -204,12 +225,13 @@ div#firstPost thead th {
 }
 
 div#firstPost tbody td {
-    padding: 6px 17px 6px 10px;
+    padding: 6px 10px 6px 10px;
 }
 
 
 div#firstPost thead th {
-    padding: 10px 17px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    background: none;
 }
 
 div#firstPost table td:first-child,
@@ -339,4 +361,25 @@ div#firstPost a.read-on {
 
 div.tab-pane ol {
     margin-top: 0.5em;
+}
+
+
+@media(min-width:768px) {
+    div#firstPost .tab-content > .tab-pane {
+        display: block !important;
+        visibility: visible;
+        float: left;
+        width: 50%;
+    }
+
+    div#firstPost .nav-pills.blue>li>a,
+    div#firstPost .nav-pills.blue>li.blue>a:focus,
+    div#firstPost .nav-pills.blue>li>a:hover {
+        text-decoration: initial !important;
+        cursor: default;
+    }
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    text-decoration: underline !important;
 }

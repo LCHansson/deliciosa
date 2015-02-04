@@ -3,6 +3,11 @@ library("wordcloud")
 source("analysis/sentiment_func.R")
 library("qdap")
 library("stringr")
+library("ggplot2")
+library("tm")
+
+## Data ---- 
+# Data: "wl" from read_json.R + mello_data from load(".RData") <--
 
 ## Lyrics corpus ----
 wl_corpus <- Corpus(VectorSource(wl$lyrics))
@@ -28,45 +33,48 @@ wl_en <- wl %>% filter(language == "english")
 # positives <- terms_in_General_Inquirer_categories("Positiv")
 # negatives <- terms_in_General_Inquirer_categories("Negativ")
 
-sentterms <- read.table("data/sentiment_scores_en.txt", sep = "\t") %>%
-  tbl_df() %>%
-  dplyr::rename(V1 = term, V2 = score)
+# sentterms <- read.table("data/sentiment_scores_en.txt", sep = "\t") %>%
+#   tbl_df() %>%
+#   dplyr::rename(V1 = term, V2 = score)
+# 
+# wl_en$lyric_sentiment <- score.sentiment(wl_en$lyrics_cleaned, positives, negatives)$score
+# wl_en <- wl_en %>% mutate(
+#   weighted_sentiment = lyric_sentiment / total_words,
+#   binned_sentiment = cut(lyric_sentiment, c(-Inf, -5, 0, 5, Inf))
+#   ) %>%
+#   filter(winner == 1)
+# 
+# sents <- levels(factor(wl_en$binned_sentiment))
+# labels <- lapply(sents, function(x) {
+#   paste(
+#     x,
+#     format(round(
+#       (length((wl_en[wl_en$binned_sentiment == x,])$lyrics_cleaned)/length(wl_en$binned_sentiment)*100),
+#       2
+#     ), nsmall = 2),"%"
+#   )
+#   })
+# nemo = length(sents)
+# emo.docs = rep("", nemo)
+# for (i in 1:nemo)
+# {
+#   tmp = wl_en[wl_en$binned_sentiment == sents[i],]$lyrics_cleaned
+#   
+#   emo.docs[i] = paste(tmp,collapse=" ")
+# }
+# # emo.docs = removeWords(emo.docs, stopwords("swedish"))
+# emo.docs = removeWords(emo.docs, stopwords("english"))
+# corpus = Corpus(VectorSource(emo.docs))
+# tdm = TermDocumentMatrix(corpus)
+# tdm = as.matrix(tdm)
+# colnames(tdm) = labels
+# comparison.cloud(tdm, colors = brewer.pal(nemo, "Dark2"),
+#                  scale = c(3,.5), random.order = FALSE, title.size = 1.5)
 
-wl_en$lyric_sentiment <- score.sentiment(wl_en$lyrics_cleaned, positives, negatives)$score
-wl_en <- wl_en %>% mutate(
-  weighted_sentiment = lyric_sentiment / total_words,
-  binned_sentiment = cut(lyric_sentiment, c(-Inf, -5, 0, 5, Inf))
-  ) %>%
-  filter(winner == 1)
-
-sents <- levels(factor(wl_en$binned_sentiment))
-labels <- lapply(sents, function(x) {
-  paste(
-    x,
-    format(round(
-      (length((wl_en[wl_en$binned_sentiment == x,])$lyrics_cleaned)/length(wl_en$binned_sentiment)*100),
-      2
-    ), nsmall = 2),"%"
-  )
-  })
-nemo = length(sents)
-emo.docs = rep("", nemo)
-for (i in 1:nemo)
-{
-  tmp = wl_en[wl_en$binned_sentiment == sents[i],]$lyrics_cleaned
-  
-  emo.docs[i] = paste(tmp,collapse=" ")
-}
-# emo.docs = removeWords(emo.docs, stopwords("swedish"))
-emo.docs = removeWords(emo.docs, stopwords("english"))
-corpus = Corpus(VectorSource(emo.docs))
-tdm = TermDocumentMatrix(corpus)
-tdm = as.matrix(tdm)
-colnames(tdm) = labels
-comparison.cloud(tdm, colors = brewer.pal(nemo, "Dark2"),
-                 scale = c(3,.5), random.order = FALSE, title.size = 1.5)
-
-
+wl <- wl %>% 
+  left_join(mello_data %>% 
+              select(id, sent_score, lovecount, lovebins),
+            by = "id")
 
 ## Winners/losers plots ----
 wl %>%
@@ -83,8 +91,8 @@ wl %>%
 
 # Winners are typically in the minor(!) key
 wl %>%
-  ggplot(aes(x = as.factor(echonest_mode), group = winner, fill = winner)) +
-  geom_bar(position = position_dodge())
+  ggplot(aes(group = as.factor(echonest_mode), x = as.factor(winner), fill = echonest_mode)) +
+  geom_bar(position = position_dodge(), binwidth = 0.2)
 
 # Winners typically center aruond a BPM of about 128
 wl %>%
@@ -101,8 +109,9 @@ wl %>%
   ggplot(aes(x = echonest_duration, group = winner, fill = winner)) +
     geom_density(alpha = 0.7)
 
-wl_en %>%
-  ggplot(aes(x = lyric_sentiment, group = winner, fill = winner)) +
+# Winners tend to be happier than losers
+wl %>%
+  ggplot(aes(x = sent_score, group = winner, fill = winner)) +
   geom_density(alpha = 0.7)
 
 ## Wordclouds ----
