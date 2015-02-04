@@ -156,6 +156,7 @@ div#firstPost .nav-pills.blue>li>a,
 div#firstPost .nav-pills.blue>li.blue>a:focus,
 div#firstPost .nav-pills.blue>li>a:hover {
     color: #00bbdb;
+    background-color: white;
 }
 
 .alignTextRight {
@@ -348,5 +349,12 @@ div.tab-pane ol {
         visibility: visible;
         float: left;
         width: 50%;
+    }
+
+    div#firstPost .nav-pills.blue>li>a,
+    div#firstPost .nav-pills.blue>li.blue>a:focus,
+    div#firstPost .nav-pills.blue>li>a:hover {
+        text-decoration: initial !important;
+        cursor: default;
     }
 }
