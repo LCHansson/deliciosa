@@ -340,3 +340,13 @@ div#firstPost a.read-on {
 div.tab-pane ol {
     margin-top: 0.5em;
 }
+
+
+@media(min-width:768px) {
+    div#firstPost .tab-content > .tab-pane {
+        display: block !important;
+        visibility: visible;
+        float: left;
+        width: 50%;
+    }
+}
