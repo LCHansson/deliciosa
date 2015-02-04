@@ -34,20 +34,28 @@ div#firstPost a:hover {
     text-decoration: underline !important;
 }
 
-h1, h2, h3, h4, h5, h6, .leaguespartan, .leaguespartansmall {
+h1, h2, h3, h4, h5, h6, .intro, .leaguespartansmall {
     font-family: 'League Spartan';
-}
-
-.leaguespartan {
-    font-size: 1.2em;
 }
 
 .leaguespartansmall {
     font-size: 1.0em;
 }
 
-h1, h2 {
+h1 {
     text-transform: uppercase;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 2px;
+    text-rendering: optimizeLegibility;
+}
+
+h3, .intro {
+    font-size: 22px;
+    line-height: 36px;
 }
 
 .title h1 {
