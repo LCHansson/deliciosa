@@ -413,7 +413,7 @@ function buildCountsTable() {
             {
                 sClass: "alignTextLeft",
                 aTargets: [0],
-                bSortable: false,
+                bSortable: true,
                 sTitle: "Låt",
                 searchable: true,
                 "mRender": function (songName, type, row) {
