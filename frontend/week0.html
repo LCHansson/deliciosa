@@ -37,17 +37,7 @@
     <script src="js/respond.min.js"></script>
     <![endif]-->
 
-    <script> <!-- Windows Phone 8 versions older than Update 3 (a.k.a. GDR3) --> 
-        if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
-            var msViewportStyle = document.createElement('style')
-            msViewportStyle.appendChild(
-                    document.createTextNode(
-                            '@-ms-viewport{width:auto!important}'
-                    )
-            )
-            document.querySelector('head').appendChild(msViewportStyle)
-        }
-    </script>
+
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -66,23 +56,22 @@
 
 <div class="container-fluid theme-showcase" role="main">
 
-    <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-xs-12 col-md-8 title text-center">
-            <img src="images/header.png" alt="MELLOKOLLEN" class="img-responsive hidden-xs" style="margin-top: 8em; margin-bottom: 4em;">
-            <img src="images/header-xs2.png" alt="MELLOKOLLEN" class="img-responsive visible-xs-block" style="margin-top: 8em; margin-bottom: 4em;">
+    <header class="row">
+        <div class="col-xs-12">
+            <img class="circle"   src="images/icon_circle.svg">
+            <img class="plus1"    src="images/icon_plus.svg">
+            <img class="saw"      src="images/icon_saw.svg">
+            <img class="triangle" src="images/icon_triangle.svg">
+            <img class="plus2"    src="images/icon_plus.svg">
+            <img class="sine"     src="images/icon_sine.svg">
 
-            <p style="font-size: 1.2em; margin-bottom: 4em;">2015-02-06 08:00</p>
-            <!--<div class="border"></div>-->
+            <h1><span class="blue">M</span><span class="cerise">e</span><span class="yellow">ll</span><span class="purple">o</span><span class="cerise">k</span><span class="blue">o</span><span class="yellow">ll</span><span class="purple">e</span><span class="cerise">n</span></h1>
+
+            <p class="intro">En nördig djupdykning i datan bakom Melodifestivalen.<br>
+                En ny analys varje vecka fram till finalen.</p>
+            <p class="text-center">Första analysen kommer 6 februari.</p>
         </div>
-        <div class="col-md-2"></div>
-    </div>
-
-<div class="social">
-    <a href="https://twitter.com/share">
-        <i class="fa fa-twitter"></i>
-    </a>
-</div>
+    </header>
 
 
 </div> <!-- /container -->
