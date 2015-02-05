@@ -321,7 +321,7 @@ function week1(){
 
                 modal.find('.modal-title').html(response.song_name);
                 modal.find('.modal-body').html(text);
-                var meta = "Kärleksorden är blåmarkerade.<br>" +
+                var meta = "Kärleksord i blått.<br>" +
                     "Antal kärleksord: " + response.no_love_words +"<br>" +
                     "Glädjepoäng: " + response.happy_score;
                 modal.find('.modal-meta').html(meta);
@@ -399,7 +399,7 @@ function buildCountsTable() {
         paging: true,
         order: [[1, "desc"]],
         info: false,
-        searching: true,
+        searching: false,
         bProcessing: true,
         info : false,
         lengthChange: false,
@@ -445,13 +445,6 @@ function buildCountsTable() {
             }
         ]
     });
-
-    var input = $("<input type='text' placeholder='Sök' value='' style='color: #00bbdb;'>").on("keyup change", function(e){
-        myTable.search(this.value).draw();
-    }).on("click", function(e){
-        e.stopPropagation();
-    });
-    $('#loveWordsTable th:first-child').append( input);
 
 }
 
