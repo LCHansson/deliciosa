@@ -1,32 +1,15 @@
-.yellow {
-    color: #fdba00;
-}
+.yellow { color: #fdba00; }
+.orange { color: #ed4d17; }
+.cerise { color: #e70074; }
+.purple { color: #6e328f; }
+.blue   { color: #00bbdb; }
+.gray   { color: #bbbbbb; }
 
-.orange {
-    color: #ed4d17;
-}
-
-.cerise {
-    color: #e70074;
-}
-
-.purple {
-    color: #6e328f;
-}
-
-.blue {
-    color: #00bbdb;
-}
-
-.gray {
-    color: #bbbbbb;
-}
-
-div#firstPost a,
-div#firstPost .btn-link,
-div#firstPost .btn-link:active,
-div#firstPost .btn-link:focus,
-div#firstPost .btn-link:hover {
+#firstPost a,
+#firstPost .btn-link,
+#firstPost .btn-link:active,
+#firstPost .btn-link:focus,
+#firstPost .btn-link:hover {
     color: #00bbdb !important;
     font-family: inherit;
     font-size: inherit;
@@ -35,9 +18,9 @@ div#firstPost .btn-link:hover {
 }
 
 
-div#firstPost a:active,
-div#firstPost a:focus,
-div#firstPost a:hover {
+#firstPost a:active,
+#firstPost a:focus,
+#firstPost a:hover {
     text-decoration: underline !important;
 }
 
@@ -57,6 +40,7 @@ h1 {
     font-size: 60px;
     letter-spacing: 3px;
     text-rendering: optimizeLegibility;
+    text-align: center;
 }
 
 h2 {
@@ -64,15 +48,35 @@ h2 {
     font-size: 36px;
     letter-spacing: 2px;
     text-rendering: optimizeLegibility;
+    text-align: center;
 }
 
 h3, .intro {
     font-size: 22px;
     line-height: 36px;
+    text-align: center;
 }
 
 h2 + h3 {
     margin-top: 10px;
+}
+
+@media(max-width: 1016px){
+    h1 {
+        font-size: 50px;
+    }
+}
+@media(max-width: 500px){
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3, .intro {
+        font-size: 18px;
+        line-height: 28px;
+    }
 }
 
 body {
@@ -116,26 +120,69 @@ ol li .btn-link {
 }
 
 
+/* Layout */
+
+.container-fluid {
+    max-width: 940px;
+}
+section, header {
+    padding-bottom: 40px;
+    border-bottom: solid 1px lightgray;
+}
+
+@media(max-width: 1016px){
+    .container-fluid {
+        margin: 0 4%;
+    }
+}
+
+
 /* Header */
 
-.header {
+header {
     position: relative;
+    text-align: center;
 }
-.header img {
+header img {
     position: absolute;
-    width: 80px;
+    width: 8%;
+    max-width: 80px;
 }
-.header .circle   { left:  0;     top: 0; }
-.header .plus1    { left:  120px; top: 20px; }
-.header .saw      { left:  80px;  top: -40px; }
-.header .triangle { right: 0;     top: 0; }
-.header .plus2    { right: 80px;  top: -40px; }
-.header .sine     { right: 110px; top: 20px; }
+header .circle   { left:  0;     top: 0; }
+header .plus1    { left:  120px; top: 10px; }
+header .saw      { left:  70px;  top: -40px; }
+header .triangle { right: 0;     top: 0; }
+header .plus2    { right: 70px;  top: -30px; }
+header .sine     { right: 110px; top: 20px; }
 
+@media(max-width: 1016px){
+    header img {
+        position: static;
+    }
+}
+@media(max-width: 740px){
+    header img {
+        width: 10%;
+    }
+    header .intro br {
+        display: none; /* No line break in smaller sizes */
+    }
+}
 
-/*.container {
-    width: 750px;
-}*/
+/* Footer */
+
+footer {
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+footer p {
+    color: gray;
+}
+
+footer a {
+    color: #2b2b2b;
+}
+
 
 .vertical-center {
     min-height: 100%;  /* Fallback for vh unit */
@@ -185,17 +232,6 @@ ol li .btn-link {
     float: none;
 }
 
-
-.title {
-    /*margin-top: 5em;*/
-    font-family: 'League Spartan';
-}
-
-.title p {
-    margin-top: 2em;
-
-}
-
 .row, .tspacing {
     margin-top: 3em;
 }
@@ -209,11 +245,6 @@ ol li .btn-link {
 }
 
 
-div.border {
-    margin-top: 2.5em;
-    border-bottom: solid 1px lightgray;
-}
-
 ul.nav-pills>li {
     width: 50%;
     border: 2px solid black;
@@ -221,24 +252,24 @@ ul.nav-pills>li {
     font-family: 'League Spartan';
 }
 
-div#firstPost .nav-pills.blue>li {
+#firstPost .nav-pills.blue>li {
     border-color: #00bbdb;
 }
 
-div#firstPost ul.nav-pills>li>a {
+#firstPost ul.nav-pills>li>a {
     border-radius: 0;
 }
 
-div#firstPost .nav-pills.blue>li.active>a,
-div#firstPost .nav-pills.blue>li.active.blue>a:focus,
-div#firstPost .nav-pills.blue>li.active>a:hover {
+#firstPost .nav-pills.blue>li.active>a,
+#firstPost .nav-pills.blue>li.active.blue>a:focus,
+#firstPost .nav-pills.blue>li.active>a:hover {
     color: #00bbdb !important;
     background-color: transparent;
 }
 
-div#firstPost .nav-pills.blue>li>a,
-div#firstPost .nav-pills.blue>li.blue>a:focus,
-div#firstPost .nav-pills.blue>li>a:hover {
+#firstPost .nav-pills.blue>li>a,
+#firstPost .nav-pills.blue>li.blue>a:focus,
+#firstPost .nav-pills.blue>li>a:hover {
 
     background-color: #00bbdb;
     color: #ffffff !important;
@@ -261,28 +292,28 @@ div#firstPost .nav-pills.blue>li>a:hover {
 
 
 
-/*div#firstPost thead,*/
-div#firstPost table.dataTable thead th.sorting_disabled,
-div#firstPost table.dataTable thead th.sorting_desc,
-div#firstPost table.dataTable thead th.sorting_asc,
-div#firstPost .modal-header/*,
-div#firstPost .modal-footer*/ {
+/*#firstPost thead,*/
+#firstPost table.dataTable thead th.sorting_disabled,
+#firstPost table.dataTable thead th.sorting_desc,
+#firstPost table.dataTable thead th.sorting_asc,
+#firstPost .modal-header/*,
+#firstPost .modal-footer*/ {
 
     /*background-color: #00bbdb;
     color: #ffffff;*/
     color: #00bbdb;
 }
 
-div#firstPost table.dataTable thead th.sorting,
-div#firstPost .modal-header{
+#firstPost table.dataTable thead th.sorting,
+#firstPost .modal-header{
     /*color: #00bbdb;*/
     background-color: #00bbdb;
     color: #ffffff;
 }
 
-div#firstPost table.dataTable thead th.sorting:hover,
-div#firstPost table.dataTable thead th.sorting_desc:hover,
-div#firstPost table.dataTable thead th.sorting_asc:hover {
+#firstPost table.dataTable thead th.sorting:hover,
+#firstPost table.dataTable thead th.sorting_desc:hover,
+#firstPost table.dataTable thead th.sorting_asc:hover {
     text-decoration: underline;
 }
 
@@ -296,26 +327,26 @@ table thead {
     font-size: 14px;
 }
 
-div#firstPost thead th {
+#firstPost thead th {
     border: 2px solid #00bbdb;
 }
 
-div#firstPost tbody td {
+#firstPost tbody td {
     padding: 6px 10px 6px 10px;
 }
 
 
-div#firstPost thead th {
+#firstPost thead th {
     padding: 10px 10px 10px 10px;
     background: none;
 }
 
-div#firstPost table td:first-child,
-div#firstPost table th:first-child{
+#firstPost table td:first-child,
+#firstPost table th:first-child{
     padding-right: 0;
 }
 
-div#firstPost table.dataTable.no-footer {
+#firstPost table.dataTable.no-footer {
     border-bottom: 1px solid #00bbdb;
 }
 
@@ -328,7 +359,7 @@ div#firstPost table.dataTable.no-footer {
     padding: 0.5em 0;
 }
 
-div#firstPost #loveWordsTable .btn {
+#firstPost #loveWordsTable .btn {
     padding: 0;
 }
 
@@ -351,11 +382,11 @@ div.dataTables_wrapper {
     margin-top: 2em;
 }
 
-div#firstPost div.dataTables_paginate a.disabled {
+#firstPost div.dataTables_paginate a.disabled {
     color: transparent !important;
 }
 
-div#firstPost div.dataTables_paginate a.paginate_button {
+#firstPost div.dataTables_paginate a.paginate_button {
     background: none;
     border: none;
 }
@@ -372,33 +403,22 @@ div.social.global {
     margin-bottom: 4em;
 }
 
-div.authors {
-    margin-top: 1em;
-    margin-bottom: 3em;
-}
-div.authors p {
-    color: gray;
-}
-
 div.social.global a {
     color: gray;
 }
 
-div#get-data a {
+#getData a {
     color: #e70074;
 }
 
-div#get-data img {
+#getData img {
     width: 80px;
     float: left;
     margin-right: 30px;
 }
-div#get-data h3 {
+#getData h3 {
     margin-top: 0;
-}
-
-div.authors a {
-    color: #2b2b2b;
+    text-align: left;
 }
 
 div.social .fa-facebook {
@@ -416,18 +436,16 @@ svg {
 }
 
 a.read-on {
-    width: 100%;
-    text-align: center;
-    font-family: 'League Spartan';
+    display: block;
     border-radius: 0;
     padding: 10px 15px;
+    margin: 0 auto;
+    max-width: 300px;
+    font-family: 'League Spartan' !important;
+    text-align: center;
 }
 
-a.read-on i {
-    padding-left: 0.3em;
-}
-
-div#firstPost a.read-on {
+#firstPost a.read-on {
     background-color: #00bbdb;
     color: #ffffff !important;
 }
@@ -442,16 +460,16 @@ div#firstPost a.read-on {
 
 
 @media(min-width:768px) {
-    div#firstPost .tab-content > .tab-pane {
+    #firstPost .tab-content > .tab-pane {
         display: block !important;
         visibility: visible;
         float: left;
         width: 50%;
     }
 
-    div#firstPost .nav-pills.blue>li>a,
-    div#firstPost .nav-pills.blue>li.blue>a:focus,
-    div#firstPost .nav-pills.blue>li>a:hover {
+    #firstPost .nav-pills.blue>li>a,
+    #firstPost .nav-pills.blue>li.blue>a:focus,
+    #firstPost .nav-pills.blue>li>a:hover {
         text-decoration: initial !important;
         cursor: default;
     }
