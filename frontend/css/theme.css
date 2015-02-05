@@ -1,28 +1,15 @@
-.yellow { color: #fdba00; }
-.orange { color: #ed4d17; }
-.cerise { color: #e70074; }
-.purple { color: #6e328f; }
-.blue   { color: #00bbdb; }
-.gray   { color: #bbbbbb; }
+/* Colors */
 
-#firstPost a,
-#firstPost .btn-link,
-#firstPost .btn-link:active,
-#firstPost .btn-link:focus,
-#firstPost .btn-link:hover {
-    color: #00bbdb !important;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    line-height: inherit;
-}
-
-
-#firstPost a:active,
-#firstPost a:focus,
-#firstPost a:hover {
-    text-decoration: underline !important;
-}
+.yellow        { color: #fdba00 !important; border-color: #fdba00 !important; }
+.orange        { color: #ed4d17 !important; border-color: #ed4d17 !important; }
+.cerise        { color: #e70074 !important; border-color: #e70074 !important; }
+.purple        { color: #6e328f !important; border-color: #6e328f !important; }
+.blue          { color: #00bbdb !important; border-color: #00bbdb !important; }
+.btn.yellow:hover, .btn.yellow:active, .btn.yellow:focus { color: #fff !important; background:   #fdba00; }
+.btn.orange:hover, .btn.orange:active, .btn.orange:focus { color: #fff !important; background:   #ed4d17; }
+.btn.cerise:hover, .btn.cerise:active, .btn.cerise:focus { color: #fff !important; background:   #e70074; }
+.btn.purple:hover, .btn.purple:active, .btn.purple:focus { color: #fff !important; background:   #6e328f; }
+.btn.blue:hover, .btn.blue:active, .btn.blue:focus       { color: #fff !important; background:   #00bbdb; }
 
 
 /* Typography */
@@ -88,6 +75,12 @@ body {
     font-size: 16px;
 }
 
+@media(max-width: 740px){
+    br {
+        display: none; /* No forced line breaks in smaller sizes */
+    }
+}
+
 
 /* Lists */
 
@@ -96,6 +89,7 @@ ol {
     counter-reset: ol-counter;
     padding: 0;
     margin: 20px 0;
+    line-height: 32px;
 }
 ol li:before {
     content: counter(ol-counter) ".";
@@ -103,20 +97,39 @@ ol li:before {
     display: inline-block;
     width: 24px;
 }
-ol li .btn-link {
-    padding: 3px;
+
+
+/* Links */
+
+a:active,
+a:focus,
+a:hover {
+    text-decoration: underline;
+}
+
+a,
+.btn {
+    color: #00bbdb !important;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
 }
 
 
 /* Buttons */
 
 .btn {
-    white-space: normal;
-    text-align: left;
+    text-decoration: none !important;
 }
-
-.btn img {
-    width: 30px;
+.btn-default {
+    background: none;
+    border-radius: 0px;
+    border: 2px solid black;
+    box-shadow: none;
+    text-shadow: none;
+    font-family: "League Spartan";
+    padding: 10px 20px;
 }
 
 
@@ -164,10 +177,8 @@ header .sine     { right: 110px; top: 20px; }
     header img {
         width: 10%;
     }
-    header .intro br {
-        display: none; /* No line break in smaller sizes */
-    }
 }
+
 
 /* Footer */
 
@@ -180,8 +191,27 @@ footer p {
 }
 
 footer a {
-    color: #2b2b2b;
+    color: #2b2b2b !important;
 }
+
+
+/* Common elements */
+
+
+.more .btn {
+    margin-top: 20px;
+}
+
+.social {
+    margin-top: 20px;
+}
+
+.social a {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+
 
 
 .vertical-center {
@@ -391,26 +421,9 @@ div.dataTables_wrapper {
     border: none;
 }
 
-div.social {
-    margin-top: 4em;
-}
-
-div.social i{
-    font-size: 1.5em;
-}
-
-div.social.global {
-    margin-bottom: 4em;
-}
-
-div.social.global a {
-    color: gray;
-}
-
 #getData a {
     color: #e70074;
 }
-
 #getData img {
     width: 80px;
     float: left;
@@ -420,11 +433,20 @@ div.social.global a {
     margin-top: 0;
     text-align: left;
 }
-
-div.social .fa-facebook {
-    padding: 0 1em;
+@media(max-width: 740px){
+    #getData {
+        text-align: center;
+    }
+    #getData h3 {
+        text-align: center;
+    }
+    #getData img {
+        width: 50px;
+        float: none;
+        text-align: center;
+        margin: 0px 0px 20px;
+    }
 }
-
 
 text.highcharts-title {
     font-family: 'League Spartan';
@@ -435,20 +457,6 @@ svg {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
 }
 
-a.read-on {
-    display: block;
-    border-radius: 0;
-    padding: 10px 15px;
-    margin: 0 auto;
-    max-width: 300px;
-    font-family: 'League Spartan' !important;
-    text-align: center;
-}
-
-#firstPost a.read-on {
-    background-color: #00bbdb;
-    color: #ffffff !important;
-}
 
 
 .collapsing {
