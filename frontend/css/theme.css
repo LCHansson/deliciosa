@@ -84,6 +84,9 @@ body {
     br {
         display: none; /* No forced line breaks in smaller sizes */
     }
+    .modal br {
+        display: inline; /* Except in song lyrics! */
+    }
 }
 
 
