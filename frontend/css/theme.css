@@ -126,6 +126,7 @@ a,
 
 .btn {
     text-decoration: none !important;
+    position: relative;
 }
 .btn-default {
     background: none;
@@ -134,7 +135,24 @@ a,
     box-shadow: none;
     text-shadow: none;
     font-family: "League Spartan";
-    padding: 10px 20px;
+    padding: 12px 20px 8px;
+}
+.btn.down,
+.btn.up {
+    padding-left: 40px;
+}
+.btn.down:after,
+.btn.up:after {
+    position: absolute;
+    left: 15px;
+    top: 12px;
+    font-size: 80%;
+}
+.btn.down:after {
+    content: "▼";
+}
+.btn.up:after {
+    content: "▲";
 }
 
 
