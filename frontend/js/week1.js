@@ -310,6 +310,16 @@ function week1(){
         modal.find('.modal-body').html("");
         modal.find('.modal-meta').html("");
 
+
+        window.location.hash = "textmodal";
+        window.onhashchange = function() {
+            if (!location.hash){
+                modal.modal('hide');
+            }
+        }
+
+
+
         $.ajax({
             async: false,
             type: "GET",
@@ -325,6 +335,7 @@ function week1(){
                     "Antal kärleksord: " + response.no_love_words +"<br>" +
                     "Glädjepoäng: " + response.happy_score;
                 modal.find('.modal-meta').html(meta);
+                //window.location.hash = "text";
                 return false;
             },
             error: function(jqXHR, textStatus, errorThrown) {
