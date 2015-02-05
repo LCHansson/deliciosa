@@ -1,5 +1,5 @@
-"artist";"year";"song_name";"lyrics";"lyrics_cleaned"
-"Excellence";2002;"Last to Know";"You kept me holding on
+"id";"artist";"year";"song_name";"lyrics";"lyrics_cleaned"
+"2002_1_1";"Excellence";2002;"Last to Know";"You kept me holding on
 I'm always the last to know
 Uhh, yeah
 When I saw you out with her
@@ -84,7 +84,7 @@ You kept me holding on
 Now I can't let you go
 So tell me where we went wrong
 I'm always the last to know"
-"Tom Nordahl";2002;"Blue as Her Angel Eyes";"She's got a special gift
+"2002_1_2";"Tom Nordahl";2002;"Blue as Her Angel Eyes";"She's got a special gift
 She knows how to use
 She's a devil in disguise
 She makes me intoxicated
@@ -167,7 +167,7 @@ Blue as her angel eyes
 Blue as her angel eyes
 Blue as her, blue as her
 Blue as her angel eyes"
-"Barbados";2002;"Världen utanför";"Vi river murarna och närmar oss varann
+"2002_1_3";"Barbados";2002;"Världen utanför";"Vi river murarna och närmar oss varann
 Vi bygger upp nåt nytt som inga andra kan
 Den tomhet som jag kände finns inte längre kvar
 Vi vet vad som än händer och vad vi har
@@ -214,7 +214,7 @@ Ingen ser och hör, i våran värld, nu och här
 Världen utanför är ingenting för oss
 Vad alla andra gör är deras sak, deras värld
 Världen utanför"
-"Camilla Lindén";2002;"Du har rört vid min själ";"Du går ofta förbi
+"2002_1_4";"Camilla Lindén";2002;"Du har rört vid min själ";"Du går ofta förbi
 Försöker fånga din blick
 Du tittar alltid åt, något annat håll
 Hur är svaret jag fick
@@ -277,7 +277,7 @@ Jag vill att vi försvinner i varann
 Förför oss med att drömmen blivit'sann
 Jag vill ge dig mer, ge dig allt du ser
 Du har rört vid min själ"
-"Brandsta City Släckers";2002;"Kom och ta mig";"Jag står här på gatan vi bodde på
+"2002_1_5";"Brandsta City Släckers";2002;"Kom och ta mig";"Jag står här på gatan vi bodde på
 En gång var den hela vår värld
 Men ingenting känns likadant som då
 Inga lyckliga människor bor här
@@ -356,9 +356,9 @@ Kom och ta mig långt härifrån (KLAPP KLAPP)
 Långt härifrån (KLAPP KLAPP), långt härifrån
 Ja, kom och ta mig långt härifrån (KLAPP KLAPP)
 Kom ta mig långt härifrån"
-"Zoë";2002;"Hollywood-do";"";""
-"Richard Sköld";2002;"En värld som alltid brinner";"";""
-"Méndez";2002;"Adrenaline";"Adrenalina...
+"2002_1_6";"Zoë";2002;"Hollywood-do";"";""
+"2002_1_7";"Richard Sköld";2002;"En värld som alltid brinner";"";""
+"2002_1_8";"Méndez";2002;"Adrenaline";"Adrenalina...
 Adrenaline is all you need baby!
 Ooeo
 Ooeo
@@ -483,7 +483,7 @@ Ooeo no need to hide it
 Adenaline is all you need baby!
 (inyección de adrenalina)
 Adrenaline is all you need baby|::."
-"Poets";2002;"What Difference Does It Make?";"It all comes over me
+"2002_2_1";"Poets";2002;"What Difference Does It Make?";"It all comes over me
 I'd really like to see
 Why did you have to go
 I need to know
@@ -598,9 +598,9 @@ That our last goodbye, goodbye
 Goodbye-ye-ye-ye-ye
 Goodbye, goodbye
 Goodbye-ye-ye-ye-ye"
-"Jennifer Newberry";2002;"Ingenting ingenting";"";""
-"Javiera";2002;"No hay nada más";"";""
-"Martin";2002;"Du och jag (i hela världen)";"Föreställ dig solen
+"2002_2_2";"Jennifer Newberry";2002;"Ingenting ingenting";"";""
+"2002_2_3";"Javiera";2002;"No hay nada más";"";""
+"2002_2_4";"Martin";2002;"Du och jag (i hela världen)";"Föreställ dig solen
 Stjärnor och planeter
 Idag kom himlen och tog mig
 Och jag vet vad hon heter
@@ -663,7 +663,7 @@ Du och jag är dom enda i hela världen
 Som älskar varann
 Du och jag är dom enda i hela världen
 Som förstår varann, förstår varann"
-"Ann-Louise Hanson & Molle Holmberg";2002;"Sluta!";"Förlåt fröken Schlager, får jag fråga dig nånting?
+"2002_2_5";"Ann-Louise Hanson & Molle Holmberg";2002;"Sluta!";"Förlåt fröken Schlager, får jag fråga dig nånting?
 Jag hör på dina texter, men jag fattar ingenting
 Vadå finna kärleken bland stjärnor och planeter?
 Måste man ha rymdraket för dina aktiviteter?
@@ -752,8 +752,8 @@ Du är kanske lite ung förstås
 Visst kan det låta lite komplicerat
 Men vi vill bara bugga, festa
 Vi vill bara bugga, festa loss!"
-"Jakob Stadell & Voice Boys";2002;"Ge mig mitt hjärta tillbaka";"";""
-"Afro-Dite";2002;"Never Let It Go";"(Don't ever stop)
+"2002_2_6";"Jakob Stadell & Voice Boys";2002;"Ge mig mitt hjärta tillbaka";"";""
+"2002_2_7";"Afro-Dite";2002;"Never Let It Go";"(Don't ever stop)
 All right, girls
 (Are you shaking?)
 Surrounded by sharp looking eyes
@@ -870,7 +870,7 @@ Surrender to the beat up and down
 And the heat will be shaky, shaky
 (Shaky, shaky, shaky, shaky)
 So never let it go, never stop"
-"Annika Ljungberg";2002;"Sail Away";"You said you'd love me for the rest of our days
+"2002_2_8";"Annika Ljungberg";2002;"Sail Away";"You said you'd love me for the rest of our days
 But time has changed and so have we with it
 Some broken promises and a few mistakes
 I see no reason why you can't be mine
@@ -963,8 +963,8 @@ There's no time to say goodbye
 We got to go before the tide
 Leaves us on the shore
 Like so many times before"
-"Tove Jaarnek";2002;"Back Again";"";""
-"Date";2002;"Det innersta rummet";"I det innersta rummet
+"2002_3_1";"Tove Jaarnek";2002;"Back Again";"";""
+"2002_3_2";"Date";2002;"Det innersta rummet";"I det innersta rummet
 Finns du alltid kvar hos mig
 I en del av mitt hjärta
 Där har jag en bild av dig (i mitt hjärta)
@@ -1075,9 +1075,9 @@ Där vet jag att du finns kvar
 (Finns du kvar hos mig)
 I det innersta rummet
 Där vet jag att du finns kvar"
-"Linda Grip";2002;"You're the Best Thing";"";""
-"Arvingarna";2002;"Ingenting är större än vi";"";""
-"Östen med Resten";2002;"Hon kommer med solsken";"Har tvättat kostymen och skjortan min är strykt
+"2002_3_3";"Linda Grip";2002;"You're the Best Thing";"";""
+"2002_3_4";"Arvingarna";2002;"Ingenting är större än vi";"";""
+"2002_3_5";"Östen med Resten";2002;"Hon kommer med solsken";"Har tvättat kostymen och skjortan min är strykt
 Slipsen knöt jag klar redan i går
 Jag väntar på bussen som stannar nere i byn
 Den brukar komma klockan kvart i två
@@ -1152,8 +1152,8 @@ Hon kommer med solsken till mig
 Jag har väntat hela sommaren på solsken till mig
 Ja, jag har väntat hela sommaren på solsken
 Hon kommer med solsken till mig"
-"Rolf Carlsson";2002;"Tidig är tiden";"";""
-"Sylvia Vrethammar";2002;"Hon är en annan nu";"Visst blev jag glad när du ringde mig
+"2002_3_6";"Rolf Carlsson";2002;"Tidig är tiden";"";""
+"2002_3_7";"Sylvia Vrethammar";2002;"Hon är en annan nu";"Visst blev jag glad när du ringde mig
 Det var roligt att höra din röst
 Jag hade hört att du skilde dig
 Så jag antog att du sökte tröst
@@ -1220,7 +1220,7 @@ O la la la, jag är en kvinna nu
 Ingen säger till mig vad jag kan eller vill eller får
 O la la la, jag är en kvinna
 Inget minne från i går"
-"Hanna & Lina";2002;"Big Time Party";"Big time! Big time!
+"2002_3_8";"Hanna & Lina";2002;"Big Time Party";"Big time! Big time!
 Welcome to a party where everyone's invited
 Mr Memory and Mrs Destiny's excited
 Everybody's here, people everywhere having fun
@@ -1307,8 +1307,8 @@ This is a big time, ramalah, party going on and round!
 A big time, ramalah, party's over everyone!
 (Big time, big time ramalah)
 Big time!"
-"Carina Jaarnek";2002;"Son of a Liar";"";""
-"Solo";2002;"Ge mig himlen för en dag";"You kept me holding on
+"2002_4_1";"Carina Jaarnek";2002;"Son of a Liar";"";""
+"2002_4_2";"Solo";2002;"Ge mig himlen för en dag";"You kept me holding on
 I'm always the last to know
 Uhh, yeah
 When I saw you out with her
@@ -1393,8 +1393,8 @@ You kept me holding on
 Now I can't let you go
 So tell me where we went wrong
 I'm always the last to know"
-"Niklas Andersson";2002;"I Want You";"";""
-"Friends";2002;"The One That You Need";"I, I wonder where you are, ah
+"2002_4_3";"Niklas Andersson";2002;"I Want You";"";""
+"2002_4_4";"Friends";2002;"The One That You Need";"I, I wonder where you are, ah
 Why, why did you have to go?
 I would give anything to you
 The love that we shared was all so true
@@ -1461,8 +1461,8 @@ I'll be the one that you need
 (The one that you need)
 I'll be the one that you need
 I'll be the one"
-"The Honeydrops";2002;"It Takes 2";"";""
-"Kikki, Bettan & Lotta";2002;"Vem é dé du vill ha";"Allt är upp och ner, du är allt jag ser
+"2002_4_5";"The Honeydrops";2002;"It Takes 2";"";""
+"2002_4_6";"Kikki, Bettan & Lotta";2002;"Vem é dé du vill ha";"Allt är upp och ner, du är allt jag ser
 Varför é dé så här när allt jag begär, det är ja eller nej
 Van att ge och ta och få det jag vill ha
 Men vad hjälper det nu, det finns bara du för mig
@@ -1537,7 +1537,7 @@ Vem é dé du vill ha, känner du som jag
 Ingenting kan få mitt hjärta sluta slå
 För dig (för dig) nej nej (nej nej)
 Vem é dé du vill ha?"
-"Jan Johansen";2002;"Sista andetaget";"Om jag inte klarar av
+"2002_4_7";"Jan Johansen";2002;"Sista andetaget";"Om jag inte klarar av
 Det jag tror du kommer svara
 Om du bara ger dig av
 Utan att jag fått förklara
@@ -1602,8 +1602,8 @@ Så finns jag alltid här
 Till det sista andetaget
 Till det sista andetaget
 Det sista andetaget"
-"Fredrik Wännman";2002;"Vackrare nu";"";""
-"Crosstalk";2003;"Stronger";"I belive a little lovin' is stronger than steel
+"2002_4_8";"Fredrik Wännman";2002;"Vackrare nu";"";""
+"2003_1_1";"Crosstalk";2003;"Stronger";"I belive a little lovin' is stronger than steel
 From the moment that I saw you in my dreams
 I didn't know what to do
 Oh, for such a long time I've been going to extremes
@@ -1672,7 +1672,7 @@ I believe a little lovin' is all that we need
 I'm believing in the power of love
 And the love makes me stronger
 Stronger than I've ever been"
-"DeDe Lopez";2003;"Someone, Somewhere, Someday";"Some kind of magic, I don't know what it is
+"2003_1_2";"DeDe Lopez";2003;"Someone, Somewhere, Someday";"Some kind of magic, I don't know what it is
 Feels like there's something going on
 Yesterday's gone, today I can see the sun
 I know there's something going on
@@ -1743,7 +1743,7 @@ And then you came along when I missed a friend
 Now I'm back on my feet, I can dance again
 I'm not looking for someone, somewhere, someday
 (Written by Mattias Holmlund & Peter Åberg)"
-"Méndez";2003;"Carnaval";"Carneval
+"2003_1_3";"Méndez";2003;"Carnaval";"Carneval
 Carneval – All night long
 En mi Corazon (1.)
 Carneval – Can't go wrong
@@ -1806,7 +1806,7 @@ Ahora mi gente – Left to right, side to side (10.)
 Escucha a Mendez (11.)
 This is for real,
 Carneval – All night long,"
-"Alive & Jessie Martins";2003;"Ingen annan";"Bara du och jag
+"2003_1_4";"Alive & Jessie Martins";2003;"Ingen annan";"Bara du och jag
 Kan du inte stanna?
 Bara du och jag
 Vi håller om varandra
@@ -1917,7 +1917,7 @@ Uh uh, ingen annan än du
 Bara du och jag
 Jag vill att du ska vakna med mig
 Jag kryper under täcket med dig"
-"Jill Johnson";2003;"Crazy in Love";"When I talk you like to listen
+"2003_1_5";"Jill Johnson";2003;"Crazy in Love";"When I talk you like to listen
 I really love your kissin'
 baby you're a one of a kind
 And baby did I mention
@@ -2004,7 +2004,7 @@ wishing my dreams would come true
 (Only for you)
 Oh my body's shaking when I think of the things that you do
 refr."
-"Da Buzz";2003;"Stop! Look! Listen!";"(Ah... ah...)
+"2003_1_6";"Da Buzz";2003;"Stop! Look! Listen!";"(Ah... ah...)
 I can't believe the news, oh boy
 (You should have listened when they're talking)
 You're treating me just like a toy
@@ -2119,8 +2119,8 @@ Stop! Look! Listen!
 You don't know what you're missing
 Time's up, time's up
 If you don't listen, look and stop"
-"Markus Landgren";2003;"Television";"";""
-"Pernilla Wahlgren & Jan Johansen";2003;"Let Your Spirit Fly";"Let your spirit fly, we can touch the sky
+"2003_1_7";"Markus Landgren";2003;"Television";"";""
+"2003_1_8";"Pernilla Wahlgren & Jan Johansen";2003;"Let Your Spirit Fly";"Let your spirit fly, we can touch the sky
 I will surrender to your love
 (Jan Johansen)
 Walking down a crowded avenue
@@ -2201,7 +2201,7 @@ Spread your wings like an angel in heaven above
 Let your spirit fly, we can touch the sky
 I will surrender to your love
 I will surrender to your love"
-"Andrés Esteche";2003;"Just Like a Boomerang";"It's only one thing I've got on my mind
+"2003_2_1";"Andrés Esteche";2003;"Just Like a Boomerang";"It's only one thing I've got on my mind
 It's in my veins and it makes me go wild
 Hook up with me if you wanna get high
 And I will give you the ride of your life
@@ -2272,7 +2272,7 @@ Just like a boomerang that's coming back to bang
 Keep the floor, we going high and low
 Feel the rhythm inside, let your body decide
 Dance with me, shake with me, sway with me all through the night"
-"Sanna Nielsen";2003;"Hela världen för mig";"Som om världen utanför
+"2003_2_2";"Sanna Nielsen";2003;"Hela världen för mig";"Som om världen utanför
 Den väntar på mig och gör
 Så att jag vill flyga ut
 en värld som förför
@@ -2369,7 +2369,7 @@ Hela världen för mig
 Där ute så finns
 Där ute så är
 Hela världen för mig"
-"Kerli & Locatellies";2003;"Let's Go";"Todo el mundo
+"2003_2_3";"Kerli & Locatellies";2003;"Let's Go";"Todo el mundo
 Venga con nosotras
 Let's go
 Feel the rhythm, get on your feet and dance
@@ -2504,8 +2504,8 @@ Let's go party, we want to make a mess
 Save the rainy days, and the sun will shine, aha
 (Yeah)
 Tell the world that I'm on the line"
-"Pandora";2003;"You";"";""
-"Brandsta City Släckers";2003;"15 minuter";"(Jag är ledsen att säga det, men den som åker ut är...)
+"2003_2_4";"Pandora";2003;"You";"";""
+"2003_2_5";"Brandsta City Släckers";2003;"15 minuter";"(Jag är ledsen att säga det, men den som åker ut är...)
 (Och på den sista lappen läser jag...)
 15 minuter
 15 minuter
@@ -2606,7 +2606,7 @@ Plötsligt har timglaset runnit ut
 Aahh, era 15 minuter är slut
 Snart är allting som förut
 Era 15 minuter är slut"
-"Fame";2003;"Give Me Your Love";"Hoohooh, hoohooh, hoohooh
+"2003_2_6";"Fame";2003;"Give Me Your Love";"Hoohooh, hoohooh, hoohooh
 Haha, haha
 Give me your love
 Oh, I can be the one you love forever
@@ -2685,7 +2685,7 @@ Give me your love, give me all of your love
 When the morning comes (Morning comes)
 I've waited tonight and it feels so right
 Give me your love"
-"Aleena";2003;"Better Believe It";"(You better believe it)
+"2003_2_7";"Aleena";2003;"Better Believe It";"(You better believe it)
 I'm divided into pieces
 The other half of me wants out
 Still a part of me, just don't wanna see,
@@ -2778,7 +2778,7 @@ When it's bringing me down (It's bringing me Down)
 Yeah, down
 You better believe it
 (You better believe it)"
-"Alcazar";2003;"Not a Sinner, Nor a Saint";"Aaaaah
+"2003_2_8";"Alcazar";2003;"Not a Sinner, Nor a Saint";"Aaaaah
 Aaaaaahhhh
 Tell me your destination
 Could need some inspiration
@@ -2873,7 +2873,7 @@ You never gonna break my heart I ain't
 Gonna let it happen no
 Am I forgiven
 Confessions are made in the name of myself"
-"Barbados";2003;"Bye, Bye";"You make me feel lika a UFO
+"2003_3_1";"Barbados";2003;"Bye, Bye";"You make me feel lika a UFO
 This time I've had it all
 I will take no more
 I'm better off alone
@@ -3014,7 +3014,7 @@ not a single day to late
 Bye Bye
 Bye Bye
 Bye Bye"
-"Shanna Smith";2003;"Tonight's the Night";"I don't know, what's happening to me
+"2003_3_2";"Shanna Smith";2003;"Tonight's the Night";"I don't know, what's happening to me
 All I know, is that I want you around me
 Nothing's holding me back, from you tonight
 Watch the sun, as the night fills the sky
@@ -3075,7 +3075,7 @@ And I've given it all I can, and you hold me off so tender
 Ohh, I love you more tonight
 (Tonight's the night)
 (Tonight's the night)"
-"Nanne Grönvall";2003;"Evig kärlek";"Huset har stått o förfallit här som en frusen tår
+"2003_3_3";"Nanne Grönvall";2003;"Evig kärlek";"Huset har stått o förfallit här som en frusen tår
 Har vandrat omkring här i 300 dötrista, långa år
 Det har varit ensamt o likgiltigt
 men inte nu, nej, nej
@@ -3150,7 +3150,7 @@ All din närhet, Evig Kärlek
 Åh, jag ber dig
 Så underbart
 Evig Kärlek"
-"Sarek";2003;"Genom eld och vatten";"Jag har inte silver och inte guld
+"2003_3_4";"Sarek";2003;"Genom eld och vatten";"Jag har inte silver och inte guld
 Inget du kan få
 Det jag äger ligger blottat för din syn
 Mina händer är tomma men hjärtat är fullt
@@ -3211,7 +3211,7 @@ Jag ska följa dig genom eld och vatten
 Över land och hav
 Genom tid och rum ja alla mina dagar ska du få
 Genom tid och rum ja alla mina dagar ska du få"
-"Sofia Källgren & Robert Wells";2003;"My Love";"I wash my mind out in the summer rain
+"2003_3_5";"Sofia Källgren & Robert Wells";2003;"My Love";"I wash my mind out in the summer rain
 And feel a breeze touching my soul
 When I'm not with him then I understand
 I'm but half without his hand to hold
@@ -3270,7 +3270,7 @@ Ah, ah, ah, ah, ah
 Promise once and again
 My love will go on
 My love will go on with you near my love"
-"Liverpool";2003;"Love Is All";"She said there's so much beauty
+"2003_3_6";"Liverpool";2003;"Love Is All";"She said there's so much beauty
 There is a heaven in your mind
 And in your heart you hold the key
 Still you may never find it
@@ -3345,7 +3345,7 @@ Love is all, you can see the magic of this world
 Love is all
 Makes you feel better, so much better,
 So much better"
-"Shirley Clamp";2003;"Mr. Memory";"Did you think you'd stop my heart the day you said goodbye?
+"2003_3_7";"Shirley Clamp";2003;"Mr. Memory";"Did you think you'd stop my heart the day you said goodbye?
 Did you think I'd crumble inside?
 Well I hate to tell you
 But I'm doing just fine
@@ -3408,7 +3408,7 @@ Cause time has come to give my very last goodbye
 I'm running out of tears
 I've been facing all my fears
 Mr. Memory, you and me are history"
-"Style";2003;"Stay the Night";"It's getting late
+"2003_3_8";"Style";2003;"Stay the Night";"It's getting late
 But I don't want you to go
 Wanna see you in
 The mornings afterglow
@@ -3513,7 +3513,7 @@ We can make it together
 Stay the night
 (Stay the night)
 (Stay the night)"
-"Sahlene";2003;"We're Unbreakable";"I believe in life and I believe
+"2003_4_1";"Sahlene";2003;"We're Unbreakable";"I believe in life and I believe
 My destination is a choice I make
 And I've learned to keep
 My cool before I let imagination
@@ -3572,8 +3572,8 @@ You've opened my heart and set me free
 Now everything is in the way
 You always bring me up again now
 Chorus"
-"Fernando Brito";2003;"No dudes en llamarme";"";""
-"Bubbles";2003;"TKO (Knock You Out)";"Knock you out, down to the floor
+"2003_4_2";"Fernando Brito";2003;"No dudes en llamarme";"";""
+"2003_4_3";"Bubbles";2003;"TKO (Knock You Out)";"Knock you out, down to the floor
 DJ's gonna hit it get ready for more
 Knock you out, out of control
 This beat is gonna take you to a T.(T) K.(K) O
@@ -3644,7 +3644,7 @@ Knock you out, down to the floor
 DJ's gonna hit it get ready for more
 Knock you out, out of control
 This beat is gonna take you to a T. K. O"
-"Maarja";2003;"He Is Always On My Mind";"Here I stand by your side
+"2003_4_4";"Maarja";2003;"He Is Always On My Mind";"Here I stand by your side
 It's been a while since we've talked about the future
 I can't lie, it's how I feel
 There's only so much love for me to give
@@ -3693,7 +3693,7 @@ Chorus
 Now we're standing at the edge of the line
 And I will miss him for the rest of my life
 Chorus"
-"Östen med Resten";2003;"Maria";"Till vår lilla by kom Maria där tiden stått still alla år
+"2003_4_5";"Östen med Resten";2003;"Maria";"Till vår lilla by kom Maria där tiden stått still alla år
 På Konsum möttes fruarna med papiljotter och sjal om sitt hår
 Och utanför satt vi på bänken satt och ljög och fick tiden att gå
 Kanske var vi ingen vacker syn men det var ändå ingen som såg
@@ -3740,7 +3740,7 @@ Maaaria, ja tänk om vi vetat att en kvinna kunde väcka känslor så heta
 Åh Maria, vad gjorde du med oss
 Du kom en dag och våran stad blev aldrig mer som den var
 Du rörde oss, förförde oss och sen så gav du dig av"
-"Lina Hedlund";2003;"Nothing Can Stop Me";"Working overtime each day, at Sally's roadcafé
+"2003_4_6";"Lina Hedlund";2003;"Nothing Can Stop Me";"Working overtime each day, at Sally's roadcafé
 Got a smile and look real nice, noone tips a tired face
 Realize there's more to life, the wide world out there to see
 So I packed my plastic bag, I'm off now breaking free
@@ -3815,8 +3815,8 @@ Via Berlin to Venice, to London and Paris
 Nothing can stop me, nothing at all (Oh no)
 Just watch out, here I go
 Go, go"
-"Mikael Erlandsson";2003;"Tills jag mötte dig";"";""
-"Afro-dite";2003;"Aqua Playa";"I'm in a liquid mode, ready to explode
+"2003_4_7";"Mikael Erlandsson";2003;"Tills jag mötte dig";"";""
+"2003_4_8";"Afro-dite";2003;"Aqua Playa";"I'm in a liquid mode, ready to explode
 You can't stop me ma oh ah baby
 I'm a cosmic queen, taking gipsy green
 With an A plus in retro diving
@@ -3907,7 +3907,7 @@ You can't stop me ma oh ah baby
 (Aqua playa, freaking you higher)
 It's your destiny, it's your destiny
 You can't stop me ma oh ah baby"
-"Nina & Kim";2004;"En gång för alla";"En gång för alla, en gång för alla x2
+"2004_1_1";"Nina & Kim";2004;"En gång för alla";"En gång för alla, en gång för alla x2
 Whoa, whoa, whoa whoa
 Så du, okej, du har nog känt att jag försummat dig.
 (du vet, det brinner i dig)
@@ -3976,7 +3976,7 @@ Känslorna svalla, tills du slocknar i min famn.
 Ja jag ska ge dig, allt det där som du vill ha.
 En gång för alla, du och jag.
 Whoa (whoa). En gång för alla, du och jag."
-"Joachim Bergström";2004;"Still Believe";"Well, I guess it wouldn't come as no surprise
+"2004_1_2";"Joachim Bergström";2004;"Still Believe";"Well, I guess it wouldn't come as no surprise
 When my heart's been broken at least a million times
 If I gave it all up for good
 There were times I thought I would but I never could
@@ -4059,7 +4059,7 @@ I still believe
 (Ah ah ah ah)
 In love
 But I still believe in love"
-"Sarek";2004;"Älvorna";"Skymningen sänker sin hand över nejden
+"2004_1_3";"Sarek";2004;"Älvorna";"Skymningen sänker sin hand över nejden
 Vildvittror vaknar där solen går ner
 Älvorna finner sin väg över heden
 Långt bort om allt det som människor ser
@@ -4114,7 +4114,7 @@ La da di da di dam da di dej la di da da da da di di di di di di di
 La da di da di dam da di dej la di da da da da daa da di dam da di dej
 La da di da di dam da
 Di dej la di da da da da di di di di di di di, di di dii"
-"Karl Martindahl";2004;"Love Turns Water Into Wine";"A little luck is here tonight
+"2004_1_4";"Karl Martindahl";2004;"Love Turns Water Into Wine";"A little luck is here tonight
 I can use it
 A little faith is by my side
 To take me through it
@@ -4191,7 +4191,7 @@ Just giving it in
 Love turns water into wine
 Love turns water into wine
 And it tastes like heaven"
-"LaGaylia Frazier";2004;"It's in the Stars";"Oa oa oa
+"2004_1_5";"LaGaylia Frazier";2004;"It's in the Stars";"Oa oa oa
 It's written in the stars
 (Yeah, yeah, yeah)
 It's in the stars
@@ -4308,7 +4308,7 @@ Oa oa oa
 It's written in the stars
 Oa oa oa
 It's written in the stars"
-"Sara Löfgren";2004;"Som stormen";"När alla ljusen brunnit ut
+"2004_1_6";"Sara Löfgren";2004;"Som stormen";"När alla ljusen brunnit ut
 Och drömmarna har tagit'slut
 Var finns du då?
 Jag letar ibland flydda dar
@@ -4411,7 +4411,7 @@ Som vågorna smeker en strand
 Oohh
 Som vågorna smeker en strand
 Och viskar ditt namn"
-"Niklas Andersson";2004;"Tro på mig";"Ännu en dag har gått
+"2004_1_7";"Niklas Andersson";2004;"Tro på mig";"Ännu en dag har gått
 Vardagens sysslor passerat som i dis
 Gick en stund ner till sjön
 Sommarens lekar har frusit till is
@@ -4482,7 +4482,7 @@ Kan du någonsin förstå?
 Att luften som jag andas
 Är drömmen om oss två
 Tro på mig!"
-"Petra Nielsen";2004;"Tango! Tango!";"Hypnotized by the look in your eyes
+"2004_1_8";"Petra Nielsen";2004;"Tango! Tango!";"Hypnotized by the look in your eyes
 Cheek to cheek with our heads held up high
 Sense the rhythm that's beating within
 You're hot, we dance skin to skin
@@ -4571,7 +4571,7 @@ Ta
 Ta- tango!
 Ta
 Come on, let's tango you and I"
-"Fredrik Kempe";2004;"Finally";"I will hold my head up high
+"2004_2_1";"Fredrik Kempe";2004;"Finally";"I will hold my head up high
 I will try to feel the way you're feeling
 I want to open up my heart
 I will take your hand
@@ -4646,7 +4646,7 @@ Is burning from inside
 I know I do ye finally with you
 I know I do ye finally
 I know I do ye finally with you"
-"Baccara";2004;"Soy tu Venus";"Aah
+"2004_2_2";"Baccara";2004;"Soy tu Venus";"Aah
 Aaah-aah-aaah
 Aah
 Aaah-aah-aaah
@@ -4753,7 +4753,7 @@ In the moonlight
 A little disco
 A little salsa
 Can you feel the heat?"
-"Fame";2004;"Vindarna vänder oss";"Jag vet, att vi hade förlorat
+"2004_2_3";"Fame";2004;"Vindarna vänder oss";"Jag vet, att vi hade förlorat
 Vårt allra sista hopp
 Vi kunde inget annat
 När du gick, förvandlades allting
@@ -4842,7 +4842,7 @@ Vindarna vänder
 Vindarna vänder
 Vindarna vänder oss
 Vindarna vänder oss"
-"Jennifer Escola";2004;"You are the Sunshine of My Life";"Words couldn't express what you mean to me
+"2004_2_4";"Jennifer Escola";2004;"You are the Sunshine of My Life";"Words couldn't express what you mean to me
 You are my everything, baby
 A love like this should last forever
 C'mon baby let's stay together
@@ -4941,7 +4941,7 @@ Oh, oh
 Wipe away my tears whenever I'm down
 Oh yeah, oh baby yeah!
 You are the sunshine"
-"Pay TV";2004;"Trendy Discoteque";"Ahh, ahh, ahh, ahh
+"2004_2_5";"Pay TV";2004;"Trendy Discoteque";"Ahh, ahh, ahh, ahh
 We're looking very good
 And having so much fun
 We drink expensive drinks
@@ -5026,7 +5026,7 @@ Trendy discotheque
 Were dancing at the Trendy discotheque
 Trendy discotheque
 Were dancing at the Trendy discotheque"
-"Anne-Lie Rydé";2004;"Säg att du har ångrat dig";"De säger att du lämnat mig
+"2004_2_6";"Anne-Lie Rydé";2004;"Säg att du har ångrat dig";"De säger att du lämnat mig
 Nog har jag försökt att glömma
 Vakna upp och sluta drömma
 Du följer varje steg jag tar
@@ -5089,7 +5089,7 @@ Säg att du har saknat mig
 Lova mig att allting ordnar sig
 (Säg att du har saknat mig)
 Älskling säg att du har ångrat dig"
-"LaRoxx";2004;"(Are U) Ready or Not";"Ready or not
+"2004_2_7";"LaRoxx";2004;"(Are U) Ready or Not";"Ready or not
 We come all over the nation
 Chilly or hot
 Come on join the celebration
@@ -5200,7 +5200,7 @@ Come on join the celebration
 Better stay on standby baby
 Cause we will make you pop, til you drop
 Are you ready or not"
-"E-Type";2004;"Paradise";"""Away,
+"2004_2_8";"E-Type";2004;"Paradise";"""Away,
 Astray but on track to what I think
 Will be the best of times when I'm on my own.
 So if I may, I'll say yes, I am the player
@@ -5253,7 +5253,7 @@ Cause I can feel that my time is now.
 It must be like paradise.
 It must be like paradise.
 """
-"Bubbles";2004;"Blow the Spot";"It's getting hot we blow the spot!
+"2004_3_1";"Bubbles";2004;"Blow the Spot";"It's getting hot we blow the spot!
 Party's getting started, lights are getting low
 Something is about to explode
 Souls are shaken
@@ -5354,7 +5354,7 @@ Bouncing, getting it on to the music
 We blow the spot (we blow the spot)
 BUBBLES making it right while we crusing
 It's getting hot we blow the spot!"
-"Emil Sigfridsson";2004;"Innan mörkret faller";"You kept me holding on
+"2004_3_2";"Emil Sigfridsson";2004;"Innan mörkret faller";"You kept me holding on
 I'm always the last to know
 Uhh, yeah
 When I saw you out with her
@@ -5439,7 +5439,7 @@ You kept me holding on
 Now I can't let you go
 So tell me where we went wrong
 I'm always the last to know"
-"Gladys del Pilar";2004;"Baby I Can't Stop";"Ooooh!
+"2004_3_3";"Gladys del Pilar";2004;"Baby I Can't Stop";"Ooooh!
 Yeah!
 Baby!
 The first time I saw your smile
@@ -5536,7 +5536,7 @@ Then I gotta stop, (stop) stop believing
 The love we have is true
 Baby, it's true
 Baby I can't stop!"
-"Sandra Dahlberg";2004;"Här stannar jag kvar";"Rimfrost på fjällbjörksgren i månljusets klimpfjäll.
+"2004_3_4";"Sandra Dahlberg";2004;"Här stannar jag kvar";"Rimfrost på fjällbjörksgren i månljusets klimpfjäll.
 Här är jag född, här ska jag dö.
 Landskap i vinterskrud med snötyngda vidder.
 Här står min fot på förfäders mark.
@@ -5593,7 +5593,7 @@ Vindarna vänder bort mot nya världar,
 men jag lovar dej här stannar jag kvar.
 Forsarna strömmar fram dit andra färdar
 men jag lovar dej här stannar jag kvar"
-"Itchycoo";2004;"Super Mega Nova";"Now is the time and the place
+"2004_3_5";"Itchycoo";2004;"Super Mega Nova";"Now is the time and the place
 Now I am ready to race the highway near or far
 To become a star
 There's nothing I wouldn't do
@@ -5662,7 +5662,7 @@ I am not just anybody
 I am special not the same as you
 And before I am over
 I'll be a Super Mega Nova"
-"Hanson & Carson & Malmkvist";2004;"C'est la vie";"Tunga moln de sänker sig, som ett täcke över stan
+"2004_3_6";"Hanson & Carson & Malmkvist";2004;"C'est la vie";"Tunga moln de sänker sig, som ett täcke över stan
 Jag vandrar för mig själv på väg, till ja vem vet vad
 Jag är förlorad här, här i min egen värld
 Oh, jag önskar det gick vrida klockan tillbaks
@@ -5737,7 +5737,7 @@ Du tog dina väskor och lämnade stan
 Vad skulle jag göra, allt jag fick höra
 C'est la vie, c'est la vie, c'est la vie
 C'est la vie, c'est la vie, c'est la vie"
-"Autolove";2004;"Bulletproof Heart";"I'm gonna get myself a bulletproof heart
+"2004_3_7";"Autolove";2004;"Bulletproof Heart";"I'm gonna get myself a bulletproof heart
 Covered in armour, you can't take it apart
 Your love found a rebound
 I'm gonna get myself a bulletproof heart
@@ -5804,7 +5804,7 @@ Your love found a rebound
 I'm gonna get myself a bulletproof heart
 Covered in armour, you can't take it apart
 My heartbeat in concrete"
-"Bosson";2004;"Efharisto";"You make me live
+"2004_3_8";"Bosson";2004;"Efharisto";"You make me live
 I wanna say Efharisto
 I wanna write you a song so you'll understand
 All that you see in my eyes and read in my hand
@@ -5881,7 +5881,7 @@ For this everlasting love
 I wanna say Efharisto
 Efharisto
 Efharisto"
-"Lena Philipsson";2004;"Det gör ont";"Och alla omkring dom märker ingenting
+"2004_4_1";"Lena Philipsson";2004;"Det gör ont";"Och alla omkring dom märker ingenting
 Finns de nått mer o säga
 Säg finns det nånting mer
 Jag var väl ingen ängel
@@ -5980,7 +5980,7 @@ Det gör ont, ont så ont så ont
 Dom märker ingeting menmmm
 Det gör ont
 Ont, det gör ont, det gör ont"
-"Anders Borgius";2004;"Just Like Me";"(Over again)
+"2004_4_2";"Anders Borgius";2004;"Just Like Me";"(Over again)
 I never love!
 (Over again)
 (I'm falling again)
@@ -6105,7 +6105,7 @@ Oh no, here I go (Over again)
 Won't stop, can't stop (I'm falling again)
 I always want love that could never be
 But she needs somebody just like me"
-"Lotta Nilsson & Glenn Borgkvist";2004;"Boom bang-a-bang";"Boom bang-a-bang
+"2004_4_3";"Lotta Nilsson & Glenn Borgkvist";2004;"Boom bang-a-bang";"Boom bang-a-bang
 Boom bang-a-bang
 Natt efter natt för lite sömn
 Utan nån mening levt på en lögn
@@ -6216,7 +6216,7 @@ För varje andetag för varje minut
 Vill ha mer
 Ja, ge mig mer
 Boom bang-a-bang"
-"After Dark";2004;"La dolce vita";"Jag sitter ensam när showen är slut
+"2004_4_4";"After Dark";2004;"La dolce vita";"Jag sitter ensam när showen är slut
 Då kommer känslan tillbaks
 Går ut i natten och himlen är blå
 Som den kan va After Dark
@@ -6301,7 +6301,7 @@ Ja, jag vill leva la dolce vita, (ooh)
 Ge mig glitter och glamour
 Här där verkligheten bor
 Dolce vita mon amour"
-"Pandora";2004;"Runaway";"(Mm, yeah)
+"2004_4_5";"Pandora";2004;"Runaway";"(Mm, yeah)
 I've been down, I've been hurt
 I've been lost, I've been weak
 My emotions have been out of reach
@@ -6402,7 +6402,7 @@ I can feel for the first time
 I'm gonna run run runaway
 I can feel for the first time
 I'm gonna run run run away"
-"Fre";2004;"Äntligen";"Hör dig runt omkring, men allting har sin tid
+"2004_4_6";"Fre";2004;"Äntligen";"Hör dig runt omkring, men allting har sin tid
 min längtan växer mer och mer
 Ibland känns det tomt, ibland har jag ont
 Jag undrar var du e
@@ -6481,7 +6481,7 @@ Men nu plötsligt står du här
 Det tog mig en evighet å finna dig
 Men den tiden var, den tiden var du värd
 Äntligen så finns du här (X3)"
-"Shirley Clamp";2004;"Min kärlek";"Minns att någon sagt till mig
+"2004_4_7";"Shirley Clamp";2004;"Min kärlek";"Minns att någon sagt till mig
 Så gå dit hjärtat leder dig
 Sätt din tro till gudarna
 Som styr vad som händer
@@ -6574,7 +6574,7 @@ Min kärlek till dig
 Min kärlek till dig
 Min kärlek till dig
 (Min kärlek, min kärlek)"
-"Andrés Esteche";2004;"Olé olé";"Go go go go
+"2004_4_8";"Andrés Esteche";2004;"Olé olé";"Go go go go
 Go go go go
 I'm feeling hot today
 I'm gonna make you sway
@@ -6651,7 +6651,7 @@ All around the world every boy and girl
 Raise your hands and say Olé Olé
 All around the world every boy and girl
 Raise your hands and say Olé Olé"
-"Alcazar";2005;"Alcastar";"Ahhhhh... Ohh
+"2005_1_1";"Alcazar";2005;"Alcastar";"Ahhhhh... Ohh
 You can be an alcastar
 We're the VIP, everything's for free
 It's a life filled with love and emotion
@@ -6734,7 +6734,7 @@ The place to be, our universe
 See the stars where love comes first
 Now or never, you can be an alcastar
 You can be an alcastar!"
-"Cecilia Vennersten";2005;"Var mig nära";"Din resa var så lång
+"2005_1_2";"Cecilia Vennersten";2005;"Var mig nära";"Din resa var så lång
 mot midnattsolens land
 jag älskar dig för evigt.
 När mörkret faller på
@@ -6797,7 +6797,7 @@ Men jag kan känna att i luften där finns du
 den som jag andas just nu
 Kom var mig nära i luften där finns du
 kom var mig nära just nu"
-"Papa Dee";2005;"My no. 1";"My sweet baby
+"2005_1_3";"Papa Dee";2005;"My no. 1";"My sweet baby
 My number one
 And girl that's how ??
 I don't know why
@@ -6920,7 +6920,7 @@ Try, I wanna try
 Yeah
 Try, I wanna try
 'Cause you're my number one"
-"Linda Bengtzing";2005;"Alla flickor";"Alla flickor utom jag!
+"2005_1_4";"Linda Bengtzing";2005;"Alla flickor";"Alla flickor utom jag!
 Han har bakåtslickat hår
 Han tar varje chans han får
 Men jag vet att han har en hemlighet
@@ -7003,7 +7003,7 @@ Och när han går (förbi då stannar trafiken)
 Han ger alla flickor vad de vill ha
 Alla flickor utom jag
 Alla flickor utom jag!"
-"The Wallstones";2005;"Invisible People";"Here she comes, there she goes
+"2005_1_5";"The Wallstones";2005;"Invisible People";"Here she comes, there she goes
 She's the girl no one knows
 One of the invisible people, yeah
 She's got style, so much class
@@ -7096,7 +7096,7 @@ You're just another face in a crowded place
 Where no one can see you
 (No one can see you, no one can see you)
 But me"
-"Pay TV";2005;"Refrain refrain";"We smell
+"2005_1_6";"Pay TV";2005;"Refrain refrain";"We smell
 What will sell
 And we can tell
 That this song is gonna pay off well
@@ -7195,7 +7195,7 @@ With no brain, no brain, no brain, no brain
 Refrain, refrain, refrain, refrain
 With no brain, no brain, no brain, no brain
 Refrain, refrain, refrain, refrain"
-"Nordman";2005;"Ödet var min väg";"Ödet var min väg den tog mig överallt tillbaka till mitt liv
+"2005_1_7";"Nordman";2005;"Ödet var min väg";"Ödet var min väg den tog mig överallt tillbaka till mitt liv
 Och jag har levt mitt liv som ödet styrt mig
 Jag var en vind som drog förbi
 Och jag har burit på, så många lögner
@@ -7270,7 +7270,7 @@ Tillbaka till mitt liv
 Men nu är jag mig själv
 Nu vet jag vad jag vill
 Och jag förstår nu, att mitt liv är till för mig"
-"Shirley Clamp";2005;"Att älska dig";"Du, rör vid mitt inre
+"2005_1_8";"Shirley Clamp";2005;"Att älska dig";"Du, rör vid mitt inre
 Du, du fyller mitt sinne
 En dröm förvandlas till en verklighet
 En värld, som väntar på oss
@@ -7327,7 +7327,7 @@ Att älska dig, den du är
 Du är allt jag nånsin önskat mig
 Varje stund, varje ögonblick får liv igen
 Nu och för alltid här med mig"
-"Fredrik Kempe & Sanna Nielsen";2005;"Du och jag mot världen";"Saknar du mig än
+"2005_2_1";"Fredrik Kempe & Sanna Nielsen";2005;"Du och jag mot världen";"Saknar du mig än
 Eller har du glömt bort vem jag var för länge sen?
 Solen har gått ner
 Men i månens sken så växer längtan efter mer
@@ -7408,7 +7408,7 @@ Det var så för länge sen
 Det kan bli du och jag mot världen här igen
 (Du och jag mot världen här igen)
 Det kan bli du och jag mot världen här igen"
-"Camilla Brinck";2005;"Jenny";"Whooh
+"2005_2_2";"Camilla Brinck";2005;"Jenny";"Whooh
 Ohh ohh
 Jag vet hur det är, det är ett helvete
 Som en sorglig film, som ingen annan ser
@@ -7501,8 +7501,8 @@ Jenny du vet, du räcker till
 Att du är vacker, du är stark
 Åh Jenny du vet att du är bra
 Ohh ohh oh Jenny"
-"Group Avalon";2005;"Big up";"";""
-"Arja Saijonmaa";2005;"Vad du än trodde så trodde du fel";"Foxtrot eller vals
+"2005_2_3";"Group Avalon";2005;"Big up";"";""
+"2005_2_4";"Arja Saijonmaa";2005;"Vad du än trodde så trodde du fel";"Foxtrot eller vals
 Inget tempo alls
 Vilken disharmoni
 Våran kärlek har gått oss förbi
@@ -7603,7 +7603,7 @@ Den här gången så trodde du fel
 Den här gången så trodde du fel
 Vad du än trodde så är det farväl
 Går min väg"
-"Josefin Nilsson";2005;"Med hjärtats egna ord";"Låter dig se
+"2005_2_5";"Josefin Nilsson";2005;"Med hjärtats egna ord";"Låter dig se
 Allt det som finns att se
 Du vet en väg, till mitt innersta rum
 Många farväl
@@ -7662,7 +7662,7 @@ Jag vill leva och växa här
 Skriva en framtid ihop
 Med hjärtats egna ord
 Med hjärtats egna ord"
-"Cameron Cartio";2005;"Roma";"Askun gara kata mira etefele me hira hira
+"2005_2_6";"Cameron Cartio";2005;"Roma";"Askun gara kata mira etefele me hira hira
 Mafium asala mira eto ya bara yu ta kasaro
 Eshero maski jafati mahi baroa mana si yato vayo
 Hamona achiro haparo, ha ha
@@ -7733,7 +7733,7 @@ Komsitra inamasina ho ho
 Inamasina ho ho
 Inamasina ho ho
 Roma komiersare, roma komiersare"
-"Bodies Without Organs";2005;"Gone";"Now, now that you're gone
+"2005_2_7";"Bodies Without Organs";2005;"Gone";"Now, now that you're gone
 I see that I was blind
 Now, now that you're gone
 I cry
@@ -7812,7 +7812,7 @@ Now, now that you're gone
 My world's turning to stone
 Now, now that you're gone
 I'm alone"
-"Sanne Salomonsen";2005;"Higher Ground";"Ooohh
+"2005_2_8";"Sanne Salomonsen";2005;"Higher Ground";"Ooohh
 Hey
 Ooohh
 Oh yeah
@@ -7923,7 +7923,7 @@ Forever starting here and now
 Together is the only way
 We can climb
 To a higher ground"
-"NaNa";2005;"Wherever You Go";"Yeah
+"2005_3_1";"NaNa";2005;"Wherever You Go";"Yeah
 I was told when I was young
 Some day I would meet someone
 Love would come to anyone
@@ -8026,8 +8026,8 @@ Wherever you are (Yeah)
 Whatever you say (Say) - I will be there anyway
 Wherever you are
 Whatever you say - I will be there anyway"
-"Kwanzaa";2005;"Lovin' Your Feen";"";""
-"Jimmy Jansson";2005;"Vi kan gunga";"Tja la la la la la la
+"2005_3_2";"Kwanzaa";2005;"Lovin' Your Feen";"";""
+"2005_3_3";"Jimmy Jansson";2005;"Vi kan gunga";"Tja la la la la la la
 Tja la la la la la la
 Jag är kung, kung, kung men kanske bara för en dag, woho
 Godmorgon världen säg vad som står på
@@ -8104,7 +8104,7 @@ Vi kan gung, gung, gunga du och jag
 Vi är ung, ung, unga tjalala
 Jag är kung, kung, kung men kanske bara för en dag, woho
 Woho, jag är kung"
-"LaGaylia";2005;"Nothing at all";"(Don't leave me, don't you leave me, yeah)
+"2005_3_4";"LaGaylia";2005;"Nothing at all";"(Don't leave me, don't you leave me, yeah)
 How many times must a woman compete
 Before she's falling fair on the ground
 Oh, how it's hurting inside
@@ -8173,9 +8173,9 @@ I have been stranded but I'm holding on
 Now you walk away, you turn away
 And leave me with nothing at all
 Leave me with nothing at all"
-"Josef";2005;"Rain";"";""
-"K2 & Alannah Myles";2005;"We Got It All";"";""
-"Jessica Folcker";2005;"Om natten";"Om natten kommer längtan att somna
+"2005_3_5";"Josef";2005;"Rain";"";""
+"2005_3_6";"K2 & Alannah Myles";2005;"We Got It All";"";""
+"2005_3_7";"Jessica Folcker";2005;"Om natten";"Om natten kommer längtan att somna
 (Aaahh)
 Dimman sänker sig ner
 När vi närmar oss varann
@@ -8266,7 +8266,7 @@ Om natten kommer känslan tillbaks till mig
 Om natten kommer rädslan att mista dig
 Om natten kommer ängslan att vakna
 När saknaden kväver mig"
-"Martin Stenmarck";2005;"Las Vegas";"I've got a room here at the Mandalay bay
+"2005_3_8";"Martin Stenmarck";2005;"Las Vegas";"I've got a room here at the Mandalay bay
 I'll take a shower then I'm on my way
 I'll bring a friend if someone picks a fight
 Here in Las Vegas tonight
@@ -8375,7 +8375,7 @@ In Las Vegas
 Oh oh oh
 You better hold on tight
 Here in Las Vegas tonight"
-"Anne-Lie Rydé";2005;"Så nära";"Det händer äntligen idag
+"2005_4_1";"Anne-Lie Rydé";2005;"Så nära";"Det händer äntligen idag
 Livet väntar här och nu
 Jag har allt och allt är du
 Jag känner varje andetag
@@ -8456,7 +8456,7 @@ Säg att du vill och säg att jag får
 Långsamma lekar i natten med dig
 Stanna här så nära, nära
 Stanna här så nära, nära mig"
-"B-Boys International & Paul M";2005;"One Step Closer";"One step closer before the sun rise
+"2005_4_2";"B-Boys International & Paul M";2005;"One Step Closer";"One step closer before the sun rise
 Ya, ya remain say you hypnotized
 I used to be a player, but now I'm not sure
 Shake me up, baby
@@ -8619,7 +8619,7 @@ One step closer to you
 Every minute we share
 Is taking me there
 (One step closer)"
-"Mathias Holmgren";2005;"Långt bort om tid och rum";"Eldar tänds och eldar släcks inatt
+"2005_4_3";"Mathias Holmgren";2005;"Långt bort om tid och rum";"Eldar tänds och eldar släcks inatt
 Och vinner nån förlorar nästan allt
 Men vi är ett du och jag, vi ger och tar
 Och ingen kan ta ifrån oss det vi har
@@ -8698,7 +8698,7 @@ Bara ha varandra, vi är
 Långt bortom tid och rum
 För oss och för ingen annan
 Långt bortom tid och rum"
-"Rickard Engfors & Katarina Fallholm";2005;"Ready For Me";"I can be a man
+"2005_4_4";"Rickard Engfors & Katarina Fallholm";2005;"Ready For Me";"I can be a man
 Believe me 'cause I am
 The best you've ever had
 The best of all the bad
@@ -8809,7 +8809,7 @@ Be ready for me
 Ready for me
 Ready for me
 Are you ready, ready for me?"
-"Date";2005;"Hörde änglarna viska ditt namn";"Jag hörde änglarna viska ditt namn
+"2005_4_5";"Date";2005;"Hörde änglarna viska ditt namn";"Jag hörde änglarna viska ditt namn
 Jag trodde allting var så enkelt för mig
 Alla känslor höll jag inom mig själv
 Jag levde dag för dag
@@ -8864,7 +8864,7 @@ Alla mina hämningar försvann
 Jag föddes på nytt, där i din famn
 Jag hörde änglarna viska ditt namn
 Jag hörde änglarna viska ditt namn"
-"Nanne Grönvall";2005;"Håll om mig";"Att vår värld behöver ha
+"2005_4_6";"Nanne Grönvall";2005;"Håll om mig";"Att vår värld behöver ha
 Mera kärlek varje dag
 Det vet både jag och du
 Låt oss börja här och nu
@@ -8973,7 +8973,7 @@ Wouh, kom och håll om mig
 Släpp inte taget om mig
 Och jag vill ha dig
 Kom och håll om mig nu"
-"Caroline Wennergren";2005;"A Different Kind of Love";"Love in the twenty first century
+"2005_4_7";"Caroline Wennergren";2005;"A Different Kind of Love";"Love in the twenty first century
 People can be what they wanna be
 Anyway you want it (simple, exotic)
 Anyway you want it (do as you please)
@@ -9050,7 +9050,7 @@ A different kind of love
 One that gives me what I want
 I'm dying to find
 A different kind of love"
-"Katrina & The Nameless";2005;"As If Tomorrow Will Never Come";"Oh yeah
+"2005_4_8";"Katrina & The Nameless";2005;"As If Tomorrow Will Never Come";"Oh yeah
 Wow
 Are you ready to rock, ready to rock 'n' roll?
 Do you wanna have fun, are you ready to lose control?
@@ -9131,8 +9131,8 @@ Why bother whether it's right or wrong?
 Pretend this night is the only one
 As if tomorrow will never come
 As if tomorrow will never come"
-"Simone Moreno";2006;"Aiayeh (The Music of the Samba)";"";""
-"Electric Banana Band";2006;"Kameleont";"Jag är en sorts kameleont
+"2006_1_1";"Simone Moreno";2006;"Aiayeh (The Music of the Samba)";"";""
+"2006_1_2";"Electric Banana Band";2006;"Kameleont";"Jag är en sorts kameleont
 Jag vet ej vad jag vill
 Först blir jag röd sen blir jag blå
 Jag kan ej sitta still
@@ -9245,7 +9245,7 @@ En blandning av kamel och dront
 (Kamel och dront)
 Jag är en sorts kameleont
 En drontkamel eller nåt sånt"
-"Anna Sahlene";2006;"This Woman";"This morning she woke up and found
+"2006_1_3";"Anna Sahlene";2006;"This Woman";"This morning she woke up and found
 All of the thousand tears that she had cried
 A million times, they all had dried
 The moment she got out of bed
@@ -9342,7 +9342,7 @@ That she's worth so much more
 This woman
 This woman's gonna rise
 Yeah"
-"Magnus Bäcklund";2006;"The Name of Love";"Like a gentling breeze
+"2006_1_4";"Magnus Bäcklund";2006;"The Name of Love";"Like a gentling breeze
 From the wild and roman sea
 You caress my hand
 My conviction is so clear
@@ -9433,7 +9433,7 @@ Ohh, in the name of love
 ('Til the end of days)
 (You're the only one in my life)
 I'm shouting out loud in the name of love"
-"Linda Bengtzing";2006;"Jag ljuger så bra";"Jag har allt jag vill ha
+"2006_1_5";"Linda Bengtzing";2006;"Jag ljuger så bra";"Jag har allt jag vill ha
 Det är klart jag mår bra
 Som jag sa, när du ringde idag
 Jag ljuger så bra
@@ -9532,7 +9532,7 @@ Så bättre kan ingenting va
 Jag har allt jag vill ha
 Som jag sa, när du ringde idag
 Åh åh, jag ljuger så, ja jag ljuger så bra"
-"Pandang";2006;"Kuddkrig";"Ända sen jag tappa första tanden
+"2006_1_6";"Pandang";2006;"Kuddkrig";"Ända sen jag tappa första tanden
 I gungan hos dagismamman
 Ville jag va speciell och inte som de andra barnen
 Jag hade säkert byggt tiotusen sandslott
@@ -9679,7 +9679,7 @@ Ung eller gammal struntsamma
 Vi är bundna tillsammans
 Alla bara greppar kuddar och kasta!
 Jag vet!"
-"Hannah Graaf";2006;"Naughty Boy";"(Na na na na na na na)
+"2006_1_7";"Hannah Graaf";2006;"Naughty Boy";"(Na na na na na na na)
 (Na na na na na na)
 (Na na na na na na na)
 (Na na na na na na)
@@ -9798,7 +9798,7 @@ I guarantee that you'll enjoy
 'Cause he's just a naughty boy
 He's just a naughty boy
 A naughty boy"
-"Andreas Johnson";2006;"Sing for Me";"Staring at a photograph
+"2006_1_8";"Andreas Johnson";2006;"Sing for Me";"Staring at a photograph
 Of where we used to be
 When the sky was bright
 And crystal clear
@@ -9905,7 +9905,7 @@ And times to come
 Sing for history and destiny
 Won't you sing for me?
 Sing for me"
-"Magnus Carlsson";2006;"Lev livet!";"Tror du att jag sitter här
+"2006_2_1";"Magnus Carlsson";2006;"Lev livet!";"Tror du att jag sitter här
 Ensam och förgråten
 Du lovar allting jag begär
 Om du blir förlåten
@@ -10002,8 +10002,8 @@ Låt det hända och låt det komma
 Åh, jag vill, jag vill, jag vill
 Kroppen ropar, ropar
 Ropar på mig!"
-"The Elephantz";2006;"Oh Yeah";"";""
-"Sonya (Sonja Aldén)";2006;"Etymon";"Tonight the sky's on fire
+"2006_2_2";"The Elephantz";2006;"Oh Yeah";"";""
+"2006_2_3";"Sonya (Sonja Aldén)";2006;"Etymon";"Tonight the sky's on fire
 It's burning bright
 My soul is flying higher
 Towards the light
@@ -10104,7 +10104,7 @@ Now I know where love comes from
 (Forever and ever)
 Etymon
 Etymon"
-"Östen Med Resten";2006;"Ge mig en kaka till kaffet";"Har ingen fallskärm och dyra vanor
+"2006_2_4";"Östen Med Resten";2006;"Ge mig en kaka till kaffet";"Har ingen fallskärm och dyra vanor
 Men jag gör alltid så gott jag kan
 Jag festar inte med David Beckham
 Jag är en lagom vanlig man
@@ -10229,7 +10229,7 @@ När sommaren är här
 Allt jag begär (allt jag begär)
 Allt jag begär (allt jag begär)
 Ge mig en kaka till kaffet!"
-"Pablo Cepeda";2006;"La chica de la copa";"I'm heated up
+"2006_2_5";"Pablo Cepeda";2006;"La chica de la copa";"I'm heated up
 You've got me spinning and I can't cool down
 Caught me, in your spell
 Lifted up, I'm on a higher ground
@@ -10330,7 +10330,7 @@ But she's mine
 She's mine
 She's mine
 (La chica de la copa)"
-"Kikki Danielsson";2006;"I dag & i morgon";"Du, för mig finns bara du
+"2006_2_6";"Kikki Danielsson";2006;"I dag & i morgon";"Du, för mig finns bara du
 Bara dig som jag ser
 Jag vill bara ha mer och mer
 Jag vet hur det borde va
@@ -10411,7 +10411,7 @@ Idag och imorgon och hela mitt liv
 Det finns inget annat, det finns bara vi
 Och vad som än händer och vart du än går
 Så finns jag där idag och imorgon ändå"
-"Niclas Wahlgren";2006;"En droppe regn";"Såg mot horisonten
+"2006_2_7";"Niclas Wahlgren";2006;"En droppe regn";"Såg mot horisonten
 Och ingenstans nå'n svalk att få
 Människor omkring mig sa vad himmelen är blå
 Under sol som bränner
@@ -10468,7 +10468,7 @@ Som har ändrat allt, och tusenfalt
 En droppe regn
 Står min mark i blom, en rikedom
 Åhh"
-"Velvet";2006;"Mi Amore";"Heey, yeah, heey
+"2006_2_8";"Velvet";2006;"Mi Amore";"Heey, yeah, heey
 Ohh woah oh
 Got the fire, got desire
 Won't fight it any longer
@@ -10595,7 +10595,7 @@ Fly away with me my angel
 From heaven sent
 Amor-amor-amore
 Take my heart, mi amore"
-"BWO";2006;"Temple of Love";"Want love oh oh oh oh
+"2006_3_1";"BWO";2006;"Temple of Love";"Want love oh oh oh oh
 We all need love oh oh oh oh
 We all want love oh oh oh oh
 Get it right in the heat of the night
@@ -10676,7 +10676,7 @@ We all want love oh oh oh oh
 We all need love oh oh oh oh
 We all want love oh oh oh oh
 Get it right in the heat of the night"
-"Jessica Folcker";2006;"When Love's Comin' Back Again";"Hey, yeah
+"2006_3_2";"Jessica Folcker";2006;"When Love's Comin' Back Again";"Hey, yeah
 Life,
 Is nothing but a miracle
 To me it's something mystical
@@ -10749,7 +10749,7 @@ There's nothing for you to do
 There's no greater feeling than
 When love's comin' back again
 When love's comin' back again"
-"Gregor";2006;"Mi Amor";"Du står med ryggen emot nattens rymd
+"2006_3_3";"Gregor";2006;"Mi Amor";"Du står med ryggen emot nattens rymd
 Med horisonten vid ditt bröst
 Vi talar ljuv lust genom vindens hymn
 Så varm, så het
@@ -10834,7 +10834,7 @@ Och mi amor
 I natt ska jag ditt hjärta vinna
 Och ingenting ska hindra denna kärlek, mi amor
 Nej, ingenting ska hindra denna kärlek, mi amor"
-"Jessica Andersson";2006;"Kalla nätter";"I min fantasi
+"2006_3_4";"Jessica Andersson";2006;"Kalla nätter";"I min fantasi
 Går vi närmre och närmre varann
 Allt står still när du viskar mitt namn
 I min fantasi
@@ -10917,7 +10917,7 @@ Till heta nätter nära dig
 Men kylan håller mig kvar
 Kalla nätter längtar jag
 Kalla nätter längtar jag"
-"The Poodles";2006;"Night of Passion";"My heart is screaming out your name
+"2006_3_5";"The Poodles";2006;"Night of Passion";"My heart is screaming out your name
 Night falls, my mind recalls the sound of your hard breathing
 Thoughts of your thousand kisses burning on my skin
 I feel your desire as a moonlight lingers in the sky
@@ -10978,7 +10978,7 @@ One night of passion, one night of hunger
 And my attraction is getting stronger
 I need to feel you, I need to hold you
 I can't deny 'cause my heart is screaming out your name"
-"Elysion";2006;"Golden Star";"La la la la la
+"2006_3_6";"Elysion";2006;"Golden Star";"La la la la la
 La la la la la
 Let the golden star
 Know anywhere you are
@@ -11057,7 +11057,7 @@ Living all your dreams
 All the faith you need
 Anywhere you are
 Find your golden star tonight"
-"Patrik Isaksson";2006;"Faller du så faller jag";"Frosten biter kvar
+"2006_3_7";"Patrik Isaksson";2006;"Faller du så faller jag";"Frosten biter kvar
 Nu när min framtid ter sig ljus
 I landet som jag byggt
 Har du just varit allt utom trygg
@@ -11112,7 +11112,7 @@ Faller du så faller jag
 Faller du så faller jag
 Jag följer dig vart du än går
 För faller du så faller jag"
-"Kayo";2006;"Innan natten är över";"Ensam i mörkret med dig så nära intill
+"2006_3_8";"Kayo";2006;"Innan natten är över";"Ensam i mörkret med dig så nära intill
 Blickar som möter varann, vi vet vad vi vill
 Innan det är för sent
 Kom håll mig nära dig
@@ -11181,7 +11181,7 @@ Att få hålla din kropp emot min
 Bara du och jag
 Innan natten blir till dag
 Innan natten blir till dag"
-"Roger Pontare";2006;"Silverland";"Bortom horisontens rand, finns en väg finns ett land.
+"2006_4_1";"Roger Pontare";2006;"Silverland";"Bortom horisontens rand, finns en väg finns ett land.
 Månen lyser där jag går, silverblank i mitt spår.
 Oooohh, silver i mitt spår, oooohh.
 Isen ligger spegelblank, vilar på havets famn.
@@ -11228,7 +11228,7 @@ Vandra fram, vandra fram, över fruset hav och land.
 Vakande, höjer jag min hand, i ett silverland.
 (Silverland, silverland, ensam i ett silverland.)
 Vakande, höjer jag min hand, i ett silverland."
-"Laila Adéle";2006;"Don't Try To Stop Me";"Hee-hee-yeah-hee-yeah!
+"2006_4_2";"Laila Adéle";2006;"Don't Try To Stop Me";"Hee-hee-yeah-hee-yeah!
 Don't try to stop me!
 Got myself a habit
 Gotta find a way to make it
@@ -11349,7 +11349,7 @@ Oh, don't you try to stop me, baby!
 Hee-hee-yeah-heey!
 Don't try to stop me!
 Bye, bye!"
-"Günther & The & 
+"2006_4_3";"Günther & The & 
 Sunshine Girls";2006;"Like Fire Tonight";"Like fire tonight
 You light up the sky
 You are the power, you heat up my heart
@@ -11455,7 +11455,7 @@ Our love make us fly
 We are like fire
 We are like fire
 We are like fire tonight"
-"Sandra Dahlberg";2006;"Jag tar det jag vill ha";"Jag tar det jag vill ha
+"2006_4_4";"Sandra Dahlberg";2006;"Jag tar det jag vill ha";"Jag tar det jag vill ha
 Inget hindrade dig, du tog allt du kunde för mig
 Jag blev kvar i askan så svag
 Jag var din slav
@@ -11588,7 +11588,7 @@ Ge mig allt
 Jag tar dig här och nu, du ska få se det du
 Jag gör som jag vill
 Jag tar det jag vill ha"
-"Evan";2006;"Under Your Spell";"I remember the days that used to be
+"2006_4_5";"Evan";2006;"Under Your Spell";"I remember the days that used to be
 When we still were we
 Just you and me
 Now you live on your own
@@ -11685,7 +11685,7 @@ I'm not really sure
 The time will tell
 But I miss you like I've never done before
 I'm under your spell"
-"Rednex";2006;"Mama Take Me Home";"- Yeehehee!
+"2006_4_6";"Rednex";2006;"Mama Take Me Home";"- Yeehehee!
 - Hey fellas, come over here!
 - What for? I'm working!
 - You better check this girl out here
@@ -11832,7 +11832,7 @@ So mama, won't you take me home
 We can have a little kiss, right now
 Just to see how it feels, my love
 So mama, won't you take me home"
-"Björn Kjellman";2006;"Älskar du livet";"Säg, den som inte bär en längtan
+"2006_4_7";"Björn Kjellman";2006;"Älskar du livet";"Säg, den som inte bär en längtan
 Gå en väg som ingen har gått
 Fånga sin dag och ge den mening
 Det är dags vi lever nu
@@ -11891,7 +11891,7 @@ Ja, låt oss få leva och rumla en stund
 På jorden, den som är vår
 För älskar du livet så lev det nu med mig
 Ja, älskar du livet så lev det nu med mig"
-"Carola";2006;"Evighet";"Du finns i varje andetag
+"2006_4_8";"Carola";2006;"Evighet";"Du finns i varje andetag
 I varje steg
 Som himlen bär en evighet
 Tiden den står stilla när
@@ -11968,7 +11968,7 @@ Oändlighet
 Långt bortom allt
 I evighet
 Långt bortom allt i evighet"
-"Elin Lanto";2007;"Money";"I want money, money
+"2007_1_1";"Elin Lanto";2007;"Money";"I want money, money
 I want lots of lovely money
 Show me what it takes
 To be a real rich bitch
@@ -12111,7 +12111,7 @@ I want every penny I can
 I want money
 Lots of money
 I want every penny I can get"
-"Andersson & Gibson";2007;"Anything But You";"Hey now, where did it go?
+"2007_1_2";"Andersson & Gibson";2007;"Anything But You";"Hey now, where did it go?
 I think we lost it somewhere down the road
 Hey now, what's going on?
 Let's find our footprints and follow them back
@@ -12182,7 +12182,7 @@ I don't care 'bout anytning but you now, baby
 I don't care about anything but you
 I don't care 'bout anytning but you now, baby
 I don't care 'bout anything but you"
-"Anna Book";2007;"Samba Sambero";"Jag följer ljudet av hjärtats röst
+"2007_1_3";"Anna Book";2007;"Samba Sambero";"Jag följer ljudet av hjärtats röst
 Jag följer nåt inom mig
 För varje slag som mitt hjärta slår
 Så dras jag närmare dig
@@ -12273,8 +12273,8 @@ Samba sambero
 Samba samberio
 En dans för kärlek
 Samba samberio"
-"Addis Black Widow";2007;"Clubbin";"";""
-"Andreas Lundstedt";2007;"Move";"Tell me what you like
+"2007_1_4";"Addis Black Widow";2007;"Clubbin";"";""
+"2007_1_5";"Andreas Lundstedt";2007;"Move";"Tell me what you like
 Tell me how you want it
 Make you satisfied
 We don't have much time
@@ -12423,7 +12423,7 @@ When you move
 When you clap clap
 (Dandy Andy and the funky nuns)
 Now stop"
-"Tommy Nilsson";2007;"Jag tror på människan";"Vi behöver en sång ibland
+"2007_1_6";"Tommy Nilsson";2007;"Jag tror på människan";"Vi behöver en sång ibland
 Som ger oss hopp
 Men alla vägarna vi försökt nu
 Har lett oss bort
@@ -12512,7 +12512,7 @@ Kan vi hålla elden tänd
 Låt oss börja om igen
 Jag tror på människan
 Jag tror på människan"
-"Sofia";2007;"Hypnotized";"I see you looking at me
+"2007_1_7";"Sofia";2007;"Hypnotized";"I see you looking at me
 When I'm moving
 You can't deny that you like
 What you see
@@ -12647,7 +12647,7 @@ Turn it up, turn it up, turn it up
 Won't stop what I'm doing
 I'm ready to dance the night away
 Ready there's nothing in my way"
-"Uno & Irma";2007;"God morgon";"God morgon!
+"2007_1_8";"Uno & Irma";2007;"God morgon";"God morgon!
 Två skuggor som ler
 God morgon!
 Dom tror att ingen ser
@@ -12804,7 +12804,7 @@ Jag svävar hem igen
 Jag hör hur sången går
 (Jag svävar hem igen)
 God morgon!"
-"Regina Lund";2007;"Rainbow Star";"(Tu est parfait exactement comme tu es)
+"2007_2_1";"Regina Lund";2007;"Rainbow Star";"(Tu est parfait exactement comme tu es)
 (Isi calosh u pousise)
 (You're perfect, just the way you are)
 (Tu eres perfecto exactamente como tu eres)
@@ -12909,7 +12909,7 @@ Don't let them change your ways
 And take the smile off your face
 'Cause you are, 'cause you are what you are
 A shining rainbow star"
-"Marie Lindberg";2007;"Trying to Recall";"And you said:
+"2007_2_2";"Marie Lindberg";2007;"Trying to Recall";"And you said:
 I think I know how you're feeling
 And I replied:
 I don't think so at all
@@ -12974,7 +12974,7 @@ When you're sleeping on the couch
 When love becomes sacrificing
 Then I'm not sure it's gonna be
 You and me, anymore"
-"Jimmy Jansson";2007;"Amanda";"Hon är vind, hon är vatten
+"2007_2_3";"Jimmy Jansson";2007;"Amanda";"Hon är vind, hon är vatten
 En sol mitt på natten
 En oas i en öken full med sand
 Hon är himmel, hon är hav
@@ -13065,7 +13065,7 @@ Jag önskar att det bara vore vi
 Oh, Amanda
 Oh, Amanda
 A-Amanda, A-Amanda"
-"Cosmo4";2007;"What's Your Name";"What's your name, baby?
+"2007_2_4";"Cosmo4";2007;"What's Your Name";"What's your name, baby?
 What's your name, babe?
 (Heeey, yeah)
 What's your name, baby?
@@ -13208,7 +13208,7 @@ What's your name, baby?
 What's your name, babe?
 What's your name, baby?
 What's your name, baby?"
-"Lustans Lakejer";2007;"Allt vi en gång trodde på";"(Allt vi en gång trodde på)
+"2007_2_5";"Lustans Lakejer";2007;"Allt vi en gång trodde på";"(Allt vi en gång trodde på)
 De kommer aldrig mer tillbaka
 De kommer aldrig mer igen
 Alla dagar vi förslösat
@@ -13293,7 +13293,7 @@ För nätter som i glädjerus
 Dränkta utav stadens ljus
 De kommer aldrig nånsin mer
 Igen"
-"Jessica Andersson";2007;"Kom";"Yeah eh yeah, ohh
+"2007_2_6";"Jessica Andersson";2007;"Kom";"Yeah eh yeah, ohh
 Du tror att alla kvinnor vill ha dig
 Har nog aldrig fått ett nej
 Vem väljer du ikväll?
@@ -13372,7 +13372,7 @@ Tror jag att du blir besviken
 Om du vill va min man
 Visa vad du kan
 Ja, kom och visa att du är en man"
-"Svante Thuresson & Anne-Lie Rydé";2007;"Första gången";"Nu faller regnet ner här utanför
+"2007_2_7";"Svante Thuresson & Anne-Lie Rydé";2007;"Första gången";"Nu faller regnet ner här utanför
 Nu blåser vinden som om vintern aldrig dör
 En längtan vaknar efter månader i ro
 Att liv får växa, liv får gro
@@ -13419,7 +13419,7 @@ Minns du fåglarna som flyger dit de vill?
 Minns du lyckan första gången?
 Solen sträckte sina händer lite till
 Minnena de tar oss vart vi vill"
-"The Ark";2007;"The Worrying Kind";"Moves, I like to make 'em
+"2007_2_8";"The Ark";2007;"The Worrying Kind";"Moves, I like to make 'em
 Grooves, I like to shake 'em
 Shake 'em from my troublesome mind
 'Cause sometimes you'll find
@@ -13520,7 +13520,7 @@ Yeah, sometimes I'm blind
 I'm just out of my mind
 Baby, I'm the worrying kind
 Ooh, ooh, ooh, oh-yeah"
-"Måns Zelmerlöw";2007;"Cara Mia";"Who's gonna love you
+"2007_3_1";"Måns Zelmerlöw";2007;"Cara Mia";"Who's gonna love you
 Who's gonna take my place
 And stand by your side
 Kiss you and hold you
@@ -13617,7 +13617,7 @@ Oh, cara cara mia
 Can you leave me now
 Cara cara mia
 Can you leave me now"
-"MissMatch";2007;"Drop Dead";"I've got a self destructive act
+"2007_3_2";"MissMatch";2007;"Drop Dead";"I've got a self destructive act
 To keep your sympathies intact
 You've got me hanging on a leash
 Oh, but you are always out of reach
@@ -13718,7 +13718,7 @@ I drop dead
 Even if my tail is still moving
 I can't seem to shake it
 I drop dead!"
-"Magnus Carlsson";2007;"Live Forever";"Aahh
+"2007_3_3";"Magnus Carlsson";2007;"Live Forever";"Aahh
 Aahh
 Aahh, ah
 I will live forever
@@ -13829,7 +13829,7 @@ I'm gonna live forever
 No never forget
 That no one's lost in heaven's
 Eternity"
-"Sheida";2007;"I Mina Drömmar";"Ser mig omkring, nånting har hänt här
+"2007_3_4";"Sheida";2007;"I Mina Drömmar";"Ser mig omkring, nånting har hänt här
 Jag vet inte vad, det är någonting jag känner
 Och när natten blir till dag
 Står verkligheten still ett tag
@@ -13896,7 +13896,7 @@ Vi kan övervinna allt
 Då finns inga tvivel kvar
 I mina drömmar når jag dig, oooh
 I mina drömmar når jag dig"
-"The Attic & Therese";2007;"The Arrival";"Oh, don't you believe?
+"2007_3_5";"The Attic & Therese";2007;"The Arrival";"Oh, don't you believe?
 Yeah
 It's human rights to love someone
 Everybody knows except for you
@@ -13977,7 +13977,7 @@ Sometimes it feels we can't make it alone
 That's when we need the arrival of love
 Don't you believe when you feel the arrival of love?
 Don't you believe when you feel the arrival of love?"
-"Sebastian";2007;"When the Night Comes Falling";"You see me running like I'm out of my mind
+"2007_3_6";"Sebastian";2007;"When the Night Comes Falling";"You see me running like I'm out of my mind
 A cloud of worries staying close behind
 A constant pain of working overtime
 I'm just another face in another line
@@ -14048,7 +14048,7 @@ The night will get you through the day
 As the sun is setting we're forgetting
 Everything will be okey
 Everything will be okey"
-"Sonja Aldén";2007;"För att du finns";"Lätta spår i sanden
+"2007_3_7";"Sonja Aldén";2007;"För att du finns";"Lätta spår i sanden
 Och en vind som smeker ömt
 Jag är så lycklig att jag fann den
 Den lyckan som jag alltid drömt
@@ -14123,7 +14123,7 @@ Du tar min hand och visar vägen
 För att du älskar idag
 För att du älskar som jag
 Som jag"
-"Nanne";2007;"Jag måste kyssa dig";"Jag vill veta vem du kan vara
+"2007_3_8";"Nanne";2007;"Jag måste kyssa dig";"Jag vill veta vem du kan vara
 Kanske är du prinsen för mej
 Så jag har nåt jag måste göra
 Så jag gör det nu
@@ -14194,7 +14194,7 @@ Ja, jag vill och jag ska
 Stå stå still för jag
 Måste kyssa dig
 Måste kyssa dig"
-"Magnus Uggla";2007;"För kung och fosterland";"För kung och fosterland, För kung och fosterland.
+"2007_4_1";"Magnus Uggla";2007;"För kung och fosterland";"För kung och fosterland, För kung och fosterland.
 Vardagens problem sätter par på prov.
 Vissa går i terapi.
 Far till Baravara för att få ro, men så funkar inte vi.
@@ -14245,7 +14245,7 @@ En dag kan hela världen stå i brand, så kör för kung och fosterland.
 Köp mera, spendera så mycket som du kan, För kung och fosterland!
 För kung och fosterland.
 För kung och fosterland."
-"Emilè Azar";2007;"Vi hade nåt";"Du behöver inte svara
+"2007_4_2";"Emilè Azar";2007;"Vi hade nåt";"Du behöver inte svara
 När det inte finns nå't svar
 Eller döljer jag dina känslor
 Om de inte ens finns kvar?
@@ -14324,7 +14324,7 @@ Så säg mig: kan nå't så stort ta slut så fort?
 Ta slut så fort?
 (Vi hade nå't som inga ord kan förklara)
 Ta slut så fort?"
-"Sanna Nielsen";2007;"Vågar du, vågar jag";"Ser du ljuset?
+"2007_4_3";"Sanna Nielsen";2007;"Vågar du, vågar jag";"Ser du ljuset?
 Mörkret skingras nu
 Livet börjar om igen
 Alla drömmar
@@ -14403,7 +14403,7 @@ Jag vill leva här idag
 Vågar du, vågar jag
 Vågar du så vågar jag
 Vågar du så vågar jag"
-"Caroline af Ugglas";2007;"Tror på dig";"Vill ha ett svar
+"2007_4_4";"Caroline af Ugglas";2007;"Tror på dig";"Vill ha ett svar
 Jag vill veta när du är redo
 Men är rädd att förlåta dig
 Så om du älskar mig, som du säger att du gör
@@ -14472,7 +14472,7 @@ Jag ska alltid tro på
 Tror på dig, tror på dig
 Jag ska alltid tro på dig
 Ja, jag ska alltid tro på dig"
-"After Dark";2007;"(Åh) När ni tar saken i egna händer";"(Åh, när ni tar saken i egna händer)
+"2007_4_5";"After Dark";2007;"(Åh) När ni tar saken i egna händer";"(Åh, när ni tar saken i egna händer)
 (Åh, när ni gör som dom på tv gör)
 Martin, en fixarnas man
 Äntligen hemma med borr i sin hand
@@ -14563,7 +14563,7 @@ Upp med nävarna, kör hårt
 Ni ska se att det går
 Det går, det går, det går (det går)
 Ni ska se att det går"
-"Sarah Dawn Finer";2007;"I Remember Love";"I can see it in your eyes
+"2007_4_6";"Sarah Dawn Finer";2007;"I Remember Love";"I can see it in your eyes
 I can see it in your face
 I could feel it when we touched
 It used to mean so much
@@ -14640,7 +14640,7 @@ Yes, I remember, I remember love
 Now I know my heart is breakable
 When we see your face as I hear your voice
 I remember, I remember love"
-"Verona";2007;"La musica";"Ho nel mio cuore
+"2007_4_7";"Verona";2007;"La musica";"Ho nel mio cuore
 -e non so perche'
 questo languore
 -e non so perche'
@@ -14719,7 +14719,7 @@ si dov'e'
 si dov'e'?
 C'e'amore nella musica
 la musica!"
-"Andreas Johnson";2007;"A Little Bit of Love";"We've got to make a move
+"2007_4_8";"Andreas Johnson";2007;"A Little Bit of Love";"We've got to make a move
 Take a chance
 While the night is young
 On sweet romance
@@ -14848,7 +14848,7 @@ And that's just a part of it
 It's all for a little bit of love
 And that's just a part of it
 It's all for a little bit of love"
-"E-Type & The Poodles";2008;"Line of Fire";"Here tonight
+"2008_1_1";"E-Type & The Poodles";2008;"Line of Fire";"Here tonight
 I show you what I believe in
 And all the good in life you know
 I want it all
@@ -14959,7 +14959,7 @@ I am on my way tonight
 I let it shine
 I am on my way tonight
 I let it shine"
-"Face-84";2008;"Alla gamla x";"Det sjungs om evig kärlek, men
+"2008_1_2";"Face-84";2008;"Alla gamla x";"Det sjungs om evig kärlek, men
 Hur många älskar varann än?
 Nej vi gör slut och börjar om
 Det är väl så det ska va?
@@ -15044,7 +15044,7 @@ Jag vill ha en hönsnätsbur
 Med alla gamla x på vinden
 Plocka fram dem då och då
 Och ge dem varsin snäll klapp på kinden"
-"Velvet";2008;"Deja Vû";"I can hear you call my name
+"2008_1_3";"Velvet";2008;"Deja Vû";"I can hear you call my name
 Like a flash from yesterday
 As if you were here beside me
 It's all happening again
@@ -15139,7 +15139,7 @@ We can make it right
 And rewind back in time
 And start over again
 Just like a déjà vu"
-"Brandur";2008;"Lullaby";"So this is it, the final curtain
+"2008_1_4";"Brandur";2008;"Lullaby";"So this is it, the final curtain
 The cold December of our dream
 Where did it go, what ever happened
 To our love?
@@ -15192,7 +15192,7 @@ Is it a lullaby, a song 'bout a butterfly?
 Why do we say goodbye?
 Is it a lullaby, a song 'bout a butterfly?
 Why do we say goodbye?"
-"Michael Michailoff";2008;"That's Love";"It's a symphony of love and faith
+"2008_1_5";"Michael Michailoff";2008;"That's Love";"It's a symphony of love and faith
 And I pray to God I'm not too late to get back
 In your mind
 Is the message that's concealed with it
@@ -15279,7 +15279,7 @@ Wherever I decide to go
 That's only one thing in my soul
 That's only one thing in my soul
 That's love, that's love"
-"Amy Diamond";2008;"Thank You";"I'm out, I'm closing a chapter
+"2008_1_6";"Amy Diamond";2008;"Thank You";"I'm out, I'm closing a chapter
 All in, a world full of rapture
 Caught up, it's time for the show
 Oh baby, baby, baby
@@ -15368,7 +15368,7 @@ Thank you for all that you've done for me
 I know what real love is supposed to be
 Can't waste my time so goodbye
 My baby, baby, baby, thank you"
-"Suzzie Tapper";2008;"Visst finns mirakel";"Det var en spillra av mitt forna jag
+"2008_1_7";"Suzzie Tapper";2008;"Visst finns mirakel";"Det var en spillra av mitt forna jag
 såg inget ljus inte en strimma svag
 en vingklädd fågel som inte ens drömde mer
 en sång av sorger trycktes allt längre ner
@@ -15411,7 +15411,7 @@ Visst finns mirakel, och för mig är det faktiskt du
 i dina kyssar öppnar himlen sig för mig nu
 Visst finns mirakel i din kärlek så stark och sann
 i dina kyssar å i att vi har funnit varann"
-"Christer Sjögren";2008;"I Love Europe";"I'm walking down the street
+"2008_1_8";"Christer Sjögren";2008;"I Love Europe";"I'm walking down the street
 My feet feel like dancing
 (I love Europe)
 The people that I meet
@@ -15510,7 +15510,7 @@ We're a part of one big family
 (We're a part of one big family)
 This is the place for you and me
 We're a part of one big family"
-"Ola";2008;"Love in Stereo";"It's time to break the chain
+"2008_2_1";"Ola";2008;"Love in Stereo";"It's time to break the chain
 To bring the level up
 Beyond the peak of gain
 Higher and higher
@@ -15595,7 +15595,7 @@ Give me total satisfaction
 Cause I gotta have it all
 Whoa-oh-oh-oh
 Whoa-oh-oh-oh"
-"Lasse Lindh";2008;"Du behöver aldrig mer vara rädd";"Vi träffades liksom på chans
+"2008_2_2";"Lasse Lindh";2008;"Du behöver aldrig mer vara rädd";"Vi träffades liksom på chans
 på nåt sätt ramla vi in i varann
 och tänk att något jag alltid trott
 skulle vara så svårt va så lätt
@@ -15668,7 +15668,7 @@ kommer vaka över dig
 genom mörkret jag leder dig
 jag finns i varje steg du tar
 så du behöver aldrig mer vara rädd"
-"The Nicole";2008;"Razborka";"You stupid boy, you walk up to me
+"2008_2_3";"The Nicole";2008;"Razborka";"You stupid boy, you walk up to me
 And you think I'd fall right to your feet
 It's kind of cute in a retarded way
 But it's not enough for you to stay
@@ -15751,7 +15751,7 @@ If you think you're man enough
 Show a woman that you're tough
 I don't want a sissy
 Do the borka, borka, razborka"
-"Alexander Schöld";2008;"Den första svalan";"Sommaren var allt vi fick
+"2008_2_4";"Alexander Schöld";2008;"Den första svalan";"Sommaren var allt vi fick
 nätterna var korta
 vi älskade ett ögonblick
 men sen så var du borta
@@ -15834,7 +15834,7 @@ just idag, så vet jag att du kommer
 och en doft av sommar,
 gör så att jag svävar så lätt
 som svalorna"
-"Rongedal";2008;"Just a Minute";"Uh, uh, uh...
+"2008_2_5";"Rongedal";2008;"Just a Minute";"Uh, uh, uh...
 Didn't know
 Didn't mind
 Living day by day
@@ -15953,7 +15953,7 @@ Time is ticking
 I'm just a minute away
 Time is ticking
 I'm just a minute away from you"
-"Sanna Nielsen";2008;"Empty Room";"Mmm
+"2008_2_6";"Sanna Nielsen";2008;"Empty Room";"Mmm
 Sitting here alone with my memories
 Staring at a picture of you and me
 They say I look fine but if walls could talk
@@ -16028,7 +16028,7 @@ Empty space, lonely days
 My life goes on
 Just like the moon
 Empty room, ohh empty room"
-"Andra generationen";2008;"Kebabpizza Slivovitza";"Vit duk, finporslin
+"2008_2_7";"Andra generationen";2008;"Kebabpizza Slivovitza";"Vit duk, finporslin
 Vem vill ha musik med violin?
 Dyrt vin, finlikör
 Små trianglar med kryddat smör
@@ -16095,7 +16095,7 @@ Kebabpizza, slivovitza
 Bomba, cruisa runt i limousine
 Kebabpizza, slivovitza
 Feta fälgar, formula-bensin"
-"Johnson & Häggkvist";2008;"One Love";"Here in this place I never thought we'd be today
+"2008_2_8";"Johnson & Häggkvist";2008;"One Love";"Here in this place I never thought we'd be today
 After all that we've been through, we've come a long way
 Together, you and I
 Here I will rest my case and let my weakness show
@@ -16186,7 +16186,7 @@ I'm not afraid to put my trust in one love
 That's all I need
 Standing here tonight beside me
 One love, that's all I need"
-"BWO";2008;"Lay Your Love on Me";"I can feel the earth is moving
+"2008_3_1";"BWO";2008;"Lay Your Love on Me";"I can feel the earth is moving
 When the clock strikes twelve it's time to go out
 I can tell the club is grooving
 'Cause you just walked in, you're out and about
@@ -16255,7 +16255,7 @@ We can dance all night with the bourgeoisie
 O-oh, o-oh, lay your love on me
 Take a chance on me, take the liberty
 O-oh, o-oh, lay your love on me"
-"Mickey Huskic";2008;"Izdajice";"Kazu
+"2008_3_2";"Mickey Huskic";2008;"Izdajice";"Kazu
 Da si s drugim otisla
 Nase snove spalila
 Aaaahhh
@@ -16346,7 +16346,7 @@ Samo ti
 Al ti nemogu oprostiti
 Znam da me lazes
 Izdajice"
-"Frida Muranius & Headline";2008;"Upp o hoppa";"Är du redo för
+"2008_3_3";"Frida Muranius & Headline";2008;"Upp o hoppa";"Är du redo för
 Är du redo för
 Är du redo för en svängom?
 Är du redo för
@@ -16503,7 +16503,7 @@ Leva, leva livet nu
 Är du redo för
 Är du redo för
 Leva, leva livet nu"
-"Thérèse Andersson";2008;"When You Need Me";"The one I used to love
+"2008_3_4";"Thérèse Andersson";2008;"When You Need Me";"The one I used to love
 Encountered my best friend
 That was a point in life when love was coming to an end
 I promise not to lie
@@ -16570,7 +16570,7 @@ Love, your beauty makes me blind
 Tear those walls within my mind
 When you need me I'll be there
 When you need me I'll be there"
-"Patrik Isaksson";2008;"Under mitt tunna skinn";"Kom till mig, se min förändring
+"2008_3_5";"Patrik Isaksson";2008;"Under mitt tunna skinn";"Kom till mig, se min förändring
 Jag har trampat upp obruten mark
 Tyst, så tyst, sker min förvandling
 Från en rädd och vilsen pojke till en man
@@ -16637,7 +16637,7 @@ Genom muren du byggt upp
 För jag längtar att ha dig tillbaka
 Under mitt tunna skinn
 Jag längtar att ha dig tillbaka"
-"Caracola";2008;"Smiling in Love";"I, I wonder why
+"2008_3_6";"Caracola";2008;"Smiling in Love";"I, I wonder why
 All my friends at school tell me I'm a fool
 When I'm waiting for you, like I always do
 I'm telling you
@@ -16722,7 +16722,7 @@ Smiling in love, yes I do
 Smiling in love for you
 Smiling in love, yes I do
 'Cause I'm loving you"
-"Ainbusk";2008;"Jag saknar dig ibland";"Du, du gav mig mod
+"2008_3_7";"Ainbusk";2008;"Jag saknar dig ibland";"Du, du gav mig mod
 Att möta gryningen
 Och våga tro
 Och du, du var min vän
@@ -16787,7 +16787,7 @@ Och jag, jag kan ana vart jag går
 Jag följer dina spår
 Det har gått så många år
 Men jag saknar dig ibland"
-"Eskobar";2008;"Hallelujah New World";"There's a new world outside
+"2008_3_8";"Eskobar";2008;"Hallelujah New World";"There's a new world outside
 Your door and you don't
 New world outside your door
 And you don't recognize a thing
@@ -16904,7 +16904,7 @@ With a message of love
 Hallelujah new world
 Now I see the days
 Before these were absurd"
-"Niklas Strömstedt";2008;"För många ord om kärlek";"Hälften kvar
+"2008_4_1";"Niklas Strömstedt";2008;"För många ord om kärlek";"Hälften kvar
 Om du har tur
 Viljan viskar där i sin bur
 Ingen hör
@@ -16977,7 +16977,7 @@ För många ord om kärlek
 För få om det du inte ville se
 För många ord om lycka
 Men ingenting som skulle kunna visa vem du är"
-"Calaisa";2008;"If I Could";"It was to late to try
+"2008_4_2";"Calaisa";2008;"If I Could";"It was to late to try
 You gave it up, you said goodbye
 I was holding your hand when the doctor said
 You just past away
@@ -17048,7 +17048,7 @@ I would bring the sun when the rain falls down
 Stop the world from spinning around
 To be close to you to be close to you
 I would If I could"
-"Daniel Mitsogiannis";2008;"Pame";"What's going on?
+"2008_4_3";"Daniel Mitsogiannis";2008;"Pame";"What's going on?
 I wanna feel you
 We're having fun
 I wanna hold you
@@ -17171,7 +17171,7 @@ Show what you feel
 Show what you feel for me
 (Pame, pame, pame)
 Pame"
-"Linda Bengtzing";2008;"Hur svårt kan det va?";"Jag kan va varm, jag kan va kall
+"2008_4_4";"Linda Bengtzing";2008;"Hur svårt kan det va?";"Jag kan va varm, jag kan va kall
 Jag kan va allt du vill ha
 Hur svårt kan de va?
 Jag kan va under, jag kan va över
@@ -17276,7 +17276,7 @@ Jag kan va din, va värsta hjärtattacken
 Klappa din katt, jag kan göra allt och lite till
 (Här e jag) Se mig, hör mig, rör mig
 Hur svårt kan de va?"
-"Nordman";2008;"I lågornas sken";"Hon fälldes av två unga grannpojkars ord,
+"2008_4_5";"Nordman";2008;"I lågornas sken";"Hon fälldes av två unga grannpojkars ord,
 att hon lustat kring djävulens festbord.
 Hon är blott 17 år och längs vägen dom går,
 blir hon föst, som ett djur under glåpord.
@@ -17359,7 +17359,7 @@ I lågornas sken!
 Har hon gått på vatten som hon sagt,
 har hon lurat döden med sin pakt, wohow!
 I lågornas sken!"
-"Sibel";2008;"That is Where I'll Go";"Even if I could
+"2008_4_6";"Sibel";2008;"That is Where I'll Go";"Even if I could
 I wouldn't leave you crying
 Even if I should
 And there is no use denying
@@ -17418,7 +17418,7 @@ So tell me what you need
 Just what you ask of me
 And that is where I'll go
 And that is where I'll go"
-"Fronda";2008;"Ingen mår så bra som jag";"Ingen mår så bra som jag
+"2008_4_7";"Fronda";2008;"Ingen mår så bra som jag";"Ingen mår så bra som jag
 Så borde hela livet va'
 Yeah, yeah, yeah, yeah-eh
 Har du sett kalendern när den fyller hela varda'n?
@@ -17525,7 +17525,7 @@ Så jag har nästan inga krav
 Så borde hela livet va'
 Yeah, yeah, yeah, yeah-eh
 Yeah, yeah, yeah, yeah-eh"
-"Charlotte Perrelli";2008;"Hero";"Everything has a beginning
+"2008_4_8";"Charlotte Perrelli";2008;"Hero";"Everything has a beginning
 Everything comes to an end
 Take it or leave it
 You'd better believe it
@@ -17638,7 +17638,7 @@ Oh-oh
 Out of the light
 Like a star, like a hero
 Love will survive"
-"Nina Söderquist";2009;"Tick Tock";"Tick tick tock, tick tock, that's the sound of my bomb
+"2009_1_1";"Nina Söderquist";2009;"Tick Tock";"Tick tick tock, tick tock, that's the sound of my bomb
 Tick tock, tick, tick tock, don't stop.
 You have been changin' me
 For all eternity
@@ -17761,7 +17761,7 @@ I can't help it, it's what I do, yeah
 Don't wait, just go
 Out of control
 I will explode"
-"Jonathan Fagerlund";2009;"Welcome to My Life";"I've been down a winding road.
+"2009_1_2";"Jonathan Fagerlund";2009;"Welcome to My Life";"I've been down a winding road.
 There were days I felt like letting go.
 But you've only got one life.
 I'm gonna give it all this time.
@@ -17868,7 +17868,7 @@ Welcome to my life.
 Welcome to my life.
 (oh-woah, oh-woah, oh-woah, oh-woah)
 Welcome to my life."
-"Shirley Clamp";2009;"Med hjärtat fyllt av ljus";"Hon som var jag
+"2009_1_3";"Shirley Clamp";2009;"Med hjärtat fyllt av ljus";"Hon som var jag
 Letade efter lyckan
 Så ensam till slut
 Såg kärlekens vin bli vatten
@@ -17953,7 +17953,7 @@ Nu står jag mitt i mitt liv
 Förundrad sen du kom hit
 Med hjärtat fyllt av ljus, ohh
 Med hjärtat fyllt av ljus"
-"Scotts";2009;"Jag tror på oss";"Men hela stan i natt är full av massa rödljus
+"2009_1_4";"Scotts";2009;"Jag tror på oss";"Men hela stan i natt är full av massa rödljus
 Du vet jag tror på oss
 Hitta numret som du gav mig
 Ringde från en taxi hem till dig
@@ -18056,7 +18056,7 @@ Du vet jag tror på oss
 Hitta numret som du gav mig
 Är på väg i taxi
 Jag tror på oss"
-"Emilia";2009;"You're My World";"My lips, on your lips
+"2009_1_5";"Emilia";2009;"You're My World";"My lips, on your lips
 Your body heat lingers on me
 Oh, what a night
 God am I obsessed with this man
@@ -18161,7 +18161,7 @@ You're my world
 My only cause for being
 My heart, my soul, my reason
 You're my world"
-"Alcazar";2009;"Stay the Night";"I can feel your force right across the floor.
+"2009_1_6";"Alcazar";2009;"Stay the Night";"I can feel your force right across the floor.
 Every look I take makes me want you more.
 Now we're all alone and the time is right.
 So don't even try telling me goodbye.
@@ -18270,7 +18270,7 @@ Stay the night.
 If you stay the night
 I can be your guide to paradise.
 Baby, what a shame not a cab in sight."
-"Caroline af Ugglas";2009;"Snälla, snälla";"Snälla, snälla, snälla, snälla
+"2009_1_7";"Caroline af Ugglas";2009;"Snälla, snälla";"Snälla, snälla, snälla, snälla
 Jag ber dig, snälla, snälla, snälla, snälla
 Stanna kvar hos mig
 För jag behöver ju dig
@@ -18319,7 +18319,7 @@ Ja, jag vet - ja, jag vet du kommer ge
 Allt du gav, ja - ja, allt du gav till mig
 Ja, allt det där jag fick till en annan kvinna
 Och inte till mig"
-"Marie Serneholt";2009;"Disconnect Me";"The battery runs on reserve
+"2009_1_8";"Marie Serneholt";2009;"Disconnect Me";"The battery runs on reserve
 It's getting all over my nerves
 The level that was once on green
 Is no where to be seen
@@ -18434,7 +18434,7 @@ I can't take it anymore
 Disconnect me,
 From your heartbeats I'm
 On overload"
-"Lili & Susie";2009;"Show Me Heaven";"I thought I knew it all
+"2009_2_1";"Lili & Susie";2009;"Show Me Heaven";"I thought I knew it all
 But I never felt like this before
 You open up that door
 Now my heart's screaming for more
@@ -18563,7 +18563,7 @@ Gimme, gimme
 All that I'm dreaming of
 Show me heaven
 Show me heaven now"
-"Lasse Lindh";2009;"Jag ska slåss i dina kvarter!";"I dag ska bli dagen när jag fångar dig.
+"2009_2_2";"Lasse Lindh";2009;"Jag ska slåss i dina kvarter!";"I dag ska bli dagen när jag fångar dig.
 I dag ska bli dagen när du, du blir min.
 Du tror ingen ser men jag har sett dig och vet att du längtar bort
 och jag må vara luggsliten och skev men aldrig fel.
@@ -18626,8 +18626,8 @@ så alla vet.
 Jag ska slåss i dina kvarter,
 dansa gatan upp gatan ner,
 jag ska bygga oss en sol i luften och dina drömmar ska jag bo."
-"Jennifer Brown";2009;"Never Been Here Before";"";""
-"H.E.A.T.";2009;"1000 Miles";"She's been sleeping in the subway, walking on the highway
+"2009_2_3";"Jennifer Brown";2009;"Never Been Here Before";"";""
+"2009_2_4";"H.E.A.T.";2009;"1000 Miles";"She's been sleeping in the subway, walking on the highway
 Counting all of the stars at night
 She's running to a dead-end
 Broken heart it won't mend
@@ -18704,7 +18704,7 @@ No matter where you are
 'Cause I know you can make it
 Why you gotta break it, baby
 'Cause I'd walk, a, thousand miles"
-"Markoolio";2009;"Kärlekssång från mig";"Du e för söt, varje gång som du fyller mig med smicker
+"2009_2_5";"Markoolio";2009;"Kärlekssång från mig";"Du e för söt, varje gång som du fyller mig med smicker
 Att jag rappar ballt, kan sjunga allt, varje tänkbar stil
 Men älskling, den sång som du helst vill höra
 Råkar vara just den jag inte kan göra
@@ -18751,7 +18751,7 @@ Vänta dig ingen kärlekssång från mig
 Någon smäktande ballad kommer inte att bli av
 Jag älskar dig men jag måste säga nej
 Det blir aldrig, aldrig, aldrig någon kärlekssång från mig"
-"Amy Diamond";2009;"It's My Life";"I'm not the girl I used to be
+"2009_2_6";"Amy Diamond";2009;"It's My Life";"I'm not the girl I used to be
 Opened my eyes and I began to see
 This is my game, I'm in control
 Proud of my name, I can't defend my soul
@@ -18826,7 +18826,7 @@ It's my life, my decision
 I want you with provision
 It's my life when you hold me tight
 It's my life, it's my life!"
-"Cookies 'N' Beans";2009;"What If";"When time goes by in a disarray
+"2009_2_7";"Cookies 'N' Beans";2009;"What If";"When time goes by in a disarray
 And thoughts collide every step of the way
 It's hard to stand your ground again
 When you feel you're being betrayed
@@ -18899,7 +18899,7 @@ What if hope was lost for a hundred days?
 And you feel your life was just slippin' away?
 Would you rise again? Would you rise again?
 What if? What if"
-"Måns Zelmerlöw";2009;"Hope & Glory";"It's gonna be the one
+"2009_2_8";"Måns Zelmerlöw";2009;"Hope & Glory";"It's gonna be the one
 It's gonna be the one, yeah
 I tell you lover, oh lover
 It feels so strong
@@ -18994,7 +18994,7 @@ This'll be the one, this'll be the one, ohh
 I'm still standing for hope and glory love
 It's gonna be the one
 It's gonna be the one!"
-"Velvet";2009;"The Queen";"People take a bow
+"2009_3_1";"Velvet";2009;"The Queen";"People take a bow
 I am, I am, I am the queen
 I'll make you the king
 Give you a home within my castle
@@ -19069,7 +19069,7 @@ I am, I am the queen
 Everybody take a bow
 Cause i'm the one and only
 I am, I am, I am, I am, I am the queen."
-"Rigo & The Topaz Sound & Red Fox";2009;"I Got U";"Aint nothin like a womans comforts.)
+"2009_3_2";"Rigo & The Topaz Sound & Red Fox";2009;"I Got U";"Aint nothin like a womans comforts.)
 (Thats why that puda-puda hurts.)
 (Topaz and Rigo.)
 (Red Fox.)
@@ -19168,7 +19168,7 @@ U u u u u u I've got you. (Topaz and Rigo!)
 U u u u u u I've got you.
 Aha.
 I've got u."
-"Molly Sandén";2009;"Så vill stjärnorna";"Se på mig jag står här framför dig
+"2009_3_3";"Molly Sandén";2009;"Så vill stjärnorna";"Se på mig jag står här framför dig
 Och det som händer nu känns som magi
 Rör vid mig låt hjärtat stilla sig
 I all oändlighet finns bara vi
@@ -19211,7 +19211,7 @@ Högt här ovanför skrevs det på pränt
 Att du älskar mig som jag älskar dig
 Så vill stjärnorna så vill gudarna
 Så har änglarna bestämt"
-"E.M.D.";2009;"Baby Goodbye";"You might think that I am radical
+"2009_3_4";"E.M.D.";2009;"Baby Goodbye";"You might think that I am radical
 But I can't go around pretending life is fine
 No no
 Don't even miss when love was magical
@@ -19268,7 +19268,7 @@ I don't wanna lie, we can't stay together, my friend
 This is the end, the picture is drawn
 You're not even on, because you're
 Gone, gone, gone"
-"Mikael Rickfors";2009;"Du vinner över mig";"(Du vinner, du vinner över mig)
+"2009_3_5";"Mikael Rickfors";2009;"Du vinner över mig";"(Du vinner, du vinner över mig)
 Finns inget som kan stoppa dig
 Du vet vad du vill ha
 Å dina ögon lockar mig
@@ -19389,7 +19389,7 @@ Kan inte säga nej
 Jag måste släppa tag
 Du vinner över mig!
 Du vinner över mig!"
-"Maja Gullstrand";2009;"Här för mig själv";"En, två, tre, woo!
+"2009_3_6";"Maja Gullstrand";2009;"Här för mig själv";"En, två, tre, woo!
 En vanlig dag mitt i veckan
 Ser ut över stan från mitt fönster
 Tar en kopp kaffe, läser tidningen
@@ -19452,7 +19452,7 @@ Det är inget för mig, ingenting som stör
 Jag mår så bra, mmm, jag mår så bra, aha
 Här för mig själv, här för mig själv
 Här för mig själv, här för mig själv"
-"Sofia";2009;"Alla";"Ola giro allazoun ola
+"2009_3_7";"Sofia";2009;"Alla";"Ola giro allazoun ola
 Alla onirevomoun alla
 Ti ki an palepsa me pathos
 Isos kano kapio lathos
@@ -19527,7 +19527,7 @@ Alla, alla, tha erthoun ki alla
 Alla perimena
 Onirevomouna,
 Alla, alla, alla, alla,"
-"BWO";2009;"You're Not Alone";"After the rain
+"2009_3_8";"BWO";2009;"You're Not Alone";"After the rain
 I could see you crying
 Suffer the pain
 Like a river drying
@@ -19620,7 +19620,7 @@ I feel the pain you hide inside
 You're not alone
 You're not alone
 You're not alone"
-"Agnes";2009;"Love Love Love";"My friends keep saying
+"2009_4_1";"Agnes";2009;"Love Love Love";"My friends keep saying
 That I need patience
 Fools rush in, better slow down
 They keep talkin' 'bout good things come
@@ -19731,7 +19731,7 @@ love love love
 I don't wanna wait
 I don't wanna wait
 anymore"
-"Star Pilots";2009;"Higher";"'Cause tonight I'm gonna take you higher-oh
+"2009_4_2";"Star Pilots";2009;"Higher";"'Cause tonight I'm gonna take you higher-oh
 Can you feel the heat is on?
 Yeah tonight I'm gonna take you higher
 'Til the end of time
@@ -19816,7 +19816,7 @@ Yeah tonight I'm gonna take you higher
 'Til the end of time
 ('Til the end of time)
 'Til the end of time"
-"Susanne Alfvengren";2009;"Du är älskad där du går";"Mänskobarn, vet att du ibland kan känna vilsenhet
+"2009_4_3";"Susanne Alfvengren";2009;"Du är älskad där du går";"Mänskobarn, vet att du ibland kan känna vilsenhet
 När du står på jorden i din litenhet
 Och ovanför på himlen blundar stjärnorna
 Mänskobarn, vägen kanske känns som en oändlighet
@@ -19863,7 +19863,7 @@ Någon hör, någon rör, din själ
 Det finns någon som förstår
 Allt du gör, någon vill dig väl
 Du är alltid älskad, där du går"
-"Anna Sahlene & Maria Haukaas Storeng";2009;"Killing Me Tenderly";"Mhh
+"2009_4_4";"Anna Sahlene & Maria Haukaas Storeng";2009;"Killing Me Tenderly";"Mhh
 Cloak and dagger man, your just like a toxic drug to me (aha)
 Your tantalizing eyes, start a fire in my blood, you see (aha)
 And hey, I know I ought a breakaway
@@ -19906,7 +19906,7 @@ Oh its so bittersweet baby, baby, dont you know what you do to me
 Its cracking my heart in two, just to come close to you
 And I can see it in your eyes, a thief of hearts in disguise
 Your killing me tenderly"
-"Thorleifs";2009;"Sweet Kissin' In The Moonlight";"Vem kan veta säkert om ett älskande par
+"2009_4_5";"Thorleifs";2009;"Sweet Kissin' In The Moonlight";"Vem kan veta säkert om ett älskande par
 Kommer leva lyckligt alla sina dar?
 (Wo-oh, wo-weh-oh)
 Om det är för evigt spelar inte nån roll
@@ -19991,7 +19991,7 @@ Den första gången som du log mot mig
 Bara du är hela världen
 Ett minne som dröjer kvar
 A sweet kiss in the moonlight"
-"Sarah Dawn Finer";2009;"Moving On";"Dreaming, hoping, for another try
+"2009_4_6";"Sarah Dawn Finer";2009;"Moving On";"Dreaming, hoping, for another try
 I've been looking, searching, deeper down inside
 And if I loose my way, I'll find another road
 Cause I can make a change on my own
@@ -20072,7 +20072,7 @@ I'm moving on
 Yes I'm moving on
 (I am moving)
 I'm moving on"
-"Next3";2009;"Esta Noche";"Next3
+"2009_4_7";"Next3";2009;"Esta Noche";"Next3
 Oh, sexy girls, kvällen är vår
 Rör på din kropp som du visa igår
 Sättet som jag tycker om
@@ -20169,7 +20169,7 @@ Esta noche tú y yo, mi amor, tu amor, la pasión
 Esta noche tú y yo, vamos ah ah ah
 Esta noche tú y yo, sígueme, sígueme, sígueme
 Esta noche!"
-"Malena Ernman";2009;"La Voix";"Can you keep a secret?
+"2009_4_8";"Malena Ernman";2009;"La Voix";"Can you keep a secret?
 Can you keep a secret?
 I'm in love with you
 Can you make a promise?
@@ -20232,7 +20232,7 @@ Je vis ma vie pour toi
 C'est l'universe pour moi
 Je t'aime, amour, quand j'entends la voix,
 La voix"
-"Ola Svensson";2010;"Unstoppable";"You've seen her face in the magazine
+"2010_1_1";"Ola Svensson";2010;"Unstoppable";"You've seen her face in the magazine
 She smiles for you from the TV screen
 She's just so unstoppable
 You've heard her name like a thousand times
@@ -20313,7 +20313,7 @@ She's a little bit too much even for my friend
 She's just so unstoppable
 She's just so unstoppable
 She's just so unstoppable"
-"Jenny Silver";2010;"A Place to Stay";"Lift your head, stand up straight, and set your mind, girl
+"2010_1_2";"Jenny Silver";2010;"A Place to Stay";"Lift your head, stand up straight, and set your mind, girl
 It takes not long to cross the room
 Lock his eyes, take his hand, and hallelujah
 It takes not long to kiss the boy
@@ -20352,7 +20352,7 @@ I know I've things back home to deal with
 I've been away for much too long, oh oh oh oh
 I never knew how much I'd miss you
 Now I just need a place to stay"
-"Linda Pritchard";2010;"You're Making Me Hot-Hot-Hot";"You're making me oh-o oh-o
+"2010_1_3";"Linda Pritchard";2010;"You're Making Me Hot-Hot-Hot";"You're making me oh-o oh-o
 You're making me oh-o oh-o
 You're making me oh-o oh-o
 You're making me
@@ -20455,7 +20455,7 @@ Ooooh! (Oh-o, oh-o)
 You're lifting me up-up-up
 Whoo! (oh-o, oh-o)
 You're making me hot!"
-"Pain of Salvation";2010;"Road Salt";"This time I've tried not to get hurt
+"2010_1_4";"Pain of Salvation";2010;"Road Salt";"This time I've tried not to get hurt
 This time I'll stay untouched by pain and dirt
 This time I'll stick to what I've learned
 This time I'll fly so low I won't get burned
@@ -20496,7 +20496,7 @@ Maybe I'm not that tough
 Maybe this time the road is just too rough
 To take me home x3
 But I walk on"
-"Anders Ekborg";2010;"The Saviour (Il Salvatore)";"Come and stop the masquerade, uncover your disguise
+"2010_1_5";"Anders Ekborg";2010;"The Saviour (Il Salvatore)";"Come and stop the masquerade, uncover your disguise
 You don't need to be afraid, the truth will make you rise
 I'm aware that I'm not God, I'm just a messenger
 But no matter what you want, you have to pay the price
@@ -20539,7 +20539,7 @@ A truthful heart is the greatest victory
 Il salvatore, il salvatore
 The choice is yours, I'm the saviour
 I'm your saviour"
-"Jessica Andersson";2010;"I Did It for Love";"Try to close my eyes, as you walk away
+"2010_1_6";"Jessica Andersson";2010;"I Did It for Love";"Try to close my eyes, as you walk away
 Now I realise, there's so much more to say
 Make me understand, darling, take my hand
 Cause I did it all, I did it for love
@@ -20582,7 +20582,7 @@ Now I close my eyes, as you walk away
 And I realise, there's nothing more to say
 And I understand I can't hold your hand
 But I did it all, I did it for love"
-"Frispråkarn";2010;"Singel";"Mitt namn e Frispråkarn.
+"2010_1_7";"Frispråkarn";2010;"Singel";"Mitt namn e Frispråkarn.
 K1 bakom spakarna.
 Låt biten rulla!
 Nu blir det bara musiken,
@@ -20745,7 +20745,7 @@ Jag e singel (Jag e singel)
 Jag e singel (Jag e singel).
 Hej, hej, hej!
 Vi får se vad som händer!"
-"Salem Al Fakir";2010;"Keep On Walking";"I was aiming for the sky,
+"2010_1_8";"Salem Al Fakir";2010;"Keep On Walking";"I was aiming for the sky,
 ended up flat on the ground
 But once again the sun is rising,
 I better keep on walking
@@ -20858,7 +20858,7 @@ ended up flat on the ground
 But once again the sun is rising,
 I better keep on walking
 Keep on walking"
-"Eric Saade";2010;"Manboy";"You've got the looks
+"2010_2_1";"Eric Saade";2010;"Manboy";"You've got the looks
 You've got the beauty inside
 You've got the looks that money can't buy
 You wanna live like all the stars on TV
@@ -20961,7 +20961,7 @@ Manboy, manboy
 You can call me manboy
 Oh oh oh oh oh
 Manboy"
-"Andra Generationen & Dogge Doggelito";2010;"Hippare Hoppare";"Balkan reggaeton, det blir fest på en gång
+"2010_2_2";"Andra Generationen & Dogge Doggelito";2010;"Hippare Hoppare";"Balkan reggaeton, det blir fest på en gång
 Höj volym på sånt för nånting är på gång
 Alla händerna i luften, skrik fiesta
 För ni vet att ni rullar med dom bästa
@@ -21046,7 +21046,7 @@ Hippare hoppare – livet e en galen fest
 Hippare hoppare – nu e det som best
 Hippare hoppare – groova hela natten lång
 Hippare hoppare – spela Balkan reggaeton"
-"Anna-Maria Espinosa";2010;"Innan alla ljusen brunnit ut";"Innan alla ljusen brunnit ut
+"2010_2_3";"Anna-Maria Espinosa";2010;"Innan alla ljusen brunnit ut";"Innan alla ljusen brunnit ut
 Alltför tidigt tog vår kärlek slut
 Det är så jag tänker
 Så som gatan blänker
@@ -21117,7 +21117,7 @@ Det är så jag tänker
 Så som gatan blänker
 Söker mina ögon efter ljus
 Innan alla ljusen brunnit ut"
-"Highlights & MiSt";2010;"Come and Get Me Now";"(Come and get me now)
+"2010_2_4";"Highlights & MiSt";2010;"Come and Get Me Now";"(Come and get me now)
 Now, now
 Now, now
 Now, now
@@ -21204,7 +21204,7 @@ Oh, come and get me
 Now, now
 So come and get me now
 Come and get me now"
-"Pauline";2010;"Sucker for Love";"Whatcha gonna do if he comes right up to you?
+"2010_2_5";"Pauline";2010;"Sucker for Love";"Whatcha gonna do if he comes right up to you?
 Wishful thinking, it's up to me: I know it is
 No, I'm no superlady and I don't have no game whatsoever
 I put my high heels on and see how that goes, yeah
@@ -21279,7 +21279,7 @@ Baby, I'm a sucker, babe, and you better believe it
 I'm just a sucker for love
 A sucker for love
 Just looking for love"
-"Andreas Johnson";2010;"We Can Work It Out";"You cover me with peace until the war is over
+"2010_2_6";"Andreas Johnson";2010;"We Can Work It Out";"You cover me with peace until the war is over
 Still the hurting will remain 'cause tonight is getting colder
 if the road that we walk upon should turn back and not straight on
 And lately I've been trying not to fall apart, still my heart
@@ -21308,7 +21308,7 @@ says after all we've been through love is still around in the dark
 We can work it out, we can work it out
 Oh-oh
 We can work it out, we can work it out"
-"Kalle Moraeus & Orsa Spelmän";2010;"Underbart";"Har du hört berättas om en sång
+"2010_2_7";"Kalle Moraeus & Orsa Spelmän";2010;"Underbart";"Har du hört berättas om en sång
 Mellan drömmar och verklighet
 Sägs den spela gång på gång
 Hjärtats sång
@@ -21405,7 +21405,7 @@ Ser du kärlekens alla färger
 Skimra starkt och underbart
 Underbart
 Underbart"
-"Hanna Lindblad";2010;"Manipulated";"Cause I won't take it or leave it
+"2010_2_8";"Hanna Lindblad";2010;"Manipulated";"Cause I won't take it or leave it
 I know it's dangerous
 but this is how it's gonna stay(-ay)
 I mean, everything you do
@@ -21444,7 +21444,7 @@ Come lock me away-ay, and do what you say-ay
 So I'll play the fool, you'll like when I do-o-o-o
 Let's reverse psychology
 I'm ready to comply-ay-ay-ay"
-"Alcazar";2010;"Headlines";"Got your number on my underwear
+"2010_3_1";"Alcazar";2010;"Headlines";"Got your number on my underwear
 I'm alone but I can see you when I close my eyes and think of you
 I was blinded by the flashing lights
 Waiting for the paparazzi to get off on me, to kill the needs
@@ -21503,7 +21503,7 @@ I'll make the headlines (ooh-ooh-ooh-ooh)
 I'm right in the limelight (ooh-ooh-ooh-ooh-ooh)
 This little light of mine I'm gonna let it shine
 This little light of mine I'm gonna let it shine"
-"Johannes Bah Kuhnke";2010;"Tonight";"I said something really cold
+"2010_3_2";"Johannes Bah Kuhnke";2010;"Tonight";"I said something really cold
 I know it was a stupid thing to say
 All my life I tried to find you
 Don't know why I'm pushing you away
@@ -21550,7 +21550,7 @@ I'll make you feel the fire tonight
 Tonight, I'll do it right
 I'll make you feel the fire
 I'll make you feel the fire tonight"
-"Elin Lanto";2010;"Doctor Doctor";"Doctor, doctor, give me medication,
+"2010_3_3";"Elin Lanto";2010;"Doctor Doctor";"Doctor, doctor, give me medication,
 my mind is going crazy
 Doctor, doctor, be my salvation
 and drive my spirit out of here
@@ -21579,7 +21579,7 @@ I am crying out loud for the cure
 Doctor, doctor, give me medication,
 my mind is going crazy
 Doctor, doctor"
-"Erik Linder";2010;"Hur kan jag tro på kärlek";"Någonstans finns det en vår
+"2010_3_4";"Erik Linder";2010;"Hur kan jag tro på kärlek";"Någonstans finns det en vår
 Mitt i höstens stormar
 Någonstans i vinterns spår
 Väntar det en sommar
@@ -21644,7 +21644,7 @@ Någonstans finns det hopp
 Någonstans finns det värme
 Någonstans går solen opp
 Någonstans går solen opp"
-"Getty Domein";2010;"Yeba";"Vers 1
+"2010_3_5";"Getty Domein";2010;"Yeba";"Vers 1
 Ba ﬁti bazo ﬁnga o
 Ba Nguna bazo tongo
 Kaci maloba na bango
@@ -21717,7 +21717,7 @@ Yeba oo
 Yeba oooo
 Yeba oo
 ke bolobi mingi e"
-"Timoteij";2010;"Kom";"Hjärtat rusar, pulsen slår
+"2010_3_6";"Timoteij";2010;"Kom";"Hjärtat rusar, pulsen slår
 Du ser på mig där du står
 Tankarna far runt omkring
 Ingen av oss gör nånting
@@ -21804,7 +21804,7 @@ Det finns dom dom dom som ser chansen glida förbi
 Ta min hand så gör vi allt det som dom låter bli
 Ta min hand så gör vi allt det som dom låter bli
 (Kom med mig, kom)"
-"Darin";2010;"You're Out of My Life";"We had a fight, you cried and ran away
+"2010_3_7";"Darin";2010;"You're Out of My Life";"We had a fight, you cried and ran away
 Now it's late, 4 .a.m., can't reach you
 If I could turn back time and make you stay
 Maybe then I would still be near you
@@ -21869,7 +21869,7 @@ You're out of my life
 (It hurts, it hurts, it hurts)
 It hurts, it hurts, it hurts
 Since I can't tell you I'm sorry"
-"Crucified Barbara";2010;"Heaven or Hell";"Behind the stars, behind the moon
+"2010_3_8";"Crucified Barbara";2010;"Heaven or Hell";"Behind the stars, behind the moon
 I need the time to be alone
 To find a place thats far from you
 Now I know what I must do
@@ -21926,7 +21926,7 @@ Can somebody tell, (is this heaven or hell?)
 We felt sense of tears pouring down
 I find and I am, (is this heaven or hell?)
 Im here but I still dont know why"
-"Sibel";2010;"Stop";"To be honest – you're perfect
+"2010_4_1";"Sibel";2010;"Stop";"To be honest – you're perfect
 Us two, it's nothing but all good
 You say we're right for each other
 So why can't you make up your mind?
@@ -21989,7 +21989,7 @@ Yeah, yeah, (So just stop, stop, stop pretending);
 Oh, I'm telling you to stop
 Stop, stop, stop
 Stop, stop, stop"
-"Py Bäckman";2010;"Magisk stjärna";"Vem ser dig som en magisk stjärna
+"2010_4_2";"Py Bäckman";2010;"Magisk stjärna";"Vem ser dig som en magisk stjärna
 Kanske Venus blev född med avstängd hjärna
 Har du tappat din spegel
 Är din regel bara
@@ -22036,7 +22036,7 @@ God natt, god natt, min prins
 Kärleksstunder har sitt pris
 God natt, god natt, jag minns
 God natt, god natt, min prins"
-"NEO";2010;"Human Frontier";"A flashing chrome-man lighting up the night
+"2010_4_3";"NEO";2010;"Human Frontier";"A flashing chrome-man lighting up the night
 Heading downtown invited
 Past city lights, a silver moon igniting memories
 Tonight I'm losing track of time and place
@@ -22111,7 +22111,7 @@ Just like 40 years ago
 Still, it's a thrill to walk in the unknown without fear
 Tonight I'm being at the edge of the human frontier
 Human frontier"
-"Lovestoned";2010;"Thursdays";"Morning news: that coffee's getting cold
+"2010_4_4";"Lovestoned";2010;"Thursdays";"Morning news: that coffee's getting cold
 This day again, yeah, this is getting old
 The clock at work is always slowing down
 My desk's a boat running aground
@@ -22186,7 +22186,7 @@ Oh-ooh-oh-ooh, oh-ooh-oh-ooh, oh-ooh-oh-ooh-oh
 Not a bunch of Thursdays, no, not a bunch of Thursdays in a row
 Oh-ooh-oh-ooh, oh-ooh-oh-ooh, oh-ooh-oh-ooh-oh
 Not a bunch of Thursdays, no, not a bunch of Thursdays in a row"
-"Anna Bergendahl";2010;"This Is My Life";"I go, down the beaten track
+"2010_4_5";"Anna Bergendahl";2010;"This Is My Life";"I go, down the beaten track
 along the river with an empty bag
 At the end she said to me: Why are you here, with the autumn leaves?
 Cause this is my life, my friend, and this is my time to stand
@@ -22227,7 +22227,7 @@ Oh, ooh-ooh-ooh-ooh-ooh-ooh
 Cause this is my life, my friend, and I cant be no one else
 Cause this is my life, my friend, and I cant be no one else
 Cause this is my life, my friend"
-"Pernilla Wahlgren";2010;"Jag vill om du vågar";"Kan du förklara vad du vill med mig
+"2010_4_6";"Pernilla Wahlgren";2010;"Jag vill om du vågar";"Kan du förklara vad du vill med mig
 Det känns som att du aldrig öppnar dig
 Och om du tycker att det går för fort
 Då är det dags att köra öppna kort
@@ -22322,7 +22322,7 @@ Ge mig ett svar, ge mig passion
 Jag vill om du vågar
 Vill ta det till en högre dimension
 Jag vill ta det till en högre dimension"
-"Noll disciplin";2010;"Idiot";"Vad är det som händer här
+"2010_4_7";"Noll disciplin";2010;"Idiot";"Vad är det som händer här
 Jag har sumpat all kontroll
 Nä, jag fattar faktiskt ingenting
 Nånting flashade förbi och slog undan mina ben
@@ -22417,7 +22417,7 @@ Pallar inte stå emot
 Pallar inte stå emot
 Pallar inte stå emot
 Hon gör mig till en idiot"
-"Peter Jöback";2010;"Hollow";"I want my heart unbroken
+"2010_4_8";"Peter Jöback";2010;"Hollow";"I want my heart unbroken
 I need my soul to heal at last
 What can you say to make me forget the past
 If you decide to come home
@@ -22498,7 +22498,7 @@ I'm hollow
 Come back if love is true
 'Cause I'm hollow without you
 I'm hollow without you"
-"Dilba";2011;"Try Again";"Let nobody bring you down though sometimes
+"2011_1_1";"Dilba";2011;"Try Again";"Let nobody bring you down though sometimes
 you cannot see the horizon, you're on your knees
 Don't look back now that you're gone, gotta carry on
 Get yourself right back on track
@@ -22565,7 +22565,7 @@ Hold on all the time
 So you think you're dream is over
 Just hold on yeah
 (M=Male, F=Female)"
-"Swingfly";2011;"Me and My Drum";"Some people call it their rhythm, I call it the drum
+"2011_1_2";"Swingfly";2011;"Me and My Drum";"Some people call it their rhythm, I call it the drum
 'Cause I beat it down once in a while, like it got slow or somethin'
 She wanna hold some, I told her to roll some
 She said I'm cold-frontin', no no no: go-stunting
@@ -22658,7 +22658,7 @@ I ain't going nowhere, me and my drum
 Me and my drum, me and my drum
 Me and my drum, me and my drum
 Me and my drum"
-"Jenny Silver";2011;"Something in Your Eyes";"Unstoppable
+"2011_1_3";"Jenny Silver";2011;"Something in Your Eyes";"Unstoppable
 My love for you is simply irresistable
 You came to me
 A rainy cold November night you came to me
@@ -22799,7 +22799,7 @@ There's no reason to think twice
 (Something in your eyes)
 Something in your eyes
 There's something in your eyes"
-"Jonas Matsson";2011;"On my own";"Look at me, walking alone in this beautiful weather
+"2011_1_4";"Jonas Matsson";2011;"On my own";"Look at me, walking alone in this beautiful weather
 Here I am, happy as can be
 Look at me, floating above as light as a feather
 Here I am – young, in love and free
@@ -22874,7 +22874,7 @@ But now I make it on my own (can't deny it wasn't always easy)
 (Da-ta-da)
 I used to get by with a little help
 But now I make it on my own"
-"Le Kid";2011;"Oh My God";"Oh My God!
+"2011_1_5";"Le Kid";2011;"Oh My God";"Oh My God!
 Oh Oh oh oh...
 Oh my god
 Tell me honey am I waisting my sqeels
@@ -22965,7 +22965,7 @@ Do you think it's love
 And I'll go
 Oh oh oh
 Oh my god"
-"Rasmus Viberg";2011;"Social Butterfly";"She's the girl you won't forget
+"2011_1_6";"Rasmus Viberg";2011;"Social Butterfly";"She's the girl you won't forget
 She'll fly away without regrets
 She'll twist your mind
 You'll go insane
@@ -23068,7 +23068,7 @@ And all your life you'll wonder where
 Where is she now
 Where is she now
 Where is she now"
-"Pernilla Andersson";2011;"Desperados";"Du säger tiden kommer aldrig mer igen
+"2011_1_7";"Pernilla Andersson";2011;"Desperados";"Du säger tiden kommer aldrig mer igen
 Vi sliter vägarna i jakt på sanningen
 Jag missar tåget, hamnar snett och tänker sen
 Och löven faller över Stockholm och mitt hem
@@ -23121,7 +23121,7 @@ Du ska aldrig nånsin se mig gå
 Och om du ger din sorg till mig så kan jag bära den åt dig
 Tills du orkar se två desperados som alltid ville mer
 Två desperados som alltid ville mer"
-"Danny Saucedo";2011;"In the Club";"It's Friday night
+"2011_1_8";"Danny Saucedo";2011;"In the Club";"It's Friday night
 I barely made it through this week
 I text my friends, put on my favorite song on repeate
 The time is ticking', let's get wicked
@@ -23202,7 +23202,7 @@ I've seen you checking me out
 Don't be stranger please come around
 Tell me about ya, where are you from
 I love to get to know ya, in this club"
-"Brolle";2011;"7 Days And 7 Nights";"(O o oh)
+"2011_2_1";"Brolle";2011;"7 Days And 7 Nights";"(O o oh)
 (Love so beautiful)
 (Aah)
 It's over, the curtain calls
@@ -23293,7 +23293,7 @@ As long as we ask for love
 Seven days and seven nights
 And we just let it die
 Seven days and seven nights"
-"Loreen";2011;"My Heart is Refusing Me";"I've been crushed beaten down
+"2011_2_2";"Loreen";2011;"My Heart is Refusing Me";"I've been crushed beaten down
 And I'm frozen to the ground
 Like a fool I've trusted you
 Still I'm hopelessly in love
@@ -23368,7 +23368,7 @@ My heart is refusing me
 (heeey yeaah eeeey eeeey)
 I've been crushed, beaten down
 Still I'm hopelessly in love"
-"Babsan";2011;"Ge mig en spanjor";"Arriba!
+"2011_2_3";"Babsan";2011;"Ge mig en spanjor";"Arriba!
 Jag dansar aldrig nykter på ett sjavigt stadshotell
 En regnig torsdagskväll
 Med Janne eller Kjell
@@ -23465,7 +23465,7 @@ Ge mig en spanjor
 Ja må jag leva, ge mig en spanjor
 Ja må jag leva, ge mig en spanjor
 Olé!"
-"Elisabeth Andreassen";2011;"Vaken i en dröm";"När en ny dag väcks till liv
+"2011_2_4";"Elisabeth Andreassen";2011;"Vaken i en dröm";"När en ny dag väcks till liv
 Just när natten har fått ge vika
 Och jag tänker på allting jag gjort
 Från ett barn till den jag är nu
@@ -23524,7 +23524,7 @@ Och en ny dag väcks till liv
 Just när natten har fått ge vika
 Allting vaknar upp på nytt igen
 Jag är vaken mitt i en dröm"
-"Sanna Nielsen";2011;"I'm in Love";"Now I know
+"2011_2_5";"Sanna Nielsen";2011;"I'm in Love";"Now I know
 Yes, it's here I belong
 By your side, in your arms
 You are my destiny
@@ -23603,7 +23603,7 @@ I'm in love, baby I'm in love
 All my love I give to you
 All I do I do for you
 I'm in love, baby I'm in love, baby I'm in love"
-"The Moniker";2011;"Oh My God!";"Oh my god
+"2011_2_6";"The Moniker";2011;"Oh My God!";"Oh my god
 You're such a beautiful surprise, girl
 Oh, I cannot get enough
 Want to explore the world with you (you), you (you)
@@ -23716,7 +23716,7 @@ And I cannot get enough
 Ooh la la, ooh la la
 Don't ever want this to be over
 (This to be o-o-o-o-o-o-o-over)"
-"Anniela";2011;"Elektrisk";"(Elektrisk)
+"2011_2_7";"Anniela";2011;"Elektrisk";"(Elektrisk)
 (Elektrisk)
 Känner naken hud så tätt intill men ingen klagar
 Som en ormgrop trotsar vi gravitationens lagar
@@ -23807,7 +23807,7 @@ Jag är ren energi
 Bara här under lampornas sken är jag fri
 Elektrisk, elelektrisk, så elektrisk
 Känner pulsen slå nu"
-"Christian Walz";2011;"Like Suicide";"Saying I love her, won't get me sober
+"2011_2_8";"Christian Walz";2011;"Like Suicide";"Saying I love her, won't get me sober
 This is the point of no return
 She's like a fever, I can't defeat her
 I guess I love the way it burns
@@ -23878,7 +23878,7 @@ Her gravity tonight
 She's like suicide alright
 She's like suicide all night
 She's like suicide alright"
-"Linda Sundblad";2011;"Lucky You";"Vers 1
+"2011_3_1";"Linda Sundblad";2011;"Lucky You";"Vers 1
 I see you look me up and down
 I bet you think I'm out of reach but I'm here right now
 And then I look into your eyes
@@ -23997,7 +23997,7 @@ I'm about to hit you up
 Lucky, lucky you
 Lucky, lucky me
 Lucky you"
-"Simon Forsberg";2011;"Tid att andas";"Som en sommarnattshimmel
+"2011_3_2";"Simon Forsberg";2011;"Tid att andas";"Som en sommarnattshimmel
 Står jag andlös och fri
 I en solnedgångs skimmer
 Blev det sant, blev det vi
@@ -24058,7 +24058,7 @@ Jag ser bara dig, du är allt för mig
 Tid att andas, tid att se
 Allt som livet har att ge
 Tid att andas, tid att tro"
-"Sara Lumholdt";2011;"Enemy";"You kept me holding on
+"2011_3_3";"Sara Lumholdt";2011;"Enemy";"You kept me holding on
 I'm always the last to know
 Uhh, yeah
 When I saw you out with her
@@ -24143,7 +24143,7 @@ You kept me holding on
 Now I can't let you go
 So tell me where we went wrong
 I'm always the last to know"
-"The Playtones";2011;"The King";"Makes the dance look cookin'
+"2011_3_4";"The Playtones";2011;"The King";"Makes the dance look cookin'
 Makes the hot girls lookin'
 And he couldn't tell you how
 Everybody get's up raise their hands
@@ -24218,7 +24218,7 @@ That's why the girls call him The King
 He's The King
 He's The King
 He's The King"
-"Shirley's Angels";2011;"I Thought It Was Forever";"(I thought it was forever)
+"2011_3_5";"Shirley's Angels";2011;"I Thought It Was Forever";"(I thought it was forever)
 The night before you came
 My world was full of emptiness and shame
 The horse you rode looked white
@@ -24319,7 +24319,7 @@ And I thought it was forever
 (Thought it was forever)
 I thought it was forever
 (Forever and ever)"
-"Sebastian";2011;"No One Else Could";"You see, there are times when the doubts get to me
+"2011_3_6";"Sebastian";2011;"No One Else Could";"You see, there are times when the doubts get to me
 There are days when my mouth just won't speak
 When the world seems to love that I'm weak, that I'm weak
 You'd always come through, you'd always stayed true
@@ -24380,7 +24380,7 @@ You'd die for my sins, you'd fix everything
 When no one else could
 And I'd always believe you'd be covering me
 When no one else would, no one else could"
-"Sara Varga";2011;"Spring för livet";"Du säger att du har förändrats
+"2011_3_7";"Sara Varga";2011;"Spring för livet";"Du säger att du har förändrats
 Att du aldrig menade att slå
 Du säger att allt har förändrats
 Om jag ville så skulle jag förstå
@@ -24461,7 +24461,7 @@ Du kommer aldrig förstå
 Det ända du kan göra är att gå
 Det ända du kan göra är att gå
 Det ända du kan göra är att gå"
-"Eric Saade";2011;"Popular";"Stop, don't say that it's impossible
+"2011_3_8";"Eric Saade";2011;"Popular";"Stop, don't say that it's impossible
 'Cause I know it's possible
 Though I know you never look my way
 I can say; you will one day
@@ -24542,7 +24542,7 @@ I put my hands up in the light
 You see me dancing for my life
 I will be popular, I will be popular
 Popular"
-"Melody Club";2011;"The Hunter";"I hear the sound of heartbeats
+"2011_4_1";"Melody Club";2011;"The Hunter";"I hear the sound of heartbeats
 That's fading into emptiness
 Throughout the night I travel
 In the distance with my loneliness
@@ -24585,7 +24585,7 @@ Finally I've become the hunter
 Hunting for the love I am worthy of
 Finally I've become the hunter
 Hunting for the love I am worthy of"
-"Julia Alvgard";2011;"Better Or Worse";"I was aiming for a new start
+"2011_4_2";"Julia Alvgard";2011;"Better Or Worse";"I was aiming for a new start
 On my own, feeling strong, ready to go, ready to be on top
 Your love left an echo in my heart
 Was it real, could it be you're just a dream about to part
@@ -24672,7 +24672,7 @@ I just wanna feel you, baby
 For better and for worse
 Close against my skin
 I just wanna love you, love you, love you, love you"
-"Lasse Stefanz";2011;"En blick och nånting händer";"Jag vandrar längs gator vi vandrat, du och jag
+"2011_4_3";"Lasse Stefanz";2011;"En blick och nånting händer";"Jag vandrar längs gator vi vandrat, du och jag
 Träffade någon som sett dig här i dag
 Han såg dig med en vän
 Ingen han kände igen
@@ -24751,7 +24751,7 @@ Hur ska jag kunna glömma dig
 Kunna glömma dig
 Kunna glömma dig
 Kunna glömma dig"
-"Linda Pritchard";2011;"Alive";"One heart asking
+"2011_4_4";"Linda Pritchard";2011;"Alive";"One heart asking
 Give me love, give me love
 One soul praying
 Give me love, give me love
@@ -24838,7 +24838,7 @@ We're stronger than before
 Something came alive
 Something came alive
 Something came alive"
-"Anders Fernette";2011;"Run";"I'm looking into your eyes
+"2011_4_5";"Anders Fernette";2011;"Run";"I'm looking into your eyes
 They're shining so very bright
 Everything that I dreamed of you brought into my life
 You made your way to my heart
@@ -24937,7 +24937,7 @@ You make me wanna
 (Run) run
 (Run) run
 Run."
-"Linda Bengtzing";2011;"E det fel på mej";"Har träffat mannen med rätt kemi
+"2011_4_6";"Linda Bengtzing";2011;"E det fel på mej";"Har träffat mannen med rätt kemi
 Har träffat mannen med bra fysik
 Han är en riktig karl
 en sån man vill ha
@@ -25024,7 +25024,7 @@ Varje gång jag attraheras då vill jag bara va' med dig
 Ingenting jag kan hantera, jag vill ha mera
 Undrar e' det fel på mig?
 Undrar e' det fel på mig?"
-"Nicke Borg";2011;"Leaving Home";"You
+"2011_4_7";"Nicke Borg";2011;"Leaving Home";"You
 Can't stand beside me
 And think you know me
 I am waisting my time
@@ -25089,7 +25089,7 @@ To be near you, I can hear you, I'm not on my own
 To be near you, I can hear you, I'm not on my own
 So I'm leaving home
 But I'm coming home for good"
-"Love Generation";2011;"Dance Alone";"[Melanie]
+"2011_4_8";"Love Generation";2011;"Dance Alone";"[Melanie]
 I ain't crushing down, I ain't gonna drown
 I won't let you, tear up these eyes
 I'm just gonna move, whole new attitude
@@ -25172,7 +25172,7 @@ I don't need you tonight got the girls on my side
 And now be having the time of my life
 So (wow?) keep the music playin' on
 I'll dance alone"
-"Sean Banan";2012;"Sean den förste Banan";"Diggidiggidiggidingdingding, här glider kingenin 
+"2012_1_1";"Sean Banan";2012;"Sean den förste Banan";"Diggidiggidiggidingdingding, här glider kingenin 
 Diggidiggidiggidingdingding, här glider kingenin 
 Diggidiggidiggidingdingding, här glider kingenin 
 Diggidiggidiggidingdingding, här glider kingenin
@@ -25341,7 +25341,7 @@ när kingen glider in,
 diggidingdingding, 
 här glider kingenin
 "
-"Abalone Dots";2012;"På väg";"Jag går tillbaka
+"2012_1_2";"Abalone Dots";2012;"På väg";"Jag går tillbaka
 går tillbaka till nån annan
 Han vet, hon väntar, hon undrar
 Om jag vågat
@@ -25392,7 +25392,7 @@ Allt som jag lämnar blir bara minnen
 Jag är på väg igen, på väg från dig
 På väg från dig
 "
-"The Moniker";2012;"I Want To Be Chris Isaak (This Is Just the Beginning)";"I want to be your lover
+"2012_1_3";"The Moniker";2012;"I Want To Be Chris Isaak (This Is Just the Beginning)";"I want to be your lover
 I wanna do it with you
 I want to record a cover
 of Mr Big - To be with you
@@ -25467,7 +25467,7 @@ Together we are winning
 On and on and on
 This is just the beginning
 "
-"Afro-Dite";2012;"The Boy Can Dance";"If he can dance
+"2012_1_4";"Afro-Dite";2012;"The Boy Can Dance";"If he can dance
 The boy can dance
 You're on the limit, girl
 you gotta have it , words
@@ -25526,7 +25526,7 @@ You know we believe in love
 (We believe in everybodys right to express their love)
 And we believe that there is a way to make it right
 "
-"Dead by April";2012;"Mystery";"Thought it´d be easy 
+"2012_1_5";"Dead by April";2012;"Mystery";"Thought it´d be easy 
 Now its getting critical
 You´re out of my life now
 Its unbelievable 
@@ -25649,7 +25649,7 @@ In my mind
 I promised myself till this day I´d be
 But its a mystery
 "
-"Marie Serneholt";2012;"Salt & Pepper";"Salt and pepper, salt and pepper, salt and pepper, pepper...
+"2012_1_6";"Marie Serneholt";2012;"Salt & Pepper";"Salt and pepper, salt and pepper, salt and pepper, pepper...
 Salt and pepper, salt and pepper, salt and pepper, pepper...
 They say that the is such a mean man
 He's stealing hearts and then he breaks them
@@ -25802,7 +25802,7 @@ Salt and pepper, Salt and pepper, Salt and pepper pepper
 Salt and pepp!
 Salt and pepp!
 "
-"Thorsten Flinck & Revolutionsorkestern";2012;"Jag reser mig igen";"I det förflutnas skugga
+"2012_1_7";"Thorsten Flinck & Revolutionsorkestern";2012;"Jag reser mig igen";"I det förflutnas skugga
 där är alla minnen grå
 men jag trevar efter sanningen
 som kan läka alla sår
@@ -25881,7 +25881,7 @@ En som reser sig igen
 Oh, jag reser mig igen
 Du lyser upp min svärta med ditt ljus
 "
-"Loreen";2012;"Euphoria";"Why,
+"2012_1_8";"Loreen";2012;"Euphoria";"Why,
 Why can't this moment last forevermore
 Tonight,
 Tonight eternity's an open door
@@ -25974,7 +25974,7 @@ Euphoria
 Euphoria
 We’re going u-u-u-u-u-u-up
 "
-"Ulrik Munther";2012;"Soldiers";"If you wanna know
+"2012_2_1";"Ulrik Munther";2012;"Soldiers";"If you wanna know
 You wounded me 
 You wounded me down to the bone
 But a little bit 
@@ -26091,7 +26091,7 @@ For what it’s worth 
 You wounded me
 But I forgive you
 "
-"Top Cats";2012;"Baby Doll";"Cruisin' down the streets at midnight
+"2012_2_2";"Top Cats";2012;"Baby Doll";"Cruisin' down the streets at midnight
 Music bop-in', ladies rockin'
 Dudes and dudettes all over town
 Saw this bird walkin' down the pavement
@@ -26208,7 +26208,7 @@ My baby doll
 My baby doll
 My baby doll
 "
-"Sonja Aldén";2012;"I din himmel";"Ett steg i sänder och en tro
+"2012_2_3";"Sonja Aldén";2012;"I din himmel";"Ett steg i sänder och en tro
 att detta liv får ha en bro
 en bro över tid och över rum
 där år och dagar ryms i en sekund
@@ -26249,7 +26249,7 @@ Hittar jag vägen fram till evighetens land och till dig
 När tiden är inne, när livet blir till ett minne
 Hittar jag vägen fram till evighetens land och till dig
 "
-"Andreas Lundstedt";2012;"Aldrig aldrig";"Det verkar som
+"2012_2_4";"Andreas Lundstedt";2012;"Aldrig aldrig";"Det verkar som
 att du är drömmen som just försvann
 Att du som socker runnit ur min hand
 Som allt jag trodde jag visste var fel
@@ -26334,7 +26334,7 @@ Du kommer aldrig mer tillbaks
 Jag kommer aldrig, aldrig sakna dig 
 mer än nu
 "
-"Timoteij";2012;"Stormande hav";"Om jag sa hur jag kände, om jag sa som det var
+"2012_2_5";"Timoteij";2012;"Stormande hav";"Om jag sa hur jag kände, om jag sa som det var
 Om du såg vad jag tänkte, skulle du stanna kvar?
 För jag, jag vet inte längre vad som drev oss två isär
 För vi, vi kommer aldrig högre än så här
@@ -26399,7 +26399,7 @@ Står du som jag
 I virvlarna av
 Ett stormande hav?
 "
-"David Lindgren";2012;"Shout It Out";"Wanna show you we can do this better
+"2012_2_6";"David Lindgren";2012;"Shout It Out";"Wanna show you we can do this better
 there´s no way we´re givin´up
 Wanna show you there´s no surrender
 there´s no way we gonna stop
@@ -26468,7 +26468,7 @@ when we shout it shout it out
 when we shout it shout it out
 when we shout it shout it out
 "
-"Mimi Oh";2012;"Det går för långsamt";"Jag har försökt att titta bort när du ser på mej
+"2012_2_7";"Mimi Oh";2012;"Det går för långsamt";"Jag har försökt att titta bort när du ser på mej
 Men du ser på mej som ingen annan gör
 Det verkar som du väljer stol för attva vid mej
 Å ja smälter ned, kan inte hjälpa det
@@ -26543,7 +26543,7 @@ Ja vill ha mer av dej, du vill ha mer av mej
 Det går för långsamt, alldeles för långsamt
 Men ändå står vi här, det går för långsamt
 "
-"Thomas Di Leva";2012;"Ge aldrig upp";"När du inte vågar vara som du är
+"2012_2_8";"Thomas Di Leva";2012;"Ge aldrig upp";"När du inte vågar vara som du är
 Och ingen finns för dig att fråga
 När din tanke fylls av taggar som gör ont
 Och världen brinner upp omkring dig
@@ -26590,7 +26590,7 @@ Låt krig bli till fred
 Oooh oooh oooh oooh
 Ge aldrig upp
 "
-"Youngblood";2012;"Youngblood";"I think you’re pretty
+"2012_3_1";"Youngblood";2012;"Youngblood";"I think you’re pretty
 I'm gonna tell you
 'cos you’ve been crying
 OOO
@@ -26697,7 +26697,7 @@ OOO
 I wanna be I wanna be your 
 youngblood - love
 "
-"Maria BenHajji";2012;"I mina drömmar";"Ser mig omkring, nånting har hänt här
+"2012_3_2";"Maria BenHajji";2012;"I mina drömmar";"Ser mig omkring, nånting har hänt här
 Jag vet inte vad, det är nånting jag känner
 Och när natten blir till dagen står verkligheten still ett tag
 Minns det så väl, och fast än jag blundar
@@ -26764,7 +26764,7 @@ Då finns inga tvivel kvar
 I mina drömmar når jag dig
 I mina drömmar når jag dig
 "
-"Mattias Andréasson";2012;"Förlåt mig";"Rör vid dig
+"2012_3_3";"Mattias Andréasson";2012;"Förlåt mig";"Rör vid dig
 Din varma kind
 Vi ligger här i sängen, säger ingenting
 Om en minut 
@@ -26877,7 +26877,7 @@ Vill att du ska förlåta
 Snälla kan du förlåta
 Så baby förlåt mig, baby förlåt mig
 "
-"Love Generation";2012;"Just A Little Bit";"Turn it up coz i'm so ready to go
+"2012_3_4";"Love Generation";2012;"Just A Little Bit";"Turn it up coz i'm so ready to go
 baby I left the daddy's girl at home
 tonight I'm a beast in disguise
 I'm a bomb this is not the chick u know
@@ -26950,7 +26950,7 @@ Just A Little Bit Just A Little Bit
 Crazy tonight crazy tonight outta my mi-ia-ia-ind
 Just A Little Bit Just A Little Bit
 "
-"Carolina Wallin Pérez";2012;"Sanningen";"Borde gjort som du sa förut
+"2012_3_5";"Carolina Wallin Pérez";2012;"Sanningen";"Borde gjort som du sa förut
 Tänk om jag bara hade vågat
 Men allt fick sig ett sorgligt slut
 Borde förstått, måttet var rågat
@@ -27021,7 +27021,7 @@ Under allt som dom ser
 Som om jag aldrig förstått någonting
 Det dom sagt om dom brott som begått
 Blir till sand"
-"Andreas Johnson";2012;"Lovelight";"Lalalalaa...
+"2012_3_6";"Andreas Johnson";2012;"Lovelight";"Lalalalaa...
 My la-la-lovelight
 Lalalalaa...
 My la-la-lovelight
@@ -27118,7 +27118,7 @@ All I want is your lovelight
 Baby your lovelight
 My la-la-lovelight
 "
-"Molly Sandén";2012;"Why Am I Crying";"I don't miss your dirty clothes on the floor
+"2012_3_7";"Molly Sandén";2012;"Why Am I Crying";"I don't miss your dirty clothes on the floor
 No one leaves the lights on anymore
 The towels are hanging just where they should
 It's drop dead quiet in my neighborhood
@@ -27191,7 +27191,7 @@ Not gonna miss you not at all
 So what am I doing here on the floor
 Doing here on the floor, crying
 "
-"Björn Ranelid & Sara Li";2012;"Mirakel";"Kärleken, detta under, detta mirakel… och är mäktigare än allting annat på denna jord.
+"2012_3_8";"Björn Ranelid & Sara Li";2012;"Mirakel";"Kärleken, detta under, detta mirakel… och är mäktigare än allting annat på denna jord.
 Kärleken… Ett enda vapen, mäktigare än allting annat.
 KÄRLEKEN, VILKEN KRAFT.
 Världens första, och största atombomb… är kärleken… detta under… detta mirakel
@@ -27242,7 +27242,7 @@ Ett mirakel som kallas kärleken
 Nu kommer kärleken, nu kommer armén, nu kommer soldaterna
 HERREGUD…. Mirakel
 "
-"Charlotte Perrelli";2012;"The Girl";"One hour left of feeling alone
+"2012_4_1";"Charlotte Perrelli";2012;"The Girl";"One hour left of feeling alone
 One hour left until I get home
 to a new beginning
 Of all the mistakes that I know I've done
@@ -27327,7 +27327,7 @@ Feel the power of love
 I was the girl that got lost
 But now I'm ready to be found yeah
 "
-"OPA";2012;"Allting blir bra igen";"Titta dit och titta på all skit
+"2012_4_2";"OPA";2012;"Allting blir bra igen";"Titta dit och titta på all skit
 Det du ser och det jag ser deprimerar oss
 Något tråkigt händer varje dag
 Man känner inte nyhetens behag
@@ -27400,7 +27400,7 @@ Jag sjunger oh, oh
 Jag sjunger oh, oh
 Allting blir bra igen
 "
-"Dynazty";2012;"Land Of Broken Dreams";"Eyes, I look into your eyes
+"2012_4_3";"Dynazty";2012;"Land Of Broken Dreams";"Eyes, I look into your eyes
 I try to realise
 You're not longer there
 Fear, I'm fighting with my fear
@@ -27495,7 +27495,7 @@ The land of broken dreams
 The land
 The land, land of broken dreams
 "
-"Lotta Engberg & Christer Sjögren";2012;"Don't Let Me Down";"I thought that love was just a never ending game 
+"2012_4_4";"Lotta Engberg & Christer Sjögren";2012;"Don't Let Me Down";"I thought that love was just a never ending game 
 But then I stumbled and fell
 I know I didn't treat her right, and that's a shame
 I've got my story to tell
@@ -27540,7 +27540,7 @@ Don't  let me down, don't let me down
 'cause baby this time I don't wanna let you go
 No baby this time I don´t wanna let you go
 "
-"Hanna Lindblad";2012;"Goosebumps";"You give me, give me Goosebumps
+"2012_4_5";"Hanna Lindblad";2012;"Goosebumps";"You give me, give me Goosebumps
 l look in your eyes
 it's giving me power
 lighten me up, set me on fire
@@ -27641,7 +27641,7 @@ You give me, give me Goosebumps
 'cause I just can't stop this shivering
 but it fills me with desire
 "
-"Axel Algmark";2012;"Kyss mig";"Ååååååh
+"2012_4_6";"Axel Algmark";2012;"Kyss mig";"Ååååååh
 Lalalala…
 Jag hör trummorna på dörren, nästa stund är jag omkull
 När jag reste mig från golvet så var hela rummet fullt, oh kyss mig!
@@ -27696,7 +27696,7 @@ Lalalalala… Wa pa babababa we’re in love
 Lalalalala… Wa pa babababa we’re in love
 Kyss mig!
 "
-"Lisa Miskovsky";2012;"Why Start a Fire";"Who's going to save tonight, It is hard to not give in
+"2012_4_7";"Lisa Miskovsky";2012;"Why Start a Fire";"Who's going to save tonight, It is hard to not give in
 because you're no longer breathing and
 who's going to save tonight if I don’t….
 who's going to save tonight, I am down on my knees but I'm too proud to say please and
@@ -27773,7 +27773,7 @@ up and down want to learn, everything tonight
 and I'm going to go to where you came from
 Cause I'm going to go to where you came from
 "
-"Danny Saucedo";2012;"Amazing";"I'm feeling great
+"2012_4_8";"Danny Saucedo";2012;"Amazing";"I'm feeling great
 I'm feeling awesome
 And I can't wait
 Gotta get movin'
@@ -27922,7 +27922,7 @@ You're
 A A A A-MAZING
 That's what you are
 "
-"David Lindgren";2013;"Skyline";"Can you hear the night 
+"2013_1_1";"David Lindgren";2013;"Skyline";"Can you hear the night 
 time call see the
 street lights come alive
 Wanna live it off the wall
@@ -28093,7 +28093,7 @@ Touching the skyline
 Ohoooo
 Touching the skyline
 /Bom/"
-"Cookies 'N' Beans";2013;"Burning Flags";"I had to try
+"2013_1_2";"Cookies 'N' Beans";2013;"Burning Flags";"I had to try
 I had to stumble
 I had to loose
 I had to crumble
@@ -28264,7 +28264,7 @@ Close your eyes
 and see my
 Burning 
 flaaags."
-"Jay-Jay Johanson";2013;"Paris";"Ref:
+"2013_1_3";"Jay-Jay Johanson";2013;"Paris";"Ref:
 When I walk the streets
 of Paris
 I can´t stop wondering
@@ -28417,7 +28417,7 @@ That peculiar girl
 Who´d follow where
 The wind would blow 
 I miss you."
-"Mary N'diaye";2013;"Gosa";"Ref:
+"2013_1_4";"Mary N'diaye";2013;"Gosa";"Ref:
 Och vi ska gosa, gosa, gosa, 
 Gosa, gosa, gosa 
 natten lång
@@ -28628,7 +28628,7 @@ Vad kommer hända då
 Vad ska vi göra då
 Ja vi ska 
 Gosa, gosa på."
-"Eric Gadd";2013;"Vi kommer aldrig att förlora";"Varenda liten sekund
+"2013_1_5";"Eric Gadd";2013;"Vi kommer aldrig att förlora";"Varenda liten sekund
 Varenda värdelös stund
 Det gjorde vi till nåt stort.
 Medans dom skaka på huvet
@@ -28797,7 +28797,7 @@ Aha.a
 Men vi har våra 
 drömmar kvar
 Aha.a"
-"Yohio";2013;"Heartbreak Hotel";"Ohoo Ohoo
+"2013_1_6";"Yohio";2013;"Heartbreak Hotel";"Ohoo Ohoo
 Ohoo Ohoo
 Ohoo Ohoo
 Ohoo 
@@ -28964,7 +28964,7 @@ Heartbreak
 Ohoo Ohoo
 Ohoo 
 Hotel"
-"Anna Järvinen";2013;"Porslin";"I tjugo år
+"2013_1_7";"Anna Järvinen";2013;"Porslin";"I tjugo år
 Har vi haft varann
 Det finns ingen 
 del av dig
@@ -29073,7 +29073,7 @@ Ahahahaha
 Ahahahaha
 Ahahahaha
 Ahahahaha"
-"Michael Feiner & Caisa";2013;"We're Still Kids";"Michael:
+"2013_1_8";"Michael Feiner & Caisa";2013;"We're Still Kids";"Michael:
 Rattled alone in a crowd 
 of many
 Never collected from
@@ -29188,7 +29188,7 @@ same stars
 We´re still kids
 We keep dancing in 
 our hearts."
-"Anton Ewald";2013;"Begging";"Girl I can feel a tremor
+"2013_2_1";"Anton Ewald";2013;"Begging";"Girl I can feel a tremor
 through my body
 Inside my heart is speeding
 beating faster
@@ -29399,7 +29399,7 @@ You´ve got me
 Begging baby
 Got me begging for more
 Begging"
-"Felicia Olsson";2013;"Make Me No 1";"I feel your chill
+"2013_2_2";"Felicia Olsson";2013;"Make Me No 1";"I feel your chill
 It´s unfamiliar
 Your hands are warm
 But still your heart´s cold
@@ -29582,7 +29582,7 @@ Baby gone
 Just think what we 
 could become
 Make me number one."
-"Joacim Cans";2013;"Annelie";"Vakna Annelie
+"2013_2_3";"Joacim Cans";2013;"Annelie";"Vakna Annelie
 La-la-la-la-lie
 Slå upp ögonen
 Vakna Annelie
@@ -29701,7 +29701,7 @@ Vakna Annelie
 Bara du och jag
 Bara för en dag
 Annelie."
-"Swedish House Wives";2013;"On Top of the World";"We´re going with flow
+"2013_2_4";"Swedish House Wives";2013;"On Top of the World";"We´re going with flow
 Going with flow
 Moving to the beat
 Moving to the beat.
@@ -29874,7 +29874,7 @@ We are dancing on top
 Dancing on top 
 Dancing on top of
 the world."
-"Erik Segerstedt & Tone Damli";2013;"Hello Goodbye";"Erik: 
+"2013_2_5";"Erik Segerstedt & Tone Damli";2013;"Hello Goodbye";"Erik: 
 Hello Goodbye
 You were perfect 
 but now
@@ -30043,7 +30043,7 @@ Hello Goodbye
 We´ll go our 
 separates ways
 Our separates ways."
-"Louise Hoffsten";2013;"Only the Dead Fish Follow The Stream";"If you don't fight no one else will
+"2013_2_6";"Louise Hoffsten";2013;"Only the Dead Fish Follow The Stream";"If you don't fight no one else will
 give it a try , keep it alive
 To see the view you got to climb the hill
 give it a try, get to know why
@@ -30084,7 +30084,7 @@ Only the dead fish follow the stream
 No, nothing is ever what it seems
 You can do whatever if you know when and why
 Only the dead fish follow the stream"
-"Rikard Wolff & Sara Isaksson";2013;"En förlorad sommar";"vår kärlek är 
+"2013_2_7";"Rikard Wolff & Sara Isaksson";2013;"En förlorad sommar";"vår kärlek är 
 En förlorad sommar
 Ett sent augusti
 Där gräset snart är gult
@@ -30193,7 +30193,7 @@ Livet är
 En förlorad sommar
 Ett sent augusti
 Där vi får börja om."
-"Sean Banan";2013;"Copacabanana";"Äh.äh.äh
+"2013_2_8";"Sean Banan";2013;"Copacabanana";"Äh.äh.äh
 Min folk
 Jag är tillbaka
 Mina damer på min herr
@@ -30374,7 +30374,7 @@ Mer konfetti
 Och mera dans
 Det blir en svettig
 Gul allians."
-"Eddie Razaz";2013;"Alibi";"It might break my heart
+"2013_3_1";"Eddie Razaz";2013;"Alibi";"It might break my heart
 Might tear me apart
 But I was addicted
 Right from the start
@@ -30569,7 +30569,7 @@ World on fire
 Need no reason why
 Need no alibi
 Alibi"
-"Elin Petersson";2013;"Island";"Yoho.o.o.o
+"2013_3_2";"Elin Petersson";2013;"Island";"Yoho.o.o.o
 Yoho.o.o.o
 You were blue to me
 So I was green for you and
@@ -30660,7 +30660,7 @@ Still you wouldn´t let me
 Get to know
 Ohoo.oo
 Yohoo.oo"
-"Ravaillacz";2013;"En riktig jävla schlager";"Jo, pojkar ni förstår
+"2013_3_3";"Ravaillacz";2013;"En riktig jävla schlager";"Jo, pojkar ni förstår
 I min tyska ordbok står
 Att ordet ”schlager” 
 kommer utav tyskans
@@ -30835,7 +30835,7 @@ En riktig jävla
 schlager
 Så rösta på oss
 Ge oss er poäng."
-"Amanda Fondell";2013;"Dumb";"The way he moves, the way he dress
+"2013_3_4";"Amanda Fondell";2013;"Dumb";"The way he moves, the way he dress
 the way he speaks when he's depressed
 I'm never bored 
 he says reality's a froad
@@ -30918,7 +30918,7 @@ When it's all done done done done
 in a second he's gone gone
 He said that's what he felt and
 I am just that dumb"
-"Martin Rolinski";2013;"In And out of Love";"Deep down inside there's a feeling
+"2013_3_5";"Martin Rolinski";2013;"In And out of Love";"Deep down inside there's a feeling
 There's something I just have to know 
 My friends tell me I should stop dreaming
 That I have to learn to say no
@@ -31003,7 +31003,7 @@ If this time it's for real?
 I need to know
 Need to know
 Need to know"
-"Caroline af Ugglas";2013;"Hon har inte";"Så många år har du älskat mig, dyrkat mig, bara mig
+"2013_3_6";"Caroline af Ugglas";2013;"Hon har inte";"Så många år har du älskat mig, dyrkat mig, bara mig
 Du har älskat mitt hår, mina händer, mina ögon, och min mun
 Du ville va med mig
 Så du sa ja till mig
@@ -31084,7 +31084,7 @@ Ja hon har inte gått och lagt sig
 Skyllt på att hon är så trött
 Varit gnällig, varit svag
 Hon har inte…hon har inte"
-"State of Drama";2013;"Falling";"She passes by, with or without her beautiful smile
+"2013_3_7";"State of Drama";2013;"Falling";"She passes by, with or without her beautiful smile
 I wonder if I, even have the courage to ask her out
 But I live by the dream, to find the reason, to tell her
 Put your favorite dress on girl, cause I'm gonna rock your world
@@ -31125,7 +31125,7 @@ There´s a place where you never have been before
 Looking at the moon outside, It's getting pretty bright tonight
 Feel the beat of my heart, cause I´m falling
 Feel the beat of my heart, cause I´m falling"
-"Janet Leon";2013;"Heartstrings";"Look at me now
+"2013_3_8";"Janet Leon";2013;"Heartstrings";"Look at me now
 I´m standing in
 The su.u.u.u.u.n
 Everything´s changed
@@ -31324,7 +31324,7 @@ World
 We´re living again
 Showing the world
 We´re living again."
-"Army of Lovers";2013;"Rockin’ the Ride";"Na – na -  na – na – na 
+"2013_4_1";"Army of Lovers";2013;"Rockin’ the Ride";"Na – na -  na – na – na 
 Na – na  -  na – na – na 
 Dranger
 Bouleverser avaler
@@ -31493,7 +31493,7 @@ We´re rockin, the rockin,
 the rockin, the rockin, 
 the rockin, the rockin 
 Rockin the ride."
-"Lucia Piñera";2013;"Must Be Love";"Some people say
+"2013_4_2";"Lucia Piñera";2013;"Must Be Love";"Some people say
 It´like dancing in the rain
 Some people say
 It´s like running with the flames
@@ -31668,7 +31668,7 @@ looove
 lalalalala
 Ohohoho
 It must be love"
-"Robin Stjernberg";2013;"You";"Hey, do you remember
+"2013_4_3";"Robin Stjernberg";2013;"You";"Hey, do you remember
 How we would stay up
 all night
 Talking about our destiny
@@ -31825,7 +31825,7 @@ Outro  (0´07)
 Hey – ey
 Hey – ey
 Hey - ey"
-"Sylvia Vrethammar";2013;"Trivialitet";"En trottoarservering
+"2013_4_4";"Sylvia Vrethammar";2013;"Trivialitet";"En trottoarservering
 Gjord för oss
 Vi slår oss ner
 En liten stund
@@ -31972,7 +31972,7 @@ Oho
 En livsnödvändig
 Trivialiteeet
 Ja"
-"Ralf Gyllenhammar";2013;"Bed on Fire";"I try to sleep
+"2013_4_5";"Ralf Gyllenhammar";2013;"Bed on Fire";"I try to sleep
 In a bed on fire
 A change must come
 No matter how
@@ -32035,7 +32035,7 @@ Early riser, duties calling
 What a life, it's so boring
 I wanna' snooze, oh no!
 Here it comes that bloody morning"
-"Behrang Miri & Loulou Lamotte & Oscar Zia";2013;"Jalla Dansa Sawa";"E du me, vill du vara me och haffa på/
+"2013_4_6";"Behrang Miri & Loulou Lamotte & Oscar Zia";2013;"Jalla Dansa Sawa";"E du me, vill du vara me och haffa på/
 Brush, samla alla, vi blir massa folk/
 Varför vara stängd som ett kassaskåp/
 För du lär förstå/ Med vår swag*, lets go/
@@ -32194,7 +32194,7 @@ Ale, Ale, Ale
 Ya omri ana (Du är mitt liv)
 Habibi Anna (Min kära)
 Jalla, Dansa, Sawa (Kom igen, låt oss dansa tillsammans)"
-"Terese Fredenwall";2013;"Breaking the Silence";"It's your life, it's your moment
+"2013_4_7";"Terese Fredenwall";2013;"Breaking the Silence";"It's your life, it's your moment
 And they're holding their breath cause tonight
 It's your time to step into the light
 They have kept you for years now
@@ -32227,7 +32227,7 @@ Who said perfect is pretty?
 Who said you're the mistakes you have made?
 Lift your eyes and stand up straight
 ‘Cause you have no idea how strong you are"
-"Ulrik Munther";2013;"Tell the World I'm Here";"I've been afraid through all my life
+"2013_4_8";"Ulrik Munther";2013;"Tell the World I'm Here";"I've been afraid through all my life
 But I'm not afraid tonight
 I pack my bags, I throw the dice
 Tonight I leave it all behind
@@ -32276,7 +32276,7 @@ I'm not far away, just tell the world
 I'm on my way, yes I'm on my way
 I'm not far away, just tell the world I'm here
 Tell the world I'm here"
-"Yohio";2014;"To The End";"When the day breaks 
+"2014_1_1";"Yohio";2014;"To The End";"When the day breaks 
 and your heart aches
 When you feel like
 your soul is crying
@@ -32373,7 +32373,7 @@ Oho
 You will be loved, will be loved
 Be loved
 Be loved"
-"Mahan Moin";2014;"Aleo";"Put on your face and
+"2014_1_2";"Mahan Moin";2014;"Aleo";"Put on your face and
 stand outside you
 and look at you now
 Who are you
@@ -32498,7 +32498,7 @@ Get up, get up, get up
 Pasho pasho, e - e
 Pasho pasho, o – e – e
 Formidable"
-"Linus Svenning";2014;"Bröder";"Du sken bland stjärnorna
+"2014_1_3";"Linus Svenning";2014;"Bröder";"Du sken bland stjärnorna
 Som en motorväg av lju..s
 Du var min lekkamrat
 När vi föll för stadens bru.....s
@@ -32585,7 +32585,7 @@ Men dagen är svår
 Den var vår
 Kära bröder kära kära brööder
 Vad kan man göra när ett hjärta blöder"
-"Elisa Lindström";2014;"Casanova";"Jag tog en liten sväng
+"2014_1_4";"Elisa Lindström";2014;"Casanova";"Jag tog en liten sväng
 med din nya bil
 Jag borde väl ha vänt
 men den stack som en pil oh
@@ -32722,7 +32722,7 @@ För jag har checkat ut från
 mitt hus ikväll
 Men du kan säkert hitta något
 bra hotell inaatt"
-"Alvaro Estrella";2014;"Bedroom";"Oh the night was hopping 
+"2014_1_5";"Alvaro Estrella";2014;"Bedroom";"Oh the night was hopping 
 There were sweat stains on the dance floor
 Oho
 I saw you in the corner with your eyes on mine
@@ -32889,7 +32889,7 @@ Boom boom boom boom
 Boom boom boom boom
 Boom boom boom boom
 Never made it to the bedroom room"
-"Ellen Benediktson";2014;"Songbird";"Nights
+"2014_1_6";"Ellen Benediktson";2014;"Songbird";"Nights
 Wait at the door
 And they threaten to tear me apart
 Quiet
@@ -32960,7 +32960,7 @@ Sing me away from here
 With words for the broken
 You can fly where I cannot fly
 Sing for me songbird siiiing"
-"Sylvester Schlegel";2014;"Bygdens son";"Sen jag var liten
+"2014_1_7";"Sylvester Schlegel";2014;"Bygdens son";"Sen jag var liten
 har jag alltid drömt om
 Stora världen utanför nån annanstans
 Alltid vetat att nånting nån gång
@@ -33073,7 +33073,7 @@ bygdens son
 Inte här för att be nån om lov
 Buga er för bygdens soon
 Buga er för bygdens soon"
-"Helena Paparizou";2014;"Survivor";"I,  I,  I survive
+"2014_1_8";"Helena Paparizou";2014;"Survivor";"I,  I,  I survive
 I,  I,  I survive
 Seven days and seven nights
 You left me on my own
@@ -33180,7 +33180,7 @@ Just call me a survivor
 Such a strong desiiire
 Gonna let it go, let it go
 I'm gonna survive"
-"J.E.M";2014;"Love Trigger";"Lock and load so lets go hey 
+"2014_2_1";"J.E.M";2014;"Love Trigger";"Lock and load so lets go hey 
 think i fell in love on the floor hey
 got my hands up like a stick up stick up 
 I'm dangerous i didn't know hey
@@ -33319,7 +33319,7 @@ Oh oh oh
 You pull my Love trigger, Love trigger
 Oh oh oh
 You pull my Love trigger, Love trigger"
-"The Refreshments";2014;"Hallelujah";"I'd been comin down an lonely road as far as I could see
+"2014_2_2";"The Refreshments";2014;"Hallelujah";"I'd been comin down an lonely road as far as I could see
 Followin' a trail of tears
 Then the Good Lord must have thought I'd finally deserved
 An angel for all the lonely years
@@ -33378,7 +33378,7 @@ There's somebody waitin' for me
 Hallelujah Hallelujah
 There's somebody waitin' for me
 Yeah, There's somebody waitin' for me"
-"Manda";2014;"Glow";"If only you could tell you are
+"2014_2_3";"Manda";2014;"Glow";"If only you could tell you are
 A work of art, a shining star,
 You wouldn't be afraid to shi - i - ine.
 You focus on what isn't right
@@ -33469,7 +33469,7 @@ You're original, head to heel!
 A step beyond unreal!
 Don't you know, don't you know
 That you're beautiful in your own way!"
-"Panetoz";2014;"Efter solsken";"Efter solsken kommer värsta regnet
+"2014_2_4";"Panetoz";2014;"Efter solsken";"Efter solsken kommer värsta regnet
 Det är inget hinder för jag glider genom stormen
 Det är bara hata, fortsätt och prata
 Finns ingenting som kan trycka ner mig, ej
@@ -33618,7 +33618,7 @@ Mig mig mig mig
 Allt jag behöver har jag inom mig
 Mig mig mig mig
 Allt jag behöver har jag inom mig"
-"Pink Pistols";2014;"I am somebody";"I am somebody
+"2014_2_5";"Pink Pistols";2014;"I am somebody";"I am somebody
 Stand up
 winds of change are blowin' strong
 can anybody hear me
@@ -33745,7 +33745,7 @@ Without the right to give my love away
 The rainbows shinin'
 It's glorifyin'
 I am somebody!"
-"Sanna Nielsen";2014;"Undo";"Silent I can't wait here silent
+"2014_2_6";"Sanna Nielsen";2014;"Undo";"Silent I can't wait here silent
 Working up a storm inside my he..ad
 Nothing I just stood for nothing
 So I fell for every thing you sa...id
@@ -33822,7 +33822,7 @@ At last I know what I should do
 Uuundo my saad
 I saaid
 Undo"
-"Little Great Things";2014;"Set yourself free";"Facing floors, slamming doors
+"2014_2_7";"Little Great Things";2014;"Set yourself free";"Facing floors, slamming doors
 you know that you're sick of
 what you've felt so many times before
 don't know what it's for, can't take any more,
@@ -33933,7 +33933,7 @@ Cause though it feels great to pretend
 It's all just a matter of when
 you've felt it before
 leave him be, set your self free"
-"Martin Stenmarck";2014;"När änglarna går hem";"Jag har ännu en gång
+"2014_2_8";"Martin Stenmarck";2014;"När änglarna går hem";"Jag har ännu en gång
 stått längst ut på en kant
 Men när jag skall hoppa stannar tiden
 Och filmen spelas upp igen
@@ -34024,7 +34024,7 @@ Jag kommer varje gång när
 Jag kommer varje gång när
 Jag kommer varje gång när
 Jag kommer varje gång jag hör dig kalla"
-"Outtrigger";2014;"Echo";"Pulling out the creature out his cage
+"2014_3_1";"Outtrigger";2014;"Echo";"Pulling out the creature out his cage
 Couldn't hide the fear upon your face
 But cover up his war and
 you'll survi..i..i..ve
@@ -34121,7 +34121,7 @@ Hear the echo round the
 Wooooorld
 Gonna get what you deserve
 Deseerve"
-"Eko";2014;"Red";"Hunting
+"2014_3_2";"Eko";2014;"Red";"Hunting
 Hunting your heart I'm breathing
 Breathing your lungs I'm moving
 Moving your lips you're the one thing
@@ -34222,7 +34222,7 @@ Let our love, let our loove
 Gotta let your love, let your love bleed
 Gotta let your love
 Colour us red"
-"Oscar Zia";2014;"Yes We Can";"No
+"2014_3_3";"Oscar Zia";2014;"Yes We Can";"No
 No, No one's gonna tell us what's right
 No one's gonna tell us what's wrong
 We're just gonna be who we a..a..re
@@ -34357,7 +34357,7 @@ Yes we caan
 Gods and Kings has made this plan
 To the no, wego
 Yes we caan"
-"Shirley Clamp";2014;"Burning Alive";"Well here you are again
+"2014_3_4";"Shirley Clamp";2014;"Burning Alive";"Well here you are again
 Burning a hole in me
 Hole in me, soul of me
 I never had a chance
@@ -34444,7 +34444,7 @@ Thinking I'm flying
 But I'm just falling over again, oh
 You got me dreaming
 And it's burning me alive"
-"State of Drama";2014;"All We Are";"It's all we are
+"2014_3_5";"State of Drama";2014;"All We Are";"It's all we are
 All we are, hey
 All we are
 All we are
@@ -34613,7 +34613,7 @@ This is what we do
 This is what we say
 It's all we are
 All we are"
-"CajsaStina Åkerström";2014;"En enkel sång";"Så slocknar åter ljusen
+"2014_3_6";"CajsaStina Åkerström";2014;"En enkel sång";"Så slocknar åter ljusen
 På livets nötta scen
 Och ut från lokalen
 Strömmar de en och e..e..e..n
@@ -34708,7 +34708,7 @@ Varje hand ett hem
 Kort mellanspel  (0,03”)
 Varje möte, ett avsked
 Varje hand ett hem"
-"Ace Wilder";2014;"Busy Doin' Nothin'";"I am, not made for working overtime
+"2014_3_7";"Ace Wilder";2014;"Busy Doin' Nothin'";"I am, not made for working overtime
 And you know
 Don't even like the nine to five
 I wish all those lazy days were everyday
@@ -34855,7 +34855,7 @@ Don't wanna work, work, work
 I wanna make money while I sleep
 Dont wanna work, work, work
 Don't wanna work"
-"Dr. Alban & Jessica Folcker";2014;"Around the World";"To all the people around the whole world
+"2014_3_8";"Dr. Alban & Jessica Folcker";2014;"Around the World";"To all the people around the whole world
 To every boy and to every gi..i..rl
 go ahead and glo..o..w
 around the world, around the world - ehh
@@ -34992,7 +34992,7 @@ Now it's gotta be more than just words
 We can fight anything with this loove
 Go on let it shoow
 Around the world, around the world -  ehh"
-"Alcazar";2014;"Blame It on the Disco";"(Blame it on the Disco, Disco, Disco
+"2014_4_1";"Alcazar";2014;"Blame It on the Disco";"(Blame it on the Disco, Disco, Disco
 Blame it on the Disco, Disco, Disco
 Blame it on the Disco, Disco, Disco
 Blame it on the Disco, Disco, Disco
@@ -35137,7 +35137,7 @@ Dance till tomorrow comes
 (Blame it on the Disco, Disco, Disco
 Blame it on the Disco, Disco, Disco
 Disco, Disco, Disco)"
-"I.D.A";2014;"Fight Me If You Dare";"It is hard to make my feelings right
+"2014_4_2";"I.D.A";2014;"Fight Me If You Dare";"It is hard to make my feelings right
 There's no way that I can think straight
 Trying hard
 I'll be on my guard
@@ -35272,7 +35272,7 @@ My future's bright
 won't give up without a fight
 Oh I swear
 fight me if you dare"
-"Janet Leon";2014;"Hollow";"Baby
+"2014_4_3";"Janet Leon";2014;"Hollow";"Baby
 Remember when we used to say
 Someda..y
 We'll be standing in the colour rain
@@ -35363,7 +35363,7 @@ I don't wanna fall down again,
 into the empty space of hollow
 Hollow that is all I feel
 I want you back with me"
-"Ammotrack";2014;"Raise Your Hands";"I'm alive now ready to fight for
+"2014_4_4";"Ammotrack";2014;"Raise Your Hands";"I'm alive now ready to fight for
 what I've been dreaming of
 Hit the lights and bring it on
 Get on the ride, get ready to fly 
@@ -35462,7 +35462,7 @@ You know it feels so right
 Now get ready for a hell of a ride
 Raise your hands up high
 Oho – oho - oho"
-"Josef Johansson";2014;"Hela natten";"Låter som en sång du hört förut
+"2014_4_5";"Josef Johansson";2014;"Hela natten";"Låter som en sång du hört förut
 Den går på repeat, tar aldrig slut
 Fulla glas och tomma löften
 Du är värd så mycket mer
@@ -35561,7 +35561,7 @@ Jag vill hålla
 Jag vill hålla
 Jag vill hålla dig hela natten
 Jag vill hålla dig hela natten"
-"Linda Bengtzing";2014;"Ta mig";"Så sakta rinner den förbi
+"2014_4_6";"Linda Bengtzing";2014;"Ta mig";"Så sakta rinner den förbi
 en flod av det vi kallar tid
 Min älskling
 vi är inte vi
@@ -35714,7 +35714,7 @@ jag står still
 Jag vill vara jag
 som jag var
 när jag log"
-"Ellinore Holmer";2014;"En himmelsk sång";"När du kom till mig
+"2014_4_7";"Ellinore Holmer";2014;"En himmelsk sång";"När du kom till mig
 där jag va..r
 Såg jag någon så.., underba..r
 Tänk att du fann mi..g
@@ -35779,7 +35779,7 @@ I en himmelsk sång
 Med dig gång på gååång
 I en himmelsk sång
 Med dig gång på gång"
-"Anton Ewald";2014;"Natural";"How can I go o..n
+"2014_4_8";"Anton Ewald";2014;"Natural";"How can I go o..n
 Pretending it ain't tru..e
 And how can I grow stro..o..ng
 Without that smile I kne..w
