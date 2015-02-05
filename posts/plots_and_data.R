@@ -211,7 +211,23 @@ json <- jsonlite::toJSON(
 )
 
 cat(json, file = "frontend/data/songs_sentiment.json")
-  
-  
-  
-  
+
+# Språk
+json <- jsonlite::toJSON(
+  wl %>%
+    filter(winner == 1) %>% 
+    group_by(language) %>%
+    dplyr::summarise(winners = length(language)) %>% 
+    left_join(
+      wl %>%
+        filter(winner == 0) %>% 
+        group_by(language) %>%
+        dplyr::summarise(losers = length(language))
+    ),
+  pretty = TRUE
+)
+
+cat(json, file = "frontend/data/songs_language.json")
+
+
+
