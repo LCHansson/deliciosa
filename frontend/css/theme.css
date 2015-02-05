@@ -212,6 +212,19 @@ footer a {
 }
 
 
+/* Graphs */
+
+svg,
+text {
+    font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px !important;
+    font-weight: 200 !important;   
+}
+
+text.highcharts-title {
+    font-family: 'League Spartan';
+    font-size: 18px !important;
+}
 
 
 .vertical-center {
@@ -446,15 +459,6 @@ div.dataTables_wrapper {
         text-align: center;
         margin: 0px 0px 20px;
     }
-}
-
-text.highcharts-title {
-    font-family: 'League Spartan';
-    font-size: 14px !important;
-}
-
-svg {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
 }
 
 
