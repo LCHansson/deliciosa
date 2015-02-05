@@ -3,19 +3,19 @@ IndexIgnore *
 
 
 
+
 RewriteEngine on
-RewriteBase /
-
-
 
 # week 1
-#RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} "^/$" [OR]
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{TIME} >20150206075959
 RewriteRule .* week1.html [L]
 
 # before week 1
-#RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} "^/$" [OR]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f 
 RewriteCond %{TIME} <20150206080000
 RewriteRule .* week0.html [L]
