@@ -341,14 +341,6 @@ ul.nav-pills>li {
     color: #ffffff !important;
 }
 
-.alignTextRight {
-    text-align: right;
-}
-
-.alignTextLeft {
-    text-align: left;
-}
-
 
 @-webkit-viewport   { width: device-width; }
 @-moz-viewport      { width: device-width; }
@@ -357,105 +349,75 @@ ul.nav-pills>li {
 @viewport           { width: device-width; }
 
 
-
-/*#firstPost thead,*/
-#firstPost table.dataTable thead th.sorting_disabled,
-#firstPost table.dataTable thead th.sorting_desc,
-#firstPost table.dataTable thead th.sorting_asc,
-#firstPost .modal-header/*,
-#firstPost .modal-footer*/ {
-
-    /*background-color: #00bbdb;
-    color: #ffffff;*/
-    color: #00bbdb;
-}
-
-#firstPost table.dataTable thead th.sorting,
-#firstPost .modal-header{
-    /*color: #00bbdb;*/
-    background-color: #00bbdb;
-    color: #ffffff;
-}
-
-#firstPost table.dataTable thead th.sorting:hover,
-#firstPost table.dataTable thead th.sorting_desc:hover,
-#firstPost table.dataTable thead th.sorting_asc:hover {
-    text-decoration: underline;
-}
-
-
-table.dataTable {
-    border-collapse: collapse;
-}
-
-table thead {
-    font-family: 'League Spartan';
-    font-size: 14px;
-}
-
-#firstPost thead th {
-    border: 2px solid #00bbdb;
-}
-
-#firstPost tbody td {
-    padding: 6px 10px 6px 10px;
-}
-
-
-#firstPost thead th {
-    padding: 10px 10px 10px 10px;
-    background: none;
-}
-
-#firstPost table td:first-child,
-#firstPost table th:first-child{
-    padding-right: 0;
-}
-
-#firstPost table.dataTable.no-footer {
-    border-bottom: 1px solid #00bbdb;
-}
-
-.dataTables_wrapper .dataTables_filter {
-    float: left;
-    text-align: left;
-}
-
-.dataTables_wrapper .dataTables_paginate .paginate_button {
-    padding: 0.5em 0;
-}
-
-#firstPost #loveWordsTable .btn {
-    padding: 0;
-}
-
-@media(max-width:767px){
-    div.col-md-6:first-child {
-        margin-bottom: 2em;
-    }
-}
+/* Modal */
 
 .modal-content {
     border-radius: 0;
 }
 
-.dataTables_wrapper .dataTables_paginate {
-    text-align: center;
-    float: none;
+#firstPost .modal-header {
+    background-color: #00bbdb;
+    color: #ffffff;
 }
 
-div.dataTables_wrapper {
+
+/* Tables */
+
+table.dataTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+table.dataTable thead {
+    font-family: 'League Spartan';
+    font-size: 14px;
+}
+table.dataTable tbody td {
+    padding: 6px 10px 6px 10px;
+}
+table.dataTable thead th {
+    border: 2px solid black;   
+    padding: 10px 10px 10px 10px;
+}
+table.dataTable tbody tr {
+    border-bottom: 1px solid lightgray;
+}
+table.dataTable .text {
+    text-align: left;
+}
+table.dataTable .count {
+    width: 20%;
+    text-align: right;
+}
+.dataTables_paginate {
+    margin-top: 10px;
+    text-align: center;
+}
+.dataTables_paginate .paginate_button {
+    padding: 3px 6px;
+    cursor: pointer;
+}
+.dataTables_wrapper {
     margin-top: 2em;
 }
 
-#firstPost div.dataTables_paginate a.disabled {
-    color: transparent !important;
+#firstPost table.dataTable thead th {
+    border-color: #00bbdb;
+    cursor: pointer;
 }
 
-#firstPost div.dataTables_paginate a.paginate_button {
-    background: none;
-    border: none;
+#firstPost table.dataTable thead th.sorting_disabled,
+#firstPost table.dataTable thead th.sorting_desc,
+#firstPost table.dataTable thead th.sorting_asc {
+    background: #00bbdb;
+    color: #ffffff;
 }
+
+#firstPost table.dataTable thead th.sorting {
+    color: #00bbdb;
+}
+
+
+/* Get data */
 
 #getData a {
     color: #e70074;

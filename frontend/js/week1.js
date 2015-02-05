@@ -291,7 +291,7 @@ function buildSmallPiechart(data, title, subtitle, whereToRender) {
 
 function week1(){
     $.ajax({
-        type: "POST",
+        type: "GET",
         url: "./data/love_words.json",
         dataType: "json",
         success: function (response) {
@@ -311,7 +311,7 @@ function week1(){
 
         $.ajax({
             async: false,
-            type: "POST",
+            type: "GET",
             url: filename,
             dataType: "json",
             success: function(response) {
@@ -331,7 +331,7 @@ function week1(){
     });
 
     $.ajax({
-        type: "POST",
+        type: "GET",
         url: "./data/texterna_loveprops.json",
         dataType: "json",
         success: function(response) {
@@ -344,7 +344,7 @@ function week1(){
 
     // make the bar chart
     $.ajax({
-        type: "POST",
+        type: "GET",
         url: "./data/texterna_wordfreqs.json",
         dataType: "json",
         success: function (response) {
@@ -361,7 +361,7 @@ function week1(){
 function onClickSongName(element) {
     var filename = "data/lyrics/" + $(element).attr('id') + "_lyrics.json";
     $.ajax({
-        type: "POST",
+        type: "GET",
         url: filename,
         dataType: "json",
         success: function(response) {
@@ -390,63 +390,40 @@ function buildCountsTable() {
     // the table
     var myTable = $('#loveWordsTable').dataTable({
         dom: 'flitp',
-        pageLength: 25,
+        pageLength: 10,
         paging: true,
         order: [[1, "desc"]],
         info: false,
-        searching: true,
+        searching: false,
         bProcessing: true,
         info : false,
         lengthChange: false,
+        autoWidth: false,
         language: {
             paginate: {
-                next: "nästa",
-                previous: "föregående"
+                next: "▶",
+                previous: "◀"
             },
-            search: "Sök:",
             loadingRecords: "Laddar ..."
         },
         sAjaxSource: "./data/texterna_sent_lovew_counts.json",
 
         aoColumns: [
-
             {
-                sClass: "alignTextLeft",
+                sClass: "text",
                 aTargets: [0],
                 bSortable: true,
                 sTitle: "Låt",
                 searchable: true,
                 "mRender": function (songName, type, row) {
-                    var button = '<button type="button" class="btn btn-link" data-toggle="modal" ';
-                    button += 'data-target="#textModalID" data-hl-lovewords="true" id="' + row[3] + '" ';
-                    button += '>';
-                    button += songName + '</button>';
-
-                    return button;
+                    var link = '<a href="" data-toggle="modal" data-target="#textModalID" '
+                    link += 'data-hl-lovewords="true" id="' + row[3] + '">';
+                    link += songName + '</a>';
+                    return link;
                 }
             },
-            //{
-            //    sClass: "alignTextLeft",
-            //    aTargets: [1],
-            //    bSortable: true,
-            //    sTitle: "Låt",
-            //    "mRender": function (songName, type, row) {
-            //        var button = '<button type="button" class="btn btn-link" data-toggle="modal" ';
-            //        button += 'data-target="#textModalID" id="' + row[4] + '" ';
-            //        button += '>';
-            //        button += songName + '</button>';
-            //
-            //        return button;
-            //    }
-            //},
-            //{
-            //    sClass: "alignTextLeft",
-            //    aTargets: [2],
-            //    bSortable: true,
-            //    sTitle: "År"
-            //},
             {
-                sClass: "alignTextRight",
+                sClass: "count",
                 aTargets: [1],
                 bSortable: true,
                 aDataSort: [1],
@@ -454,36 +431,19 @@ function buildCountsTable() {
                 sTitle: "Antal kärleksord"
             },
             {
-                sClass: "alignTextRight",
+                sClass: "count",
                 aTargets: [2],
                 bSortable: true,
                 aDataSort: [2],
                 searchable: true,
                 sTitle: "Glädjepoäng"
-            },
-            {
-                aTargets: [3],
-                bVisible: false,
-                searchable: false
             }
         ]
-        /*
-         "fnInitComplete": function (){
-         $(myTable.fnGetNodes()).click(function (){
-         console.log("Bla");
-         });
-         }*/
     });
 
 }
 
 function week1Collapse() {
-
     // build the table
     buildCountsTable();
-
-
-
-
-
  }
