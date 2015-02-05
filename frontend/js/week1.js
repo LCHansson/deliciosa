@@ -308,6 +308,7 @@ function week1(){
         var modal = $(this);
         modal.find('.modal-title').html("");
         modal.find('.modal-body').html("");
+        modal.find('.modal-meta').html("");
 
         $.ajax({
             async: false,
@@ -320,6 +321,10 @@ function week1(){
 
                 modal.find('.modal-title').html(response.song_name);
                 modal.find('.modal-body').html(text);
+                var meta = "Kärleksorden är blåmarkerade.<br>" +
+                    "Antal kärleksord: " + response.no_love_words +"<br>" +
+                    "Glädjepoäng: " + response.happy_score;
+                modal.find('.modal-meta').html(meta);
                 return false;
             },
             error: function(jqXHR, textStatus, errorThrown) {
@@ -388,13 +393,13 @@ function formatSongTexts(text, loveWords) {
 function buildCountsTable() {
 
     // the table
-    var myTable = $('#loveWordsTable').dataTable({
-        dom: 'flitp',
+    var myTable = $('#loveWordsTable').DataTable({
+        dom: 'litp',
         pageLength: 10,
         paging: true,
         order: [[1, "desc"]],
         info: false,
-        searching: false,
+        searching: true,
         bProcessing: true,
         info : false,
         lengthChange: false,
@@ -440,6 +445,13 @@ function buildCountsTable() {
             }
         ]
     });
+
+    var input = $("<input type='text' placeholder='Sök' value='' style='color: #00bbdb;'>").on("keyup change", function(e){
+        myTable.search(this.value).draw();
+    }).on("click", function(e){
+        e.stopPropagation();
+    });
+    $('#loveWordsTable th:first-child').append( input);
 
 }
 
