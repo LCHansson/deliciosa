@@ -7,7 +7,7 @@ library("jsonlite")
 
 ## Lyrics ----
 lyrics_export <- mello_data %>% 
-  select(artist, year, song_name, lyrics, lyrics_cleaned)
+  select(id, artist, year, song_name, lyrics, lyrics_cleaned)
 
 # JSON
 json <- jsonlite::toJSON(
