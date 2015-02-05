@@ -5,11 +5,11 @@ $(function () {
         var $this = $(this);
         var $collapse = $this.closest('.collapse-group').find('.collapse');
         $collapse.collapse('toggle');
-        $collapse.on('hide.bs.collapse', function () {
+        /*$collapse.on('hide.bs.collapse', function () {
             $('html, body').animate({
                 scrollTop: $this.offset().top - $collapse.height() - 200
             }, 0);
-        });
+        });*/
 
         var postNr = $this.closest('.collapse-group').attr("data-post")
         if ( !firstPostLoaded & postNr == 1 ){
