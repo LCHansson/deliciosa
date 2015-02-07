@@ -1,0 +1,6087 @@
+[
+    {
+        "songs": [
+            {
+                "artist": "Andreas Johnson", 
+                "final_jury_points": 50, 
+                "final_placing": 6, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 0, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 4, 
+                "song_id": "2010_2_6", 
+                "song_name": "We Can Work It Out", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Andreas Johnson", 
+                    "Bobby Ljunggren", 
+                    "Marcos Ubeda"
+                ], 
+                "winner": false, 
+                "year": 2010
+            }, 
+            {
+                "artist": "Sanna Nielsen", 
+                "final_jury_points": 33, 
+                "final_placing": 7, 
+                "final_tel_points": 11, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 10, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 3, 
+                "song_id": "2007_4_3", 
+                "song_name": "Vågar du, vågar jag", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Fredrik Kempe", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2007
+            }, 
+            {
+                "artist": "Sonja Aldén", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 3, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 0, 
+                "song_id": "2012_2_3", 
+                "song_name": "I din himmel", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Sonja Aldén", 
+                    "Bobby Ljunggren", 
+                    "Peter Boström"
+                ], 
+                "winner": false, 
+                "year": 2012
+            }, 
+            {
+                "artist": "Sonja Aldén", 
+                "final_jury_points": 40, 
+                "final_placing": 6, 
+                "final_tel_points": 22, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 27, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 4, 
+                "song_id": "2007_3_7", 
+                "song_name": "För att du finns", 
+                "tm_genders": [
+                    "F", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Sonja Aldén", 
+                    "Bobby Ljunggren"
+                ], 
+                "winner": false, 
+                "year": 2007
+            }, 
+            {
+                "artist": "Josef", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": -10000, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": -10000, 
+                "song_id": "2005_3_5", 
+                "song_name": "Rain", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Annelie Martin", 
+                    "Martin Blix", 
+                    "Henrik Wikström", 
+                    "Bobby Ljunggren"
+                ], 
+                "winner": false, 
+                "year": 2005
+            }, 
+            {
+                "artist": "Shirley Clamp", 
+                "final_jury_points": 86, 
+                "final_placing": 4, 
+                "final_tel_points": 44, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 19, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 7, 
+                "song_id": "2005_1_8", 
+                "song_name": "Att älska dig", 
+                "tm_genders": [
+                    "F", 
+                    "F", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Sonja Aldén", 
+                    "Shirley Clamp", 
+                    "Robert Olausson", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2005
+            }, 
+            {
+                "artist": "Papa Dee", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 16, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 5, 
+                "song_id": "2005_1_3", 
+                "song_name": "My no. 1", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Daniel Wahlgren", 
+                    "Bobby Ljunggren", 
+                    "Marcos Ubeda"
+                ], 
+                "winner": false, 
+                "year": 2005
+            }, 
+            {
+                "artist": "Aleena", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 33, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 3, 
+                "song_id": "2003_2_7", 
+                "song_name": "Better Believe It", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Anna-Lena Högdahl", 
+                    "Bobby Ljunggren", 
+                    "Tommy Lydell"
+                ], 
+                "winner": false, 
+                "year": 2003
+            }, 
+            {
+                "artist": "Alcazar", 
+                "final_jury_points": 62, 
+                "final_placing": 3, 
+                "final_tel_points": 110, 
+                "gender": [
+                    "F", 
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "happy_score": -28, 
+                "in_final": true, 
+                "is_band": true, 
+                "love_count": 7, 
+                "song_id": "2003_2_8", 
+                "song_name": "Not a Sinner, Nor a Saint", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Lotta Ahlin", 
+                    "Bobby Ljunggren", 
+                    "Tommy Lydell"
+                ], 
+                "winner": false, 
+                "year": 2003
+            }, 
+            {
+                "artist": "Sahlene", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 15, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 4, 
+                "song_id": "2003_4_1", 
+                "song_name": "We're Unbreakable", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Anna-Lena Högdahl", 
+                    "Robert Olausson", 
+                    "Bobby Ljunggren"
+                ], 
+                "winner": false, 
+                "year": 2003
+            }, 
+            {
+                "artist": "Molly Sandén", 
+                "final_jury_points": 2, 
+                "final_placing": 11, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 31, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 7, 
+                "song_id": "2009_3_3", 
+                "song_name": "Så vill stjärnorna", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Ingela \"Pling\" Forsman", 
+                    "Bobby Ljunggren", 
+                    "Marcos Ubeda"
+                ], 
+                "winner": false, 
+                "year": 2009
+            }, 
+            {
+                "artist": "Svante Thuresson & Anne-Lie Rydé", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M", 
+                    "F"
+                ], 
+                "happy_score": 12, 
+                "in_final": false, 
+                "is_band": true, 
+                "love_count": 0, 
+                "song_id": "2007_2_7", 
+                "song_name": "Första gången", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Sonja Aldén", 
+                    "Bobby Ljunggren", 
+                    "Dan Sundqvist"
+                ], 
+                "winner": false, 
+                "year": 2007
+            }, 
+            {
+                "artist": "Regina Lund", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 32, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 0, 
+                "song_id": "2007_2_1", 
+                "song_name": "Rainbow Star", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Regina Lund", 
+                    "Fredrik Kempe", 
+                    "Bobby Ljunggren"
+                ], 
+                "winner": false, 
+                "year": 2007
+            }, 
+            {
+                "artist": "Fredrik Kempe & Sanna Nielsen", 
+                "final_jury_points": 30, 
+                "final_placing": 8, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": -4, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 15, 
+                "song_id": "2005_2_1", 
+                "song_name": "Du och jag mot världen", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Fredrik Kempe", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2005
+            }, 
+            {
+                "artist": "Barbados", 
+                "final_jury_points": 7, 
+                "final_placing": 10, 
+                "final_tel_points": 0, 
+                "gender": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "happy_score": -14, 
+                "in_final": true, 
+                "is_band": true, 
+                "love_count": 0, 
+                "song_id": "2003_3_1", 
+                "song_name": "Bye, Bye", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Lotta Ahlin", 
+                    "Bobby Ljunggren", 
+                    "Tommy Lydell"
+                ], 
+                "winner": false, 
+                "year": 2003
+            }, 
+            {
+                "artist": "Shirley Clamp", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 5, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 7, 
+                "song_id": "2003_3_7", 
+                "song_name": "Mr. Memory", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Lotta Ahlin", 
+                    "Bobby Ljunggren", 
+                    "Tommy Lydell"
+                ], 
+                "winner": false, 
+                "year": 2003
+            }, 
+            {
+                "artist": "Carola", 
+                "final_jury_points": 102, 
+                "final_placing": 1, 
+                "final_tel_points": 132, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 20, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 6, 
+                "song_id": "2006_4_8", 
+                "song_name": "Evighet", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Carola Häggkvist", 
+                    "Thomas G:son", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": true, 
+                "year": 2006
+            }, 
+            {
+                "artist": "Niclas Wahlgren", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 12, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2006_2_7", 
+                "song_name": "En droppe regn", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Ingela \"Pling\" Forsman", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2006
+            }, 
+            {
+                "artist": "Sonya (Sonja Aldén)", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 32, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 10, 
+                "song_id": "2006_2_3", 
+                "song_name": "Etymon", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Ingela \"Pling\" Forsman", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2006
+            }, 
+            {
+                "artist": "Shirley's Angels", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F", 
+                    "F", 
+                    "F"
+                ], 
+                "happy_score": 5, 
+                "in_final": false, 
+                "is_band": true, 
+                "love_count": 5, 
+                "song_id": "2011_3_5", 
+                "song_name": "I Thought It Was Forever", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Robin Abrahamsson", 
+                    "Alexander Bard", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2011
+            }, 
+            {
+                "artist": "Susanne Alfvengren", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 14, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 8, 
+                "song_id": "2009_4_3", 
+                "song_name": "Du är älskad där du går", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Ingela \"Pling\" Forsman", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2009
+            }, 
+            {
+                "artist": "Amy Diamond", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 11, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 2, 
+                "song_id": "2009_2_6", 
+                "song_name": "It's My Life", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Alexander Bard", 
+                    "Bobby Ljunggren", 
+                    "Oscar Holter"
+                ], 
+                "winner": false, 
+                "year": 2009
+            }, 
+            {
+                "artist": "Elisa Lindström", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 23, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 6, 
+                "song_id": "2014_1_4", 
+                "song_name": "Casanova", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Ingela Pling Forsman", 
+                    "Bobby Ljunggren", 
+                    "Jimmy Jansson"
+                ], 
+                "winner": false, 
+                "year": 2014
+            }, 
+            {
+                "artist": "Helena Paparizou", 
+                "final_jury_points": 57, 
+                "final_placing": 4, 
+                "final_tel_points": 27, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 33, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 4, 
+                "song_id": "2014_1_8", 
+                "song_name": "Survivor", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "F"
+                ], 
+                "tm_list": [
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström", 
+                    "Karl-Ola Kjellholm", 
+                    "Sharon Vaughn"
+                ], 
+                "winner": false, 
+                "year": 2014
+            }, 
+            {
+                "artist": "Anna Sahlene", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 17, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2006_1_3", 
+                "song_name": "This Woman", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Anna Sahlene", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2006
+            }, 
+            {
+                "artist": "Shirley Clamp", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 3, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 8, 
+                "song_id": "2009_1_3", 
+                "song_name": "Med hjärtat fyllt av ljus", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Ingela \"Pling\" Forsman", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2009
+            }, 
+            {
+                "artist": "Bosson", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 26, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 9, 
+                "song_id": "2004_3_8", 
+                "song_name": "Efharisto", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Ingela \"Pling\" Forsman", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2004
+            }, 
+            {
+                "artist": "Shirley Clamp", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": -2, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2014_3_4", 
+                "song_name": "Burning Alive", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "F", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Bobby Ljunggren", 
+                    "Marcos Ubeda", 
+                    "Sharon Vaughn", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2014
+            }, 
+            {
+                "artist": "Sanna Nielsen", 
+                "final_jury_points": 75, 
+                "final_placing": 4, 
+                "final_tel_points": 39, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 63, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 29, 
+                "song_id": "2011_2_5", 
+                "song_name": "I'm in Love", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "F", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Bobby Ljunggren", 
+                    "Thomas G:son", 
+                    "Irini Michas", 
+                    "Peter Boström"
+                ], 
+                "winner": false, 
+                "year": 2011
+            }, 
+            {
+                "artist": "Shirley Clamp", 
+                "final_jury_points": 86, 
+                "final_placing": 2, 
+                "final_tel_points": 88, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 55, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 19, 
+                "song_id": "2004_4_7", 
+                "song_name": "Min kärlek", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Ingela \"Pling\" Forsman", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2004
+            }, 
+            {
+                "artist": "BWO", 
+                "final_jury_points": 70, 
+                "final_placing": 3, 
+                "final_tel_points": 88, 
+                "gender": [
+                    "M", 
+                    "M", 
+                    "F"
+                ], 
+                "happy_score": 66, 
+                "in_final": true, 
+                "is_band": true, 
+                "love_count": 21, 
+                "song_id": "2008_3_1", 
+                "song_name": "Lay Your Love on Me", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Alexander Bard", 
+                    "Anders Hansson", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2008
+            }, 
+            {
+                "artist": "Ainbusk", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F", 
+                    "F", 
+                    "F", 
+                    "F"
+                ], 
+                "happy_score": -5, 
+                "in_final": false, 
+                "is_band": true, 
+                "love_count": 1, 
+                "song_id": "2008_3_7", 
+                "song_name": "Jag saknar dig ibland", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Ingela \"Pling\" Forsman", 
+                    "Henrik Wikström", 
+                    "Bobby Ljunggren"
+                ], 
+                "winner": false, 
+                "year": 2008
+            }, 
+            {
+                "artist": "Suzzie Tapper", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 31, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 10, 
+                "song_id": "2008_1_7", 
+                "song_name": "Visst finns mirakel", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Suzzie Tapper", 
+                    "Amir Aly", 
+                    "Maciel Numhauser", 
+                    "Robin Abrahamsson", 
+                    "Bobby Ljunggren"
+                ], 
+                "winner": false, 
+                "year": 2008
+            }, 
+            {
+                "artist": "Anna Bergendahl", 
+                "final_jury_points": 82, 
+                "final_placing": 1, 
+                "final_tel_points": 132, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": -6, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2010_4_5", 
+                "song_name": "This Is My Life", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Kristian Lagerström", 
+                    "Bobby Ljunggren"
+                ], 
+                "winner": true, 
+                "year": 2010
+            }, 
+            {
+                "artist": "Charlotte Perrelli", 
+                "final_jury_points": 114, 
+                "final_placing": 1, 
+                "final_tel_points": 110, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 82, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 13, 
+                "song_id": "2008_4_8", 
+                "song_name": "Hero", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Fredrik Kempe", 
+                    "Bobby Ljunggren"
+                ], 
+                "winner": true, 
+                "year": 2008
+            }, 
+            {
+                "artist": "Sanna Nielsen", 
+                "final_jury_points": 74, 
+                "final_placing": 2, 
+                "final_tel_points": 132, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": -19, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 3, 
+                "song_id": "2008_2_6", 
+                "song_name": "Empty Room", 
+                "tm_genders": [
+                    "M", 
+                    "F"
+                ], 
+                "tm_list": [
+                    "Bobby Ljunggren", 
+                    "Aleena Gibson"
+                ], 
+                "winner": false, 
+                "year": 2008
+            }
+        ], 
+        "tm": "Bobby Ljunggren"
+    }, 
+    {
+        "songs": [
+            {
+                "artist": "Thorsten Flinck & Revolutionsorkestern", 
+                "final_jury_points": 3, 
+                "final_placing": 8, 
+                "final_tel_points": 40, 
+                "gender": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "happy_score": 4, 
+                "in_final": true, 
+                "is_band": true, 
+                "love_count": 1, 
+                "song_id": "2012_1_7", 
+                "song_name": "Jag reser mig igen", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Thomas G:son", 
+                    "Ted Ström"
+                ], 
+                "winner": false, 
+                "year": 2012
+            }, 
+            {
+                "artist": "Loreen", 
+                "final_jury_points": 114, 
+                "final_placing": 1, 
+                "final_tel_points": 154, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 35, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 7, 
+                "song_id": "2012_1_8", 
+                "song_name": "Euphoria", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Thomas G:son", 
+                    "Peter Boström"
+                ], 
+                "winner": true, 
+                "year": 2012
+            }, 
+            {
+                "artist": "Dynazty", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "happy_score": -29, 
+                "in_final": false, 
+                "is_band": true, 
+                "love_count": 7, 
+                "song_id": "2012_4_3", 
+                "song_name": "Land Of Broken Dreams", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Thomas G:son", 
+                    "Thomas \"Plec\" Johansson"
+                ], 
+                "winner": false, 
+                "year": 2012
+            }, 
+            {
+                "artist": "Linda Bengtzing", 
+                "final_jury_points": 42, 
+                "final_placing": 7, 
+                "final_tel_points": 16, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 22, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 3, 
+                "song_id": "2011_4_6", 
+                "song_name": "E det fel på mej", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Pontus Assarsson", 
+                    "Thomas G:son", 
+                    "Jörgen Ringqvist", 
+                    "Daniel Barkman"
+                ], 
+                "winner": false, 
+                "year": 2011
+            }, 
+            {
+                "artist": "Swedish House Wives", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F", 
+                    "F", 
+                    "F"
+                ], 
+                "happy_score": 41, 
+                "in_final": false, 
+                "is_band": true, 
+                "love_count": 13, 
+                "song_id": "2013_2_4", 
+                "song_name": "On Top of the World", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Peter Boström", 
+                    "Thomas G:son"
+                ], 
+                "winner": false, 
+                "year": 2013
+            }, 
+            {
+                "artist": "Jessica Folcker", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 31, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 14, 
+                "song_id": "2006_3_2", 
+                "song_name": "When Love's Comin' Back Again", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Thomas G:son", 
+                    "Pontus Assarsson"
+                ], 
+                "winner": false, 
+                "year": 2006
+            }, 
+            {
+                "artist": "Sanna Nielsen", 
+                "final_jury_points": 27, 
+                "final_placing": 5, 
+                "final_tel_points": 66, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 8, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2003_2_2", 
+                "song_name": "Hela världen för mig", 
+                "tm_genders": [
+                    "M"
+                ], 
+                "tm_list": [
+                    "Thomas G:son"
+                ], 
+                "winner": false, 
+                "year": 2003
+            }, 
+            {
+                "artist": "Anna Book", 
+                "final_jury_points": 1, 
+                "final_placing": 9, 
+                "final_tel_points": 0, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 20, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 14, 
+                "song_id": "2007_1_3", 
+                "song_name": "Samba Sambero", 
+                "tm_genders": [
+                    "M"
+                ], 
+                "tm_list": [
+                    "Thomas G:son"
+                ], 
+                "winner": false, 
+                "year": 2007
+            }, 
+            {
+                "artist": "Mikael Rickfors", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 65, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2009_3_5", 
+                "song_name": "Du vinner över mig", 
+                "tm_genders": [
+                    "M"
+                ], 
+                "tm_list": [
+                    "Thomas G:son"
+                ], 
+                "winner": false, 
+                "year": 2009
+            }, 
+            {
+                "artist": "Maja Gullstrand", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 33, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 0, 
+                "song_id": "2009_3_6", 
+                "song_name": "Här för mig själv", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Thomas G:son", 
+                    "Marcos Ubeda"
+                ], 
+                "winner": false, 
+                "year": 2009
+            }, 
+            {
+                "artist": "Jimmy Jansson", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 16, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2007_2_3", 
+                "song_name": "Amanda", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Thomas G:son", 
+                    "Jimmy Jansson"
+                ], 
+                "winner": false, 
+                "year": 2007
+            }, 
+            {
+                "artist": "Mathias Holmgren", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": -6, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 2, 
+                "song_id": "2005_4_3", 
+                "song_name": "Långt bort om tid och rum", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Calle Kindbom", 
+                    "Thomas G:son"
+                ], 
+                "winner": false, 
+                "year": 2005
+            }, 
+            {
+                "artist": "Anne-Lie Rydé", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 4, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2005_4_1", 
+                "song_name": "Så nära", 
+                "tm_genders": [
+                    "F", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Anne-Lie Rydé", 
+                    "Thomas G:son"
+                ], 
+                "winner": false, 
+                "year": 2005
+            }, 
+            {
+                "artist": "J.E.M", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F", 
+                    "F", 
+                    "M"
+                ], 
+                "happy_score": 80, 
+                "in_final": false, 
+                "is_band": true, 
+                "love_count": 31, 
+                "song_id": "2014_2_1", 
+                "song_name": "Love Trigger", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Thomas G:son", 
+                    "Peter Boström", 
+                    "Julimar J-Son Santos"
+                ], 
+                "winner": false, 
+                "year": 2014
+            }, 
+            {
+                "artist": "Roger Pontare", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": -3, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 0, 
+                "song_id": "2006_4_1", 
+                "song_name": "Silverland", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Thomas G:son", 
+                    "Marcos Ubeda"
+                ], 
+                "winner": false, 
+                "year": 2006
+            }, 
+            {
+                "artist": "Carola", 
+                "final_jury_points": 102, 
+                "final_placing": 1, 
+                "final_tel_points": 132, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 20, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 6, 
+                "song_id": "2006_4_8", 
+                "song_name": "Evighet", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Carola Häggkvist", 
+                    "Thomas G:son", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": true, 
+                "year": 2006
+            }, 
+            {
+                "artist": "Kikki Danielsson", 
+                "final_jury_points": 2, 
+                "final_placing": 10, 
+                "final_tel_points": 0, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 14, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2006_2_6", 
+                "song_name": "I dag & i morgon", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Thomas G:son", 
+                    "Calle Kindbom"
+                ], 
+                "winner": false, 
+                "year": 2006
+            }, 
+            {
+                "artist": "Josef Johansson", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 8, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 16, 
+                "song_id": "2014_4_5", 
+                "song_name": "Hela natten", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Peter Boström", 
+                    "Thomas G:son", 
+                    "Jonas Lundblad", 
+                    "Josef Johansson", 
+                    "Peo Thyrén"
+                ], 
+                "winner": false, 
+                "year": 2014
+            }, 
+            {
+                "artist": "Anne-Lie Rydé", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": -7, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2004_2_6", 
+                "song_name": "Säg att du har ångrat dig", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Thomas G:son", 
+                    "Tony Johansson"
+                ], 
+                "winner": false, 
+                "year": 2004
+            }, 
+            {
+                "artist": "Martin Rolinski", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 7, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 9, 
+                "song_id": "2013_3_5", 
+                "song_name": "In And out of Love", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Thomas G:son", 
+                    "Andreas Rickstrand", 
+                    "Martin Rolinski"
+                ], 
+                "winner": false, 
+                "year": 2013
+            }, 
+            {
+                "artist": "Eddie Razaz", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": -48, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 4, 
+                "song_id": "2013_3_1", 
+                "song_name": "Alibi", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Thomas G:son", 
+                    "Peter Boström"
+                ], 
+                "winner": false, 
+                "year": 2013
+            }, 
+            {
+                "artist": "Lili & Susie", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F", 
+                    "F"
+                ], 
+                "happy_score": 40, 
+                "in_final": false, 
+                "is_band": true, 
+                "love_count": 7, 
+                "song_id": "2009_2_1", 
+                "song_name": "Show Me Heaven", 
+                "tm_genders": [
+                    "M", 
+                    "F", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Nestor Geli", 
+                    "Susie Päivärinta", 
+                    "Calle Kindbom", 
+                    "Thomas G:son", 
+                    "Pär Lönn"
+                ], 
+                "winner": false, 
+                "year": 2009
+            }, 
+            {
+                "artist": "Jenny Silver", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 29, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 5, 
+                "song_id": "2011_1_3", 
+                "song_name": "Something in Your Eyes", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Thomas G:son", 
+                    "Henrik Sethsson", 
+                    "Erik Bernholm"
+                ], 
+                "winner": false, 
+                "year": 2011
+            }, 
+            {
+                "artist": "Barbados", 
+                "final_jury_points": 46, 
+                "final_placing": 4, 
+                "final_tel_points": 44, 
+                "gender": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "happy_score": 2, 
+                "in_final": true, 
+                "is_band": true, 
+                "love_count": 0, 
+                "song_id": "2002_1_3", 
+                "song_name": "Världen utanför", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Calle Kindbom", 
+                    "Thomas G:son"
+                ], 
+                "winner": false, 
+                "year": 2002
+            }, 
+            {
+                "artist": "Arvingarna", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "happy_score": -10000, 
+                "in_final": false, 
+                "is_band": true, 
+                "love_count": -10000, 
+                "song_id": "2002_3_4", 
+                "song_name": "Ingenting är större än vi", 
+                "tm_genders": [
+                    "M"
+                ], 
+                "tm_list": [
+                    "Thomas G:son"
+                ], 
+                "winner": false, 
+                "year": 2002
+            }, 
+            {
+                "artist": "Kayo", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 3, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 8, 
+                "song_id": "2006_3_8", 
+                "song_name": "Innan natten är över", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Thomas G:son", 
+                    "Henrik Sethsson"
+                ], 
+                "winner": false, 
+                "year": 2006
+            }, 
+            {
+                "artist": "Hanson & Carson & Malmkvist", 
+                "final_jury_points": 7, 
+                "final_placing": 10, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F", 
+                    "F", 
+                    "F"
+                ], 
+                "happy_score": 11, 
+                "in_final": true, 
+                "is_band": true, 
+                "love_count": 10, 
+                "song_id": "2004_3_6", 
+                "song_name": "C'est la vie", 
+                "tm_genders": [
+                    "M"
+                ], 
+                "tm_list": [
+                    "Thomas G:son"
+                ], 
+                "winner": false, 
+                "year": 2004
+            }, 
+            {
+                "artist": "Petra Nielsen", 
+                "final_jury_points": 85, 
+                "final_placing": 4, 
+                "final_tel_points": 66, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 6, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2004_1_8", 
+                "song_name": "Tango! Tango!", 
+                "tm_genders": [
+                    "M"
+                ], 
+                "tm_list": [
+                    "Thomas G:son"
+                ], 
+                "winner": false, 
+                "year": 2004
+            }, 
+            {
+                "artist": "Sylvia Vrethammar", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 21, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 0, 
+                "song_id": "2013_4_4", 
+                "song_name": "Trivialitet", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Thomas G:son", 
+                    "Calle Kindbom", 
+                    "Mats Tärnfors"
+                ], 
+                "winner": false, 
+                "year": 2013
+            }, 
+            {
+                "artist": "Ulrik Munther", 
+                "final_jury_points": 82, 
+                "final_placing": 3, 
+                "final_tel_points": 44, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": -1, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 0, 
+                "song_id": "2013_4_8", 
+                "song_name": "Tell the World I'm Here", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Thomas G:son", 
+                    "Peter Boström", 
+                    "Ulrik Munther"
+                ], 
+                "winner": false, 
+                "year": 2013
+            }, 
+            {
+                "artist": "Sanna Nielsen", 
+                "final_jury_points": 75, 
+                "final_placing": 4, 
+                "final_tel_points": 39, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 63, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 29, 
+                "song_id": "2011_2_5", 
+                "song_name": "I'm in Love", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "F", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Bobby Ljunggren", 
+                    "Thomas G:son", 
+                    "Irini Michas", 
+                    "Peter Boström"
+                ], 
+                "winner": false, 
+                "year": 2011
+            }, 
+            {
+                "artist": "Kikki, Bettan & Lotta", 
+                "final_jury_points": 34, 
+                "final_placing": 3, 
+                "final_tel_points": 66, 
+                "gender": [
+                    "F", 
+                    "F", 
+                    "F"
+                ], 
+                "happy_score": 1, 
+                "in_final": true, 
+                "is_band": true, 
+                "love_count": 8, 
+                "song_id": "2002_4_6", 
+                "song_name": "Vem é dé du vill ha", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Thomas G:son", 
+                    "Calle Kindbom"
+                ], 
+                "winner": false, 
+                "year": 2002
+            }, 
+            {
+                "artist": "Poets", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "happy_score": 10, 
+                "in_final": false, 
+                "is_band": true, 
+                "love_count": 3, 
+                "song_id": "2002_2_1", 
+                "song_name": "What Difference Does It Make?", 
+                "tm_genders": [
+                    "M"
+                ], 
+                "tm_list": [
+                    "Thomas G:son"
+                ], 
+                "winner": false, 
+                "year": 2002
+            }, 
+            {
+                "artist": "Lovestoned", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M", 
+                    "M", 
+                    "F", 
+                    "F"
+                ], 
+                "happy_score": -11, 
+                "in_final": false, 
+                "is_band": true, 
+                "love_count": 0, 
+                "song_id": "2010_4_4", 
+                "song_name": "Thursdays", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Sharon Vaughn", 
+                    "Thomas G:son", 
+                    "Peter Boström"
+                ], 
+                "winner": false, 
+                "year": 2010
+            }
+        ], 
+        "tm": "Thomas G:son"
+    }, 
+    {
+        "songs": [
+            {
+                "artist": "After Dark", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "U"
+                ], 
+                "happy_score": -1, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 0, 
+                "song_id": "2007_4_5", 
+                "song_name": "(Åh) När ni tar saken i egna händer", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Kent Olsson", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2007
+            }, 
+            {
+                "artist": "Sanna Nielsen", 
+                "final_jury_points": 33, 
+                "final_placing": 7, 
+                "final_tel_points": 11, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 10, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 3, 
+                "song_id": "2007_4_3", 
+                "song_name": "Vågar du, vågar jag", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Fredrik Kempe", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2007
+            }, 
+            {
+                "artist": "Måns Zelmerlöw", 
+                "final_jury_points": 61, 
+                "final_placing": 3, 
+                "final_tel_points": 110, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 17, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 13, 
+                "song_id": "2007_3_1", 
+                "song_name": "Cara Mia", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Fredrik Kempe", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2007
+            }, 
+            {
+                "artist": "Josef", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": -10000, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": -10000, 
+                "song_id": "2005_3_5", 
+                "song_name": "Rain", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Annelie Martin", 
+                    "Martin Blix", 
+                    "Henrik Wikström", 
+                    "Bobby Ljunggren"
+                ], 
+                "winner": false, 
+                "year": 2005
+            }, 
+            {
+                "artist": "Shirley Clamp", 
+                "final_jury_points": 86, 
+                "final_placing": 4, 
+                "final_tel_points": 44, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 19, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 7, 
+                "song_id": "2005_1_8", 
+                "song_name": "Att älska dig", 
+                "tm_genders": [
+                    "F", 
+                    "F", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Sonja Aldén", 
+                    "Shirley Clamp", 
+                    "Robert Olausson", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2005
+            }, 
+            {
+                "artist": "Sofia", 
+                "final_jury_points": 12, 
+                "final_placing": 10, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 0, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 0, 
+                "song_id": "2009_3_7", 
+                "song_name": "Alla", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M", 
+                    "F"
+                ], 
+                "tm_list": [
+                    "Nina Karolidou", 
+                    "Dimitri Stassos", 
+                    "Henrik Wikström", 
+                    "Irini Michas"
+                ], 
+                "winner": false, 
+                "year": 2009
+            }, 
+            {
+                "artist": "Cosmo4", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F", 
+                    "F", 
+                    "F", 
+                    "F"
+                ], 
+                "happy_score": 22, 
+                "in_final": false, 
+                "is_band": true, 
+                "love_count": 18, 
+                "song_id": "2007_2_4", 
+                "song_name": "What's Your Name", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Kent Olsson", 
+                    "Niklas Edberger", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2007
+            }, 
+            {
+                "artist": "Fredrik Kempe & Sanna Nielsen", 
+                "final_jury_points": 30, 
+                "final_placing": 8, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": -4, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 15, 
+                "song_id": "2005_2_1", 
+                "song_name": "Du och jag mot världen", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Fredrik Kempe", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2005
+            }, 
+            {
+                "artist": "Carola", 
+                "final_jury_points": 102, 
+                "final_placing": 1, 
+                "final_tel_points": 132, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 20, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 6, 
+                "song_id": "2006_4_8", 
+                "song_name": "Evighet", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Carola Häggkvist", 
+                    "Thomas G:son", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": true, 
+                "year": 2006
+            }, 
+            {
+                "artist": "Niclas Wahlgren", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 12, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2006_2_7", 
+                "song_name": "En droppe regn", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Ingela \"Pling\" Forsman", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2006
+            }, 
+            {
+                "artist": "Sonya (Sonja Aldén)", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 32, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 10, 
+                "song_id": "2006_2_3", 
+                "song_name": "Etymon", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Ingela \"Pling\" Forsman", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2006
+            }, 
+            {
+                "artist": "Ellinore Holmer", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 20, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2014_4_7", 
+                "song_name": "En himmelsk sång", 
+                "tm_genders": [
+                    "F", 
+                    "F", 
+                    "F", 
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Ellinore Holmer", 
+                    "Vanna Rosenberg", 
+                    "Åsa Schmalenbach", 
+                    "Josefina Sanner", 
+                    "Henrik Wikström", 
+                    "Amir Aly"
+                ], 
+                "winner": false, 
+                "year": 2014
+            }, 
+            {
+                "artist": "Shirley's Angels", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F", 
+                    "F", 
+                    "F"
+                ], 
+                "happy_score": 5, 
+                "in_final": false, 
+                "is_band": true, 
+                "love_count": 5, 
+                "song_id": "2011_3_5", 
+                "song_name": "I Thought It Was Forever", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Robin Abrahamsson", 
+                    "Alexander Bard", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2011
+            }, 
+            {
+                "artist": "Susanne Alfvengren", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 14, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 8, 
+                "song_id": "2009_4_3", 
+                "song_name": "Du är älskad där du går", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Ingela \"Pling\" Forsman", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2009
+            }, 
+            {
+                "artist": "Anna Sahlene & Maria Haukaas Storeng", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": -19, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 12, 
+                "song_id": "2009_4_4", 
+                "song_name": "Killing Me Tenderly", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Amir Aly", 
+                    "Henrik Wikström", 
+                    "Tobbe Petterssen"
+                ], 
+                "winner": false, 
+                "year": 2009
+            }, 
+            {
+                "artist": "Måns Zelmerlöw", 
+                "final_jury_points": 96, 
+                "final_placing": 4, 
+                "final_tel_points": 48, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 40, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 12, 
+                "song_id": "2009_2_8", 
+                "song_name": "Hope & Glory", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Måns Zelmerlöw", 
+                    "Fredrik Kempe", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2009
+            }, 
+            {
+                "artist": "Rasmus Viberg", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": -28, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 8, 
+                "song_id": "2011_1_6", 
+                "song_name": "Social Butterfly", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Amir Aly", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2011
+            }, 
+            {
+                "artist": "Helena Paparizou", 
+                "final_jury_points": 57, 
+                "final_placing": 4, 
+                "final_tel_points": 27, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 33, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 4, 
+                "song_id": "2014_1_8", 
+                "song_name": "Survivor", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "F"
+                ], 
+                "tm_list": [
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström", 
+                    "Karl-Ola Kjellholm", 
+                    "Sharon Vaughn"
+                ], 
+                "winner": false, 
+                "year": 2014
+            }, 
+            {
+                "artist": "Anna Sahlene", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 17, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2006_1_3", 
+                "song_name": "This Woman", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Anna Sahlene", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2006
+            }, 
+            {
+                "artist": "Shirley Clamp", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 3, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 8, 
+                "song_id": "2009_1_3", 
+                "song_name": "Med hjärtat fyllt av ljus", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Ingela \"Pling\" Forsman", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2009
+            }, 
+            {
+                "artist": "Bosson", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 26, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 9, 
+                "song_id": "2004_3_8", 
+                "song_name": "Efharisto", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Ingela \"Pling\" Forsman", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2004
+            }, 
+            {
+                "artist": "Shirley Clamp", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": -2, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2014_3_4", 
+                "song_name": "Burning Alive", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "F", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Bobby Ljunggren", 
+                    "Marcos Ubeda", 
+                    "Sharon Vaughn", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2014
+            }, 
+            {
+                "artist": "Army of Lovers", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M", 
+                    "M", 
+                    "F"
+                ], 
+                "happy_score": 0, 
+                "in_final": false, 
+                "is_band": true, 
+                "love_count": 0, 
+                "song_id": "2013_4_1", 
+                "song_name": "Rockin’ the Ride", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Alexander Bard", 
+                    "Henrik Wikström", 
+                    "Per QX", 
+                    "Andreas Öhrn", 
+                    "Jean-Pierre Barda"
+                ], 
+                "winner": false, 
+                "year": 2013
+            }, 
+            {
+                "artist": "Shirley Clamp", 
+                "final_jury_points": 86, 
+                "final_placing": 2, 
+                "final_tel_points": 88, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 55, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 19, 
+                "song_id": "2004_4_7", 
+                "song_name": "Min kärlek", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Ingela \"Pling\" Forsman", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2004
+            }, 
+            {
+                "artist": "Felicia Olsson", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 3, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 7, 
+                "song_id": "2013_2_2", 
+                "song_name": "Make Me No 1", 
+                "tm_genders": [
+                    "M", 
+                    "F", 
+                    "M", 
+                    "F"
+                ], 
+                "tm_list": [
+                    "Henrik Wikström", 
+                    "Ingela \"Pling\" Forsman", 
+                    "Amir Aly", 
+                    "Maria Haukaas Mittet"
+                ], 
+                "winner": false, 
+                "year": 2013
+            }, 
+            {
+                "artist": "BWO", 
+                "final_jury_points": 70, 
+                "final_placing": 3, 
+                "final_tel_points": 88, 
+                "gender": [
+                    "M", 
+                    "M", 
+                    "F"
+                ], 
+                "happy_score": 66, 
+                "in_final": true, 
+                "is_band": true, 
+                "love_count": 21, 
+                "song_id": "2008_3_1", 
+                "song_name": "Lay Your Love on Me", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Alexander Bard", 
+                    "Anders Hansson", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2008
+            }, 
+            {
+                "artist": "Ainbusk", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F", 
+                    "F", 
+                    "F", 
+                    "F"
+                ], 
+                "happy_score": -5, 
+                "in_final": false, 
+                "is_band": true, 
+                "love_count": 1, 
+                "song_id": "2008_3_7", 
+                "song_name": "Jag saknar dig ibland", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Ingela \"Pling\" Forsman", 
+                    "Henrik Wikström", 
+                    "Bobby Ljunggren"
+                ], 
+                "winner": false, 
+                "year": 2008
+            }, 
+            {
+                "artist": "Brandur", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 6, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2008_1_4", 
+                "song_name": "Lullaby", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Kristian Lagerström", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2008
+            }, 
+            {
+                "artist": "Daniel Mitsogiannis", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 12, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 6, 
+                "song_id": "2008_4_3", 
+                "song_name": "Pame", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Fredrik Kempe", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2008
+            }, 
+            {
+                "artist": "Rongedal", 
+                "final_jury_points": 76, 
+                "final_placing": 4, 
+                "final_tel_points": 66, 
+                "gender": [
+                    "M", 
+                    "M"
+                ], 
+                "happy_score": 1, 
+                "in_final": true, 
+                "is_band": true, 
+                "love_count": 10, 
+                "song_id": "2008_2_5", 
+                "song_name": "Just a Minute", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Magnus Rongedal", 
+                    "Henrik Rongedal", 
+                    "Amir Aly", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2008
+            }
+        ], 
+        "tm": "Henrik Wikström"
+    }, 
+    {
+        "songs": [
+            {
+                "artist": "Youngblood", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "happy_score": 24, 
+                "in_final": false, 
+                "is_band": true, 
+                "love_count": 8, 
+                "song_id": "2012_3_1", 
+                "song_name": "Youngblood", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Fredrik Kempe", 
+                    "David Kreuger"
+                ], 
+                "winner": false, 
+                "year": 2012
+            }, 
+            {
+                "artist": "Anton Ewald", 
+                "final_jury_points": 49, 
+                "final_placing": 4, 
+                "final_tel_points": 59, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 8, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 10, 
+                "song_id": "2013_2_1", 
+                "song_name": "Begging", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Fredrik Kempe", 
+                    "Anton Malmberg Hård af Segerstad"
+                ], 
+                "winner": false, 
+                "year": 2013
+            }, 
+            {
+                "artist": "Eric Saade", 
+                "final_jury_points": 49, 
+                "final_placing": 3, 
+                "final_tel_points": 110, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 29, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 10, 
+                "song_id": "2010_2_1", 
+                "song_name": "Manboy", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Fredrik Kempe", 
+                    "Peter Boström"
+                ], 
+                "winner": false, 
+                "year": 2010
+            }, 
+            {
+                "artist": "Linda Pritchard", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 43, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 9, 
+                "song_id": "2011_4_4", 
+                "song_name": "Alive", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Oscar Görres", 
+                    "Fredrik Kempe"
+                ], 
+                "winner": false, 
+                "year": 2011
+            }, 
+            {
+                "artist": "Charlotte Perrelli", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": -17, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 4, 
+                "song_id": "2012_4_1", 
+                "song_name": "The Girl", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Fredrik Kempe", 
+                    "Alexander Jonsson"
+                ], 
+                "winner": false, 
+                "year": 2012
+            }, 
+            {
+                "artist": "Sanna Nielsen", 
+                "final_jury_points": 33, 
+                "final_placing": 7, 
+                "final_tel_points": 11, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 10, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 3, 
+                "song_id": "2007_4_3", 
+                "song_name": "Vågar du, vågar jag", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Fredrik Kempe", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2007
+            }, 
+            {
+                "artist": "Måns Zelmerlöw", 
+                "final_jury_points": 61, 
+                "final_placing": 3, 
+                "final_tel_points": 110, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 17, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 13, 
+                "song_id": "2007_3_1", 
+                "song_name": "Cara Mia", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Fredrik Kempe", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2007
+            }, 
+            {
+                "artist": "BWO", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M", 
+                    "M", 
+                    "F"
+                ], 
+                "happy_score": -48, 
+                "in_final": false, 
+                "is_band": true, 
+                "love_count": 0, 
+                "song_id": "2009_3_8", 
+                "song_name": "You're Not Alone", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Fredrik Kempe", 
+                    "Alexander Bard", 
+                    "Anders Hansson"
+                ], 
+                "winner": false, 
+                "year": 2009
+            }, 
+            {
+                "artist": "Regina Lund", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 32, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 0, 
+                "song_id": "2007_2_1", 
+                "song_name": "Rainbow Star", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Regina Lund", 
+                    "Fredrik Kempe", 
+                    "Bobby Ljunggren"
+                ], 
+                "winner": false, 
+                "year": 2007
+            }, 
+            {
+                "artist": "Fredrik Kempe & Sanna Nielsen", 
+                "final_jury_points": 30, 
+                "final_placing": 8, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": -4, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 15, 
+                "song_id": "2005_2_1", 
+                "song_name": "Du och jag mot världen", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Fredrik Kempe", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2005
+            }, 
+            {
+                "artist": "Sanna Nielsen", 
+                "final_jury_points": 90, 
+                "final_placing": 1, 
+                "final_tel_points": 122, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": -29, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2014_2_6", 
+                "song_name": "Undo", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Fredrik Kempe", 
+                    "David Kreuger", 
+                    "Hamed K-One Pirouzpanah"
+                ], 
+                "winner": true, 
+                "year": 2014
+            }, 
+            {
+                "artist": "Alcazar", 
+                "final_jury_points": 62, 
+                "final_placing": 3, 
+                "final_tel_points": 48, 
+                "gender": [
+                    "F", 
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "happy_score": -53, 
+                "in_final": true, 
+                "is_band": true, 
+                "love_count": 5, 
+                "song_id": "2014_4_1", 
+                "song_name": "Blame It on the Disco", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Fredrik Kempe", 
+                    "David Kreuger", 
+                    "Hamed K-One Pirouzpanah"
+                ], 
+                "winner": false, 
+                "year": 2014
+            }, 
+            {
+                "artist": "Fredrik Kempe", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 29, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 14, 
+                "song_id": "2004_2_1", 
+                "song_name": "Finally", 
+                "tm_genders": [
+                    "M"
+                ], 
+                "tm_list": [
+                    "Fredrik Kempe"
+                ], 
+                "winner": false, 
+                "year": 2004
+            }, 
+            {
+                "artist": "Eric Saade", 
+                "final_jury_points": 81, 
+                "final_placing": 1, 
+                "final_tel_points": 112, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 61, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 6, 
+                "song_id": "2011_3_8", 
+                "song_name": "Popular", 
+                "tm_genders": [
+                    "M"
+                ], 
+                "tm_list": [
+                    "Fredrik Kempe"
+                ], 
+                "winner": true, 
+                "year": 2011
+            }, 
+            {
+                "artist": "The Playtones", 
+                "final_jury_points": 46, 
+                "final_placing": 6, 
+                "final_tel_points": 33, 
+                "gender": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "happy_score": -4, 
+                "in_final": true, 
+                "is_band": true, 
+                "love_count": 5, 
+                "song_id": "2011_3_4", 
+                "song_name": "The King", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Fredrik Kempe", 
+                    "Peter Kvint"
+                ], 
+                "winner": false, 
+                "year": 2011
+            }, 
+            {
+                "artist": "Simon Forsberg", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 21, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 3, 
+                "song_id": "2011_3_2", 
+                "song_name": "Tid att andas", 
+                "tm_genders": [
+                    "M"
+                ], 
+                "tm_list": [
+                    "Fredrik Kempe"
+                ], 
+                "winner": false, 
+                "year": 2011
+            }, 
+            {
+                "artist": "Sarah Dawn Finer", 
+                "final_jury_points": 75, 
+                "final_placing": 6, 
+                "final_tel_points": 12, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": -7, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 0, 
+                "song_id": "2009_4_6", 
+                "song_name": "Moving On", 
+                "tm_genders": [
+                    "F", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Sarah Dawn Finer", 
+                    "Fredrik Kempe"
+                ], 
+                "winner": false, 
+                "year": 2009
+            }, 
+            {
+                "artist": "Malena Ernman", 
+                "final_jury_points": 38, 
+                "final_placing": 1, 
+                "final_tel_points": 144, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 9, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 7, 
+                "song_id": "2009_4_8", 
+                "song_name": "La Voix", 
+                "tm_genders": [
+                    "F", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Malena Ernman", 
+                    "Fredrik Kempe"
+                ], 
+                "winner": true, 
+                "year": 2009
+            }, 
+            {
+                "artist": "Janet Leon", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 0, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2013_3_8", 
+                "song_name": "Heartstrings", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Fredrik Kempe", 
+                    "Anton Malmberg Hård af Segerstad"
+                ], 
+                "winner": false, 
+                "year": 2013
+            }, 
+            {
+                "artist": "Cookies 'N' Beans", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F", 
+                    "F", 
+                    "F"
+                ], 
+                "happy_score": -4, 
+                "in_final": false, 
+                "is_band": true, 
+                "love_count": 0, 
+                "song_id": "2013_1_2", 
+                "song_name": "Burning Flags", 
+                "tm_genders": [
+                    "M"
+                ], 
+                "tm_list": [
+                    "Fredrik Kempe"
+                ], 
+                "winner": false, 
+                "year": 2013
+            }, 
+            {
+                "artist": "Måns Zelmerlöw", 
+                "final_jury_points": 96, 
+                "final_placing": 4, 
+                "final_tel_points": 48, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 40, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 12, 
+                "song_id": "2009_2_8", 
+                "song_name": "Hope & Glory", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Måns Zelmerlöw", 
+                    "Fredrik Kempe", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2009
+            }, 
+            {
+                "artist": "Linus Svenning", 
+                "final_jury_points": 46, 
+                "final_placing": 5, 
+                "final_tel_points": 37, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 48, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 34, 
+                "song_id": "2014_1_3", 
+                "song_name": "Bröder", 
+                "tm_genders": [
+                    "M"
+                ], 
+                "tm_list": [
+                    "Fredrik Kempe"
+                ], 
+                "winner": false, 
+                "year": 2014
+            }, 
+            {
+                "artist": "Oscar Zia", 
+                "final_jury_points": 32, 
+                "final_placing": 8, 
+                "final_tel_points": 21, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 16, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 18, 
+                "song_id": "2014_3_3", 
+                "song_name": "Yes We Can", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Fredrik Kempe", 
+                    "David Kreuger", 
+                    "Hamed K-One Pirouzpanah"
+                ], 
+                "winner": false, 
+                "year": 2014
+            }, 
+            {
+                "artist": "Peter Jöback", 
+                "final_jury_points": 21, 
+                "final_placing": 9, 
+                "final_tel_points": 11, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 11, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 6, 
+                "song_id": "2010_4_8", 
+                "song_name": "Hollow", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Anders Hansson", 
+                    "Fredrik Kempe"
+                ], 
+                "winner": false, 
+                "year": 2010
+            }, 
+            {
+                "artist": "Daniel Mitsogiannis", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 12, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 6, 
+                "song_id": "2008_4_3", 
+                "song_name": "Pame", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Fredrik Kempe", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2008
+            }, 
+            {
+                "artist": "Charlotte Perrelli", 
+                "final_jury_points": 114, 
+                "final_placing": 1, 
+                "final_tel_points": 110, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 82, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 13, 
+                "song_id": "2008_4_8", 
+                "song_name": "Hero", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Fredrik Kempe", 
+                    "Bobby Ljunggren"
+                ], 
+                "winner": true, 
+                "year": 2008
+            }
+        ], 
+        "tm": "Fredrik Kempe"
+    }, 
+    {
+        "songs": [
+            {
+                "artist": "Martin Stenmarck", 
+                "final_jury_points": 102, 
+                "final_placing": 1, 
+                "final_tel_points": 110, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 23, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 0, 
+                "song_id": "2005_3_8", 
+                "song_name": "Las Vegas", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Niklas Edberger", 
+                    "Johan Fransson", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren"
+                ], 
+                "winner": true, 
+                "year": 2005
+            }, 
+            {
+                "artist": "Jessica Folcker", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": -23, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2005_3_7", 
+                "song_name": "Om natten", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Niklas Edberger", 
+                    "Johan Fransson", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren"
+                ], 
+                "winner": false, 
+                "year": 2005
+            }, 
+            {
+                "artist": "Jimmy Jansson", 
+                "final_jury_points": 27, 
+                "final_placing": 6, 
+                "final_tel_points": 22, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 12, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 8, 
+                "song_id": "2005_3_3", 
+                "song_name": "Vi kan gunga", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Niklas Edberger", 
+                    "Johan Fransson", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren"
+                ], 
+                "winner": false, 
+                "year": 2005
+            }, 
+            {
+                "artist": "Alcazar", 
+                "final_jury_points": 69, 
+                "final_placing": 3, 
+                "final_tel_points": 66, 
+                "gender": [
+                    "F", 
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "happy_score": 43, 
+                "in_final": true, 
+                "is_band": true, 
+                "love_count": 10, 
+                "song_id": "2005_1_1", 
+                "song_name": "Alcastar", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Niklas Edberger", 
+                    "Johan Fransson", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren", 
+                    "Anders Hansson"
+                ], 
+                "winner": false, 
+                "year": 2005
+            }, 
+            {
+                "artist": "Linda Bengtzing", 
+                "final_jury_points": 15, 
+                "final_placing": 10, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": -2, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 3, 
+                "song_id": "2005_1_4", 
+                "song_name": "Alla flickor", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Niklas Edberger", 
+                    "Johan Fransson", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren"
+                ], 
+                "winner": false, 
+                "year": 2005
+            }, 
+            {
+                "artist": "Jessica Andersson", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": -11, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 3, 
+                "song_id": "2006_3_4", 
+                "song_name": "Kalla nätter", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Niklas Edberger", 
+                    "Johan Fransson", 
+                    "Tobias Lundgren", 
+                    "Tim Larsson"
+                ], 
+                "winner": false, 
+                "year": 2006
+            }, 
+            {
+                "artist": "Andrés Esteche", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 12, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 0, 
+                "song_id": "2003_2_1", 
+                "song_name": "Just Like a Boomerang", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Tobias Lundgren", 
+                    "Johan Fransson", 
+                    "Tim Larsson", 
+                    "Niklas Edberger"
+                ], 
+                "winner": false, 
+                "year": 2003
+            }, 
+            {
+                "artist": "Sandra Dahlberg", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 12, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 11, 
+                "song_id": "2006_4_4", 
+                "song_name": "Jag tar det jag vill ha", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M", 
+                    "F"
+                ], 
+                "tm_list": [
+                    "Johan Fransson", 
+                    "Tobias Lundgren", 
+                    "Niklas Edberger", 
+                    "Tim Larsson", 
+                    "Sandra Dahlberg"
+                ], 
+                "winner": false, 
+                "year": 2006
+            }, 
+            {
+                "artist": "Yohio", 
+                "final_jury_points": 30, 
+                "final_placing": 2, 
+                "final_tel_points": 103, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 17, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 5, 
+                "song_id": "2013_1_6", 
+                "song_name": "Heartbreak Hotel", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Johan Fransson", 
+                    "Tobias Lundgren", 
+                    "Tim Larsson", 
+                    "Henrik Göranson", 
+                    "Yohio"
+                ], 
+                "winner": false, 
+                "year": 2013
+            }, 
+            {
+                "artist": "Ellen Benediktson", 
+                "final_jury_points": 31, 
+                "final_placing": 7, 
+                "final_tel_points": 30, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": -7, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2014_1_6", 
+                "song_name": "Songbird", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Sharon Vaughn", 
+                    "Johan Fransson", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren"
+                ], 
+                "winner": false, 
+                "year": 2014
+            }, 
+            {
+                "artist": "Emil Sigfridsson", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": -4, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 4, 
+                "song_id": "2004_3_2", 
+                "song_name": "Innan mörkret faller", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Johan Fransson", 
+                    "Niklas Edberger", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren"
+                ], 
+                "winner": false, 
+                "year": 2004
+            }, 
+            {
+                "artist": "Anniela", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 7, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2011_2_7", 
+                "song_name": "Elektrisk", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Johan Alkenäs", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren", 
+                    "Johan Fransson"
+                ], 
+                "winner": false, 
+                "year": 2011
+            }, 
+            {
+                "artist": "Andrés Esteche", 
+                "final_jury_points": 14, 
+                "final_placing": 9, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 3, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 0, 
+                "song_id": "2004_4_8", 
+                "song_name": "Olé olé", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Johan Fransson", 
+                    "Niklas Edberger", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren"
+                ], 
+                "winner": false, 
+                "year": 2004
+            }, 
+            {
+                "artist": "Pandora", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 5, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 8, 
+                "song_id": "2004_4_5", 
+                "song_name": "Runaway", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Johan Fransson", 
+                    "Niklas Edberger", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren"
+                ], 
+                "winner": false, 
+                "year": 2004
+            }, 
+            {
+                "artist": "Linda Bengtzing", 
+                "final_jury_points": 64, 
+                "final_placing": 5, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": -20, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 0, 
+                "song_id": "2008_4_4", 
+                "song_name": "Hur svårt kan det va?", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Johan Fransson", 
+                    "Tobias Lundgren", 
+                    "Tim Larsson"
+                ], 
+                "winner": false, 
+                "year": 2008
+            }, 
+            {
+                "artist": "Linda Pritchard", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 10, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 13, 
+                "song_id": "2010_1_3", 
+                "song_name": "You're Making Me Hot-Hot-Hot", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Tobias Lundgren", 
+                    "Johan Fransson", 
+                    "Tim Larsson"
+                ], 
+                "winner": false, 
+                "year": 2010
+            }
+        ], 
+        "tm": "Tim Larsson"
+    }, 
+    {
+        "songs": [
+            {
+                "artist": "Loreen", 
+                "final_jury_points": 114, 
+                "final_placing": 1, 
+                "final_tel_points": 154, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 35, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 7, 
+                "song_id": "2012_1_8", 
+                "song_name": "Euphoria", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Thomas G:son", 
+                    "Peter Boström"
+                ], 
+                "winner": true, 
+                "year": 2012
+            }, 
+            {
+                "artist": "Eric Saade", 
+                "final_jury_points": 49, 
+                "final_placing": 3, 
+                "final_tel_points": 110, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 29, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 10, 
+                "song_id": "2010_2_1", 
+                "song_name": "Manboy", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Fredrik Kempe", 
+                    "Peter Boström"
+                ], 
+                "winner": false, 
+                "year": 2010
+            }, 
+            {
+                "artist": "Danny Saucedo", 
+                "final_jury_points": 92, 
+                "final_placing": 2, 
+                "final_tel_points": 106, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 114, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 0, 
+                "song_id": "2012_4_8", 
+                "song_name": "Amazing", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Danny Saucedo", 
+                    "Peter Boström", 
+                    "Figge Boström"
+                ], 
+                "winner": false, 
+                "year": 2012
+            }, 
+            {
+                "artist": "Swedish House Wives", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F", 
+                    "F", 
+                    "F"
+                ], 
+                "happy_score": 41, 
+                "in_final": false, 
+                "is_band": true, 
+                "love_count": 13, 
+                "song_id": "2013_2_4", 
+                "song_name": "On Top of the World", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Peter Boström", 
+                    "Thomas G:son"
+                ], 
+                "winner": false, 
+                "year": 2013
+            }, 
+            {
+                "artist": "Sonja Aldén", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 3, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 0, 
+                "song_id": "2012_2_3", 
+                "song_name": "I din himmel", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Sonja Aldén", 
+                    "Bobby Ljunggren", 
+                    "Peter Boström"
+                ], 
+                "winner": false, 
+                "year": 2012
+            }, 
+            {
+                "artist": "Da Buzz", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F", 
+                    "M"
+                ], 
+                "happy_score": -17, 
+                "in_final": false, 
+                "is_band": true, 
+                "love_count": 4, 
+                "song_id": "2003_1_6", 
+                "song_name": "Stop! Look! Listen!", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Per Lund", 
+                    "Urban Robertsson", 
+                    "Joakim Udd", 
+                    "Peter Boström"
+                ], 
+                "winner": false, 
+                "year": 2003
+            }, 
+            {
+                "artist": "Martin Stenmarck", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 8, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2014_2_8", 
+                "song_name": "När änglarna går hem", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Andreas Öhrn", 
+                    "Alexander Bard", 
+                    "Martin Stenmarck", 
+                    "Peter Boström"
+                ], 
+                "winner": false, 
+                "year": 2014
+            }, 
+            {
+                "artist": "J.E.M", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F", 
+                    "F", 
+                    "M"
+                ], 
+                "happy_score": 80, 
+                "in_final": false, 
+                "is_band": true, 
+                "love_count": 31, 
+                "song_id": "2014_2_1", 
+                "song_name": "Love Trigger", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Thomas G:son", 
+                    "Peter Boström", 
+                    "Julimar J-Son Santos"
+                ], 
+                "winner": false, 
+                "year": 2014
+            }, 
+            {
+                "artist": "Josef Johansson", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 8, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 16, 
+                "song_id": "2014_4_5", 
+                "song_name": "Hela natten", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Peter Boström", 
+                    "Thomas G:son", 
+                    "Jonas Lundblad", 
+                    "Josef Johansson", 
+                    "Peo Thyrén"
+                ], 
+                "winner": false, 
+                "year": 2014
+            }, 
+            {
+                "artist": "Eddie Razaz", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": -48, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 4, 
+                "song_id": "2013_3_1", 
+                "song_name": "Alibi", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Thomas G:son", 
+                    "Peter Boström"
+                ], 
+                "winner": false, 
+                "year": 2013
+            }, 
+            {
+                "artist": "Danny Saucedo", 
+                "final_jury_points": 79, 
+                "final_placing": 2, 
+                "final_tel_points": 70, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": -4, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2011_1_8", 
+                "song_name": "In the Club", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Figge Boström", 
+                    "Peter Boström", 
+                    "Danny Saucedo"
+                ], 
+                "winner": false, 
+                "year": 2011
+            }, 
+            {
+                "artist": "Marie Serneholt", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": -2, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2009_1_8", 
+                "song_name": "Disconnect Me", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Peter Boström", 
+                    "Tony Nilsson"
+                ], 
+                "winner": false, 
+                "year": 2009
+            }, 
+            {
+                "artist": "Ulrik Munther", 
+                "final_jury_points": 82, 
+                "final_placing": 3, 
+                "final_tel_points": 44, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": -1, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 0, 
+                "song_id": "2013_4_8", 
+                "song_name": "Tell the World I'm Here", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Thomas G:son", 
+                    "Peter Boström", 
+                    "Ulrik Munther"
+                ], 
+                "winner": false, 
+                "year": 2013
+            }, 
+            {
+                "artist": "Sanna Nielsen", 
+                "final_jury_points": 75, 
+                "final_placing": 4, 
+                "final_tel_points": 39, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 63, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 29, 
+                "song_id": "2011_2_5", 
+                "song_name": "I'm in Love", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "F", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Bobby Ljunggren", 
+                    "Thomas G:son", 
+                    "Irini Michas", 
+                    "Peter Boström"
+                ], 
+                "winner": false, 
+                "year": 2011
+            }, 
+            {
+                "artist": "Lovestoned", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M", 
+                    "M", 
+                    "F", 
+                    "F"
+                ], 
+                "happy_score": -11, 
+                "in_final": false, 
+                "is_band": true, 
+                "love_count": 0, 
+                "song_id": "2010_4_4", 
+                "song_name": "Thursdays", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Sharon Vaughn", 
+                    "Thomas G:son", 
+                    "Peter Boström"
+                ], 
+                "winner": false, 
+                "year": 2010
+            }, 
+            {
+                "artist": "Alcazar", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F", 
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "happy_score": -16, 
+                "in_final": false, 
+                "is_band": true, 
+                "love_count": 0, 
+                "song_id": "2010_3_1", 
+                "song_name": "Headlines", 
+                "tm_genders": [
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Tony Nilsson", 
+                    "Peter Boström"
+                ], 
+                "winner": false, 
+                "year": 2010
+            }
+        ], 
+        "tm": "Peter Boström"
+    }, 
+    {
+        "songs": [
+            {
+                "artist": "Martin Stenmarck", 
+                "final_jury_points": 102, 
+                "final_placing": 1, 
+                "final_tel_points": 110, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 23, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 0, 
+                "song_id": "2005_3_8", 
+                "song_name": "Las Vegas", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Niklas Edberger", 
+                    "Johan Fransson", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren"
+                ], 
+                "winner": true, 
+                "year": 2005
+            }, 
+            {
+                "artist": "Jessica Folcker", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": -23, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2005_3_7", 
+                "song_name": "Om natten", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Niklas Edberger", 
+                    "Johan Fransson", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren"
+                ], 
+                "winner": false, 
+                "year": 2005
+            }, 
+            {
+                "artist": "Jimmy Jansson", 
+                "final_jury_points": 27, 
+                "final_placing": 6, 
+                "final_tel_points": 22, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 12, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 8, 
+                "song_id": "2005_3_3", 
+                "song_name": "Vi kan gunga", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Niklas Edberger", 
+                    "Johan Fransson", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren"
+                ], 
+                "winner": false, 
+                "year": 2005
+            }, 
+            {
+                "artist": "Alcazar", 
+                "final_jury_points": 69, 
+                "final_placing": 3, 
+                "final_tel_points": 66, 
+                "gender": [
+                    "F", 
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "happy_score": 43, 
+                "in_final": true, 
+                "is_band": true, 
+                "love_count": 10, 
+                "song_id": "2005_1_1", 
+                "song_name": "Alcastar", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Niklas Edberger", 
+                    "Johan Fransson", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren", 
+                    "Anders Hansson"
+                ], 
+                "winner": false, 
+                "year": 2005
+            }, 
+            {
+                "artist": "Linda Bengtzing", 
+                "final_jury_points": 15, 
+                "final_placing": 10, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": -2, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 3, 
+                "song_id": "2005_1_4", 
+                "song_name": "Alla flickor", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Niklas Edberger", 
+                    "Johan Fransson", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren"
+                ], 
+                "winner": false, 
+                "year": 2005
+            }, 
+            {
+                "artist": "Jessica Andersson", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": -11, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 3, 
+                "song_id": "2006_3_4", 
+                "song_name": "Kalla nätter", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Niklas Edberger", 
+                    "Johan Fransson", 
+                    "Tobias Lundgren", 
+                    "Tim Larsson"
+                ], 
+                "winner": false, 
+                "year": 2006
+            }, 
+            {
+                "artist": "Andrés Esteche", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 12, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 0, 
+                "song_id": "2003_2_1", 
+                "song_name": "Just Like a Boomerang", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Tobias Lundgren", 
+                    "Johan Fransson", 
+                    "Tim Larsson", 
+                    "Niklas Edberger"
+                ], 
+                "winner": false, 
+                "year": 2003
+            }, 
+            {
+                "artist": "Sandra Dahlberg", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 12, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 11, 
+                "song_id": "2006_4_4", 
+                "song_name": "Jag tar det jag vill ha", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M", 
+                    "F"
+                ], 
+                "tm_list": [
+                    "Johan Fransson", 
+                    "Tobias Lundgren", 
+                    "Niklas Edberger", 
+                    "Tim Larsson", 
+                    "Sandra Dahlberg"
+                ], 
+                "winner": false, 
+                "year": 2006
+            }, 
+            {
+                "artist": "Yohio", 
+                "final_jury_points": 30, 
+                "final_placing": 2, 
+                "final_tel_points": 103, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 17, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 5, 
+                "song_id": "2013_1_6", 
+                "song_name": "Heartbreak Hotel", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Johan Fransson", 
+                    "Tobias Lundgren", 
+                    "Tim Larsson", 
+                    "Henrik Göranson", 
+                    "Yohio"
+                ], 
+                "winner": false, 
+                "year": 2013
+            }, 
+            {
+                "artist": "Ellen Benediktson", 
+                "final_jury_points": 31, 
+                "final_placing": 7, 
+                "final_tel_points": 30, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": -7, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2014_1_6", 
+                "song_name": "Songbird", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Sharon Vaughn", 
+                    "Johan Fransson", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren"
+                ], 
+                "winner": false, 
+                "year": 2014
+            }, 
+            {
+                "artist": "Emil Sigfridsson", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": -4, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 4, 
+                "song_id": "2004_3_2", 
+                "song_name": "Innan mörkret faller", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Johan Fransson", 
+                    "Niklas Edberger", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren"
+                ], 
+                "winner": false, 
+                "year": 2004
+            }, 
+            {
+                "artist": "Anniela", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 7, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2011_2_7", 
+                "song_name": "Elektrisk", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Johan Alkenäs", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren", 
+                    "Johan Fransson"
+                ], 
+                "winner": false, 
+                "year": 2011
+            }, 
+            {
+                "artist": "Andrés Esteche", 
+                "final_jury_points": 14, 
+                "final_placing": 9, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 3, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 0, 
+                "song_id": "2004_4_8", 
+                "song_name": "Olé olé", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Johan Fransson", 
+                    "Niklas Edberger", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren"
+                ], 
+                "winner": false, 
+                "year": 2004
+            }, 
+            {
+                "artist": "Pandora", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 5, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 8, 
+                "song_id": "2004_4_5", 
+                "song_name": "Runaway", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Johan Fransson", 
+                    "Niklas Edberger", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren"
+                ], 
+                "winner": false, 
+                "year": 2004
+            }, 
+            {
+                "artist": "Linda Bengtzing", 
+                "final_jury_points": 64, 
+                "final_placing": 5, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": -20, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 0, 
+                "song_id": "2008_4_4", 
+                "song_name": "Hur svårt kan det va?", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Johan Fransson", 
+                    "Tobias Lundgren", 
+                    "Tim Larsson"
+                ], 
+                "winner": false, 
+                "year": 2008
+            }, 
+            {
+                "artist": "Linda Pritchard", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 10, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 13, 
+                "song_id": "2010_1_3", 
+                "song_name": "You're Making Me Hot-Hot-Hot", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Tobias Lundgren", 
+                    "Johan Fransson", 
+                    "Tim Larsson"
+                ], 
+                "winner": false, 
+                "year": 2010
+            }
+        ], 
+        "tm": "Tobias Lundgren"
+    }, 
+    {
+        "songs": [
+            {
+                "artist": "Martin Stenmarck", 
+                "final_jury_points": 102, 
+                "final_placing": 1, 
+                "final_tel_points": 110, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 23, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 0, 
+                "song_id": "2005_3_8", 
+                "song_name": "Las Vegas", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Niklas Edberger", 
+                    "Johan Fransson", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren"
+                ], 
+                "winner": true, 
+                "year": 2005
+            }, 
+            {
+                "artist": "Jessica Folcker", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": -23, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2005_3_7", 
+                "song_name": "Om natten", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Niklas Edberger", 
+                    "Johan Fransson", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren"
+                ], 
+                "winner": false, 
+                "year": 2005
+            }, 
+            {
+                "artist": "Jimmy Jansson", 
+                "final_jury_points": 27, 
+                "final_placing": 6, 
+                "final_tel_points": 22, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 12, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 8, 
+                "song_id": "2005_3_3", 
+                "song_name": "Vi kan gunga", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Niklas Edberger", 
+                    "Johan Fransson", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren"
+                ], 
+                "winner": false, 
+                "year": 2005
+            }, 
+            {
+                "artist": "Alcazar", 
+                "final_jury_points": 69, 
+                "final_placing": 3, 
+                "final_tel_points": 66, 
+                "gender": [
+                    "F", 
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "happy_score": 43, 
+                "in_final": true, 
+                "is_band": true, 
+                "love_count": 10, 
+                "song_id": "2005_1_1", 
+                "song_name": "Alcastar", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Niklas Edberger", 
+                    "Johan Fransson", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren", 
+                    "Anders Hansson"
+                ], 
+                "winner": false, 
+                "year": 2005
+            }, 
+            {
+                "artist": "Linda Bengtzing", 
+                "final_jury_points": 15, 
+                "final_placing": 10, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": -2, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 3, 
+                "song_id": "2005_1_4", 
+                "song_name": "Alla flickor", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Niklas Edberger", 
+                    "Johan Fransson", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren"
+                ], 
+                "winner": false, 
+                "year": 2005
+            }, 
+            {
+                "artist": "Jessica Andersson", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": -11, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 3, 
+                "song_id": "2006_3_4", 
+                "song_name": "Kalla nätter", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Niklas Edberger", 
+                    "Johan Fransson", 
+                    "Tobias Lundgren", 
+                    "Tim Larsson"
+                ], 
+                "winner": false, 
+                "year": 2006
+            }, 
+            {
+                "artist": "Andrés Esteche", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 12, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 0, 
+                "song_id": "2003_2_1", 
+                "song_name": "Just Like a Boomerang", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Tobias Lundgren", 
+                    "Johan Fransson", 
+                    "Tim Larsson", 
+                    "Niklas Edberger"
+                ], 
+                "winner": false, 
+                "year": 2003
+            }, 
+            {
+                "artist": "Sandra Dahlberg", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 12, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 11, 
+                "song_id": "2006_4_4", 
+                "song_name": "Jag tar det jag vill ha", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M", 
+                    "F"
+                ], 
+                "tm_list": [
+                    "Johan Fransson", 
+                    "Tobias Lundgren", 
+                    "Niklas Edberger", 
+                    "Tim Larsson", 
+                    "Sandra Dahlberg"
+                ], 
+                "winner": false, 
+                "year": 2006
+            }, 
+            {
+                "artist": "Yohio", 
+                "final_jury_points": 30, 
+                "final_placing": 2, 
+                "final_tel_points": 103, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 17, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 5, 
+                "song_id": "2013_1_6", 
+                "song_name": "Heartbreak Hotel", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Johan Fransson", 
+                    "Tobias Lundgren", 
+                    "Tim Larsson", 
+                    "Henrik Göranson", 
+                    "Yohio"
+                ], 
+                "winner": false, 
+                "year": 2013
+            }, 
+            {
+                "artist": "Ellen Benediktson", 
+                "final_jury_points": 31, 
+                "final_placing": 7, 
+                "final_tel_points": 30, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": -7, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2014_1_6", 
+                "song_name": "Songbird", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Sharon Vaughn", 
+                    "Johan Fransson", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren"
+                ], 
+                "winner": false, 
+                "year": 2014
+            }, 
+            {
+                "artist": "Emil Sigfridsson", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": -4, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 4, 
+                "song_id": "2004_3_2", 
+                "song_name": "Innan mörkret faller", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Johan Fransson", 
+                    "Niklas Edberger", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren"
+                ], 
+                "winner": false, 
+                "year": 2004
+            }, 
+            {
+                "artist": "Anniela", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 7, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2011_2_7", 
+                "song_name": "Elektrisk", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Johan Alkenäs", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren", 
+                    "Johan Fransson"
+                ], 
+                "winner": false, 
+                "year": 2011
+            }, 
+            {
+                "artist": "Andrés Esteche", 
+                "final_jury_points": 14, 
+                "final_placing": 9, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 3, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 0, 
+                "song_id": "2004_4_8", 
+                "song_name": "Olé olé", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Johan Fransson", 
+                    "Niklas Edberger", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren"
+                ], 
+                "winner": false, 
+                "year": 2004
+            }, 
+            {
+                "artist": "Pandora", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 5, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 8, 
+                "song_id": "2004_4_5", 
+                "song_name": "Runaway", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Johan Fransson", 
+                    "Niklas Edberger", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren"
+                ], 
+                "winner": false, 
+                "year": 2004
+            }, 
+            {
+                "artist": "Linda Bengtzing", 
+                "final_jury_points": 64, 
+                "final_placing": 5, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": -20, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 0, 
+                "song_id": "2008_4_4", 
+                "song_name": "Hur svårt kan det va?", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Johan Fransson", 
+                    "Tobias Lundgren", 
+                    "Tim Larsson"
+                ], 
+                "winner": false, 
+                "year": 2008
+            }, 
+            {
+                "artist": "Linda Pritchard", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 10, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 13, 
+                "song_id": "2010_1_3", 
+                "song_name": "You're Making Me Hot-Hot-Hot", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Tobias Lundgren", 
+                    "Johan Fransson", 
+                    "Tim Larsson"
+                ], 
+                "winner": false, 
+                "year": 2010
+            }
+        ], 
+        "tm": "Johan Fransson"
+    }, 
+    {
+        "songs": [
+            {
+                "artist": "Nanne", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 22, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 6, 
+                "song_id": "2007_3_8", 
+                "song_name": "Jag måste kyssa dig", 
+                "tm_genders": [
+                    "F", 
+                    "F", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Ingela \"Pling\" Forsman", 
+                    "Nanne Grönvall", 
+                    "Peter Grönvall"
+                ], 
+                "winner": false, 
+                "year": 2007
+            }, 
+            {
+                "artist": "Molly Sandén", 
+                "final_jury_points": 2, 
+                "final_placing": 11, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 31, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 7, 
+                "song_id": "2009_3_3", 
+                "song_name": "Så vill stjärnorna", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Ingela \"Pling\" Forsman", 
+                    "Bobby Ljunggren", 
+                    "Marcos Ubeda"
+                ], 
+                "winner": false, 
+                "year": 2009
+            }, 
+            {
+                "artist": "Nanne Grönvall", 
+                "final_jury_points": 77, 
+                "final_placing": 2, 
+                "final_tel_points": 132, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 5, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 10, 
+                "song_id": "2005_4_6", 
+                "song_name": "Håll om mig", 
+                "tm_genders": [
+                    "F", 
+                    "F"
+                ], 
+                "tm_list": [
+                    "Ingela \"Pling\" Forsman", 
+                    "Nanne Grönvall"
+                ], 
+                "winner": false, 
+                "year": 2005
+            }, 
+            {
+                "artist": "Niclas Wahlgren", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 12, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2006_2_7", 
+                "song_name": "En droppe regn", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Ingela \"Pling\" Forsman", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2006
+            }, 
+            {
+                "artist": "Sonya (Sonja Aldén)", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 32, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 10, 
+                "song_id": "2006_2_3", 
+                "song_name": "Etymon", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Ingela \"Pling\" Forsman", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2006
+            }, 
+            {
+                "artist": "Susanne Alfvengren", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 14, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 8, 
+                "song_id": "2009_4_3", 
+                "song_name": "Du är älskad där du går", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Ingela \"Pling\" Forsman", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2009
+            }, 
+            {
+                "artist": "Linda Bengtzing", 
+                "final_jury_points": 34, 
+                "final_placing": 7, 
+                "final_tel_points": 22, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 2, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 3, 
+                "song_id": "2006_1_5", 
+                "song_name": "Jag ljuger så bra", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Ingela \"Pling\" Forsman", 
+                    "Lars \"Dille\" Diedricson", 
+                    "Martin Hedström"
+                ], 
+                "winner": false, 
+                "year": 2006
+            }, 
+            {
+                "artist": "Scotts", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "happy_score": 8, 
+                "in_final": false, 
+                "is_band": true, 
+                "love_count": 2, 
+                "song_id": "2009_1_4", 
+                "song_name": "Jag tror på oss", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Ingela \"Pling\" Forsman", 
+                    "Lars \"Dille\" Diedricson", 
+                    "Martin Hedström"
+                ], 
+                "winner": false, 
+                "year": 2009
+            }, 
+            {
+                "artist": "Shirley Clamp", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 3, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 8, 
+                "song_id": "2009_1_3", 
+                "song_name": "Med hjärtat fyllt av ljus", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Ingela \"Pling\" Forsman", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2009
+            }, 
+            {
+                "artist": "Bosson", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 26, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 9, 
+                "song_id": "2004_3_8", 
+                "song_name": "Efharisto", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Ingela \"Pling\" Forsman", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2004
+            }, 
+            {
+                "artist": "Shirley Clamp", 
+                "final_jury_points": 86, 
+                "final_placing": 2, 
+                "final_tel_points": 88, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 55, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 19, 
+                "song_id": "2004_4_7", 
+                "song_name": "Min kärlek", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Ingela \"Pling\" Forsman", 
+                    "Bobby Ljunggren", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2004
+            }, 
+            {
+                "artist": "Felicia Olsson", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 3, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 7, 
+                "song_id": "2013_2_2", 
+                "song_name": "Make Me No 1", 
+                "tm_genders": [
+                    "M", 
+                    "F", 
+                    "M", 
+                    "F"
+                ], 
+                "tm_list": [
+                    "Henrik Wikström", 
+                    "Ingela \"Pling\" Forsman", 
+                    "Amir Aly", 
+                    "Maria Haukaas Mittet"
+                ], 
+                "winner": false, 
+                "year": 2013
+            }, 
+            {
+                "artist": "Ainbusk", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F", 
+                    "F", 
+                    "F", 
+                    "F"
+                ], 
+                "happy_score": -5, 
+                "in_final": false, 
+                "is_band": true, 
+                "love_count": 1, 
+                "song_id": "2008_3_7", 
+                "song_name": "Jag saknar dig ibland", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Ingela \"Pling\" Forsman", 
+                    "Henrik Wikström", 
+                    "Bobby Ljunggren"
+                ], 
+                "winner": false, 
+                "year": 2008
+            }, 
+            {
+                "artist": "Christer Sjögren", 
+                "final_jury_points": 1, 
+                "final_placing": 9, 
+                "final_tel_points": 22, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 60, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 16, 
+                "song_id": "2008_1_8", 
+                "song_name": "I Love Europe", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Ingela \"Pling\" Forsman", 
+                    "Torgny Söderberg", 
+                    "Magnus Johansson"
+                ], 
+                "winner": false, 
+                "year": 2008
+            }, 
+            {
+                "artist": "Alexander Schöld", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 8, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 3, 
+                "song_id": "2008_2_4", 
+                "song_name": "Den första svalan", 
+                "tm_genders": [
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Ingela \"Pling\" Forsman", 
+                    "Fredrik Thomander", 
+                    "Anders Wikström"
+                ], 
+                "winner": false, 
+                "year": 2008
+            }
+        ], 
+        "tm": "Ingela \"Pling\" Forsman"
+    }, 
+    {
+        "songs": [
+            {
+                "artist": "Martin Stenmarck", 
+                "final_jury_points": 102, 
+                "final_placing": 1, 
+                "final_tel_points": 110, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 23, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 0, 
+                "song_id": "2005_3_8", 
+                "song_name": "Las Vegas", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Niklas Edberger", 
+                    "Johan Fransson", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren"
+                ], 
+                "winner": true, 
+                "year": 2005
+            }, 
+            {
+                "artist": "Jessica Folcker", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": -23, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 1, 
+                "song_id": "2005_3_7", 
+                "song_name": "Om natten", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Niklas Edberger", 
+                    "Johan Fransson", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren"
+                ], 
+                "winner": false, 
+                "year": 2005
+            }, 
+            {
+                "artist": "Jimmy Jansson", 
+                "final_jury_points": 27, 
+                "final_placing": 6, 
+                "final_tel_points": 22, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 12, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 8, 
+                "song_id": "2005_3_3", 
+                "song_name": "Vi kan gunga", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Niklas Edberger", 
+                    "Johan Fransson", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren"
+                ], 
+                "winner": false, 
+                "year": 2005
+            }, 
+            {
+                "artist": "Alcazar", 
+                "final_jury_points": 69, 
+                "final_placing": 3, 
+                "final_tel_points": 66, 
+                "gender": [
+                    "F", 
+                    "F", 
+                    "M", 
+                    "M"
+                ], 
+                "happy_score": 43, 
+                "in_final": true, 
+                "is_band": true, 
+                "love_count": 10, 
+                "song_id": "2005_1_1", 
+                "song_name": "Alcastar", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Niklas Edberger", 
+                    "Johan Fransson", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren", 
+                    "Anders Hansson"
+                ], 
+                "winner": false, 
+                "year": 2005
+            }, 
+            {
+                "artist": "Linda Bengtzing", 
+                "final_jury_points": 15, 
+                "final_placing": 10, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": -2, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 3, 
+                "song_id": "2005_1_4", 
+                "song_name": "Alla flickor", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Niklas Edberger", 
+                    "Johan Fransson", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren"
+                ], 
+                "winner": false, 
+                "year": 2005
+            }, 
+            {
+                "artist": "Jessica Andersson", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": -11, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 3, 
+                "song_id": "2006_3_4", 
+                "song_name": "Kalla nätter", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Niklas Edberger", 
+                    "Johan Fransson", 
+                    "Tobias Lundgren", 
+                    "Tim Larsson"
+                ], 
+                "winner": false, 
+                "year": 2006
+            }, 
+            {
+                "artist": "Andrés Esteche", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 12, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 0, 
+                "song_id": "2003_2_1", 
+                "song_name": "Just Like a Boomerang", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Tobias Lundgren", 
+                    "Johan Fransson", 
+                    "Tim Larsson", 
+                    "Niklas Edberger"
+                ], 
+                "winner": false, 
+                "year": 2003
+            }, 
+            {
+                "artist": "Cosmo4", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F", 
+                    "F", 
+                    "F", 
+                    "F"
+                ], 
+                "happy_score": 22, 
+                "in_final": false, 
+                "is_band": true, 
+                "love_count": 18, 
+                "song_id": "2007_2_4", 
+                "song_name": "What's Your Name", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Kent Olsson", 
+                    "Niklas Edberger", 
+                    "Henrik Wikström"
+                ], 
+                "winner": false, 
+                "year": 2007
+            }, 
+            {
+                "artist": "Sandra Dahlberg", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 12, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 11, 
+                "song_id": "2006_4_4", 
+                "song_name": "Jag tar det jag vill ha", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M", 
+                    "F"
+                ], 
+                "tm_list": [
+                    "Johan Fransson", 
+                    "Tobias Lundgren", 
+                    "Niklas Edberger", 
+                    "Tim Larsson", 
+                    "Sandra Dahlberg"
+                ], 
+                "winner": false, 
+                "year": 2006
+            }, 
+            {
+                "artist": "Emil Sigfridsson", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": -4, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 4, 
+                "song_id": "2004_3_2", 
+                "song_name": "Innan mörkret faller", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Johan Fransson", 
+                    "Niklas Edberger", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren"
+                ], 
+                "winner": false, 
+                "year": 2004
+            }, 
+            {
+                "artist": "Andrés Esteche", 
+                "final_jury_points": 14, 
+                "final_placing": 9, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "M"
+                ], 
+                "happy_score": 3, 
+                "in_final": true, 
+                "is_band": false, 
+                "love_count": 0, 
+                "song_id": "2004_4_8", 
+                "song_name": "Olé olé", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Johan Fransson", 
+                    "Niklas Edberger", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren"
+                ], 
+                "winner": false, 
+                "year": 2004
+            }, 
+            {
+                "artist": "Pandora", 
+                "final_jury_points": -1, 
+                "final_placing": -1, 
+                "final_tel_points": -1, 
+                "gender": [
+                    "F"
+                ], 
+                "happy_score": 5, 
+                "in_final": false, 
+                "is_band": false, 
+                "love_count": 8, 
+                "song_id": "2004_4_5", 
+                "song_name": "Runaway", 
+                "tm_genders": [
+                    "M", 
+                    "M", 
+                    "M", 
+                    "M"
+                ], 
+                "tm_list": [
+                    "Johan Fransson", 
+                    "Niklas Edberger", 
+                    "Tim Larsson", 
+                    "Tobias Lundgren"
+                ], 
+                "winner": false, 
+                "year": 2004
+            }
+        ], 
+        "tm": "Niklas Edberger"
+    }
+]
