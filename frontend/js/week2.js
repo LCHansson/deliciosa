@@ -610,6 +610,57 @@ function week2() {
     });
 }
 
+$('#songShowAll').click(function () {
+    var chartNames = ["Tempo", "Sentiment", "Language", "Words"];
+
+    for (var i in chartNames) {
+        var chart = $('#songs' + chartNames[i]).highcharts(),
+            series1 = chart.series[1],
+            series2 = chart.series[0];
+
+        if (!series1.visible) {
+            series1.show();
+        }
+        if (!series2.visible) {
+            series2.show();
+        }
+    }
+});
+
+$('#songShowWinners').click(function () {
+    var chartNames = ["Tempo", "Sentiment", "Language", "Words"];
+
+    for (var i in chartNames) {
+        var chart = $('#songs' + chartNames[i]).highcharts(),
+            series1 = chart.series[1],
+            series2 = chart.series[0];
+
+        if (!series1.visible) {
+            series1.show();
+        }
+        if (series2.visible) {
+            series2.hide();
+        }
+    }
+});
+
+$('#songShowLosers').click(function () {
+    var chartNames = ["Tempo", "Sentiment", "Language", "Words"];
+
+    for (var i in chartNames) {
+        var chart = $('#songs' + chartNames[i]).highcharts(),
+            series1 = chart.series[1],
+            series2 = chart.series[0];
+
+        if (series1.visible) {
+            series1.hide();
+        }
+        if (!series2.visible) {
+            series2.show();
+        }
+    }
+});
+
 $(function () {
     var firstPostLoaded = false;
     $('#lasVidareID').on('click', function(e) {
