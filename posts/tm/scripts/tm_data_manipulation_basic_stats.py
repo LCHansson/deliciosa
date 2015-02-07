@@ -174,8 +174,83 @@ def get_tm_frequency(all_data, n=10):
                                                                                                     unique_perc)
     print "---------------------"
 
-#def get_tm_centric_data(all_data, all_participants_data)
 
+def get_tm_centric_data(all_data, all_participants_data, texts_data, outf, n=None):
+    # get the songs writen by each song writer
+    freqs = {}
+    for k, d in all_data.iteritems():
+        # is this a band?
+        is_band = True
+        if len(d["artist_gender"]) == 1:
+            is_band = False
+
+        # did these people got to final?
+        in_final = False
+        are_winners = False
+        if all_participants_data[k]["final_start_position"] != -1:
+            in_final = True
+            if all_participants_data[k]["final_placing"] == 1:
+                are_winners = True
+
+        # get love points and happiness, -10000 if not found
+        if not k in texts_data:
+            love_count = -10000
+            happy_score = -10000
+        else:
+            love_count = texts_data[k]['love']
+            happy_score = texts_data[k]['happy']
+
+        # year
+        nd = {'song_id': k,
+              'song_name': all_participants_data[k]["song_name"].encode('utf-8'),
+              'artist': d["artist"].encode('utf-8'),
+              'gender': d["artist_gender"],
+              'tm_list': [x.encode('utf-8') for x in d["tm_list"]],
+              'tm_genders': d["tm_genders"],
+              'is_band': is_band,
+              'year': all_participants_data[k]["year"],
+              'in_final': in_final,
+              'winner': are_winners,
+              "final_jury_points": all_participants_data[k]["final_jury_points"],
+              "final_placing": all_participants_data[k]["final_placing"],
+              "final_tel_points": all_participants_data[k]["final_tel_points"],
+              'love_count': love_count,
+              'happy_score': happy_score
+              }
+        for tm in d["tm_list"]:
+            if tm in freqs:
+                freqs[tm].append(nd)
+            else:
+                freqs[tm] = [nd]
+
+    data = freqs.items()
+    data.sort(key=lambda p: len(p[1]), reverse=True)
+    if n:
+        data = data[0:n]
+    ret = []
+    for tm, song_list in data:
+        ret.append({'tm': tm.encode('utf-8'), 'songs': song_list})
+
+    obj = open(outf, "w")
+    json.dump(ret, obj, indent=4, sort_keys=True, encoding="utf-8", ensure_ascii=False)
+    obj.close()
+
+
+def get_dict(data, key="id"):
+    d = {}
+    for dd in data:
+        d[dd[key]] = dd
+    return d
+
+def print_dict(d):
+    for k, v in d.iteritems():
+        print k, v
+
+def get_texterna_dict(data):
+    d = {}
+    for l in data:
+        d[l[3]] = {'love': l[1], 'happy': l[2]}
+    return d
 
 
 if __name__ == '__main__':
@@ -187,8 +262,11 @@ if __name__ == '__main__':
 
     # plot 2
     get_tm_frequency(all_data)
-    #part_data = json.load(open("/Users/luminitamoruz/work/deliciosa/posts/tm/data/all_participants_all_data_2002_2014_2.json"), encoding="utf-8")
+
+    # create a big dataset centered on text/music
+    part_data = get_dict(json.load(open("/Users/luminitamoruz/work/deliciosa/posts/tm/data/all_participants_all_data_2002_2014_2.json"), encoding="utf-8"))
+    post1_data = get_texterna_dict(json.load(open("/Users/luminitamoruz/work/deliciosa/posts/tm/data/texterna_sent_lovew_counts.json"), encoding="utf-8")["data"])
 
 
-
+    get_tm_centric_data(all_data, part_data, post1_data, outf="data-for-plots/tm_data_10_most_prolific.json", n=10)
 
