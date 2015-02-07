@@ -117,13 +117,12 @@ a:hover {
 
 a,
 .btn {
-    color: #00bbdb !important;
+    /*color: #00bbdb !important;*/
     font-family: inherit;
     font-size: inherit;
     font-weight: inherit;
     line-height: inherit;
 }
-
 
 /* Buttons */
 
@@ -235,6 +234,7 @@ footer a {
 .social a {
     display: inline-block;
     margin-left: 5px;
+    color: inherit;
 }
 
 
