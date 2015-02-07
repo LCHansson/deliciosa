@@ -1,0 +1,7140 @@
+{
+    "2002_1_1": {
+        "artist": "Excellence", 
+        "artist_gender": [
+            "F",
+            "F",
+            "F",
+            "F",
+            "F"
+        ], 
+        "tm": "Daniel Eklund(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Daniel Eklund"
+        ]
+    }, 
+    "2002_1_2": {
+        "artist": "Tom Nordahl", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Py Bäckman(t), & Micke Wennborn(m)", 
+        "tm_genders": [
+            "F",
+            "M"
+        ], 
+        "tm_list": [
+            "Py Bäckman", 
+            "Micke Wennborn"
+        ]
+    }, 
+    "2002_1_3": {
+        "artist": "Barbados", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Calle Kindbom(tm), & Thomas G:son(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Calle Kindbom", 
+            "Thomas G:son"
+        ]
+    }, 
+    "2002_1_4": {
+        "artist": "Camilla Lindén", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Tommy Eriksson(tm), & Claes-Göran Bjerdin(m)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Tommy Eriksson", 
+            "Claes-Göran Bjerdin"
+        ]
+    }, 
+    "2002_1_5": {
+        "artist": "Brandsta City Släckers", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Larry Forsberg(tm), & Sven-Inge Sjöberg(tm), & Lennart Wastesson(tm)", 
+        "tm_genders": [
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Larry Forsberg", 
+            "Sven-Inge Sjöberg", 
+            "Lennart Wastesson"
+        ]
+    }, 
+    "2002_1_6": {
+        "artist": "Zoë", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Sofie Geiryd(tm), & Stefan Olsson(tm)", 
+        "tm_genders": [
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Sofie Geiryd", 
+            "Stefan Olsson"
+        ]
+    }, 
+    "2002_1_7": {
+        "artist": "Richard Sköld", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Erik Appelros(tm), & Istvan Steneberg(tm), & Richard Sköld(tm)", 
+        "tm_genders": [
+            "M", 
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Erik Appelros", 
+            "Istvan Steneberg", 
+            "Richard Sköld"
+        ]
+    }, 
+    "2002_1_8": {
+        "artist": "Méndez", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Robert Wåtz(tm), & Rasmus Lindwall(tm), & Leopoldo Méndez(tm), & Patrik Henzel(tm), & Pablo Cepeda(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M",
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Robert Wåtz", 
+            "Rasmus Lindwall", 
+            "Leopoldo Méndez", 
+            "Patrik Henzel", 
+            "Pablo Cepeda"
+        ]
+    }, 
+    "2002_2_1": {
+        "artist": "Poets", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Thomas G:son(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Thomas G:son"
+        ]
+    }, 
+    "2002_2_2": {
+        "artist": "Jennifer Newberry", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Tony Malm(tm), & Joakim Björklund(tm), & Jonas Sällberg(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Tony Malm", 
+            "Joakim Björklund", 
+            "Jonas Sällberg"
+        ]
+    }, 
+    "2002_2_3": {
+        "artist": "Javiera", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Lars Diedricson(tm), & Javiera Muñoz(tm)", 
+        "tm_genders": [
+            "M", 
+            "F"
+        ], 
+        "tm_list": [
+            "Lars Diedricson", 
+            "Javiera Muñoz"
+        ]
+    }, 
+    "2002_2_4": {
+        "artist": "Martin", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Martin Svensson(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Martin Svensson"
+        ]
+    }, 
+    "2002_2_5": {
+        "artist": "Ann-Louise Hanson & Molle Holmberg", 
+        "artist_gender": [
+            "F",
+            "M"
+        ], 
+        "tm": "Robin Rex(tm), & Tobias Karlsson(m), & Anders Nyman(m)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Robin Rex", 
+            "Tobias Karlsson", 
+            "Anders Nyman"
+        ]
+    }, 
+    "2002_2_6": {
+        "artist": "Jakob Stadell & Voice Boys", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Suzzie Tapper(t), & Lars Karlsson(m)", 
+        "tm_genders": [
+            "F",
+            "M"
+        ], 
+        "tm_list": [
+            "Suzzie Tapper", 
+            "Lars Karlsson"
+        ]
+    }, 
+    "2002_2_7": {
+        "artist": "Afro-Dite", 
+        "artist_gender": [
+            "F",
+            "F",
+            "F"
+        ], 
+        "tm": "Marcos Ubeda(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Marcos Ubeda"
+        ]
+    }, 
+    "2002_2_8": {
+        "artist": "Annika Ljungberg", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Johan Ramström(tm), & Patrik Magnusson(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Johan Ramström", 
+            "Patrik Magnusson"
+        ]
+    }, 
+    "2002_3_1": {
+        "artist": "Tove Jaarnek", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Kjell-Åke Norén(tm), & Towe Jaarnek(tm)", 
+        "tm_genders": [
+            "M",
+            "F"
+        ], 
+        "tm_list": [
+            "Kjell-Åke Norén", 
+            "Towe Jaarnek"
+        ]
+    }, 
+    "2002_3_2": {
+        "artist": "Date", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Patrik Tibell(t), & Johnny Thunqvist(m)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Patrik Tibell", 
+            "Johnny Thunqvist"
+        ]
+    }, 
+    "2002_3_3": {
+        "artist": "Linda Grip", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Marcus Black(tm), & Linda Grip(tm)", 
+        "tm_genders": [
+            "M", 
+            "F"
+        ], 
+        "tm_list": [
+            "Marcus Black", 
+            "Linda Grip"
+        ]
+    }, 
+    "2002_3_4": {
+        "artist": "Arvingarna", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Thomas G:son(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Thomas G:son"
+        ]
+    }, 
+    "2002_3_5": {
+        "artist": "Östen med Resten", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Larry Forsberg(tm), & Sven-Inge Sjöberg(tm), & Lennart Wastesson(tm)", 
+        "tm_genders": [
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Larry Forsberg", 
+            "Sven-Inge Sjöberg", 
+            "Lennart Wastesson"
+        ]
+    }, 
+    "2002_3_6": {
+        "artist": "Rolf Carlsson", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Markku Reingold(t), & Rolf Carlsson(m)", 
+        "tm_genders": [
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Markku Reingold", 
+            "Rolf Carlsson"
+        ]
+    }, 
+    "2002_3_7": {
+        "artist": "Sylvia Vrethammar", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Dan Hylander(tm), & Tomas Enochsson(m)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Dan Hylander", 
+            "Tomas Enochsson"
+        ]
+    }, 
+    "2002_3_8": {
+        "artist": "Hanna & Lina", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Lotta Ahlin(tm), & Tommy Lydell(tm)", 
+        "tm_genders": [
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Lotta Ahlin", 
+            "Tommy Lydell"
+        ]
+    }, 
+    "2002_4_1": {
+        "artist": "Carina Jaarnek", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Marcos Ubeda(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Marcos Ubeda"
+        ]
+    }, 
+    "2002_4_2": {
+        "artist": "Solo", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Ulf Georgsson(t), & Jonas Ohlson(m), & Niclas Eriksson(m)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Ulf Georgsson", 
+            "Jonas Ohlson", 
+            "Niclas Eriksson"
+        ]
+    }, 
+    "2002_4_3": {
+        "artist": "Niklas Andersson", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Svante Persson(tm), & Micke Wedberg(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Svante Persson", 
+            "Micke Wedberg"
+        ]
+    }, 
+    "2002_4_4": {
+        "artist": "Friends", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M",
+            "M",
+            "F"
+        ], 
+        "tm": "Pontus Assarsson(tm), & Henrik Sethsson(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Pontus Assarsson", 
+            "Henrik Sethsson"
+        ]
+    }, 
+    "2002_4_5": {
+        "artist": "The Honeydrops", 
+        "artist_gender": [
+            "F",
+            "F"
+        ], 
+        "tm": "Mats Hedström(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Mats Hedström"
+        ]
+    }, 
+    "2002_4_6": {
+        "artist": "Kikki, Bettan & Lotta", 
+        "artist_gender": [
+            "F",
+            "F",
+            "F"
+        ], 
+        "tm": "Thomas G:son(tm), & Calle Kindbom(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Thomas G:son", 
+            "Calle Kindbom"
+        ]
+    }, 
+    "2002_4_7": {
+        "artist": "Jan Johansen", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Thomas Thörnholm(tm), & Dan Attlerud(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Thomas Thörnholm", 
+            "Dan Attlerud"
+        ]
+    }, 
+    "2002_4_8": {
+        "artist": "Fredrik Wännman", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Fredrik Wännman(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Fredrik Wännman"
+        ]
+    }, 
+    "2003_1_1": {
+        "artist": "Crosstalk", 
+        "artist_gender": [
+            "F",
+            "M"
+        ], 
+        "tm": "Mattias Reimer(tm), & Lars Edvall(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Mattias Reimer", 
+            "Lars Edvall"
+        ]
+    }, 
+    "2003_1_2": {
+        "artist": "DeDe Lopez", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Mattias Holmlund(tm), & Peter Ågren(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Mattias Holmlund", 
+            "Peter Ågren"
+        ]
+    }, 
+    "2003_1_3": {
+        "artist": "Méndez", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Leopoldo Mendez(tm), & Patrik Henzel(tm), & Gustav Jonsson(tm), & Tommy Tysper(tm), & Markus Sepehrmanesh(tm)", 
+        "tm_genders": [
+            "M",
+            "M", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Leopoldo Mendez", 
+            "Patrik Henzel", 
+            "Gustav Jonsson", 
+            "Tommy Tysper", 
+            "Markus Sepehrmanesh"
+        ]
+    }, 
+    "2003_1_4": {
+        "artist": "Alive & Jessie Martins", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M",
+            "M",
+            "F"
+        ], 
+        "tm": "Mattias Reimer(tm), & Lars Edvall(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Mattias Reimer", 
+            "Lars Edvall"
+        ]
+    }, 
+    "2003_1_5": {
+        "artist": "Jill Johnson", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Lennart Wastesson(tm), & Larry Forsberg(tm), & Sven-Inge Sjöberg(tm)", 
+        "tm_genders": [
+            "M", 
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Lennart Wastesson", 
+            "Larry Forsberg", 
+            "Sven-Inge Sjöberg"
+        ]
+    }, 
+    "2003_1_6": {
+        "artist": "Da Buzz", 
+        "artist_gender": [
+            "F",
+            "M"
+        ], 
+        "tm": "Per Lund(tm), & Urban Robertsson(tm), & Joakim Udd(tm), & Peter Boström(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Per Lund", 
+            "Urban Robertsson", 
+            "Joakim Udd", 
+            "Peter Boström"
+        ]
+    }, 
+    "2003_1_7": {
+        "artist": "Markus Landgren", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Pernilla Sahlin(t), & Peter Sahlin(tm)", 
+        "tm_genders": [
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Pernilla Sahlin", 
+            "Peter Sahlin"
+        ]
+    }, 
+    "2003_1_8": {
+        "artist": "Pernilla Wahlgren & Jan Johansen", 
+        "artist_gender": [
+            "F",
+            "M"
+        ], 
+        "tm": "Ola Höglund(tm), & Anders Dannvik(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Ola Höglund", 
+            "Anders Dannvik"
+        ]
+    }, 
+    "2003_2_1": {
+        "artist": "Andrés Esteche", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Tobias Lundgren(tm), & Johan Fransson(tm), & Tim Larsson(tm), & Niklas Edberger(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Tobias Lundgren", 
+            "Johan Fransson", 
+            "Tim Larsson", 
+            "Niklas Edberger"
+        ]
+    }, 
+    "2003_2_2": {
+        "artist": "Sanna Nielsen", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Thomas G:son(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Thomas G:son"
+        ]
+    }, 
+    "2003_2_3": {
+        "artist": "Kerli & Locatellies", 
+        "artist_gender": [
+            "F",
+            "F",
+            "F"
+        ], 
+        "tm": "Johan Ekman(t), & Jonas Liberg(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Johan Ekman", 
+            "Jonas Liberg"
+        ]
+    }, 
+    "2003_2_4": {
+        "artist": "Pandora", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Shirley Clamp(t), & Tania Clamp(t), & Jan Johansen(tm)", 
+        "tm_genders": [
+            "F",
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Shirley Clamp", 
+            "Tania Clamp", 
+            "Jan Johansen"
+        ]
+    }, 
+    "2003_2_5": {
+        "artist": "Brandsta City Släckers", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Niclas Arn(tm), & Karl Eurén(tm), & Gustav Eurén(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Niclas Arn", 
+            "Karl Eurén", 
+            "Gustav Eurén"
+        ]
+    }, 
+    "2003_2_6": {
+        "artist": "Fame", 
+        "artist_gender": [
+            "M",
+            "F"
+        ], 
+        "tm": "Carl Lösnitz(tm), & Calle Kindbom(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Carl Lösnitz", 
+            "Calle Kindbom"
+        ]
+    }, 
+    "2003_2_7": {
+        "artist": "Aleena", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Anna-Lena Högdahl(tm), & Bobby Ljunggren(tm), & Tommy Lydell(m)", 
+        "tm_genders": [
+            "F",
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Anna-Lena Högdahl", 
+            "Bobby Ljunggren", 
+            "Tommy Lydell"
+        ]
+    }, 
+    "2003_2_8": {
+        "artist": "Alcazar", 
+        "artist_gender": [
+            "F",
+            "F",
+            "M",
+            "M"
+        ], 
+        "tm": "Lotta Ahlin(t), & Bobby Ljunggren(m), & Tommy Lydell(m)", 
+        "tm_genders": [
+            "F", 
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Lotta Ahlin", 
+            "Bobby Ljunggren", 
+            "Tommy Lydell"
+        ]
+    }, 
+    "2003_3_1": {
+        "artist": "Barbados", 
+        "artist_gender":[
+            "M",
+            "M",
+            "M",
+            "M",
+            "M",
+            "M"
+
+        ], 
+        "tm": "Lotta Ahlin(tm), & Bobby Ljunggren(m), & Tommy Lydell(m)", 
+        "tm_genders": [
+            "F", 
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Lotta Ahlin", 
+            "Bobby Ljunggren", 
+            "Tommy Lydell"
+        ]
+    }, 
+    "2003_3_2": {
+        "artist": "Shanna Smith", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Richard Evenlind(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Richard Evenlind"
+        ]
+    }, 
+    "2003_3_3": {
+        "artist": "Nanne Grönvall", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Nanne Grönvall(tm), & Peter Grönvall(m)", 
+        "tm_genders": [
+            "F",
+            "M"
+        ], 
+        "tm_list": [
+            "Nanne Grönvall", 
+            "Peter Grönvall"
+        ]
+    }, 
+    "2003_3_4": {
+        "artist": "Sarek", 
+        "artist_gender": [
+            "F",
+            "F",
+            "F",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Mårten Eriksson(tm), & Stina Jadelius(tm)", 
+        "tm_genders": [
+            "M",
+            "F"
+        ], 
+        "tm_list": [
+            "Mårten Eriksson", 
+            "Stina Jadelius"
+        ]
+    }, 
+    "2003_3_5": {
+        "artist": "Sofia Källgren & Robert Wells", 
+        "artist_gender": [
+            "F",
+            "M"
+        ], 
+        "tm": "Marcos Ubeda(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Marcos Ubeda"
+        ]
+    }, 
+    "2003_3_6": {
+        "artist": "Liverpool", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Lennart Wastesson(tm), & Larry Forsberg(tm), & Sven-Inge Sjöberg(tm)", 
+        "tm_genders": [
+            "M", 
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Lennart Wastesson", 
+            "Larry Forsberg", 
+            "Sven-Inge Sjöberg"
+        ]
+    }, 
+    "2003_3_7": {
+        "artist": "Shirley Clamp", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Lotta Ahlin(tm), & Bobby Ljunggren(m), & Tommy Lydell(m)", 
+        "tm_genders": [
+            "F", 
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Lotta Ahlin", 
+            "Bobby Ljunggren", 
+            "Tommy Lydell"
+        ]
+    }, 
+    "2003_3_8": {
+        "artist": "Style", 
+        "artist_gender": [
+            "M",
+            "M",
+            "F"
+        ], 
+        "tm": "Tommy Ekman(tm), & Christer Sandelin(tm), & Jonas Stadling(tm), & Thomas Axelsson(tm), & Olle Törnström(tm), & Brian Hobbs(tm)", 
+        "tm_genders": [
+            "M", 
+            "M",
+            "M", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Tommy Ekman", 
+            "Christer Sandelin", 
+            "Jonas Stadling", 
+            "Thomas Axelsson", 
+            "Olle Törnström", 
+            "Brian Hobbs"
+        ]
+    }, 
+    "2003_4_1": {
+        "artist": "Sahlene", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Anna-Lena Högdahl(tm), & Robert Olausson(m), & Bobby Ljunggren(m)", 
+        "tm_genders": [
+            "F",
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Anna-Lena Högdahl", 
+            "Robert Olausson", 
+            "Bobby Ljunggren"
+        ]
+    }, 
+    "2003_4_2": {
+        "artist": "Fernando Brito", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Fernando Brito(tm), & Johan Larsson(m)", 
+        "tm_genders": [
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Fernando Brito", 
+            "Johan Larsson"
+        ]
+    }, 
+    "2003_4_3": {
+        "artist": "Bubbles", 
+        "artist_gender": [
+            "F",
+            "F",
+            "F",
+            "F",
+            "F"
+        ], 
+        "tm": "Lars Erlandsson(tm), & Fredrik Lenander(tm), & Paul Rein(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Lars Erlandsson", 
+            "Fredrik Lenander", 
+            "Paul Rein"
+        ]
+    }, 
+    "2003_4_4": {
+        "artist": "Maarja", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Mattias Reimer(tm), & Lars Edvall(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Mattias Reimer", 
+            "Lars Edvall"
+        ]
+    }, 
+    "2003_4_5": {
+        "artist": "Östen med Resten", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M"
+
+        ], 
+        "tm": "Lennart Wastesson(tm), & Larry Forsberg(tm), & Sven-Inge Sjöberg(tm)", 
+        "tm_genders": [
+            "M", 
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Lennart Wastesson", 
+            "Larry Forsberg", 
+            "Sven-Inge Sjöberg"
+        ]
+    }, 
+    "2003_4_6": {
+        "artist": "Lina Hedlund", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Anna-Lena Högdahl(t), & Torbjörn Petersson(tm)", 
+        "tm_genders": [
+            "F",
+            "M"
+        ], 
+        "tm_list": [
+            "Anna-Lena Högdahl", 
+            "Torbjörn Petersson"
+        ]
+    }, 
+    "2003_4_7": {
+        "artist": "Mikael Erlandsson", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Christian Antblad(tm), & Tommy Denander(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Christian Antblad", 
+            "Tommy Denander"
+        ]
+    }, 
+    "2003_4_8": {
+        "artist": "Afro-dite", 
+        "artist_gender": [
+            "F",
+            "F",
+            "F"
+
+        ], 
+        "tm": "Marcos Ubeda(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Marcos Ubeda"
+        ]
+    }, 
+    "2004_1_1": {
+        "artist": "Nina & Kim", 
+        "artist_gender": [
+            "F",
+            "F"
+        ], 
+        "tm": "Gustav Eurén(tm), & Karl Eurén(tm), & Niklas Arn(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Gustav Eurén", 
+            "Karl Eurén", 
+            "Niklas Arn"
+        ]
+    }, 
+    "2004_1_2": {
+        "artist": "Joachim Bergström", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Johan Bejerholm(tm), & Jonas Sahlin(tm), & Emil Heiling(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Johan Bejerholm", 
+            "Jonas Sahlin", 
+            "Emil Heiling"
+        ]
+    }, 
+    "2004_1_3": {
+        "artist": "Sarek", 
+        "artist_gender": [
+            "F",
+            "F",
+            "F",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Dan Attlerud(t), & Lars \"Dille\" Diedricson(m), & Marcos Ubeda(m)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Dan Attlerud", 
+            "Lars \"Dille\" Diedricson", 
+            "Marcos Ubeda"
+        ]
+    }, 
+    "2004_1_4": {
+        "artist": "Karl Martindahl", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Michael Persson(tm), & Peter Broman(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Michael Persson", 
+            "Peter Broman"
+        ]
+    }, 
+    "2004_1_5": {
+        "artist": "LaGaylia Frazier", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Lars Andersson(tm), & Thomas Thörnholm(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Lars Andersson", 
+            "Thomas Thörnholm"
+        ]
+    }, 
+    "2004_1_6": {
+        "artist": "Sara Löfgren", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Carina Danielsson-Bergsman(t), & Eddie Jonsson(t), & Lars \"Dille\" Diedricson(m)", 
+        "tm_genders": [
+            "F",
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Carina Danielsson-Bergsman", 
+            "Eddie Jonsson", 
+            "Lars \"Dille\" Diedricson"
+        ]
+    }, 
+    "2004_1_7": {
+        "artist": "Niklas Andersson", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Lasse Berghagen(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Lasse Berghagen"
+        ]
+    }, 
+    "2004_1_8": {
+        "artist": "Petra Nielsen", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Thomas G:son(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Thomas G:son"
+        ]
+    }, 
+    "2004_2_1": {
+        "artist": "Fredrik Kempe", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Fredrik Kempe(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Fredrik Kempe"
+        ]
+    }, 
+    "2004_2_2": {
+        "artist": "Baccara", 
+        "artist_gender": [
+            "F",
+            "F"
+        ], 
+        "tm": "Robert Habolin(tm), & Mats Jansson(tm), & Robert Olausson(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Robert Habolin", 
+            "Mats Jansson", 
+            "Robert Olausson"
+        ]
+    }, 
+    "2004_2_3": {
+        "artist": "Fame", 
+        "artist_gender": [
+            "M",
+            "F"
+        ], 
+        "tm": "Dan Attlerud(t), & Henrik Sethsson(m), & Pontus Assarsson(m)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Dan Attlerud", 
+            "Henrik Sethsson", 
+            "Pontus Assarsson"
+        ]
+    }, 
+    "2004_2_4": {
+        "artist": "Jennifer Escola", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Ari Lethonen(tm), & Dick Cruslock(m)", 
+        "tm_genders": [
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Ari Lethonen", 
+            "Dick Cruslock"
+        ]
+    }, 
+    "2004_2_5": {
+        "artist": "Pay TV", 
+        "artist_gender": [
+            "F",
+            "F",
+            "F"
+        ], 
+        "tm": "Håkan Lidbo(tm), & Ulrika Lidbo(tm)", 
+        "tm_genders": [
+            "M",
+            "F"
+        ], 
+        "tm_list": [
+            "Håkan Lidbo", 
+            "Ulrika Lidbo"
+        ]
+    }, 
+    "2004_2_6": {
+        "artist": "Anne-Lie Rydé", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Thomas G:son(t), & Tony Johansson(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Thomas G:son", 
+            "Tony Johansson"
+        ]
+    }, 
+    "2004_2_7": {
+        "artist": "LaRoxx", 
+        "artist_gender": [
+            "M",
+            "F",
+            "F"
+        ], 
+        "tm": "Jon Hällgren(tm), & Magnus Sagrén(tm), & Kosshiyar Mehdipoor(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Jon Hällgren", 
+            "Magnus Sagrén", 
+            "Kosshiyar Mehdipoor"
+        ]
+    }, 
+    "2004_2_8": {
+        "artist": "E-Type", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Martin Eriksson(tm), & Fredrik Ekdahl(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Martin Eriksson", 
+            "Fredrik Ekdahl"
+        ]
+    }, 
+    "2004_3_1": {
+        "artist": "Bubbles", 
+        "artist_gender": [
+            "F",
+            "F",
+            "F",
+            "F",
+            "F"
+
+        ],
+        "tm": "Niclas Molinder(tm), & Joacim Persson(tm), & Pelle Ankarberg(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Niclas Molinder", 
+            "Joacim Persson", 
+            "Pelle Ankarberg"
+        ]
+    }, 
+    "2004_3_2": {
+        "artist": "Emil Sigfridsson", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Johan Fransson(tm), & Niklas Edberger(tm), & Tim Larsson(tm), & Tobias Lundgren(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Johan Fransson", 
+            "Niklas Edberger", 
+            "Tim Larsson", 
+            "Tobias Lundgren"
+        ]
+    }, 
+    "2004_3_3": {
+        "artist": "Gladys del Pilar", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Mats Hedström(tm), & Daniel Eklund(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Mats Hedström", 
+            "Daniel Eklund"
+        ]
+    }, 
+    "2004_3_4": {
+        "artist": "Sandra Dahlberg", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Sandra Dahlberg(tm), & Johan Becker(tm)", 
+        "tm_genders": [
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Sandra Dahlberg", 
+            "Johan Becker"
+        ]
+    }, 
+    "2004_3_5": {
+        "artist": "Itchycoo", 
+        "artist_gender": [
+            "F",
+            "M"
+        ], 
+        "tm": "Tobias Gustavsson(tm), & Mia Bergström(tm), & Håkan Glänte(tm)", 
+        "tm_genders": [
+            "M", 
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Tobias Gustavsson", 
+            "Mia Bergström", 
+            "Håkan Glänte"
+        ]
+    }, 
+    "2004_3_6": {
+        "artist": "Hanson & Carson & Malmkvist", 
+        "artist_gender": [
+            "F",
+            "F",
+            "F"
+        ], 
+        "tm": "Thomas G:son(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Thomas G:son"
+        ]
+    }, 
+    "2004_3_7": {
+        "artist": "Autolove", 
+        "artist_gender": [
+            "F",
+            "M",
+            "M"
+        ], 
+        "tm": "Peder Ernerot(tm), & Gustave Lund(tm)", 
+        "tm_genders": [
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Peder Ernerot", 
+            "Gustave Lund"
+        ]
+    }, 
+    "2004_3_8": {
+        "artist": "Bosson", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Ingela \"Pling\" Forsman(t), & Bobby Ljunggren(m), & Henrik Wikström(m)", 
+        "tm_genders": [
+            "F",
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Ingela \"Pling\" Forsman", 
+            "Bobby Ljunggren", 
+            "Henrik Wikström"
+        ]
+    }, 
+    "2004_4_1": {
+        "artist": "Lena Philipsson", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Thomas \"Orup\" Eriksson(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Thomas \"Orup\" Eriksson"
+        ]
+    }, 
+    "2004_4_2": {
+        "artist": "Anders Borgius", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Anders Borgius(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Anders Borgius"
+        ]
+    }, 
+    "2004_4_3": {
+        "artist": "Lotta Nilsson & Glenn Borgkvist", 
+        "artist_gender": [
+            "F",
+            "M"
+
+        ], 
+        "tm": "Larry Forsberg(t), & Sven-Inge Sjöberg(t), & Lennart Wastesson(t), & Lars Erlandsson(m), & Fredrik Lenander(m), & David Clewett(m)", 
+        "tm_genders": [
+            "M",
+            "M",
+            "M", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Larry Forsberg", 
+            "Sven-Inge Sjöberg", 
+            "Lennart Wastesson", 
+            "Lars Erlandsson", 
+            "Fredrik Lenander", 
+            "David Clewett"
+        ]
+    }, 
+    "2004_4_4": {
+        "artist": "After Dark", 
+        "artist_gender": [
+            "U"
+        ], 
+        "tm": "Sven-Inge Sjöberg(tm), & Lennart Wastesson(tm), & Larry Forsberg(tm)", 
+        "tm_genders": [
+            "M",
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Sven-Inge Sjöberg", 
+            "Lennart Wastesson", 
+            "Larry Forsberg"
+        ]
+    }, 
+    "2004_4_5": {
+        "artist": "Pandora", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Johan Fransson(tm), & Niklas Edberger(tm), & Tim Larsson(tm), & Tobias Lundgren(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Johan Fransson", 
+            "Niklas Edberger", 
+            "Tim Larsson", 
+            "Tobias Lundgren"
+        ]
+    }, 
+    "2004_4_6": {
+        "artist": "Fre", 
+        "artist_gender": [
+            "M",
+            "M"
+        ], 
+        "tm": "Putte Nilsson(tm), & Jonatan Fre(tm), & Henok Fre(tm), & Roberto Martorell(tm)", 
+        "tm_genders": [
+            "M",
+            "M", 
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Putte Nilsson", 
+            "Jonatan Fre", 
+            "Henok Fre", 
+            "Roberto Martorell"
+        ]
+    }, 
+    "2004_4_7": {
+        "artist": "Shirley Clamp", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Ingela \"Pling\" Forsman(t), & Bobby Ljunggren(m), & Henrik Wikström(m)", 
+        "tm_genders": [
+            "F",
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Ingela \"Pling\" Forsman", 
+            "Bobby Ljunggren", 
+            "Henrik Wikström"
+        ]
+    }, 
+    "2004_4_8": {
+        "artist": "Andrés Esteche", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Johan Fransson(tm), & Niklas Edberger(tm), & Tim Larsson(tm), & Tobias Lundgren(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Johan Fransson", 
+            "Niklas Edberger", 
+            "Tim Larsson", 
+            "Tobias Lundgren"
+        ]
+    }, 
+    "2005_1_1": {
+        "artist": "Alcazar", 
+        "artist_gender": [
+            "F",
+            "F",
+            "M",
+            "M"
+
+        ], 
+        "tm": "Niklas Edberger(tm), & Johan Fransson(tm), & Tim Larsson(tm), & Tobias Lundgren(tm), & Anders Hansson(m)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Niklas Edberger", 
+            "Johan Fransson", 
+            "Tim Larsson", 
+            "Tobias Lundgren", 
+            "Anders Hansson"
+        ]
+    }, 
+    "2005_1_2": {
+        "artist": "Cecilia Vennersten", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Calle Kindbom(t), & Robert Åhlin(m)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Calle Kindbom", 
+            "Robert Åhlin"
+        ]
+    }, 
+    "2005_1_3": {
+        "artist": "Papa Dee", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Daniel Wahlgren(t), & Bobby Ljunggren(m), & Marcos Ubeda(m)", 
+        "tm_genders": [
+            "M", 
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Daniel Wahlgren", 
+            "Bobby Ljunggren", 
+            "Marcos Ubeda"
+        ]
+    }, 
+    "2005_1_4": {
+        "artist": "Linda Bengtzing", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Niklas Edberger(tm), & Johan Fransson(tm), & Tim Larsson(tm), & Tobias Lundgren(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Niklas Edberger", 
+            "Johan Fransson", 
+            "Tim Larsson", 
+            "Tobias Lundgren"
+        ]
+    }, 
+    "2005_1_5": {
+        "artist": "The Wallstones", 
+        "artist_gender": [
+            "M",
+            "M"
+        ], 
+        "tm": "Karl Martindahl(tm), & Johan Becker(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Karl Martindahl", 
+            "Johan Becker"
+        ]
+    }, 
+    "2005_1_6": {
+        "artist": "Pay TV", 
+        "artist_gender": [
+            "F",
+            "F",
+            "F"
+        ], 
+        "tm": "Ulrika Lidbo(t), & Håkan Lidbo(tm)", 
+        "tm_genders": [
+            "F", 
+            "F"
+        ], 
+        "tm_list": [
+            "Ulrika Lidbo", 
+            "Håkan Lidbo"
+        ]
+    }, 
+    "2005_1_7": {
+        "artist": "Nordman", 
+        "artist_gender": [
+            "M",
+            "M"
+        ], 
+        "tm": "Danne Attlerud(t), & Mats Wester(tm)", 
+        "tm_genders": [
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Danne Attlerud", 
+            "Mats Wester"
+        ]
+    }, 
+    "2005_1_8": {
+        "artist": "Shirley Clamp", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Sonja Aldén(t), & Shirley Clamp(t), & Robert Olausson(tm), & Bobby Ljunggren(tm), & Henrik Wikström(m)", 
+        "tm_genders": [
+            "F", 
+            "F",
+            "M", 
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Sonja Aldén", 
+            "Shirley Clamp", 
+            "Robert Olausson", 
+            "Bobby Ljunggren", 
+            "Henrik Wikström"
+        ]
+    }, 
+    "2005_2_1": {
+        "artist": "Fredrik Kempe & Sanna Nielsen", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Fredrik Kempe(tm), & Bobby Ljunggren(m), & Henrik Wikström(m)", 
+        "tm_genders": [
+            "M", 
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Fredrik Kempe", 
+            "Bobby Ljunggren", 
+            "Henrik Wikström"
+        ]
+    }, 
+    "2005_2_2": {
+        "artist": "Camilla Brinck", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Camilla Brinck(tm), & Tobias Karlsson(tm)", 
+        "tm_genders": [
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Camilla Brinck", 
+            "Tobias Karlsson"
+        ]
+    }, 
+    "2005_2_3": {
+        "artist": "Group Avalon", 
+        "artist_gender": [
+            "M",
+            "M"
+        ], 
+        "tm": "Mohombi Moupondo(tm), & Djo Moupondo(tm), & Marcus Landström(tm)", 
+        "tm_genders": [
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Mohombi Moupondo", 
+            "Djo Moupondo", 
+            "Marcus Landström"
+        ]
+    }, 
+    "2005_2_4": {
+        "artist": "Arja Saijonmaa", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Åsa Jinder(t), & Dan Sundquist(tm)", 
+        "tm_genders": [
+            "F",
+            "M"
+        ], 
+        "tm_list": [
+            "Åsa Jinder", 
+            "Dan Sundquist"
+        ]
+    }, 
+    "2005_2_5": {
+        "artist": "Josefin Nilsson", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Jonas Isaksson(tm), & Tommy Lydell(tm), & Lotta Ahlin(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "F"
+        ], 
+        "tm_list": [
+            "Jonas Isaksson", 
+            "Tommy Lydell", 
+            "Lotta Ahlin"
+        ]
+    }, 
+    "2005_2_6": {
+        "artist": "Cameron Cartio", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Cameron Cartio(tm), & Robin Rex(m)", 
+        "tm_genders": [
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Cameron Cartio", 
+            "Robin Rex"
+        ]
+    }, 
+    "2005_2_7": {
+        "artist": "Bodies Without Organs", 
+        "artist_gender": [
+            "M",
+            "M",
+            "F"
+        ], 
+        "tm": "Anders Hansson(tm), & Mårten Sandén(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Anders Hansson", 
+            "Mårten Sandén"
+        ]
+    }, 
+    "2005_2_8": {
+        "artist": "Sanne Salomonsen", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Henrik Jahnsson(tm), & Jeanette Olsson(tm), & Moh Denebi(tm)", 
+        "tm_genders": [
+            "M", 
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Henrik Jahnsson", 
+            "Jeanette Olsson", 
+            "Moh Denebi"
+        ]
+    }, 
+    "2005_3_1": {
+        "artist": "NaNa", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Larry Forsberg(tm), & Sven-Inge Sjöberg(tm), & Lennart Wastesson(tm)", 
+        "tm_genders": [
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Larry Forsberg", 
+            "Sven-Inge Sjöberg", 
+            "Lennart Wastesson"
+        ]
+    }, 
+    "2005_3_2": {
+        "artist": "Kwanzaa", 
+        "artist_gender": [
+            "F",
+            "F"
+        ], 
+        "tm": "Ayesha Quraishi(t), & Jean DC(m)", 
+        "tm_genders": [
+            "F",
+            "M"
+        ], 
+        "tm_list": [
+            "Ayesha Quraishi", 
+            "Jean DC"
+        ]
+    }, 
+    "2005_3_3": {
+        "artist": "Jimmy Jansson", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Niklas Edberger(tm), & Johan Fransson(tm), & Tim Larsson(tm), & Tobias Lundgren(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Niklas Edberger", 
+            "Johan Fransson", 
+            "Tim Larsson", 
+            "Tobias Lundgren"
+        ]
+    }, 
+    "2005_3_4": {
+        "artist": "LaGaylia", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Mattias Reimer(tm), & Lars Edvall(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Mattias Reimer", 
+            "Lars Edvall"
+        ]
+    }, 
+    "2005_3_5": {
+        "artist": "Josef", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Annelie Martin(t), & Martin Blix(t), & Henrik Wikström(m), & Bobby Ljunggren(m)", 
+        "tm_genders": [
+            "F",
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Annelie Martin", 
+            "Martin Blix", 
+            "Henrik Wikström", 
+            "Bobby Ljunggren"
+        ]
+    }, 
+    "2005_3_6": {
+        "artist": "K2 & Alannah Myles", 
+        "artist_gender": [
+            "M",
+            "F"
+        ], 
+        "tm": "Kee Marcello(tm), & Michael Blair(tm), & Zal(tm)", 
+        "tm_genders": [
+            "M",
+            "M", 
+            "U"
+        ], 
+        "tm_list": [
+            "Kee Marcello", 
+            "Michael Blair", 
+            "Zal"
+        ]
+    }, 
+    "2005_3_7": {
+        "artist": "Jessica Folcker", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Niklas Edberger(tm), & Johan Fransson(tm), & Tim Larsson(tm), & Tobias Lundgren(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Niklas Edberger", 
+            "Johan Fransson", 
+            "Tim Larsson", 
+            "Tobias Lundgren"
+        ]
+    }, 
+    "2005_3_8": {
+        "artist": "Martin Stenmarck", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Niklas Edberger(tm), & Johan Fransson(tm), & Tim Larsson(tm), & Tobias Lundgren(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Niklas Edberger", 
+            "Johan Fransson", 
+            "Tim Larsson", 
+            "Tobias Lundgren"
+        ]
+    }, 
+    "2005_4_1": {
+        "artist": "Anne-Lie Rydé", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Anne-Lie Rydé(t), & Thomas G:son(tm)", 
+        "tm_genders": [
+            "F",
+            "M"
+        ], 
+        "tm_list": [
+            "Anne-Lie Rydé", 
+            "Thomas G:son"
+        ]
+    }, 
+    "2005_4_2": {
+        "artist": "B-Boys International & Paul M", 
+        "artist_gender": [
+            "U"
+        ], 
+        "tm": "Peter Thelenius(t), & David Seisay(t), & Niclas Arn(tm), & Karl Eurén(tm), & Gustav Eurén(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Peter Thelenius", 
+            "David Seisay", 
+            "Niclas Arn", 
+            "Karl Eurén", 
+            "Gustav Eurén"
+        ]
+    }, 
+    "2005_4_3": {
+        "artist": "Mathias Holmgren", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Calle Kindbom(tm), & Thomas G:son(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Calle Kindbom", 
+            "Thomas G:son"
+        ]
+    }, 
+    "2005_4_4": {
+        "artist": "Rickard Engfors & Katarina Fallholm", 
+        "artist_gender": [
+            "M",
+            "F"
+        ], 
+        "tm": "Dan Attlerud(t), & Lars \"Dille\" Diedricson(m), & Peter Nordholm(m)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Dan Attlerud", 
+            "Lars \"Dille\" Diedricson", 
+            "Peter Nordholm"
+        ]
+    }, 
+    "2005_4_5": {
+        "artist": "Date", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Johnny Thunqvist(tm), & Fredrik Jernberg(tm), & Pontus Wennerberg(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Johnny Thunqvist", 
+            "Fredrik Jernberg", 
+            "Pontus Wennerberg"
+        ]
+    }, 
+    "2005_4_6": {
+        "artist": "Nanne Grönvall", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Ingela \"Pling\" Forsman(t), & Nanne Grönvall(tm)", 
+        "tm_genders": [
+            "F",
+            "F"
+        ], 
+        "tm_list": [
+            "Ingela \"Pling\" Forsman", 
+            "Nanne Grönvall"
+        ]
+    }, 
+    "2005_4_7": {
+        "artist": "Caroline Wennergren", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Sam McCarthy(t), & Joacim Dubbelman(m), & Martin Landh(m)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Sam McCarthy", 
+            "Joacim Dubbelman", 
+            "Martin Landh"
+        ]
+    }, 
+    "2005_4_8": {
+        "artist": "Katrina & The Nameless", 
+        "artist_gender": [
+            "F",
+            "M"
+        ], 
+        "tm": "Thomas G:son()", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Thomas G:son()"
+        ]
+    }, 
+    "2006_1_1": {
+        "artist": "Simone Moreno", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Simone Moreno(tm), & Anders von Hofsten(tm), & Andreas Unge(tm), & Andreas Kleerup(m)", 
+        "tm_genders": [
+            "F", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Simone Moreno", 
+            "Anders von Hofsten", 
+            "Andreas Unge", 
+            "Andreas Kleerup"
+        ]
+    }, 
+    "2006_1_2": {
+        "artist": "Electric Banana Band", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Lasse Åberg(t), & Janne Schaffer(m)", 
+        "tm_genders": [
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Lasse Åberg", 
+            "Janne Schaffer"
+        ]
+    }, 
+    "2006_1_3": {
+        "artist": "Anna Sahlene", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Anna Sahlene(t), & Bobby Ljunggren(m), & Henrik Wikström(m)", 
+        "tm_genders": [
+            "F", 
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Anna Sahlene", 
+            "Bobby Ljunggren", 
+            "Henrik Wikström"
+        ]
+    }, 
+    "2006_1_4": {
+        "artist": "Magnus Bäcklund", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Lina Eriksson(tm), & Mårten Eriksson(m)", 
+        "tm_genders": [
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Lina Eriksson", 
+            "Mårten Eriksson"
+        ]
+    }, 
+    "2006_1_5": {
+        "artist": "Linda Bengtzing", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Ingela \"Pling\" Forsman(tm), & Lars \"Dille\" Diedricson(m), & Martin Hedström(m)", 
+        "tm_genders": [
+            "F",
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Ingela \"Pling\" Forsman", 
+            "Lars \"Dille\" Diedricson", 
+            "Martin Hedström"
+        ]
+    }, 
+    "2006_1_6": {
+        "artist": "Pandang", 
+        "artist_gender": [
+            "M",
+            "M"
+        ], 
+        "tm": "Adam Chiapponi(tm), & Stefan Wesström(tm), & Kristofer Stange(m)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Adam Chiapponi", 
+            "Stefan Wesström", 
+            "Kristofer Stange"
+        ]
+    }, 
+    "2006_1_7": {
+        "artist": "Hannah Graaf", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Martin Landh(tm), & Joacim Dubbleman(tm), & Sam McCarthy(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Martin Landh", 
+            "Joacim Dubbleman", 
+            "Sam McCarthy"
+        ]
+    }, 
+    "2006_1_8": {
+        "artist": "Andreas Johnson", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Andreas Johnson(tm), & Peter Kvint(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Andreas Johnson", 
+            "Peter Kvint"
+        ]
+    }, 
+    "2006_2_1": {
+        "artist": "Magnus Carlsson", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Niklas Strömstedt(t), & Anders Glenmark(m)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Niklas Strömstedt", 
+            "Anders Glenmark"
+        ]
+    }, 
+    "2006_2_2": {
+        "artist": "The Elephantz", 
+        "artist_gender": [
+            "M",
+            "M"
+        ], 
+        "tm": "Daniel Bäckström(tm), & Funky Dan Larsson(tm), & Eddie Brown(tm), & Jens Patrik Duvsjö(tm), & Martin Carboo(tm)", 
+        "tm_genders": [
+            "M", 
+            "M",
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Daniel Bäckström", 
+            "Funky Dan Larsson", 
+            "Eddie Brown", 
+            "Jens Patrik Duvsjö", 
+            "Martin Carboo"
+        ]
+    }, 
+    "2006_2_3": {
+        "artist": "Sonya (Sonja Aldén)", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Ingela \"Pling\" Forsman(tm), & Bobby Ljunggren(m), & Henrik Wikström(m)", 
+        "tm_genders": [
+            "F",
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Ingela \"Pling\" Forsman", 
+            "Bobby Ljunggren", 
+            "Henrik Wikström"
+        ]
+    }, 
+    "2006_2_4": {
+        "artist": "Östen Med Resten", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M"
+
+        ], 
+        "tm": "Thomas G:son()", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Thomas G:son()"
+        ]
+    }, 
+    "2006_2_5": {
+        "artist": "Pablo Cepeda", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Patrik Magnusson(tm), & Johan Ramström(tm), & Pablo Cepeda(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Patrik Magnusson", 
+            "Johan Ramström", 
+            "Pablo Cepeda"
+        ]
+    }, 
+    "2006_2_6": {
+        "artist": "Kikki Danielsson", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Thomas G:son(tm), & Calle Kindbom(m)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Thomas G:son", 
+            "Calle Kindbom"
+        ]
+    }, 
+    "2006_2_7": {
+        "artist": "Niclas Wahlgren", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Ingela \"Pling\" Forsman(t), & Bobby Ljunggren(m), & Henrik Wikström(m)", 
+        "tm_genders": [
+            "F",
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Ingela \"Pling\" Forsman", 
+            "Bobby Ljunggren", 
+            "Henrik Wikström"
+        ]
+    }, 
+    "2006_2_8": {
+        "artist": "Velvet", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Niclas Molinder(tm), & Joacim Persson(tm), & Pelle Ankarberg(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Niclas Molinder", 
+            "Joacim Persson", 
+            "Pelle Ankarberg"
+        ]
+    }, 
+    "2006_3_1": {
+        "artist": "BWO", 
+        "artist_gender": [
+            "M",
+            "M",
+            "F"
+        ], 
+        "tm": "Alexander Bard(tm), & Anders Hansson(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Alexander Bard", 
+            "Anders Hansson"
+        ]
+    }, 
+    "2006_3_2": {
+        "artist": "Jessica Folcker", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Thomas G:son(tm), & Pontus Assarsson(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Thomas G:son", 
+            "Pontus Assarsson"
+        ]
+    }, 
+    "2006_3_3": {
+        "artist": "Gregor", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Magnus Rongedal(tm), & Henrik Rongedal(tm), & Lotta Ahlin(tm), & Tommy Lydell(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Magnus Rongedal", 
+            "Henrik Rongedal", 
+            "Lotta Ahlin", 
+            "Tommy Lydell"
+        ]
+    }, 
+    "2006_3_4": {
+        "artist": "Jessica Andersson", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Niklas Edberger(tm), & Johan Fransson(tm), & Tobias Lundgren(tm), & Tim Larsson(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Niklas Edberger", 
+            "Johan Fransson", 
+            "Tobias Lundgren", 
+            "Tim Larsson"
+        ]
+    }, 
+    "2006_3_5": {
+        "artist": "The Poodles", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Sonya(t), & Robert Olausson(tm), & Matti Alfonzetti(tm), & Johan Lyander(tm)", 
+        "tm_genders": [
+            "F",
+            "M", 
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Sonya", 
+            "Robert Olausson", 
+            "Matti Alfonzetti", 
+            "Johan Lyander"
+        ]
+    }, 
+    "2006_3_6": {
+        "artist": "Elysion", 
+        "artist_gender": [
+            "M",
+            "M"
+        ], 
+        "tm": "Dan Attlerud(t), & Mikael Anderfjärd(m), & Andreas Nordqvist(m)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Dan Attlerud", 
+            "Mikael Anderfjärd", 
+            "Andreas Nordqvist"
+        ]
+    }, 
+    "2006_3_7": {
+        "artist": "Patrik Isaksson", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Patrik Isaksson()", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Patrik Isaksson()"
+        ]
+    }, 
+    "2006_3_8": {
+        "artist": "Kayo", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Thomas G:son(tm), & Henrik Sethsson(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Thomas G:son", 
+            "Henrik Sethsson"
+        ]
+    }, 
+    "2006_4_1": {
+        "artist": "Roger Pontare", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Thomas G:son(tm), & Marcos Ubeda(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Thomas G:son", 
+            "Marcos Ubeda"
+        ]
+    }, 
+    "2006_4_2": {
+        "artist": "Laila Adéle", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Henrik Hansson(tm), & Anders Hallbäck(m)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Henrik Hansson", 
+            "Anders Hallbäck"
+        ]
+    }, 
+    "2006_4_3": {
+        "artist": "Günther & The & \nSunshine Girls", 
+        "artist_gender": [
+            "M",
+            "F",
+            "F"
+        ], 
+        "tm": "Mats Söderlund (Günther)(tm), & Anderz Wrethov(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Mats Söderlund (Günther)", 
+            "Anderz Wrethov"
+        ]
+    }, 
+    "2006_4_4": {
+        "artist": "Sandra Dahlberg", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Johan Fransson(tm), & Tobias Lundgren(tm), & Niklas Edberger(tm), & Tim Larsson(tm), & Sandra Dahlberg(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M", 
+            "M", 
+            "F"
+        ], 
+        "tm_list": [
+            "Johan Fransson", 
+            "Tobias Lundgren", 
+            "Niklas Edberger", 
+            "Tim Larsson", 
+            "Sandra Dahlberg"
+        ]
+    }, 
+    "2006_4_5": {
+        "artist": "Evan", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Malin Eriksson(t), & Jonas Sjöström(t), & Evan(tm)", 
+        "tm_genders": [
+            "F", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Malin Eriksson", 
+            "Jonas Sjöström", 
+            "Evan"
+        ]
+    }, 
+    "2006_4_6": {
+        "artist": "Rednex", 
+        "artist_gender": [
+            "U"
+        ], 
+        "tm": "Matthews Green(tm), & Michael Clauss(m)", 
+        "tm_genders": [
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Matthews Green", 
+            "Michael Clauss"
+        ]
+    }, 
+    "2006_4_7": {
+        "artist": "Björn Kjellman", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Calle Kindbom(tm), & Dan Fernström(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Calle Kindbom", 
+            "Dan Fernström"
+        ]
+    }, 
+    "2006_4_8": {
+        "artist": "Carola", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Carola Häggkvist(t), & Thomas G:son(tm), & Bobby Ljunggren(m), & Henrik Wikström(m)", 
+        "tm_genders": [
+            "F",
+            "M", 
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Carola Häggkvist", 
+            "Thomas G:son", 
+            "Bobby Ljunggren", 
+            "Henrik Wikström"
+        ]
+    }, 
+    "2007_1_1": {
+        "artist": "Elin Lanto", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Lasse Andersson(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Lasse Andersson"
+        ]
+    }, 
+    "2007_1_2": {
+        "artist": "Andersson & Gibson", 
+        "artist_gender": [
+            "M",
+            "F"
+        ], 
+        "tm": "Aleena Gibson(tm), & Stefan Andersson(tm)", 
+        "tm_genders": [
+            "F",
+            "M"
+        ], 
+        "tm_list": [
+            "Aleena Gibson", 
+            "Stefan Andersson"
+        ]
+    }, 
+    "2007_1_3": {
+        "artist": "Anna Book", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Thomas G:son(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Thomas G:son"
+        ]
+    }, 
+    "2007_1_4": {
+        "artist": "Addis Black Widow", 
+        "artist_gender": [
+            "F",
+            "M"
+        ], 
+        "tm": "Dianne Wiston(t), & Armias Mamo(tm)", 
+        "tm_genders": [
+            "F",
+            "F"
+        ], 
+        "tm_list": [
+            "Dianne Wiston", 
+            "Armias Mamo"
+        ]
+    }, 
+    "2007_1_5": {
+        "artist": "Andreas Lundstedt", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Andreas Lundstedt(tm), & Johan Röhr(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Andreas Lundstedt", 
+            "Johan Röhr"
+        ]
+    }, 
+    "2007_1_6": {
+        "artist": "Tommy Nilsson", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Tommy Nilsson(t), & Johan Stentorp(tm), & Lasse Andersson(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Tommy Nilsson", 
+            "Johan Stentorp", 
+            "Lasse Andersson"
+        ]
+    }, 
+    "2007_1_7": {
+        "artist": "Sofia", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Dimitrios Stassos(tm), & Jason Gill(tm), & Sofia Berntson(tm)", 
+        "tm_genders": [
+            "M",
+            "M",
+            "F"
+        ], 
+        "tm_list": [
+            "Dimitrios Stassos", 
+            "Jason Gill", 
+            "Sofia Berntson"
+        ]
+    }, 
+    "2007_1_8": {
+        "artist": "Uno & Irma", 
+        "artist_gender": [
+            "M",
+            "F"
+        ], 
+        "tm": "Uno Svenningsson(tm), & Staffan Hellstrand(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Uno Svenningsson", 
+            "Staffan Hellstrand"
+        ]
+    }, 
+    "2007_2_1": {
+        "artist": "Regina Lund", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Regina Lund(t), & Fredrik Kempe(tm), & Bobby Ljunggren(m)", 
+        "tm_genders": [
+            "F", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Regina Lund", 
+            "Fredrik Kempe", 
+            "Bobby Ljunggren"
+        ]
+    }, 
+    "2007_2_2": {
+        "artist": "Marie Lindberg", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Marie Lindberg(tm)", 
+        "tm_genders": [
+            "F"
+        ], 
+        "tm_list": [
+            "Marie Lindberg"
+        ]
+    }, 
+    "2007_2_3": {
+        "artist": "Jimmy Jansson", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Thomas G:son(tm), & Jimmy Jansson(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Thomas G:son", 
+            "Jimmy Jansson"
+        ]
+    }, 
+    "2007_2_4": {
+        "artist": "Cosmo4", 
+        "artist_gender": [
+            "F",
+            "F",
+            "F",
+            "F"
+        ], 
+        "tm": "Kent Olsson(t), & Niklas Edberger(m), & Henrik Wikström(m)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Kent Olsson", 
+            "Niklas Edberger", 
+            "Henrik Wikström"
+        ]
+    }, 
+    "2007_2_5": {
+        "artist": "Lustans Lakejer", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Johan Kinde(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Johan Kinde"
+        ]
+    }, 
+    "2007_2_6": {
+        "artist": "Jessica Andersson", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Robert Wåtz(tm), & Rasmus Lindwall(tm), & Lina Eriksson(tm), & Mårten Eriksson(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Robert Wåtz", 
+            "Rasmus Lindwall", 
+            "Lina Eriksson", 
+            "Mårten Eriksson"
+        ]
+    }, 
+    "2007_2_7": {
+        "artist": "Svante Thuresson & Anne-Lie Rydé", 
+        "artist_gender": [
+            "M",
+            "F"
+        ], 
+        "tm": "Sonja Aldén(t), & Bobby Ljunggren(m), & Dan Sundqvist(m)", 
+        "tm_genders": [
+            "F", 
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Sonja Aldén", 
+            "Bobby Ljunggren", 
+            "Dan Sundqvist"
+        ]
+    }, 
+    "2007_2_8": {
+        "artist": "The Ark", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Ola Salo(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Ola Salo"
+        ]
+    }, 
+    "2007_3_1": {
+        "artist": "Måns Zelmerlöw", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Fredrik Kempe(tm), & Henrik Wikström(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Fredrik Kempe", 
+            "Henrik Wikström"
+        ]
+    }, 
+    "2007_3_2": {
+        "artist": "MissMatch", 
+        "artist_gender": [
+            "F",
+            "F"
+        ], 
+        "tm": "Marit Woody(t), & Stefan Woody(tm), & Figge Boström(m), & Felix Persson(m), & Märta Grauers(m)", 
+        "tm_genders": [
+            "F",
+            "M", 
+            "M",
+            "M", 
+            "F"
+        ], 
+        "tm_list": [
+            "Marit Woody", 
+            "Stefan Woody", 
+            "Figge Boström", 
+            "Felix Persson", 
+            "Märta Grauers"
+        ]
+    }, 
+    "2007_3_3": {
+        "artist": "Magnus Carlsson", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Thomas Thörnholm(tm), & Michael Clauss(tm), & Danne Attlerud(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Thomas Thörnholm", 
+            "Michael Clauss", 
+            "Danne Attlerud"
+        ]
+    }, 
+    "2007_3_4": {
+        "artist": "Sheida", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Ulrika Bodén(t), & Niklas Rosvall(t), & Rostam Mirlashari(tm)", 
+        "tm_genders": [
+            "F", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Ulrika Bodén", 
+            "Niklas Rosvall", 
+            "Rostam Mirlashari"
+        ]
+    }, 
+    "2007_3_5": {
+        "artist": "The Attic & Therese", 
+        "artist_gender": [
+            "M",
+            "M",
+            "F"
+        ], 
+        "tm": "Michael Feiner(tm), & Eric Amarillo(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Michael Feiner", 
+            "Eric Amarillo"
+        ]
+    }, 
+    "2007_3_6": {
+        "artist": "Sebastian", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Sebastian Karlsson(tm), & Peter Kvint(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Sebastian Karlsson", 
+            "Peter Kvint"
+        ]
+    }, 
+    "2007_3_7": {
+        "artist": "Sonja Aldén", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Sonja Aldén(t), & Bobby Ljunggren(m)", 
+        "tm_genders": [
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Sonja Aldén", 
+            "Bobby Ljunggren"
+        ]
+    }, 
+    "2007_3_8": {
+        "artist": "Nanne", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Ingela \"Pling\" Forsman(t), & Nanne Grönvall(m), & Peter Grönvall(m)", 
+        "tm_genders": [
+            "F",
+            "F",
+            "M"
+        ], 
+        "tm_list": [
+            "Ingela \"Pling\" Forsman", 
+            "Nanne Grönvall", 
+            "Peter Grönvall"
+        ]
+    }, 
+    "2007_4_1": {
+        "artist": "Magnus Uggla", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Magnus Uggla(tm), & Anders Henriksson(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Magnus Uggla", 
+            "Anders Henriksson"
+        ]
+    }, 
+    "2007_4_2": {
+        "artist": "Emilè Azar", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Larry Forsberg(tm), & Sven-Inge Sjöberg(tm), & Lennart Wastesson(tm)", 
+        "tm_genders": [
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Larry Forsberg", 
+            "Sven-Inge Sjöberg", 
+            "Lennart Wastesson"
+        ]
+    }, 
+    "2007_4_3": {
+        "artist": "Sanna Nielsen", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Fredrik Kempe(tm), & Bobby Ljunggren(m), & Henrik Wikström(m)", 
+        "tm_genders": [
+            "M", 
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Fredrik Kempe", 
+            "Bobby Ljunggren", 
+            "Henrik Wikström"
+        ]
+    }, 
+    "2007_4_4": {
+        "artist": "Caroline af Ugglas", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Heinz Liljedahl(tm), & Caroline af Ugglas(tm), & Mattias Torell(tm)", 
+        "tm_genders": [
+            "M",
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Heinz Liljedahl", 
+            "Caroline af Ugglas", 
+            "Mattias Torell"
+        ]
+    }, 
+    "2007_4_5": {
+        "artist": "After Dark", 
+        "artist_gender": [
+            "U"
+        ], 
+        "tm": "Kent Olsson(t), & Henrik Wikström(m)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Kent Olsson", 
+            "Henrik Wikström"
+        ]
+    }, 
+    "2007_4_6": {
+        "artist": "Sarah Dawn Finer", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Peter Hallström(tm), & Sarah Dawn Finer(tm)", 
+        "tm_genders": [
+            "M", 
+            "F"
+        ], 
+        "tm_list": [
+            "Peter Hallström", 
+            "Sarah Dawn Finer"
+        ]
+    }, 
+    "2007_4_7": {
+        "artist": "Verona", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Robert Rydholm(t), & Johan Fjellström(tm), & Joakim Udd(tm), & Karl Eurén(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Robert Rydholm", 
+            "Johan Fjellström", 
+            "Joakim Udd", 
+            "Karl Eurén"
+        ]
+    }, 
+    "2007_4_8": {
+        "artist": "Andreas Johnson", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Andreas Johnson(tm), & Peter Kvint(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Andreas Johnson", 
+            "Peter Kvint"
+        ]
+    }, 
+    "2008_1_1": {
+        "artist": "E-Type & The Poodles", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Martin Eriksson(tm), & Jakob Samuelsson(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Martin Eriksson", 
+            "Jakob Samuelsson"
+        ]
+    }, 
+    "2008_1_2": {
+        "artist": "Face-84", 
+        "artist_gender": [
+            "F",
+            "F",
+            "F",
+            "F"
+        ], 
+        "tm": "Wille Crafoord(t), & Lars \"Dille\" Diedricson(m), & Martin Hedström(m)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Wille Crafoord", 
+            "Lars \"Dille\" Diedricson", 
+            "Martin Hedström"
+        ]
+    }, 
+    "2008_1_3": {
+        "artist": "Velvet", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Niclas Molinder(tm), & Joacim Persson(tm), & Pelle Ankarberg(tm), & Niko Valsamidis(tm), & Fredrik Larsson(tm), & David Jassy(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M", 
+            "M",
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Niclas Molinder", 
+            "Joacim Persson", 
+            "Pelle Ankarberg", 
+            "Niko Valsamidis", 
+            "Fredrik Larsson", 
+            "David Jassy"
+        ]
+    }, 
+    "2008_1_4": {
+        "artist": "Brandur", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Kristian Lagerström(t), & Henrik Wikström(m)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Kristian Lagerström", 
+            "Henrik Wikström"
+        ]
+    }, 
+    "2008_1_5": {
+        "artist": "Michael Michailoff", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Michael Michailoff(tm), & Joakim Övrenius(tm), & Patric Jonsson(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Michael Michailoff", 
+            "Joakim Övrenius", 
+            "Patric Jonsson"
+        ]
+    }, 
+    "2008_1_6": {
+        "artist": "Amy Diamond", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Sandra Nordström(tm), & Mathias Venge(tm), & Peter Wennerberg(tm)", 
+        "tm_genders": [
+            "F", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Sandra Nordström", 
+            "Mathias Venge", 
+            "Peter Wennerberg"
+        ]
+    }, 
+    "2008_1_7": {
+        "artist": "Suzzie Tapper", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Suzzie Tapper(t), & Amir Aly(m), & Maciel Numhauser(m), & Robin Abrahamsson(m), & Bobby Ljunggren(m)", 
+        "tm_genders": [
+            "F",
+            "M", 
+            "M",
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Suzzie Tapper", 
+            "Amir Aly", 
+            "Maciel Numhauser", 
+            "Robin Abrahamsson", 
+            "Bobby Ljunggren"
+        ]
+    }, 
+    "2008_1_8": {
+        "artist": "Christer Sjögren", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Ingela \"Pling\" Forsman(t), & Torgny Söderberg(m), & Magnus Johansson(m)", 
+        "tm_genders": [
+            "F",
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Ingela \"Pling\" Forsman", 
+            "Torgny Söderberg", 
+            "Magnus Johansson"
+        ]
+    }, 
+    "2008_2_1": {
+        "artist": "Ola", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Tony Nilsson(tm), & Mirja Breitholtz(tm)", 
+        "tm_genders": [
+            "M", 
+            "F"
+        ], 
+        "tm_list": [
+            "Tony Nilsson", 
+            "Mirja Breitholtz"
+        ]
+    }, 
+    "2008_2_2": {
+        "artist": "Lasse Lindh", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Lasse Lindh(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Lasse Lindh"
+        ]
+    }, 
+    "2008_2_3": {
+        "artist": "The Nicole", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Nicole Fuentes(tm), & Tord Bäckström(tm), & Stefan Åberg(tm)", 
+        "tm_genders": [
+            "F", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Nicole Fuentes", 
+            "Tord Bäckström", 
+            "Stefan Åberg"
+        ]
+    }, 
+    "2008_2_4": {
+        "artist": "Alexander Schöld", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Ingela \"Pling\" Forsman(t), & Fredrik Thomander(m), & Anders Wikström(m)", 
+        "tm_genders": [
+            "F",
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Ingela \"Pling\" Forsman", 
+            "Fredrik Thomander", 
+            "Anders Wikström"
+        ]
+    }, 
+    "2008_2_5": {
+        "artist": "Rongedal", 
+        "artist_gender": [
+            "M",
+            "M"
+        ], 
+        "tm": "Magnus Rongedal(tm), & Henrik Rongedal(tm), & Amir Aly(m), & Henrik Wikström(m)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Magnus Rongedal", 
+            "Henrik Rongedal", 
+            "Amir Aly", 
+            "Henrik Wikström"
+        ]
+    }, 
+    "2008_2_6": {
+        "artist": "Sanna Nielsen", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Bobby Ljunggren(tm), & Aleena Gibson(tm)", 
+        "tm_genders": [
+            "M",
+            "F"
+        ], 
+        "tm_list": [
+            "Bobby Ljunggren", 
+            "Aleena Gibson"
+        ]
+    }, 
+    "2008_2_7": {
+        "artist": "Andra generationen", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M",
+            "M",
+            "M"
+        ],
+        "tm": "Vlatko Ancevski(tm), & Vlatko Gicarevski(tm), & Mats Nilsson(tm), & Stevan Tomulevski(tm), & Teddy Paunkoski(tm), & Otis Sandsjö(tm)", 
+        "tm_genders": [
+            "M",
+            "M",
+            "M", 
+            "M",
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Vlatko Ancevski", 
+            "Vlatko Gicarevski", 
+            "Mats Nilsson", 
+            "Stevan Tomulevski", 
+            "Teddy Paunkoski", 
+            "Otis Sandsjö"
+        ]
+    }, 
+    "2008_2_8": {
+        "artist": "Johnson & Häggkvist", 
+        "artist_gender": [
+            "F",
+            "M"
+        ], 
+        "tm": "Carola Häggkvist(tm), & Andreas Johnson(tm), & Peter Kvint(tm)", 
+        "tm_genders": [
+            "F",
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Carola Häggkvist", 
+            "Andreas Johnson", 
+            "Peter Kvint"
+        ]
+    }, 
+    "2008_3_1": {
+        "artist": "BWO", 
+        "artist_gender": [
+            "M",
+            "M",
+            "F"
+        ], 
+        "tm": "Alexander Bard(tm), & Anders Hansson(tm), & Bobby Ljunggren(tm), & Henrik Wikström(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Alexander Bard", 
+            "Anders Hansson", 
+            "Bobby Ljunggren", 
+            "Henrik Wikström"
+        ]
+    }, 
+    "2008_3_2": {
+        "artist": "Mickey Huskic", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Mickey Huskic(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Mickey Huskic"
+        ]
+    }, 
+    "2008_3_3": {
+        "artist": "Frida Muranius & Headline", 
+        "artist_gender": [
+            "F",
+            "M"
+        ], 
+        "tm": "Sam Persson(t), & Anderz Wrethov(tm), & Frida Muranius(tm)", 
+        "tm_genders": [
+            "M", 
+            "M",
+            "F"
+        ], 
+        "tm_list": [
+            "Sam Persson", 
+            "Anderz Wrethov", 
+            "Frida Muranius"
+        ]
+    }, 
+    "2008_3_4": {
+        "artist": "Thérèse Andersson", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Malin Eriksson(t), & Jonas Sjöström(t), & Pontus Hagberg(tm)", 
+        "tm_genders": [
+            "F", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Malin Eriksson", 
+            "Jonas Sjöström", 
+            "Pontus Hagberg"
+        ]
+    }, 
+    "2008_3_5": {
+        "artist": "Patrik Isaksson", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Patrik Isaksson(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Patrik Isaksson"
+        ]
+    }, 
+    "2008_3_6": {
+        "artist": "Caracola", 
+        "artist_gender": [
+            "F",
+            "F"
+        ], 
+        "tm": "Mattias Olsson(t), & Angelica \"Aja\" Thelin(t), & Magnus Lanner(t), & Henrik Bie(m)", 
+        "tm_genders": [
+            "M", 
+            "F", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Mattias Olsson", 
+            "Angelica \"Aja\" Thelin", 
+            "Magnus Lanner", 
+            "Henrik Bie"
+        ]
+    }, 
+    "2008_3_7": {
+        "artist": "Ainbusk", 
+        "artist_gender": [
+            "F",
+            "F",
+            "F",
+            "F"
+        ], 
+        "tm": "Ingela \"Pling\" Forsman(t), & Henrik Wikström(tm), & Bobby Ljunggren(m)", 
+        "tm_genders": [
+            "F",
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Ingela \"Pling\" Forsman", 
+            "Henrik Wikström", 
+            "Bobby Ljunggren"
+        ]
+    }, 
+    "2008_3_8": {
+        "artist": "Eskobar", 
+        "artist_gender": [
+            "M",
+            "M"
+        ], 
+        "tm": "Daniel Bellqvist(tm), & Frederik Zäll(tm), & Robert Birming(tm)", 
+        "tm_genders": [
+            "M", 
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Daniel Bellqvist", 
+            "Frederik Zäll", 
+            "Robert Birming"
+        ]
+    }, 
+    "2008_4_1": {
+        "artist": "Niklas Strömstedt", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Niklas Strömstedt(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Niklas Strömstedt"
+        ]
+    }, 
+    "2008_4_2": {
+        "artist": "Calaisa", 
+        "artist_gender": [
+            "F",
+            "F",
+            "F"
+        ], 
+        "tm": "Pontus Assarsson(tm), & Jörgen Ringqvist(tm), & Lisa Troedsson-Lundin(tm), & Caisa Troedsson-Lundin(tm), & Anna Törnqvist(tm), & Malin Törnqvist(tm)", 
+        "tm_genders": [
+            "M", 
+            "M",
+            "F", 
+            "F", 
+            "F", 
+            "F"
+        ], 
+        "tm_list": [
+            "Pontus Assarsson", 
+            "Jörgen Ringqvist", 
+            "Lisa Troedsson-Lundin", 
+            "Caisa Troedsson-Lundin", 
+            "Anna Törnqvist", 
+            "Malin Törnqvist"
+        ]
+    }, 
+    "2008_4_3": {
+        "artist": "Daniel Mitsogiannis", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Fredrik Kempe(tm), & Henrik Wikström(m)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Fredrik Kempe", 
+            "Henrik Wikström"
+        ]
+    }, 
+    "2008_4_4": {
+        "artist": "Linda Bengtzing", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Johan Fransson(tm), & Tobias Lundgren(tm), & Tim Larsson(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Johan Fransson", 
+            "Tobias Lundgren", 
+            "Tim Larsson"
+        ]
+    }, 
+    "2008_4_5": {
+        "artist": "Nordman", 
+        "artist_gender": [
+            "M",
+            "M"
+        ], 
+        "tm": "Lina Eriksson(tm), & Mårten Eriksson(tm)", 
+        "tm_genders": [
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Lina Eriksson", 
+            "Mårten Eriksson"
+        ]
+    }, 
+    "2008_4_6": {
+        "artist": "Sibel", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Christian Antblad(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Christian Antblad"
+        ]
+    }, 
+    "2008_4_7": {
+        "artist": "Fronda", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Sebastian Fronda(tm), & Thomas Thörnholm(tm), & Michael Clauss(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Sebastian Fronda", 
+            "Thomas Thörnholm", 
+            "Michael Clauss"
+        ]
+    }, 
+    "2008_4_8": {
+        "artist": "Charlotte Perrelli", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Fredrik Kempe(tm), & Bobby Ljunggren(m)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Fredrik Kempe", 
+            "Bobby Ljunggren"
+        ]
+    }, 
+    "2009_1_1": {
+        "artist": "Nina Söderquist", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Johan Lyander(tm), & Matti Alfonzetti(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Johan Lyander", 
+            "Matti Alfonzetti"
+        ]
+    }, 
+    "2009_1_2": {
+        "artist": "Jonathan Fagerlund", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Samuel Waermö(tm) , & Didrik Thott(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Samuel Waermö", 
+            "Didrik Thott"
+        ]
+    }, 
+    "2009_1_3": {
+        "artist": "Shirley Clamp", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Ingela \"Pling\" Forsman(t), & Bobby Ljunggren(m), & Henrik Wikström(m)", 
+        "tm_genders": [
+            "F",
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Ingela \"Pling\" Forsman", 
+            "Bobby Ljunggren", 
+            "Henrik Wikström"
+        ]
+    }, 
+    "2009_1_4": {
+        "artist": "Scotts", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Ingela \"Pling\" Forsman(t), & Lars \"Dille\" Diedricson(m), & Martin Hedström(m)", 
+        "tm_genders": [
+            "F",
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Ingela \"Pling\" Forsman", 
+            "Lars \"Dille\" Diedricson", 
+            "Martin Hedström"
+        ]
+    }, 
+    "2009_1_5": {
+        "artist": "Emilia", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Emilia Rydberg(tm), & Figge Boström(tm)", 
+        "tm_genders": [
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Emilia Rydberg", 
+            "Figge Boström"
+        ]
+    }, 
+    "2009_1_6": {
+        "artist": "Alcazar", 
+        "artist_gender": [
+            "F",
+            "F",
+            "M",
+            "M"
+
+        ], 
+        "tm": "Anders Hansson(tm), & Mårten Sandén(tm), & Andreas Lundstedt(tm), & Therese Merkel(tm), & Lina Hedlund(tm)", 
+        "tm_genders": [
+            "M", 
+            "M",
+            "M", 
+            "F", 
+            "F"
+        ], 
+        "tm_list": [
+            "Anders Hansson", 
+            "Mårten Sandén", 
+            "Andreas Lundstedt", 
+            "Therese Merkel", 
+            "Lina Hedlund"
+        ]
+    }, 
+    "2009_1_7": {
+        "artist": "Caroline af Ugglas", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Caroline af Ugglas(t), & Heinz Liljedahl(m)", 
+        "tm_genders": [
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Caroline af Ugglas", 
+            "Heinz Liljedahl"
+        ]
+    }, 
+    "2009_1_8": {
+        "artist": "Marie Serneholt", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Peter Boström(tm), & Tony Nilsson(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Peter Boström", 
+            "Tony Nilsson"
+        ]
+    }, 
+    "2009_2_1": {
+        "artist": "Lili & Susie", 
+        "artist_gender": [
+            "F",
+            "F"
+        ], 
+        "tm": "Nestor Geli(t), & Susie Päivärinta(tm), & Calle Kindbom(tm), & Thomas G:son(tm), & Pär Lönn(m)", 
+        "tm_genders": [
+            "M",
+            "F",
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Nestor Geli", 
+            "Susie Päivärinta", 
+            "Calle Kindbom", 
+            "Thomas G:son", 
+            "Pär Lönn"
+        ]
+    }, 
+    "2009_2_2": {
+        "artist": "Lasse Lindh", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Lasse Lindh(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Lasse Lindh"
+        ]
+    }, 
+    "2009_2_3": {
+        "artist": "Jennifer Brown", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Jennifer Brown(tm) , & Peter Kvint(tm)", 
+        "tm_genders": [
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Jennifer Brown", 
+            "Peter Kvint"
+        ]
+    }, 
+    "2009_2_4": {
+        "artist": "H.E.A.T.", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Niklas Jarl(tm), & David Stenmarck(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Niklas Jarl", 
+            "David Stenmarck"
+        ]
+    }, 
+    "2009_2_5": {
+        "artist": "Markoolio", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Marko Lehtosalo(t), & Patrik Henzel(tm), & Karl Eurén(tm)", 
+        "tm_genders": [
+            "M",
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Marko Lehtosalo", 
+            "Patrik Henzel", 
+            "Karl Eurén"
+        ]
+    }, 
+    "2009_2_6": {
+        "artist": "Amy Diamond", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Alexander Bard(tm), & Bobby Ljunggren(tm), & Oscar Holter(m)", 
+        "tm_genders": [
+            "M", 
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Alexander Bard", 
+            "Bobby Ljunggren", 
+            "Oscar Holter"
+        ]
+    }, 
+    "2009_2_7": {
+        "artist": "Cookies 'N' Beans", 
+        "artist_gender": [
+            "F",
+            "F",
+            "F"
+        ], 
+        "tm": "Robin Abrahamsson(tm), & Amir Aly(tm), & Maciel Numhauser(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Robin Abrahamsson", 
+            "Amir Aly", 
+            "Maciel Numhauser"
+        ]
+    }, 
+    "2009_2_8": {
+        "artist": "Måns Zelmerlöw", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Måns Zelmerlöw(t), & Fredrik Kempe(tm), & Henrik Wikström(m)", 
+        "tm_genders": [
+            "M",
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Måns Zelmerlöw", 
+            "Fredrik Kempe", 
+            "Henrik Wikström"
+        ]
+    }, 
+    "2009_3_1": {
+        "artist": "Velvet", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Tony Nilsson(tm), & Henrik Janson(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Tony Nilsson", 
+            "Henrik Janson"
+        ]
+    }, 
+    "2009_3_2": {
+        "artist": "Rigo & The Topaz Sound & Red Fox", 
+        "artist_gender": [
+            "U"
+        ], 
+        "tm": "Rodrigo Pencheff(tm), & Tobias Karlsson(m)", 
+        "tm_genders": [
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Rodrigo Pencheff", 
+            "Tobias Karlsson"
+        ]
+    }, 
+    "2009_3_3": {
+        "artist": "Molly Sandén", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Ingela \"Pling\" Forsman(t), & Bobby Ljunggren(m), & Marcos Ubeda(m)", 
+        "tm_genders": [
+            "F",
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Ingela \"Pling\" Forsman", 
+            "Bobby Ljunggren", 
+            "Marcos Ubeda"
+        ]
+    }, 
+    "2009_3_4": {
+        "artist": "E.M.D.", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Erik Segerstedt(tm), & Mattias Andréasson(tm), & Danny Saucedo(tm), & Oscar Görres(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Erik Segerstedt", 
+            "Mattias Andréasson", 
+            "Danny Saucedo", 
+            "Oscar Görres"
+        ]
+    }, 
+    "2009_3_5": {
+        "artist": "Mikael Rickfors", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Thomas G:son(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Thomas G:son"
+        ]
+    }, 
+    "2009_3_6": {
+        "artist": "Maja Gullstrand", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Thomas G:son(tm), & Marcos Ubeda(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Thomas G:son", 
+            "Marcos Ubeda"
+        ]
+    }, 
+    "2009_3_7": {
+        "artist": "Sofia", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Nina Karolidou(t), & Dimitri Stassos(m), & Henrik Wikström(m), & Irini Michas(m)", 
+        "tm_genders": [
+            "F", 
+            "M",
+            "M", 
+            "F"
+        ], 
+        "tm_list": [
+            "Nina Karolidou", 
+            "Dimitri Stassos", 
+            "Henrik Wikström", 
+            "Irini Michas"
+        ]
+    }, 
+    "2009_3_8": {
+        "artist": "BWO", 
+        "artist_gender": [
+            "M",
+            "M",
+            "F"
+        ], 
+        "tm": "Fredrik Kempe(tm), & Alexander Bard(tm), & Anders Hansson(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Fredrik Kempe", 
+            "Alexander Bard", 
+            "Anders Hansson"
+        ]
+    }, 
+    "2009_4_1": {
+        "artist": "Agnes", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Anders Hansson(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Anders Hansson"
+        ]
+    }, 
+    "2009_4_2": {
+        "artist": "Star Pilots", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Johan Becker(tm), & Johan Fjellström(m), & Joakim Udd(m)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Johan Becker", 
+            "Johan Fjellström", 
+            "Joakim Udd"
+        ]
+    }, 
+    "2009_4_3": {
+        "artist": "Susanne Alfvengren", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Ingela \"Pling\" Forsman(t), & Bobby Ljunggren(m), & Henrik Wikström(m)", 
+        "tm_genders": [
+            "F",
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Ingela \"Pling\" Forsman", 
+            "Bobby Ljunggren", 
+            "Henrik Wikström"
+        ]
+    }, 
+    "2009_4_4": {
+        "artist": "Anna Sahlene & Maria Haukaas Storeng", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Amir Aly(tm), & Henrik Wikström(tm), & Tobbe Petterssen(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Amir Aly", 
+            "Henrik Wikström", 
+            "Tobbe Petterssen"
+        ]
+    }, 
+    "2009_4_5": {
+        "artist": "Thorleifs", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Lina Eriksson(tm), & Mårten Eriksson(tm)", 
+        "tm_genders": [
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Lina Eriksson", 
+            "Mårten Eriksson"
+        ]
+    }, 
+    "2009_4_6": {
+        "artist": "Sarah Dawn Finer", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Sarah Dawn Finer(tm), & Fredrik Kempe(tm)", 
+        "tm_genders": [
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Sarah Dawn Finer", 
+            "Fredrik Kempe"
+        ]
+    }, 
+    "2009_4_7": {
+        "artist": "Next3", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Jimmy Almgren(t), & Adam Soliman(t), & Gonzalo Flores(t), & Michael Xavier Barraza(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Jimmy Almgren", 
+            "Adam Soliman", 
+            "Gonzalo Flores", 
+            "Michael Xavier Barraza"
+        ]
+    }, 
+    "2009_4_8": {
+        "artist": "Malena Ernman", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Malena Ernman(t), & Fredrik Kempe(tm)", 
+        "tm_genders": [
+            "F",
+            "M"
+        ], 
+        "tm_list": [
+            "Malena Ernman", 
+            "Fredrik Kempe"
+        ]
+    }, 
+    "2010_1_1": {
+        "artist": "Ola Svensson", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Dimitri Stassos(tm), & Alexander Kronlund(tm), & Hanif Sabzevari(tm), & Ola Svensson(tm)", 
+        "tm_genders": [
+            "M",
+            "M", 
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Dimitri Stassos", 
+            "Alexander Kronlund", 
+            "Hanif Sabzevari", 
+            "Ola Svensson"
+        ]
+    }, 
+    "2010_1_2": {
+        "artist": "Jenny Silver", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Torben Hedlund(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Torben Hedlund"
+        ]
+    }, 
+    "2010_1_3": {
+        "artist": "Linda Pritchard", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Tobias Lundgren(tm), & Johan Fransson(tm), & Tim Larsson(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Tobias Lundgren", 
+            "Johan Fransson", 
+            "Tim Larsson"
+        ]
+    }, 
+    "2010_1_4": {
+        "artist": "Pain of Salvation", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Daniel Gildenlöw(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Daniel Gildenlöw"
+        ]
+    }, 
+    "2010_1_5": {
+        "artist": "Anders Ekborg", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Henrik Janson(tm), & Tony Nilsson(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Henrik Janson", 
+            "Tony Nilsson"
+        ]
+    }, 
+    "2010_1_6": {
+        "artist": "Jessica Andersson", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Kristian Wejshag(t), & Lars \"Dille\" Diedricson(m)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Kristian Wejshag", 
+            "Lars \"Dille\" Diedricson"
+        ]
+    }, 
+    "2010_1_7": {
+        "artist": "Frispråkarn", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Håkan Bäckman(t), & Hamed K-One Pirouzpanah(m)", 
+        "tm_genders": [
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Håkan Bäckman", 
+            "Hamed K-One Pirouzpanah"
+        ]
+    }, 
+    "2010_1_8": {
+        "artist": "Salem Al Fakir", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Salem Al Fakir(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Salem Al Fakir"
+        ]
+    }, 
+    "2010_2_1": {
+        "artist": "Eric Saade", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Fredrik Kempe(tm), & Peter Boström(m)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Fredrik Kempe", 
+            "Peter Boström"
+        ]
+    }, 
+    "2010_2_2": {
+        "artist": "Andra Generationen & Dogge Doggelito", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Vlatko Ancevski(tm), & Vlatko Gicarevski(tm), & Mats Nilsson(tm), & Teddy Paunkoski(tm), & Otis Sandsjö(tm), & Stevan Tomulevski(tm) & Douglas Léon(tm)", 
+        "tm_genders": [
+            "M",
+            "M",
+            "M", 
+            "M", 
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Vlatko Ancevski", 
+            "Vlatko Gicarevski", 
+            "Mats Nilsson", 
+            "Teddy Paunkoski", 
+            "Otis Sandsjö", 
+            "Stevan Tomulevski", 
+            "Douglas Léon"
+        ]
+    }, 
+    "2010_2_3": {
+        "artist": "Anna-Maria Espinosa", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Danne Attlerud(t), & Stefan Woody(m)", 
+        "tm_genders": [
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Danne Attlerud", 
+            "Stefan Woody"
+        ]
+    }, 
+    "2010_2_4": {
+        "artist": "Highlights & MiSt", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M",
+            "M",
+            "M",
+            "F"
+        ], 
+        "tm": "Mia Terngård(tm), & Stefan Lebert(m)", 
+        "tm_genders": [
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Mia Terngård", 
+            "Stefan Lebert"
+        ]
+    }, 
+    "2010_2_5": {
+        "artist": "Pauline", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Pauline Kamusewu(t), & Fredrik \"Fredro\" Ödesjö(m), & Andreas Levander(m), & Johan \"Jones\" Wetterberg(m)", 
+        "tm_genders": [
+            "F", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Pauline Kamusewu", 
+            "Fredrik \"Fredro\" Ödesjö", 
+            "Andreas Levander", 
+            "Johan \"Jones\" Wetterberg"
+        ]
+    }, 
+    "2010_2_6": {
+        "artist": "Andreas Johnson", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Andreas Johnson(t), & Bobby Ljunggren(m), & Marcos Ubeda(m)", 
+        "tm_genders": [
+            "M", 
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Andreas Johnson", 
+            "Bobby Ljunggren", 
+            "Marcos Ubeda"
+        ]
+    }, 
+    "2010_2_7": {
+        "artist": "Kalle Moraeus & Orsa Spelmän", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Lina Eriksson(t), & Johan Moraeus(m)", 
+        "tm_genders": [
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Lina Eriksson", 
+            "Johan Moraeus"
+        ]
+    }, 
+    "2010_2_8": {
+        "artist": "Hanna Lindblad", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Sarah Lundbäck(tm), & Iggy Strange-Dahl(tm), & Hayden Bell(tm), & Erik Lewander(tm)", 
+        "tm_genders": [
+            "F", 
+            "M",
+            "U", 
+            "M"
+        ], 
+        "tm_list": [
+            "Sarah Lundbäck", 
+            "Iggy Strange-Dahl", 
+            "Hayden Bell", 
+            "Erik Lewander"
+        ]
+    }, 
+    "2010_3_1": {
+        "artist": "Alcazar", 
+        "artist_gender": [
+            "F",
+            "F",
+            "M",
+            "M"
+
+        ], 
+        "tm": "Tony Nilsson(tm), & Peter Boström(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Tony Nilsson", 
+            "Peter Boström"
+        ]
+    }, 
+    "2010_3_2": {
+        "artist": "Johannes Bah Kuhnke", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Sharon Vaughn(tm), & Anders Hansson(tm)", 
+        "tm_genders": [
+            "F",
+            "M"
+        ], 
+        "tm_list": [
+            "Sharon Vaughn", 
+            "Anders Hansson"
+        ]
+    }, 
+    "2010_3_3": {
+        "artist": "Elin Lanto", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Tony Nilsson(tm), & Mirja Breitholtz(tm)", 
+        "tm_genders": [
+            "M", 
+            "F"
+        ], 
+        "tm_list": [
+            "Tony Nilsson", 
+            "Mirja Breitholtz"
+        ]
+    }, 
+    "2010_3_4": {
+        "artist": "Erik Linder", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Kenneth Gärdestad(t), & Tony Malm(m), & Niclas Lundin(m)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Kenneth Gärdestad", 
+            "Tony Malm", 
+            "Niclas Lundin"
+        ]
+    }, 
+    "2010_3_5": {
+        "artist": "Getty Domein", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Getty Domein Mpanzu(t), & Tuomas (Tiny) Pyhäjärvi(m)", 
+        "tm_genders": [
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Getty Domein Mpanzu", 
+            "Tuomas (Tiny) Pyhäjärvi"
+        ]
+    }, 
+    "2010_3_6": {
+        "artist": "Timoteij", 
+        "artist_gender": [
+            "F",
+            "F",
+            "F",
+            "F"
+        ], 
+        "tm": "Niclas Arn(tm), & Karl Eurén(tm), & Gustav Eurén(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Niclas Arn", 
+            "Karl Eurén", 
+            "Gustav Eurén"
+        ]
+    }, 
+    "2010_3_7": {
+        "artist": "Darin", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Henrik Janson(tm), & Tony Nilsson(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Henrik Janson", 
+            "Tony Nilsson"
+        ]
+    }, 
+    "2010_3_8": {
+        "artist": "Crucified Barbara", 
+        "artist_gender": [
+            "F",
+            "F",
+            "F",
+            "F"
+        ], 
+        "tm": "Håkan Larsson(tm), & Jörgen Svensson(tm), & Björn Lönnroos(tm)", 
+        "tm_genders": [
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Håkan Larsson", 
+            "Jörgen Svensson", 
+            "Björn Lönnroos"
+        ]
+    }, 
+    "2010_4_1": {
+        "artist": "Sibel", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Mikaela Stenström(tm), & Dimitri Stassos(tm)", 
+        "tm_genders": [
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Mikaela Stenström", 
+            "Dimitri Stassos"
+        ]
+    }, 
+    "2010_4_2": {
+        "artist": "Py Bäckman", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Py Bäckman(tm), & Micke Wennborn(m)", 
+        "tm_genders": [
+            "F",
+            "M"
+        ], 
+        "tm_list": [
+            "Py Bäckman", 
+            "Micke Wennborn"
+        ]
+    }, 
+    "2010_4_3": {
+        "artist": "NEO", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Tobias Jonsson(tm), & Anneli Axelsson(tm)", 
+        "tm_genders": [
+            "M", 
+            "F"
+        ], 
+        "tm_list": [
+            "Tobias Jonsson", 
+            "Anneli Axelsson"
+        ]
+    }, 
+    "2010_4_4": {
+        "artist": "Lovestoned", 
+        "artist_gender": [
+            "M",
+            "M",
+            "F",
+            "F"
+        ], 
+        "tm": "Sharon Vaughn(t), & Thomas G:son(m), & Peter Boström(m)", 
+        "tm_genders": [
+            "F",
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Sharon Vaughn", 
+            "Thomas G:son", 
+            "Peter Boström"
+        ]
+    }, 
+    "2010_4_5": {
+        "artist": "Anna Bergendahl", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Kristian Lagerström(t), & Bobby Ljunggren(m)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Kristian Lagerström", 
+            "Bobby Ljunggren"
+        ]
+    }, 
+    "2010_4_6": {
+        "artist": "Pernilla Wahlgren", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Daniel Barkman(t), & Pernilla Wahlgren(t), & Pontus Assarsson(tm), & Jörgen Ringqvist(tm),", 
+        "tm_genders": [
+            "M", 
+            "F", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Daniel Barkman", 
+            "Pernilla Wahlgren", 
+            "Pontus Assarsson", 
+            "Jörgen Ringqvist"
+        ]
+    }, 
+    "2010_4_7": {
+        "artist": "Noll disciplin", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Niklas Jarl(tm), & Per Aldeheim(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Niklas Jarl", 
+            "Per Aldeheim"
+        ]
+    }, 
+    "2010_4_8": {
+        "artist": "Peter Jöback", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Anders Hansson(tm), & Fredrik Kempe(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Anders Hansson", 
+            "Fredrik Kempe"
+        ]
+    }, 
+    "2011_1_1": {
+        "artist": "Dilba", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Niklas Pettersson(tm), & Linda Sonnvik(tm)", 
+        "tm_genders": [
+            "M", 
+            "F"
+        ], 
+        "tm_list": [
+            "Niklas Pettersson", 
+            "Linda Sonnvik"
+        ]
+    }, 
+    "2011_1_2": {
+        "artist": "Swingfly", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Teron Beal(tm), & Patrik Magnusson(tm), & Johan Ramström(tm), & Swingfly(tm)", 
+        "tm_genders": [
+            "M",
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Teron Beal", 
+            "Patrik Magnusson", 
+            "Johan Ramström", 
+            "Swingfly"
+        ]
+    }, 
+    "2011_1_3": {
+        "artist": "Jenny Silver", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Thomas G:son(tm), & Henrik Sethsson(tm), & Erik Bernholm(m)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Thomas G:son", 
+            "Henrik Sethsson", 
+            "Erik Bernholm"
+        ]
+    }, 
+    "2011_1_4": {
+        "artist": "Jonas Matsson", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Peter Autio(tm), & Sari Autio Olsson(tm)", 
+        "tm_genders": [
+            "M", 
+            "U"
+        ], 
+        "tm_list": [
+            "Peter Autio", 
+            "Sari Autio Olsson"
+        ]
+    }, 
+    "2011_1_5": {
+        "artist": "Le Kid", 
+        "artist_gender": [
+            "F",
+            "F",
+            "F",
+            "M"
+        ], 
+        "tm": "Märta Grauers(tm), & Anton Malmberg Hård af Segerstad(tm), & Felix Persson(tm)", 
+        "tm_genders": [
+            "F",
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Märta Grauers", 
+            "Anton Malmberg Hård af Segerstad", 
+            "Felix Persson"
+        ]
+    }, 
+    "2011_1_6": {
+        "artist": "Rasmus Viberg", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Amir Aly(tm), & Henrik Wikström(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Amir Aly", 
+            "Henrik Wikström"
+        ]
+    }, 
+    "2011_1_7": {
+        "artist": "Pernilla Andersson", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Pernilla Andersson(tm)", 
+        "tm_genders": [
+            "F"
+        ], 
+        "tm_list": [
+            "Pernilla Andersson"
+        ]
+    }, 
+    "2011_1_8": {
+        "artist": "Danny Saucedo", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Figge Boström(tm), & Peter Boström(tm), & Danny Saucedo(tm)", 
+        "tm_genders": [
+            "M",
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Figge Boström", 
+            "Peter Boström", 
+            "Danny Saucedo"
+        ]
+    }, 
+    "2011_2_1": {
+        "artist": "Brolle", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Kjell Junior Wallmark (Brolle)(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Kjell Junior Wallmark (Brolle)"
+        ]
+    }, 
+    "2011_2_2": {
+        "artist": "Loreen", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Moh Denebi(tm), & Björn Djupström(tm), & Lorén Talhaoui(tm)", 
+        "tm_genders": [
+            "M",
+            "M",
+            "F"
+        ], 
+        "tm_list": [
+            "Moh Denebi", 
+            "Björn Djupström", 
+            "Lorén Talhaoui"
+        ]
+    }, 
+    "2011_2_3": {
+        "artist": "Babsan", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Larry Forsberg(tm), & Sven-Inge Sjöberg(tm), & Lennart Wastesson(tm)", 
+        "tm_genders": [
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Larry Forsberg", 
+            "Sven-Inge Sjöberg", 
+            "Lennart Wastesson"
+        ]
+    }, 
+    "2011_2_4": {
+        "artist": "Elisabeth Andreassen", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Calle Kindbom(t), & Lars \"Dille\" Diedricson(tm), & Kristian Wejshag(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Calle Kindbom", 
+            "Lars \"Dille\" Diedricson", 
+            "Kristian Wejshag"
+        ]
+    }, 
+    "2011_2_5": {
+        "artist": "Sanna Nielsen", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Bobby Ljunggren(tm), & Thomas G:son(tm), & Irini Michas(tm), & Peter Boström(tm)", 
+        "tm_genders": [
+            "M",
+            "M", 
+            "F",
+            "M"
+        ], 
+        "tm_list": [
+            "Bobby Ljunggren", 
+            "Thomas G:son", 
+            "Irini Michas", 
+            "Peter Boström"
+        ]
+    }, 
+    "2011_2_6": {
+        "artist": "The Moniker", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Daniel Karlsson (The Moniker)(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Daniel Karlsson (The Moniker)"
+        ]
+    }, 
+    "2011_2_7": {
+        "artist": "Anniela", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Johan Alkenäs(tm), & Tim Larsson(tm), & Tobias Lundgren(tm), & Johan Fransson(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Johan Alkenäs", 
+            "Tim Larsson", 
+            "Tobias Lundgren", 
+            "Johan Fransson"
+        ]
+    }, 
+    "2011_2_8": {
+        "artist": "Christian Walz", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Fernando Fuentes(tm), & Henrik Janson(tm), & Tony Nilsson(tm)", 
+        "tm_genders": [
+            "M",
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Fernando Fuentes", 
+            "Henrik Janson", 
+            "Tony Nilsson"
+        ]
+    }, 
+    "2011_3_1": {
+        "artist": "Linda Sundblad", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Linda Sundblad(tm), & Johan Bobäck(tm), & Fredrik Thomander(tm), & Anders \"Gary\" Wikström(tm)", 
+        "tm_genders": [
+            "F", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Linda Sundblad", 
+            "Johan Bobäck", 
+            "Fredrik Thomander", 
+            "Anders \"Gary\" Wikström"
+        ]
+    }, 
+    "2011_3_2": {
+        "artist": "Simon Forsberg", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Fredrik Kempe(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Fredrik Kempe"
+        ]
+    }, 
+    "2011_3_3": {
+        "artist": "Sara Lumholdt", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Niclas Lundin(tm), & Anton Malmberg Hård af Segerstad(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Niclas Lundin", 
+            "Anton Malmberg Hård af Segerstad"
+        ]
+    }, 
+    "2011_3_4": {
+        "artist": "The Playtones", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Fredrik Kempe(tm), & Peter Kvint(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Fredrik Kempe", 
+            "Peter Kvint"
+        ]
+    }, 
+    "2011_3_5": {
+        "artist": "Shirley's Angels", 
+        "artist_gender": [
+            "F",
+            "F",
+            "F"
+        ], 
+        "tm": "Robin Abrahamsson(tm), & Alexander Bard(tm), & Bobby Ljunggren(tm), & Henrik Wikström(m)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Robin Abrahamsson", 
+            "Alexander Bard", 
+            "Bobby Ljunggren", 
+            "Henrik Wikström"
+        ]
+    }, 
+    "2011_3_6": {
+        "artist": "Sebastian", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Andreas Alfredsson Grube(tm), & Sebastian Karlsson(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Andreas Alfredsson Grube", 
+            "Sebastian Karlsson"
+        ]
+    }, 
+    "2011_3_7": {
+        "artist": "Sara Varga", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Sara Varga(tm), & Figge Boström(m)", 
+        "tm_genders": [
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Sara Varga", 
+            "Figge Boström"
+        ]
+    }, 
+    "2011_3_8": {
+        "artist": "Eric Saade", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Fredrik Kempe(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Fredrik Kempe"
+        ]
+    }, 
+    "2011_4_1": {
+        "artist": "Melody Club", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Kristofer Östergren(tm), & Erik Stenemo(tm), & Jon Axelsson(tm), & Niklas Stenemo(tm)", 
+        "tm_genders": [
+            "M",
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Kristofer Östergren", 
+            "Erik Stenemo", 
+            "Jon Axelsson", 
+            "Niklas Stenemo"
+        ]
+    }, 
+    "2011_4_2": {
+        "artist": "Julia Alvgard", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Julia Alvgard(tm), & Manne Hjelm(tm), & Ola Holstad(tm), & Joar Lenz(tm)", 
+        "tm_genders": [
+            "F", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Julia Alvgard", 
+            "Manne Hjelm", 
+            "Ola Holstad", 
+            "Joar Lenz"
+        ]
+    }, 
+    "2011_4_3": {
+        "artist": "Lasse Stefanz", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Tim Norell(t), & Alexander Bard(tm), & Ola Håkansson(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Tim Norell", 
+            "Alexander Bard", 
+            "Ola Håkansson"
+        ]
+    }, 
+    "2011_4_4": {
+        "artist": "Linda Pritchard", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Oscar Görres(tm), & Fredrik Kempe(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Oscar Görres", 
+            "Fredrik Kempe"
+        ]
+    }, 
+    "2011_4_5": {
+        "artist": "Anders Fernette", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Desmond Child(tm), & Negin Djafari(tm), & Hugo Lira(tm), & Ian-Paolo Lira(tm), & Thomas Gustafsson(tm)", 
+        "tm_genders": [
+            "M",
+            "F",
+            "M", 
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Desmond Child", 
+            "Negin Djafari", 
+            "Hugo Lira", 
+            "Ian-Paolo Lira", 
+            "Thomas Gustafsson"
+        ]
+    }, 
+    "2011_4_6": {
+        "artist": "Linda Bengtzing", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Pontus Assarsson(tm), & Thomas G:son(tm), & Jörgen Ringqvist(tm), & Daniel Barkman(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Pontus Assarsson", 
+            "Thomas G:son", 
+            "Jörgen Ringqvist", 
+            "Daniel Barkman"
+        ]
+    }, 
+    "2011_4_7": {
+        "artist": "Nicke Borg", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Jojo Borg Larsson(t), & Nicke Borg(m), & Fredrik Thomander(m), & Anders \"Gary\" Wikström(m)", 
+        "tm_genders": [
+            "M",
+            "M",
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Jojo Borg Larsson", 
+            "Nicke Borg", 
+            "Fredrik Thomander", 
+            "Anders \"Gary\" Wikström"
+        ]
+    }, 
+    "2011_4_8": {
+        "artist": "Love Generation", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "RedOne(Nadir Khayat) (tm), & Bilal \"The Chef\"(tm), & Teddy Sky(tm), & AJ Junior(tm), & Jimmy Joker(tm), & BeatGeek(tm)", 
+        "tm_genders": [
+            "M",
+            "M",
+            "M", 
+            "M",
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "RedOne(Nadir Khayat)", 
+            "Bilal \"The Chef\"", 
+            "Teddy Sky", 
+            "AJ Junior", 
+            "Jimmy Joker", 
+            "BeatGeek"
+        ]
+    }, 
+    "2012_1_1": {
+        "artist": "Sean Banan", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Sean Samadi (Sean Banan)(tm), & Joakim Larsson(tm), & Hans Blomberg(tm), & Mårten Andersson(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Sean Samadi (Sean Banan)", 
+            "Joakim Larsson", 
+            "Hans Blomberg", 
+            "Mårten Andersson"
+        ]
+    }, 
+    "2012_1_2": {
+        "artist": "Abalone Dots", 
+        "artist_gender": [
+            "F",
+            "F",
+            "F"
+        ], 
+        "tm": "Rebecka Hjukström(tm), & Sophia Hogman(tm), & Louise Holmer(tm), & Viktor Källgren(tm)", 
+        "tm_genders": [
+            "F", 
+            "F", 
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Rebecka Hjukström", 
+            "Sophia Hogman", 
+            "Louise Holmer", 
+            "Viktor Källgren"
+        ]
+    }, 
+    "2012_1_3": {
+        "artist": "The Moniker", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Daniel Karlsson (The Moniker)(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Daniel Karlsson (The Moniker)"
+        ]
+    }, 
+    "2012_1_4": {
+        "artist": "Afro-Dite", 
+        "artist_gender": [
+            "F",
+            "F",
+            "F"
+        ], 
+        "tm": "Figge Boström(tm), & Catrine Loqvist(tm), & Johan Lindman(tm)", 
+        "tm_genders": [
+            "M",
+            "F",
+            "M"
+        ], 
+        "tm_list": [
+            "Figge Boström", 
+            "Catrine Loqvist", 
+            "Johan Lindman"
+        ]
+    }, 
+    "2012_1_5": {
+        "artist": "Dead by April", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Pontus Hjelm(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Pontus Hjelm"
+        ]
+    }, 
+    "2012_1_6": {
+        "artist": "Marie Serneholt", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Lina Eriksson(tm), & Mårten Eriksson(tm), & Figge Boström(tm)", 
+        "tm_genders": [
+            "F", 
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Lina Eriksson", 
+            "Mårten Eriksson", 
+            "Figge Boström"
+        ]
+    }, 
+    "2012_1_7": {
+        "artist": "Thorsten Flinck & Revolutionsorkestern", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Thomas G:son(m), & Ted Ström(t)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Thomas G:son", 
+            "Ted Ström"
+        ]
+    }, 
+    "2012_1_8": {
+        "artist": "Loreen", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Thomas G:son(tm), & Peter Boström(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Thomas G:son", 
+            "Peter Boström"
+        ]
+    }, 
+    "2012_2_1": {
+        "artist": "Ulrik Munther", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Ulrik Munther(tm), & Johan Åberg(tm), & Linnea Deb(tm), & Joy Deb(tm), & David Jackson(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "F", 
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Ulrik Munther", 
+            "Johan Åberg", 
+            "Linnea Deb", 
+            "Joy Deb", 
+            "David Jackson"
+        ]
+    }, 
+    "2012_2_2": {
+        "artist": "Top Cats", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Mårten Eriksson(tm), & Lina Eriksson(tm), & Susie Päivärinta(tm)", 
+        "tm_genders": [
+            "M",
+            "F", 
+            "F"
+        ], 
+        "tm_list": [
+            "Mårten Eriksson", 
+            "Lina Eriksson", 
+            "Susie Päivärinta"
+        ]
+    }, 
+    "2012_2_3": {
+        "artist": "Sonja Aldén", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Sonja Aldén(t), & Bobby Ljunggren(m), & Peter Boström(m)", 
+        "tm_genders": [
+            "F", 
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Sonja Aldén", 
+            "Bobby Ljunggren", 
+            "Peter Boström"
+        ]
+    }, 
+    "2012_2_4": {
+        "artist": "Andreas Lundstedt", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Niclas Lundin(tm), & Maria Marcus(tm), & Randy Goodrum(tm)", 
+        "tm_genders": [
+            "M", 
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Niclas Lundin", 
+            "Maria Marcus", 
+            "Randy Goodrum"
+        ]
+    }, 
+    "2012_2_5": {
+        "artist": "Timoteij", 
+        "artist_gender": [
+            "F",
+            "F",
+            "F",
+            "F"
+        ], 
+        "tm": "Kristian Lagerström(tm), & Johan Fjellström(tm), & Stina Engelbrecht(tm), & Jens Engelbrecht(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Kristian Lagerström", 
+            "Johan Fjellström", 
+            "Stina Engelbrecht", 
+            "Jens Engelbrecht"
+        ]
+    }, 
+    "2012_2_6": {
+        "artist": "David Lindgren", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Fernando Fuentes(tm), & Tony Nilsson(tm)", 
+        "tm_genders": [
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Fernando Fuentes", 
+            "Tony Nilsson"
+        ]
+    }, 
+    "2012_2_7": {
+        "artist": "Mimi Oh", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Anton Malmberg Hård af Segerstad(tm), & Niclas Lundin(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Anton Malmberg Hård af Segerstad", 
+            "Niclas Lundin"
+        ]
+    }, 
+    "2012_2_8": {
+        "artist": "Thomas Di Leva", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Thomas Di Leva(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Thomas Di Leva"
+        ]
+    }, 
+    "2012_3_1": {
+        "artist": "Youngblood", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Fredrik Kempe(tm), & David Kreuger(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Fredrik Kempe", 
+            "David Kreuger"
+        ]
+    }, 
+    "2012_3_2": {
+        "artist": "Maria BenHajji", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Nanna Sveinsdóttir(t), & Thomas Cars(m)", 
+        "tm_genders": [
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Nanna Sveinsdóttir", 
+            "Thomas Cars"
+        ]
+    }, 
+    "2012_3_3": {
+        "artist": "Mattias Andréasson", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Mattias Andréasson(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Mattias Andréasson"
+        ]
+    }, 
+    "2012_3_4": {
+        "artist": "Love Generation", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Nadir Khayat (RedOne)(tm), & John Mamann(tm), & Jean-Claude Sindres(tm), & Teddy Sky(tm), & Yohanne Simon(tm), & Bilal \"The Chef\" Hajji(tm)", 
+        "tm_genders": [
+            "M",
+            "M", 
+            "M",
+            "M", 
+            "F",
+            "M"
+        ], 
+        "tm_list": [
+            "Nadir Khayat (RedOne)", 
+            "John Mamann", 
+            "Jean-Claude Sindres", 
+            "Teddy Sky", 
+            "Yohanne Simon", 
+            "Bilal \"The Chef\" Hajji"
+        ]
+    }, 
+    "2012_3_5": {
+        "artist": "Carolina Wallin Pérez", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Michael Clauss(m), & Martin Bjelke(tm), & Carolina Wallin Pérez(t)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "F"
+        ], 
+        "tm_list": [
+            "Michael Clauss", 
+            "Martin Bjelke", 
+            "Carolina Wallin Pérez"
+        ]
+    }, 
+    "2012_3_6": {
+        "artist": "Andreas Johnson", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Andreas Johnson(tm), & Peter Kvint(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Andreas Johnson", 
+            "Peter Kvint"
+        ]
+    }, 
+    "2012_3_7": {
+        "artist": "Molly Sandén", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Molly Sandén(tm), & Aleena Gibson(tm), & Windy Wagner(tm)", 
+        "tm_genders": [
+            "F", 
+            "F",
+            "F"
+        ], 
+        "tm_list": [
+            "Molly Sandén", 
+            "Aleena Gibson", 
+            "Windy Wagner"
+        ]
+    }, 
+    "2012_3_8": {
+        "artist": "Björn Ranelid & Sara Li", 
+        "artist_gender": [
+            "M",
+            "F"
+        ], 
+        "tm": "Fredrik Andersson(tm), & Björn Ranelid(t)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Fredrik Andersson", 
+            "Björn Ranelid"
+        ]
+    }, 
+    "2012_4_1": {
+        "artist": "Charlotte Perrelli", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Fredrik Kempe(tm), & Alexander Jonsson(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Fredrik Kempe", 
+            "Alexander Jonsson"
+        ]
+    }, 
+    "2012_4_2": {
+        "artist": "OPA", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Michael Sideridis(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Michael Sideridis"
+        ]
+    }, 
+    "2012_4_3": {
+        "artist": "Dynazty", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Thomas G:son(tm), & Thomas \"Plec\" Johansson(m)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Thomas G:son", 
+            "Thomas \"Plec\" Johansson"
+        ]
+    }, 
+    "2012_4_4": {
+        "artist": "Lotta Engberg & Christer Sjögren", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Lasse Holm(tm), & Lars \"Dille\" Diedricson(tm)", 
+        "tm_genders": [
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Lasse Holm", 
+            "Lars \"Dille\" Diedricson"
+        ]
+    }, 
+    "2012_4_5": {
+        "artist": "Hanna Lindblad", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Hanna Lindblad(tm), & Linda Sundblad(tm), & Tony Nilsson(tm)", 
+        "tm_genders": [
+            "F", 
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Hanna Lindblad", 
+            "Linda Sundblad", 
+            "Tony Nilsson"
+        ]
+    }, 
+    "2012_4_6": {
+        "artist": "Axel Algmark", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Axel Algmark(tm), & Mattias Frändå(tm), & Jonathan Magnussen(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Axel Algmark", 
+            "Mattias Frändå", 
+            "Jonathan Magnussen"
+        ]
+    }, 
+    "2012_4_7": {
+        "artist": "Lisa Miskovsky", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Lisa Miskovsky(tm), & Aleksander With(m), & Bernt Rune Stray(m) & Berent Philip Moe(m)", 
+        "tm_genders": [
+            "F", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Lisa Miskovsky", 
+            "Aleksander With", 
+            "Bernt Rune Stray", 
+            "Berent Philip Moe"
+        ]
+    }, 
+    "2012_4_8": {
+        "artist": "Danny Saucedo", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Danny Saucedo(tm), & Peter Boström(tm), & Figge Boström(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Danny Saucedo", 
+            "Peter Boström", 
+            "Figge Boström"
+        ]
+    }, 
+    "2013_1_1": {
+        "artist": "David Lindgren", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Fernando Fuentes(tm), & Henrik Nordenback(tm), & Christian Fast(tm)", 
+        "tm_genders": [
+            "M",
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Fernando Fuentes", 
+            "Henrik Nordenback", 
+            "Christian Fast"
+        ]
+    }, 
+    "2013_1_2": {
+        "artist": "Cookies 'N' Beans", 
+        "artist_gender": [
+            "F",
+            "F",
+            "F"
+        ], 
+        "tm": "Fredrik Kempe(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Fredrik Kempe"
+        ]
+    }, 
+    "2013_1_3": {
+        "artist": "Jay-Jay Johanson", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Jay-Jay Johanson(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Jay-Jay Johanson"
+        ]
+    }, 
+    "2013_1_4": {
+        "artist": "Mary N'diaye", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Johan Åsgärde(tm), & Mattias Frändå(tm), & Mary N'diaye(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "F"
+        ], 
+        "tm_list": [
+            "Johan Åsgärde", 
+            "Mattias Frändå", 
+            "Mary N'diaye"
+        ]
+    }, 
+    "2013_1_5": {
+        "artist": "Eric Gadd", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Eric Gadd(tm), & Thomas Stenström(tm), & Jacob Olofsson(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Eric Gadd", 
+            "Thomas Stenström", 
+            "Jacob Olofsson"
+        ]
+    }, 
+    "2013_1_6": {
+        "artist": "Yohio", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Johan Fransson(tm), & Tobias Lundgren(tm), & Tim Larsson(tm), & Henrik Göranson(tm), & Yohio(t)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Johan Fransson", 
+            "Tobias Lundgren", 
+            "Tim Larsson", 
+            "Henrik Göranson", 
+            "Yohio"
+        ]
+    }, 
+    "2013_1_7": {
+        "artist": "Anna Järvinen", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Björn Olsson(m), & Martin Elisson(t)", 
+        "tm_genders": [
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Björn Olsson", 
+            "Martin Elisson"
+        ]
+    }, 
+    "2013_1_8": {
+        "artist": "Michael Feiner & Caisa", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Michael Feiner(tm), & Caisa Ahlroth(tm)", 
+        "tm_genders": [
+            "M", 
+            "F"
+        ], 
+        "tm_list": [
+            "Michael Feiner", 
+            "Caisa Ahlroth"
+        ]
+    }, 
+    "2013_2_1": {
+        "artist": "Anton Ewald", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Fredrik Kempe(tm), & Anton Malmberg Hård af Segerstad(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Fredrik Kempe", 
+            "Anton Malmberg Hård af Segerstad"
+        ]
+    }, 
+    "2013_2_2": {
+        "artist": "Felicia Olsson", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Henrik Wikström(tm), & Ingela \"Pling\" Forsman(tm), & Amir Aly(tm), & Maria Haukaas Mittet(tm)", 
+        "tm_genders": [
+            "M", 
+            "F",
+            "M", 
+            "F"
+        ], 
+        "tm_list": [
+            "Henrik Wikström", 
+            "Ingela \"Pling\" Forsman", 
+            "Amir Aly", 
+            "Maria Haukaas Mittet"
+        ]
+    }, 
+    "2013_2_3": {
+        "artist": "Joacim Cans", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Joacim Cans(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Joacim Cans"
+        ]
+    }, 
+    "2013_2_4": {
+        "artist": "Swedish House Wives", 
+        "artist_gender": [
+            "F",
+            "F",
+            "F"
+        ], 
+        "tm": "Peter Boström(tm), & Thomas G:son(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Peter Boström", 
+            "Thomas G:son"
+        ]
+    }, 
+    "2013_2_5": {
+        "artist": "Erik Segerstedt & Tone Damli", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Robin Fredriksson(tm), & Mattias Larsson(tm), & Måns Zelmerlöw(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Robin Fredriksson", 
+            "Mattias Larsson", 
+            "Måns Zelmerlöw"
+        ]
+    }, 
+    "2013_2_6": {
+        "artist": "Louise Hoffsten", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Louise Hoffsten(tm), & Sandra Bjurman(tm), & Stefan Örn(tm)", 
+        "tm_genders": [
+            "F", 
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Louise Hoffsten", 
+            "Sandra Bjurman", 
+            "Stefan Örn"
+        ]
+    }, 
+    "2013_2_7": {
+        "artist": "Rikard Wolff & Sara Isaksson", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Tomas Andersson Wij(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Tomas Andersson Wij"
+        ]
+    }, 
+    "2013_2_8": {
+        "artist": "Sean Banan", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Ola Lindholm(tm), & Sean Samadi (Sean Banan)(tm), & Hans Blomberg(tm), & Joakim Larsson(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Ola Lindholm", 
+            "Sean Samadi (Sean Banan)", 
+            "Hans Blomberg", 
+            "Joakim Larsson"
+        ]
+    }, 
+    "2013_3_1": {
+        "artist": "Eddie Razaz", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Thomas G:son(tm), & Peter Boström(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Thomas G:son", 
+            "Peter Boström"
+        ]
+    }, 
+    "2013_3_2": {
+        "artist": "Elin Petersson", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Elin Petersson(tm)", 
+        "tm_genders": [
+            "F"
+        ], 
+        "tm_list": [
+            "Elin Petersson"
+        ]
+    }, 
+    "2013_3_3": {
+        "artist": "Ravaillacz", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Kjell Jennstig(tm), & Leif Goldkuhl(tm), & Henrik Dorsin(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Kjell Jennstig", 
+            "Leif Goldkuhl", 
+            "Henrik Dorsin"
+        ]
+    }, 
+    "2013_3_4": {
+        "artist": "Amanda Fondell", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Freja Blomberg(tm), & Fredrik Samsson(tm)", 
+        "tm_genders": [
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Freja Blomberg", 
+            "Fredrik Samsson"
+        ]
+    }, 
+    "2013_3_5": {
+        "artist": "Martin Rolinski", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Thomas G:son(tm), & Andreas Rickstrand(tm), & Martin Rolinski(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Thomas G:son", 
+            "Andreas Rickstrand", 
+            "Martin Rolinski"
+        ]
+    }, 
+    "2013_3_6": {
+        "artist": "Caroline af Ugglas", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Caroline af Ugglas(tm), & Heinz Liljedahl(tm)", 
+        "tm_genders": [
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Caroline af Ugglas", 
+            "Heinz Liljedahl"
+        ]
+    }, 
+    "2013_3_7": {
+        "artist": "State of Drama", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Göran Werner(tm), & Sebastian Hallifax(tm), & Emil Gullhamn(tm), & James Hallifax(tm)", 
+        "tm_genders": [
+            "M",
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Göran Werner", 
+            "Sebastian Hallifax", 
+            "Emil Gullhamn", 
+            "James Hallifax"
+        ]
+    }, 
+    "2013_3_8": {
+        "artist": "Janet Leon", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Fredrik Kempe(tm), & Anton Malmberg Hård af Segerstad(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Fredrik Kempe", 
+            "Anton Malmberg Hård af Segerstad"
+        ]
+    }, 
+    "2013_4_1": {
+        "artist": "Army of Lovers", 
+        "artist_gender": [
+            "M",
+            "M",
+            "F"
+        ], 
+        "tm": "Alexander Bard(tm), & Henrik Wikström(tm), & Per QX(tm), & Andreas Öhrn(tm), & Jean-Pierre Barda(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Alexander Bard", 
+            "Henrik Wikström", 
+            "Per QX", 
+            "Andreas Öhrn", 
+            "Jean-Pierre Barda"
+        ]
+    }, 
+    "2013_4_2": {
+        "artist": "Lucia Piñera", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Peter Kvint(tm), & Jonas Myrin(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Peter Kvint", 
+            "Jonas Myrin"
+        ]
+    }, 
+    "2013_4_3": {
+        "artist": "Robin Stjernberg", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Robin Stjernberg(tm), & Linnea Deb(tm), & Joy Deb(tm), & Joakim Harestad Haukaas(tm)", 
+        "tm_genders": [
+            "M", 
+            "F", 
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Robin Stjernberg", 
+            "Linnea Deb", 
+            "Joy Deb", 
+            "Joakim Harestad Haukaas"
+        ]
+    }, 
+    "2013_4_4": {
+        "artist": "Sylvia Vrethammar", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Thomas G:son(tm), & Calle Kindbom(tm), & Mats Tärnfors(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Thomas G:son", 
+            "Calle Kindbom", 
+            "Mats Tärnfors"
+        ]
+    }, 
+    "2013_4_5": {
+        "artist": "Ralf Gyllenhammar", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Ralf Gyllenhammar(tm), & David Wilhelmsson(tm)", 
+        "tm_genders": [
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Ralf Gyllenhammar", 
+            "David Wilhelmsson"
+        ]
+    }, 
+    "2013_4_6": {
+        "artist": "Behrang Miri & Loulou Lamotte & Oscar Zia", 
+        "artist_gender": [
+            "M",
+            "M",
+            "F"
+        ], 
+        "tm": "Behrang Miri(tm), & Anderz Wrethov(tm), & Firas Razak Tuma(tm), & Tacfarinas Yamoun(tm)", 
+        "tm_genders": [
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Behrang Miri", 
+            "Anderz Wrethov", 
+            "Firas Razak Tuma", 
+            "Tacfarinas Yamoun"
+        ]
+    }, 
+    "2013_4_7": {
+        "artist": "Terese Fredenwall", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Terese Fredenwall(tm), & Simon Petrén(m)", 
+        "tm_genders": [
+            "F", 
+            "M"
+        ], 
+        "tm_list": [
+            "Terese Fredenwall", 
+            "Simon Petrén"
+        ]
+    }, 
+    "2013_4_8": {
+        "artist": "Ulrik Munther", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Thomas G:son(tm), & Peter Boström(tm), & Ulrik Munther(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Thomas G:son", 
+            "Peter Boström", 
+            "Ulrik Munther"
+        ]
+    }, 
+    "2014_1_1": {
+        "artist": "Yohio", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Andreas Johnson(tm), & Johan Lyander(tm), & Peter Kvint(tm), & Yohio(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Andreas Johnson", 
+            "Johan Lyander", 
+            "Peter Kvint", 
+            "Yohio"
+        ]
+    }, 
+    "2014_1_2": {
+        "artist": "Mahan Moin", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Mahan Moin(tm), & Anderz Wrethov(tm)", 
+        "tm_genders": [
+            "F",
+            "M"
+        ], 
+        "tm_list": [
+            "Mahan Moin", 
+            "Anderz Wrethov"
+        ]
+    }, 
+    "2014_1_3": {
+        "artist": "Linus Svenning", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Fredrik Kempe(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Fredrik Kempe"
+        ]
+    }, 
+    "2014_1_4": {
+        "artist": "Elisa Lindström", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Ingela Pling Forsman(t), & Bobby Ljunggren(m), & Jimmy Jansson(m)", 
+        "tm_genders": [
+            "F",
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Ingela Pling Forsman", 
+            "Bobby Ljunggren", 
+            "Jimmy Jansson"
+        ]
+    }, 
+    "2014_1_5": {
+        "artist": "Alvaro Estrella", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Jakke Erixson(tm), & Jon Bordon(tm), & Lauren Francis(tm), & Kristofer Östergren(tm)", 
+        "tm_genders": [
+            "M",
+            "M", 
+            "F",
+            "M"
+        ], 
+        "tm_list": [
+            "Jakke Erixson", 
+            "Jon Bordon", 
+            "Lauren Francis", 
+            "Kristofer Östergren"
+        ]
+    }, 
+    "2014_1_6": {
+        "artist": "Ellen Benediktson", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Sharon Vaughn(t), & Johan Fransson(m), & Tim Larsson(m), & Tobias Lundgren(m)", 
+        "tm_genders": [
+            "F",
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Sharon Vaughn", 
+            "Johan Fransson", 
+            "Tim Larsson", 
+            "Tobias Lundgren"
+        ]
+    }, 
+    "2014_1_7": {
+        "artist": "Sylvester Schlegel", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Sylvester Schlegel(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Sylvester Schlegel"
+        ]
+    }, 
+    "2014_1_8": {
+        "artist": "Helena Paparizou", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Bobby Ljunggren(m), & Henrik Wikström(m), & Karl-Ola Kjellholm(m), & Sharon Vaughn(t)", 
+        "tm_genders": [
+            "M",
+            "M", 
+            "M",
+            "F"
+        ], 
+        "tm_list": [
+            "Bobby Ljunggren", 
+            "Henrik Wikström", 
+            "Karl-Ola Kjellholm", 
+            "Sharon Vaughn"
+        ]
+    }, 
+    "2014_2_1": {
+        "artist": "J.E.M", 
+        "artist_gender": [
+            "F",
+            "F",
+            "M"
+        ], 
+        "tm": "Thomas G:son(tm), & Peter Boström(tm), & Julimar J-Son Santos(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Thomas G:son", 
+            "Peter Boström", 
+            "Julimar J-Son Santos"
+        ]
+    }, 
+    "2014_2_2": {
+        "artist": "The Refreshments", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Joakim Arnell(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "Joakim Arnell"
+        ]
+    }, 
+    "2014_2_3": {
+        "artist": "Manda", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Joy Deb(tm), & Linnea Deb(tm), & Melanie Wehbe(tm), & Charlie Mason(tm)", 
+        "tm_genders": [
+            "F", 
+            "F", 
+            "F", 
+            "F"
+        ], 
+        "tm_list": [
+            "Joy Deb", 
+            "Linnea Deb", 
+            "Melanie Wehbe", 
+            "Charlie Mason"
+        ]
+    }, 
+    "2014_2_4": {
+        "artist": "Panetoz", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Johan Hirvi(tm), & Mats Lie Skåre(tm), & Nebeyu Baheru(tm), & Njol Badjie(tm), & Pa Modou Badjie(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Johan Hirvi", 
+            "Mats Lie Skåre", 
+            "Nebeyu Baheru", 
+            "Njol Badjie", 
+            "Pa Modou Badjie"
+        ]
+    }, 
+    "2014_2_5": {
+        "artist": "Pink Pistols", 
+        "artist_gender": [
+            "F",
+            "F",
+            "M",
+            "M"
+        ], 
+        "tm": "Joakim Törnqvist(tm), & Nestor Geli(tm), & Per Ivar Hed(tm), & Susie Päivärinta(tm), & Tord Bäckström(tm)", 
+        "tm_genders": [
+            "M", 
+            "M",
+            "M", 
+            "F",
+            "M"
+        ], 
+        "tm_list": [
+            "Joakim Törnqvist", 
+            "Nestor Geli", 
+            "Per Ivar Hed", 
+            "Susie Päivärinta", 
+            "Tord Bäckström"
+        ]
+    }, 
+    "2014_2_6": {
+        "artist": "Sanna Nielsen", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Fredrik Kempe(tm), & David Kreuger(tm), & Hamed K-One Pirouzpanah(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Fredrik Kempe", 
+            "David Kreuger", 
+            "Hamed K-One Pirouzpanah"
+        ]
+    }, 
+    "2014_2_7": {
+        "artist": "Little Great Things", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Charlie Grönvall(tm), & Cristoffer Wernqvist(tm), & Felix Grönvall(tm), & Adam Dahlström(tm)", 
+        "tm_genders": [
+            "M",
+            "M",
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Charlie Grönvall", 
+            "Cristoffer Wernqvist", 
+            "Felix Grönvall", 
+            "Adam Dahlström"
+        ]
+    }, 
+    "2014_2_8": {
+        "artist": "Martin Stenmarck", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Andreas Öhrn(tm), & Alexander Bard(tm), & Martin Stenmarck(tm), & Peter Boström(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Andreas Öhrn", 
+            "Alexander Bard", 
+            "Martin Stenmarck", 
+            "Peter Boström"
+        ]
+    }, 
+    "2014_3_1": {
+        "artist": "Outtrigger", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Linnea Deb(tm), & Joy Deb(tm), & Anton Malmberg Hård af Segerstad(tm), & John Löfgren(tm), & Simon Peyron(tm), & Timmy Andersson(tm), & Joakim Agnemyr(tm), & Adam Axelsson(tm)", 
+        "tm_genders": [
+            "F", 
+            "F", 
+            "M", 
+            "M", 
+            "M", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Linnea Deb", 
+            "Joy Deb", 
+            "Anton Malmberg Hård af Segerstad", 
+            "John Löfgren", 
+            "Simon Peyron", 
+            "Timmy Andersson", 
+            "Joakim Agnemyr", 
+            "Adam Axelsson"
+        ]
+    }, 
+    "2014_3_2": {
+        "artist": "Eko", 
+        "artist_gender": [
+            "F",
+            "M",
+            "M"
+        ], 
+        "tm": "Linnea Deb(tm), & Joy Deb(tm), & Anna Lidman(tm), & Hannes Lundberg(tm), & Michael Ottosson(tm)", 
+        "tm_genders": [
+            "F", 
+            "F", 
+            "F", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Linnea Deb", 
+            "Joy Deb", 
+            "Anna Lidman", 
+            "Hannes Lundberg", 
+            "Michael Ottosson"
+        ]
+    }, 
+    "2014_3_3": {
+        "artist": "Oscar Zia", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Fredrik Kempe(tm), & David Kreuger(tm), & Hamed K-One Pirouzpanah(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Fredrik Kempe", 
+            "David Kreuger", 
+            "Hamed K-One Pirouzpanah"
+        ]
+    }, 
+    "2014_3_4": {
+        "artist": "Shirley Clamp", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Bobby Ljunggren(tm), & Marcos Ubeda(tm), & Sharon Vaughn(tm), & Henrik Wikström(tm)", 
+        "tm_genders": [
+            "M",
+            "M",
+            "F",
+            "M"
+        ], 
+        "tm_list": [
+            "Bobby Ljunggren", 
+            "Marcos Ubeda", 
+            "Sharon Vaughn", 
+            "Henrik Wikström"
+        ]
+    }, 
+    "2014_3_5": {
+        "artist": "State of Drama", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M",
+            "M"
+
+        ], 
+        "tm": "Göran Werner(tm), & Sanken Sandqvist(tm), & Emil Gullhamn(tm), & Sebastian Hallifax(tm)", 
+        "tm_genders": [
+            "M",
+            "M",
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Göran Werner", 
+            "Sanken Sandqvist", 
+            "Emil Gullhamn", 
+            "Sebastian Hallifax"
+        ]
+    }, 
+    "2014_3_6": {
+        "artist": "CajsaStina Åkerström", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Cajsa Stina Åkerström(tm)", 
+        "tm_genders": [
+            "F"
+        ], 
+        "tm_list": [
+            "Cajsa Stina Åkerström"
+        ]
+    }, 
+    "2014_3_7": {
+        "artist": "Ace Wilder", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Ace Wilder(tm), & Joy Deb(tm), & Linnea Deb(tm)", 
+        "tm_genders": [
+            "F",
+            "F", 
+            "F"
+        ], 
+        "tm_list": [
+            "Ace Wilder", 
+            "Joy Deb", 
+            "Linnea Deb"
+        ]
+    }, 
+    "2014_3_8": {
+        "artist": "Dr. Alban & Jessica Folcker", 
+        "artist_gender": [
+            "M",
+            "F"
+        ], 
+        "tm": "Dr. Alban (Alban Nwapa)(tm), & Jakke Erixson(tm), & Karl-Ola Kjellholm(tm)", 
+        "tm_genders": [
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Dr. Alban (Alban Nwapa)", 
+            "Jakke Erixson", 
+            "Karl-Ola Kjellholm"
+        ]
+    }, 
+    "2014_4_1": {
+        "artist": "Alcazar", 
+        "artist_gender": [
+            "F",
+            "F",
+            "M",
+            "M"
+
+        ], 
+        "tm": "Fredrik Kempe(tm), & David Kreuger(tm), & Hamed K-One Pirouzpanah(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Fredrik Kempe", 
+            "David Kreuger", 
+            "Hamed K-One Pirouzpanah"
+        ]
+    }, 
+    "2014_4_2": {
+        "artist": "I.D.A", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Albin Nicklasson(tm), & Nicklas Laine(tm), & Louise Frick Sveen(tm)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "F"
+        ], 
+        "tm_list": [
+            "Albin Nicklasson", 
+            "Nicklas Laine", 
+            "Louise Frick Sveen"
+        ]
+    }, 
+    "2014_4_3": {
+        "artist": "Janet Leon", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Karl-Ola Kjellholm(tm), & Jimmy Jansson(tm), & Louise Winter(tm)", 
+        "tm_genders": [
+            "M",
+            "M", 
+            "F"
+        ], 
+        "tm_list": [
+            "Karl-Ola Kjellholm", 
+            "Jimmy Jansson", 
+            "Louise Winter"
+        ]
+    }, 
+    "2014_4_4": {
+        "artist": "Ammotrack", 
+        "artist_gender": [
+            "M",
+            "M",
+            "M",
+            "M",
+            "M"
+        ], 
+        "tm": "Jari Kujansuu(tm), & Thomas Johansson(tm), & Calle Kindbom(tm), & Mikael de Bruin(tm)", 
+        "tm_genders": [
+            "M",
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Jari Kujansuu", 
+            "Thomas Johansson", 
+            "Calle Kindbom", 
+            "Mikael de Bruin"
+        ]
+    }, 
+    "2014_4_5": {
+        "artist": "Josef Johansson", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "Peter Boström(m), & Thomas G:son(m), & Jonas Lundblad(t) & Josef Johansson(t), & Peo Thyrén(t)", 
+        "tm_genders": [
+            "M", 
+            "M", 
+            "M", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Peter Boström", 
+            "Thomas G:son", 
+            "Jonas Lundblad", 
+            "Josef Johansson", 
+            "Peo Thyrén"
+        ]
+    }, 
+    "2014_4_6": {
+        "artist": "Linda Bengtzing", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Nicke Borg(tm), & Jojo Borg Larsson(tm)", 
+        "tm_genders": [
+            "M",
+            "M"
+        ], 
+        "tm_list": [
+            "Nicke Borg", 
+            "Jojo Borg Larsson"
+        ]
+    }, 
+    "2014_4_7": {
+        "artist": "Ellinore Holmer", 
+        "artist_gender": [
+            "F"
+        ], 
+        "tm": "Ellinore Holmer(t), & Vanna Rosenberg(t), & Åsa Schmalenbach(m), & Josefina Sanner(m), & Henrik Wikström(m), & Amir Aly(m)", 
+        "tm_genders": [
+            "F", 
+            "F", 
+            "F",
+            "F", 
+            "M", 
+            "M"
+        ], 
+        "tm_list": [
+            "Ellinore Holmer", 
+            "Vanna Rosenberg", 
+            "Åsa Schmalenbach", 
+            "Josefina Sanner", 
+            "Henrik Wikström", 
+            "Amir Aly"
+        ]
+    }, 
+    "2014_4_8": {
+        "artist": "Anton Ewald", 
+        "artist_gender": [
+            "M"
+        ], 
+        "tm": "John Lundvik(tm)", 
+        "tm_genders": [
+            "M"
+        ], 
+        "tm_list": [
+            "John Lundvik"
+        ]
+    }
+}
