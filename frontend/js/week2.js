@@ -70,7 +70,8 @@ function buildTempoColChart(data) {
                     tickColor: '#000000',
                     tickInterval: 250,
 
-                    endOnTick: false
+                    endOnTick: false,
+                    isDirty: true
                 },
                 { // Förlorare
                     title: {
@@ -89,7 +90,8 @@ function buildTempoColChart(data) {
                     tickColor: '#000000',
                     tickInterval: 250,
 
-                    endOnTick: false
+                    endOnTick: false,
+                    isDirty: true
                 }],
 
             plotOptions: {
@@ -350,7 +352,8 @@ function buildLanguageColChart(data) {
                     tickColor: '#000000',
                     tickInterval: 250,
 
-                    endOnTick: false
+                    endOnTick: false,
+                    isDirty: true
                 },
                 { // Förlorare
                     title: {
@@ -369,7 +372,8 @@ function buildLanguageColChart(data) {
                     tickColor: '#000000',
                     tickInterval: 250,
 
-                    endOnTick: false
+                    endOnTick: false,
+                    isDirty: true
                 }],
 
             plotOptions: {
@@ -619,11 +623,12 @@ $('#songShowAll').click(function () {
             series2 = chart.series[0];
 
         if (!series1.visible) {
-            series1.show();
+            series1.setVisible(true, true);
         }
         if (!series2.visible) {
-            series2.show();
+            series2.setVisible(true, true);
         }
+        chart.reflow();
     }
 });
 
@@ -636,10 +641,10 @@ $('#songShowWinners').click(function () {
             series2 = chart.series[0];
 
         if (!series1.visible) {
-            series1.show();
+            series1.setVisible(true, true);
         }
         if (series2.visible) {
-            series2.hide();
+            series2.setVisible(false);
         }
     }
 });
@@ -653,10 +658,10 @@ $('#songShowLosers').click(function () {
             series2 = chart.series[0];
 
         if (series1.visible) {
-            series1.hide();
+            series1.setVisible(false);
         }
         if (!series2.visible) {
-            series2.show();
+            series2.setVisible(true, true);
         }
     }
 });
