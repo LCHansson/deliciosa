@@ -383,6 +383,10 @@ ul.nav-pills .subtitle {
     color: #ffffff;
 }
 
+#secondPost .modal-header {
+    background-color: #6e328f;
+    color: #ffffff;
+}
 
 /* Tables */
 
@@ -423,6 +427,7 @@ table.dataTable .count {
     margin-top: 2em;
 }
 
+/* First post coloring */
 #firstPost table.dataTable thead th {
     border-color: #00bbdb;
     cursor: pointer;
@@ -439,6 +444,22 @@ table.dataTable .count {
     color: #00bbdb;
 }
 
+/* Second post coloring */
+#secondPost table.dataTable thead th {
+    border-color: #6e328f;
+    cursor: pointer;
+}
+
+#secondPost table.dataTable thead th.sorting_disabled,
+#secondPost table.dataTable thead th.sorting_desc,
+#secondPost table.dataTable thead th.sorting_asc {
+    background: #6e328f;
+    color: #6e328f;
+}
+
+#secondPost table.dataTable thead th.sorting {
+    color: #6e328f;
+}
 
 /* Get data */
 

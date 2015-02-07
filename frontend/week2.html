@@ -4,153 +4,183 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="MELOKOLLEN">
-    <meta name="author" content="">
+    <meta name="description" content="En nördig djupdykning i datan bakom Melodifestivalen.">
+    <meta name="author" content="Love Hansson, Luminita Moruz, Cédric Perriard">
     <link rel="icon" href="images/favicon.ico">
 
-    <title>MELLOKOLLEN</title>
+    <meta property="og:title" content="Mellokollen">
+    <meta property="og:description" content="En nördig djupdykning i datan bakom Melodifestivalen.">
+    <meta property="og:image" content="images/mellokollen.png">
+    <meta property="og:url" content="http://www.mellokollen.se">
+
+    <title>Mellokollen</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap theme -->
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
 
-    <!-- DataTables css -->
-    <link rel="stylesheet" type="text/css" href="css/jquery.dataTables.min.css">
-
-    <!-- Custom styles for this template -->
+    <!-- Mellokollen styles -->
     <link href="fonts/leaguespartan.css" rel="stylesheet">
     <link href="css/theme.css" rel="stylesheet">
-
-    <!-- D3.js (maybe move this to bottom later -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="js/html5shiv.min.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-59172884-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
 </head>
 
 <body role="document">
 
 
 
+
+
+
 <div class="container-fluid theme-showcase" role="main">
 
 
-    <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-xs-12 col-md-8 title text-center">
-            <img src="images/header.png" alt="MELLOKOLLEN" class="img-responsive hidden-xs" style="margin-top: 3em;">
-            <img src="images/header-xs2.png" alt="MELLOKOLLEN" class="img-responsive visible-xs-block" style="margin-top: 1em;">
 
-            <p>En nördig djupdykning i datan bakom Melodifestivalen.<br>
-                Nytt avsnitt varje vecka fram till finalen.</p>
-            <div class="border"></div>
+    <header class="row">
+        <div class="col-xs-12">
+            <img class="circle"   src="images/icon_circle.svg">
+            <img class="plus1"    src="images/icon_plus.svg">
+            <img class="saw"      src="images/icon_saw.svg">
+            <img class="triangle" src="images/icon_triangle.svg">
+            <img class="plus2"    src="images/icon_plus.svg">
+            <img class="sine"     src="images/icon_sine.svg">
+
+            <h1><span class="blue">M</span><span class="cerise">e</span><span class="yellow">ll</span><span class="purple">o</span><span class="cerise">k</span><span class="blue">o</span><span class="yellow">ll</span><span class="purple">e</span><span class="cerise">n</span></h1>
+
+            <p class="intro">En nördig djupdykning i datan bakom Melodifestivalen.<br>
+            En ny analys varje vecka fram till finalen.</p>
         </div>
-        <div class="col-md-2"></div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-xs-12 col-md-8 collapse-group" data-post="1">
-            <div class="text-center">
-                <h2 class="purple">LÅTARNA</h2>
-                <h3>Hur låter en bra Mellolåt?</h3>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <p>The details are not the details. They make the fucking design. Learn from fucking criticism. Can we all just agree as the greater design community to stop fucking talking about Comic Sans altogether? It’s getting fucking old. Make your work consistent but not fucking predictable. Fuck. If you’re not being fucking honest with yourself how could you ever hope to communicate something meaningful to someone else? If you fucking give up, you will achieve nothing. Design is all about fucking relationships—the relationship of form and content, the relationship of elements, the relationship of designer and user. Design as if your fucking life depended on it.</p>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-12">
-                    <div id="songsTempo" class="barChart"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div id="songsSentiment" class="barChart"></div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-4">
-                    <p>Förlorare sjunger ledsna låtar</p>
-                    <div id="songsMode" class="smallBarChart"></div>
-                </div>
-                <div class="col-md-4">
-                    <p>Vinnare sjunger på engelska</p>
-                    <div id="songsLanguage" class="smallBarChart"></div>
-                </div>
-                <div class="col-md-4">
-                    <p>Vinnare använder fler ord</p>
-                    <div id="songsWords" class="smallBarChart"></div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-6">
-                    <p>Vinnare och förlorare sjunger i nästan exakt 3 minuter</p>
-                    <div id="songsDuration" class="barChart"></div>
-                </div>
-                <div class="col-md-6">
-                    <p>Taktart</p>
-                    <!--<div id="songsSentiment" class="barChart"></div>-->
-                </div>
-            </div>
+    </header>
 
 
-            <div class="collapse" id="firstCollapse">
-                <div class="row">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-8">
 
-                        <!-- Modal -->
-                        <div class="modal fade" id="textModalID" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                        <h4 class="modal-title" id="myModalLabel"></h4>
-                                    </div>
+    <section id="secondPost" class="row collapse-group" data-post="2">
+        <a id="latarna" name="latarna"></a>
 
-                                    <div class="modal-body">
-                                    </div>
+        <h2 class="purple">Låtarna</h2>
+        <h3>Hur låter den typiska mellolåten?</h3>
+        <p>Your rapidograph pens are fucking dried up, the x-acto blades in your bag are rusty, and your mind is dull. Stop clicking your mouse, get messy, go back to the basics and make something fucking original. Think about all the fucking possibilities. This design is fucking brilliant.</p>
 
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2">&nbsp;</div>
-                </div>
-
-                <div class="text-center">
-                    <h3>Se hur vi har räknat</h3>
-                </div>
-
-            </div>
-
-
-            <p><a class="btn" href="#" id="lasVidareID">Såhär räknade vi &raquo;</a></p>
-            <div class="border"></div>
-        </div>
-        <div class="col-md-2"></div>
-    </div>
-
-
-    <!-- template
         <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-xs-12 col-md-8"></div>
-            <div class="col-md-2"></div>
+            <div class="col-md-12">
+                <div id="songsTempo" class="barChart"></div>
+            </div>
         </div>
-    -->
+        <div class="row">
+            <div class="col-md-12">
+                <div id="songsSentiment" class="barChart"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <!--<p>Vinnare sjunger på engelska</p>-->
+                <div id="songsLanguage" class="smallBarChart"></div>
+            </div>
+            <div class="col-md-6">
+                <!--<p>Vinnare använder fler ord</p>-->
+                <div id="songsWords" class="smallBarChart"></div>
+            </div>
+        </div>
+
+        <!--<div class="tspacing">-->
+        <!--</div>-->
+
+        <div class="more text-center">
+            <a class="btn btn-default purple down read-on">Så här räknade vi</a>
+        </div>
+
+        <div id="secondCollapse" class="collapse tpadding small">
+            <p>Don’t get hung up on things that don’t fucking work. While having drinks with Tibor Kalman one night, he told me, “When you make something no one hates, no one fucking loves it.” You need to sit down and sketch more fucking ideas because stalking your ex on facebook isn’t going to get you anywhere. Practice won’t get you anywhere if you mindlessly fucking practice the same thing. Change only occurs when you work deliberately with purpose toward a goal. When you design, you have to draw on your own fucking life experiences. If it’s not something you would want to read/look at/use then why fucking bother? Paul Rand once said, “The public is more familiar with bad fucking design than good design. It is, in effect, conditioned to prefer bad design, because that is what it lives with. The new becomes threatening, the old reassuring.” You are not your fucking work. The details are not the details. They make the fucking design. Don’t worry about what other people fucking think. Don’t fucking lie to yourself. Use your fucking hands. Remember it’s called the creative process, it’s not the creative fucking moment. Sometimes it is appropriate to place various typographic elements in a fucking container.</p>
+            <p>Är du nyfiken på datan bakom Mello? Eller tycker du vi har räknat fel? Ladda ned vår databas via länken längst ned på sidan och gör en egen analys!</p>
+
+            <table id="loveWordsTable"></table>
+        </div>
+
+        <p class="social small text-center purple">
+            Dela analysen på
+            <a href="https://twitter.com/intent/tweet?text=Visste%20du%20att%20%C3%B6ver%2080%20procent%20av%20%23melfest%20handlar%20om%20k%C3%A4rlek%3F%20%23mellokollen&url=http%3A%2F%2Fwww.mellokollen.se" target="_blank">Twitter</a>
+            <a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.mellokollen.se" target="_blank">Facebook</a>
+            <a href="mailto:?subject=Har%20du%20koll%20p%C3%A5%20Mello%3F&body=Visste%20du%20att%20%C3%B6ver%2080%20procent%20av%20Mello%20handlar%20om%20k%C3%A4rlek%3F%20%0D%0Ahttp%3A%2F%2Fwww.mellokollen.se">Mail</a>
+        </p>
+
+
+        <div class="modal fade" id="songModalID" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel"></h4>
+                        <div class="modal-meta"></div>
+                    </div>
+
+
+                    <div class="modal-body">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- #firstPost end -->
+
+    <section id="thirdPost" class="row collapse-group" data-post="3">
+        <h2 class="yellow">Låtskrivarna</h2>
+        <h3>Vem jobbar med vem?</h3>
+        <p class="text-center">Kommer 20 februari</p>
+    </section> <!-- #thirdPost end -->
+
+    <section id="fourthPost" class="row collapse-group" data-post="4">
+        <h2 class="cerise">Artisterna</h2>
+        <h3>Vilka är det som står på scen?</h3>
+        <p class="text-center">Kommer 27 februari</p>
+    </section> <!-- #fourthPost end -->
+
+    <section id="fifthPost" class="row collapse-group" data-post="5">
+        <h2 class="orange">???</h2>
+        <p class="text-center">Kommer 6 mars</p>
+    </section> <!-- #fifthPost end -->
+
+    <section id="sixthPost" class="row collapse-group" data-post="6">
+        <h2><span class="purple">V</span><span class="blue">i</span><span class="cerise">n</span><span class="yellow">n</span><span class="purple">a</span><span class="blue">r</span><span class="cerise">n</span><span class="yellow">a</span></h2>
+        <h3>Vem vinner Mello?</h3>
+        <p class="text-center">Kommer 13 mars</p>
+    </section> <!-- #sixthPost end -->
+
+
+    <section id="getData" class="row">
+        <a href="https://github.com/LCHansson/mellodata" target="_blank"><img src="images/icon_file.svg"></a>
+        <h3>Ladda ner datan</h3>
+        <p>Självklart har vi gjort datan bakom det här öppen för alla att använda.<br>
+        <a href="https://github.com/LCHansson/mellodata" target="_blank" class="cerise">Ladda ner datan på Github.</a></p>
+    </section> <!-- #getData end -->
+
+    <footer class="row">
+        <p class="small">
+            <a href="mailto:mail@mellokollen.se">Mellokollen</a> har skapats av
+            <a href="http://lchansson.com/" target="_blank">Love Hansson</a>, <a href="mailto:lumi.moruz@gmail.com">Luminita Moruz</a> och <a href="mailto:c@perriard.se">Cédric Perriard</a>.
+            Design av <a href="http://www.hisekaldma.com/">Jonathan Hise Kaldma</a>. <br>
+            Vi &lt;3 data och vad man kan göra med den. Dela gärna om du också gör det.
+        </p>
+    </footer>
 
 </div> <!-- /container -->
 
@@ -166,8 +196,10 @@
 <script src="js/highcharts.js"> </script>
 <script src="js/exporting.js"> </script>
 <script src="js/pattern-fill.js"> </script>
+<script src="js/jquery.dataTables.min.js"></script>
 
-<!--<script src="js/main.js"> </script>-->
+<script src="js/week1.js"> </script>
 <script src="js/week2.js"> </script>
+<script src="js/main.js"> </script>
 </body>
 </html>

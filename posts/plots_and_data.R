@@ -223,11 +223,41 @@ json <- jsonlite::toJSON(
         filter(winner == 0) %>% 
         group_by(language) %>%
         dplyr::summarise(losers = length(language))
-    ),
+    ) %>% 
+    mutate(language = ifelse(language == "english", "Engelska", "Svenska")),
   pretty = TRUE
 )
 
 cat(json, file = "frontend/data/songs_language.json")
+
+# Sentiment
+json <- jsonlite::toJSON(
+  data_frame(words = seq(45, 270, 5)) %>% 
+    left_join(
+      wl %>%
+        filter(winner == 1) %>% 
+        mutate(words = unique_words %/% 5 * 5) %>%
+        group_by(words) %>%
+        dplyr::summarise(winners = length(words))
+    ) %>% 
+    left_join(
+      wl %>%
+        filter(winner == 0) %>% 
+        mutate(words = unique_words %/% 5 * 5) %>%
+        group_by(words) %>%
+        dplyr::summarise(losers = length(words))
+    ) %>% 
+    mutate(
+      winners = ifelse(is.na(winners), 0, winners),
+      losers = ifelse(is.na(losers), 0, losers)
+    )
+  ,
+  pretty = TRUE
+)
+
+cat(json, file = "frontend/data/songs_words.json")
+
+
 
 
 
