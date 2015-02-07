@@ -269,4 +269,5 @@ if __name__ == '__main__':
 
 
     get_tm_centric_data(all_data, part_data, post1_data, outf="data-for-plots/tm_data_10_most_prolific.json", n=10)
+    get_tm_centric_data(all_data, part_data, post1_data, outf="data-for-plots/tm_all_data.json", n=None)
 
