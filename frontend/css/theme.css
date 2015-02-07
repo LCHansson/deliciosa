@@ -5,11 +5,13 @@
 .cerise        { color: #e70074 !important; border-color: #e70074 !important; }
 .purple        { color: #6e328f !important; border-color: #6e328f !important; }
 .blue          { color: #00bbdb !important; border-color: #00bbdb !important; }
+.gray          { color: grey !important; border-color: grey !important; }
 .btn.yellow:hover, .btn.yellow:active, .btn.yellow:focus { color: #fff !important; background:   #fdba00; }
 .btn.orange:hover, .btn.orange:active, .btn.orange:focus { color: #fff !important; background:   #ed4d17; }
 .btn.cerise:hover, .btn.cerise:active, .btn.cerise:focus { color: #fff !important; background:   #e70074; }
 .btn.purple:hover, .btn.purple:active, .btn.purple:focus { color: #fff !important; background:   #6e328f; }
 .btn.blue:hover, .btn.blue:active, .btn.blue:focus       { color: #fff !important; background:   #00bbdb; }
+.btn.gray:hover, .btn.gray:active, .btn.gray:focus       { color: #fff !important; background:   gray; }
 
 
 /* Typography */
