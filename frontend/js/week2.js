@@ -30,7 +30,7 @@ function buildTempoColChart(data) {
                 text: 'Vinnare sjunger i 128 BPM'
             },
             legend: {
-                enabled: true
+                enabled: false
             },
             xAxis: {
                 min: 10,
@@ -173,7 +173,7 @@ function buildSentimentColChart(data) {
                 text: 'Vinnare sjunger gladare låtar'
             },
             legend: {
-                enabled: true
+                enabled: false
             },
             xAxis: {
                 min: 0,
@@ -313,7 +313,7 @@ function buildLanguageColChart(data) {
                 text: 'Vinnare sjunger på engelska'
             },
             legend: {
-                enabled: true
+                enabled: false
             },
             xAxis: {
                 //min: 0,
@@ -455,7 +455,7 @@ function buildWordColChart(data) {
                 text: 'Vinnare använder fler ord'
             },
             legend: {
-                enabled: true
+                enabled: false
             },
             xAxis: {
                 //min: 0,
