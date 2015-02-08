@@ -270,7 +270,7 @@ json <- jsonlite::toJSON(
   pretty = TRUE
 )
 
-cat(json, file = "frontend/data/songs_words.json")
+cat(json, file = "frontend/data/songs_wordsloudness.json")
 
 wl %>%
   filter(winner == 1) %>% 
