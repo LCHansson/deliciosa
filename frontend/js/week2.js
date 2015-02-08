@@ -793,19 +793,7 @@ window.pHNotes = [];
 function loadPolyhymnia() {
     var context = new Polyhymnia.Context({
         instruments: [
-            { name: 'Kick', samples: [{ url: 'audio/Kick.mp3' }] }/*,
-             { name: 'Snare', samples: [{ url: 'audio/Snare.mp3' }] },
-             { name: 'Hihat', samples: [{ url: 'audio/Hihat.mp3' }] },
-             {
-             name: 'Pad',
-             samples: [
-             { root: 'C', octave: 1, url: 'audio/PadC1.mp3' },
-             { root: 'C', octave: 2, url: 'audio/PadC2.mp3' },
-             { root: 'C', octave: 3, url: 'audio/PadC3.mp3' },
-             { root: 'C', octave: 4, url: 'audio/PadC4.mp3' },
-             { root: 'C', octave: 5, url: 'audio/PadC5.mp3' }
-             ]
-             }*/
+            { name: 'Kick', samples: [{ url: 'audio/Kick.mp3' }] }
         ]
     });
 
