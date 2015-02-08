@@ -180,6 +180,9 @@ function buildTempoColChart(data) {
                             },
                             mouseOut: function(){
                                 pHStop();
+                            },
+                            click: function(){
+                                pHPlay(this);
                             }
                         }
                     }
@@ -823,6 +826,7 @@ function pHAnimCallback(notes){
 
 function pHPlay( element ) {
     if ( pHNotes.length === 0 ) {
+        pHStop();
         window.pHChartElement = element;
         pHContext.setTempo( element.name );
         pHContext.setAnimCallback(pHAnimCallback);
