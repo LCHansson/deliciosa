@@ -93,6 +93,54 @@ function buildTmArtistsPiechart(data, whereToRender, titleText, subtitleText) {
 }
 
 function buildTmTable() {
+    $('#tmModalID').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget); // Button that triggered the modal
+        var filename = "data/tm/" + button.attr('id') + ".json";
+        var modal = $(this);
+        modal.find('.modal-title').html("");
+        modal.find('.modal-body').html(button.attr('id'));
+        modal.find('.modal-meta').html("");
+
+        /*
+
+         var button = $(event.relatedTarget); // Button that triggered the modal
+         var filename = "data/lyrics/" + button.attr('id') + "_lyrics.json";
+         var modal = $(this);
+
+
+
+         window.location.hash = "textmodal";
+         window.onhashchange = function() {
+         if (!location.hash){
+         modal.modal('hide');
+         }
+         }
+
+
+
+         $.ajax({
+         async: false,
+         type: "GET",
+         url: filename,
+         dataType: "json",
+         success: function(response) {
+         var text = formatSongTexts(response.lyrics, loveWords);
+
+
+         modal.find('.modal-title').html(response.song_name);
+         modal.find('.modal-body').html(text);
+         var meta = "Kärleksord i blått.<br>" +
+         "Antal kärleksord: " + response.no_love_words +"<br>" +
+         "Glädjepoäng: " + response.happy_score;
+         modal.find('.modal-meta').html(meta);
+         //window.location.hash = "text";
+         return false;
+         },
+         error: function(jqXHR, textStatus, errorThrown) {
+         console.log("Error!" + textStatus   );
+         return true;
+         }*/
+    });
 
     // the table
     var mytmTable = $('#tmTable').DataTable({
@@ -116,14 +164,13 @@ function buildTmTable() {
                 aTargets: [0],
                 bSortable: true,
                 sTitle: "Låtskrivare",
-                searchable: true
-                /*
-                "mRender": function (songName, type, row) {
-                    var link = '<a href="" data-toggle="modal" data-target="#textModalID" '
-                    link += 'data-hl-lovewords="true" id="' + row[3] + '">';
-                    link += songName + '</a>';
+                searchable: true,
+                "mRender": function (tm, type, row) {
+                    var link = '<a href="" data-toggle="modal" data-target="#tmModalID" ';
+                    link += 'id="' + row[6] + '">';
+                    link += tm + '</a>';
                     return link;
-                }*/
+                }
             },
             {
                 sClass: "count",
@@ -299,14 +346,21 @@ function buildScatterPlot(data) {
 
 
     $('#tmMFDiff').highcharts({
+        chart: {
+            type: 'area'
+        },
+        plotOptions: {
+            area: {
+                stacking: 'percent'
+            }
+        },
         exporting: {
             enabled: false
         },
         credits: {
             enabled: false
         },
-        plotOptions: {
-        },
+
         title: {
             text: 'Antal låtar skrivna av endast kvinnor, mixt grupp och endast män 2002-2014',
             x: -20 //center
@@ -345,31 +399,34 @@ function buildScatterPlot(data) {
             borderWidth: 0
 
         },
-        series: [{
+        series: [
+            {
+                color: '#000000',
+                name: 'Kvinnor',
+                data: s2,
+                marker: {
+                    symbol: "circle",
+                    radius: 0
+                }
+            },
+            {
+                color: '#808080',
+                name: 'Mixt',
+                data: s3,
+                marker: {
+                    symbol: "circle",
+                    radius: 0
+                }
+            },
+            {
             color: '#fdba00',
             name: 'Män',
             data: s1,
             marker: {
                 symbol: "circle",
-                radius: 6
+                radius: 0
             },
             enableMouseTracking: true
-        }, {
-            color: '#808080',
-            name: 'Mixt',
-            data: s3,
-            marker: {
-                symbol: "circle",
-                radius: 6
-            }
-        }, {
-            color: '#000000',
-            name: 'Kvinnor',
-            data: s2,
-            marker: {
-                symbol: "circle",
-                radius: 6
-            }
         }]
     });
 }
