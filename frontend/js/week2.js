@@ -84,6 +84,9 @@ function buildTempoColChart(data) {
                             },
                             mouseOut: function(){
                                 pHStop();
+                            },
+                            click: function(){
+                                pHStop();
                             }
                         }
                     }
