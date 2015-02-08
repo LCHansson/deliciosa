@@ -90,8 +90,8 @@ def write_data_to_json(data, filename):
     json.dump(data, obj, indent=4, sort_keys=True, encoding="utf-8", ensure_ascii=False)
     obj.close()
 
-def write_data_table(tm_var_data, outf, variables=["name", "number_songs", "in_final_songs_perc",
-                                                   "winning_songs_perc", "tm_id"]):
+def write_data_table(tm_var_data, outf, variables=["name", "number_songs", "in_final_songs",
+                                                   "winning_songs", "in_final_songs_perc", "winning_songs_perc", "tm_id"]):
     # write a data table with the required variables in the given order
     data = []
     for tm in tm_var_data:
@@ -113,7 +113,7 @@ if __name__ == '__main__':
     # write the data needed for the data table
     write_data_table(tm_var_data, outf="/Users/luminitamoruz/work/deliciosa/posts/tm/data-for-plots/tm_10_heroes.json")
 
-    # TODO: generate staistics for all the song writers
+    # TODO: generate statistics for all the song writers
 
     # TODO: write the jsons for the modal
 
