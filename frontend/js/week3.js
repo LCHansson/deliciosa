@@ -6,7 +6,7 @@ function buildTmArtistsPiechart(data, whereToRender, titleText, subtitleText) {
 
     var formattedData = [];
     var colPat = {
-        pattern: 'images/pattern-blue.png',
+        pattern: 'images/pattern-yellow.png',
         width: 5,
         height: 5
     };
@@ -372,8 +372,6 @@ function buildScatterPlot(data) {
             }
         }]
     });
-    console.log(s1)
-    console.log(s2)
 }
 
 
