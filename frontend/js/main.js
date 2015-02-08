@@ -22,6 +22,7 @@ $(function () {
     });
 
     week1();
+    week2();
 
     window.fbShare = function(){
         FB.ui(
