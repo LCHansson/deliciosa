@@ -51,7 +51,8 @@ def calculate_variables(data):
             print "WARNING 2", tm
 
 
-        d = {'name': tm["tm"].encode('utf-8'),
+        d = {'tm_id': tm["tm_id"],
+             'name': tm["tm"].encode('utf-8'),
              'number_songs': len(songs),
              'in_final_songs': nsongs_final,
              'in_final_songs_perc': float(nsongs_final)/len(songs)*100,
@@ -84,13 +85,39 @@ def print_data_per_var(data):
         for x in data:
             print "TM:", x["name"], ", Number of songs: ", x["number_songs"], ", ", k, ": ", x[k]
 
+def write_data_to_json(data, filename):
+    obj = open(filename, "w")
+    json.dump(data, obj, indent=4, sort_keys=True, encoding="utf-8", ensure_ascii=False)
+    obj.close()
+
+def write_data_table(tm_var_data, outf, variables=["name", "number_songs", "in_final_songs_perc",
+                                                   "winning_songs_perc", "tm_id"]):
+    # write a data table with the required variables in the given order
+    data = []
+    for tm in tm_var_data:
+        l = [tm[v] for v in variables]
+        data.append(l)
+    dt = {"data": data}
+    write_data_to_json(dt, outf)
+
+
 if __name__ == '__main__':
     data = json.load(open("/Users/luminitamoruz/work/deliciosa/posts/tm/data-for-plots/tm_data_10_most_prolific.json"),
                          encoding="utf-8")
-
+    # calculate all sort of interesting variables
     tm_var_data = calculate_variables(data)
 
+    # print some stats to be able to choose the interesting variables
     print_data_per_var(tm_var_data)
+
+    # write the data needed for the data table
+    write_data_table(tm_var_data, outf="/Users/luminitamoruz/work/deliciosa/posts/tm/data-for-plots/tm_10_heroes.json")
+
+    # TODO: generate staistics for all the song writers
+
+    # TODO: write the jsons for the modal
+
+
     """
     obj = open("plot2_temp.json", "w")
     json.dump(tm_var_data, obj, indent=4, sort_keys=True, encoding="utf-8", ensure_ascii=False)

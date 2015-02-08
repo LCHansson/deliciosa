@@ -52,9 +52,9 @@ def get_artists_gender_balance(all_data, outf):
                     nmale, float(nmale)/t*100, nboth, float(nboth)/t*100, nfemale, float(nfemale)/t*100)
 
     print "---------------------"
-    data = [{'categ_name': 'män', 'val': nmale},
-            {'categ_name': 'båda', 'val': nboth},
-            {'categ_name': 'kvinnor', 'val': nfemale}]
+    data = [{'categ_name': 'Män', 'val': nmale},
+            {'categ_name': 'Mix', 'val': nboth},
+            {'categ_name': 'Kvinnor', 'val': nfemale}]
     obj = open(outf, "w")
     json.dump(data, obj, indent=4, sort_keys=True, encoding="utf-8", ensure_ascii=False)
     obj.close()
@@ -91,9 +91,9 @@ def get_tm_gender_balance(all_data, outf):
     print "Total songs: {}, (Only) male: {} = {}%, (Only) female: {} = {}%, mixed: {} = {}%".format(
         len(all_data), nmale, float(nmale)/t*100, nfemale, float(nfemale)/t*100, nboth, float(nboth)/t*100)
     print "---------------------"
-    data = [{'categ_name': 'män', 'val': nmale},
-            {'categ_name': 'båda', 'val': nboth},
-            {'categ_name': 'kvinnor', 'val': nfemale}]
+    data = [{'categ_name': 'Män', 'val': nmale},
+            {'categ_name': 'Mix', 'val': nboth},
+            {'categ_name': 'Kvinnor', 'val': nfemale}]
     obj = open(outf, "w")
     json.dump(data, obj, indent=4, sort_keys=True, encoding="utf-8", ensure_ascii=False)
     obj.close()
@@ -229,7 +229,10 @@ def get_tm_centric_data(all_data, all_participants_data, texts_data, outf, n=Non
         data = data[0:n]
     ret = []
     for tm, song_list in data:
-        ret.append({'tm': tm.encode('utf-8'), 'songs': song_list})
+        song_list.sort(key=lambda s: s["year"])
+        ret.append({'tm_id': "tm_" + song_list[0]["song_id"],
+                    'tm': tm.encode('utf-8'),
+                    'songs': song_list})
 
     obj = open(outf, "w")
     json.dump(ret, obj, indent=4, sort_keys=True, encoding="utf-8", ensure_ascii=False)
@@ -257,8 +260,8 @@ if __name__ == '__main__':
     all_data = json.load(open("/Users/luminitamoruz/work/deliciosa/posts/tm/data/all_participants_data_2002_2014_gender_curated.json"), encoding="utf-8")
 
     # plot 1
-    get_tm_gender_balance(all_data, outf="data-for-plots/tm_gender_imbalance.json")
-    get_artists_gender_balance(all_data, outf="data-for-plots/artists_gender_imbalance.json")
+    get_tm_gender_balance(all_data, outf="data-for-plots/tm_tm_gender_imbalance.json")
+    get_artists_gender_balance(all_data, outf="data-for-plots/tm_artists_gender_imbalance.json")
 
     # plot 2
     get_tm_frequency(all_data)
