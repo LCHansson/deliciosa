@@ -161,24 +161,26 @@ cat(json, file = "frontend/data/texterna_allcounts.json")
 ## Låtarna ---- 
 # Tempo
 json <- jsonlite::toJSON(
-  data_frame(tempo = seq(76, 194, 2)) %>% 
+  list(
+    tempos = data_frame(tempo = seq(75, 195, 5)) %>% 
     left_join(
       wl %>% 
         filter(winner == 1) %>% 
-        mutate(tempo = round(echonest_tempo) %/% 2 * 2) %>%
+        mutate(tempo = round(echonest_tempo) %/% 5 * 5) %>%
         group_by(tempo) %>%
         dplyr::summarise(winners = length(tempo))
     ) %>%
     left_join(
       wl %>% 
         filter(winner == 0) %>% 
-        mutate(tempo = round(echonest_tempo) %/% 2 * 2) %>%
+        mutate(tempo = round(echonest_tempo) %/% 5 * 5) %>%
         group_by(tempo) %>%
         dplyr::summarise(losers = length(tempo))
     ) %>%
     mutate(
       winners = ifelse(is.na(winners), 0, winners),
       losers = ifelse(is.na(losers), 0, losers)
+    )
     ),
   pretty = TRUE
 )
@@ -187,18 +189,18 @@ cat(json, file = "frontend/data/songs_tempo.json")
 
 # Sentiment
 json <- jsonlite::toJSON(
-  data_frame(sentiment = seq(-60, 145, 5)) %>% 
+  data_frame(sentiment = seq(-80, 120, 10)) %>% 
     left_join(
       wl %>%
         filter(winner == 1) %>% 
-        mutate(sentiment = sent_score %/% 5 * 5) %>%
+        mutate(sentiment = sent_score %/% 10 * 10) %>%
         group_by(sentiment) %>%
         dplyr::summarise(winners = length(sentiment))
       ) %>% 
     left_join(
       wl %>%
         filter(winner == 0) %>% 
-        mutate(sentiment = sent_score %/% 5 * 5) %>%
+        mutate(sentiment = sent_score %/% 10 * 10) %>%
         group_by(sentiment) %>%
         dplyr::summarise(losers = length(sentiment))
     ) %>% 
@@ -230,20 +232,22 @@ json <- jsonlite::toJSON(
 
 cat(json, file = "frontend/data/songs_language.json")
 
-# Sentiment
+# Word counts
 json <- jsonlite::toJSON(
   data_frame(words = seq(45, 270, 5)) %>% 
     left_join(
       wl %>%
         filter(winner == 1) %>% 
-        mutate(words = unique_words %/% 5 * 5) %>%
+        mutate(unique_words = unique_words %/% 5 * 5,
+               total_words = total_words %/% 5 * 5) %>%
         group_by(words) %>%
         dplyr::summarise(winners = length(words))
     ) %>% 
     left_join(
       wl %>%
         filter(winner == 0) %>% 
-        mutate(words = unique_words %/% 5 * 5) %>%
+        mutate(unique_words = unique_words %/% 5 * 5,
+               total_words = total_words %/% 5 * 5) %>%
         group_by(words) %>%
         dplyr::summarise(losers = length(words))
     ) %>% 
@@ -257,7 +261,33 @@ json <- jsonlite::toJSON(
 
 cat(json, file = "frontend/data/songs_words.json")
 
+json <- jsonlite::toJSON(
+  list(
+    categories = c("Förlorare", "Vinnare") %>% rev(),
+    unique_mean = (wl %>% group_by(winner) %>% summarise(m = mean(unique_words)))[['m']] %>% rev(),
+    loudness_mean = (wl %>% group_by(winner) %>% summarise(l = mean(echonest_loudness)))[['l']] %>% rev()
+  ),
+  pretty = TRUE
+)
 
+cat(json, file = "frontend/data/songs_words.json")
+
+wl %>%
+  filter(winner == 1) %>% 
+  group_by(language) %>%
+  dplyr::summarise(winners = length(language)) %>% 
+  left_join(
+    wl %>%
+      filter(winner == 0) %>% 
+      group_by(language) %>%
+      dplyr::summarise(losers = length(language))
+  ) %>% 
+  mutate(language = ifelse(language == "english", "Engelska", "Svenska"))
+
+
+
+  
+  
 
 
 

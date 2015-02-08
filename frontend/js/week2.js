@@ -399,10 +399,10 @@ function buildLanguageColChart(data) {
                 height: 250
             },
             title: {
-                text: 'Vinnare sjunger på engelska'
+                text: ''
             },
             subtitle: {
-                text: "Men hälften av förlorarna sjunger på svenska"
+                text: "Vinnare sjunger på engelska, förlorare blandar och ger"
             },
             legend: {
                 enabled: false
@@ -511,23 +511,6 @@ function buildLanguageColChart(data) {
 }
 
 function buildWordColChart(data) {
-    var winnerData = [];
-    var loserData = [];
-    var categories = [];
-
-    for (var i=0; i<data.length; ++i) {
-        winnerData.push({
-            name: data[i].words,
-            y: data[i].winners
-        });
-        loserData.push({
-            name: data[i].words,
-            y: data[i].losers
-        });
-        categories.push(data[i].words)
-    }
-    //console.log(winnerData);
-
     var barChart = new Highcharts.Chart(
         {
             exporting: {
@@ -539,89 +522,47 @@ function buildWordColChart(data) {
                 height: 250
             },
             title: {
-                text: 'Vinnare använder fler ord'
+                text: ''
             },
             subtitle: {
-                text: ""
+                text: "Vinnarlåtarna är 20% mer högljudda"
             },
             legend: {
                 enabled: false
             },
             xAxis: {
-                //min: 0,
-                max: 30,
-                categories: categories,
+                categories: data.categories,
                 title: {
                     text: null
                 },
                 gridLineWidth: 0.0,
                 labels: {
-                    formatter: function() {
-                        return this.value % 4 == 0 ? this.value : "";
-
-                    }
-                },
-                labels: {
-                    enabled: false
+                    enabled: true
                 },
                 tickLength: 0,
                 tickWidth: 0,
                 lineWidth: 0
             },
-            yAxis: [
-                { // Vinnare
-                    min: 0,
-                    //max: 11,
-                    title: {
-                        text: null
-                    },
-                    labels: {
-                        //    overflow: 'justify',
-                        enabled: false,
-                    },
-                    gridLineWidth: 0.0,
-                    tickLength: 5,
-                    tickWidth: 0,
-                    tickColor: '#000000',
-                    tickInterval: 250,
-
-                    endOnTick: false
+            yAxis: {
+                title: {
+                    text: null
                 },
-                { // Förlorare
-                    title: {
-                        text: null
-                    },
-                    min: 0,
-                    //max: 9,
-                    opposite: true,
-                    enabled: false,
-                    labels: {
-                        enabled: false,
-                    },
-                    gridLineWidth: 0.0,
-                    tickLength: 5,
-                    tickWidth: 0,
-                    tickColor: '#000000',
-                    tickInterval: 250,
+                labels: {
+                    enabled: false
+                },
+                gridLineWidth: 0.0,
+                tickLength: 5,
+                tickWidth: 0,
+                tickColor: '#000000',
+                tickInterval: 250,
 
-                    endOnTick: false
-                }],
-
+                endOnTick: false
+            },
             plotOptions: {
                 column: {
-                    //groupPadding: 0,
                     pointPadding: 0
-                    //dataLabels: {
-                    //
-                    //    enabled: true,
-                    //    formatter: function() {
-                    //        return this.point.name;
-                    //    }
-                    //},
-                    //borderWidth: 7
                 }
             },
-
             tooltip: {
                 pointFormat: '<b>{point.y}</b>'
             },
@@ -631,25 +572,91 @@ function buildWordColChart(data) {
             },
             series: [
                 {
-                    color: '#6e328f',
-                    data: winnerData,
+                    color: 'grey',
+                    data: [0, data.loudness_mean[1]],
                     grouping: false,
-                    name: "Vinnare",
-                    index: 2,
-                    legendIndex: 1,
-                    yAxis: 0
+                    name: ""
                 },
                 {
+                    color: '#6e328f',
+                    data: [data.loudness_mean[0], 0],
                     grouping: false,
-                    color: "grey",
-                    data: loserData,
-                    pointPlacement: 0.3,
-                    name : "Förlorare",
-                    index: 1,
-                    legendIndex: 2,
-                    yAxis: 1
+                    name: ""
+                }]
+        }
+    );
+    var barChart = new Highcharts.Chart(
+        {
+            exporting: {
+                enabled: false
+            },
+            chart: {
+                renderTo: 'songsUniqueWords',
+                type: 'column',
+                height: 250
+            },
+            title: {
+                text: ''
+            },
+            subtitle: {
+                text: "Vinnare har 13% större ordförråd än förlorare"
+            },
+            legend: {
+                enabled: false
+            },
+            xAxis: {
+                categories: data.categories,
+                title: {
+                    text: null
+                },
+                gridLineWidth: 0.0,
+                labels: {
+                    enabled: true
+                },
+                tickLength: 0,
+                tickWidth: 0,
+                lineWidth: 0
+            },
+            yAxis: {
+                title: {
+                    text: null
+                },
+                labels: {
+                    enabled: false
+                },
+                gridLineWidth: 0.0,
+                tickLength: 5,
+                tickWidth: 0,
+                tickColor: '#000000',
+                tickInterval: 250,
+
+                endOnTick: false
+            },
+            plotOptions: {
+                column: {
+                    pointPadding: 0
                 }
-            ]
+            },
+            tooltip: {
+                pointFormat: '<b>{point.y}</b>'
+            },
+
+            credits: {
+                enabled: false
+            },
+            series: [
+                {
+                    color: 'grey',
+                    data: [0, data.unique_mean[1]],
+                    grouping: false,
+                    name: ""
+                },
+                {
+                    color: '#6e328f',
+                    data: [data.unique_mean[0], 0],
+                    grouping: false,
+                    name: ""
+                }]
         }
     );
 }
@@ -693,7 +700,7 @@ function week2() {
 
     $.ajax({
         type: "POST",
-        url: "./data/songs_words.json",
+        url: "./data/songs_wordsloudness.json",
         dataType: "json",
         success: function(response) {
             buildWordColChart(response);
