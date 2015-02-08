@@ -539,3 +539,7 @@ table.dataTable .count {
 .dataTables_wrapper .dataTables_paginate .paginate_button.current {
     text-decoration: underline !important;
 }
+
+.toggle-bar {
+    text-align: center;
+}
