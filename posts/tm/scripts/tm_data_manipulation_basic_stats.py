@@ -3,6 +3,9 @@ __author__ = 'luminitamoruz'
 
 import json
 
+from numpy import arange,array,ones,linalg
+from pylab import plot, show
+
 
 ########### PLOT 1
 def get_artists_gender_balance(all_data, outf):
@@ -97,6 +100,134 @@ def get_tm_gender_balance(all_data, outf):
     obj = open(outf, "w")
     json.dump(data, obj, indent=4, sort_keys=True, encoding="utf-8", ensure_ascii=False)
     obj.close()
+
+
+
+# def get_tm_gender_balance_per_year(all_data, outf):
+#     """
+#     Divide in 3 groups
+#     """
+#     years = {}
+#     for year in range(2002, 2015):
+#         years[year] = {}
+#         for c in ["f", "m", "b"]:
+#             years[year][c] = 0
+#
+#     for k, d in all_data.iteritems():
+#         year = int(k.split("_")[0])
+#
+#         f = len([x for x in d["tm_genders"] if x == "F"])
+#         m = len([x for x in d["tm_genders"] if x == "M"])
+#         if f > 0:
+#             if m > 0:
+#                 years[year]["b"] += 1
+#             elif len(d["tm_genders"]) == f:
+#                 years[year]["f"] += 1
+#             else:
+#                 print "WARNING 1 FOR ", d, "\n"
+#         elif m > 0:
+#             if len(d["tm_genders"]) == m:
+#                 years[year]["m"] += 1
+#             else:
+#                 print "WARNING 2 FOR ", d, "\n"
+#         else:
+#                 print "WARNING 3 FOR ", d, "\n"
+#
+#
+#     print "\n--------- Text music stats per year): "
+#     data_series_1 = []
+#     for year, d in years.iteritems():
+#         f = d["f"]
+#         m = d["m"]
+#         b = d["b"]
+#         data_series_1.append({"categ": year, "val": m-f})
+#         t = (f + m + b)
+#         print "Year: ", year, ",total: ", t, ", female={}/{}%, male={}/{}%, both={}/{}%".format(f, float(f)/t*100,
+#                                                                                  m, float(m)/t*100,
+#                                                                                  b, float(b)/t*100
+#                                                                                  )
+#
+#     """
+#     obj = open(outf, "w")
+#     json.dump(data, obj, indent=4, sort_keys=True, encoding="utf-8", ensure_ascii=False)
+#     obj.close()
+#     """
+#     its = years.items()
+#     its.sort(key=lambda p: p[0])
+#
+#     xi = array([i[0] for i in its])
+#     y = [i[1]["m"] - i[1]["f"] for i in its]
+#     A = array([ xi, ones(len(years))])
+#     w = linalg.lstsq(A.T,y)[0] # obtaining the parameters
+#
+#     data_series_2 = [{"categ": 2002, "val": w[0]*2002+w[1]},
+#                      {"categ": 2014, "val": w[0]*2014+w[1]}]
+#     print "Estimated year for equality: ", -w[1]/w[0]
+#
+#     res = [data_series_1, data_series_2]
+#     write_data_to_json(res, outf)
+#
+#     # plotting the line
+#     """
+#     print w
+#     line = w[0]*xi+w[1] # regression line
+#     plot(xi, line,'r-',xi,y,'o')
+#     plot([2045], [0],'ro')
+#
+#     show()
+#     """
+
+def get_tm_gender_balance_per_year(all_data, outf):
+    """
+    Divide in 3 groups
+    """
+    years = {}
+    for year in range(2002, 2015):
+        years[year] = {}
+        for c in ["f", "m", "b"]:
+            years[year][c] = 0
+
+    for k, d in all_data.iteritems():
+        year = int(k.split("_")[0])
+
+        f = len([x for x in d["tm_genders"] if x == "F"])
+        m = len([x for x in d["tm_genders"] if x == "M"])
+        if f > 0:
+            if m > 0:
+                years[year]["b"] += 1
+            elif len(d["tm_genders"]) == f:
+                years[year]["f"] += 1
+            else:
+                print "WARNING 1 FOR ", d, "\n"
+        elif m > 0:
+            if len(d["tm_genders"]) == m:
+                years[year]["m"] += 1
+            else:
+                print "WARNING 2 FOR ", d, "\n"
+        else:
+                print "WARNING 3 FOR ", d, "\n"
+
+
+    print "\n--------- Text music stats per year): "
+    data_series_1 = []
+    data_series_2 = []
+    data_series_3 = []
+    for year, d in years.iteritems():
+        f = d["f"]
+        m = d["m"]
+        b = d["b"]
+        t = (f + m + b)
+        data_series_1.append({"categ": year, "val": float(m)/t*100})
+        data_series_2.append({"categ": year, "val": float(f)/t*100})
+        data_series_3.append({"categ": year, "val": float(b)/t*100})
+
+        print "Year: ", year, ",total: ", t, ", female={}/{}%, male={}/{}%, both={}/{}%".format(f, float(f)/t*100,
+                                                                                 m, float(m)/t*100,
+                                                                                 b, float(b)/t*100
+                                                                                 )
+
+    res = [data_series_1, data_series_2, data_series_3]
+    write_data_to_json(res, outf)
 
 
 # def get_tm_gender_balance(all_data):
@@ -255,10 +386,16 @@ def get_texterna_dict(data):
         d[l[3]] = {'love': l[1], 'happy': l[2]}
     return d
 
+def write_data_to_json(data, filename):
+    obj = open(filename, "w")
+    json.dump(data, obj, indent=4, sort_keys=True, encoding="utf-8", ensure_ascii=False)
+    obj.close()
 
 if __name__ == '__main__':
     all_data = json.load(open("/Users/luminitamoruz/work/deliciosa/posts/tm/data/all_participants_data_2002_2014_gender_curated.json"), encoding="utf-8")
 
+    get_tm_gender_balance_per_year(all_data, "data-for-plots/tm_extra_mbf.json")
+    """
     # plot 1
     get_tm_gender_balance(all_data, outf="data-for-plots/tm_tm_gender_imbalance.json")
     get_artists_gender_balance(all_data, outf="data-for-plots/tm_artists_gender_imbalance.json")
@@ -273,4 +410,5 @@ if __name__ == '__main__':
 
     get_tm_centric_data(all_data, part_data, post1_data, outf="data-for-plots/tm_data_10_most_prolific.json", n=10)
     get_tm_centric_data(all_data, part_data, post1_data, outf="data-for-plots/tm_all_data.json", n=None)
+    """
 

@@ -201,21 +201,235 @@ function week3() {
 
 }
 
+/*
+function buildScatterPlot(data) {
+   var s1 = [], s2 = [];
+
+   for (var i=0; i<2; ++i) {
+       for (var j=0; j<data[i].length; ++j) {
+           if (i == 0) {
+               s1.push([data[i][j].categ, data[i][j].val]);
+           } else {
+               s2.push([data[i][j].categ, data[i][j].val]);
+           }
+       }
+   }
+
+    $('#tmMFDiff').highcharts({
+        plotOptions: {
+            series: {
+                enableMouseTracking: false
+            }
+        },
+        title: {
+            text: 'Skillnad mellan antal låtar skrivna av endast kvinnor och endast män',
+            x: -20 //center
+        },
+        subtitle: {
+            text: '2002-2014',
+            x: -20
+        },
+        //xAxis: {
+        //    categories: x1
+        //},
+        yAxis: {
+            min: 0,
+            title: {
+                text: '#mänlåtar - #kvinnolåtar'
+            },
+            plotLines: [{
+                value: 0,
+                width: 1,
+                color: '#808080'
+            }]
+        },
+        tooltip: {
+            valueSuffix: ' låtar',
+            headerFormat: '',
+            pointFormat: '{point.x}: {point.y}'
+        },
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle',
+            borderWidth: 0,
+
+        },
+        series: [{
+            color: '#fdba00 ',
+            name: 'Data mellan 2002-2014',
+            data: s1,
+            marker: {
+                radius: 6
+            },
+            enableMouseTracking: true
+        }, {
+            color: '#808080',
+            name: 'Regression line',
+            data: s2,
+            marker: {
+                enabled: false
+            }
+
+        }]
+    });
+    console.log(s1)
+    console.log(s2)
 
 
-$(function () {
-    var firstPostLoaded = false;
-    $('#lasVidareID').on('click', function(e) {
-        e.preventDefault();
-        var $this = $(this);
-        var $collapse = $this.closest('.collapse-group').find('.collapse');
-        $collapse.collapse('toggle');
-        var postNr = $this.closest('.collapse-group').attr("data-post")
-        if ( !firstPostLoaded &postNr == 1 ){
-            //week2Collapse();
-            firstPostLoaded = true;
+}
+*/
+
+function buildScatterPlot(data) {
+    var s1 = [], s2 = [], s3 = [];
+
+    for (var i=0; i<3; ++i) {
+        for (var j=0; j<data[i].length; ++j) {
+            if (i == 0) {
+                s1.push([data[i][j].categ, data[i][j].val]);
+            }
+            if (i == 1) {
+                s2.push([data[i][j].categ, data[i][j].val]);
+            }
+            if (i == 2) {
+                s3.push([data[i][j].categ, data[i][j].val]);
+            }
+        }
+    }
+
+
+    $('#tmMFDiff').highcharts({
+        exporting: {
+            enabled: false
+        },
+        credits: {
+            enabled: false
+        },
+        plotOptions: {
+        },
+        title: {
+            text: 'Antal låtar skrivna av endast kvinnor, mixt grupp och endast män 2002-2014',
+            x: -20 //center
+        },
+        subtitle: {
+            text: '',
+            x: -20
+        },
+        //xAxis: {
+        //    categories: x1
+        //},
+        yAxis: {
+            min: 0,
+            title: {
+                text: 'Andel låtar'
+            },
+            plotLines: [{
+                value: 0,
+                width: 10
+            }, {
+                value: 0,
+                width: 1
+            }, {
+                value: 0,
+                width: 1
+            }]
+        },
+        tooltip: {
+            headerFormat: '',
+            pointFormat: '{point.x}: {point.y:.0f}%'
+        },
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle',
+            borderWidth: 0
+
+        },
+        series: [{
+            color: '#fdba00',
+            name: 'Män',
+            data: s1,
+            marker: {
+                symbol: "circle",
+                radius: 6
+            },
+            enableMouseTracking: true
+        }, {
+            color: '#808080',
+            name: 'Mixt',
+            data: s3,
+            marker: {
+                symbol: "circle",
+                radius: 6
+            }
+        }, {
+            color: '#000000',
+            name: 'Kvinnor',
+            data: s2,
+            marker: {
+                symbol: "circle",
+                radius: 6
+            }
+        }]
+    });
+    console.log(s1)
+    console.log(s2)
+}
+
+
+function week3Collapse() {
+    // build the table
+    $.ajax({
+        type: "GET",
+        url: "./data/tm_extra_mbf.json",
+        dataType: "json",
+        success: function (response) {
+            buildScatterPlot(response);
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+            console.log("Error!" + textStatus);
         }
     });
 
+}
+
+$(function () {
+    var firstPostLoaded = false;
+    var thirdPostLoaded = false;
+    $('.read-on').on('click', function(e) {
+        e.preventDefault();
+        var $this = $(this);
+        var $collapse = $this.closest('.collapse-group').find('.collapse');
+        $this.toggleClass('up');
+        $this.toggleClass('down');
+        $collapse.collapse('toggle');
+
+        var postNr = $this.closest('.collapse-group').attr("data-post")
+        if (!firstPostLoaded & postNr == 1){
+            week1Collapse();
+            firstPostLoaded = true;
+        }
+        if (!thirdPostLoaded & postNr == 3){
+            week3Collapse();
+            thirdPostLoaded = true;
+        }
+    });
+
+    $( ".nav-pills" ).find( "a" ).on( "show.bs.tab", function( e ){
+        if ( window.innerWidth >= 768 ) {
+            e.preventDefault();
+        }
+    });
+
+    week1();
     week3();
+
+    window.fbShare = function(){
+        FB.ui(
+            {
+                method: 'share',
+                href: 'https://developers.facebook.com/docs/'
+            }, function(response){});
+        return false;
+    }
 });
