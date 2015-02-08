@@ -466,6 +466,23 @@ table.dataTable .count {
     color: #6e328f;
 }
 
+/* Third post coloring */
+#thirdPost table.dataTable thead th {
+    border-color: #fdba00;
+    cursor: pointer;
+}
+
+#thirdPost table.dataTable thead th.sorting_disabled,
+#thirdPost table.dataTable thead th.sorting_desc,
+#thirdPost table.dataTable thead th.sorting_asc {
+    background: #fdba00;
+    color: #ffffff;
+}
+
+#thirdPost table.dataTable thead th.sorting {
+    color: #fdba00;
+}
+
 /* Get data */
 
 #getData a {

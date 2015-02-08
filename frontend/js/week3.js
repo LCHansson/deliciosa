@@ -92,13 +92,83 @@ function buildTmArtistsPiechart(data, whereToRender, titleText, subtitleText) {
     });
 }
 
+function buildTmTable() {
+
+    // the table
+    var mytmTable = $('#tmTable').DataTable({
+        dom: 'litp',
+        pageLength: 10,
+        paging: false,
+        order: [[1, "desc"]],
+        info: false,
+        searching: false,
+        bProcessing: true,
+        lengthChange: false,
+        autoWidth: false,
+        language: {
+            loadingRecords: "Laddar ..."
+        },
+        sAjaxSource: "./data/tm_10_heroes.json",
+
+        aoColumns: [
+            {
+                sClass: "text",
+                aTargets: [0],
+                bSortable: true,
+                sTitle: "Låtskrivare",
+                searchable: true
+                /*
+                "mRender": function (songName, type, row) {
+                    var link = '<a href="" data-toggle="modal" data-target="#textModalID" '
+                    link += 'data-hl-lovewords="true" id="' + row[3] + '">';
+                    link += songName + '</a>';
+                    return link;
+                }*/
+            },
+            {
+                sClass: "count",
+                aTargets: [1],
+                bSortable: true,
+                aDataSort: [1],
+                searchable: true,
+                sTitle: "Antal låtar"
+            },
+            {
+                sClass: "count",
+                aTargets: [2],
+                bSortable: true,
+                aDataSort: [2],
+                searchable: true,
+                sTitle: "Antal låtar i finalen",
+                "mRender": function (antal, type, row) {
+                    var v = '' + antal + ' (' + row[4].toFixed(0) + '%)';
+                    return v;
+                }
+            },
+            {
+                sClass: "count",
+                aTargets: [3],
+                bSortable: true,
+                aDataSort: [3],
+                searchable: true,
+                sTitle: "Antal vinnande låtar",
+                "mRender": function (a, type, row) {
+                    var v = '' + a + ' (' + row[5].toFixed(0) + '%)';
+                    return v;
+                }
+            }
+        ]
+    });
+
+}
+
 function week3() {
     $.ajax({
         type: "GET",
         url: "./data/tm_artists_gender_imbalance.json",
         dataType: "json",
         success: function (response) {
-            buildTmArtistsPiechart(response, 'tmArtistsPieChart', 'Artisterna', 'Andel män, mixt och kvinno artister');
+            buildTmArtistsPiechart(response, 'tmArtistsPieChart', 'Artisterna', 'Andel låtar uppträdade av män, mixt och kvinno artister');
         },
         error: function (jqXHR, textStatus, errorThrown) {
             console.log("Error!" + textStatus);
@@ -110,13 +180,14 @@ function week3() {
         url: "./data/tm_tm_gender_imbalance.json",
         dataType: "json",
         success: function (response) {
-            buildTmArtistsPiechart(response, 'tmTmPieChart', 'Låtskrivarna', 'Andel män, mixt och kvinno låtskrivare');
+            buildTmArtistsPiechart(response, 'tmTmPieChart', 'Låtskrivarna', 'Andel låtar skrivna av män, mixt och kvinno låtskrivare');
         },
         error: function (jqXHR, textStatus, errorThrown) {
             console.log("Error!" + textStatus);
         }
     });
 
+    buildTmTable();
     /*
     console.log("Before");
     sigma.parsers.json('data/arctic.json', {
