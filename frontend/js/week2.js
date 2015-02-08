@@ -3,66 +3,65 @@ function buildTempoColChart(data) {
     var loserData = [];
     var categories = [];
 
-    for (var i=0; i<data.length; ++i) {
+    // Data munge
+    // Histogram
+    for (var i=0; i<data.tempos.length; ++i) {
         winnerData.push({
-            name: data[i].tempo,
-            y: data[i].winners
+            name: data.tempos[i].tempo,
+            y: data.tempos[i].winners
         });
         loserData.push({
-            name: data[i].tempo,
-            y: data[i].losers
+            name: data.tempos[i].tempo,
+            y: data.tempos[i].losers
         });
-        categories.push(data[i].tempo)
+        categories.push(data.tempos[i].tempo)
     }
-    //console.log(winnerData);
 
-    var barChart = new Highcharts.Chart(
+    // Construct charts
+    var winnerBarChart = new Highcharts.Chart(
         {
             exporting: {
                 enabled: false
             },
             chart: {
-                renderTo: 'songsTempo',
-                type: 'column',
+                renderTo: 'songsWinnersTempo',
                 height: 250
             },
             title: {
                 text: 'Vinnare sjunger i 128 BPM'
             },
+            subtitle: {
+                text: "7 av 10 vinnarlåtar har drygt två taktslag i sekunden"
+            },
             legend: {
                 enabled: false
             },
             xAxis: {
-                min: 10,
-                max: 50,
-                categories: categories,
-                title: {
-                    text: null
-                },
-                gridLineWidth: 0.0,
-                labels: {
-                    formatter: function() {
-                        return this.value % 4 == 0 ? this.value : "";
-
-                    }
-                },
-                labels: {
-                    enabled: false
-                },
-                tickLength: 0,
-                tickWidth: 0,
-                lineWidth: 0
-            },
-            yAxis: [
-                { // Vinnare
                     min: 0,
-                    max: 11,
+                    max: 23,
+                    categories: categories,
+                    title: {
+                        text: null
+                    },
+                    gridLineWidth: 0.0,
+                    labels: {
+                        formatter: function() {
+                            return this.value % 20 == 0 ? this.value : "";
+                        },
+                        enabled: true
+                    },
+                    tickLength: 0,
+                    tickWidth: 0,
+                    lineWidth: 0
+                },
+            yAxis: {
+                    min: 0,
+                    max: 17,
                     title: {
                         text: null
                     },
                     labels: {
-                        //    overflow: 'justify',
-                        enabled: false,
+                        enabled: false
                     },
                     gridLineWidth: 0.0,
                     tickLength: 5,
@@ -73,46 +72,21 @@ function buildTempoColChart(data) {
                     endOnTick: false,
                     isDirty: true
                 },
-                { // Förlorare
-                    title: {
-                        text: null
-                    },
-                    min: 0,
-                    max: 9,
-                    opposite: true,
-                    enabled: false,
-                    labels: {
-                        enabled: false,
-                    },
-                    gridLineWidth: 0.0,
-                    tickLength: 5,
-                    tickWidth: 0,
-                    tickColor: '#000000',
-                    tickInterval: 250,
-
-                    endOnTick: false,
-                    isDirty: true
-                }],
-
             plotOptions: {
                 column: {
-                    //groupPadding: 0,
-                    pointPadding: 0
-                    //dataLabels: {
-                    //
-                    //    enabled: true,
-                    //    formatter: function() {
-                    //        return this.point.name;
-                    //    }
-                    //},
-                    //borderWidth: 7
+                    pointPadding: 0,
+                    fillOpacity: 0.9
+                },
+                areaspline: {
+                    fillOpacity: 0.4,
+                    marker: {
+                        enabled: false
+                    }
                 }
             },
-
             tooltip: {
                 pointFormat: '<b>{point.y}</b>'
             },
-
             credits: {
                 enabled: false
             },
@@ -120,23 +94,92 @@ function buildTempoColChart(data) {
                 {
                     color: '#6e328f',
                     data: winnerData,
+                    type: "column",
                     grouping: false,
-                    name: "Vinnare",
-                    index: 2,
-                    legendIndex: 1,
-                    yAxis: 0
+                    name: "Vinnare"
+                }]
+        }
+    );
+    var loserBarChart = new Highcharts.Chart(
+        {
+            exporting: {
+                enabled: false
+            },
+            chart: {
+                renderTo: 'songsLosersTempo',
+                type: 'column',
+                height: 250
+            },
+            title: {
+                text: 'Förlorare sjunger i olika takt'
+            },
+            subtitle: {
+                text: "Låtarna som kom sist går i alla möjliga taktarter"
+            },
+            legend: {
+                enabled: false
+            },
+            xAxis: {
+                min: 0,
+                max: 23,
+                categories: categories,
+                title: {
+                    text: null
                 },
-                {
-                    grouping: false,
-                    color: "grey",
-                    data: loserData,
-                    pointPlacement: 0.3,
-                    name : "Förlorare",
-                    index: 1,
-                    legendIndex: 2,
-                    yAxis: 1
+                gridLineWidth: 0.0,
+                labels: {
+                    formatter: function() {
+                        return this.value % 20 == 0 ? this.value : "";
+                    },
+                    enabled: true
+                },
+                tickLength: 0,
+                tickWidth: 0,
+                lineWidth: 0
+            },
+            yAxis: {
+                min: 0,
+                max: 17,
+                title: {
+                    text: null
+                },
+                labels: {
+                    enabled: false
+                },
+                gridLineWidth: 0.0,
+                tickLength: 5,
+                tickWidth: 0,
+                tickColor: '#000000',
+                tickInterval: 250,
+
+                endOnTick: false,
+                isDirty: true
+            },
+            plotOptions: {
+                column: {
+                    pointPadding: 0,
+                    fillOpacity: 0.9
+                },
+                areaspline: {
+                    fillOpacity: 0.4,
+                    marker: {
+                        enabled: false
+                    }
                 }
-            ]
+            },
+            tooltip: {
+                pointFormat: '<b>{point.y}</b>'
+            },
+            credits: {
+                enabled: false
+            },
+            series: [{
+                grouping: false,
+                color: "grey",
+                data: loserData,
+                pointPlacement: 0.3,
+                name : "Förlorare"
+            }]
         }
     );
 }
@@ -157,102 +200,79 @@ function buildSentimentColChart(data) {
         });
         categories.push(data[i].sentiment)
     }
-    //console.log(winnerData);
+    console.log(categories);
 
-    var barChart = new Highcharts.Chart(
+    var winnerBarChart = new Highcharts.Chart(
         {
             exporting: {
                 enabled: false
             },
             chart: {
-                renderTo: 'songsSentiment',
-                type: 'column',
+                renderTo: 'songsWinnersSentiment',
                 height: 250
             },
             title: {
-                text: 'Vinnare sjunger gladare låtar'
+                text: 'Vinnare använder mer känslor'
+            },
+            subtitle: {
+                text: "Mer än 50% av vinnarna har minst ±20 glädjepoäng"
             },
             legend: {
                 enabled: false
             },
             xAxis: {
                 min: 0,
-                max: 30,
+                //max: 23,
                 categories: categories,
                 title: {
                     text: null
                 },
+                type: "cetegory",
+                crossing:0,
                 gridLineWidth: 0.0,
                 labels: {
                     formatter: function() {
-                        return this.value % 4 == 0 ? this.value : "";
-                    }
-                },
-                labels: {
-                    enabled: false
+                        return this.value % 20 == 0 ? this.value : "";
+                    },
+                    enabled: true
                 },
                 tickLength: 0,
                 tickWidth: 0,
                 lineWidth: 0
             },
-            yAxis: [
-                { // Vinnare
-                    min: 0,
-                    max: 6,
-                    title: {
-                        text: null
-                    },
-                    labels: {
-                        //    overflow: 'justify',
-                        enabled: false,
-                    },
-                    gridLineWidth: 0.0,
-                    tickLength: 5,
-                    tickWidth: 0,
-                    tickColor: '#000000',
-                    tickInterval: 250,
-
-                    endOnTick: false
+            yAxis: {
+                min: 0,
+                max: 17,
+                title: {
+                    text: null
                 },
-                { // Förlorare
-                    title: {
-                        text: null
-                    },
-                    min: 0,
-                    max: 9,
-                    opposite: true,
-                    enabled: false,
-                    labels: {
-                        enabled: false,
-                    },
-                    gridLineWidth: 0.0,
-                    tickLength: 5,
-                    tickWidth: 0,
-                    tickColor: '#000000',
-                    tickInterval: 250,
+                labels: {
+                    enabled: false
+                },
+                gridLineWidth: 0.0,
+                tickLength: 5,
+                tickWidth: 0,
+                tickColor: '#000000',
+                tickInterval: 250,
 
-                    endOnTick: false
-                }],
-
+                endOnTick: false,
+                isDirty: true
+            },
             plotOptions: {
                 column: {
-                    //groupPadding: 0,
-                    pointPadding: 0
-                    //dataLabels: {
-                    //
-                    //    enabled: true,
-                    //    formatter: function() {
-                    //        return this.point.name;
-                    //    }
-                    //},
-                    //borderWidth: 7
+                    pointPadding: 0,
+                    fillOpacity: 0.9
+                },
+                areaspline: {
+                    fillOpacity: 0.4,
+                    marker: {
+                        enabled: false
+                    }
                 }
             },
-
             tooltip: {
                 pointFormat: '<b>{point.y}</b>'
             },
-
             credits: {
                 enabled: false
             },
@@ -260,23 +280,92 @@ function buildSentimentColChart(data) {
                 {
                     color: '#6e328f',
                     data: winnerData,
+                    type: "column",
                     grouping: false,
-                    name: "Vinnare",
-                    index: 2,
-                    legendIndex: 1,
-                    yAxis: 0
+                    name: "Vinnare"
+                }]
+        }
+    );
+    var loserBarChart = new Highcharts.Chart(
+        {
+            exporting: {
+                enabled: false
+            },
+            chart: {
+                renderTo: 'songsLosersSentiment',
+                type: 'column',
+                height: 250
+            },
+            title: {
+                text: 'Förlorare är mindre känslosamma'
+            },
+            subtitle: {
+                text: "60% av förlorarna ligger inom 10 känslopoäng från noll"
+            },
+            legend: {
+                enabled: false
+            },
+            xAxis: {
+                //min: 0,
+                //max: 23,
+                categories: categories,
+                title: {
+                    text: null
                 },
-                {
-                    grouping: false,
-                    color: "grey",
-                    data: loserData,
-                    pointPlacement: 0.3,
-                    name : "Förlorare",
-                    index: 1,
-                    legendIndex: 2,
-                    yAxis: 1
+                gridLineWidth: 0.0,
+                labels: {
+                    formatter: function() {
+                        return this.value % 20 == 0 ? this.value : "";
+                    },
+                    enabled: true
+                },
+                tickLength: 0,
+                tickWidth: 0,
+                lineWidth: 0
+            },
+            yAxis: {
+                min: 0,
+                max: 17,
+                title: {
+                    text: null
+                },
+                labels: {
+                    enabled: false
+                },
+                gridLineWidth: 0.0,
+                tickLength: 5,
+                tickWidth: 0,
+                tickColor: '#000000',
+                tickInterval: 250,
+
+                endOnTick: false,
+                isDirty: true
+            },
+            plotOptions: {
+                column: {
+                    pointPadding: 0,
+                    fillOpacity: 0.9
+                },
+                areaspline: {
+                    fillOpacity: 0.4,
+                    marker: {
+                        enabled: false
+                    }
                 }
-            ]
+            },
+            tooltip: {
+                pointFormat: '<b>{point.y}</b>'
+            },
+            credits: {
+                enabled: false
+            },
+            series: [{
+                grouping: false,
+                color: "grey",
+                data: loserData,
+                pointPlacement: 0.3,
+                name : "Förlorare"
+            }]
         }
     );
 }
@@ -312,6 +401,9 @@ function buildLanguageColChart(data) {
             title: {
                 text: 'Vinnare sjunger på engelska'
             },
+            subtitle: {
+                text: "Men hälften av förlorarna sjunger på svenska"
+            },
             legend: {
                 enabled: false
             },
@@ -324,12 +416,7 @@ function buildLanguageColChart(data) {
                 },
                 gridLineWidth: 0.0,
                 labels: {
-                    formatter: function() {
-                        return this.value % 4 == 0 ? this.value : "";
-                    }
-                },
-                labels: {
-                    enabled: false
+                    enabled: true
                 },
                 tickLength: 0,
                 tickWidth: 0,
@@ -453,6 +540,9 @@ function buildWordColChart(data) {
             },
             title: {
                 text: 'Vinnare använder fler ord'
+            },
+            subtitle: {
+                text: ""
             },
             legend: {
                 enabled: false

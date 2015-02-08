@@ -78,18 +78,28 @@
         <h3>Hur låter den typiska mellolåten?</h3>
         <p>Visst finns det något särskilt med hur Mellobidragen låter? En särksilt känsla, en viss rytm, den där schlagerglädjen. Det är nästan som att låtarna i Mello är resultatet av ett <em>hantverk</em>. Vi bestämde oss för att utforska det där hantverket, och upptäckte att det är stor skillnad på bra och dåliga låtar i Mello. Jämför man vinnarna och förlorarna med varandra, ser man att vinnarlåtarna är väldigt lika på flera punkter. Medan förlorarna är... Tja, lite hur som helst faktiskt.</p>
 
+        <!--<div class="row">-->
+            <!--<div class="col-md-12 purple toggle-bar">-->
+                <!--Visa-->
+                <!--<button class="btn btn-default purple btn-songtoggle" id="songShowAll">Alla</button>-->
+                <!--<button class="btn btn-default purple btn-songtoggle" id="songShowWinners">Vinnare</button>-->
+                <!--<button class="btn btn-default purple btn-songtoggle" id="songShowLosers">Förlorare</button>-->
+            <!--</div>-->
+        <!--</div>-->
         <div class="row">
-            <div class="col-md-12 purple toggle-bar">
-                Visa
-                <button class="btn btn-default purple btn-songtoggle" id="songShowAll">Alla</button>
-                <button class="btn btn-default purple btn-songtoggle" id="songShowWinners">Vinnare</button>
-                <button class="btn btn-default purple btn-songtoggle" id="songShowLosers">Förlorare</button>
-                <div id="songsTempo" class="barChart"></div>
+            <div class="col-md-6">
+                <div id="songsWinnersTempo" class="barChart"></div>
+            </div>
+            <div class="col-md-6">
+                <div id="songsLosersTempo" class="barChart"></div>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
-                <div id="songsSentiment" class="barChart"></div>
+            <div class="col-md-6">
+                <div id="songsWinnersSentiment" class="barChart"></div>
+            </div>
+            <div class="col-md-6">
+                <div id="songsLosersSentiment" class="barChart"></div>
             </div>
         </div>
 

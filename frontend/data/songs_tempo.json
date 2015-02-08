@@ -1,302 +1,129 @@
-[
-    {
-        "tempo": 76,
-        "winners": 0,
-        "losers": 1
-    },
-    {
-        "tempo": 78,
-        "winners": 0,
-        "losers": 0
-    },
-    {
-        "tempo": 80,
-        "winners": 1,
-        "losers": 0
-    },
-    {
-        "tempo": 82,
-        "winners": 0,
-        "losers": 2
-    },
-    {
-        "tempo": 84,
-        "winners": 0,
-        "losers": 1
-    },
-    {
-        "tempo": 86,
-        "winners": 0,
-        "losers": 0
-    },
-    {
-        "tempo": 88,
-        "winners": 0,
-        "losers": 0
-    },
-    {
-        "tempo": 90,
-        "winners": 0,
-        "losers": 1
-    },
-    {
-        "tempo": 92,
-        "winners": 0,
-        "losers": 1
-    },
-    {
-        "tempo": 94,
-        "winners": 0,
-        "losers": 1
-    },
-    {
-        "tempo": 96,
-        "winners": 0,
-        "losers": 1
-    },
-    {
-        "tempo": 98,
-        "winners": 0,
-        "losers": 0
-    },
-    {
-        "tempo": 100,
-        "winners": 0,
-        "losers": 2
-    },
-    {
-        "tempo": 102,
-        "winners": 0,
-        "losers": 1
-    },
-    {
-        "tempo": 104,
-        "winners": 1,
-        "losers": 2
-    },
-    {
-        "tempo": 106,
-        "winners": 0,
-        "losers": 0
-    },
-    {
-        "tempo": 108,
-        "winners": 1,
-        "losers": 2
-    },
-    {
-        "tempo": 110,
-        "winners": 0,
-        "losers": 0
-    },
-    {
-        "tempo": 112,
-        "winners": 0,
-        "losers": 1
-    },
-    {
-        "tempo": 114,
-        "winners": 0,
-        "losers": 0
-    },
-    {
-        "tempo": 116,
-        "winners": 1,
-        "losers": 1
-    },
-    {
-        "tempo": 118,
-        "winners": 0,
-        "losers": 0
-    },
-    {
-        "tempo": 120,
-        "winners": 1,
-        "losers": 2
-    },
-    {
-        "tempo": 122,
-        "winners": 3,
-        "losers": 4
-    },
-    {
-        "tempo": 124,
-        "winners": 3,
-        "losers": 3
-    },
-    {
-        "tempo": 126,
-        "winners": 4,
-        "losers": 4
-    },
-    {
-        "tempo": 128,
-        "winners": 10,
-        "losers": 4
-    },
-    {
-        "tempo": 130,
-        "winners": 7,
-        "losers": 5
-    },
-    {
-        "tempo": 132,
-        "winners": 3,
-        "losers": 3
-    },
-    {
-        "tempo": 134,
-        "winners": 1,
-        "losers": 4
-    },
-    {
-        "tempo": 136,
-        "winners": 1,
-        "losers": 1
-    },
-    {
-        "tempo": 138,
-        "winners": 3,
-        "losers": 1
-    },
-    {
-        "tempo": 140,
-        "winners": 3,
-        "losers": 3
-    },
-    {
-        "tempo": 142,
-        "winners": 0,
-        "losers": 0
-    },
-    {
-        "tempo": 144,
-        "winners": 1,
-        "losers": 2
-    },
-    {
-        "tempo": 146,
-        "winners": 0,
-        "losers": 0
-    },
-    {
-        "tempo": 148,
-        "winners": 0,
-        "losers": 1
-    },
-    {
-        "tempo": 150,
-        "winners": 0,
-        "losers": 0
-    },
-    {
-        "tempo": 152,
-        "winners": 2,
-        "losers": 0
-    },
-    {
-        "tempo": 154,
-        "winners": 1,
-        "losers": 1
-    },
-    {
-        "tempo": 156,
-        "winners": 0,
-        "losers": 0
-    },
-    {
-        "tempo": 158,
-        "winners": 0,
-        "losers": 1
-    },
-    {
-        "tempo": 160,
-        "winners": 0,
-        "losers": 3
-    },
-    {
-        "tempo": 162,
-        "winners": 0,
-        "losers": 0
-    },
-    {
-        "tempo": 164,
-        "winners": 0,
-        "losers": 1
-    },
-    {
-        "tempo": 166,
-        "winners": 0,
-        "losers": 0
-    },
-    {
-        "tempo": 168,
-        "winners": 0,
-        "losers": 0
-    },
-    {
-        "tempo": 170,
-        "winners": 0,
-        "losers": 0
-    },
-    {
-        "tempo": 172,
-        "winners": 0,
-        "losers": 1
-    },
-    {
-        "tempo": 174,
-        "winners": 0,
-        "losers": 1
-    },
-    {
-        "tempo": 176,
-        "winners": 0,
-        "losers": 0
-    },
-    {
-        "tempo": 178,
-        "winners": 0,
-        "losers": 0
-    },
-    {
-        "tempo": 180,
-        "winners": 0,
-        "losers": 0
-    },
-    {
-        "tempo": 182,
-        "winners": 0,
-        "losers": 0
-    },
-    {
-        "tempo": 184,
-        "winners": 0,
-        "losers": 0
-    },
-    {
-        "tempo": 186,
-        "winners": 0,
-        "losers": 0
-    },
-    {
-        "tempo": 188,
-        "winners": 1,
-        "losers": 1
-    },
-    {
-        "tempo": 190,
-        "winners": 0,
-        "losers": 0
-    },
-    {
-        "tempo": 192,
-        "winners": 0,
-        "losers": 0
-    },
-    {
-        "tempo": 194,
-        "winners": 0,
-        "losers": 1
-    }
-]
+{
+    "tempos": [
+        {
+            "tempo": 75,
+            "winners": 0,
+            "losers": 1
+        },
+        {
+            "tempo": 80,
+            "winners": 1,
+            "losers": 3
+        },
+        {
+            "tempo": 85,
+            "winners": 0,
+            "losers": 0
+        },
+        {
+            "tempo": 90,
+            "winners": 0,
+            "losers": 2
+        },
+        {
+            "tempo": 95,
+            "winners": 0,
+            "losers": 2
+        },
+        {
+            "tempo": 100,
+            "winners": 0,
+            "losers": 4
+        },
+        {
+            "tempo": 105,
+            "winners": 2,
+            "losers": 3
+        },
+        {
+            "tempo": 110,
+            "winners": 0,
+            "losers": 1
+        },
+        {
+            "tempo": 115,
+            "winners": 1,
+            "losers": 1
+        },
+        {
+            "tempo": 120,
+            "winners": 4,
+            "losers": 8
+        },
+        {
+            "tempo": 125,
+            "winners": 17,
+            "losers": 9
+        },
+        {
+            "tempo": 130,
+            "winners": 11,
+            "losers": 9
+        },
+        {
+            "tempo": 135,
+            "winners": 4,
+            "losers": 5
+        },
+        {
+            "tempo": 140,
+            "winners": 4,
+            "losers": 5
+        },
+        {
+            "tempo": 145,
+            "winners": 0,
+            "losers": 1
+        },
+        {
+            "tempo": 150,
+            "winners": 3,
+            "losers": 1
+        },
+        {
+            "tempo": 155,
+            "winners": 0,
+            "losers": 1
+        },
+        {
+            "tempo": 160,
+            "winners": 0,
+            "losers": 4
+        },
+        {
+            "tempo": 165,
+            "winners": 0,
+            "losers": 0
+        },
+        {
+            "tempo": 170,
+            "winners": 0,
+            "losers": 2
+        },
+        {
+            "tempo": 175,
+            "winners": 0,
+            "losers": 0
+        },
+        {
+            "tempo": 180,
+            "winners": 0,
+            "losers": 0
+        },
+        {
+            "tempo": 185,
+            "winners": 1,
+            "losers": 1
+        },
+        {
+            "tempo": 190,
+            "winners": 0,
+            "losers": 1
+        },
+        {
+            "tempo": 195,
+            "winners": 0,
+            "losers": 0
+        }
+    ]
+}
