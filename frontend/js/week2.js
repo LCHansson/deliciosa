@@ -86,7 +86,7 @@ function buildTempoColChart(data) {
                                 pHStop();
                             },
                             click: function(){
-                                pHStop();
+                                pHPlay(this);
                             }
                         }
                     }
@@ -817,7 +817,7 @@ function pHAnimCallback(notes){
     pHNotes.push(notes);
 
     if(pHNotes.length === Math.pow(2, 7)) {
-        pHContext.stop();
+        pHStop();
     }
 }
 
