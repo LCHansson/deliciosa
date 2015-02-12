@@ -6,6 +6,46 @@ IndexIgnore *
 
 RewriteEngine on
 
+# week 6
+RewriteCond %{REQUEST_URI} "^/$" [OR]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{TIME} >20150313075959
+RewriteCond %{DOCUMENT_ROOT}/week6.html -f
+RewriteRule .* week6.html [L]
+
+# week 5
+RewriteCond %{REQUEST_URI} "^/$" [OR]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{TIME} >20150306075959
+RewriteCond %{DOCUMENT_ROOT}/week5.html -f
+RewriteRule .* week5.html [L]
+
+# week 4
+RewriteCond %{REQUEST_URI} "^/$" [OR]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{TIME} >20150227075959
+RewriteCond %{DOCUMENT_ROOT}/week4.html -f
+RewriteRule .* week4.html [L]
+
+# week 3
+RewriteCond %{REQUEST_URI} "^/$" [OR]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{TIME} >20150220075959
+RewriteCond %{DOCUMENT_ROOT}/week3.html -f
+RewriteRule .* week3.html [L]
+
+# week 2
+RewriteCond %{REQUEST_URI} "^/$" [OR]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{TIME} >20150213075959
+RewriteCond %{DOCUMENT_ROOT}/week2.html -f
+RewriteRule .* week2.html [L]
+
 # week 1
 RewriteCond %{REQUEST_URI} "^/$" [OR]
 RewriteCond %{REQUEST_FILENAME} !-d
