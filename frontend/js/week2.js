@@ -25,7 +25,8 @@ function buildTempoColChart(data) {
             },
             chart: {
                 renderTo: 'songsWinnersTempo',
-                height: 250
+                height: 250,
+                backgroundColor: 'rgba(255,255,255,0)'
             },
             title: {
                 text: 'Vinnare sjunger i 128 BPM'
@@ -75,7 +76,20 @@ function buildTempoColChart(data) {
             plotOptions: {
                 column: {
                     pointPadding: 0,
-                    fillOpacity: 0.9
+                    fillOpacity: 0.9,
+                    point: {
+                        events: {
+                            mouseOver: function(){
+                                    pHPlay(this);
+                            },
+                            mouseOut: function(){
+                                pHStop();
+                            },
+                            click: function(){
+                                pHPlay(this);
+                            }
+                        }
+                    }
                 },
                 areaspline: {
                     fillOpacity: 0.4,
@@ -158,7 +172,20 @@ function buildTempoColChart(data) {
             plotOptions: {
                 column: {
                     pointPadding: 0,
-                    fillOpacity: 0.9
+                    fillOpacity: 0.9,
+                    point: {
+                        events: {
+                            mouseOver: function(){
+                                pHPlay(this);
+                            },
+                            mouseOut: function(){
+                                pHStop();
+                            },
+                            click: function(){
+                                pHPlay(this);
+                            }
+                        }
+                    }
                 },
                 areaspline: {
                     fillOpacity: 0.4,
@@ -763,19 +790,51 @@ $('#songShowLosers').click(function () {
     }
 });
 
-$(function () {
-    var firstPostLoaded = false;
-    $('#lasVidareID').on('click', function(e) {
-        e.preventDefault();
-        var $this = $(this);
-        var $collapse = $this.closest('.collapse-group').find('.collapse');
-        $collapse.collapse('toggle');
-        var postNr = $this.closest('.collapse-group').attr("data-post")
-        if ( !firstPostLoaded &postNr == 1 ){
-            //week2Collapse();
-            firstPostLoaded = true;
-        }
+
+// polyhymnia
+window.pHContext = loadPolyhymnia();
+
+window.pHNotes = [];
+
+function loadPolyhymnia() {
+    var context = new Polyhymnia.Context({
+        instruments: [
+            { name: 'Kick', samples: [{ url: 'audio/Kick.mp3' }] }
+        ]
     });
 
-    week2();
-});
+    context.parse( 'Play -> Kick:   _ _ x _ _ _ x _ _ _ x _ _ _ x _' );
+
+    return context;
+}
+
+window.start = 0;
+
+function pHAnimCallback(notes){
+    if ( notes[ 0 ].value === "x" && window.start !==  notes[ 0 ].start){
+        //console.log(notes[ 0 ].start);
+        window.start = notes[ 0 ].start;
+        window.pHChartElement.graphic.animate({opacity: 0.1}, {duration: 0});
+        window.pHChartElement.graphic.animate({opacity: 1}, {duration: 60/window.pHChartElement.name});
+    }
+    pHNotes.push(notes);
+
+    if(pHNotes.length === Math.pow(2, 7)) {
+        pHStop();
+    }
+}
+
+function pHPlay( element ) {
+    if ( pHNotes.length === 0 ) {
+        pHStop();
+        window.pHChartElement = element;
+        pHContext.setTempo( element.name );
+        pHContext.setAnimCallback(pHAnimCallback);
+        pHContext.play();
+    }
+}
+
+function pHStop(){
+    pHContext.stop();
+    window.pHNotes = [];
+}
