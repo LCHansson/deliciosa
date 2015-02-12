@@ -87,18 +87,21 @@ wl %>%
 # Winners typically have wordier songs than losers (albeit with relatively small differences)
 wl %>%
   ggplot(aes(x = unique_words, group = winner, fill = winner)) +
-  geom_density(alpha = 0.7)
+  # geom_density(alpha = 0.7)
+  geom_histogram(alpha = 0.7, position = position_dodge())
 
-# Winners are typically in the minor(!) key
+# Losers are typically in the minor(!) key
 wl %>%
   ggplot(aes(group = as.factor(echonest_mode), x = as.factor(winner), fill = echonest_mode)) +
   geom_bar(position = position_dodge(), binwidth = 0.2)
 
 # Winners typically center aruond a BPM of about 128
-wl %>%
+wl %>% filter(winner == 0) %>% 
   ggplot(aes(x = echonest_tempo, group = winner, fill = winner)) +
-  geom_density(alpha = 0.7)
-
+  geom_bar(binwidth = 5, alpha = 0.7) + ylim(0, 20)
+  # geom_density(alpha = 0.7, aes(y = ..density..)) +
+  # ylim(0, 0.08)
+  
 # Winners almost always sing in English
 wl %>%
   ggplot(aes(x = as.factor(language), group = winner, fill = winner)) +
@@ -107,7 +110,7 @@ wl %>%
 # Both winners and losers center around 3 minutes in song length
 wl %>%
   ggplot(aes(x = echonest_duration, group = winner, fill = winner)) +
-    geom_density(alpha = 0.7)
+  geom_density(alpha = 0.7)
 
 # Winners tend to be happier than losers
 wl %>%
