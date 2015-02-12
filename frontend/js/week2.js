@@ -399,7 +399,7 @@ function buildLanguageColChart(data) {
                 height: 250
             },
             title: {
-                text: ''
+                text: 'Språk'
             },
             subtitle: {
                 text: "Vinnare sjunger på engelska, förlorare blandar och ger"
@@ -522,7 +522,7 @@ function buildWordColChart(data) {
                 height: 250
             },
             title: {
-                text: ''
+                text: 'Skrikighet'
             },
             subtitle: {
                 text: "Vinnarlåtarna är 20% mer högljudda"
@@ -573,13 +573,13 @@ function buildWordColChart(data) {
             series: [
                 {
                     color: 'grey',
-                    data: [0, data.loudness_mean[1]],
+                    data: [0, 10 + data.loudness_mean[1]],
                     grouping: false,
                     name: ""
                 },
                 {
                     color: '#6e328f',
-                    data: [data.loudness_mean[0], 0],
+                    data: [10 + data.loudness_mean[0], 0],
                     grouping: false,
                     name: ""
                 }]
@@ -596,7 +596,7 @@ function buildWordColChart(data) {
                 height: 250
             },
             title: {
-                text: ''
+                text: 'Intellekt'
             },
             subtitle: {
                 text: "Vinnare har 13% större ordförråd än förlorare"
