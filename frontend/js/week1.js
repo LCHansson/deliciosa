@@ -402,8 +402,7 @@ function formatSongTexts(text, loveWords) {
 }
 
 function buildCountsTable() {
-
-    // the table
+// the table
     var myTable = $('#loveWordsTable').DataTable({
         dom: 'litp',
         pageLength: 10,
@@ -423,7 +422,6 @@ function buildCountsTable() {
             loadingRecords: "Laddar ..."
         },
         sAjaxSource: "./data/texterna_sent_lovew_counts.json",
-
         aoColumns: [
             {
                 sClass: "text",
@@ -435,7 +433,7 @@ function buildCountsTable() {
                     var link = '<a href="" data-toggle="modal" data-target="#textModalID" '
                     link += 'data-hl-lovewords="true" id="' + row[3] + '">';
                     link += songName + '</a>';
-                    return link;
+                    return songName;
                 }
             },
             {
@@ -456,7 +454,6 @@ function buildCountsTable() {
             }
         ]
     });
-
 }
 
 function week1Collapse() {
