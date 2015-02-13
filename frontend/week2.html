@@ -75,9 +75,10 @@
 
         <h2 class="purple">Låtarna</h2>
         <h3>Hur låter den typiska mellolåten?</h3>
-        <p>Visst finns det något särskilt med hur Mellobidragen låter? En särksilt känsla, en viss rytm, den där schlagerglädjen. Det är nästan som att låtarna i Mello är resultatet av ett <em>hantverk</em>. Vi bestämde oss för att utforska det där hantverket, och upptäckte att det är stor skillnad på bra och dåliga låtar i Mello. Jämför man vinnarna och förlorarna med varandra, ser man att vinnarlåtarna är väldigt lika på flera punkter. Medan förlorarna är... Tja, lite hur som helst faktiskt.</p>
+        <p>Visst finns det något särskilt med hur Mellobidragen låter? En särksilt känsla, en viss rytm, den där schlagerglädjen. Det är nästan som att låtarna i Mello är resultatet av ett <em>hantverk</em>. Vi tittade lite närmare på det där och upptäckte att de låtar som vunnit Mello har många saker gemensamt. Särskilt om man jämför dem med de låtar som kommit allra sist i tävlingen.</p>
 
-        <div class="row">
+        <div class="row hold-together">
+            <h3>Ett vinnande tempo</h3>
             <div class="col-md-6">
                 <div id="songsWinnersTempo" class="barChart"></div>
             </div>
@@ -85,7 +86,8 @@
                 <div id="songsLosersTempo" class="barChart"></div>
             </div>
         </div>
-        <div class="row">
+        <div class="row hold-together">
+            <h3>Starka känslor i vinnarlåtarna</h3>
             <div class="col-md-6">
                 <div id="songsWinnersSentiment" class="barChart"></div>
             </div>
@@ -94,7 +96,11 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row hold-together">
+            <div class="col-md-4">
+                <!--<p>Vinnare använder fler ord</p>-->
+                <div id="songsUniqueWords" class="smallBarChart"></div>
+            </div>
             <div class="col-md-4">
                 <!--<p>Vinnare sjunger på engelska</p>-->
                 <div id="songsLanguage" class="smallBarChart"></div>
@@ -102,10 +108,6 @@
             <div class="col-md-4">
                 <!--<p>Vinnare använder fler ord</p>-->
                 <div id="songsWords" class="smallBarChart"></div>
-            </div>
-            <div class="col-md-4">
-                <!--<p>Vinnare använder fler ord</p>-->
-                <div id="songsUniqueWords" class="smallBarChart"></div>
             </div>
         </div>
 
@@ -117,8 +119,16 @@
         </div>
 
         <div id="secondCollapse" class="collapse tpadding small">
-            <p>Datan i graferna är sammanställningar av olika <em>metadata</em> för låtarna i Melodifestivalen 2002-2014. Datat består av uppgifter om tempo (BPM), glädjepoäng (räknade vi fram i första inlägget, om texterna), språk och antal unika ord i texterna.</p>
-            <p>Vi har jämfört "mellovinnare" med "melloförlorare". Vår definition av vinnarna är de låtar som kom på första till fjärde plats under 2002-2014. Förlorardata består av de 64 låtar som fick absolut minst antal röster under samma år.</p>
+            <p>För att undersöka vad det är som gör den "typiska" Mellolåten valde vi att jämföra vinnare (lila färg i grafiken) med förlorare (grå färg i grafiken). Vår definition av <em>vinnare</em> är de låtar som kom på första till fjärde plats under 2002-2014. <em>Förlorarna</em> består av de 64 låtar som fick absolut minst antal röster under samma tidsperiod. Vi upptäckte snabbt att vinnarna skiljer ut sig från förlorarna på vissa punkter. De variabler där skillnaderna var särskilt stora var tempo, känslopoäng, antal unika ord per låttext, språk och <em>noise</em>.</p>
+            <ul>
+                <li>Med <em>tempo</em> menas antalet taktslag per minut, ofta kallat BPM.</li>
+                <li>Med <em>känslopoäng</em> menas den "glädje-score" vi beräknade i vårt första inlägg, <a href="#texterna">texterna</a> (se nedan).</li>
+                <li>För att beräkna <em>antal unika ord per låttext</em> har vi helt enkelt räknat antalet unika ord per låt. Ett ord som förekommer flera gånger räknas alltså bara en gång.</li>
+                <li><em>Språk</em> är helt enkelt vilket språk artisten sjunger på.</li>
+                <li><em>Noise</em> är ett lite svårförklarat begrepp, men det mäter hur högljudd en låt är i genomsnitt.</li>
+            </ul>
+            <p>Det ska i ärlighetens namn sägas att det även finns en hel del områden där det inte finns någon klar skillnad mellan vinnare och förlorare. Till exempel är ca 50% av vinnarna i moll och 50% i dur, medan knappt 60% av frlorarlåtarna är i moll och drygt 40% i dur. Knappt någon skillnad alls, alltså.</p>
+            <p>Så betyder detta att den typiska Mellovinnaren går i 125 BPM, är känsloladdad och högljudd, och har en lång text på engelska? Kanske. Det finns nog många andra saker som avgör vem som vinner Mello också, och det finns alltid gott om undantag för att bekräfta regeln. Men trenden är tydlig: för att en låt som är jättesnabb, inte handlar om känslor, har en kort text och är på svenska ska vinna Mello, ja då krävs det förmodligen både en hel del tur och en hejdundrans scenshow.</p>
             <p>Är du nyfiken på datan bakom Mello? Eller tycker du vi har räknat fel? Ladda ned vår databas via länken längst ned på sidan och gör en egen analys!</p>
 
             <table id="loveWordsTable"></table>
@@ -390,6 +400,7 @@
 <script src="js/exporting.js"> </script>
 <script src="js/pattern-fill.js"> </script>
 <script src="js/jquery.dataTables.min.js"></script>
+<script src="js/polyhymnia.js"></script>
 
 <script src="js/week1.js"> </script>
 <script src="js/week2.js"> </script>

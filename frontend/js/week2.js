@@ -29,10 +29,11 @@ function buildTempoColChart(data) {
                 backgroundColor: 'rgba(255,255,255,0)'
             },
             title: {
-                text: 'Vinnare sjunger i 128 BPM'
+                //text: 'Vinnare sjunger i 128 BPM...'
+                text: ''
             },
             subtitle: {
-                text: "7 av 10 vinnarlåtar har drygt två taktslag i sekunden"
+                text: '70% av alla vinnarlåtar går i runt 120-130 BPM <br/>(ca två taktslag i sekunden)...'
             },
             legend: {
                 enabled: false
@@ -57,7 +58,7 @@ function buildTempoColChart(data) {
                 },
             yAxis: {
                     min: 0,
-                    max: 17,
+                    max: 0.35,
                     title: {
                         text: null
                     },
@@ -99,7 +100,10 @@ function buildTempoColChart(data) {
                 }
             },
             tooltip: {
-                pointFormat: '<b>{point.y}</b>'
+                formatter: function() {
+                    return '<small><b>' + this.x + ' BPM </b><br/>Andel vinnare: ' + (this.y * 100).toPrecision(2) + '%</small>';
+                }
+                //pointFormat: 'Antal vinnarlåtar: <b>{point.y}</b>'
             },
             credits: {
                 enabled: false
@@ -125,10 +129,11 @@ function buildTempoColChart(data) {
                 height: 250
             },
             title: {
-                text: 'Förlorare sjunger i olika takt'
+                //text: '...men förlorare sjunger i olika takt'
+                text: ''
             },
             subtitle: {
-                text: "Låtarna som kom sist går i alla möjliga taktarter"
+                text: "...men förlorarlåtarna spelar i alla möjliga tempon."
             },
             legend: {
                 enabled: false
@@ -153,7 +158,7 @@ function buildTempoColChart(data) {
             },
             yAxis: {
                 min: 0,
-                max: 17,
+                max: 0.35,
                 title: {
                     text: null
                 },
@@ -195,7 +200,10 @@ function buildTempoColChart(data) {
                 }
             },
             tooltip: {
-                pointFormat: '<b>{point.y}</b>'
+                formatter: function() {
+                    return '<small><b>' + this.x + ' BPM </b><br/>Andel förlorare: ' + (this.y * 100).toPrecision(2) + '%</small>';
+                }
+                //pointFormat: '<b>{point.y}</b>'
             },
             credits: {
                 enabled: false
@@ -239,17 +247,18 @@ function buildSentimentColChart(data) {
                 height: 250
             },
             title: {
-                text: 'Vinnare använder mer känslor'
+                //text: 'Vinnare använder mer känslor...'
+                text: ''
             },
             subtitle: {
-                text: "Mer än 50% av vinnarna har minst ±20 glädjepoäng"
+                text: "Mer än 50% av vinnarna sjunger om starka känslor<br/>(minst 20 känslopoäng plus eller minus)..."
             },
             legend: {
                 enabled: false
             },
             xAxis: {
                 min: 0,
-                //max: 23,
+                //max: 0.26,
                 categories: categories,
                 title: {
                     text: null
@@ -269,7 +278,7 @@ function buildSentimentColChart(data) {
             },
             yAxis: {
                 min: 0,
-                max: 17,
+                max: 0.26,
                 title: {
                     text: null
                 },
@@ -298,7 +307,10 @@ function buildSentimentColChart(data) {
                 }
             },
             tooltip: {
-                pointFormat: '<b>{point.y}</b>'
+                formatter: function() {
+                    return '<small><b>' + this.x + ' känslopoäng </b><br/>Andel vinnare: ' + (this.y * 100).toPrecision(2) + '%</small>';
+                }
+                //pointFormat: '<b>{point.y}</b>'
             },
             credits: {
                 enabled: false
@@ -324,10 +336,11 @@ function buildSentimentColChart(data) {
                 height: 250
             },
             title: {
-                text: 'Förlorare är mindre känslosamma'
+                //text: '...och förlorare är mindre känslosamma'
+                text: ''
             },
             subtitle: {
-                text: "60% av förlorarna ligger inom 10 känslopoäng från noll"
+                text: "...men 60% av förlorarna ligger inom 10 känslopoäng från noll"
             },
             legend: {
                 enabled: false
@@ -352,7 +365,7 @@ function buildSentimentColChart(data) {
             },
             yAxis: {
                 min: 0,
-                max: 17,
+                max: 0.26,
                 title: {
                     text: null
                 },
@@ -381,7 +394,10 @@ function buildSentimentColChart(data) {
                 }
             },
             tooltip: {
-                pointFormat: '<b>{point.y}</b>'
+                formatter: function() {
+                    return '<small><b>' + this.x + ' känslopoäng </b><br/>Andel förlorare: ' + (this.y * 100).toPrecision(2) + '%</small>';
+                }
+                //pointFormat: '<b>{point.y}</b>'
             },
             credits: {
                 enabled: false
@@ -506,7 +522,12 @@ function buildLanguageColChart(data) {
             },
 
             tooltip: {
-                pointFormat: '<b>{point.y}</b>'
+                formatter: function() {
+                    //return '<small><b>' + this.x + '</b><br/>Andel förlorare: ' + (this.y * 100).toPrecision(2) + '%</small>';
+                    //return 'Låtar på <b>' + this.x + '</b><br/>Andel ' + this.series.name + ': ' + (this.y*100).toPrecision(2) + '%</small>';
+                    return '<b>' + (this.y*100).toPrecision(2) + '%</b> av alla ' + this.series.name.toLowerCase() + '<br> sjunger på ' + this.x.toLowerCase();
+                }
+                //pointFormat: '<b>{point.y}</b>'
             },
 
             credits: {
@@ -591,7 +612,11 @@ function buildWordColChart(data) {
                 }
             },
             tooltip: {
-                pointFormat: '<b>{point.y}</b>'
+                formatter: function() {
+                    //return 'Genomsnittligt <em>noise</em> för<br/><b>' + this.x + '</b>: ' + this.y + ' dB';
+                    return this.x + ' har i snitt ett <br/><em>noise</em> på <b>' + (this.y-10).toPrecision(2) + 'dB</b>';
+                }
+                //pointFormat: '<b>{point.y}</b>'
             },
 
             credits: {
@@ -665,7 +690,10 @@ function buildWordColChart(data) {
                 }
             },
             tooltip: {
-                pointFormat: '<b>{point.y}</b>'
+                formatter: function() {
+                    return this.x + ' använder i <br/>snitt <b>' + this.y.toPrecision(3) + '</b> unika ord per låt';
+                }
+                //pointFormat: '<b>{point.y}</b>'
             },
 
             credits: {

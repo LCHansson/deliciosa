@@ -21,7 +21,7 @@ $(function () {
         }
     });
 
-    //week1();
+    week1();
     week2();
 
     window.fbShare = function(){

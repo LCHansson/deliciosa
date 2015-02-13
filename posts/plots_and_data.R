@@ -163,24 +163,26 @@ cat(json, file = "frontend/data/texterna_allcounts.json")
 json <- jsonlite::toJSON(
   list(
     tempos = data_frame(tempo = seq(75, 195, 5)) %>% 
-    left_join(
-      wl %>% 
-        filter(winner == 1) %>% 
-        mutate(tempo = round(echonest_tempo) %/% 5 * 5) %>%
-        group_by(tempo) %>%
-        dplyr::summarise(winners = length(tempo))
-    ) %>%
-    left_join(
-      wl %>% 
-        filter(winner == 0) %>% 
-        mutate(tempo = round(echonest_tempo) %/% 5 * 5) %>%
-        group_by(tempo) %>%
-        dplyr::summarise(losers = length(tempo))
-    ) %>%
-    mutate(
-      winners = ifelse(is.na(winners), 0, winners),
-      losers = ifelse(is.na(losers), 0, losers)
-    )
+      left_join(
+        wl %>% 
+          filter(winner == 1) %>% 
+          mutate(tempo = round(echonest_tempo) %/% 5 * 5) %>%
+          group_by(tempo) %>%
+          dplyr::summarise(winners = length(tempo))
+      ) %>%
+      left_join(
+        wl %>% 
+          filter(winner == 0) %>% 
+          mutate(tempo = round(echonest_tempo) %/% 5 * 5) %>%
+          group_by(tempo) %>%
+          dplyr::summarise(losers = length(tempo))
+      ) %>%
+      mutate(
+        winners = ifelse(is.na(winners), 0, winners),
+        losers = ifelse(is.na(losers), 0, losers),
+        winners = winners/sum(winners),
+        losers = losers/sum(losers)
+      )
     ),
   pretty = TRUE
 )
@@ -206,7 +208,9 @@ json <- jsonlite::toJSON(
     ) %>% 
     mutate(
       winners = ifelse(is.na(winners), 0, winners),
-      losers = ifelse(is.na(losers), 0, losers)
+      losers = ifelse(is.na(losers), 0, losers),
+      winners = winners/sum(winners),
+      losers = losers/sum(losers)
     )
   ,
   pretty = TRUE
@@ -226,7 +230,9 @@ json <- jsonlite::toJSON(
         group_by(language) %>%
         dplyr::summarise(losers = length(language))
     ) %>% 
-    mutate(language = ifelse(language == "english", "Engelska", "Svenska")),
+    mutate(language = ifelse(language == "english", "Engelska", "Svenska"),
+           winners = winners/sum(winners),
+           losers = losers/sum(losers)),
   pretty = TRUE
 )
 
@@ -253,7 +259,9 @@ json <- jsonlite::toJSON(
     ) %>% 
     mutate(
       winners = ifelse(is.na(winners), 0, winners),
-      losers = ifelse(is.na(losers), 0, losers)
+      losers = ifelse(is.na(losers), 0, losers),
+      winners = winners/sum(winners),
+      losers = losers/sum(losers)
     )
   ,
   pretty = TRUE

@@ -362,6 +362,18 @@ ul.nav-pills .subtitle {
 
 }
 
+#secondPost .hold-together {
+    /*margin-top: 1em;*/
+    margin-bottom: 0px;
+}
+
+#secondPost .hold-together h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px !important;
+    font-weight: 200 !important;
+}
+
 
 @-webkit-viewport   { width: device-width; }
 @-moz-viewport      { width: device-width; }
@@ -481,6 +493,11 @@ table.dataTable .count {
 
 #thirdPost table.dataTable thead th.sorting {
     color: #fdba00;
+}
+
+/* Highcharts objects */
+#secondPost rect {
+    /*line-height: 0px;*/
 }
 
 /* Get data */
