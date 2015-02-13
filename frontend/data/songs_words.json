@@ -1,14 +1,107 @@
-{
-    "categories": [
-        "Vinnare",
-        "Förlorare"
-    ],
-    "unique_mean": [
-        128.7083,
-        115.0625
-    ],
-    "words_mean": [
-        253.1458,
-        229.3594
-    ]
-}
+[
+    {
+        "sentiment": -80,
+        "winners": 0,
+        "losers": 0
+    },
+    {
+        "sentiment": -70,
+        "winners": 0,
+        "losers": 0
+    },
+    {
+        "sentiment": -60,
+        "winners": 0.0625,
+        "losers": 0
+    },
+    {
+        "sentiment": -50,
+        "winners": 0,
+        "losers": 0
+    },
+    {
+        "sentiment": -40,
+        "winners": 0,
+        "losers": 0.0159
+    },
+    {
+        "sentiment": -30,
+        "winners": 0.0625,
+        "losers": 0.0159
+    },
+    {
+        "sentiment": -20,
+        "winners": 0.0833,
+        "losers": 0.0952
+    },
+    {
+        "sentiment": -10,
+        "winners": 0.1042,
+        "losers": 0.1746
+    },
+    {
+        "sentiment": 0,
+        "winners": 0.1458,
+        "losers": 0.254
+    },
+    {
+        "sentiment": 10,
+        "winners": 0.125,
+        "losers": 0.1746
+    },
+    {
+        "sentiment": 20,
+        "winners": 0.125,
+        "losers": 0.1429
+    },
+    {
+        "sentiment": 30,
+        "winners": 0.0625,
+        "losers": 0.0952
+    },
+    {
+        "sentiment": 40,
+        "winners": 0.0208,
+        "losers": 0.0317
+    },
+    {
+        "sentiment": 50,
+        "winners": 0.0417,
+        "losers": 0
+    },
+    {
+        "sentiment": 60,
+        "winners": 0.0833,
+        "losers": 0
+    },
+    {
+        "sentiment": 70,
+        "winners": 0.0208,
+        "losers": 0
+    },
+    {
+        "sentiment": 80,
+        "winners": 0.0417,
+        "losers": 0
+    },
+    {
+        "sentiment": 90,
+        "winners": 0,
+        "losers": 0
+    },
+    {
+        "sentiment": 100,
+        "winners": 0,
+        "losers": 0
+    },
+    {
+        "sentiment": 110,
+        "winners": 0.0208,
+        "losers": 0
+    },
+    {
+        "sentiment": 120,
+        "winners": 0,
+        "losers": 0
+    }
+]

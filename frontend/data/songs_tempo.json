@@ -3,12 +3,12 @@
         {
             "tempo": 75,
             "winners": 0,
-            "losers": 1
+            "losers": 0.0156
         },
         {
             "tempo": 80,
-            "winners": 1,
-            "losers": 3
+            "winners": 0.0208,
+            "losers": 0.0469
         },
         {
             "tempo": 85,
@@ -18,77 +18,77 @@
         {
             "tempo": 90,
             "winners": 0,
-            "losers": 2
+            "losers": 0.0312
         },
         {
             "tempo": 95,
             "winners": 0,
-            "losers": 2
+            "losers": 0.0312
         },
         {
             "tempo": 100,
             "winners": 0,
-            "losers": 4
+            "losers": 0.0625
         },
         {
             "tempo": 105,
-            "winners": 2,
-            "losers": 3
+            "winners": 0.0417,
+            "losers": 0.0469
         },
         {
             "tempo": 110,
             "winners": 0,
-            "losers": 1
+            "losers": 0.0156
         },
         {
             "tempo": 115,
-            "winners": 1,
-            "losers": 1
+            "winners": 0.0208,
+            "losers": 0.0156
         },
         {
             "tempo": 120,
-            "winners": 4,
-            "losers": 8
+            "winners": 0.0833,
+            "losers": 0.125
         },
         {
             "tempo": 125,
-            "winners": 17,
-            "losers": 9
+            "winners": 0.3542,
+            "losers": 0.1406
         },
         {
             "tempo": 130,
-            "winners": 11,
-            "losers": 9
+            "winners": 0.2292,
+            "losers": 0.1406
         },
         {
             "tempo": 135,
-            "winners": 4,
-            "losers": 5
+            "winners": 0.0833,
+            "losers": 0.0781
         },
         {
             "tempo": 140,
-            "winners": 4,
-            "losers": 5
+            "winners": 0.0833,
+            "losers": 0.0781
         },
         {
             "tempo": 145,
             "winners": 0,
-            "losers": 1
+            "losers": 0.0156
         },
         {
             "tempo": 150,
-            "winners": 3,
-            "losers": 1
+            "winners": 0.0625,
+            "losers": 0.0156
         },
         {
             "tempo": 155,
             "winners": 0,
-            "losers": 1
+            "losers": 0.0156
         },
         {
             "tempo": 160,
             "winners": 0,
-            "losers": 4
+            "losers": 0.0625
         },
         {
             "tempo": 165,
@@ -98,7 +98,7 @@
         {
             "tempo": 170,
             "winners": 0,
-            "losers": 2
+            "losers": 0.0312
         },
         {
             "tempo": 175,
@@ -112,13 +112,13 @@
         },
         {
             "tempo": 185,
-            "winners": 1,
-            "losers": 1
+            "winners": 0.0208,
+            "losers": 0.0156
         },
         {
             "tempo": 190,
             "winners": 0,
-            "losers": 1
+            "losers": 0.0156
         },
         {
             "tempo": 195,

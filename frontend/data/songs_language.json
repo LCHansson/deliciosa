@@ -1,12 +1,12 @@
 [
     {
         "language": "Engelska",
-        "winners": 41,
-        "losers": 32
+        "winners": 0.8542,
+        "losers": 0.5246
     },
     {
         "language": "Svenska",
-        "winners": 7,
-        "losers": 29
+        "winners": 0.1458,
+        "losers": 0.4754
     }
 ]
