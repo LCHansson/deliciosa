@@ -29,15 +29,21 @@ def calculate_variables(data):
     for tm in data:
         songs = tm["songs"]
 
+        years = list(set([ s['year'] for s in songs]))
+        years.sort()
         songs_per_year = []
-        for year in range(2002, 2015):
+        for year in years:
             songs_this_year = [s["song_name"].encode("utf-8") for s in songs if s['year'] == year]
             v = {
                "year": year,
-               "songs": songs_this_year,
+               #"songs": songs_this_year,
                "number_songs": len(songs_this_year)
             }
             songs_per_year.append(v)
+
+        successful_songs = [s for s in songs if s['in_final']]
+        successful_songs.sort(key = lambda k: k["year"], reverse=True)
+        successful_songs.sort(key = lambda k: k["final_placing"])
 
         nsongs_final = len([s for s in songs if s['in_final']])
         nsongs_winning = len([s for s in songs if s['winner']])
@@ -75,7 +81,10 @@ def calculate_variables(data):
              'in_final_songs_perc': float(nsongs_final)/len(songs)*100,
              'winning_songs': nsongs_winning,
              'winning_songs_perc': float(nsongs_winning)/len(songs)*100,
-             'songs_per_year': songs_per_year
+             'songs_per_year': songs_per_year,
+             'successful_songs': [(s["song_name"] + " (plats " +  str(s["final_placing"]) + " i finalen " + str(s["year"]) + ")") .encode("utf-8") if s["final_placing"] != 1
+                                  else (s["song_name"] + u" (vinnare " + str(s["year"]) + ")").encode("utf-8")
+                                  for s in successful_songs[0:5]]
 
              #'bands': nbands,
              #'bands_perc': float(nbands)/len(songs)*100,
@@ -132,19 +141,14 @@ def calculate_average_values(data, variables=["number_songs", "in_final_songs_pe
 
     return res
 
-def get_modals_data(tm_var_data, avg_values, outfolder):
+def get_modals_data(tm_var_data, outfolder):
     tm_var_data.sort(key = lambda t: t["number_songs"])
     res = []
     for k in tm_var_data:
         d = {
             "songs_per_year": k["songs_per_year"],
             "name": k["name"],
-            "in_final_songs_perc": {"his": k["in_final_songs_perc"],
-                                    "average": avg_values["in_final_songs_perc"]},
-            "winning_songs_perc": {"his": k["winning_songs_perc"],
-                                    "average": avg_values["winning_songs_perc"]},
-            "number_songs": {"his": k["number_songs"],
-                            "average": avg_values["number_songs"]}
+            "sucessfull_songs": k["successful_songs"]
         }
         write_data_to_json(d, os.path.join(outfolder, k["tm_id"] + ".json"))
 
@@ -174,7 +178,7 @@ if __name__ == '__main__':
 
 
     ######## get the data for the modal
-    modals_data = get_modals_data(tm_var_data, avg_values,
+    modals_data = get_modals_data(tm_var_data,
                                   "/Users/luminitamoruz/work/deliciosa/posts/tm/data-for-plots/modals")
 
 

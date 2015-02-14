@@ -92,54 +92,197 @@ function buildTmArtistsPiechart(data, whereToRender, titleText, subtitleText) {
     });
 }
 
+function createBarchart(data, whereToRender, title, dataPointSuffix, plotType) {
+    var barChart = new Highcharts.Chart(
+        {
+            exporting: {
+                enabled: false
+            },
+            chart: {
+                renderTo: whereToRender,
+                type: plotType
+            },
+            title: {
+                text: title
+            },
+            subtitle: {
+                text: ""
+            },
+            legend: {
+                enabled:false
+            },
+            xAxis: {
+                categories: data.catData,
+                title: {
+                    text: null
+                },
+                gridLineWidth: 0.0,
+                /*labels: {
+                    formatter: function() {
+                        return "";
+                    }
+                },*/
+                //labels: {
+                //    enabled: false
+                //},
+                tickLength: 0,
+                tickWidth: 0,
+                lineWidth: 0
+            },
+            yAxis: {
+                //min: 0,
+                title: {
+                    text: null
+                },
+                //labels: {
+                //    overflow: 'justify'
+                //},
+                labels: {
+                    enabled: false
+                },
+                gridLineWidth: 0.0,
+                tickLength: 5,
+                tickWidth: 0,
+                tickColor: '#000000'
+                //tickInterval: 250,
+
+                //endOnTick: false,
+                //max: 1000
+            },
+
+            plotOptions: {
+                bar: {
+                    groupPadding: 0,
+                    pointPadding: 0,
+                    /*
+                    dataLabels: {
+
+                        enabled: true,
+                        formatter: function() {
+                            return this.point.name;
+                        }
+                    },*/
+                    borderWidth: 7
+                }
+            },
+
+            tooltip: {
+                pointFormat: '<b>{point.y}</b> ' + dataPointSuffix
+            },
+
+            credits: {
+                enabled: false
+            },
+            series: [{
+                color: '#fdba00',
+                data: data.data
+            }]
+        }
+    );
+}
+
 function buildTmTable() {
     $('#tmModalID').on('show.bs.modal', function (event) {
         var button = $(event.relatedTarget); // Button that triggered the modal
         var filename = "data/tm/" + button.attr('id') + ".json";
         var modal = $(this);
         modal.find('.modal-title').html("");
-        modal.find('.modal-body').html(button.attr('id'));
+        modal.find('.modal-body').html("");
         modal.find('.modal-meta').html("");
 
-        /*
+        window.location.hash = "tmmodal";
+        window.onhashchange = function() {
+            if (!location.hash){
+                modal.modal('hide');
+            }
+        }
 
-         var button = $(event.relatedTarget); // Button that triggered the modal
-         var filename = "data/lyrics/" + button.attr('id') + "_lyrics.json";
-         var modal = $(this);
+        $.ajax({
+            async: false,
+            type: "GET",
+            url: filename,
+            dataType: "json",
+            success: function(response) {
+                var id = button.attr('id');
+                modal.find('.modal-title').html(response.name);
+
+                var html = '<div id="' + id + 'songsyear"></div>';
+                html += '<br><div style="text-align: center; font-family: "League Spartan">'
+                html += '<text class="highcharts-title" text-anchor="middle"><tspan>Top 5 framgångsrika mellolåtar</tspan></text>';
+                html += '<ol style="text-align: left">'
+                for (var i=0; i<response.sucessfull_songs.length; ++i) {
+                    html += '<li>' + response.sucessfull_songs[i] + '</li>'
+                }
+                html += '</ol>';
+                html += '</div>'
+                modal.find('.modal-body').html(html);
+
+                /*
+                 {
+                 name: data[i].words,
+                 y: data[i].freqs
+                 }
+                * */
+
+                var songsPerYearData = [];
+                var catData = []
+                for (var i=0; i<response.songs_per_year.length; ++i){
+                    catData.push(response.songs_per_year[i].year);
+                    songsPerYearData.push({
+                        name: response.songs_per_year[i].year,
+                        y: response.songs_per_year[i].number_songs
+                    });
+                }
+                data = {catData: catData, data: songsPerYearData};
+                createBarchart(data, id + "songsyear", "Antal låtar per år mellan 2002-2014", "låtar", "bar");
+
+                /*
+                data = {catData: [response.name, "Snitt andra låtskrivare"], data: [{
+                  name: response.name,
+                  y: response.number_songs.his
+                }, {
+                    name: "Snitt andra",
+                    y: parseFloat(response.number_songs.average.toFixed(0))
+                }]};
+                createBarchart(data, id + "nsongs", "Total antal låtar mellan 2002-2014", "låtar", "column");
+
+                data = {catData: [response.name, "Snitt andra låtskrivare"], data: [{
+                    name: response.name,
+                    y: parseFloat(response.in_final_songs_perc.his.toFixed(0))
+                }, {
+                    name: "Snitt andra",
+                    y: parseFloat(response.in_final_songs_perc.average.toFixed(0))
+                }]};
+                createBarchart(data, id + "percfinal", "Andel låtar som gick i finalen mellan 2002-2014", "%", "column");
+
+                data = {catData: [response.name, "Snitt andra låtskrivare"], data: [{
+                    name: response.name,
+                    y: parseFloat(response.winning_songs_perc.his.toFixed(0))
+                }, {
+                    name: "Snitt andra",
+                    y: parseFloat(response.winning_songs_perc.average.toFixed(0))
+                }]};
+                createBarchart(data, id + "percwinning", "Andel låtar som vann Melodifestivalen mellan 2002-2014", "%", "column");
+                 */
+                /*
+                var text = formatSongTexts(response.lyrics, loveWords);
 
 
-
-         window.location.hash = "textmodal";
-         window.onhashchange = function() {
-         if (!location.hash){
-         modal.modal('hide');
-         }
-         }
-
-
-
-         $.ajax({
-         async: false,
-         type: "GET",
-         url: filename,
-         dataType: "json",
-         success: function(response) {
-         var text = formatSongTexts(response.lyrics, loveWords);
-
-
-         modal.find('.modal-title').html(response.song_name);
-         modal.find('.modal-body').html(text);
-         var meta = "Kärleksord i blått.<br>" +
-         "Antal kärleksord: " + response.no_love_words +"<br>" +
-         "Glädjepoäng: " + response.happy_score;
-         modal.find('.modal-meta').html(meta);
-         //window.location.hash = "text";
-         return false;
-         },
-         error: function(jqXHR, textStatus, errorThrown) {
-         console.log("Error!" + textStatus   );
-         return true;
-         }*/
+                modal.find('.modal-title').html(response.song_name);
+                modal.find('.modal-body').html(text);
+                var meta = "Kärleksord i blått.<br>" +
+                    "Antal kärleksord: " + response.no_love_words +"<br>" +
+                    "Glädjepoäng: " + response.happy_score;
+                modal.find('.modal-meta').html(meta);
+                //window.location.hash = "text";
+                */
+                return false;
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+                console.log("Error!" + textStatus   );
+                return true;
+            }
+        });
     });
 
     // the table
