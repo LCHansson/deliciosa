@@ -1,5 +1,6 @@
 __author__ = 'luminitamoruz'
 
+import os
 import json
 
 def gender_artist(d):
@@ -28,6 +29,16 @@ def calculate_variables(data):
     for tm in data:
         songs = tm["songs"]
 
+        songs_per_year = []
+        for year in range(2002, 2015):
+            songs_this_year = [s["song_name"].encode("utf-8") for s in songs if s['year'] == year]
+            v = {
+               "year": year,
+               "songs": songs_this_year,
+               "number_songs": len(songs_this_year)
+            }
+            songs_per_year.append(v)
+
         nsongs_final = len([s for s in songs if s['in_final']])
         nsongs_winning = len([s for s in songs if s['winner']])
         nbands =  len([s for s in songs if s['is_band']])
@@ -42,10 +53,16 @@ def calculate_variables(data):
         ncollaborations = len([s for s in songs if s["tm_list"] > 1])
 
         songs_with_love_counts = [s for s in songs if s["love_count"] >= 0]
-        avg_love_counts = sum([s["love_count"] for s in songs_with_love_counts])/float(len(songs_with_love_counts))
+        if len(songs_with_love_counts) == 0:
+            avg_love_counts = 0
+        else:
+            avg_love_counts = sum([s["love_count"] for s in songs_with_love_counts])/float(len(songs_with_love_counts))
 
         songs_with_happy_score = [s for s in songs if s["happy_score"] != -10000]
-        avg_happy_score= sum([s["happy_score"] for s in songs_with_happy_score])/float(len(songs_with_happy_score))
+        if len(songs_with_happy_score) == 0:
+            avg_happy_score = 0
+        else:
+            avg_happy_score= sum([s["happy_score"] for s in songs_with_happy_score])/float(len(songs_with_happy_score))
 
         if songs_with_love_counts != songs_with_happy_score:
             print "WARNING 2", tm
@@ -58,18 +75,20 @@ def calculate_variables(data):
              'in_final_songs_perc': float(nsongs_final)/len(songs)*100,
              'winning_songs': nsongs_winning,
              'winning_songs_perc': float(nsongs_winning)/len(songs)*100,
-             'bands': nbands,
-             'bands_perc': float(nbands)/len(songs)*100,
-             'woman_artists': nwomen,
-             'woman_artists_perc': float(nwomen)/N*100,
-             'men_artists': nmen,
-             'men_artists_perc': float(nmen)/N*100,
-             'mixt_artists': nmixt,
-             'mixt_artists_perc': float(nmixt)/N*100,
+             'songs_per_year': songs_per_year
+
+             #'bands': nbands,
+             #'bands_perc': float(nbands)/len(songs)*100,
+             #'woman_artists': nwomen,
+             #'woman_artists_perc': float(nwomen)/N*100,
+             #'men_artists': nmen,
+             #'men_artists_perc': float(nmen)/N*100,
+             #'mixt_artists': nmixt,
+             #'mixt_artists_perc': float(nmixt)/N*100,
              #'in_collaboration': ncollaborations,
              #'in_collaboration_perc': float(ncollaborations)/len(songs)*100,
-             'avg_love_counts': avg_love_counts,
-             'avg_happy_score': avg_happy_score
+             #'avg_love_counts': avg_love_counts,
+             #'avg_happy_score': avg_happy_score
         }
         res.append(d)
 
@@ -100,20 +119,66 @@ def write_data_table(tm_var_data, outf, variables=["name", "number_songs", "in_f
     dt = {"data": data}
     write_data_to_json(dt, outf)
 
+def calculate_average_values(data, variables=["number_songs", "in_final_songs_perc", "winning_songs_perc"]):
+    res = {}
+    for v in variables:
+        res[v] = 0.0
+    for tm in data:
+        for v in variables:
+            res[v] += tm[v]
+    print res
+    for k, v in res.iteritems():
+        res[k] = v/len(data)
+
+    return res
+
+def get_modals_data(tm_var_data, avg_values, outfolder):
+    tm_var_data.sort(key = lambda t: t["number_songs"])
+    res = []
+    for k in tm_var_data:
+        d = {
+            "songs_per_year": k["songs_per_year"],
+            "name": k["name"],
+            "in_final_songs_perc": {"his": k["in_final_songs_perc"],
+                                    "average": avg_values["in_final_songs_perc"]},
+            "winning_songs_perc": {"his": k["winning_songs_perc"],
+                                    "average": avg_values["winning_songs_perc"]},
+            "number_songs": {"his": k["number_songs"],
+                            "average": avg_values["number_songs"]}
+        }
+        write_data_to_json(d, os.path.join(outfolder, k["tm_id"] + ".json"))
+
 
 if __name__ == '__main__':
+    ####### 10 most prolific
     data = json.load(open("/Users/luminitamoruz/work/deliciosa/posts/tm/data-for-plots/tm_data_10_most_prolific.json"),
                          encoding="utf-8")
     # calculate all sort of interesting variables
     tm_var_data = calculate_variables(data)
 
     # print some stats to be able to choose the interesting variables
-    print_data_per_var(tm_var_data)
+    # print_data_per_var(tm_var_data)
 
     # write the data needed for the data table
     write_data_table(tm_var_data, outf="/Users/luminitamoruz/work/deliciosa/posts/tm/data-for-plots/tm_10_heroes.json")
 
-    # TODO: generate statistics for all the song writers
+    ####### all song writers
+    all_data = json.load(open("/Users/luminitamoruz/work/deliciosa/posts/tm/data-for-plots/tm_all_data.json"),
+                         encoding="utf-8")
+
+     # calculate all sort of interesting variables
+    tm_all_var_data = calculate_variables(all_data)
+
+    # calculate average values for all the song writers
+    avg_values = calculate_average_values(tm_all_var_data)
+
+
+    ######## get the data for the modal
+    modals_data = get_modals_data(tm_var_data, avg_values,
+                                  "/Users/luminitamoruz/work/deliciosa/posts/tm/data-for-plots/modals")
+
+
+    print avg_values
 
     # TODO: write the jsons for the modal
 

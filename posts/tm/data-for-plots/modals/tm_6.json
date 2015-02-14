@@ -1,0 +1,105 @@
+{
+    "in_final_songs_perc": {
+        "average": 22.72832145801089, 
+        "his": 37.5
+    }, 
+    "name": "Peter Boström", 
+    "number_songs": {
+        "average": 1.9458041958041958, 
+        "his": 16
+    }, 
+    "songs_per_year": [
+        {
+            "number_songs": 0, 
+            "songs": [], 
+            "year": 2002
+        }, 
+        {
+            "number_songs": 1, 
+            "songs": [
+                "Stop! Look! Listen!"
+            ], 
+            "year": 2003
+        }, 
+        {
+            "number_songs": 0, 
+            "songs": [], 
+            "year": 2004
+        }, 
+        {
+            "number_songs": 0, 
+            "songs": [], 
+            "year": 2005
+        }, 
+        {
+            "number_songs": 0, 
+            "songs": [], 
+            "year": 2006
+        }, 
+        {
+            "number_songs": 0, 
+            "songs": [], 
+            "year": 2007
+        }, 
+        {
+            "number_songs": 0, 
+            "songs": [], 
+            "year": 2008
+        }, 
+        {
+            "number_songs": 1, 
+            "songs": [
+                "Disconnect Me"
+            ], 
+            "year": 2009
+        }, 
+        {
+            "number_songs": 3, 
+            "songs": [
+                "Manboy", 
+                "Thursdays", 
+                "Headlines"
+            ], 
+            "year": 2010
+        }, 
+        {
+            "number_songs": 2, 
+            "songs": [
+                "In the Club", 
+                "I'm in Love"
+            ], 
+            "year": 2011
+        }, 
+        {
+            "number_songs": 3, 
+            "songs": [
+                "Euphoria", 
+                "Amazing", 
+                "I din himmel"
+            ], 
+            "year": 2012
+        }, 
+        {
+            "number_songs": 3, 
+            "songs": [
+                "On Top of the World", 
+                "Alibi", 
+                "Tell the World I'm Here"
+            ], 
+            "year": 2013
+        }, 
+        {
+            "number_songs": 3, 
+            "songs": [
+                "När änglarna går hem", 
+                "Love Trigger", 
+                "Hela natten"
+            ], 
+            "year": 2014
+        }
+    ], 
+    "winning_songs_perc": {
+        "average": 1.4879640789760082, 
+        "his": 6.25
+    }
+}

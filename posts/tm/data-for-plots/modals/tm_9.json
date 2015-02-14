@@ -1,0 +1,104 @@
+{
+    "in_final_songs_perc": {
+        "average": 22.72832145801089, 
+        "his": 33.33333333333333
+    }, 
+    "name": "Ingela \"Pling\" Forsman", 
+    "number_songs": {
+        "average": 1.9458041958041958, 
+        "his": 15
+    }, 
+    "songs_per_year": [
+        {
+            "number_songs": 0, 
+            "songs": [], 
+            "year": 2002
+        }, 
+        {
+            "number_songs": 0, 
+            "songs": [], 
+            "year": 2003
+        }, 
+        {
+            "number_songs": 2, 
+            "songs": [
+                "Efharisto", 
+                "Min kärlek"
+            ], 
+            "year": 2004
+        }, 
+        {
+            "number_songs": 1, 
+            "songs": [
+                "Håll om mig"
+            ], 
+            "year": 2005
+        }, 
+        {
+            "number_songs": 3, 
+            "songs": [
+                "En droppe regn", 
+                "Etymon", 
+                "Jag ljuger så bra"
+            ], 
+            "year": 2006
+        }, 
+        {
+            "number_songs": 1, 
+            "songs": [
+                "Jag måste kyssa dig"
+            ], 
+            "year": 2007
+        }, 
+        {
+            "number_songs": 3, 
+            "songs": [
+                "Jag saknar dig ibland", 
+                "I Love Europe", 
+                "Den första svalan"
+            ], 
+            "year": 2008
+        }, 
+        {
+            "number_songs": 4, 
+            "songs": [
+                "Så vill stjärnorna", 
+                "Du är älskad där du går", 
+                "Jag tror på oss", 
+                "Med hjärtat fyllt av ljus"
+            ], 
+            "year": 2009
+        }, 
+        {
+            "number_songs": 0, 
+            "songs": [], 
+            "year": 2010
+        }, 
+        {
+            "number_songs": 0, 
+            "songs": [], 
+            "year": 2011
+        }, 
+        {
+            "number_songs": 0, 
+            "songs": [], 
+            "year": 2012
+        }, 
+        {
+            "number_songs": 1, 
+            "songs": [
+                "Make Me No 1"
+            ], 
+            "year": 2013
+        }, 
+        {
+            "number_songs": 0, 
+            "songs": [], 
+            "year": 2014
+        }
+    ], 
+    "winning_songs_perc": {
+        "average": 1.4879640789760082, 
+        "his": 0.0
+    }
+}

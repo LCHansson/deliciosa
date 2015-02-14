@@ -215,7 +215,7 @@ function week3() {
         url: "./data/tm_artists_gender_imbalance.json",
         dataType: "json",
         success: function (response) {
-            buildTmArtistsPiechart(response, 'tmArtistsPieChart', 'Artisterna', 'Andel låtar uppträdade av män, mixt och kvinno artister');
+            buildTmArtistsPiechart(response, 'tmArtistsPieChart', 'Artisterna', 'Fördelning av låtar efter kön på artisten/artisterna');
         },
         error: function (jqXHR, textStatus, errorThrown) {
             console.log("Error!" + textStatus);
@@ -227,7 +227,7 @@ function week3() {
         url: "./data/tm_tm_gender_imbalance.json",
         dataType: "json",
         success: function (response) {
-            buildTmArtistsPiechart(response, 'tmTmPieChart', 'Låtskrivarna', 'Andel låtar skrivna av män, mixt och kvinno låtskrivare');
+            buildTmArtistsPiechart(response, 'tmTmPieChart', 'Låtskrivarna', 'Fördelning av låtar efter kön på låtskrivaren/låtskrivarna');
         },
         error: function (jqXHR, textStatus, errorThrown) {
             console.log("Error!" + textStatus);

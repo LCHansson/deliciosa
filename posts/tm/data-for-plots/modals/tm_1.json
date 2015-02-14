@@ -1,0 +1,129 @@
+{
+    "in_final_songs_perc": {
+        "average": 22.72832145801089, 
+        "his": 44.44444444444444
+    }, 
+    "name": "Bobby Ljunggren", 
+    "number_songs": {
+        "average": 1.9458041958041958, 
+        "his": 36
+    }, 
+    "songs_per_year": [
+        {
+            "number_songs": 0, 
+            "songs": [], 
+            "year": 2002
+        }, 
+        {
+            "number_songs": 5, 
+            "songs": [
+                "Better Believe It", 
+                "Not a Sinner, Nor a Saint", 
+                "We're Unbreakable", 
+                "Bye, Bye", 
+                "Mr. Memory"
+            ], 
+            "year": 2003
+        }, 
+        {
+            "number_songs": 2, 
+            "songs": [
+                "Efharisto", 
+                "Min kärlek"
+            ], 
+            "year": 2004
+        }, 
+        {
+            "number_songs": 4, 
+            "songs": [
+                "Rain", 
+                "Att älska dig", 
+                "My no. 1", 
+                "Du och jag mot världen"
+            ], 
+            "year": 2005
+        }, 
+        {
+            "number_songs": 4, 
+            "songs": [
+                "Evighet", 
+                "En droppe regn", 
+                "Etymon", 
+                "This Woman"
+            ], 
+            "year": 2006
+        }, 
+        {
+            "number_songs": 4, 
+            "songs": [
+                "Vågar du, vågar jag", 
+                "För att du finns", 
+                "Första gången", 
+                "Rainbow Star"
+            ], 
+            "year": 2007
+        }, 
+        {
+            "number_songs": 5, 
+            "songs": [
+                "Lay Your Love on Me", 
+                "Jag saknar dig ibland", 
+                "Visst finns mirakel", 
+                "Hero", 
+                "Empty Room"
+            ], 
+            "year": 2008
+        }, 
+        {
+            "number_songs": 4, 
+            "songs": [
+                "Så vill stjärnorna", 
+                "Du är älskad där du går", 
+                "It's My Life", 
+                "Med hjärtat fyllt av ljus"
+            ], 
+            "year": 2009
+        }, 
+        {
+            "number_songs": 2, 
+            "songs": [
+                "We Can Work It Out", 
+                "This Is My Life"
+            ], 
+            "year": 2010
+        }, 
+        {
+            "number_songs": 2, 
+            "songs": [
+                "I Thought It Was Forever", 
+                "I'm in Love"
+            ], 
+            "year": 2011
+        }, 
+        {
+            "number_songs": 1, 
+            "songs": [
+                "I din himmel"
+            ], 
+            "year": 2012
+        }, 
+        {
+            "number_songs": 0, 
+            "songs": [], 
+            "year": 2013
+        }, 
+        {
+            "number_songs": 3, 
+            "songs": [
+                "Casanova", 
+                "Survivor", 
+                "Burning Alive"
+            ], 
+            "year": 2014
+        }
+    ], 
+    "winning_songs_perc": {
+        "average": 1.4879640789760082, 
+        "his": 8.333333333333332
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "in_final_songs_perc": {
+        "average": 22.72832145801089, 
+        "his": 50.0
+    }, 
+    "name": "Johan Fransson", 
+    "number_songs": {
+        "average": 1.9458041958041958, 
+        "his": 16
+    }, 
+    "songs_per_year": [
+        {
+            "number_songs": 0, 
+            "songs": [], 
+            "year": 2002
+        }, 
+        {
+            "number_songs": 1, 
+            "songs": [
+                "Just Like a Boomerang"
+            ], 
+            "year": 2003
+        }, 
+        {
+            "number_songs": 3, 
+            "songs": [
+                "Innan mörkret faller", 
+                "Olé olé", 
+                "Runaway"
+            ], 
+            "year": 2004
+        }, 
+        {
+            "number_songs": 5, 
+            "songs": [
+                "Las Vegas", 
+                "Om natten", 
+                "Vi kan gunga", 
+                "Alcastar", 
+                "Alla flickor"
+            ], 
+            "year": 2005
+        }, 
+        {
+            "number_songs": 2, 
+            "songs": [
+                "Kalla nätter", 
+                "Jag tar det jag vill ha"
+            ], 
+            "year": 2006
+        }, 
+        {
+            "number_songs": 0, 
+            "songs": [], 
+            "year": 2007
+        }, 
+        {
+            "number_songs": 1, 
+            "songs": [
+                "Hur svårt kan det va?"
+            ], 
+            "year": 2008
+        }, 
+        {
+            "number_songs": 0, 
+            "songs": [], 
+            "year": 2009
+        }, 
+        {
+            "number_songs": 1, 
+            "songs": [
+                "You're Making Me Hot-Hot-Hot"
+            ], 
+            "year": 2010
+        }, 
+        {
+            "number_songs": 1, 
+            "songs": [
+                "Elektrisk"
+            ], 
+            "year": 2011
+        }, 
+        {
+            "number_songs": 0, 
+            "songs": [], 
+            "year": 2012
+        }, 
+        {
+            "number_songs": 1, 
+            "songs": [
+                "Heartbreak Hotel"
+            ], 
+            "year": 2013
+        }, 
+        {
+            "number_songs": 1, 
+            "songs": [
+                "Songbird"
+            ], 
+            "year": 2014
+        }
+    ], 
+    "winning_songs_perc": {
+        "average": 1.4879640789760082, 
+        "his": 6.25
+    }
+}

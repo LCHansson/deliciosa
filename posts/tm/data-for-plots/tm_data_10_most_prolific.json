@@ -1005,7 +1005,7 @@
             }
         ], 
         "tm": "Bobby Ljunggren", 
-        "tm_id": "tm_2003_2_7"
+        "tm_id": "tm_1"
     }, 
     {
         "songs": [
@@ -1914,7 +1914,7 @@
             }
         ], 
         "tm": "Thomas G:son", 
-        "tm_id": "tm_2002_1_3"
+        "tm_id": "tm_2"
     }, 
     {
         "songs": [
@@ -2765,7 +2765,7 @@
             }
         ], 
         "tm": "Henrik Wikström", 
-        "tm_id": "tm_2004_3_8"
+        "tm_id": "tm_3"
     }, 
     {
         "songs": [
@@ -3441,7 +3441,7 @@
             }
         ], 
         "tm": "Fredrik Kempe", 
-        "tm_id": "tm_2004_2_1"
+        "tm_id": "tm_4"
     }, 
     {
         "songs": [
@@ -3916,7 +3916,7 @@
             }
         ], 
         "tm": "Tim Larsson", 
-        "tm_id": "tm_2003_2_1"
+        "tm_id": "tm_5"
     }, 
     {
         "songs": [
@@ -4363,7 +4363,7 @@
             }
         ], 
         "tm": "Peter Boström", 
-        "tm_id": "tm_2003_1_6"
+        "tm_id": "tm_6"
     }, 
     {
         "songs": [
@@ -4838,7 +4838,7 @@
             }
         ], 
         "tm": "Tobias Lundgren", 
-        "tm_id": "tm_2003_2_1"
+        "tm_id": "tm_7"
     }, 
     {
         "songs": [
@@ -5313,7 +5313,7 @@
             }
         ], 
         "tm": "Johan Fransson", 
-        "tm_id": "tm_2003_2_1"
+        "tm_id": "tm_8"
     }, 
     {
         "songs": [
@@ -5730,7 +5730,7 @@
             }
         ], 
         "tm": "Ingela \"Pling\" Forsman", 
-        "tm_id": "tm_2004_3_8"
+        "tm_id": "tm_9"
     }, 
     {
         "songs": [
@@ -6092,6 +6092,6 @@
             }
         ], 
         "tm": "Niklas Edberger", 
-        "tm_id": "tm_2003_2_1"
+        "tm_id": "tm_10"
     }
 ]
