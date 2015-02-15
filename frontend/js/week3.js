@@ -2,6 +2,8 @@
  * Created by luminitamoruz on 30/01/15.
  */
 
+
+
 function buildTmArtistsPiechart(data, whereToRender, titleText, subtitleText) {
 
     var formattedData = [];
