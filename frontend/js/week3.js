@@ -100,7 +100,8 @@ function createBarchart(data, whereToRender, title, dataPointSuffix, plotType) {
             },
             chart: {
                 renderTo: whereToRender,
-                type: plotType
+                type: plotType,
+                backgroundColor: null
             },
             title: {
                 text: title
@@ -179,10 +180,13 @@ function createBarchart(data, whereToRender, title, dataPointSuffix, plotType) {
             }]
         }
     );
+
+    return barChart;
 }
 
 function buildTmTable() {
     $('#tmModalID').on('show.bs.modal', function (event) {
+
         var button = $(event.relatedTarget); // Button that triggered the modal
         var filename = "data/tm/" + button.attr('id') + ".json";
         var modal = $(this);
@@ -207,22 +211,17 @@ function buildTmTable() {
                 modal.find('.modal-title').html(response.name);
 
                 var html = '<div id="' + id + 'songsyear"></div>';
-                html += '<br><div style="text-align: center; font-family: "League Spartan">'
-                html += '<text class="highcharts-title" text-anchor="middle"><tspan>Top 5 framgångsrika mellolåtar</tspan></text>';
-                html += '<ol style="text-align: left">'
+                //html += '<div style="text-align: center; font-family: "League Spartan">'
+                //html += '<text class="highcharts-title" text-anchor="middle"><tspan>Top 5 framgångsrika mellolåtar</tspan></text>';
+                html += "<h4 class='text-center' style='margin-top: 2em;'>Top 5 framgångsrika mellolåtar</h4>";
+                html += '<ol class="small">'
                 for (var i=0; i<response.sucessfull_songs.length; ++i) {
                     html += '<li>' + response.sucessfull_songs[i] + '</li>'
                 }
                 html += '</ol>';
-                html += '</div>'
+                //html += '</div>'
                 modal.find('.modal-body').html(html);
 
-                /*
-                 {
-                 name: data[i].words,
-                 y: data[i].freqs
-                 }
-                * */
 
                 var songsPerYearData = [];
                 var catData = []
@@ -234,48 +233,14 @@ function buildTmTable() {
                     });
                 }
                 data = {catData: catData, data: songsPerYearData};
-                createBarchart(data, id + "songsyear", "Antal låtar per år mellan 2002-2014", "låtar", "bar");
-
-                /*
-                data = {catData: [response.name, "Snitt andra låtskrivare"], data: [{
-                  name: response.name,
-                  y: response.number_songs.his
-                }, {
-                    name: "Snitt andra",
-                    y: parseFloat(response.number_songs.average.toFixed(0))
-                }]};
-                createBarchart(data, id + "nsongs", "Total antal låtar mellan 2002-2014", "låtar", "column");
-
-                data = {catData: [response.name, "Snitt andra låtskrivare"], data: [{
-                    name: response.name,
-                    y: parseFloat(response.in_final_songs_perc.his.toFixed(0))
-                }, {
-                    name: "Snitt andra",
-                    y: parseFloat(response.in_final_songs_perc.average.toFixed(0))
-                }]};
-                createBarchart(data, id + "percfinal", "Andel låtar som gick i finalen mellan 2002-2014", "%", "column");
-
-                data = {catData: [response.name, "Snitt andra låtskrivare"], data: [{
-                    name: response.name,
-                    y: parseFloat(response.winning_songs_perc.his.toFixed(0))
-                }, {
-                    name: "Snitt andra",
-                    y: parseFloat(response.winning_songs_perc.average.toFixed(0))
-                }]};
-                createBarchart(data, id + "percwinning", "Andel låtar som vann Melodifestivalen mellan 2002-2014", "%", "column");
-                 */
-                /*
-                var text = formatSongTexts(response.lyrics, loveWords);
+                var chart = createBarchart(data, id + "songsyear", "Antal låtar per år mellan 2002-2014", "låtar", "bar");
+                modal.on("shown.bs.modal", function( event ){
+                    chart.redraw();
+                });
 
 
-                modal.find('.modal-title').html(response.song_name);
-                modal.find('.modal-body').html(text);
-                var meta = "Kärleksord i blått.<br>" +
-                    "Antal kärleksord: " + response.no_love_words +"<br>" +
-                    "Glädjepoäng: " + response.happy_score;
-                modal.find('.modal-meta').html(meta);
-                //window.location.hash = "text";
-                */
+
+
                 return false;
             },
             error: function(jqXHR, textStatus, errorThrown) {
@@ -309,7 +274,7 @@ function buildTmTable() {
                 sTitle: "Låtskrivare",
                 searchable: true,
                 "mRender": function (tm, type, row) {
-                    var link = '<a href="" data-toggle="modal" data-target="#tmModalID" ';
+                    var link = '<a class="yellow" href="" data-toggle="modal" data-target="#tmModalID" ';
                     link += 'id="' + row[6] + '">';
                     link += tm + '</a>';
                     return link;
@@ -331,7 +296,7 @@ function buildTmTable() {
                 searchable: true,
                 sTitle: "Antal låtar i finalen",
                 "mRender": function (antal, type, row) {
-                    var v = '' + antal + ' (' + row[4].toFixed(0) + '%)';
+                    var v = '' + antal + '<span class="hidden-xs"> (' + row[4].toFixed(0) + '%)</span>';
                     return v;
                 }
             },
@@ -343,7 +308,7 @@ function buildTmTable() {
                 searchable: true,
                 sTitle: "Antal vinnande låtar",
                 "mRender": function (a, type, row) {
-                    var v = '' + a + ' (' + row[5].toFixed(0) + '%)';
+                    var v = '' + a + '<span class="hidden-xs"> (' + row[5].toFixed(0) + '%)</span>';
                     return v;
                 }
             }
