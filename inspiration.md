@@ -34,6 +34,9 @@
 - Unique word counts
 - Recurrence of artists: effects of participating multiple times (songwriters, artists)
 - Tittarsiffror
+- The Twitter crowd
+- Apply all analyses on this year's artists
+- 
 
 
 ## More input
