@@ -104,7 +104,7 @@ HTMLWidgets.widget({
       .call(force.drag);
 
     node.append("circle")
-      .attr("r", 6)
+      .attr("r", 10)
       .style("stroke", "#fff")
       .style("opacity", options.opacity)
       .style("stroke-width", "1.5px");
