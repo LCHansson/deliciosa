@@ -1,0 +1,3905 @@
+{
+ "type": "FeatureCollection",
+"features": [
+ {
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [  20.66, 67.135 ] 
+},
+"properties": {
+ "title": "Michael Michailoff",
+"id": "2008_1_5",
+"birthyear": "1979",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.055, 59.214 ] 
+},
+"properties": {
+ "title": "Michael Michailoff",
+"id": "2008_1_5",
+"birthyear": "1979",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 17.955, 59.379 ] 
+},
+"properties": {
+ "title": "Suzzie Tapper",
+"id": "2008_1_7",
+"birthyear": "1957",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [  18.07, 59.313 ] 
+},
+"properties": {
+ "title": "Suzzie Tapper",
+"id": "2008_1_7",
+"birthyear": "1957",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 13.631,  60.11 ] 
+},
+"properties": {
+ "title": "Christer Sjögren",
+"id": "2008_1_8",
+"birthyear": "1950",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 13.531, 59.193 ] 
+},
+"properties": {
+ "title": "Christer Sjögren",
+"id": "2008_1_8",
+"birthyear": "1950",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 17.938, 62.632 ] 
+},
+"properties": {
+ "title": "Lasse Lindh",
+"id": "2008_2_2",
+"birthyear": "1974",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [     13, 55.605 ] 
+},
+"properties": {
+ "title": "Lasse Lindh",
+"id": "2008_2_2",
+"birthyear": "1974",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 17.822, 59.445 ] 
+},
+"properties": {
+ "title": "Alexander Schöld",
+"id": "2008_2_4",
+"birthyear": "1986",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 17.955, 59.379 ] 
+},
+"properties": {
+ "title": "Alexander Schöld",
+"id": "2008_2_4",
+"birthyear": "1986",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 13.729, 59.602 ] 
+},
+"properties": {
+ "title": "Rongedal",
+"id": "2008_2_5",
+"birthyear": "2004",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Rongedal",
+"id": "2008_2_5",
+"birthyear": "2004",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 11.967, 57.707 ] 
+},
+"properties": {
+ "title": "Andra generationen",
+"id": "2008_2_7",
+"birthyear": "1988",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 11.992, 57.748 ] 
+},
+"properties": {
+ "title": "Andra generationen",
+"id": "2008_2_7",
+"birthyear": "1988",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 13.022, 55.722 ] 
+},
+"properties": {
+ "title": "Johnson & Häggkvist",
+"id": "2008_2_8",
+"birthyear": "1970",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [  18.07, 59.313 ] 
+},
+"properties": {
+ "title": "Johnson & Häggkvist",
+"id": "2008_2_8",
+"birthyear": "1970",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 17.908, 44.201 ] 
+},
+"properties": {
+ "title": "Mickey Huskic",
+"id": "2008_3_2",
+"birthyear": "1981",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 13.136, 55.877 ] 
+},
+"properties": {
+ "title": "Mickey Huskic",
+"id": "2008_3_2",
+"birthyear": "1981",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 17.147, 60.675 ] 
+},
+"properties": {
+ "title": "Caracola",
+"id": "2008_3_6",
+"birthyear": "2005",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Caracola",
+"id": "2008_3_6",
+"birthyear": "2005",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.294, 59.482 ] 
+},
+"properties": {
+ "title": "Eskobar",
+"id": "2008_3_8",
+"birthyear": "1995",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.294, 59.482 ] 
+},
+"properties": {
+ "title": "Eskobar",
+"id": "2008_3_8",
+"birthyear": "1995",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 13.193, 55.703 ] 
+},
+"properties": {
+ "title": "Niklas Strömstedt",
+"id": "2008_4_1",
+"birthyear": "1958",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [  18.07, 59.313 ] 
+},
+"properties": {
+ "title": "Niklas Strömstedt",
+"id": "2008_4_1",
+"birthyear": "1958",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 16.505, 59.372 ] 
+},
+"properties": {
+ "title": "Daniel Mitsogiannis",
+"id": "2008_4_3",
+"birthyear": "1983",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [  16.19, 58.591 ] 
+},
+"properties": {
+ "title": "Daniel Mitsogiannis",
+"id": "2008_4_3",
+"birthyear": "1983",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 22.465,  41.64 ] 
+},
+"properties": {
+ "title": "Sibel",
+"id": "2008_4_6",
+"birthyear": "1987",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [  18.06, 59.406 ] 
+},
+"properties": {
+ "title": "Sibel",
+"id": "2008_4_6",
+"birthyear": "1987",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 16.546, 59.611 ] 
+},
+"properties": {
+ "title": "Fronda",
+"id": "2008_4_7",
+"birthyear": "1981",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 16.546, 59.611 ] 
+},
+"properties": {
+ "title": "Fronda",
+"id": "2008_4_7",
+"birthyear": "1981",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 15.135, 56.789 ] 
+},
+"properties": {
+ "title": "Charlotte Perrelli",
+"id": "2008_4_8",
+"birthyear": "1974",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.088, 59.397 ] 
+},
+"properties": {
+ "title": "Charlotte Perrelli",
+"id": "2008_4_8",
+"birthyear": "1974",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [     16, 61.346 ] 
+},
+"properties": {
+ "title": "Nina Söderquist",
+"id": "2009_1_1",
+"birthyear": "1972",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Nina Söderquist",
+"id": "2009_1_1",
+"birthyear": "1972",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 14.163, 57.781 ] 
+},
+"properties": {
+ "title": "Jonathan Fagerlund",
+"id": "2009_1_2",
+"birthyear": "1991",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Jonathan Fagerlund",
+"id": "2009_1_2",
+"birthyear": "1991",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Emilia",
+"id": "2009_1_5",
+"birthyear": "1978",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Emilia",
+"id": "2009_1_5",
+"birthyear": "1978",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.194, 59.364 ] 
+},
+"properties": {
+ "title": "Marie Serneholt",
+"id": "2009_1_8",
+"birthyear": "1983",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Marie Serneholt",
+"id": "2009_1_8",
+"birthyear": "1983",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [  18.07, 59.313 ] 
+},
+"properties": {
+ "title": "Lili & Susie",
+"id": "2009_2_1",
+"birthyear": "1985",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.717, 59.341 ] 
+},
+"properties": {
+ "title": "Lili & Susie",
+"id": "2009_2_1",
+"birthyear": "1985",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [  12.02, 57.769 ] 
+},
+"properties": {
+ "title": "Jennifer Brown",
+"id": "2009_2_3",
+"birthyear": "1972",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.069, 59.326 ] 
+},
+"properties": {
+ "title": "Jennifer Brown",
+"id": "2009_2_3",
+"birthyear": "1972",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 25.656, 60.984 ] 
+},
+"properties": {
+ "title": "Markoolio",
+"id": "2009_2_5",
+"birthyear": "1975",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.507, 59.252 ] 
+},
+"properties": {
+ "title": "Markoolio",
+"id": "2009_2_5",
+"birthyear": "1975",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.001, 59.361 ] 
+},
+"properties": {
+ "title": "Cookies 'N' Beans",
+"id": "2009_2_7",
+"birthyear": "2003",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Cookies 'N' Beans",
+"id": "2009_2_7",
+"birthyear": "2003",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "E.M.D.",
+"id": "2009_3_4",
+"birthyear": "2007",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "E.M.D.",
+"id": "2009_3_4",
+"birthyear": "2007",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Mikael Rickfors",
+"id": "2009_3_5",
+"birthyear": "1948",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 19.064, 59.197 ] 
+},
+"properties": {
+ "title": "Mikael Rickfors",
+"id": "2009_3_5",
+"birthyear": "1948",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 12.704, 56.044 ] 
+},
+"properties": {
+ "title": "Maja Gullstrand",
+"id": "2009_3_6",
+"birthyear": "1980",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 12.739,     56 ] 
+},
+"properties": {
+ "title": "Maja Gullstrand",
+"id": "2009_3_6",
+"birthyear": "1980",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 12.361, 58.443 ] 
+},
+"properties": {
+ "title": "Agnes",
+"id": "2009_4_1",
+"birthyear": "1988",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Agnes",
+"id": "2009_4_1",
+"birthyear": "1988",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Star Pilots",
+"id": "2009_4_2",
+"birthyear": "2008",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Star Pilots",
+"id": "2009_4_2",
+"birthyear": "2008",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.298, 57.638 ] 
+},
+"properties": {
+ "title": "Susanne Alfvengren",
+"id": "2009_4_3",
+"birthyear": "1959",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.298, 57.638 ] 
+},
+"properties": {
+ "title": "Susanne Alfvengren",
+"id": "2009_4_3",
+"birthyear": "1959",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 17.164, 61.259 ] 
+},
+"properties": {
+ "title": "Anna Sahlene & Maria Haukaas Storeng",
+"id": "2009_4_4",
+"birthyear": "1976",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Anna Sahlene & Maria Haukaas Storeng",
+"id": "2009_4_4",
+"birthyear": "1976",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 15.171, 57.124 ] 
+},
+"properties": {
+ "title": "Thorleifs",
+"id": "2009_4_5",
+"birthyear": "1962",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 15.171, 57.124 ] 
+},
+"properties": {
+ "title": "Thorleifs",
+"id": "2009_4_5",
+"birthyear": "1962",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 17.641, 59.859 ] 
+},
+"properties": {
+ "title": "Malena Ernman",
+"id": "2009_4_8",
+"birthyear": "1970",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.024, 59.333 ] 
+},
+"properties": {
+ "title": "Malena Ernman",
+"id": "2009_4_8",
+"birthyear": "1970",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 13.193, 55.703 ] 
+},
+"properties": {
+ "title": "Ola Svensson",
+"id": "2010_1_1",
+"birthyear": "1986",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Ola Svensson",
+"id": "2010_1_1",
+"birthyear": "1986",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 12.704, 56.044 ] 
+},
+"properties": {
+ "title": "Jenny Silver",
+"id": "2010_1_2",
+"birthyear": "1974",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 11.967, 57.707 ] 
+},
+"properties": {
+ "title": "Jenny Silver",
+"id": "2010_1_2",
+"birthyear": "1974",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 17.872, 59.366 ] 
+},
+"properties": {
+ "title": "Linda Pritchard",
+"id": "2010_1_3",
+"birthyear": "1983",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Linda Pritchard",
+"id": "2010_1_3",
+"birthyear": "1983",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 16.505, 59.372 ] 
+},
+"properties": {
+ "title": "Pain of Salvation",
+"id": "2010_1_4",
+"birthyear": "1991",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 16.505, 59.372 ] 
+},
+"properties": {
+ "title": "Pain of Salvation",
+"id": "2010_1_4",
+"birthyear": "1991",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Anders Ekborg",
+"id": "2010_1_5",
+"birthyear": "1960",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.168,  59.31 ] 
+},
+"properties": {
+ "title": "Anders Ekborg",
+"id": "2010_1_5",
+"birthyear": "1960",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [  17.95, 59.429 ] 
+},
+"properties": {
+ "title": "Frispråkarn",
+"id": "2010_1_7",
+"birthyear": "1980",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 17.958,  59.37 ] 
+},
+"properties": {
+ "title": "Frispråkarn",
+"id": "2010_1_7",
+"birthyear": "1980",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 17.975, 59.229 ] 
+},
+"properties": {
+ "title": "Salem Al Fakir",
+"id": "2010_1_8",
+"birthyear": "1981",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Salem Al Fakir",
+"id": "2010_1_8",
+"birthyear": "1981",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [  12.79,  56.14 ] 
+},
+"properties": {
+ "title": "Eric Saade",
+"id": "2010_2_1",
+"birthyear": "1990",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Eric Saade",
+"id": "2010_2_1",
+"birthyear": "1990",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 21.717, 41.617 ] 
+},
+"properties": {
+ "title": "Andra Generationen & Dogge Doggelito",
+"id": "2010_2_2",
+"birthyear": "1988",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 11.967, 57.707 ] 
+},
+"properties": {
+ "title": "Andra Generationen & Dogge Doggelito",
+"id": "2010_2_2",
+"birthyear": "1988",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 16.578, 62.418 ] 
+},
+"properties": {
+ "title": "Anna-Maria Espinosa",
+"id": "2010_2_3",
+"birthyear": "1979",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 17.965, 59.302 ] 
+},
+"properties": {
+ "title": "Anna-Maria Espinosa",
+"id": "2010_2_3",
+"birthyear": "1979",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 31.046, -17.832 ] 
+},
+"properties": {
+ "title": "Pauline",
+"id": "2010_2_5",
+"birthyear": "1982",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 14.139, 56.551 ] 
+},
+"properties": {
+ "title": "Pauline",
+"id": "2010_2_5",
+"birthyear": "1982",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 14.622, 61.119 ] 
+},
+"properties": {
+ "title": "Kalle Moraeus & Orsa Spelmän",
+"id": "2010_2_7",
+"birthyear": "1963",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 14.622, 61.119 ] 
+},
+"properties": {
+ "title": "Kalle Moraeus & Orsa Spelmän",
+"id": "2010_2_7",
+"birthyear": "1963",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 15.041, 58.542 ] 
+},
+"properties": {
+ "title": "Hanna Lindblad",
+"id": "2010_2_8",
+"birthyear": "1980",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [  11.91, 57.657 ] 
+},
+"properties": {
+ "title": "Hanna Lindblad",
+"id": "2010_2_8",
+"birthyear": "1980",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 15.558, 63.852 ] 
+},
+"properties": {
+ "title": "Johannes Bah Kuhnke",
+"id": "2010_3_2",
+"birthyear": "1972",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Johannes Bah Kuhnke",
+"id": "2010_3_2",
+"birthyear": "1972",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.307, 59.239 ] 
+},
+"properties": {
+ "title": "Erik Linder",
+"id": "2010_3_4",
+"birthyear": "1982",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.307, 59.239 ] 
+},
+"properties": {
+ "title": "Erik Linder",
+"id": "2010_3_4",
+"birthyear": "1982",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 23.822, -2.9814 ] 
+},
+"properties": {
+ "title": "Getty Domein",
+"id": "2010_3_5",
+"birthyear": "1977",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Getty Domein",
+"id": "2010_3_5",
+"birthyear": "1977",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 17.858, 59.165 ] 
+},
+"properties": {
+ "title": "Darin",
+"id": "2010_3_7",
+"birthyear": "1987",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Darin",
+"id": "2010_3_7",
+"birthyear": "1987",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Crucified Barbara",
+"id": "2010_3_8",
+"birthyear": "1998",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Crucified Barbara",
+"id": "2010_3_8",
+"birthyear": "1998",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.001, 59.361 ] 
+},
+"properties": {
+ "title": "Py Bäckman",
+"id": "2010_4_2",
+"birthyear": "1948",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 17.829,  59.42 ] 
+},
+"properties": {
+ "title": "Py Bäckman",
+"id": "2010_4_2",
+"birthyear": "1948",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 13.568, 58.024 ] 
+},
+"properties": {
+ "title": "NEO",
+"id": "2010_4_3",
+"birthyear": "1983",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 13.713, 58.271 ] 
+},
+"properties": {
+ "title": "NEO",
+"id": "2010_4_3",
+"birthyear": "1983",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Lovestoned",
+"id": "2010_4_4",
+"birthyear": "2007",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Lovestoned",
+"id": "2010_4_4",
+"birthyear": "2007",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 17.965, 59.302 ] 
+},
+"properties": {
+ "title": "Anna Bergendahl",
+"id": "2010_4_5",
+"birthyear": "1991",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Anna Bergendahl",
+"id": "2010_4_5",
+"birthyear": "1991",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.389, 59.326 ] 
+},
+"properties": {
+ "title": "Pernilla Wahlgren",
+"id": "2010_4_6",
+"birthyear": "1967",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.143, 59.365 ] 
+},
+"properties": {
+ "title": "Pernilla Wahlgren",
+"id": "2010_4_6",
+"birthyear": "1967",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 12.719, 58.188 ] 
+},
+"properties": {
+ "title": "Noll disciplin",
+"id": "2010_4_7",
+"birthyear": "2010",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 12.719, 58.188 ] 
+},
+"properties": {
+ "title": "Noll disciplin",
+"id": "2010_4_7",
+"birthyear": "2010",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Peter Jöback",
+"id": "2010_4_8",
+"birthyear": "1971",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.581, 59.315 ] 
+},
+"properties": {
+ "title": "Peter Jöback",
+"id": "2010_4_8",
+"birthyear": "1971",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 34.925,  38.96 ] 
+},
+"properties": {
+ "title": "Dilba",
+"id": "2011_1_1",
+"birthyear": "1971",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Dilba",
+"id": "2011_1_1",
+"birthyear": "1971",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ -73.95,  40.65 ] 
+},
+"properties": {
+ "title": "Swingfly",
+"id": "2011_1_2",
+"birthyear": "1963",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Swingfly",
+"id": "2011_1_2",
+"birthyear": "1963",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 12.167, 57.318 ] 
+},
+"properties": {
+ "title": "Jonas Matsson",
+"id": "2011_1_4",
+"birthyear": "1986",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Jonas Matsson",
+"id": "2011_1_4",
+"birthyear": "1986",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 13.193, 55.703 ] 
+},
+"properties": {
+ "title": "Le Kid",
+"id": "2011_1_5",
+"birthyear": "2008",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Le Kid",
+"id": "2011_1_5",
+"birthyear": "2008",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [     13, 55.605 ] 
+},
+"properties": {
+ "title": "Rasmus Viberg",
+"id": "2011_1_6",
+"birthyear": "1990",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [     13, 55.605 ] 
+},
+"properties": {
+ "title": "Rasmus Viberg",
+"id": "2011_1_6",
+"birthyear": "1990",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Pernilla Andersson",
+"id": "2011_1_7",
+"birthyear": "1974",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.764, 59.278 ] 
+},
+"properties": {
+ "title": "Pernilla Andersson",
+"id": "2011_1_7",
+"birthyear": "1974",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [  18.07, 59.313 ] 
+},
+"properties": {
+ "title": "Danny Saucedo",
+"id": "2011_1_8",
+"birthyear": "1986",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Danny Saucedo",
+"id": "2011_1_8",
+"birthyear": "1986",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 21.693, 65.827 ] 
+},
+"properties": {
+ "title": "Brolle",
+"id": "2011_2_1",
+"birthyear": "1981",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 21.177, 64.708 ] 
+},
+"properties": {
+ "title": "Brolle",
+"id": "2011_2_1",
+"birthyear": "1981",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.294, 59.482 ] 
+},
+"properties": {
+ "title": "Loreen",
+"id": "2011_2_2",
+"birthyear": "1983",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Loreen",
+"id": "2011_2_2",
+"birthyear": "1983",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [  17.33, 60.653 ] 
+},
+"properties": {
+ "title": "Babsan",
+"id": "2011_2_3",
+"birthyear": "1958",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Babsan",
+"id": "2011_2_3",
+"birthyear": "1958",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 11.967, 57.707 ] 
+},
+"properties": {
+ "title": "Elisabeth Andreassen",
+"id": "2011_2_4",
+"birthyear": "1958",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 10.663, 59.926 ] 
+},
+"properties": {
+ "title": "Elisabeth Andreassen",
+"id": "2011_2_4",
+"birthyear": "1958",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 14.119, 57.703 ] 
+},
+"properties": {
+ "title": "The Moniker",
+"id": "2011_2_6",
+"birthyear": "1981",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 11.967, 57.707 ] 
+},
+"properties": {
+ "title": "The Moniker",
+"id": "2011_2_6",
+"birthyear": "1981",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 14.273, 55.982 ] 
+},
+"properties": {
+ "title": "Anniela",
+"id": "2011_2_7",
+"birthyear": "1990",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Anniela",
+"id": "2011_2_7",
+"birthyear": "1990",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Christian Walz",
+"id": "2011_2_8",
+"birthyear": "1978",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.056, 59.437 ] 
+},
+"properties": {
+ "title": "Christian Walz",
+"id": "2011_2_8",
+"birthyear": "1978",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 13.158, 58.504 ] 
+},
+"properties": {
+ "title": "Linda Sundblad",
+"id": "2011_3_1",
+"birthyear": "1981",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.084, 59.295 ] 
+},
+"properties": {
+ "title": "Linda Sundblad",
+"id": "2011_3_1",
+"birthyear": "1981",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 20.263, 63.826 ] 
+},
+"properties": {
+ "title": "Simon Forsberg",
+"id": "2011_3_2",
+"birthyear": "1983",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Simon Forsberg",
+"id": "2011_3_2",
+"birthyear": "1983",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Sara Lumholdt",
+"id": "2011_3_3",
+"birthyear": "1984",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Sara Lumholdt",
+"id": "2011_3_3",
+"birthyear": "1984",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 15.287, 56.246 ] 
+},
+"properties": {
+ "title": "The Playtones",
+"id": "2011_3_4",
+"birthyear": "2008",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 15.287, 56.246 ] 
+},
+"properties": {
+ "title": "The Playtones",
+"id": "2011_3_4",
+"birthyear": "2008",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Shirley's Angels",
+"id": "2011_3_5",
+"birthyear": "2010",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Shirley's Angels",
+"id": "2011_3_5",
+"birthyear": "2010",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Sara Varga",
+"id": "2011_3_7",
+"birthyear": "1982",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Sara Varga",
+"id": "2011_3_7",
+"birthyear": "1982",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 14.809, 56.879 ] 
+},
+"properties": {
+ "title": "Melody Club",
+"id": "2011_4_1",
+"birthyear": "2000",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Melody Club",
+"id": "2011_4_1",
+"birthyear": "2000",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 12.941, 57.721 ] 
+},
+"properties": {
+ "title": "Julia Alvgard",
+"id": "2011_4_2",
+"birthyear": "1986",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Julia Alvgard",
+"id": "2011_4_2",
+"birthyear": "1986",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 14.157, 56.029 ] 
+},
+"properties": {
+ "title": "Lasse Stefanz",
+"id": "2011_4_3",
+"birthyear": "1967",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 14.157, 56.029 ] 
+},
+"properties": {
+ "title": "Lasse Stefanz",
+"id": "2011_4_3",
+"birthyear": "1967",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 12.362, 57.808 ] 
+},
+"properties": {
+ "title": "Anders Fernette",
+"id": "2011_4_5",
+"birthyear": "1978",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 12.269,  57.77 ] 
+},
+"properties": {
+ "title": "Anders Fernette",
+"id": "2011_4_5",
+"birthyear": "1978",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 14.698, 57.653 ] 
+},
+"properties": {
+ "title": "Nicke Borg",
+"id": "2011_4_7",
+"birthyear": "1973",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Nicke Borg",
+"id": "2011_4_7",
+"birthyear": "1973",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Love Generation",
+"id": "2011_4_8",
+"birthyear": "2010",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Love Generation",
+"id": "2011_4_8",
+"birthyear": "2010",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 51.421, 35.687 ] 
+},
+"properties": {
+ "title": "Sean Banan",
+"id": "2012_1_1",
+"birthyear": "1985",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Sean Banan",
+"id": "2012_1_1",
+"birthyear": "1985",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [  16.64, 57.756 ] 
+},
+"properties": {
+ "title": "Abalone Dots",
+"id": "2012_1_2",
+"birthyear": "2000",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [  16.64, 57.756 ] 
+},
+"properties": {
+ "title": "Abalone Dots",
+"id": "2012_1_2",
+"birthyear": "2000",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 11.967, 57.707 ] 
+},
+"properties": {
+ "title": "Dead by April",
+"id": "2012_1_5",
+"birthyear": "2007",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 11.967, 57.707 ] 
+},
+"properties": {
+ "title": "Dead by April",
+"id": "2012_1_5",
+"birthyear": "2007",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.001, 59.361 ] 
+},
+"properties": {
+ "title": "Thorsten Flinck & Revolutionsorkestern",
+"id": "2012_1_7",
+"birthyear": "1961",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 14.809, 56.879 ] 
+},
+"properties": {
+ "title": "Thorsten Flinck & Revolutionsorkestern",
+"id": "2012_1_7",
+"birthyear": "1961",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 11.934, 57.544 ] 
+},
+"properties": {
+ "title": "Ulrik Munther",
+"id": "2012_2_1",
+"birthyear": "1994",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [  18.07, 59.313 ] 
+},
+"properties": {
+ "title": "Ulrik Munther",
+"id": "2012_2_1",
+"birthyear": "1994",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 12.999, 60.138 ] 
+},
+"properties": {
+ "title": "Top Cats",
+"id": "2012_2_2",
+"birthyear": "2001",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 12.999, 60.138 ] 
+},
+"properties": {
+ "title": "Top Cats",
+"id": "2012_2_2",
+"birthyear": "2001",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 20.898, 64.848 ] 
+},
+"properties": {
+ "title": "David Lindgren",
+"id": "2012_2_6",
+"birthyear": "1982",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.581, 59.315 ] 
+},
+"properties": {
+ "title": "David Lindgren",
+"id": "2012_2_6",
+"birthyear": "1982",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 17.965, 59.302 ] 
+},
+"properties": {
+ "title": "Mimi Oh",
+"id": "2012_2_7",
+"birthyear": "1986",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Mimi Oh",
+"id": "2012_2_7",
+"birthyear": "1986",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 17.147, 60.675 ] 
+},
+"properties": {
+ "title": "Thomas Di Leva",
+"id": "2012_2_8",
+"birthyear": "1963",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.181, 59.257 ] 
+},
+"properties": {
+ "title": "Thomas Di Leva",
+"id": "2012_2_8",
+"birthyear": "1963",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Youngblood",
+"id": "2012_3_1",
+"birthyear": "2011",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Youngblood",
+"id": "2012_3_1",
+"birthyear": "2011",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 16.546, 59.611 ] 
+},
+"properties": {
+ "title": "Mattias Andréasson",
+"id": "2012_3_3",
+"birthyear": "1981",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Mattias Andréasson",
+"id": "2012_3_3",
+"birthyear": "1981",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 12.454, 58.699 ] 
+},
+"properties": {
+ "title": "Carolina Wallin Pérez",
+"id": "2012_3_5",
+"birthyear": "1982",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 17.965, 59.302 ] 
+},
+"properties": {
+ "title": "Carolina Wallin Pérez",
+"id": "2012_3_5",
+"birthyear": "1982",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [     13, 55.605 ] 
+},
+"properties": {
+ "title": "Björn Ranelid & Sara Li",
+"id": "2012_3_8",
+"birthyear": "1949",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [  18.07, 59.313 ] 
+},
+"properties": {
+ "title": "Björn Ranelid & Sara Li",
+"id": "2012_3_8",
+"birthyear": "1949",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [     13, 55.605 ] 
+},
+"properties": {
+ "title": "OPA",
+"id": "2012_4_2",
+"birthyear": "2007",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [     13, 55.605 ] 
+},
+"properties": {
+ "title": "OPA",
+"id": "2012_4_2",
+"birthyear": "2007",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Dynazty",
+"id": "2012_4_3",
+"birthyear": "2007",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Dynazty",
+"id": "2012_4_3",
+"birthyear": "2007",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 22.844, 66.327 ] 
+},
+"properties": {
+ "title": "Lotta Engberg & Christer Sjögren",
+"id": "2012_4_4",
+"birthyear": "1963",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.033, 59.588 ] 
+},
+"properties": {
+ "title": "Lotta Engberg & Christer Sjögren",
+"id": "2012_4_4",
+"birthyear": "1963",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 14.978, 58.038 ] 
+},
+"properties": {
+ "title": "Axel Algmark",
+"id": "2012_4_6",
+"birthyear": "1990",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Axel Algmark",
+"id": "2012_4_6",
+"birthyear": "1990",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 20.373, 63.708 ] 
+},
+"properties": {
+ "title": "Lisa Miskovsky",
+"id": "2012_4_7",
+"birthyear": "1975",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 20.263, 63.826 ] 
+},
+"properties": {
+ "title": "Lisa Miskovsky",
+"id": "2012_4_7",
+"birthyear": "1975",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 12.291, 58.283 ] 
+},
+"properties": {
+ "title": "Jay-Jay Johanson",
+"id": "2013_1_3",
+"birthyear": "1968",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 17.958,  59.37 ] 
+},
+"properties": {
+ "title": "Jay-Jay Johanson",
+"id": "2013_1_3",
+"birthyear": "1968",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 17.958,  59.37 ] 
+},
+"properties": {
+ "title": "Mary N'diaye",
+"id": "2013_1_4",
+"birthyear": "1987",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Mary N'diaye",
+"id": "2013_1_4",
+"birthyear": "1987",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.298, 57.638 ] 
+},
+"properties": {
+ "title": "Eric Gadd",
+"id": "2013_1_5",
+"birthyear": "1965",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Eric Gadd",
+"id": "2013_1_5",
+"birthyear": "1965",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Yohio",
+"id": "2013_1_6",
+"birthyear": "1995",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [  17.31, 62.392 ] 
+},
+"properties": {
+ "title": "Yohio",
+"id": "2013_1_6",
+"birthyear": "1995",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 24.944, 60.167 ] 
+},
+"properties": {
+ "title": "Anna Järvinen",
+"id": "2013_1_7",
+"birthyear": "1970",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Anna Järvinen",
+"id": "2013_1_7",
+"birthyear": "1970",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 11.967, 57.707 ] 
+},
+"properties": {
+ "title": "Michael Feiner & Caisa",
+"id": "2013_1_8",
+"birthyear": "1971",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Michael Feiner & Caisa",
+"id": "2013_1_8",
+"birthyear": "1971",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Anton Ewald",
+"id": "2013_2_1",
+"birthyear": "1993",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Anton Ewald",
+"id": "2013_2_1",
+"birthyear": "1993",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 16.505, 59.372 ] 
+},
+"properties": {
+ "title": "Felicia Olsson",
+"id": "2013_2_2",
+"birthyear": "1994",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 16.505, 59.372 ] 
+},
+"properties": {
+ "title": "Felicia Olsson",
+"id": "2013_2_2",
+"birthyear": "1994",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 14.553,  61.01 ] 
+},
+"properties": {
+ "title": "Joacim Cans",
+"id": "2013_2_3",
+"birthyear": "1970",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 11.967, 57.707 ] 
+},
+"properties": {
+ "title": "Joacim Cans",
+"id": "2013_2_3",
+"birthyear": "1970",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 16.567, 61.229 ] 
+},
+"properties": {
+ "title": "Swedish House Wives",
+"id": "2013_2_4",
+"birthyear": "2012",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Swedish House Wives",
+"id": "2013_2_4",
+"birthyear": "2012",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 11.552, 58.254 ] 
+},
+"properties": {
+ "title": "Erik Segerstedt & Tone Damli",
+"id": "2013_2_5",
+"birthyear": "1983",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Erik Segerstedt & Tone Damli",
+"id": "2013_2_5",
+"birthyear": "1983",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 15.625,  58.41 ] 
+},
+"properties": {
+ "title": "Louise Hoffsten",
+"id": "2013_2_6",
+"birthyear": "1965",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [  18.07, 59.288 ] 
+},
+"properties": {
+ "title": "Louise Hoffsten",
+"id": "2013_2_6",
+"birthyear": "1965",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.088, 59.245 ] 
+},
+"properties": {
+ "title": "Rikard Wolff & Sara Isaksson",
+"id": "2013_2_7",
+"birthyear": "1958",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Rikard Wolff & Sara Isaksson",
+"id": "2013_2_7",
+"birthyear": "1958",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 17.944, 59.403 ] 
+},
+"properties": {
+ "title": "Eddie Razaz",
+"id": "2013_3_1",
+"birthyear": "1988",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Eddie Razaz",
+"id": "2013_3_1",
+"birthyear": "1988",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [  16.19, 58.591 ] 
+},
+"properties": {
+ "title": "Elin Petersson",
+"id": "2013_3_2",
+"birthyear": "1981",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Elin Petersson",
+"id": "2013_3_2",
+"birthyear": "1981",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [  19.48, 64.913 ] 
+},
+"properties": {
+ "title": "Ravaillacz",
+"id": "2013_3_3",
+"birthyear": "2013",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Ravaillacz",
+"id": "2013_3_3",
+"birthyear": "2013",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 13.824, 55.933 ] 
+},
+"properties": {
+ "title": "Amanda Fondell",
+"id": "2013_3_4",
+"birthyear": "1994",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.105, 59.282 ] 
+},
+"properties": {
+ "title": "Amanda Fondell",
+"id": "2013_3_4",
+"birthyear": "1994",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 12.118, 57.813 ] 
+},
+"properties": {
+ "title": "Martin Rolinski",
+"id": "2013_3_5",
+"birthyear": "1982",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Martin Rolinski",
+"id": "2013_3_5",
+"birthyear": "1982",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 13.512, 57.606 ] 
+},
+"properties": {
+ "title": "State of Drama",
+"id": "2013_3_7",
+"birthyear": "2009",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 12.941, 57.721 ] 
+},
+"properties": {
+ "title": "State of Drama",
+"id": "2013_3_7",
+"birthyear": "2009",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 11.967, 57.707 ] 
+},
+"properties": {
+ "title": "Janet Leon",
+"id": "2013_3_8",
+"birthyear": "1990",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 11.967, 57.707 ] 
+},
+"properties": {
+ "title": "Janet Leon",
+"id": "2013_3_8",
+"birthyear": "1990",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [     13, 55.605 ] 
+},
+"properties": {
+ "title": "Lucia Piñera",
+"id": "2013_4_2",
+"birthyear": "1993",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [     13, 55.605 ] 
+},
+"properties": {
+ "title": "Lucia Piñera",
+"id": "2013_4_2",
+"birthyear": "1993",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 13.765, 56.158 ] 
+},
+"properties": {
+ "title": "Robin Stjernberg",
+"id": "2013_4_3",
+"birthyear": "1991",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Robin Stjernberg",
+"id": "2013_4_3",
+"birthyear": "1991",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 12.004, 57.698 ] 
+},
+"properties": {
+ "title": "Ralf Gyllenhammar",
+"id": "2013_4_5",
+"birthyear": "1966",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.076, 59.533 ] 
+},
+"properties": {
+ "title": "Ralf Gyllenhammar",
+"id": "2013_4_5",
+"birthyear": "1966",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 13.193, 55.703 ] 
+},
+"properties": {
+ "title": "Behrang Miri & Loulou Lamotte & Oscar Zia",
+"id": "2013_4_6",
+"birthyear": "1984",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Behrang Miri & Loulou Lamotte & Oscar Zia",
+"id": "2013_4_6",
+"birthyear": "1984",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.056, 59.437 ] 
+},
+"properties": {
+ "title": "Terese Fredenwall",
+"id": "2013_4_7",
+"birthyear": "1986",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.084, 59.295 ] 
+},
+"properties": {
+ "title": "Terese Fredenwall",
+"id": "2013_4_7",
+"birthyear": "1986",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 51.421, 35.687 ] 
+},
+"properties": {
+ "title": "Mahan Moin",
+"id": "2014_1_2",
+"birthyear": "1982",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 12.704, 56.044 ] 
+},
+"properties": {
+ "title": "Mahan Moin",
+"id": "2014_1_2",
+"birthyear": "1982",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 13.663, 55.854 ] 
+},
+"properties": {
+ "title": "Linus Svenning",
+"id": "2014_1_3",
+"birthyear": "1990",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 13.663, 55.854 ] 
+},
+"properties": {
+ "title": "Linus Svenning",
+"id": "2014_1_3",
+"birthyear": "1990",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 14.124, 58.708 ] 
+},
+"properties": {
+ "title": "Elisa Lindström",
+"id": "2014_1_4",
+"birthyear": "1991",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 13.844,  58.39 ] 
+},
+"properties": {
+ "title": "Elisa Lindström",
+"id": "2014_1_4",
+"birthyear": "1991",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [  17.95, 59.429 ] 
+},
+"properties": {
+ "title": "Alvaro Estrella",
+"id": "2014_1_5",
+"birthyear": "1980",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.056, 59.437 ] 
+},
+"properties": {
+ "title": "Alvaro Estrella",
+"id": "2014_1_5",
+"birthyear": "1980",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 12.936, 55.583 ] 
+},
+"properties": {
+ "title": "Ellen Benediktson",
+"id": "2014_1_6",
+"birthyear": "1995",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 12.936, 55.583 ] 
+},
+"properties": {
+ "title": "Ellen Benediktson",
+"id": "2014_1_6",
+"birthyear": "1995",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 15.215, 59.275 ] 
+},
+"properties": {
+ "title": "Sylvester Schlegel",
+"id": "2014_1_7",
+"birthyear": "1976",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [     13, 55.605 ] 
+},
+"properties": {
+ "title": "Sylvester Schlegel",
+"id": "2014_1_7",
+"birthyear": "1976",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 12.941, 57.721 ] 
+},
+"properties": {
+ "title": "Helena Paparizou",
+"id": "2014_1_8",
+"birthyear": "1982",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 23.728, 37.984 ] 
+},
+"properties": {
+ "title": "Helena Paparizou",
+"id": "2014_1_8",
+"birthyear": "1982",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 15.625,  58.41 ] 
+},
+"properties": {
+ "title": "J.E.M",
+"id": "2014_2_1",
+"birthyear": "2012",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 15.625,  58.41 ] 
+},
+"properties": {
+ "title": "J.E.M",
+"id": "2014_2_1",
+"birthyear": "2012",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 17.147, 60.675 ] 
+},
+"properties": {
+ "title": "The Refreshments",
+"id": "2014_2_2",
+"birthyear": "1989",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 17.147, 60.675 ] 
+},
+"properties": {
+ "title": "The Refreshments",
+"id": "2014_2_2",
+"birthyear": "1989",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 13.022, 55.722 ] 
+},
+"properties": {
+ "title": "Manda",
+"id": "2014_2_3",
+"birthyear": "1994",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 13.022, 55.722 ] 
+},
+"properties": {
+ "title": "Manda",
+"id": "2014_2_3",
+"birthyear": "1994",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.132, 59.142 ] 
+},
+"properties": {
+ "title": "Panetoz",
+"id": "2014_2_4",
+"birthyear": "2001",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.132, 59.142 ] 
+},
+"properties": {
+ "title": "Panetoz",
+"id": "2014_2_4",
+"birthyear": "2001",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [  12.55, 56.203 ] 
+},
+"properties": {
+ "title": "Pink Pistols",
+"id": "2014_2_5",
+"birthyear": "2013",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 12.704, 56.044 ] 
+},
+"properties": {
+ "title": "Pink Pistols",
+"id": "2014_2_5",
+"birthyear": "2013",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Little Great Things",
+"id": "2014_2_7",
+"birthyear": "2009",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Little Great Things",
+"id": "2014_2_7",
+"birthyear": "2009",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 12.704, 56.044 ] 
+},
+"properties": {
+ "title": "Outtrigger",
+"id": "2014_3_1",
+"birthyear": "2009",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 12.704, 56.044 ] 
+},
+"properties": {
+ "title": "Outtrigger",
+"id": "2014_3_1",
+"birthyear": "2009",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 20.959, 64.752 ] 
+},
+"properties": {
+ "title": "Eko",
+"id": "2014_3_2",
+"birthyear": "2013",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Eko",
+"id": "2014_3_2",
+"birthyear": "2013",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 13.274, 55.555 ] 
+},
+"properties": {
+ "title": "Oscar Zia",
+"id": "2014_3_3",
+"birthyear": "1996",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 13.238, 55.515 ] 
+},
+"properties": {
+ "title": "Oscar Zia",
+"id": "2014_3_3",
+"birthyear": "1996",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "CajsaStina Åkerström",
+"id": "2014_3_6",
+"birthyear": "1967",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 16.103,   56.5 ] 
+},
+"properties": {
+ "title": "CajsaStina Åkerström",
+"id": "2014_3_6",
+"birthyear": "1967",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Ace Wilder",
+"id": "2014_3_7",
+"birthyear": "1982",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.071, 59.325 ] 
+},
+"properties": {
+ "title": "Ace Wilder",
+"id": "2014_3_7",
+"birthyear": "1982",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [    6.8,    5.7 ] 
+},
+"properties": {
+ "title": "Dr. Alban & Jessica Folcker",
+"id": "2014_3_8",
+"birthyear": "1957",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 18.086, 59.337 ] 
+},
+"properties": {
+ "title": "Dr. Alban & Jessica Folcker",
+"id": "2014_3_8",
+"birthyear": "1957",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 16.183, 60.147 ] 
+},
+"properties": {
+ "title": "I.D.A",
+"id": "2014_4_2",
+"birthyear": "1985",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 16.183, 60.147 ] 
+},
+"properties": {
+ "title": "I.D.A",
+"id": "2014_4_2",
+"birthyear": "1985",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 13.844,  58.39 ] 
+},
+"properties": {
+ "title": "Ammotrack",
+"id": "2014_4_4",
+"birthyear": "2004",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 13.844,  58.39 ] 
+},
+"properties": {
+ "title": "Ammotrack",
+"id": "2014_4_4",
+"birthyear": "2004",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 9.4001, 33.844 ] 
+},
+"properties": {
+ "title": "Josef Johansson",
+"id": "2014_4_5",
+"birthyear": "1993",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 17.874, 59.266 ] 
+},
+"properties": {
+ "title": "Josef Johansson",
+"id": "2014_4_5",
+"birthyear": "1993",
+"place": "residence" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 17.105, 61.728 ] 
+},
+"properties": {
+ "title": "Ellinore Holmer",
+"id": "2014_4_7",
+"birthyear": "1989",
+"place": "birth" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [ 17.105, 61.728 ] 
+},
+"properties": {
+ "title": "Ellinore Holmer",
+"id": "2014_4_7",
+"birthyear": "1989",
+"place": "residence" 
+} 
+} 
+] 
+}
