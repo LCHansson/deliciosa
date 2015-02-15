@@ -406,6 +406,15 @@ ul.nav-pills .subtitle {
     color: #ffffff;
 }
 
+#thirdPost .modal-header {
+    background-color: #fdba00;
+    color: #ffffff;
+}
+
+#thirdPost ol li:before {
+    color: #fdba00;
+}
+
 /* Tables */
 
 table.dataTable {
