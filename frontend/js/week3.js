@@ -352,6 +352,11 @@ function buildTmTable() {
 
 }
 
+function buildNetwork() {
+
+
+}
+
 function week3() {
     $.ajax({
         type: "GET",
@@ -378,6 +383,8 @@ function week3() {
     });
 
     buildTmTable();
+
+    buildNetwork();
     /*
     console.log("Before");
     sigma.parsers.json('data/arctic.json', {
