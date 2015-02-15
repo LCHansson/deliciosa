@@ -214,7 +214,7 @@ function buildTmTable() {
                 //html += '<div style="text-align: center; font-family: "League Spartan">'
                 //html += '<text class="highcharts-title" text-anchor="middle"><tspan>Top 5 framgångsrika mellolåtar</tspan></text>';
                 html += "<h4 class='text-center' style='margin-top: 2em;'>Top 5 framgångsrika mellolåtar</h4>";
-                html += '<ol style="text-align: left">'
+                html += '<ol class="small">'
                 for (var i=0; i<response.sucessfull_songs.length; ++i) {
                     html += '<li>' + response.sucessfull_songs[i] + '</li>'
                 }
