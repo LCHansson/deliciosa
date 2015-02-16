@@ -60,8 +60,14 @@ def build_graph(all_data):
              "Tim Larsson", u"Peter Boström", "Tobias Lundgren", "Johan Fransson",
              "Ingela \"Pling\" Forsman", "Niklas Edberger"])
     tm_ids, ids_tm = get_id_of_all_tms(all_data)
+    nsongs = {}
     for song in all_data.values():
         tms = set(song["tm_list"])
+        for tm in tms:
+            if tm_ids[tm] in nsongs:
+                nsongs[tm_ids[tm]] += 1
+            else:
+                nsongs[tm_ids[tm]] = 1
         tms_in_top10 = tms.intersection(top10)
 
         if len(tms_in_top10) == 0:
@@ -73,9 +79,9 @@ def build_graph(all_data):
             if not graph.__contains__(id):
                 if tm in top10:
                     print "In top 10:", tm
-                    graph.add_node(id, name=tm, group=0)
+                    graph.add_node(id, name=tm, group=u"Top 10")
                 else:
-                    graph.add_node(id, name=tm, group=1)
+                    graph.add_node(id, name=tm, group=u"Samarbetade med någon i top 10")
 
         # add the edges
         # edges between all in top 10
@@ -94,6 +100,10 @@ def build_graph(all_data):
                     graph.edge[source[0]][target[0]]["weight"] += 1
                 else:
                     graph.add_edge(source[0], target[0], weight=1)
+
+    # add the number of songs as a property of the node
+    for n in graph.nodes(data=True):
+        graph.node[n[0]]['nsongs'] = nsongs[n[0]]
 
     return graph
 
@@ -176,6 +186,38 @@ def print_graph2file(graph, nodes_file, edges_file):
     outf.close()
 
 
+def write_data_to_json(data, filename):
+    obj = open(filename, "w")
+    json.dump(data, obj, indent=4, sort_keys=True, encoding="utf-8", ensure_ascii=False)
+    obj.close()
+
+def print_graph2file_flowingdata(graph, outfile):
+    nodes = []
+    for n in graph.nodes(data=True):
+        info = {"id": str(n[0]),
+                "name": n[1]["name"].encode("utf-8"),
+                "group": n[1]["group"].encode("utf-8"),
+                "nsongs": n[1]["nsongs"]
+                }
+        nodes.append(info)
+
+    edges = []
+    for e in graph.edges(data=True):
+        edge = {
+            "source": e[0],
+            "target": e[1],
+            "weight": e[2]["weight"]
+        }
+        edges.append(edge)
+
+    r = {
+       "nodes": nodes,
+       "links": edges
+    }
+
+    write_data_to_json(r, outfile)
+
+
 if __name__ == '__main__':
     all_data = json.load(open("/Users/luminitamoruz/work/deliciosa/posts/tm/data/all_participants_data_2002_2014_gender_curated.json"), encoding="utf-8")
     #all_data = json.load(open("/Users/luminitamoruz/work/deliciosa/posts/tm/data/test.json"), encoding="utf-8")
@@ -189,5 +231,7 @@ if __name__ == '__main__':
     #print_graph(final_graph)
 
     # write the graph to a file
-    print_graph2file(graph, "/Users/luminitamoruz/work/deliciosa/posts/tm/data/nodes.csv",
-                     "/Users/luminitamoruz/work/deliciosa/posts/tm/data/edges.csv")
+    #print_graph2file(graph, "/Users/luminitamoruz/work/deliciosa/posts/tm/data/nodes.csv",
+    #                 "/Users/luminitamoruz/work/deliciosa/posts/tm/data/edges.csv")
+
+    print_graph2file_flowingdata(graph, "/Users/luminitamoruz/work/deliciosa/posts/tm/data/tm_flowingdata.json")

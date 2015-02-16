@@ -1,0 +1,98 @@
+{
+  "2002_1_1": {
+    "artist": "Excellence",
+    "artist_gender": [
+      "F",
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "tm": "Daniel Eklund(tm)",
+    "tm_genders": [
+      "M"
+    ],
+    "tm_list": [
+      "Daniel Eklund"
+    ]
+  },
+  "2002_1_2": {
+    "artist": "Tom Nordahl",
+    "artist_gender": [
+      "M"
+    ],
+    "tm": "Py Bäckman(t), & Micke Wennborn(m)",
+    "tm_genders": [
+      "F",
+      "M"
+    ],
+    "tm_list": [
+      "Py Bäckman",
+      "Micke Wennborn"
+    ]
+  },
+  "2002_1_67": {
+    "artist": "Tom Nordahl",
+    "artist_gender": [
+      "M"
+    ],
+    "tm": "Py Bäckman(t), & Micke Wennborn(m)",
+    "tm_genders": [
+      "F",
+      "M"
+    ],
+    "tm_list": [
+      "Py Bäckman",
+      "Daniel Eklund"
+    ]
+  },
+  "2002_1_8": {
+    "artist": "Méndez",
+    "artist_gender": [
+      "M"
+    ],
+    "tm": "Robert Wåtz(tm), & Rasmus Lindwall(tm), & Leopoldo Méndez(tm), & Patrik Henzel(tm), & Pablo Cepeda(tm)",
+    "tm_genders": [
+      "M",
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "tm_list": [
+      "Robert Wåtz",
+      "Rasmus Lindwall",
+      "Leopoldo Méndez"
+    ]
+  },
+  "2002_1_28": {
+    "artist": "Méndez",
+    "artist_gender": [
+      "M"
+    ],
+    "tm": "Robert Wåtz(tm), & Rasmus Lindwall(tm), & Leopoldo Méndez(tm), & Patrik Henzel(tm), & Pablo Cepeda(tm)",
+    "tm_genders": [
+      "M",
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "tm_list": [
+      "Daniel Eklund",
+      "Py Bäckman"
+    ]
+  },
+  "X": {
+    "tm_list": [
+      "X"
+    ]
+  },
+  "Y": {
+    "tm_list": [
+      "Y"
+    ]
+  }
+}
+
+

@@ -1,14 +1,5 @@
-body {
-  font-family: Arial, sans-serif;
-}
-
-a, a:visited {
-  color: #4d4d4d;
-  text-decoration: underline;
-}
-
 #container {
-  width: 940px;
+  width: 90%;
   padding: 5px 0 10px 0;
   margin: auto;
 }
@@ -29,10 +20,9 @@ a, a:visited {
 }
 
 .control a {
-  color: black;
+  color: #fdba00;
   font-size: 12px;
   padding: 5px;
-  background: #E2E2E2;
   cursor: pointer;
   margin-right: 3px;
   text-decoration: none;
@@ -44,27 +34,7 @@ a, a:visited {
 
 .control a.active {
   color: white;
-  background: #555;
-}
-
-p.search_title {
-  display: inline;
-  text-align: left;  
-  font-weight: normal;
-  color: #777;
-}
-
-#search_section {
-  padding-top: 23px;
-  padding-left: 20px;
-}
-
-#search_form #search {
-  margin-left: 10px;
-}
-
-footer p {
-  text-align: center;
+  background: #fdba00;
 }
 
 .tooltip {

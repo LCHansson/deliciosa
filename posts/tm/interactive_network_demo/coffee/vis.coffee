@@ -131,7 +131,7 @@ Network = () ->
   # our force directed layout
   force = d3.layout.force()
   # color function used to color nodes
-  nodeColors = d3.scale.category20()
+  nodeColors = d3.scale.category10()
   # tooltip used to display details
   tooltip = Tooltip("vis-tooltip", 230)
 
@@ -232,7 +232,7 @@ Network = () ->
         d.searched = true
       else
         d.searched = false
-        element.style("fill", (d) -> nodeColors(d.artist))
+        element.style("fill", (d) -> nodeColors(d.group))
           .style("stroke-width", 1.0)
 
   network.updateData = (newData) ->
@@ -246,7 +246,7 @@ Network = () ->
   # Returns modified data
   setupData = (data) ->
     # initialize circle radius scale
-    countExtent = d3.extent(data.nodes, (d) -> d.playcount)
+    countExtent = d3.extent(data.nodes, (d) -> d.nsongs)
     circleRadius = d3.scale.sqrt().range([3, 12]).domain(countExtent)
 
     data.nodes.forEach (n) ->
@@ -255,7 +255,7 @@ Network = () ->
       n.x = randomnumber=Math.floor(Math.random()*width)
       n.y = randomnumber=Math.floor(Math.random()*height)
       # add radius to the node so we can use it later
-      n.radius = circleRadius(n.playcount)
+      n.radius = circleRadius(n.nsongs)
 
     # id's -> node objects
     nodesMap  = mapNodes(data.nodes)
@@ -263,12 +263,10 @@ Network = () ->
     # switch links to point to node objects instead of id's
     data.links.forEach (l) ->
       l.source = nodesMap.get(l.source)
-#      console.log(l.source)
       l.target = nodesMap.get(l.target)
-#      console.log(l.target)
 
       # linkedByIndex is used for link sorting
-      linkedByIndex['#{l.source.id},#{l.target.id}'] = 1
+      linkedByIndex["#{l.source.id},#{l.target.id}"] = 1
 
     data
 
@@ -303,13 +301,13 @@ Network = () ->
   filterNodes = (allNodes) ->
     filteredNodes = allNodes
     if filter == "popular" or filter == "obscure"
-      playcounts = allNodes.map((d) -> d.playcount).sort(d3.ascending)
+      playcounts = allNodes.map((d) -> d.nsongs).sort(d3.ascending)
       cutoff = d3.quantile(playcounts, 0.5)
       filteredNodes = allNodes.filter (n) ->
         if filter == "popular"
-          n.playcount > cutoff
+          n.nsongs > cutoff
         else if filter == "obscure"
-          n.playcount <= cutoff
+          n.nsongs <= cutoff
 
     filteredNodes
 
@@ -320,13 +318,13 @@ Network = () ->
     if sort == "links"
       counts = {}
       links.forEach (l) ->
-        counts[l.source.artist] ?= 0
-        counts[l.source.artist] += 1
-        counts[l.target.artist] ?= 0
-        counts[l.target.artist] += 1
+        counts[l.source.group] ?= 0
+        counts[l.source.group] += 1
+        counts[l.target.group] ?= 0
+        counts[l.target.group] += 1
       # add any missing artists that dont have any links
       nodes.forEach (n) ->
-        counts[n.artist] ?= 0
+        counts[n.group] ?= 0
 
       # sort based on counts
       artists = d3.entries(counts).sort (a,b) ->
@@ -365,7 +363,7 @@ Network = () ->
       .attr("cx", (d) -> d.x)
       .attr("cy", (d) -> d.y)
       .attr("r", (d) -> d.radius)
-      .style("fill", (d) -> nodeColors(d.artist))
+      .style("fill", (d) -> nodeColors(d.group))
       .style("stroke", (d) -> strokeFor(d))
       .style("stroke-width", 1.0)
 
@@ -438,7 +436,7 @@ Network = () ->
   moveToRadialLayout = (alpha) ->
     k = alpha * 0.1
     (d) ->
-      centerNode = groupCenters(d.artist)
+      centerNode = groupCenters(d.group)
       d.x += (centerNode.x - d.x) * k
       d.y += (centerNode.y - d.y) * k
 
@@ -446,13 +444,13 @@ Network = () ->
   # Helper function that returns stroke color for
   # particular node.
   strokeFor = (d) ->
-    d3.rgb(nodeColors(d.artist)).darker().toString()
+    d3.rgb(nodeColors(d.group)).darker().toString()
 
   # Mouseover tooltip function
   showDetails = (d,i) ->
-    content = '<p class="main">' + d.name + '</span></p>'
+    content = '<p class="main"><b>' + d.name + '</b></span></p>'
     content += '<hr class="tooltip-hr">'
-    content += '<p class="main">' + d.artist + '</span></p>'
+    content += '<p class="main">' + d.nsongs + ' mellolåt(ar)</span></p>'
     tooltip.showTooltip(content,d3.event)
 
     # higlight connected links
@@ -500,29 +498,30 @@ activate = (group, link) ->
 $ ->
   myNetwork = Network()
 
-  d3.selectAll("#layouts a").on "click", (d) ->
-    newLayout = d3.select(this).attr("id")
-    activate("layouts", newLayout)
-    myNetwork.toggleLayout(newLayout)
+#
+#  d3.selectAll("#layouts a").on "click", (d) ->
+#    newLayout = d3.select(this).attr("id")
+#    activate("layouts", newLayout)
+#    myNetwork.toggleLayout(newLayout)
+#
+#  d3.selectAll("#filters a").on "click", (d) ->
+#    newFilter = d3.select(this).attr("id")
+#    activate("filters", newFilter)
+#    myNetwork.toggleFilter(newFilter)
+#
+#  d3.selectAll("#sorts a").on "click", (d) ->
+#    newSort = d3.select(this).attr("id")
+#    activate("sorts", newSort)
+#    myNetwork.toggleSort(newSort)
+#
+#  $("#song_select").on "change", (e) ->
+#    songFile = $(this).val()
+#    d3.json "data/#{songFile}", (json) ->
+#      myNetwork.updateData(json)
+#
+#  $("#search").keyup () ->
+#    searchTerm = $(this).val()
+#    myNetwork.updateSearch(searchTerm)
 
-  d3.selectAll("#filters a").on "click", (d) ->
-    newFilter = d3.select(this).attr("id")
-    activate("filters", newFilter)
-    myNetwork.toggleFilter(newFilter)
-
-  d3.selectAll("#sorts a").on "click", (d) ->
-    newSort = d3.select(this).attr("id")
-    activate("sorts", newSort)
-    myNetwork.toggleSort(newSort)
-
-  $("#song_select").on "change", (e) ->
-    songFile = $(this).val()
-    d3.json "data/#{songFile}", (json) ->
-      myNetwork.updateData(json)
-  
-  $("#search").keyup () ->
-    searchTerm = $(this).val()
-    myNetwork.updateSearch(searchTerm)
-
-  d3.json "data/mello_songwriters.json", (json) ->
+  d3.json "data/tm_flowingdata.json", (json) ->
     myNetwork("#vis", json)
