@@ -102,7 +102,7 @@ HTMLWidgets.widget({
             .style("opacity", options.opacity)
             .on("mouseover", mouseover)
             .on("mouseout", mouseout)
-        //.call(force.drag);
+        .call(force.drag);
 
         node.append("circle")
             .attr("r", 10)

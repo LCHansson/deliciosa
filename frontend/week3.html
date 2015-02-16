@@ -24,6 +24,13 @@
     <link href="fonts/leaguespartan.css" rel="stylesheet">
     <link href="css/theme.css" rel="stylesheet">
 
+    <!-- network post3 -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- end CSS-->
+
+    <!-- network post 3 -->
+    <script src="js/modernizr-2.0.6.min.js"></script>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="js/html5shiv.min.js"></script>
@@ -278,7 +285,7 @@
         </div>
 
         <div class="row">
-            <div id="writersNetworkGraph" style="width:80%;height:400px;" class="forceNetwork"></div>
+           <div id="vis"></div>
         </div>
 
         <div class="more text-center yellow">
@@ -363,55 +370,17 @@
 <script src="js/jquery.dataTables.min.js"></script>
 
 <!-- Week3 network graph -->
-<script src="js/week3_network/htmlwidgets-0.3.2/htmlwidgets.js"></script>
-<script src="js/week3_network/d3-3.5.2/d3.min.js"></script>
-<script src="js/week3_network/forceNetwork-binding-0.1.2.1/forceNetwork.js"></script>
-<!--<script src="js/week3_network/d3-3.5.2/d3.min.js"></script>-->
-<link rel="stylesheet"
-      href="js/week3_network/highlight/default.css"
-      type="text/css" />
-<script src="js/week3_network/highlight/highlight.js"></script>
+<script defer src="js/plugins.js"></script>
+<script defer src="js/script.js"></script>
+<!--<script src="js/coffee-script.js"></script>-->
+<script src="js/d3.v2.js"></script>
+<script src="js/Tooltip.js"></script>
+<!--<script type="text/coffeescript" src="coffee/vis.coffee"></script>-->
+
 
 <script src="js/week1.js"> </script>
-
 <script src="js/week3.js"> </script>
 
-
-
-<script type="application/json" data-for="writersNetworkGraph">{ "x": {
-    "links": {
-        "source": [ 10, 36, 36, 37, 35, 35, 35, 6, 10, 23, 6, 3, 23, 3, 3, 10, 10, 10, 3, 10, 10, 23, 3, 3, 5, 6, 6, 6, 6, 8, 8, 8, 10, 10, 10, 10, 14, 22, 23, 32, 32, 98, 0, 1, 2, 99, 3, 3, 3, 3, 3, 3, 3, 3, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 11, 11, 101, 21, 22, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 100, 32, 32, 32, 35, 35, 36, 36, 36, 36, 36, 36, 37, 37, 37, 37, 37, 37, 38, 38, 38, 38, 38, 38 ],
-        "target": [ 23, 37, 38, 38, 36, 37, 38, 8, 32, 32, 43, 23, 75, 10, 4, 30, 11, 49, 64, 48, 26, 26, 45, 9, 8, 10, 11, 17, 77, 10, 13, 20, 42, 90, 50, 80, 32, 23, 90, 33, 92, 10, 10, 3, 10, 32, 12, 57, 8, 16, 26, 27, 82, 25, 31, 88, 63, 65, 7, 90, 67, 54, 15, 68, 69, 70, 18, 19, 76, 23, 93, 56, 79, 78, 83, 29, 58, 30, 24, 70, 59, 54, 26, 69, 60, 62, 90, 63, 68, 29, 61, 84, 85, 39, 40, 41, 44, 45, 89, 67, 54, 91, 51, 75, 55, 56, 57, 28, 32, 23, 32, 32, 35, 30, 51, 35, 61, 39, 40, 41, 42, 45, 46, 47, 67, 28, 91, 71, 72, 73, 74, 52, 53, 54, 94, 95, 80, 27, 97, 81, 32, 34, 97, 75, 45, 66, 45, 96, 86, 66, 90, 87, 45, 96, 86, 66, 90, 87, 45, 96, 86, 66, 90, 87 ],
-        "value": [ 17, 16, 16, 16, 11, 11, 11, 8, 8, 8, 6, 5, 5, 4, 4, 4, 4, 4, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
-    },
-    "nodes": {
-        "name": [ "Andreas Johnson", "Peter Kvint", "Aleena Gibson", "Fredrik Kempe", "David Kreuger", "Figge Boström", "Thomas G:son", "Ted Ström", "Peter Boström", "Anton Malmberg Hård af Segerstad", "Bobby Ljunggren", "Marcos Ubeda", "Oscar Görres", "Tony Nilsson", "Lars Dille Diedricson", "Thomas Plec Johansson", "Alexander Jonsson", "Pontus Assarsson", "Jörgen Ringqvist", "Daniel Barkman", "Danny Saucedo", "Fredrik Thomander", "Kent Olsson", "Henrik Wikström", "Joakim Udd", "Sarah Dawn Finer", "Alexander Bard", "Måns Zelmerlöw", "Kristian Lagerström", "Ulrik Munther", "Sonja Aldén", "Susie Päivärinta", "Ingela Pling Forsman", "Nanne Grönvall", "Peter Grönvall", "Niklas Edberger", "Johan Fransson", "Tim Larsson", "Tobias Lundgren", "Annelie Martin", "Martin Blix", "Shirley Clamp", "Robert Olausson", "Calle Kindbom", "Daniel Wahlgren", "Anders Hansson", "Magnus Rongedal", "Henrik Rongedal", "Lotta Ahlin", "Tommy Lydell", "Anna-Lena Högdahl", "Karl-Ola Kjellholm", "Nina Karolidou", "Dimitri Stassos", "Irini Michas", "Dan Sundqvist", "Jimmy Jansson", "Regina Lund", "Anne-Lie Rydé", "Per Lund", "Urban Robertsson", "Andreas Öhrn", "Martin Stenmarck", "Julimar J-Son Santos", "Hamed K-One Pirouzpanah", "Nestor Geli", "Sandra Dahlberg", "Carola Häggkvist", "Jonas Lundblad", "Josef Johansson", "Peo Thyrén", "Ellinore Holmer", "Vanna Rosenberg", "Åsa Schmalenbach", "Josefina Sanner", "Amir Aly", "Tony Johansson", "Henrik Sethsson", "Andreas Rickstrand", "Martin Rolinski", "Robin Abrahamsson", "Tobbe Petterssen", "Malena Ernman", "Pär Lönn", "Maciel Numhauser", "Oscar Holter", "Henrik Göranson", "Yohio", "Erik Bernholm", "Ingela Pling Forsman", "Sharon Vaughn", "Anna Sahlene", "Martin Hedström", "Mats Tärnfors", "Per QX", "Jean-Pierre Barda", "Johan Alkenäs", "Maria Haukaas Mittet", "Suzzie Tapper", "Torgny Söderberg", "Magnus Johansson", "Anders Wikström" ],
-        "group": [ 1, 1, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
-    },
-    "options": {
-        "NodeID": "name",
-        "Group": "group",
-        "colourScale": "d3.scale.category10()",
-        "fontsize":                12,
-        "clickTextSize":                30,
-        "linkDistance":                50,
-        "linkWidth": "function(d) { return 0.8*Math.sqrt(d.value); }",
-        "charge":              -120,
-        "linkColour": "#666",
-        "opacity":               0.7
-    }
-},"evals": [  ] }</script>
-<script type="application/htmlwidget-sizing" data-for="htmlwidget-4401">{ "viewer": {
- "width":               450,
-"height":               350,
-"padding":                 0,
-"fill": true
-},"browser": {
- "width":               960,
-"height":               500,
-"padding":                 0,
-"fill": true
-} }</script>
 <!-- <script src="js/main.js"> </script>-->
 </body>
 </html>

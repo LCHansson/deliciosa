@@ -1,0 +1,1438 @@
+{
+    "links": [
+        {
+            "source": 515, 
+            "target": 43, 
+            "weight": 1
+        }, 
+        {
+            "source": 11, 
+            "target": 43, 
+            "weight": 1
+        }, 
+        {
+            "source": 12, 
+            "target": 16, 
+            "weight": 1
+        }, 
+        {
+            "source": 14, 
+            "target": 43, 
+            "weight": 1
+        }, 
+        {
+            "source": 527, 
+            "target": 141, 
+            "weight": 1
+        }, 
+        {
+            "source": 16, 
+            "target": 162, 
+            "weight": 2
+        }, 
+        {
+            "source": 16, 
+            "target": 68, 
+            "weight": 1
+        }, 
+        {
+            "source": 16, 
+            "target": 231, 
+            "weight": 1
+        }, 
+        {
+            "source": 16, 
+            "target": 40, 
+            "weight": 1
+        }, 
+        {
+            "source": 16, 
+            "target": 41, 
+            "weight": 2
+        }, 
+        {
+            "source": 16, 
+            "target": 43, 
+            "weight": 4
+        }, 
+        {
+            "source": 16, 
+            "target": 76, 
+            "weight": 1
+        }, 
+        {
+            "source": 16, 
+            "target": 111, 
+            "weight": 1
+        }, 
+        {
+            "source": 16, 
+            "target": 17, 
+            "weight": 4
+        }, 
+        {
+            "source": 16, 
+            "target": 115, 
+            "weight": 1
+        }, 
+        {
+            "source": 16, 
+            "target": 377, 
+            "weight": 1
+        }, 
+        {
+            "source": 16, 
+            "target": 104, 
+            "weight": 1
+        }, 
+        {
+            "source": 16, 
+            "target": 287, 
+            "weight": 3
+        }, 
+        {
+            "source": 16, 
+            "target": 95, 
+            "weight": 5
+        }, 
+        {
+            "source": 34, 
+            "target": 40, 
+            "weight": 2
+        }, 
+        {
+            "source": 35, 
+            "target": 130, 
+            "weight": 1
+        }, 
+        {
+            "source": 35, 
+            "target": 405, 
+            "weight": 1
+        }, 
+        {
+            "source": 35, 
+            "target": 282, 
+            "weight": 1
+        }, 
+        {
+            "source": 35, 
+            "target": 159, 
+            "weight": 6
+        }, 
+        {
+            "source": 35, 
+            "target": 289, 
+            "weight": 1
+        }, 
+        {
+            "source": 35, 
+            "target": 36, 
+            "weight": 1
+        }, 
+        {
+            "source": 35, 
+            "target": 40, 
+            "weight": 8
+        }, 
+        {
+            "source": 35, 
+            "target": 43, 
+            "weight": 2
+        }, 
+        {
+            "source": 35, 
+            "target": 44, 
+            "weight": 2
+        }, 
+        {
+            "source": 35, 
+            "target": 430, 
+            "weight": 1
+        }, 
+        {
+            "source": 35, 
+            "target": 307, 
+            "weight": 1
+        }, 
+        {
+            "source": 35, 
+            "target": 223, 
+            "weight": 1
+        }, 
+        {
+            "source": 35, 
+            "target": 74, 
+            "weight": 1
+        }, 
+        {
+            "source": 35, 
+            "target": 335, 
+            "weight": 1
+        }, 
+        {
+            "source": 35, 
+            "target": 336, 
+            "weight": 1
+        }, 
+        {
+            "source": 35, 
+            "target": 337, 
+            "weight": 1
+        }, 
+        {
+            "source": 35, 
+            "target": 82, 
+            "weight": 2
+        }, 
+        {
+            "source": 35, 
+            "target": 83, 
+            "weight": 1
+        }, 
+        {
+            "source": 35, 
+            "target": 84, 
+            "weight": 1
+        }, 
+        {
+            "source": 35, 
+            "target": 348, 
+            "weight": 1
+        }, 
+        {
+            "source": 35, 
+            "target": 95, 
+            "weight": 1
+        }, 
+        {
+            "source": 35, 
+            "target": 481, 
+            "weight": 1
+        }, 
+        {
+            "source": 35, 
+            "target": 354, 
+            "weight": 2
+        }, 
+        {
+            "source": 35, 
+            "target": 229, 
+            "weight": 1
+        }, 
+        {
+            "source": 35, 
+            "target": 358, 
+            "weight": 1
+        }, 
+        {
+            "source": 35, 
+            "target": 357, 
+            "weight": 1
+        }, 
+        {
+            "source": 35, 
+            "target": 378, 
+            "weight": 1
+        }, 
+        {
+            "source": 35, 
+            "target": 124, 
+            "weight": 1
+        }, 
+        {
+            "source": 35, 
+            "target": 255, 
+            "weight": 1
+        }, 
+        {
+            "source": 40, 
+            "target": 129, 
+            "weight": 1
+        }, 
+        {
+            "source": 40, 
+            "target": 101, 
+            "weight": 1
+        }, 
+        {
+            "source": 40, 
+            "target": 337, 
+            "weight": 1
+        }, 
+        {
+            "source": 40, 
+            "target": 43, 
+            "weight": 2
+        }, 
+        {
+            "source": 40, 
+            "target": 71, 
+            "weight": 2
+        }, 
+        {
+            "source": 40, 
+            "target": 258, 
+            "weight": 1
+        }, 
+        {
+            "source": 40, 
+            "target": 223, 
+            "weight": 1
+        }, 
+        {
+            "source": 40, 
+            "target": 111, 
+            "weight": 1
+        }, 
+        {
+            "source": 40, 
+            "target": 336, 
+            "weight": 1
+        }, 
+        {
+            "source": 40, 
+            "target": 259, 
+            "weight": 1
+        }, 
+        {
+            "source": 40, 
+            "target": 85, 
+            "weight": 2
+        }, 
+        {
+            "source": 40, 
+            "target": 278, 
+            "weight": 1
+        }, 
+        {
+            "source": 40, 
+            "target": 430, 
+            "weight": 1
+        }, 
+        {
+            "source": 40, 
+            "target": 282, 
+            "weight": 1
+        }, 
+        {
+            "source": 40, 
+            "target": 335, 
+            "weight": 1
+        }, 
+        {
+            "source": 40, 
+            "target": 124, 
+            "weight": 1
+        }, 
+        {
+            "source": 40, 
+            "target": 277, 
+            "weight": 1
+        }, 
+        {
+            "source": 43, 
+            "target": 384, 
+            "weight": 1
+        }, 
+        {
+            "source": 43, 
+            "target": 129, 
+            "weight": 4
+        }, 
+        {
+            "source": 43, 
+            "target": 385, 
+            "weight": 1
+        }, 
+        {
+            "source": 43, 
+            "target": 141, 
+            "weight": 8
+        }, 
+        {
+            "source": 43, 
+            "target": 150, 
+            "weight": 1
+        }, 
+        {
+            "source": 43, 
+            "target": 151, 
+            "weight": 1
+        }, 
+        {
+            "source": 43, 
+            "target": 157, 
+            "weight": 1
+        }, 
+        {
+            "source": 43, 
+            "target": 158, 
+            "weight": 2
+        }, 
+        {
+            "source": 43, 
+            "target": 161, 
+            "weight": 1
+        }, 
+        {
+            "source": 43, 
+            "target": 162, 
+            "weight": 1
+        }, 
+        {
+            "source": 43, 
+            "target": 427, 
+            "weight": 1
+        }, 
+        {
+            "source": 43, 
+            "target": 44, 
+            "weight": 4
+        }, 
+        {
+            "source": 43, 
+            "target": 430, 
+            "weight": 2
+        }, 
+        {
+            "source": 43, 
+            "target": 177, 
+            "weight": 3
+        }, 
+        {
+            "source": 43, 
+            "target": 178, 
+            "weight": 4
+        }, 
+        {
+            "source": 43, 
+            "target": 307, 
+            "weight": 1
+        }, 
+        {
+            "source": 43, 
+            "target": 181, 
+            "weight": 2
+        }, 
+        {
+            "source": 43, 
+            "target": 223, 
+            "weight": 1
+        }, 
+        {
+            "source": 43, 
+            "target": 437, 
+            "weight": 1
+        }, 
+        {
+            "source": 43, 
+            "target": 215, 
+            "weight": 1
+        }, 
+        {
+            "source": 43, 
+            "target": 345, 
+            "weight": 1
+        }, 
+        {
+            "source": 43, 
+            "target": 95, 
+            "weight": 17
+        }, 
+        {
+            "source": 43, 
+            "target": 225, 
+            "weight": 1
+        }, 
+        {
+            "source": 43, 
+            "target": 229, 
+            "weight": 1
+        }, 
+        {
+            "source": 43, 
+            "target": 231, 
+            "weight": 1
+        }, 
+        {
+            "source": 43, 
+            "target": 111, 
+            "weight": 3
+        }, 
+        {
+            "source": 43, 
+            "target": 370, 
+            "weight": 2
+        }, 
+        {
+            "source": 43, 
+            "target": 117, 
+            "weight": 1
+        }, 
+        {
+            "source": 44, 
+            "target": 141, 
+            "weight": 1
+        }, 
+        {
+            "source": 44, 
+            "target": 95, 
+            "weight": 1
+        }, 
+        {
+            "source": 562, 
+            "target": 141, 
+            "weight": 1
+        }, 
+        {
+            "source": 73, 
+            "target": 141, 
+            "weight": 2
+        }, 
+        {
+            "source": 88, 
+            "target": 141, 
+            "weight": 1
+        }, 
+        {
+            "source": 94, 
+            "target": 144, 
+            "weight": 1
+        }, 
+        {
+            "source": 94, 
+            "target": 95, 
+            "weight": 2
+        }, 
+        {
+            "source": 95, 
+            "target": 129, 
+            "weight": 1
+        }, 
+        {
+            "source": 95, 
+            "target": 215, 
+            "weight": 1
+        }, 
+        {
+            "source": 95, 
+            "target": 141, 
+            "weight": 8
+        }, 
+        {
+            "source": 95, 
+            "target": 144, 
+            "weight": 1
+        }, 
+        {
+            "source": 95, 
+            "target": 277, 
+            "weight": 1
+        }, 
+        {
+            "source": 95, 
+            "target": 150, 
+            "weight": 1
+        }, 
+        {
+            "source": 95, 
+            "target": 151, 
+            "weight": 1
+        }, 
+        {
+            "source": 95, 
+            "target": 157, 
+            "weight": 1
+        }, 
+        {
+            "source": 95, 
+            "target": 158, 
+            "weight": 1
+        }, 
+        {
+            "source": 95, 
+            "target": 162, 
+            "weight": 1
+        }, 
+        {
+            "source": 95, 
+            "target": 430, 
+            "weight": 2
+        }, 
+        {
+            "source": 95, 
+            "target": 175, 
+            "weight": 1
+        }, 
+        {
+            "source": 95, 
+            "target": 176, 
+            "weight": 1
+        }, 
+        {
+            "source": 95, 
+            "target": 307, 
+            "weight": 1
+        }, 
+        {
+            "source": 95, 
+            "target": 117, 
+            "weight": 1
+        }, 
+        {
+            "source": 95, 
+            "target": 437, 
+            "weight": 1
+        }, 
+        {
+            "source": 95, 
+            "target": 341, 
+            "weight": 1
+        }, 
+        {
+            "source": 95, 
+            "target": 342, 
+            "weight": 1
+        }, 
+        {
+            "source": 95, 
+            "target": 343, 
+            "weight": 1
+        }, 
+        {
+            "source": 95, 
+            "target": 344, 
+            "weight": 1
+        }, 
+        {
+            "source": 95, 
+            "target": 345, 
+            "weight": 5
+        }, 
+        {
+            "source": 95, 
+            "target": 221, 
+            "weight": 1
+        }, 
+        {
+            "source": 95, 
+            "target": 222, 
+            "weight": 1
+        }, 
+        {
+            "source": 95, 
+            "target": 223, 
+            "weight": 1
+        }, 
+        {
+            "source": 95, 
+            "target": 487, 
+            "weight": 1
+        }, 
+        {
+            "source": 95, 
+            "target": 488, 
+            "weight": 1
+        }, 
+        {
+            "source": 95, 
+            "target": 111, 
+            "weight": 3
+        }, 
+        {
+            "source": 95, 
+            "target": 370, 
+            "weight": 1
+        }, 
+        {
+            "source": 95, 
+            "target": 115, 
+            "weight": 1
+        }, 
+        {
+            "source": 95, 
+            "target": 501, 
+            "weight": 1
+        }, 
+        {
+            "source": 95, 
+            "target": 376, 
+            "weight": 1
+        }, 
+        {
+            "source": 528, 
+            "target": 141, 
+            "weight": 1
+        }, 
+        {
+            "source": 141, 
+            "target": 142, 
+            "weight": 2
+        }, 
+        {
+            "source": 141, 
+            "target": 143, 
+            "weight": 1
+        }, 
+        {
+            "source": 141, 
+            "target": 501, 
+            "weight": 1
+        }, 
+        {
+            "source": 141, 
+            "target": 440, 
+            "weight": 2
+        }, 
+        {
+            "source": 141, 
+            "target": 345, 
+            "weight": 1
+        }, 
+        {
+            "source": 144, 
+            "target": 162, 
+            "weight": 1
+        }, 
+        {
+            "source": 144, 
+            "target": 297, 
+            "weight": 1
+        }, 
+        {
+            "source": 144, 
+            "target": 145, 
+            "weight": 11
+        }, 
+        {
+            "source": 144, 
+            "target": 146, 
+            "weight": 11
+        }, 
+        {
+            "source": 144, 
+            "target": 147, 
+            "weight": 11
+        }, 
+        {
+            "source": 145, 
+            "target": 162, 
+            "weight": 1
+        }, 
+        {
+            "source": 145, 
+            "target": 489, 
+            "weight": 1
+        }, 
+        {
+            "source": 145, 
+            "target": 392, 
+            "weight": 1
+        }, 
+        {
+            "source": 145, 
+            "target": 297, 
+            "weight": 1
+        }, 
+        {
+            "source": 145, 
+            "target": 430, 
+            "weight": 1
+        }, 
+        {
+            "source": 145, 
+            "target": 146, 
+            "weight": 16
+        }, 
+        {
+            "source": 145, 
+            "target": 147, 
+            "weight": 16
+        }, 
+        {
+            "source": 145, 
+            "target": 393, 
+            "weight": 1
+        }, 
+        {
+            "source": 146, 
+            "target": 162, 
+            "weight": 1
+        }, 
+        {
+            "source": 146, 
+            "target": 489, 
+            "weight": 1
+        }, 
+        {
+            "source": 146, 
+            "target": 392, 
+            "weight": 1
+        }, 
+        {
+            "source": 146, 
+            "target": 297, 
+            "weight": 1
+        }, 
+        {
+            "source": 146, 
+            "target": 430, 
+            "weight": 1
+        }, 
+        {
+            "source": 146, 
+            "target": 147, 
+            "weight": 16
+        }, 
+        {
+            "source": 146, 
+            "target": 393, 
+            "weight": 1
+        }, 
+        {
+            "source": 147, 
+            "target": 162, 
+            "weight": 1
+        }, 
+        {
+            "source": 147, 
+            "target": 489, 
+            "weight": 1
+        }, 
+        {
+            "source": 147, 
+            "target": 392, 
+            "weight": 1
+        }, 
+        {
+            "source": 147, 
+            "target": 297, 
+            "weight": 1
+        }, 
+        {
+            "source": 147, 
+            "target": 430, 
+            "weight": 1
+        }, 
+        {
+            "source": 147, 
+            "target": 393, 
+            "weight": 1
+        }
+    ], 
+    "nodes": [
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "515", 
+            "name": "Suzzie Tapper", 
+            "nsongs": 2
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "11", 
+            "name": "Andreas Johnson", 
+            "nsongs": 6
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "12", 
+            "name": "Peter Kvint", 
+            "nsongs": 9
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "14", 
+            "name": "Aleena Gibson", 
+            "nsongs": 3
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "527", 
+            "name": "Torgny Söderberg", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Top 10", 
+            "id": "16", 
+            "name": "Fredrik Kempe", 
+            "nsongs": 26
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "17", 
+            "name": "David Kreuger", 
+            "nsongs": 4
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "34", 
+            "name": "Figge Boström", 
+            "nsongs": 7
+        }, 
+        {
+            "group": "Top 10", 
+            "id": "35", 
+            "name": "Thomas G:son", 
+            "nsongs": 34
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "36", 
+            "name": "Ted Ström", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Top 10", 
+            "id": "40", 
+            "name": "Peter Boström", 
+            "nsongs": 16
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "41", 
+            "name": "Anton Malmberg Hård af Segerstad", 
+            "nsongs": 6
+        }, 
+        {
+            "group": "Top 10", 
+            "id": "43", 
+            "name": "Bobby Ljunggren", 
+            "nsongs": 36
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "44", 
+            "name": "Marcos Ubeda", 
+            "nsongs": 11
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "562", 
+            "name": "Anders Wikström", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "68", 
+            "name": "Oscar Görres", 
+            "nsongs": 2
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "71", 
+            "name": "Tony Nilsson", 
+            "nsongs": 10
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "73", 
+            "name": "Lars \"Dille\" Diedricson", 
+            "nsongs": 9
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "74", 
+            "name": "Thomas \"Plec\" Johansson", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "76", 
+            "name": "Alexander Jonsson", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "82", 
+            "name": "Pontus Assarsson", 
+            "nsongs": 6
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "83", 
+            "name": "Jörgen Ringqvist", 
+            "nsongs": 3
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "84", 
+            "name": "Daniel Barkman", 
+            "nsongs": 2
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "85", 
+            "name": "Danny Saucedo", 
+            "nsongs": 3
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "88", 
+            "name": "Fredrik Thomander", 
+            "nsongs": 3
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "94", 
+            "name": "Kent Olsson", 
+            "nsongs": 2
+        }, 
+        {
+            "group": "Top 10", 
+            "id": "95", 
+            "name": "Henrik Wikström", 
+            "nsongs": 30
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "528", 
+            "name": "Magnus Johansson", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "101", 
+            "name": "Joakim Udd", 
+            "nsongs": 3
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "104", 
+            "name": "Sarah Dawn Finer", 
+            "nsongs": 2
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "111", 
+            "name": "Alexander Bard", 
+            "nsongs": 8
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "115", 
+            "name": "Måns Zelmerlöw", 
+            "nsongs": 2
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "117", 
+            "name": "Kristian Lagerström", 
+            "nsongs": 3
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "124", 
+            "name": "Ulrik Munther", 
+            "nsongs": 2
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "129", 
+            "name": "Sonja Aldén", 
+            "nsongs": 4
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "130", 
+            "name": "Susie Päivärinta", 
+            "nsongs": 3
+        }, 
+        {
+            "group": "Top 10", 
+            "id": "141", 
+            "name": "Ingela \"Pling\" Forsman", 
+            "nsongs": 15
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "142", 
+            "name": "Nanne Grönvall", 
+            "nsongs": 3
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "143", 
+            "name": "Peter Grönvall", 
+            "nsongs": 2
+        }, 
+        {
+            "group": "Top 10", 
+            "id": "144", 
+            "name": "Niklas Edberger", 
+            "nsongs": 12
+        }, 
+        {
+            "group": "Top 10", 
+            "id": "145", 
+            "name": "Johan Fransson", 
+            "nsongs": 16
+        }, 
+        {
+            "group": "Top 10", 
+            "id": "146", 
+            "name": "Tim Larsson", 
+            "nsongs": 16
+        }, 
+        {
+            "group": "Top 10", 
+            "id": "147", 
+            "name": "Tobias Lundgren", 
+            "nsongs": 16
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "150", 
+            "name": "Annelie Martin", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "151", 
+            "name": "Martin Blix", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "157", 
+            "name": "Shirley Clamp", 
+            "nsongs": 2
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "158", 
+            "name": "Robert Olausson", 
+            "nsongs": 4
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "159", 
+            "name": "Calle Kindbom", 
+            "nsongs": 11
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "161", 
+            "name": "Daniel Wahlgren", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "162", 
+            "name": "Anders Hansson", 
+            "nsongs": 9
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "175", 
+            "name": "Magnus Rongedal", 
+            "nsongs": 2
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "176", 
+            "name": "Henrik Rongedal", 
+            "nsongs": 2
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "177", 
+            "name": "Lotta Ahlin", 
+            "nsongs": 6
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "178", 
+            "name": "Tommy Lydell", 
+            "nsongs": 7
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "181", 
+            "name": "Anna-Lena Högdahl", 
+            "nsongs": 3
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "215", 
+            "name": "Karl-Ola Kjellholm", 
+            "nsongs": 3
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "221", 
+            "name": "Nina Karolidou", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "222", 
+            "name": "Dimitri Stassos", 
+            "nsongs": 3
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "223", 
+            "name": "Irini Michas", 
+            "nsongs": 2
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "225", 
+            "name": "Dan Sundqvist", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "229", 
+            "name": "Jimmy Jansson", 
+            "nsongs": 3
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "231", 
+            "name": "Regina Lund", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "255", 
+            "name": "Anne-Lie Rydé", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "258", 
+            "name": "Per Lund", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "259", 
+            "name": "Urban Robertsson", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "277", 
+            "name": "Andreas Öhrn", 
+            "nsongs": 2
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "278", 
+            "name": "Martin Stenmarck", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "282", 
+            "name": "Julimar J-Son Santos", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "287", 
+            "name": "Hamed K-One Pirouzpanah", 
+            "nsongs": 4
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "289", 
+            "name": "Nestor Geli", 
+            "nsongs": 2
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "297", 
+            "name": "Sandra Dahlberg", 
+            "nsongs": 2
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "307", 
+            "name": "Carola Häggkvist", 
+            "nsongs": 2
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "335", 
+            "name": "Jonas Lundblad", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "336", 
+            "name": "Josef Johansson", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "337", 
+            "name": "Peo Thyrén", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "341", 
+            "name": "Ellinore Holmer", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "342", 
+            "name": "Vanna Rosenberg", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "343", 
+            "name": "Åsa Schmalenbach", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "344", 
+            "name": "Josefina Sanner", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "345", 
+            "name": "Amir Aly", 
+            "nsongs": 7
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "348", 
+            "name": "Tony Johansson", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "354", 
+            "name": "Henrik Sethsson", 
+            "nsongs": 4
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "357", 
+            "name": "Andreas Rickstrand", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "358", 
+            "name": "Martin Rolinski", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "370", 
+            "name": "Robin Abrahamsson", 
+            "nsongs": 3
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "376", 
+            "name": "Tobbe Petterssen", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "377", 
+            "name": "Malena Ernman", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "378", 
+            "name": "Pär Lönn", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "384", 
+            "name": "Maciel Numhauser", 
+            "nsongs": 2
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "385", 
+            "name": "Oscar Holter", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "392", 
+            "name": "Henrik Göranson", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "393", 
+            "name": "Yohio", 
+            "nsongs": 2
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "405", 
+            "name": "Erik Bernholm", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "427", 
+            "name": "Ingela Pling Forsman", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "430", 
+            "name": "Sharon Vaughn", 
+            "nsongs": 5
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "437", 
+            "name": "Anna Sahlene", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "440", 
+            "name": "Martin Hedström", 
+            "nsongs": 3
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "481", 
+            "name": "Mats Tärnfors", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "487", 
+            "name": "Per QX", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "488", 
+            "name": "Jean-Pierre Barda", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "489", 
+            "name": "Johan Alkenäs", 
+            "nsongs": 1
+        }, 
+        {
+            "group": "Samarbetade med någon i top 10", 
+            "id": "501", 
+            "name": "Maria Haukaas Mittet", 
+            "nsongs": 1
+        }
+    ]
+}
