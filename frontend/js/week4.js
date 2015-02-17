@@ -1,6 +1,6 @@
 function artistsMap () {
     L.mapbox.accessToken = 'pk.eyJ1IjoiY3BlcnJpYXJkIiwiYSI6InN0UExhN28ifQ.GEm5rxAjECcgjIpy6pUY2g';
-    var map = L.mapbox.map('artistsMap', 'cperriard.l7hpbn98')
+    var map = L.mapbox.map('artistsMap', 'cperriard.l7hpbn98', {maxZoom: 14})
         .setView([62.9, 15.6], 5);
 
 
@@ -16,10 +16,10 @@ function artistsMap () {
 
         // Create custom popup content
         if (feature.properties.place == "birth"){
-            popupContent =  "" + feature.properties.title + " är född/uppvuxen/grundad här.";
+            popupContent =  "<h4>" + feature.properties.title + " är född/uppvuxen/grundad här.</h4>";
         }
         if (feature.properties.place == "residence"){
-            popupContent =  "" + feature.properties.title + " bor här.";
+            popupContent =  "<h4>" + feature.properties.title + " bor här.</h4>";
         }
 
 
@@ -45,16 +45,17 @@ function artistsMap () {
 
 
     $("#birth").on("click", function(e){
-        markers.removeLayer(myLayer);
+        markers.clearLayers();
         myLayer.setFilter(function(feature) {
             return feature.properties.place == "birth";
         });
         markers.addLayer(myLayer);
+        markers.addTo(map);
         return false;
     });
 
     $("#residence").on("click", function(e){
-        markers.removeLayer(myLayer);
+        markers.clearLayers();
         myLayer.setFilter(function(feature) {
             return feature.properties.place == "residence";
         });
