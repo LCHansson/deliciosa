@@ -102,7 +102,7 @@ RadialPlacement = function() {
 Network = function() {
     var allData, charge, curLinksData, curNodesData, filter, filterLinks, filterNodes, force, forceTick, groupCenters, height, hideDetails, layout, link, linkedByIndex, linksG, mapNodes, moveToRadialLayout, neighboring, network, node, nodeColors, nodeCounts, nodesG, radialTick, setFilter, setLayout, setSort, setupData, showDetails, sort, sortedArtists, strokeFor, tooltip, update, updateCenters, updateLinks, updateNodes, width;
     width = 960;
-    height = 800;
+    height = 600;
     allData = [];
     curLinksData = [];
     curNodesData = [];
