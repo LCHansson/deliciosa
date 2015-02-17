@@ -101,8 +101,8 @@ RadialPlacement = function() {
 
 Network = function() {
     var allData, charge, curLinksData, curNodesData, filter, filterLinks, filterNodes, force, forceTick, groupCenters, height, hideDetails, layout, link, linkedByIndex, linksG, mapNodes, moveToRadialLayout, neighboring, network, node, nodeColors, nodeCounts, nodesG, radialTick, setFilter, setLayout, setSort, setupData, showDetails, sort, sortedArtists, strokeFor, tooltip, update, updateCenters, updateLinks, updateNodes, width;
-    width = 960;
-    height = 800;
+    width = 700;
+    height = 600;
     allData = [];
     curLinksData = [];
     curNodesData = [];
@@ -116,13 +116,29 @@ Network = function() {
     sort = "songs";
     groupCenters = null;
     force = d3.layout.force();
-    nodeColors = d3.scale.category10();
+    //nodeColors = d3.scale.category10();
+    nodeColors = function( group ) {
+        if (group == "Top 10") {
+            return "#fdba00";
+        } else if (group == "Samarbetade med någon i top 10") {
+            return "#FFE664";
+        } else {
+            return d3.scale.category10()(group);
+        }
+    }
+    var nodes = [/*{
+        index: 12,
+        x: 100,
+        y: 100,
+        fixed: true
+    }*/];
     tooltip = Tooltip("vis-tooltip", 230);
     charge = function(node) {
         return -Math.pow(node.radius, 2.0) / 2;
     };
     network = function(selection, data) {
         var vis;
+        width = $("#vis").innerWidth();
         allData = setupData(data);
         vis = d3.select(selection).append("svg").attr("width", width).attr("height", height);
         linksG = vis.append("g").attr("id", "links");
@@ -140,6 +156,18 @@ Network = function() {
             artists = sortedArtists(curNodesData, curLinksData);
             updateCenters(artists);
         }
+
+        // positioning Bobby Ljungren
+        curNodesData[12].x = width/16*4;
+        curNodesData[12].y = height/2;
+        curNodesData[12].fixed = true;
+
+        // positioning Tobias Lundgren
+        curNodesData[42].x = width/8*6;
+        curNodesData[42].y = height/5*2;
+        curNodesData[42].fixed = true;
+
+        //console.log(curNodesData);
         force.nodes(curNodesData);
         updateNodes();
         if (layout === "force") {
@@ -152,7 +180,11 @@ Network = function() {
                 link = null;
             }
         }
-        return force.start();
+        //var n = 100;
+        //force.start();
+        //for (var i = n * n; i > 0; --i) force.tick();
+
+        return force.start(); //force.stop();;
     };
     network.toggleLayout = function(newLayout) {
         force.stop();
@@ -341,7 +373,7 @@ Network = function() {
     setLayout = function(newLayout) {
         layout = newLayout;
         if (layout === "force") {
-            return force.on("tick", forceTick).charge(-200).linkDistance(50);
+            return force.on("tick", forceTick).charge(-width/3.4).linkDistance(width/11.1);
         } else if (layout === "radial") {
             return force.on("tick", radialTick).charge(charge);
         }
@@ -395,9 +427,12 @@ Network = function() {
     };
     showDetails = function(d, i) {
         var content;
-        content = '<p class="main"><b>' + d.name + '</b></span></p>';
-        content += '<hr class="tooltip-hr">';
-        content += '<p class="main">' + d.nsongs + ' mellolåt(ar)</span></p>';
+        content = '<div class="tooltip-header"><h4>' + d.name + '</h4></div>';
+        content += '<div class="tooltip-body">' + d.nsongs + ' mellolåt';
+        if (d.nsongs > 1){
+            content += 'ar';
+        }
+        content += '</div>';
         tooltip.showTooltip(content, d3.event);
         if (link) {
             link.attr("stroke", function(l) {

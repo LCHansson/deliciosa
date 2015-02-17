@@ -415,6 +415,30 @@ ul.nav-pills .subtitle {
     color: #fdba00;
 }
 
+
+/* network graph */
+
+#vis-tooltip.tooltip {
+    border-radius: 0;
+    padding: 0;
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+
+}
+
+#vis-tooltip .tooltip-header {
+    background-color: #fdba00;
+    color: #ffffff;
+}
+
+#vis-tooltip .tooltip-header, #vis-tooltip .tooltip-body {
+    padding: 15px;
+}
+
+
 /* Tables */
 
 table.dataTable {
