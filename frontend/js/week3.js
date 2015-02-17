@@ -230,7 +230,7 @@ Network = function() {
         countExtent = d3.extent(data.nodes, function(d) {
             return d.nsongs;
         });
-        circleRadius = d3.scale.sqrt().range([3, 12]).domain(countExtent);
+        circleRadius = d3.scale.sqrt().range([5, 17]).domain(countExtent);
         data.nodes.forEach(function(n) {
             var randomnumber;
             n.x = randomnumber = Math.floor(Math.random() * width);
