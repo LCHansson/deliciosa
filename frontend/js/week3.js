@@ -665,7 +665,8 @@ function createBarchart(data, whereToRender, title, dataPointSuffix, plotType) {
                             return this.point.name;
                         }
                     },*/
-                    borderWidth: 7
+                    borderWidth: 7,
+                    animation: false
                 }
             },
 
@@ -735,12 +736,12 @@ function buildTmTable() {
                     });
                 }
                 data = {catData: catData, data: songsPerYearData};
-                $("#" +id + "songsyear").css("visibility", "none");
+                $("#tmModalID div.modal-body").css("visibility", "hidden");
                 var chart = createBarchart(data, id + "songsyear", "Antal låtar per år mellan 2002-2014", "låtar", "bar");
 
                 modal.on("shown.bs.modal", function( event ){
-                    $("#" +id + "songsyear").css("visibility", "visible");
                     chart.reflow();
+                    $("#tmModalID div.modal-body").css("visibility", "visible");
                 });
 
 
