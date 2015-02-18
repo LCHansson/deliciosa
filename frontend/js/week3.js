@@ -735,8 +735,11 @@ function buildTmTable() {
                     });
                 }
                 data = {catData: catData, data: songsPerYearData};
+                $("#" +id + "songsyear").css("visibility", "none");
                 var chart = createBarchart(data, id + "songsyear", "Antal låtar per år mellan 2002-2014", "låtar", "bar");
+
                 modal.on("shown.bs.modal", function( event ){
+                    $("#" +id + "songsyear").css("visibility", "visible");
                     chart.reflow();
                 });
 
