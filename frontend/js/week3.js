@@ -737,7 +737,7 @@ function buildTmTable() {
                 data = {catData: catData, data: songsPerYearData};
                 var chart = createBarchart(data, id + "songsyear", "Antal låtar per år mellan 2002-2014", "låtar", "bar");
                 modal.on("shown.bs.modal", function( event ){
-                    chart.redraw();
+                    chart.reflow();
                 });
 
 
