@@ -139,6 +139,7 @@ Network = function() {
     network = function(selection, data) {
         var vis;
         width = $("#vis").innerWidth();
+        height = width/3*2;
         allData = setupData(data);
         vis = d3.select(selection).append("svg").attr("width", width).attr("height", height);
         linksG = vis.append("g").attr("id", "links");
