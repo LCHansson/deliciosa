@@ -435,6 +435,11 @@ Network = function() {
         }
         content += '</div>';
         tooltip.showTooltip(content, d3.event);
+        if ( width <= 768 ){
+            var offset = $("#vis").offset();
+            //console.log(offset);
+            tooltip.setPosition(offset.top - 120, offset.left + 20);
+        }
         if (link) {
             link.attr("stroke", function(l) {
                 if (l.source === d || l.target === d) {

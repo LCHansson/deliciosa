@@ -19,6 +19,10 @@ function Tooltip(tooltipId, width){
     $("#"+tooltipId).hide();
   }
 
+  function setPosition(top, left){
+    $("#"+tooltipId).css('top', top + 'px').css('left', left + 'px');
+  }
+
   function updatePosition(event){
     var ttid = "#"+tooltipId;
     var xOffset = 20;
@@ -44,6 +48,7 @@ function Tooltip(tooltipId, width){
   return {
     showTooltip: showTooltip,
     hideTooltip: hideTooltip,
-    updatePosition: updatePosition
+    updatePosition: updatePosition,
+    setPosition: setPosition
   }
 }
