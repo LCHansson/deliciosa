@@ -235,7 +235,7 @@ function buildSentimentColChart(data) {
         });
         categories.push(data[i].sentiment)
     }
-    console.log(categories);
+    //console.log(categories);
 
     var winnerBarChart = new Highcharts.Chart(
         {
