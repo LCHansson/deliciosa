@@ -266,15 +266,13 @@
     <section id="thirdPost" class="row collapse-group" data-post="3">
         <h2 class="yellow">Låtskrivarna</h2>
         <h3>Vem står bakom mellolåtarna?</h3>
-        <p> Veckans analys innebär en riktig kritik mot SVT:s jämställdhetsprofil. Medan vi kan se en hälsosam blandning
+        <p> Medan vi kan se en balanserad blandning
             av manliga och kvinnliga artister på scenen, är det en helt annan visa om man lyfter på locket till låtskrivardatan.
-            Bara 2% av alla låtar är skrivna av kvinnor! jämfört med 66% skrivna av män!
+            Bara 2% av alla låtar är skrivna av kvinnor, jämfört med 66% skrivna av män!
 
             Inte nog med det. Det verkar som det är en liten klick som praktiskt taget bedriver mellofabrik i låtskrivande.
             10 personer (2%) har varit inblandade i mer än 60% av alla vinnarlåtarna under de senaste 13 åren, och står
             för sammanlagt 30% av ALLA bidrag.
-
-            Se själva nedan!
 
         </p>
         <div class="row">
@@ -287,10 +285,12 @@
         </div>
 
         <div class="row">
+            <h4 style="text-align: center">Vem har skrivit flest mellolåtar?</h4>
             <table id="tmTable"></table>
         </div>
 
         <div class="row">
+            <h4  style="text-align: center">Vem samarbetade med vem?</h4>
            <div id="vis"></div>
         </div>
 
@@ -299,6 +299,8 @@
         </div>
 
         <div id="thirdCollapse" class="collapse tpadding small">
+            Vi har samlat in information om alla låtskrivare från 2002 till 2014 från wikipedia, med web-scraping metoder.
+            Sen har vi använt en databas över namn för att bestämma könet på låtskrivarna.
             We fitted a simple linear regression line. Assuming the trend given by this line, we would get equal number of men and women in 2045.
             <div id="tmMFDiff" class="row">
             </div>
