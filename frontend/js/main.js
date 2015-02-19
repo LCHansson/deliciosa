@@ -23,6 +23,7 @@ $(function () {
 
     week1();
     week2();
+    week3();
 
     window.fbShare = function(){
         FB.ui(
