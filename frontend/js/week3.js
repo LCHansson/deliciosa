@@ -884,7 +884,12 @@ function buildScatterPlot(data) {
         },
         plotOptions: {
             area: {
-                stacking: 'percent'
+                stacking: 'percent',
+                events: {
+                    legendItemClick: function () {
+                        return false;
+                    }
+                }
             }
         },
         exporting: {
@@ -922,13 +927,15 @@ function buildScatterPlot(data) {
             }]
         },
         tooltip: {
-            headerFormat: '',
-            pointFormat: '{point.x}: {point.y:.0f}%'
+            headerFormat: '<span class="leaguespartansmall">{point.x}</span><br>',
+            pointFormat: '<span style="color: {series.color};">●</span>{series.name}: {point.y:.0f}%<br>',
+            shared: true,
+            useHTML: true
         },
         legend: {
-            layout: 'vertical',
-            align: 'right',
-            verticalAlign: 'middle',
+            layout: 'horizontal',
+            align: 'center',
+            verticalAlign: 'bottom',
             borderWidth: 0
 
         },
