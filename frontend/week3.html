@@ -299,11 +299,41 @@
         </div>
 
         <div id="thirdCollapse" class="collapse tpadding small">
-            Vi har samlat in information om alla låtskrivare från 2002 till 2014 från wikipedia, med web-scraping metoder.
-            Sen har vi använt en databas över namn för att bestämma könet på låtskrivarna.
-            We fitted a simple linear regression line. Assuming the trend given by this line, we would get equal number of men and women in 2045.
+            <p>Vi har samlat in information om alla låtskrivare från 2002 till 2014 från wikipedia,
+                med web-scraping metoder. Vi har använt en databas med alla manliga och kvinnliga
+                svenska namn för att automatiskt tilldela kön till ca 60% av alla artister och 80%
+                av alla låtskrivare inblandade i Melodifestivalen mellan 2002-2014. För de som inte gick
+                att tilldela kön automatiskt gjorde vi det manuellt.
+            </p>
+            <p>
+            Vi delade sedan låtarna i tre grupper: låtar skrivna enbart av män, enbart av kvinnor,
+                eller av en blandad grupp. För en jämförelse, gjorde vi en liknande gruppering baserad
+                på artister som uppträder låtarna.
+            </p>
+            <p>
+                Vi upptäckte även att könsbalansen under åren blivit något bättre.
+                I grafen nedan syns en svag trend i en mer jämställd riktning.
+            </p>
+
             <div id="tmMFDiff" class="row">
             </div>
+
+            <p>
+                Vi använde en enkel linjär regressionsanalys för att räkna ut när det kommer bli helt
+                jämställt på låtskrivarsidan om trenden skulle fortsätta. Resultaten var att det kommer
+                bli helt jämställd år 2045 om utvecklingen fortsätter i samma takt. Det är om 30 år!
+                Det ska dock sägas att årets Melodifestival (2015) är betydligt mer jämställd än tidigare år.
+                Det beror på att Mellodifestivalen ändrat tävlingsreglerna så att minst hälften av alla låtar
+                måste vara skrivna av minst en kvinna.
+            </p>
+
+            <p>
+                Vi räknade också de 10 låtskrivarna som var inblandade i de mest Mellolåtar,
+                och hur många av deras låtar som faktiskt vann Melodifestivalen. För att förstå
+                hur de samarbetar med andra och med varandra byggde vi också ett interaktivt nätverk.
+                Det finns en länk mellan två låtskrivare om de har samarbetat i minst en mellolåt.
+
+            </p>
         </div>
 
         <div class="modal fade" id="tmModalID" tabindex="-1" role="dialog" aria-labelledby="myTmModalLabel" aria-hidden="true">

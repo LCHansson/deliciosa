@@ -895,7 +895,7 @@ function buildScatterPlot(data) {
         },
 
         title: {
-            text: 'Antal låtar skrivna av endast kvinnor, mixt grupp och endast män 2002-2014',
+            text: 'Antal låtar skrivna av enbart kvinnor, i blandad grupp och enbart män 2002-2014',
             x: -20 //center
         },
         subtitle: {
@@ -944,7 +944,7 @@ function buildScatterPlot(data) {
             },
             {
                 color: '#808080',
-                name: 'Mixt',
+                name: 'Blandad',
                 data: s3,
                 marker: {
                     symbol: "circle",
