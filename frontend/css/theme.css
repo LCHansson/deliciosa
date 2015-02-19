@@ -87,9 +87,10 @@ body {
     br {
         display: none; /* No forced line breaks in smaller sizes */
     }
-    .modal br {
-        display: inline; /* Except in song lyrics! */
+    .modal br, .highcharts-container br {
+        display: inline; /* Except in song lyrics and Highcharts graphs!*/
     }
+
 }
 
 
