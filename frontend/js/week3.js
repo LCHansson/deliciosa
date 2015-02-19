@@ -928,7 +928,7 @@ function buildScatterPlot(data) {
         },
         tooltip: {
             headerFormat: '<span class="leaguespartansmall">{point.x}</span><br>',
-            pointFormat: '<span style="color: {series.color};">●</span>{series.name}: {point.y:.0f}%<br>',
+            pointFormat: '<span style="color: {series.color};">●</span> {series.name}: {point.y:.0f}%<br>',
             shared: true,
             useHTML: true
         },
