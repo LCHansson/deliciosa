@@ -1,0 +1,48 @@
+{
+    "name": "Henrik Wikström", 
+    "songs_per_year": [
+        {
+            "number_songs": 2, 
+            "year": 2004
+        }, 
+        {
+            "number_songs": 3, 
+            "year": 2005
+        }, 
+        {
+            "number_songs": 4, 
+            "year": 2006
+        }, 
+        {
+            "number_songs": 4, 
+            "year": 2007
+        }, 
+        {
+            "number_songs": 5, 
+            "year": 2008
+        }, 
+        {
+            "number_songs": 5, 
+            "year": 2009
+        }, 
+        {
+            "number_songs": 2, 
+            "year": 2011
+        }, 
+        {
+            "number_songs": 2, 
+            "year": 2013
+        }, 
+        {
+            "number_songs": 3, 
+            "year": 2014
+        }
+    ], 
+    "sucessfull_songs": [
+        "Evighet (vinnare 2006)", 
+        "Min kärlek (plats 2 i finalen 2004)", 
+        "Lay Your Love on Me (plats 3 i finalen 2008)", 
+        "Cara Mia (plats 3 i finalen 2007)", 
+        "Survivor (plats 4 i finalen 2014)"
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "name": "Thomas G:son", 
+    "songs_per_year": [
+        {
+            "number_songs": 4, 
+            "year": 2002
+        }, 
+        {
+            "number_songs": 1, 
+            "year": 2003
+        }, 
+        {
+            "number_songs": 3, 
+            "year": 2004
+        }, 
+        {
+            "number_songs": 2, 
+            "year": 2005
+        }, 
+        {
+            "number_songs": 5, 
+            "year": 2006
+        }, 
+        {
+            "number_songs": 2, 
+            "year": 2007
+        }, 
+        {
+            "number_songs": 3, 
+            "year": 2009
+        }, 
+        {
+            "number_songs": 1, 
+            "year": 2010
+        }, 
+        {
+            "number_songs": 3, 
+            "year": 2011
+        }, 
+        {
+            "number_songs": 3, 
+            "year": 2012
+        }, 
+        {
+            "number_songs": 5, 
+            "year": 2013
+        }, 
+        {
+            "number_songs": 2, 
+            "year": 2014
+        }
+    ], 
+    "sucessfull_songs": [
+        "Euphoria (vinnare 2012)", 
+        "Evighet (vinnare 2006)", 
+        "Tell the World I'm Here (plats 3 i finalen 2013)", 
+        "Vem é dé du vill ha (plats 3 i finalen 2002)", 
+        "I'm in Love (plats 4 i finalen 2011)"
+    ]
+}

@@ -1,0 +1,1274 @@
+{
+    "nodes": [
+        {
+            "name": "Andreas Johnson",
+            "group": 1,
+            "id": "a1",
+            "match": 1
+        },
+        {
+            "name": "Peter Kvint",
+            "group": 1,
+            "id": "a2",
+            "match": 1
+        },
+        {
+            "name": "Aleena Gibson",
+            "group": 1,
+            "id": "a3",
+            "match": 1
+        },
+        {
+            "name": "Fredrik Kempe",
+            "group": 0,
+            "id": "a4",
+            "match": 1
+        },
+        {
+            "name": "David Kreuger",
+            "group": 1,
+            "id": "a5",
+            "match": 1
+        },
+        {
+            "name": "Figge Boström",
+            "group": 1,
+            "id": "a6",
+            "match": 1
+        },
+        {
+            "name": "Thomas G:son",
+            "group": 0,
+            "id": "a7",
+            "match": 1
+        },
+        {
+            "name": "Ted Ström",
+            "group": 1,
+            "id": "a8",
+            "match": 1
+        },
+        {
+            "name": "Peter Boström",
+            "group": 0,
+            "id": "a9",
+            "match": 1
+        },
+        {
+            "name": "Anton Malmberg Hård af Segerstad",
+            "group": 1,
+            "id": "a10",
+            "match": 1
+        },
+        {
+            "name": "Bobby Ljunggren",
+            "group": 0,
+            "id": "a11",
+            "match": 1
+        },
+        {
+            "name": "Marcos Ubeda",
+            "group": 1,
+            "id": "a12",
+            "match": 1
+        },
+        {
+            "name": "Oscar Görres",
+            "group": 1,
+            "id": "a13",
+            "match": 1
+        },
+        {
+            "name": "Tony Nilsson",
+            "group": 1,
+            "id": "a14",
+            "match": 1
+        },
+        {
+            "name": "Lars Dille Diedricson",
+            "group": 1,
+            "id": "a15",
+            "match": 1
+        },
+        {
+            "name": "Thomas Plec Johansson",
+            "group": 1,
+            "id": "a16",
+            "match": 1
+        },
+        {
+            "name": "Alexander Jonsson",
+            "group": 1,
+            "id": "a17",
+            "match": 1
+        },
+        {
+            "name": "Pontus Assarsson",
+            "group": 1,
+            "id": "a18",
+            "match": 1
+        },
+        {
+            "name": "Jörgen Ringqvist",
+            "group": 1,
+            "id": "a19",
+            "match": 1
+        },
+        {
+            "name": "Daniel Barkman",
+            "group": 1,
+            "id": "a20",
+            "match": 1
+        },
+        {
+            "name": "Danny Saucedo",
+            "group": 1,
+            "id": "a21",
+            "match": 1
+        },
+        {
+            "name": "Fredrik Thomander",
+            "group": 1,
+            "id": "a22",
+            "match": 1
+        },
+        {
+            "name": "Kent Olsson",
+            "group": 1,
+            "id": "a23",
+            "match": 1
+        },
+        {
+            "name": "Henrik Wikström",
+            "group": 0,
+            "id": "a24",
+            "match": 1
+        },
+        {
+            "name": "Joakim Udd",
+            "group": 1,
+            "id": "a25",
+            "match": 1
+        },
+        {
+            "name": "Sarah Dawn Finer",
+            "group": 1,
+            "id": "a26",
+            "match": 1
+        },
+        {
+            "name": "Alexander Bard",
+            "group": 1,
+            "id": "a27",
+            "match": 1
+        },
+        {
+            "name": "Måns Zelmerlöw",
+            "group": 1,
+            "id": "a28",
+            "match": 1
+        },
+        {
+            "name": "Kristian Lagerström",
+            "group": 1,
+            "id": "a29",
+            "match": 1
+        },
+        {
+            "name": "Ulrik Munther",
+            "group": 1,
+            "id": "a30",
+            "match": 1
+        },
+        {
+            "name": "Sonja Aldén",
+            "group": 1,
+            "id": "a31",
+            "match": 1
+        },
+        {
+            "name": "Susie Päivärinta",
+            "group": 1,
+            "id": "a32",
+            "match": 1
+        },
+        {
+            "name": "Ingela Pling Forsman",
+            "group": 0,
+            "id": "a33",
+            "match": 1
+        },
+        {
+            "name": "Nanne Grönvall",
+            "group": 1,
+            "id": "a34",
+            "match": 1
+        },
+        {
+            "name": "Peter Grönvall",
+            "group": 1,
+            "id": "a35",
+            "match": 1
+        },
+        {
+            "name": "Niklas Edberger",
+            "group": 0,
+            "id": "a36",
+            "match": 1
+        },
+        {
+            "name": "Johan Fransson",
+            "group": 0,
+            "id": "a37",
+            "match": 1
+        },
+        {
+            "name": "Tim Larsson",
+            "group": 0,
+            "id": "a38",
+            "match": 1
+        },
+        {
+            "name": "Tobias Lundgren",
+            "group": 0,
+            "id": "a39",
+            "match": 1
+        },
+        {
+            "name": "Annelie Martin",
+            "group": 1,
+            "id": "a40",
+            "match": 1
+        },
+        {
+            "name": "Martin Blix",
+            "group": 1,
+            "id": "a41",
+            "match": 1
+        },
+        {
+            "name": "Shirley Clamp",
+            "group": 1,
+            "id": "a42",
+            "match": 1
+        },
+        {
+            "name": "Robert Olausson",
+            "group": 1,
+            "id": "a43",
+            "match": 1
+        },
+        {
+            "name": "Calle Kindbom",
+            "group": 1,
+            "id": "a44",
+            "match": 1
+        },
+        {
+            "name": "Daniel Wahlgren",
+            "group": 1,
+            "id": "a45",
+            "match": 1
+        },
+        {
+            "name": "Anders Hansson",
+            "group": 1,
+            "id": "a46",
+            "match": 1
+        },
+        {
+            "name": "Magnus Rongedal",
+            "group": 1,
+            "id": "a47",
+            "match": 1
+        },
+        {
+            "name": "Henrik Rongedal",
+            "group": 1,
+            "id": "a48",
+            "match": 1
+        },
+        {
+            "name": "Lotta Ahlin",
+            "group": 1,
+            "id": "a49",
+            "match": 1
+        },
+        {
+            "name": "Tommy Lydell",
+            "group": 1,
+            "id": "a50",
+            "match": 1
+        },
+        {
+            "name": "Anna-Lena Högdahl",
+            "group": 1,
+            "id": "a51",
+            "match": 1
+        },
+        {
+            "name": "Karl-Ola Kjellholm",
+            "group": 1,
+            "id": "a52",
+            "match": 1
+        },
+        {
+            "name": "Nina Karolidou",
+            "group": 1,
+            "id": "a53",
+            "match": 1
+        },
+        {
+            "name": "Dimitri Stassos",
+            "group": 1,
+            "id": "a54",
+            "match": 1
+        },
+        {
+            "name": "Irini Michas",
+            "group": 1,
+            "id": "a55",
+            "match": 1
+        },
+        {
+            "name": "Dan Sundqvist",
+            "group": 1,
+            "id": "a56",
+            "match": 1
+        },
+        {
+            "name": "Jimmy Jansson",
+            "group": 1,
+            "id": "a57",
+            "match": 1
+        },
+        {
+            "name": "Regina Lund",
+            "group": 1,
+            "id": "a58",
+            "match": 1
+        },
+        {
+            "name": "Anne-Lie Rydé",
+            "group": 1,
+            "id": "a59",
+            "match": 1
+        },
+        {
+            "name": "Per Lund",
+            "group": 1,
+            "id": "a60",
+            "match": 1
+        },
+        {
+            "name": "Urban Robertsson",
+            "group": 1,
+            "id": "a61",
+            "match": 1
+        },
+        {
+            "name": "Andreas Öhrn",
+            "group": 1,
+            "id": "a62",
+            "match": 1
+        },
+        {
+            "name": "Martin Stenmarck",
+            "group": 1,
+            "id": "a63",
+            "match": 1
+        },
+        {
+            "name": "Julimar J-Son Santos",
+            "group": 1,
+            "id": "a64",
+            "match": 1
+        },
+        {
+            "name": "Hamed K-One Pirouzpanah",
+            "group": 1,
+            "id": "a65",
+            "match": 1
+        },
+        {
+            "name": "Nestor Geli",
+            "group": 1,
+            "id": "a66",
+            "match": 1
+        },
+        {
+            "name": "Sandra Dahlberg",
+            "group": 1,
+            "id": "a67",
+            "match": 1
+        },
+        {
+            "name": "Carola Häggkvist",
+            "group": 1,
+            "id": "a68",
+            "match": 1
+        },
+        {
+            "name": "Jonas Lundblad",
+            "group": 1,
+            "id": "a69",
+            "match": 1
+        },
+        {
+            "name": "Josef Johansson",
+            "group": 1,
+            "id": "a70",
+            "match": 1
+        },
+        {
+            "name": "Peo Thyrén",
+            "group": 1,
+            "id": "a71",
+            "match": 1
+        },
+        {
+            "name": "Ellinore Holmer",
+            "group": 1,
+            "id": "a72",
+            "match": 1
+        },
+        {
+            "name": "Vanna Rosenberg",
+            "group": 1,
+            "id": "a73",
+            "match": 1
+        },
+        {
+            "name": "Åsa Schmalenbach",
+            "group": 1,
+            "id": "a74",
+            "match": 1
+        },
+        {
+            "name": "Josefina Sanner",
+            "group": 1,
+            "id": "a75",
+            "match": 1
+        },
+        {
+            "name": "Amir Aly",
+            "group": 1,
+            "id": "a76",
+            "match": 1
+        },
+        {
+            "name": "Tony Johansson",
+            "group": 1,
+            "id": "a77",
+            "match": 1
+        },
+        {
+            "name": "Henrik Sethsson",
+            "group": 1,
+            "id": "a78",
+            "match": 1
+        },
+        {
+            "name": "Andreas Rickstrand",
+            "group": 1,
+            "id": "a79",
+            "match": 1
+        },
+        {
+            "name": "Martin Rolinski",
+            "group": 1,
+            "id": "a80",
+            "match": 1
+        },
+        {
+            "name": "Robin Abrahamsson",
+            "group": 1,
+            "id": "a81",
+            "match": 1
+        },
+        {
+            "name": "Tobbe Petterssen",
+            "group": 1,
+            "id": "a82",
+            "match": 1
+        },
+        {
+            "name": "Malena Ernman",
+            "group": 1,
+            "id": "a83",
+            "match": 1
+        },
+        {
+            "name": "Pär Lönn",
+            "group": 1,
+            "id": "a84",
+            "match": 1
+        },
+        {
+            "name": "Maciel Numhauser",
+            "group": 1,
+            "id": "a85",
+            "match": 1
+        },
+        {
+            "name": "Oscar Holter",
+            "group": 1,
+            "id": "a86",
+            "match": 1
+        },
+        {
+            "name": "Henrik Göranson",
+            "group": 1,
+            "id": "a87",
+            "match": 1
+        },
+        {
+            "name": "Yohio",
+            "group": 1,
+            "id": "a88",
+            "match": 1
+        },
+        {
+            "name": "Erik Bernholm",
+            "group": 1,
+            "id": "a89",
+            "match": 1
+        },
+        {
+            "name": "Ingela Pling Forsman",
+            "group": 1,
+            "id": "a90",
+            "match": 1
+        },
+        {
+            "name": "Sharon Vaughn",
+            "group": 1,
+            "id": "a91",
+            "match": 1
+        },
+        {
+            "name": "Anna Sahlene",
+            "group": 1,
+            "id": "a92",
+            "match": 1
+        },
+        {
+            "name": "Martin Hedström",
+            "group": 1,
+            "id": "a93",
+            "match": 1
+        },
+        {
+            "name": "Mats Tärnfors",
+            "group": 1,
+            "id": "a94",
+            "match": 1
+        },
+        {
+            "name": "Per QX",
+            "group": 1,
+            "id": "a95",
+            "match": 1
+        },
+        {
+            "name": "Jean-Pierre Barda",
+            "group": 1,
+            "id": "a96",
+            "match": 1
+        },
+        {
+            "name": "Johan Alkenäs",
+            "group": 1,
+            "id": "a97",
+            "match": 1
+        },
+        {
+            "name": "Maria Haukaas Mittet",
+            "group": 1,
+            "id": "a98",
+            "match": 1
+        },
+        {
+            "name": "Suzzie Tapper",
+            "group": 1,
+            "id": "a99",
+            "match": 1
+        },
+        {
+            "name": "Torgny Söderberg",
+            "group": 1,
+            "id": "a100",
+            "match": 1
+        },
+        {
+            "name": "Magnus Johansson",
+            "group": 1,
+            "id": "a101",
+            "match": 1
+        },
+        {
+            "name": "Anders Wikström",
+            "group": 1,
+            "id": "a102",
+            "match": 1
+        }
+    ],
+    "links": [
+        {
+            "source": "a10",
+            "target": "a23"
+        },
+        {
+            "source": "a36",
+            "target": "a37"
+        },
+        {
+            "source": "a36",
+            "target": "a38"
+        },
+        {
+            "source": "a37",
+            "target": "a38"
+        },
+        {
+            "source": "a35",
+            "target": "a36"
+        },
+        {
+            "source": "a35",
+            "target": "a37"
+        },
+        {
+            "source": "a35",
+            "target": "a38"
+        },
+        {
+            "source": "a6",
+            "target": "a8"
+        },
+        {
+            "source": "a10",
+            "target": "a32"
+        },
+        {
+            "source": "a23",
+            "target": "a32"
+        },
+        {
+            "source": "a6",
+            "target": "a43"
+        },
+        {
+            "source": "a3",
+            "target": "a23"
+        },
+        {
+            "source": "a23",
+            "target": "a75"
+        },
+        {
+            "source": "a3",
+            "target": "a10"
+        },
+        {
+            "source": "a3",
+            "target": "a4"
+        },
+        {
+            "source": "a10",
+            "target": "a30"
+        },
+        {
+            "source": "a10",
+            "target": "a11"
+        },
+        {
+            "source": "a10",
+            "target": "a49"
+        },
+        {
+            "source": "a3",
+            "target": "a64"
+        },
+        {
+            "source": "a10",
+            "target": "a48"
+        },
+        {
+            "source": "a10",
+            "target": "a26"
+        },
+        {
+            "source": "a23",
+            "target": "a26"
+        },
+        {
+            "source": "a3",
+            "target": "a45"
+        },
+        {
+            "source": "a3",
+            "target": "a9"
+        },
+        {
+            "source": "a5",
+            "target": "a8"
+        },
+        {
+            "source": "a6",
+            "target": "a10"
+        },
+        {
+            "source": "a6",
+            "target": "a11"
+        },
+        {
+            "source": "a6",
+            "target": "a17"
+        },
+        {
+            "source": "a6",
+            "target": "a77"
+        },
+        {
+            "source": "a8",
+            "target": "a10"
+        },
+        {
+            "source": "a8",
+            "target": "a13"
+        },
+        {
+            "source": "a8",
+            "target": "a20"
+        },
+        {
+            "source": "a10",
+            "target": "a42"
+        },
+        {
+            "source": "a10",
+            "target": "a90"
+        },
+        {
+            "source": "a10",
+            "target": "a50"
+        },
+        {
+            "source": "a10",
+            "target": "a80"
+        },
+        {
+            "source": "a14",
+            "target": "a32"
+        },
+        {
+            "source": "a22",
+            "target": "a23"
+        },
+        {
+            "source": "a23",
+            "target": "a90"
+        },
+        {
+            "source": "a32",
+            "target": "a33"
+        },
+        {
+            "source": "a32",
+            "target": "a92"
+        },
+        {
+            "source": "a98",
+            "target": "a10"
+        },
+        {
+            "source": "a0",
+            "target": "a10"
+        },
+        {
+            "source": "a1",
+            "target": "a3"
+        },
+        {
+            "source": "a2",
+            "target": "a10"
+        },
+        {
+            "source": "a99",
+            "target": "a32"
+        },
+        {
+            "source": "a3",
+            "target": "a12"
+        },
+        {
+            "source": "a3",
+            "target": "a57"
+        },
+        {
+            "source": "a3",
+            "target": "a8"
+        },
+        {
+            "source": "a3",
+            "target": "a16"
+        },
+        {
+            "source": "a3",
+            "target": "a26"
+        },
+        {
+            "source": "a3",
+            "target": "a27"
+        },
+        {
+            "source": "a3",
+            "target": "a82"
+        },
+        {
+            "source": "a3",
+            "target": "a25"
+        },
+        {
+            "source": "a6",
+            "target": "a31"
+        },
+        {
+            "source": "a6",
+            "target": "a88"
+        },
+        {
+            "source": "a6",
+            "target": "a63"
+        },
+        {
+            "source": "a6",
+            "target": "a65"
+        },
+        {
+            "source": "a6",
+            "target": "a7"
+        },
+        {
+            "source": "a6",
+            "target": "a90"
+        },
+        {
+            "source": "a6",
+            "target": "a67"
+        },
+        {
+            "source": "a6",
+            "target": "a54"
+        },
+        {
+            "source": "a6",
+            "target": "a15"
+        },
+        {
+            "source": "a6",
+            "target": "a68"
+        },
+        {
+            "source": "a6",
+            "target": "a69"
+        },
+        {
+            "source": "a6",
+            "target": "a70"
+        },
+        {
+            "source": "a6",
+            "target": "a18"
+        },
+        {
+            "source": "a6",
+            "target": "a19"
+        },
+        {
+            "source": "a6",
+            "target": "a76"
+        },
+        {
+            "source": "a6",
+            "target": "a23"
+        },
+        {
+            "source": "a6",
+            "target": "a93"
+        },
+        {
+            "source": "a6",
+            "target": "a56"
+        },
+        {
+            "source": "a6",
+            "target": "a79"
+        },
+        {
+            "source": "a6",
+            "target": "a78"
+        },
+        {
+            "source": "a6",
+            "target": "a83"
+        },
+        {
+            "source": "a6",
+            "target": "a29"
+        },
+        {
+            "source": "a6",
+            "target": "a58"
+        },
+        {
+            "source": "a8",
+            "target": "a30"
+        },
+        {
+            "source": "a8",
+            "target": "a24"
+        },
+        {
+            "source": "a8",
+            "target": "a70"
+        },
+        {
+            "source": "a8",
+            "target": "a59"
+        },
+        {
+            "source": "a8",
+            "target": "a54"
+        },
+        {
+            "source": "a8",
+            "target": "a26"
+        },
+        {
+            "source": "a8",
+            "target": "a69"
+        },
+        {
+            "source": "a8",
+            "target": "a60"
+        },
+        {
+            "source": "a8",
+            "target": "a62"
+        },
+        {
+            "source": "a8",
+            "target": "a90"
+        },
+        {
+            "source": "a8",
+            "target": "a63"
+        },
+        {
+            "source": "a8",
+            "target": "a68"
+        },
+        {
+            "source": "a8",
+            "target": "a29"
+        },
+        {
+            "source": "a8",
+            "target": "a61"
+        },
+        {
+            "source": "a10",
+            "target": "a84"
+        },
+        {
+            "source": "a10",
+            "target": "a85"
+        },
+        {
+            "source": "a10",
+            "target": "a39"
+        },
+        {
+            "source": "a10",
+            "target": "a40"
+        },
+        {
+            "source": "a10",
+            "target": "a41"
+        },
+        {
+            "source": "a10",
+            "target": "a44"
+        },
+        {
+            "source": "a10",
+            "target": "a45"
+        },
+        {
+            "source": "a10",
+            "target": "a89"
+        },
+        {
+            "source": "a10",
+            "target": "a67"
+        },
+        {
+            "source": "a10",
+            "target": "a54"
+        },
+        {
+            "source": "a10",
+            "target": "a91"
+        },
+        {
+            "source": "a10",
+            "target": "a51"
+        },
+        {
+            "source": "a10",
+            "target": "a75"
+        },
+        {
+            "source": "a10",
+            "target": "a55"
+        },
+        {
+            "source": "a10",
+            "target": "a56"
+        },
+        {
+            "source": "a10",
+            "target": "a57"
+        },
+        {
+            "source": "a10",
+            "target": "a28"
+        },
+        {
+            "source": "a11",
+            "target": "a32"
+        },
+        {
+            "source": "a11",
+            "target": "a23"
+        },
+        {
+            "source": "a101",
+            "target": "a32"
+        },
+        {
+            "source": "a21",
+            "target": "a32"
+        },
+        {
+            "source": "a22",
+            "target": "a35"
+        },
+        {
+            "source": "a23",
+            "target": "a30"
+        },
+        {
+            "source": "a23",
+            "target": "a51"
+        },
+        {
+            "source": "a23",
+            "target": "a35"
+        },
+        {
+            "source": "a23",
+            "target": "a61"
+        },
+        {
+            "source": "a23",
+            "target": "a39"
+        },
+        {
+            "source": "a23",
+            "target": "a40"
+        },
+        {
+            "source": "a23",
+            "target": "a41"
+        },
+        {
+            "source": "a23",
+            "target": "a42"
+        },
+        {
+            "source": "a23",
+            "target": "a45"
+        },
+        {
+            "source": "a23",
+            "target": "a46"
+        },
+        {
+            "source": "a23",
+            "target": "a47"
+        },
+        {
+            "source": "a23",
+            "target": "a67"
+        },
+        {
+            "source": "a23",
+            "target": "a28"
+        },
+        {
+            "source": "a23",
+            "target": "a91"
+        },
+        {
+            "source": "a23",
+            "target": "a71"
+        },
+        {
+            "source": "a23",
+            "target": "a72"
+        },
+        {
+            "source": "a23",
+            "target": "a73"
+        },
+        {
+            "source": "a23",
+            "target": "a74"
+        },
+        {
+            "source": "a23",
+            "target": "a52"
+        },
+        {
+            "source": "a23",
+            "target": "a53"
+        },
+        {
+            "source": "a23",
+            "target": "a54"
+        },
+        {
+            "source": "a23",
+            "target": "a94"
+        },
+        {
+            "source": "a23",
+            "target": "a95"
+        },
+        {
+            "source": "a23",
+            "target": "a80"
+        },
+        {
+            "source": "a23",
+            "target": "a27"
+        },
+        {
+            "source": "a23",
+            "target": "a97"
+        },
+        {
+            "source": "a23",
+            "target": "a81"
+        },
+        {
+            "source": "a100",
+            "target": "a32"
+        },
+        {
+            "source": "a32",
+            "target": "a34"
+        },
+        {
+            "source": "a32",
+            "target": "a97"
+        },
+        {
+            "source": "a32",
+            "target": "a75"
+        },
+        {
+            "source": "a35",
+            "target": "a45"
+        },
+        {
+            "source": "a35",
+            "target": "a66"
+        },
+        {
+            "source": "a36",
+            "target": "a45"
+        },
+        {
+            "source": "a36",
+            "target": "a96"
+        },
+        {
+            "source": "a36",
+            "target": "a86"
+        },
+        {
+            "source": "a36",
+            "target": "a66"
+        },
+        {
+            "source": "a36",
+            "target": "a90"
+        },
+        {
+            "source": "a36",
+            "target": "a87"
+        },
+        {
+            "source": "a37",
+            "target": "a45"
+        },
+        {
+            "source": "a37",
+            "target": "a96"
+        },
+        {
+            "source": "a37",
+            "target": "a86"
+        },
+        {
+            "source": "a37",
+            "target": "a66"
+        },
+        {
+            "source": "a37",
+            "target": "a90"
+        },
+        {
+            "source": "a37",
+            "target": "a87"
+        },
+        {
+            "source": "a38",
+            "target": "a45"
+        },
+        {
+            "source": "a38",
+            "target": "a96"
+        },
+        {
+            "source": "a38",
+            "target": "a86"
+        },
+        {
+            "source": "a38",
+            "target": "a66"
+        },
+        {
+            "source": "a38",
+            "target": "a90"
+        },
+        {
+            "source": "a38",
+            "target": "a87"
+        }
+    ]
+}

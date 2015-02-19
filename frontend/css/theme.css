@@ -16,6 +16,7 @@
 
 /* Typography */
 
+
 h1, h2, h3, h4, h5, h6, .intro, .leaguespartansmall {
     font-family: 'League Spartan';
 }
@@ -86,9 +87,10 @@ body {
     br {
         display: none; /* No forced line breaks in smaller sizes */
     }
-    .modal br {
-        display: inline; /* Except in song lyrics! */
+    .modal br, .highcharts-container br {
+        display: inline; /* Except in song lyrics and Highcharts graphs!*/
     }
+
 }
 
 
@@ -404,6 +406,39 @@ ul.nav-pills .subtitle {
     background-color: #6e328f;
     color: #ffffff;
 }
+
+#thirdPost .modal-header {
+    background-color: #fdba00;
+    color: #ffffff;
+}
+
+#thirdPost ol li:before {
+    color: #fdba00;
+}
+
+
+/* network graph */
+
+#vis-tooltip.tooltip {
+    border-radius: 0;
+    padding: 0;
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+
+}
+
+#vis-tooltip .tooltip-header {
+    background-color: #fdba00;
+    color: #ffffff;
+}
+
+#vis-tooltip .tooltip-header, #vis-tooltip .tooltip-body {
+    padding: 15px;
+}
+
 
 /* Tables */
 

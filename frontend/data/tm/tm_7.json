@@ -1,0 +1,48 @@
+{
+    "name": "Tobias Lundgren", 
+    "songs_per_year": [
+        {
+            "number_songs": 1, 
+            "year": 2003
+        }, 
+        {
+            "number_songs": 3, 
+            "year": 2004
+        }, 
+        {
+            "number_songs": 5, 
+            "year": 2005
+        }, 
+        {
+            "number_songs": 2, 
+            "year": 2006
+        }, 
+        {
+            "number_songs": 1, 
+            "year": 2008
+        }, 
+        {
+            "number_songs": 1, 
+            "year": 2010
+        }, 
+        {
+            "number_songs": 1, 
+            "year": 2011
+        }, 
+        {
+            "number_songs": 1, 
+            "year": 2013
+        }, 
+        {
+            "number_songs": 1, 
+            "year": 2014
+        }
+    ], 
+    "sucessfull_songs": [
+        "Las Vegas (vinnare 2005)", 
+        "Heartbreak Hotel (plats 2 i finalen 2013)", 
+        "Alcastar (plats 3 i finalen 2005)", 
+        "Hur svårt kan det va? (plats 5 i finalen 2008)", 
+        "Vi kan gunga (plats 6 i finalen 2005)"
+    ]
+}

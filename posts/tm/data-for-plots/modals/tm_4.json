@@ -1,0 +1,52 @@
+{
+    "name": "Fredrik Kempe", 
+    "songs_per_year": [
+        {
+            "number_songs": 1, 
+            "year": 2004
+        }, 
+        {
+            "number_songs": 1, 
+            "year": 2005
+        }, 
+        {
+            "number_songs": 3, 
+            "year": 2007
+        }, 
+        {
+            "number_songs": 2, 
+            "year": 2008
+        }, 
+        {
+            "number_songs": 4, 
+            "year": 2009
+        }, 
+        {
+            "number_songs": 2, 
+            "year": 2010
+        }, 
+        {
+            "number_songs": 4, 
+            "year": 2011
+        }, 
+        {
+            "number_songs": 2, 
+            "year": 2012
+        }, 
+        {
+            "number_songs": 3, 
+            "year": 2013
+        }, 
+        {
+            "number_songs": 4, 
+            "year": 2014
+        }
+    ], 
+    "sucessfull_songs": [
+        "Undo (vinnare 2014)", 
+        "Popular (vinnare 2011)", 
+        "La Voix (vinnare 2009)", 
+        "Hero (vinnare 2008)", 
+        "Blame It on the Disco (plats 3 i finalen 2014)"
+    ]
+}

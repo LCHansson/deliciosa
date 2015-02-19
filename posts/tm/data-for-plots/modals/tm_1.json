@@ -1,0 +1,56 @@
+{
+    "name": "Bobby Ljunggren", 
+    "songs_per_year": [
+        {
+            "number_songs": 5, 
+            "year": 2003
+        }, 
+        {
+            "number_songs": 2, 
+            "year": 2004
+        }, 
+        {
+            "number_songs": 4, 
+            "year": 2005
+        }, 
+        {
+            "number_songs": 4, 
+            "year": 2006
+        }, 
+        {
+            "number_songs": 4, 
+            "year": 2007
+        }, 
+        {
+            "number_songs": 5, 
+            "year": 2008
+        }, 
+        {
+            "number_songs": 4, 
+            "year": 2009
+        }, 
+        {
+            "number_songs": 2, 
+            "year": 2010
+        }, 
+        {
+            "number_songs": 2, 
+            "year": 2011
+        }, 
+        {
+            "number_songs": 1, 
+            "year": 2012
+        }, 
+        {
+            "number_songs": 3, 
+            "year": 2014
+        }
+    ], 
+    "sucessfull_songs": [
+        "This Is My Life (vinnare 2010)", 
+        "Hero (vinnare 2008)", 
+        "Evighet (vinnare 2006)", 
+        "Empty Room (plats 2 i finalen 2008)", 
+        "Min kärlek (plats 2 i finalen 2004)"
+    ]
+}

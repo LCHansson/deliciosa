@@ -1,0 +1,40 @@
+{
+    "name": "Ingela \"Pling\" Forsman", 
+    "songs_per_year": [
+        {
+            "number_songs": 2, 
+            "year": 2004
+        }, 
+        {
+            "number_songs": 1, 
+            "year": 2005
+        }, 
+        {
+            "number_songs": 3, 
+            "year": 2006
+        }, 
+        {
+            "number_songs": 1, 
+            "year": 2007
+        }, 
+        {
+            "number_songs": 3, 
+            "year": 2008
+        }, 
+        {
+            "number_songs": 4, 
+            "year": 2009
+        }, 
+        {
+            "number_songs": 1, 
+            "year": 2013
+        }
+    ], 
+    "sucessfull_songs": [
+        "Håll om mig (plats 2 i finalen 2005)", 
+        "Min kärlek (plats 2 i finalen 2004)", 
+        "Jag ljuger så bra (plats 7 i finalen 2006)", 
+        "I Love Europe (plats 9 i finalen 2008)", 
+        "Så vill stjärnorna (plats 11 i finalen 2009)"
+    ]
+}

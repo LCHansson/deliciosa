@@ -1,0 +1,32 @@
+{
+    "name": "Niklas Edberger", 
+    "songs_per_year": [
+        {
+            "number_songs": 1, 
+            "year": 2003
+        }, 
+        {
+            "number_songs": 3, 
+            "year": 2004
+        }, 
+        {
+            "number_songs": 5, 
+            "year": 2005
+        }, 
+        {
+            "number_songs": 2, 
+            "year": 2006
+        }, 
+        {
+            "number_songs": 1, 
+            "year": 2007
+        }
+    ], 
+    "sucessfull_songs": [
+        "Las Vegas (vinnare 2005)", 
+        "Alcastar (plats 3 i finalen 2005)", 
+        "Vi kan gunga (plats 6 i finalen 2005)", 
+        "Olé olé (plats 9 i finalen 2004)", 
+        "Alla flickor (plats 10 i finalen 2005)"
+    ]
+}

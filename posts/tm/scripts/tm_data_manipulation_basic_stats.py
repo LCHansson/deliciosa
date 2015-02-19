@@ -359,11 +359,13 @@ def get_tm_centric_data(all_data, all_participants_data, texts_data, outf, n=Non
     if n:
         data = data[0:n]
     ret = []
+    i = 1
     for tm, song_list in data:
         song_list.sort(key=lambda s: s["year"])
-        ret.append({'tm_id': "tm_" + song_list[0]["song_id"],
+        ret.append({'tm_id': "tm_" + str(i),
                     'tm': tm.encode('utf-8'),
                     'songs': song_list})
+        i += 1
 
     obj = open(outf, "w")
     json.dump(ret, obj, indent=4, sort_keys=True, encoding="utf-8", ensure_ascii=False)
@@ -395,7 +397,7 @@ if __name__ == '__main__':
     all_data = json.load(open("/Users/luminitamoruz/work/deliciosa/posts/tm/data/all_participants_data_2002_2014_gender_curated.json"), encoding="utf-8")
 
     get_tm_gender_balance_per_year(all_data, "data-for-plots/tm_extra_mbf.json")
-    """
+
     # plot 1
     get_tm_gender_balance(all_data, outf="data-for-plots/tm_tm_gender_imbalance.json")
     get_artists_gender_balance(all_data, outf="data-for-plots/tm_artists_gender_imbalance.json")
@@ -407,8 +409,7 @@ if __name__ == '__main__':
     part_data = get_dict(json.load(open("/Users/luminitamoruz/work/deliciosa/posts/tm/data/all_participants_all_data_2002_2014_2.json"), encoding="utf-8"))
     post1_data = get_texterna_dict(json.load(open("/Users/luminitamoruz/work/deliciosa/posts/tm/data/texterna_sent_lovew_counts.json"), encoding="utf-8")["data"])
 
-
     get_tm_centric_data(all_data, part_data, post1_data, outf="data-for-plots/tm_data_10_most_prolific.json", n=10)
     get_tm_centric_data(all_data, part_data, post1_data, outf="data-for-plots/tm_all_data.json", n=None)
-    """
+
 
