@@ -810,7 +810,8 @@ function buildTmTable() {
                 "mRender": function (antal, type, row) {
                     var v = '' + antal + '<span class="hidden-xs"> (' + row[4].toFixed(0) + '%)</span>';
                     return v;
-                }
+                },
+                sType: "num-html"
             },
             {
                 sClass: "count",
@@ -822,12 +823,15 @@ function buildTmTable() {
                 "mRender": function (a, type, row) {
                     var v = '' + a + '<span class="hidden-xs"> (' + row[5].toFixed(0) + '%)</span>';
                     return v;
-                }
+                },
+                sType: "num-html"
             }
         ]
     });
 
 }
+
+
 
 
 function week3() {
