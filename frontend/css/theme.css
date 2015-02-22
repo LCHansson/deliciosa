@@ -612,3 +612,38 @@ table.dataTable .count {
 .toggle-bar {
     text-align: center;
 }
+
+.artistsToggleActive {
+    background-color: #e70074;
+    color: #ffffff !important;
+}
+
+.artistsToggle {
+    padding: 15px;
+    border: 2px solid #e70074;
+    text-align: center;
+    color: #000000;
+    font-family: 'League Spartan';
+    display: table-cell;
+    cursor: pointer;
+
+
+}
+
+.artistsToggleGroup {
+    border-collapse: collapse;
+    display: table;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+#fourthPost .slider-handle, #fourthPost .slider-selection {
+    background: none !important;
+    background-color: #e70074 !important;
+
+}
+
+.marginright {
+    margin-right: 1em;
+}

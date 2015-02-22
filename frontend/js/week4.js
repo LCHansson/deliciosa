@@ -136,17 +136,34 @@ function artistsMap () {
                 marker.data.age = data[i].age;
             }
 
+            var markerColor = "#808080";
+            if (data[i].gender == 1){
+                markerColor = "#e70074";
+            } else if (data[i].gender == 2){
+                markerColor = "#00bbdb";
+            }
+
+            marker.data.icon = L.mapbox.marker.icon({
+                'marker-color': markerColor
+            });
+
 
             cluster.RegisterMarker(marker);
         }
 
         cluster.ProcessView();
 
-        var step = 0.001;
+        var timerId,
+            step = 0.001;
 
-        $("#residence").on("click", function(e){
+
+
+        $("#artists_residence").on("click", function(e){
+            $(this).toggleClass("artistsToggleActive");
+            $("#artists_birth").toggleClass("artistsToggleActive");
             var exitInterval = true;
-            var timerId = window.setInterval(function () {
+            clearInterval(timerId);
+            timerId = window.setInterval(function () {
                 var markers = cluster.Cluster._markers;
                 for (var i = 0; i < markers.length; i++ ){
                     if ( markers[i].data.delta_lat > 0 ) {
@@ -174,9 +191,12 @@ function artistsMap () {
             }, 1);
         });
 
-        $("#birth").on("click", function(e){
+        $("#artists_birth").on("click", function(e){
+            $(this).toggleClass("artistsToggleActive");
+            $("#artists_residence").toggleClass("artistsToggleActive");
             var exitInterval = true;
-            var timerId = window.setInterval(function () {
+            clearInterval(timerId);
+            timerId = window.setInterval(function () {
                 var markers = cluster.Cluster._markers;
                 for (var i = 0; i < markers.length; i++ ){
                     if ( markers[i].data.delta_lat > 0 ) {
@@ -204,6 +224,72 @@ function artistsMap () {
         });
 
 
+        var showMen = true,
+            showFemale = true,
+            showBands = true;
+
+        $("#artists_men").on("click", function(e){
+            var $this = $(this);
+            if( $this.hasClass("artistsToggleActive")) {
+                showMen = false;
+            } else {
+                showMen = true;
+            }
+            $this.toggleClass("artistsToggleActive");
+            var markers = cluster.Cluster._markers,
+                bounds = $("#range-age").val().split(","),
+                age;
+            for (var i = 0; i < markers.length; i++ ){
+                age = markers[i].data.age;
+                if ( markers[i].category == 2 && age >= bounds[0] && age <= bounds[1] ) {
+                    markers[i].filtered = !showMen;
+                }
+            }
+            cluster.ProcessView();
+
+        });
+
+        $("#artists_female").on("click", function(e){
+            var $this = $(this);
+            if( $this.hasClass("artistsToggleActive")) {
+                showFemale = false;
+            } else {
+                showFemale = true;
+            }
+            $this.toggleClass("artistsToggleActive");
+            var markers = cluster.Cluster._markers,
+                bounds = $("#range-age").val().split(","),
+                age;
+            for (var i = 0; i < markers.length; i++ ){
+                age = markers[i].data.age;
+                if ( markers[i].category == 1 && age >= bounds[0] && age <= bounds[1] ) {
+                    markers[i].filtered = !showFemale;
+                }
+            }
+            cluster.ProcessView();
+
+        });
+
+        $("#artists_bands").on("click", function(e){
+            var $this = $(this);
+            if( $this.hasClass("artistsToggleActive")) {
+                showBands = false;
+            } else {
+                showBands = true;
+            }
+            $this.toggleClass("artistsToggleActive");
+            var markers = cluster.Cluster._markers,
+                bounds = $("#range-age").val().split(","),
+                age;
+            for (var i = 0; i < markers.length; i++ ){
+                age = markers[i].data.age;
+                if ( markers[i].category == 3 && age >= bounds[0] && age <= bounds[1] ) {
+                    markers[i].filtered = !showBands;
+                }
+            }
+            cluster.ProcessView();
+
+        });
 
         $("#range-age").slider({
             tooltip: 'always'
@@ -217,8 +303,19 @@ function artistsMap () {
                 age = markers[i].data.age;
                 if ( age >= bounds[0] && age <= bounds[1] ) {
                     markers[i].filtered = false;
+                    if (markers[i].category == 3 && !showBands) {
+                        markers[i].filtered = true;
+                    }
+                    if (markers[i].category == 2 && !showMen) {
+                        markers[i].filtered = true;
+                    }
+                    if (markers[i].category == 1 && !showFemale) {
+                        markers[i].filtered = true;
+                    }
                 } else {
-                    markers[i].filtered = true;
+
+                        markers[i].filtered = true;
+
                 }
             }
             cluster.ProcessView();
