@@ -89,6 +89,7 @@ for (i in 1:nrow(artists.loc)) {
 ## export artists with places to json ----
 artists.export <- artists.loc %>% 
   filter(!is.na(birth_lat) | !is.na(res_lat)) %>% 
+  filter(!(birthplace == "-" & residence == "-")) %>%
   select(id, artist, birthyear, birthplace, birth_lat, birth_lon, 
          residence, res_lat, res_lon, band, gender, 
          nearest_birth_city, nearest_birth_distance, 

@@ -6,8 +6,8 @@ function artistsMap () {
 
 
 
-    var cluster = new PruneClusterForLeaflet(1, 1);
-    cluster.Cluster.Size = 80;
+    var cluster = new PruneClusterForLeaflet(80, 20);
+    //cluster.Cluster.Size = 80;
 
 
 
@@ -137,13 +137,18 @@ function artistsMap () {
                 songs = [songs];
             }
             content += "<div class='map-header' style='background-color: " + bgColor + "'>" +
-            "<h4>" + data[i].artist + "</h4>" +
-            "Ålder: " + data[i].age;
+            "<h4>" + data[i].artist + "</h4>";
+            var breakAge = "";
+            if (data[i].age){
+                content += "" + data[i].age + " år";
+                breakAge = "<br>";
+            }
+
             if (data[i].birthplace.length > 1){
-                 content += "<br>Kommer från " + data[i].birthplace;
+                 content += breakAge + "Kommer från " + data[i].birthplace;
             }
             if (data[i].residence.length > 1){
-                content += "<br>Bor i " + data[i].residence;
+                content += breakAge + "Bor i " + data[i].residence;
             }
             content += "</div>" +
             "<div class='map-body'><ul>";
@@ -210,8 +215,10 @@ function artistsMap () {
             timerId = window.setInterval(function () {
                 var markers = cluster.Cluster._markers;
                 for (var i = 0; i < markers.length; i++ ){
-                    if ( markers[i].data.delta_lat > 0 ) {
-                        if (markers[i].position.lat < markers[i].data.res_lat * Math.sign(markers[i].data.delta_lat) ){
+                    if ( Math.abs(markers[i].data.delta_lat) > 0 ) {
+
+                        if ((markers[i].position.lat < markers[i].data.res_lat &&  Math.sign(markers[i].data.delta_lat) == 1) ||
+                            (markers[i].position.lat > markers[i].data.res_lat &&  Math.sign(markers[i].data.delta_lat) == -1)){
                             markers[i].weight = 1;
 
                             markers[i].position.lat += step * markers[i].data.delta_lat;
@@ -247,8 +254,10 @@ function artistsMap () {
             timerId = window.setInterval(function () {
                 var markers = cluster.Cluster._markers;
                 for (var i = 0; i < markers.length; i++ ){
-                    if ( markers[i].data.delta_lat > 0 ) {
-                        if (markers[i].position.lat > markers[i].data.birth_lat * Math.sign(markers[i].data.delta_lat) ){
+                    if ( Math.abs(markers[i].data.delta_lat) > 0 ) {
+
+                        if ((markers[i].position.lat < markers[i].data.birth_lat &&  Math.sign(markers[i].data.delta_lat) == -1) ||
+                            (markers[i].position.lat > markers[i].data.birth_lat &&  Math.sign(markers[i].data.delta_lat) == 1) ){
                             markers[i].weight = 1;
                             markers[i].position.lat -= step * markers[i].data.delta_lat;
                             markers[i].position.lng -= step * markers[i].data.delta_lon;
@@ -294,6 +303,8 @@ function artistsMap () {
                 age = markers[i].data.age;
                 if ( markers[i].category == 2 && age >= bounds[0] && age <= bounds[1] ) {
                     markers[i].filtered = !showMen;
+                } else if (markers[i].category == 2) {
+                    markers[i].filtered = !showMen;
                 }
             }
             cluster.ProcessView();
@@ -314,6 +325,8 @@ function artistsMap () {
             for (var i = 0; i < markers.length; i++ ){
                 age = markers[i].data.age;
                 if ( markers[i].category == 1 && age >= bounds[0] && age <= bounds[1] ) {
+                    markers[i].filtered = !showFemale;
+                } else if (markers[i].category == 1) {
                     markers[i].filtered = !showFemale;
                 }
             }
@@ -336,6 +349,8 @@ function artistsMap () {
                 age = markers[i].data.age;
                 if ( markers[i].category == 3 && age >= bounds[0] && age <= bounds[1] ) {
                     markers[i].filtered = !showBands;
+                } else if (markers[i].category == 3) {
+                    markers[i].filtered = !showBands;
                 }
             }
             cluster.ProcessView();
@@ -352,7 +367,7 @@ function artistsMap () {
 
             for (var i = 0; i < markers.length; i++ ){
                 age = markers[i].data.age;
-                if ( age >= bounds[0] && age <= bounds[1] ) {
+                if ( age >= bounds[0] && age <= bounds[1] || typeof age === "undefined") {
                     markers[i].filtered = false;
                     if (markers[i].category == 3 && !showBands) {
                         markers[i].filtered = true;
