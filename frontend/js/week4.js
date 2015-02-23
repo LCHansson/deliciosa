@@ -208,6 +208,7 @@ function artistsMap () {
             if ($(this).hasClass("artistsToggleActiveCerise")){
                 return;
             }
+            cluster._map.fire("click");
             $(this).toggleClass("artistsToggleActiveCerise");
             $("#artists_birth").toggleClass("artistsToggleActiveCerise");
             var exitInterval = true;
@@ -236,6 +237,10 @@ function artistsMap () {
 
                 cluster.ProcessView();
                 if (exitInterval) {
+                    cluster.Cluster.Size = 2000;
+                    cluster.ProcessView();
+                    cluster.Cluster.Size = 80;
+                    cluster.ProcessView();
                     clearInterval(timerId);
                 }
                 exitInterval = true;
@@ -246,6 +251,7 @@ function artistsMap () {
             if ($(this).hasClass("artistsToggleActiveCerise")){
                 return;
             }
+            cluster._map.fire("click");
             $(this).toggleClass("artistsToggleActiveCerise");
             $("#artists_residence").toggleClass("artistsToggleActiveCerise");
             var exitInterval = true;
@@ -275,12 +281,14 @@ function artistsMap () {
 
                 cluster.ProcessView();
                 if (exitInterval) {
+                    cluster.Cluster.Size = 2000;
+                    cluster.ProcessView();
+                    cluster.Cluster.Size = 80;
+                    cluster.ProcessView();
                     clearInterval(timerId);
                 }
                 exitInterval = true;
             }, 1);
-
-
         });
 
 
