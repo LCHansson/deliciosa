@@ -1,4 +1,6 @@
 function artistsMap () {
+
+    $("#artistsMap").css("height", "" + window.innerHeight * 0.85 + "px")
     L.mapbox.accessToken = 'pk.eyJ1IjoiY3BlcnJpYXJkIiwiYSI6InN0UExhN28ifQ.GEm5rxAjECcgjIpy6pUY2g';
     var map = L.mapbox.map('artistsMap', 'cperriard.l7hpbn98', {maxZoom: 14})
         .setView([62.9, 15.6], 5);
