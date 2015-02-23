@@ -613,29 +613,62 @@ table.dataTable .count {
     text-align: center;
 }
 
-.artistsToggleActive {
+.artistsToggleActiveCerise {
     background-color: #e70074;
     color: #ffffff !important;
 }
+.artistsToggleActiveBlue {
+     background-color: #00bbdb;
+     color: #ffffff !important;
+ }
+.artistsToggleActiveGrey {
+    background-color: grey;
+    color: #ffffff !important;
+}
 
-.artistsToggle {
+
+.artistsToggleCerise {
     padding: 15px;
     border: 2px solid #e70074;
     text-align: center;
-    color: #000000;
+    color: #e70074;
     font-family: 'League Spartan';
-    display: table-cell;
     cursor: pointer;
-
-
+    float: left;
+    display: inline;
 }
 
-.artistsToggleGroup {
-    border-collapse: collapse;
-    display: table;
+.artistsToggleBlue {
+    padding: 15px;
+    border: 2px solid #00bbdb;
+    text-align: center;
+    color: #00bbdb;
+    font-family: 'League Spartan';
+    cursor: pointer;
     float: left;
-    margin-right: 1em;
+    display: inline;
+}
+
+.artistsToggleGrey {
+    padding: 15px;
+    border: 2px solid grey;
+    text-align: center;
+    color: grey;
+    font-family: 'League Spartan';
+    cursor: pointer;
+    float: left;
+    display: inline;
+}
+
+
+
+
+
+
+.artistsToggleGroup {
+    float: left;
     margin-bottom: 1em;
+    padding-left: 0;
 }
 
 #fourthPost .slider-handle, #fourthPost .slider-selection {

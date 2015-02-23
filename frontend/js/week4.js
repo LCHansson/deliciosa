@@ -6,7 +6,8 @@ function artistsMap () {
 
 
 
-    var cluster = new PruneClusterForLeaflet(80, 10);
+    var cluster = new PruneClusterForLeaflet(1, 1);
+    cluster.Cluster.Size = 80;
 
 
 
@@ -159,8 +160,11 @@ function artistsMap () {
 
 
         $("#artists_residence").on("click", function(e){
-            $(this).toggleClass("artistsToggleActive");
-            $("#artists_birth").toggleClass("artistsToggleActive");
+            if ($(this).hasClass("artistsToggleActiveCerise")){
+                return;
+            }
+            $(this).toggleClass("artistsToggleActiveCerise");
+            $("#artists_birth").toggleClass("artistsToggleActiveCerise");
             var exitInterval = true;
             clearInterval(timerId);
             timerId = window.setInterval(function () {
@@ -192,10 +196,14 @@ function artistsMap () {
         });
 
         $("#artists_birth").on("click", function(e){
-            $(this).toggleClass("artistsToggleActive");
-            $("#artists_residence").toggleClass("artistsToggleActive");
+            if ($(this).hasClass("artistsToggleActiveCerise")){
+                return;
+            }
+            $(this).toggleClass("artistsToggleActiveCerise");
+            $("#artists_residence").toggleClass("artistsToggleActiveCerise");
             var exitInterval = true;
             clearInterval(timerId);
+
             timerId = window.setInterval(function () {
                 var markers = cluster.Cluster._markers;
                 for (var i = 0; i < markers.length; i++ ){
@@ -215,12 +223,15 @@ function artistsMap () {
                     }
                 }
 
+
                 cluster.ProcessView();
                 if (exitInterval) {
                     clearInterval(timerId);
                 }
                 exitInterval = true;
             }, 1);
+
+
         });
 
 
@@ -230,12 +241,12 @@ function artistsMap () {
 
         $("#artists_men").on("click", function(e){
             var $this = $(this);
-            if( $this.hasClass("artistsToggleActive")) {
+            if( $this.hasClass("artistsToggleActiveBlue")) {
                 showMen = false;
             } else {
                 showMen = true;
             }
-            $this.toggleClass("artistsToggleActive");
+            $this.toggleClass("artistsToggleActiveBlue");
             var markers = cluster.Cluster._markers,
                 bounds = $("#range-age").val().split(","),
                 age;
@@ -251,12 +262,12 @@ function artistsMap () {
 
         $("#artists_female").on("click", function(e){
             var $this = $(this);
-            if( $this.hasClass("artistsToggleActive")) {
+            if( $this.hasClass("artistsToggleActiveCerise")) {
                 showFemale = false;
             } else {
                 showFemale = true;
             }
-            $this.toggleClass("artistsToggleActive");
+            $this.toggleClass("artistsToggleActiveCerise");
             var markers = cluster.Cluster._markers,
                 bounds = $("#range-age").val().split(","),
                 age;
@@ -272,12 +283,12 @@ function artistsMap () {
 
         $("#artists_bands").on("click", function(e){
             var $this = $(this);
-            if( $this.hasClass("artistsToggleActive")) {
+            if( $this.hasClass("artistsToggleActiveGrey")) {
                 showBands = false;
             } else {
                 showBands = true;
             }
-            $this.toggleClass("artistsToggleActive");
+            $this.toggleClass("artistsToggleActiveGrey");
             var markers = cluster.Cluster._markers,
                 bounds = $("#range-age").val().split(","),
                 age;
@@ -325,19 +336,176 @@ function artistsMap () {
 
 
     });
+}
 
 
+function buildPlaceColChart(data) {
+    var residenceData = [];
+    var birthData = [];
+    var categories = [];
 
+    for (var i=0; i<data.length; ++i) {
+        residenceData.push({
+            name: data[i].place,
+            y: data[i].residence
+        });
+        birthData.push({
+            name: data[i].place,
+            y: data[i].birthplace
+        });
+        categories.push(data[i].place)
+    }
+    //console.log(winnerData);
 
+    var barChart = new Highcharts.Chart(
+        {
+            exporting: {
+                enabled: false
+            },
+            chart: {
+                renderTo: 'artists-place',
+                type: 'column',
+                height: 250
+            },
+            title: {
+                text: 'Ort'
+            },
+            subtitle: {
+                text: "Melloartister flyttar till storstäderna"
+            },
+            legend: {
+                enabled: false
+            },
+            xAxis: {
+                categories: categories,
+                title: {
+                    text: null
+                },
+                gridLineWidth: 0.0,
+                labels: {
+                    enabled: true
+                },
+                tickLength: 0,
+                tickWidth: 0,
+                lineWidth: 0
+            },
+            yAxis: [
+                { // residence
+                    title: {
+                        text: null
+                    },
+                    labels: {
+                        //    overflow: 'justify',
+                        enabled: false
+                    },
+                    gridLineWidth: 0.0,
+                    tickLength: 5,
+                    tickWidth: 0,
+                    tickColor: '#000000',
+                    tickInterval: 250,
 
+                    endOnTick: false,
+                    isDirty: true
+                },
+                { // birth
+                    title: {
+                        text: null
+                    },
+                    min: 0,
+                    max: 9,
+                    opposite: true,
+                    enabled: false,
+                    labels: {
+                        enabled: false,
+                    },
+                    gridLineWidth: 0.0,
+                    tickLength: 5,
+                    tickWidth: 0,
+                    tickColor: '#000000',
+                    tickInterval: 250,
 
+                    endOnTick: false,
+                    isDirty: true
+                }],
 
+            plotOptions: {
+                column: {
+                    //groupPadding: 0,
+                    pointPadding: 0
+                    //dataLabels: {
+                    //
+                    //    enabled: true,
+                    //    formatter: function() {
+                    //        return this.point.name;
+                    //    }
+                    //},
+                    //borderWidth: 7
+                }
+            },
 
+            tooltip: {
+                formatter: function() {
+                    //return '<small><b>' + this.x + '</b><br/>Andel förlorare: ' + (this.y * 100).toPrecision(2) + '%</small>';
+                    //return 'Låtar på <b>' + this.x + '</b><br/>Andel ' + this.series.name + ': ' + (this.y*100).toPrecision(2) + '%</small>';
+                    var where = 'bor i en storstadsregion';
+                    if (this.y < 0.6) {
+                        where = 'är födda i en storstadsregion';
+                    }
+                    if ((this.series.name == "Landsbygden" && this.series.options.id == "birth" && this.y > 0.5) ||
+                        (this.series.name == "Storstadsregion" && this.series.options.id == "residence" && this.y < 0.5)){
+                        where = 'bor på landsbygden';
+                        if (this.y > 0.3) {
+                            where = 'är födda på landsbygden';
+                        }
+                    }
+                    return '<strong>' + (this.y*100).toPrecision(2) + '%</strong> av alla Melloartister ' + where + '.';
+                }
+                //pointFormat: '<b>{point.y}</b>'
+            },
 
-
-
+            credits: {
+                enabled: false
+            },
+            series: [
+                {
+                    color: '#e70074',
+                    data: residenceData,
+                    id: "residence",
+                    grouping: false,
+                    name: "Storstadsregion",
+                    index: 2,
+                    legendIndex: 1,
+                    yAxis: 0
+                },
+                {
+                    grouping: false,
+                    color: "grey",
+                    data: birthData,
+                    id: "birth",
+                    pointPlacement: 0.2,
+                    name : "Landsbygden",
+                    index: 1,
+                    legendIndex: 2,
+                    yAxis: 0
+                }
+            ]
+        }
+    );
 }
 
 function week4(){
+
+    $.ajax({
+        type: "POST",
+        url: "./data/artists_place.json",
+        dataType: "json",
+        success: function(response) {
+            buildPlaceColChart(response);
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+            console.log("Error!" + textStatus   );
+        }
+    });
+
     artistsMap();
 }

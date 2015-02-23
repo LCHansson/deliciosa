@@ -89,22 +89,29 @@
 
 
 
+        <div class="row">
+            <div class="col-md-6" id="artists-place"></div>
+            <div class="col-md-6"></div>
+        </div>
 
-            <div class="artistsToggleGroup">
-                    <div id="artists_birth" class="artistsToggle artistsToggleActive" >Födelseort</div>
-                    <div id="artists_residence" class="artistsToggle marginright">Bosättningsort</div>
-            </div>
 
-            <div class="artistsToggleGroup">
-                    <div id="artists_men" class="artistsToggle artistsToggleActive">Män</div>
-                    <div id="artists_female" class="artistsToggle artistsToggleActive">Kvinnor</div>
-                    <div id="artists_bands" class="artistsToggle artistsToggleActive marginright">Band</div>
-            </div>
+        <div id="artistsMapControls">
+            <ul class="artistsToggleGroup">
+                <li id="artists_birth" class="artistsToggleCerise artistsToggleActiveCerise" >Födelseort</li>
+                <li id="artists_residence" class="artistsToggleCerise marginright">Bosättningsort</li>
+            </ul>
 
-        <div class="artistsToggleGroup">
-            <div class="artistsToggle">
-                <span class="leaguespartansmall" style="margin-right: 0.5em;">Ålder: </span><input id="range-age" type="text" class="span2" value="" data-slider-min="2" data-slider-max="78" data-slider-step="1" data-slider-value="[2,78]"/>
-            </div>
+            <ul class="artistsToggleGroup">
+                <li id="artists_men" class="artistsToggleBlue artistsToggleActiveBlue">Män</li>
+                <li id="artists_female" class="artistsToggleCerise artistsToggleActiveCerise">Kvinnor</li>
+                <li id="artists_bands" class="artistsToggleGrey artistsToggleActiveGrey marginright">Band</li>
+            </ul>
+
+            <ul class="artistsToggleGroup">
+                <li class="artistsToggleCerise">
+                    <span class="leaguespartansmall" style="margin-right: 0.5em;">Ålder: </span><input id="range-age" type="text" class="span2" value="" data-slider-min="2" data-slider-max="78" data-slider-step="1" data-slider-value="[2,78]"/>
+                </li>
+            </ul>
         </div>
 
         <div id="artistsMap" style="width: 100%; height: 700px;"></div>
