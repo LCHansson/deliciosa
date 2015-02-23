@@ -680,3 +680,32 @@ table.dataTable .count {
 .marginright {
     margin-right: 1em;
 }
+
+/* leaflet */
+
+.leaflet-popup-content, .leaflet-popup-close-button+.leaflet-popup-content-wrapper .leaflet-popup-content {
+    padding: 0;
+}
+.leaflet-popup-close-button {
+    display: none;
+}
+
+.leaflet-popup-content-wrapper {
+    border-radius: 0;
+    padding: 0;
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+}
+
+
+.map-header h4 {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 15px;
+}
+.map-header {
+    padding: 15px;
+    color: #ffffff;
+}

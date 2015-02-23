@@ -118,7 +118,25 @@ function artistsMap () {
             marker = new PruneCluster.Marker( lat, lon );
             marker.category = data[i].gender;
             marker.weight = weight;
-            marker.data.popup = data[i].artist;
+            var content = "",
+                bgColor = "#e70074";
+            if (data[i].gender == 2){
+                bgColor = "#00bbdb"
+            } else if (data[i].gender == 3){
+                bgColor = "grey"
+            }
+            content += "<div class='map-header' style='background-color: " + bgColor + "'>" +
+            "<h4>" + data[i].artist + "</h4>" +
+            "Ålder: " + data[i].age
+            if (data[i].birthplace.length > 1){
+                 content += "<br>Kommer från " + data[i].birthplace;
+            }
+            if (data[i].residence.length > 1){
+                content += "<br>Bor i " + data[i].birthplace;
+            }
+            content += "</div>" +
+            "<div class='map-body'></div>";
+            marker.data.popup = content;
 
             if (data[i].res_lat) {
                 marker.data.res_lat = data[i].res_lat;
