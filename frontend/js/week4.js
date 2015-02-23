@@ -125,17 +125,39 @@ function artistsMap () {
             } else if (data[i].gender == 3){
                 bgColor = "grey"
             }
+
+
+            var songs = JSON.parse(data[i].songs),
+                songsCount,
+                remark;
+            if (songs.length) {
+                songsCount = songs.length;
+            } else {
+                songsCount = 1;
+                songs = [songs];
+            }
             content += "<div class='map-header' style='background-color: " + bgColor + "'>" +
             "<h4>" + data[i].artist + "</h4>" +
-            "Ålder: " + data[i].age
+            "Ålder: " + data[i].age;
             if (data[i].birthplace.length > 1){
                  content += "<br>Kommer från " + data[i].birthplace;
             }
             if (data[i].residence.length > 1){
-                content += "<br>Bor i " + data[i].birthplace;
+                content += "<br>Bor i " + data[i].residence;
             }
             content += "</div>" +
-            "<div class='map-body'></div>";
+            "<div class='map-body'><ul>";
+            for (var j = 0; j < songsCount; j++){
+                remark = songs[j].prel_remark;
+                if (songs[j].final_placing == 1){
+                    remark = "Vinnare!";
+                } else if (songs[j].final_placing > 0){
+                    remark = "" + songs[j].final_placing + ":a i finalen";
+                }
+                content += "<li>" + songs[j].year + ": " +
+                "" + songs[j].song_name + " (" + remark + ") </li>";
+            }
+            content += "</ul></div>";
             marker.data.popup = content;
 
             if (data[i].res_lat) {
