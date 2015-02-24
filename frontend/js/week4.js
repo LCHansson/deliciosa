@@ -2,14 +2,14 @@ function artistsMap () {
 
     $("#artistsMap").css("height", "" + window.innerHeight * 0.85 + "px")
     L.mapbox.accessToken = 'pk.eyJ1IjoiY3BlcnJpYXJkIiwiYSI6InN0UExhN28ifQ.GEm5rxAjECcgjIpy6pUY2g';
-    var map = L.mapbox.map('artistsMap', 'cperriard.l7hpbn98', {maxZoom: 14})
+    var map = L.mapbox.map('artistsMap', 'cperriard.l7hpbn98', {maxZoom: 8, minZoom: 3})
         .setView([62.9, 15.6], 5);
 
 
 
 
-    var cluster = new PruneClusterForLeaflet(80, 20);
-    //cluster.Cluster.Size = 80;
+    var cluster = new PruneClusterForLeaflet(1, 1);
+    var clusterSize = cluster.Cluster.Size;
 
 
 
@@ -192,7 +192,8 @@ function artistsMap () {
             }
 
             marker.data.icon = L.mapbox.marker.icon({
-                'marker-color': markerColor
+                'marker-color': markerColor,
+                'marker-size': 'small'
             });
 
 
@@ -241,7 +242,7 @@ function artistsMap () {
                 if (exitInterval) {
                     cluster.Cluster.Size = 2000;
                     cluster.ProcessView();
-                    cluster.Cluster.Size = 80;
+                    cluster.Cluster.Size = clusterSize;
                     cluster.ProcessView();
                     clearInterval(timerId);
                 }
@@ -285,7 +286,7 @@ function artistsMap () {
                 if (exitInterval) {
                     cluster.Cluster.Size = 2000;
                     cluster.ProcessView();
-                    cluster.Cluster.Size = 80;
+                    cluster.Cluster.Size = clusterSize;
                     cluster.ProcessView();
                     clearInterval(timerId);
                 }
