@@ -23,9 +23,11 @@
     <!-- mapbox.com -->
     <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
-    <!--<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'></script>-->
+    <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.4/Leaflet.fullscreen.min.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.4/leaflet.fullscreen.css' rel='stylesheet' />
+    <!--<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet' />
-    <link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet' />
+    <link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet' />-->
 
 
     <link href="css/bootstrap-slider.min.css" rel="stylesheet">
@@ -95,26 +97,22 @@
         </div>
 
 
-        <div id="artistsMapControls">
-            <ul class="artistsToggleGroup">
-                <li id="artists_birth" class="artistsToggleCerise artistsToggleActiveCerise" >Födelseort</li>
-                <li id="artists_residence" class="artistsToggleCerise marginright">Bosättningsort</li>
-            </ul>
 
-            <ul class="artistsToggleGroup">
-                <li id="artists_men" class="artistsToggleBlue artistsToggleActiveBlue">Män</li>
-                <li id="artists_female" class="artistsToggleCerise artistsToggleActiveCerise">Kvinnor</li>
-                <li id="artists_bands" class="artistsToggleGrey artistsToggleActiveGrey marginright">Band</li>
-            </ul>
 
-            <ul class="artistsToggleGroup">
-                <li class="artistsToggleCerise">
-                    <span class="leaguespartansmall" style="margin-right: 0.5em;">Ålder: </span><input id="range-age" type="text" class="span2" value="" data-slider-min="2" data-slider-max="78" data-slider-step="1" data-slider-value="[2,78]"/>
-                </li>
-            </ul>
+        <div id="artistsMap" style="width: 100%; height: 700px;">
+            <div id="artistsMapControls">
+                <nav class="artistsToggleGroup">
+                    <a id="artists_birth" class="artistsToggleCerise blockLeft artistsToggleActiveCerise" >Födelseort</a>
+                    <a id="artists_residence" class="artistsToggleCerise blockLeft artistsToggleInActiveCerise marginbottom">Bosättningsort</a>
+                </nav>
+
+                <nav class="artistsToggleGroup">
+                    <a id="artists_female" class="artistsToggleCerise artistsToggleActiveCerise">Kvinnor</a><br>
+                    <a id="artists_men" class="artistsToggleBlue artistsToggleActiveBlue">Män</a><br>
+                    <a id="artists_bands" class="artistsToggleGrey artistsToggleActiveGrey marginright">Band</a>
+                </nav>
+            </div>
         </div>
-
-        <div id="artistsMap" style="width: 100%; height: 700px;"></div>
 
     </section> <!-- #fourthPost end -->
 
@@ -162,8 +160,8 @@
 <script src="js/pattern-fill.js"> </script>
 <script src="js/jquery.dataTables.min.js"></script>
 <script src="js/polyhymnia.js"></script>
-<script src="js/PruneCluster.min.js"></script>
-<script src="js/bootstrap-slider.min.js"></script>
+<!--<script src="js/PruneCluster.min.js"></script>
+<script src="js/bootstrap-slider.min.js"></script>-->
 
 
 

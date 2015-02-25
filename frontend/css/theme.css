@@ -613,6 +613,15 @@ table.dataTable .count {
     text-align: center;
 }
 
+
+
+#artistsMapControls {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+}
+
 .artistsToggleActiveCerise {
     background-color: #e70074;
     color: #ffffff !important;
@@ -625,39 +634,40 @@ table.dataTable .count {
     background-color: grey;
     color: #ffffff !important;
 }
+.artistsToggleInActiveCerise {
+    background-color: transparent;
+    color: #e70074 !important;
+}
+.artistsToggleInActiveBlue {
+    background-color: transparent;
+    color: #00bbdb !important;
+}
+.artistsToggleInActiveGrey {
+    background-color: transparent;
+    color: #grey !important;
+}
 
+.blockLeft {
+    display: block;
+    float: left;
+}
 
 .artistsToggleCerise {
-    padding: 15px;
-    border: 2px solid #e70074;
+    padding: 5px;
+    border: 1px solid #e70074;
     text-align: center;
-    color: #e70074;
-    font-family: 'League Spartan';
-    cursor: pointer;
-    float: left;
-    display: inline;
 }
 
 .artistsToggleBlue {
-    padding: 15px;
-    border: 2px solid #00bbdb;
+    padding: 5px;
+    border: 1px solid #00bbdb;
     text-align: center;
-    color: #00bbdb;
-    font-family: 'League Spartan';
-    cursor: pointer;
-    float: left;
-    display: inline;
 }
 
 .artistsToggleGrey {
-    padding: 15px;
-    border: 2px solid grey;
+    padding: 5px;
+    border: 1px solid grey;
     text-align: center;
-    color: grey;
-    font-family: 'League Spartan';
-    cursor: pointer;
-    float: left;
-    display: inline;
 }
 
 
@@ -666,9 +676,8 @@ table.dataTable .count {
 
 
 .artistsToggleGroup {
-    float: left;
-    margin-bottom: 1em;
     padding-left: 0;
+    text-align: right;
 }
 
 #fourthPost .slider-handle, #fourthPost .slider-selection {
@@ -677,8 +686,8 @@ table.dataTable .count {
 
 }
 
-.marginright {
-    margin-right: 1em;
+.marginbottom {
+    margin-bottom: 1em;
 }
 
 /* leaflet */
