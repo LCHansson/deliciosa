@@ -144,13 +144,15 @@ function artistsMap () {
 
 
         var timerId,
-            step = 0.001;
+            step = 0.004;
 
         var men = [],
             female = [],
             bands = [];
 
         $("#artists_residence").on("click", function(e){
+            e.preventDefault();
+            e.stopPropagation();
             if ($(this).hasClass("artistsToggleActiveCerise")){
                 return;
             }
@@ -214,6 +216,8 @@ function artistsMap () {
         });
 
         $("#artists_birth").on("click", function(e){
+            e.preventDefault();
+            e.stopPropagation();
             if ($(this).hasClass("artistsToggleActiveCerise")){
                 return;
             }
