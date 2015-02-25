@@ -644,7 +644,7 @@ table.dataTable .count {
 }
 .artistsToggleInActiveGrey {
     background-color: transparent;
-    color: #grey !important;
+    color: grey !important;
 }
 
 .blockLeft {
@@ -653,25 +653,32 @@ table.dataTable .count {
 }
 
 .artistsToggleCerise {
-    padding: 5px;
+    padding: 2px 5px;
     border: 1px solid #e70074;
     text-align: center;
 }
 
 .artistsToggleBlue {
-    padding: 5px;
+    padding: 2px 5px;
     border: 1px solid #00bbdb;
     text-align: center;
 }
 
 .artistsToggleGrey {
-    padding: 5px;
+    padding: 2px 5px;
     border: 1px solid grey;
     text-align: center;
 }
 
 
+#artists_female, #artists_men, #artists_bands {
+    display: block;
+}
 
+#artistsMapControls nav div:last-child {
+    padding-left: 108px;
+    padding-top: 40px;
+}
 
 
 
