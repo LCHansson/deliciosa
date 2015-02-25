@@ -145,6 +145,9 @@ function artistsMap () {
 
         var timerId,
             step = 0.004;
+        if ( window.innerWidth >= 768 ){
+            step = 0.012;
+        }
 
         var men = [],
             female = [],
