@@ -497,7 +497,7 @@ function buildPlaceColChart(data) {
 
 function week4(){
 
-    $.ajax({
+   /* $.ajax({
         type: "POST",
         url: "./data/artists_place.json",
         dataType: "json",
@@ -507,7 +507,7 @@ function week4(){
         error: function(jqXHR, textStatus, errorThrown) {
             console.log("Error!" + textStatus   );
         }
-    });
+    });*/
 
     artistsMap();
 }
