@@ -13,6 +13,17 @@ function artistsMap () {
 
 
 
+    var oms = new OverlappingMarkerSpiderfier(map, { keepSpiderfied:true });
+    var popup = new L.Popup();
+    /*oms.addListener('click', function(marker) {
+        popup.setContent(marker.popupContent);
+        var latlng = marker.getLatLng();
+        popup.setLatLng(L.latLng(latlng.lat + 1/(map.getZoom()), latlng.lng));
+        map.openPopup(popup);
+    });*/
+    oms.addListener('spiderfy', function(markers) {
+        map.closePopup();
+    });
 
 
 
@@ -82,6 +93,7 @@ function artistsMap () {
                 "" + songs[j].song_name + " (" + remark + ") </li>";
             }
             popupContent += "</ul></div>";
+
             /* end popuup */
 
 
@@ -104,6 +116,7 @@ function artistsMap () {
             } );
 
             marker.bindPopup(popupContent);
+            //marker.popupContent = popupContent;
 
             marker.category = data[i].gender;
 
@@ -128,6 +141,7 @@ function artistsMap () {
 
 
             markerGroup.addLayer(marker);
+            oms.addMarker(marker);
         }
 
 
