@@ -635,15 +635,15 @@ table.dataTable .count {
     color: #ffffff !important;
 }
 .artistsToggleInActiveCerise {
-    background-color: transparent;
+    background-color: rgba(255,255,255,0.5);
     color: #e70074 !important;
 }
 .artistsToggleInActiveBlue {
-    background-color: transparent;
+    background-color: rgba(255,255,255,0.5);
     color: #00bbdb !important;
 }
 .artistsToggleInActiveGrey {
-    background-color: transparent;
+    background-color: rgba(255,255,255,0.5);
     color: grey !important;
 }
 
