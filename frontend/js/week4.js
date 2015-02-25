@@ -13,14 +13,8 @@ function artistsMap () {
 
 
 
-    var oms = new OverlappingMarkerSpiderfier(map, { keepSpiderfied:true });
+    var oms = new OverlappingMarkerSpiderfier(map, { keepSpiderfied: true });
     var popup = new L.Popup();
-    /*oms.addListener('click', function(marker) {
-        popup.setContent(marker.popupContent);
-        var latlng = marker.getLatLng();
-        popup.setLatLng(L.latLng(latlng.lat + 1/(map.getZoom()), latlng.lng));
-        map.openPopup(popup);
-    });*/
     oms.addListener('spiderfy', function(markers) {
         map.closePopup();
     });
@@ -149,6 +143,9 @@ function artistsMap () {
         var timerId,
             step = 0.001;
 
+        var men = [],
+            female = [],
+            bands = [];
 
         $("#artists_residence").on("click", function(e){
             if ($(this).hasClass("artistsToggleActiveCerise")){
@@ -186,6 +183,27 @@ function artistsMap () {
 
 
                 if (exitInterval) {
+                    if (men.length > 0){
+                        for(var i = 0; i < men.length; i++){
+                            if (Math.abs(men[i].data.delta_lat) > 0 ) {
+                                men[i].setLatLng( L.latLng(men[i].data.res_lat, men[i].data.res_lon) );
+                            }
+                        }
+                    }
+                    if (female.length > 0){
+                        for(var i = 0; i < female.length; i++){
+                            if (Math.abs(female[i].data.delta_lat) > 0 ) {
+                                female[i].setLatLng( L.latLng(female[i].data.res_lat, female[i].data.res_lon) );
+                            }
+                        }
+                    }
+                    if (bands.length > 0){
+                        for(var i = 0; i < bands.length; i++){
+                            if (Math.abs(bands[i].data.delta_lat) > 0 ) {
+                                bands[i].setLatLng( L.latLng(bands[i].data.res_lat, bands[i].data.res_lon) );
+                            }
+                        }
+                    }
                     clearInterval(timerId);
                 }
                 exitInterval = true;
@@ -228,6 +246,27 @@ function artistsMap () {
                 });
 
                 if (exitInterval) {
+                    if (men.length > 0){
+                        for(var i = 0; i < men.length; i++){
+                            if (Math.abs(men[i].data.delta_lat) > 0 ) {
+                                men[i].setLatLng( L.latLng(men[i].data.res_lat, men[i].data.res_lon) );
+                            }
+                        }
+                    }
+                    if (female.length > 0){
+                        for(var i = 0; i < female.length; i++){
+                            if (Math.abs(female[i].data.delta_lat) > 0 ) {
+                                female[i].setLatLng( L.latLng(female[i].data.res_lat, female[i].data.res_lon) );
+                            }
+                        }
+                    }
+                    if (bands.length > 0){
+                        for(var i = 0; i < bands.length; i++){
+                            if (Math.abs(bands[i].data.delta_lat) > 0 ) {
+                                bands[i].setLatLng( L.latLng(bands[i].data.res_lat, bands[i].data.res_lon) );
+                            }
+                        }
+                    }
                     clearInterval(timerId);
                 }
                 exitInterval = true;
@@ -235,9 +274,7 @@ function artistsMap () {
         });
 
 
-        var men = [],
-            female = [],
-            bands = [];
+
 
         $("#artists_men").on("click", function(e){
             var $this = $(this);
