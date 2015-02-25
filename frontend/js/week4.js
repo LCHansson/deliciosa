@@ -28,7 +28,8 @@ function artistsMap () {
 
 
         for ( var i = 0; i < data.length; i++ ) {
-            var markerColor = "#808080";
+            var markerColor = "#808080",
+                winner = false;
 
             if (data[i].birth_lat) {
                 lat = data[i].birth_lat;
@@ -68,7 +69,7 @@ function artistsMap () {
                 if (songs[j].final_placing == 1){
                     remark = "Vinnare!";
                     markerColor = "#ffd700"; // gold marker for winners
-                    console.log(songs[j].year);
+                    winner = true;
                 } else if (songs[j].final_placing > 0){
                     remark = "" + songs[j].final_placing + ":a i finalen";
                 }
@@ -140,6 +141,8 @@ function artistsMap () {
             if (data[i].age){
                 marker.data.age = data[i].age;
             }
+
+            marker.data.winner = winner;
 
 
             markerGroup.addLayer(marker);

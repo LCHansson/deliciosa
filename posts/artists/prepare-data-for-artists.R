@@ -32,7 +32,8 @@ get_nearest_big_city <- function (latlon) {
 }
 
 get_songs <- function (name) {
-  this.songs <- songs %>% filter(str_detect(tolower(artist), tolower(name))) %>% 
+  pattern <- paste0("(^", tolower(name), "$)|(& ", tolower(name), "$)|(", tolower(name), " &)")
+  this.songs <- songs %>% filter(str_detect(tolower(artist), pattern)) %>% 
     select(song_name, year, final_placing, prel_remark) %>%
     arrange(desc(year))
   toJSON(this.songs)
