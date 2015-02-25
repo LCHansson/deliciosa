@@ -4,6 +4,7 @@ artists.loc <- as.tbl(read.csv("data/artists.csv", stringsAsFactors = FALSE)) %>
 gender <- fromJSON("posts/tm/data/all_participants_data_2002_2014_gender_curated.json")
 
 songs <- as.tbl(fromJSON("data/all_participants_all_data_2002_2014_2.json"))
+#songs[songs$artist == "Afro-dite", ]$artist <- "Afro-Dite"
 
 get_nearest_big_city <- function (latlon) {
   
@@ -31,7 +32,7 @@ get_nearest_big_city <- function (latlon) {
 }
 
 get_songs <- function (name) {
-  this.songs <- songs %>% filter(str_detect(artist, name)) %>% 
+  this.songs <- songs %>% filter(str_detect(tolower(artist), tolower(name))) %>% 
     select(song_name, year, final_placing, prel_remark) %>%
     arrange(desc(year))
   toJSON(this.songs)
