@@ -1,12 +1,16 @@
 function artistsMap () {
 
+    function sign(x) {
+        return typeof x === 'number' ? x ? x < 0 ? -1 : 1 : x === x ? 0 : NaN : NaN;
+    }
+
     $("#artistsMap").css("height", "" + window.innerHeight * 0.85 + "px")
     L.mapbox.accessToken = 'pk.eyJ1IjoiY3BlcnJpYXJkIiwiYSI6InN0UExhN28ifQ.GEm5rxAjECcgjIpy6pUY2g';
     var map = L.mapbox.map('artistsMap', 'cperriard.l7hpbn98', {maxZoom: 12, minZoom: 3})
         .setView([62.9, 15.6], 5);
 
     L.control.fullscreen().addTo(map);
-    map.addControl(L.mapbox.geocoderControl('mapbox.places'));
+    //map.addControl(L.mapbox.geocoderControl('mapbox.places'));
 
     var markerGroup = L.mapbox.featureLayer().addTo(map);
 
@@ -154,7 +158,7 @@ function artistsMap () {
         var timerId,
             step = 0.004;
         if ( window.innerWidth >= 768 ){
-            step = 0.012;
+            step = 0.02;
         }
 
         var men = [],
@@ -183,8 +187,8 @@ function artistsMap () {
                         var lat = latLng.lat,
                             lng = latLng.lng;
 
-                        if ((lat < marker.data.res_lat &&  Math.sign(marker.data.delta_lat) == 1) ||
-                            (lat > marker.data.res_lat &&  Math.sign(marker.data.delta_lat) == -1)){
+                        if ((lat < marker.data.res_lat &&  sign(marker.data.delta_lat) == 1) ||
+                            (lat > marker.data.res_lat &&  sign(marker.data.delta_lat) == -1)){
 
 
                             lat += step * marker.data.delta_lat;
@@ -250,8 +254,8 @@ function artistsMap () {
                         var lat = latLng.lat,
                             lng = latLng.lng;
 
-                        if ((lat < marker.data.birth_lat &&  Math.sign(marker.data.delta_lat) == -1) ||
-                            (lat > marker.data.birth_lat &&  Math.sign(marker.data.delta_lat) == 1)){
+                        if ((lat < marker.data.birth_lat &&  sign(marker.data.delta_lat) == -1) ||
+                            (lat > marker.data.birth_lat &&  sign(marker.data.delta_lat) == 1)){
 
 
                             lat -= step * marker.data.delta_lat;
