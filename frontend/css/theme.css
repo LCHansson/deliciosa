@@ -656,18 +656,21 @@ table.dataTable .count {
     padding: 2px 5px;
     border: 1px solid #e70074;
     text-align: center;
+    cursor: pointer;
 }
 
 .artistsToggleBlue {
     padding: 2px 5px;
     border: 1px solid #00bbdb;
     text-align: center;
+    cursor: pointer;
 }
 
 .artistsToggleGrey {
     padding: 2px 5px;
     border: 1px solid grey;
     text-align: center;
+    cursor: pointer;
 }
 
 
@@ -685,7 +688,6 @@ table.dataTable .count {
 .artistsToggleGroup {
     padding-left: 0;
     text-align: right;
-    cursor: pointer;
 }
 
 #fourthPost .slider-handle, #fourthPost .slider-selection {
