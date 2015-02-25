@@ -70,6 +70,9 @@ function artistsMap () {
 
             if (data[i].birthplace.length > 1){
                 popupContent += breakAge + "Kommer från " + data[i].birthplace;
+                if (breakAge == ""){
+                    breakAge = "<br>";
+                }
             }
             if (data[i].residence.length > 1){
                 popupContent += breakAge + "Bor i " + data[i].residence;
