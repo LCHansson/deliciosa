@@ -28,8 +28,7 @@ function artistsMap () {
 
 
         for ( var i = 0; i < data.length; i++ ) {
-            var bgColor = "#e70074",
-                markerColor = "#808080";
+            var markerColor = "#808080";
 
             if (data[i].birth_lat) {
                 lat = data[i].birth_lat;
@@ -43,24 +42,42 @@ function artistsMap () {
                 }
             }
 
-            if (data[i].gender == 2){
-                bgColor = "#00bbdb"
-            } else if (data[i].gender == 3){
-                bgColor = "grey"
+            /* marker color */
+            if (data[i].gender == 1){
+                markerColor = "#e70074";
+            } else if (data[i].gender == 2){
+                markerColor = "#00bbdb";
             }
 
             /* start popup */
             var songs = JSON.parse(data[i].songs),
                 popupContent = "",
+                songsContent = "",
                 songsCount,
                 remark;
+
             if (songs.length) {
                 songsCount = songs.length;
             } else {
                 songsCount = 1;
                 songs = [songs];
             }
-            popupContent += "<div class='map-header' style='background-color: " + bgColor + "'>" +
+
+            for (var j = 0; j < songsCount; j++){
+                remark = songs[j].prel_remark;
+                if (songs[j].final_placing == 1){
+                    remark = "Vinnare!";
+                    markerColor = "#ffd700"; // gold marker for winners
+                    console.log(songs[j].year);
+                } else if (songs[j].final_placing > 0){
+                    remark = "" + songs[j].final_placing + ":a i finalen";
+                }
+                songsContent += "<li>" + songs[j].year + ": " +
+                "" + songs[j].song_name + " (" + remark + ") </li>";
+            }
+
+
+            popupContent += "<div class='map-header' style='background-color: " + markerColor + "'>" +
             "<h4>" + data[i].artist + "</h4>";
             var breakAge = "";
             if (data[i].age){
@@ -78,28 +95,16 @@ function artistsMap () {
                 popupContent += breakAge + "Bor i " + data[i].residence;
             }
             popupContent += "</div>" +
-            "<div class='map-body'><ul>";
-            for (var j = 0; j < songsCount; j++){
-                remark = songs[j].prel_remark;
-                if (songs[j].final_placing == 1){
-                    remark = "Vinnare!";
-                } else if (songs[j].final_placing > 0){
-                    remark = "" + songs[j].final_placing + ":a i finalen";
-                }
-                popupContent += "<li>" + songs[j].year + ": " +
-                "" + songs[j].song_name + " (" + remark + ") </li>";
-            }
-            popupContent += "</ul></div>";
+            "<div class='map-body'>" +
+            "<ul>" + songsContent +  "</ul>" +
+            "</div>";
 
             /* end popuup */
 
 
-            /* marker color */
-            if (data[i].gender == 1){
-                markerColor = "#e70074";
-            } else if (data[i].gender == 2){
-                markerColor = "#00bbdb";
-            }
+
+
+
 
 
 
@@ -154,6 +159,7 @@ function artistsMap () {
             bands = [];
 
         $("#artists_residence").on("click", function(e){
+            oms.unspiderfy();
             e.preventDefault();
             e.stopPropagation();
             if ($(this).hasClass("artistsToggleActiveCerise")){
@@ -219,6 +225,7 @@ function artistsMap () {
         });
 
         $("#artists_birth").on("click", function(e){
+            oms.unspiderfy();
             e.preventDefault();
             e.stopPropagation();
             if ($(this).hasClass("artistsToggleActiveCerise")){
