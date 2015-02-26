@@ -26,10 +26,9 @@ $(function () {
         }
     });
 
-   /* week1();
+    week1();
     week2();
-    week3();*/
-
+    week3();
     week4();
 
     window.fbShare = function(){

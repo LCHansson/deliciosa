@@ -33,7 +33,8 @@ function artistsMap () {
 
         for ( var i = 0; i < data.length; i++ ) {
             var markerColor = "#808080",
-                winner = false;
+                winner = false,
+                zIndexOffset = 0;
 
             if (data[i].birth_lat) {
                 lat = data[i].birth_lat;
@@ -74,6 +75,7 @@ function artistsMap () {
                     remark = "Vinnare!";
                     markerColor = "#ffd700"; // gold marker for winners
                     winner = true;
+                    zIndexOffset = 1000;
                 } else if (songs[j].final_placing > 0){
                     remark = "" + songs[j].final_placing + ":a i finalen";
                 }
@@ -119,7 +121,8 @@ function artistsMap () {
                 icon: L.mapbox.marker.icon({
                     'marker-color': markerColor,
                     'marker-size': 'small'
-                })
+                }),
+                zIndexOffset: zIndexOffset
             } );
 
             marker.bindPopup(popupContent);
