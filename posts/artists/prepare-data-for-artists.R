@@ -114,6 +114,7 @@ for (i in 1:nrow(artists.export)) {
   artists.export[i, ]$songs = get_songs(artists.export[i, ]$artist)
 }
 
+artists.export <- artists.export %>% filter(artist != "Pernilla Wahlgren & Jan Johansen")
 
 cat(toJSON(artists.export), file = "frontend/data/artists.json")
 
