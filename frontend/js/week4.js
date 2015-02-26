@@ -17,10 +17,17 @@ function artistsMap () {
 
 
 
-    var oms = new OverlappingMarkerSpiderfier(map, { keepSpiderfied: true });
+    var oms = new OverlappingMarkerSpiderfier(map, { keepSpiderfied: true, nearbyDistance: 15 });
     var popup = new L.Popup();
     oms.addListener('spiderfy', function(markers) {
         map.closePopup();
+    });
+    oms.addListener('unspiderfy', function(markers) {
+        for (var i = 0; i < markers.length; i++){
+            if (markers[i].data.winner){
+                markers[i].setZIndexOffset(1000);
+            }
+        }
     });
 
 
