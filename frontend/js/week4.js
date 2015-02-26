@@ -23,7 +23,7 @@ function artistsMap () {
 
         map.closePopup();
         markerGroup.eachLayer(function(marker) {
-                marker.setOpacity(0.2);
+                marker.setOpacity(0.3);
         });
         for (var i = 0; i < markers.length; i++){
             markers[i].setOpacity(1);
