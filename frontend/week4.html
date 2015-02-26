@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="En nördig djupdykning i datan bakom Melodifestivalen.">
+    <meta name="author" content="Love Hansson, Luminita Moruz, Cédric Perriard">
+    <link rel="icon" href="images/favicon.ico">
+
+    <meta property="og:title" content="Mellokollen">
+    <meta property="og:description" content="En nördig djupdykning i datan bakom Melodifestivalen.">
+    <meta property="og:image" content="images/mellokollen.png">
+    <meta property="og:url" content="http://www.mellokollen.se">
+
+    <title>Mellokollen</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- network post3 -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- end CSS-->
+
+    <!-- network post 3 -->
+    <script src="js/modernizr-2.0.6.min.js"></script>
+
+    <!-- mapbox.com -->
+    <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
+    <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.4/Leaflet.fullscreen.min.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.4/leaflet.fullscreen.css' rel='stylesheet' />
+    <script src="js/oms.min.js"></script>
+
+
+    <!-- Mellokollen styles -->
+    <link href="fonts/leaguespartan.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-59172884-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+</head>
+
+<body role="document">
+
+
+
+
+
+
+<div class="container-fluid theme-showcase" role="main">
+
+
+
+    <header class="row">
+        <div class="col-xs-12">
+            <img class="circle"   src="images/icon_circle.svg">
+            <img class="plus1"    src="images/icon_plus.svg">
+            <img class="saw"      src="images/icon_saw.svg">
+            <img class="triangle" src="images/icon_triangle.svg">
+            <img class="plus2"    src="images/icon_plus.svg">
+            <img class="sine"     src="images/icon_sine.svg">
+
+            <h1><span class="blue">M</span><span class="cerise">e</span><span class="yellow">ll</span><span class="purple">o</span><span class="cerise">k</span><span class="blue">o</span><span class="yellow">ll</span><span class="purple">e</span><span class="cerise">n</span></h1>
+
+            <p class="intro">En nördig djupdykning i datan bakom Melodifestivalen.<br>
+            En ny analys varje vecka fram till finalen.</p>
+        </div>
+    </header>
+
+    <section id="fourthPost" class="row collapse-group" data-post="4">
+        <h2 class="cerise">Artisterna</h2>
+        <h3>Vilka är det som står på scen?</h3>
+
+        <p>
+            Hela Sverige älskar Melodifestivalen. Borde då inte artisterna också representera hela Sverige? Är det verkligen så?
+            Vi har kollat upp födelseort och nuvarande bostadsort för deltagarna från 2002 till 2014.
+            Nästan lika många är födda på landsbygden som i Stockholm, Göteborg och Malmö tillsammans.<br>
+            Men det pågår en musikalisk hjärnflykt: 4 av 5 artister bor i storstadsområden.
+        </p>
+
+
+
+        <div id="artistsMap" style="width: 100%; height: 700px; margin-top: 2em; margin-bottom: 2em;">
+            <div id="artistsMapControls">
+                <nav>
+                    <div class="artistsToggleGroup">
+                        <a id="artists_birth" class="artistsToggleCerise blockLeft artistsToggleActiveCerise" >Födelseort</a>
+                        <a id="artists_residence" class="artistsToggleCerise blockLeft artistsToggleInActiveCerise marginbottom">Bosättningsort</a>
+                    </div>
+
+                    <div class="artistsToggleGroup">
+                        <a id="artists_female" class="artistsToggleCerise artistsToggleActiveCerise">Kvinnor</a>
+                        <a id="artists_men" class="artistsToggleBlue artistsToggleActiveBlue">Män</a>
+                        <a id="artists_bands" class="artistsToggleGrey artistsToggleActiveGrey marginright">Band</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="more text-center cerise">
+            <a class="btn btn-default cerise down read-on">Så här räknade vi</a>
+        </div>
+
+        <div id="fourthCollapse" class="collapse tpadding small">
+            <p>
+                Vi har nästan hittat alla artisternas födelse- och bostadsorter. Och har lyckats ganska bra genom att
+                kolla dels wikipedia och dels andra öppet tillgängliga datakällor. För senaste åren har det varit enklare
+                jämnfört med de tidigare åren. <br>
+                För individuella artister har vi tagit deras respektive födelse- eller uppväxtort och deras bosättningsort.
+                För duett har vi oftast utgåt ifrån den förstnämnda artisten och för band har vi tagit orten där de grundades
+                som födelseort. När vi saknade någon av orterna har vi antagit att de födda och bor på samma ställe. <br>
+                För några artister kunde vi inte hitta någon av orterna. De finns inte med på kartan.
+            </p>
+            <p>
+                Med hjälp av <a href="http://openstreetmap.org/" target="_blank">OpenStreetMaps</a> API har vi tagit fram koordinaterna
+                och sedan beräknat avståndet till närmaste storstad. Storstadsområden är Stockholm, Götegorg och Malmö med
+                omgivning. Gränsen för ett sådant område har vi satt till 60km från centrum, see
+                <a href="http://www2.jordbruksverket.se/webdav/files/SJV/trycksaker/Pdf_ovrigt/aol18.pdf" target="_blank">Jordbruksverket: Så gjorde vi Allt om landet</a>.
+            </p>
+
+        </div>
+
+        <p class="social small text-center cerise">
+            <!-- FIXME -->
+            Dela analysen på
+            <a href="https://twitter.com/intent/tweet?text=Visste%20du%20att%20bara%202%25%20av%20alla%20l%C3%A5tar%20i%20%23melfest%20%C3%A4r%20skrivna%20av%20kvinnor%2C%20j%C3%A4mf%C3%B6rt%20med%2066%25%20skrivna%20av%20m%C3%A4n%3F&hashtags=mellokollen&url=http%3A%2F%2Fwww.mellokollen.se" target="_blank">Twitter</a>
+            <a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.mellokollen.se" target="_blank">Facebook</a>
+            <a href="mailto:?subject=Har%20du%20koll%20p%C3%A5%20Mello%3F&body=Visste%20du%20att%20bara%202%25%20av%20alla%20l%C3%A5tar%20i%20Mello%20%C3%A4r%20skrivna%20av%20kvinnor%2C%20j%C3%A4mf%C3%B6rt%20med%2066%25%20skrivna%20av%20m%C3%A4n%3F%20%0D%0Ahttp%3A%2F%2Fwww.mellokollen.se">Mail</a>
+        </p>
+
+    </section> <!-- #fourthPost end -->
+
+    <section id="thirdPost" class="row collapse-group" data-post="3">
+        <h2 class="yellow">Låtskrivarna</h2>
+        <h3>Vem står bakom mellolåtarna?</h3>
+        <p> Medan vi kan se en balanserad blandning
+            av manliga och kvinnliga artister på scenen, är det en helt annan visa om man lyfter på locket till låtskrivardatan.
+            Bara 2% av alla låtar är skrivna av kvinnor, jämfört med 66% skrivna av män!
+
+            Inte nog med det. Det verkar som det är en liten klick som praktiskt taget bedriver mellofabrik i låtskrivande.
+            10 personer (2%) har varit inblandade i mer än 60% av alla vinnarlåtarna under de senaste 13 åren, och står
+            för sammanlagt 30% av ALLA bidrag.
+
+        </p>
+        <div class="row">
+            <div class="col-md-6">
+                <div id="tmArtistsPieChart" class="pieChart"></div>
+            </div>
+            <div class="col-md-6">
+                <div id="tmTmPieChart" class="pieChart"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <h4 style="text-align: center">Vem har skrivit flest mellolåtar?</h4>
+            <table id="tmTable"></table>
+        </div>
+
+        <div class="row">
+            <h4  style="text-align: center">Vem samarbetade med vem?</h4>
+            <div id="vis"></div>
+        </div>
+
+        <div class="more text-center yellow">
+            <a class="btn btn-default yellow down read-on">Så här räknade vi</a>
+        </div>
+
+        <div id="thirdCollapse" class="collapse tpadding small">
+            <p>Vi har samlat in information om alla låtskrivare från 2002 till 2014 från wikipedia,
+                med web-scraping metoder. Vi har använt en databas med alla manliga och kvinnliga
+                svenska namn för att automatiskt tilldela kön till ca 60% av alla artister och 80%
+                av alla låtskrivare inblandade i Melodifestivalen mellan 2002-2014. För de som inte gick
+                att tilldela kön automatiskt gjorde vi det manuellt.
+            </p>
+            <p>
+                Vi delade sedan låtarna i tre grupper: låtar skrivna enbart av män, enbart av kvinnor,
+                eller av en blandad grupp. För en jämförelse, gjorde vi en liknande gruppering baserad
+                på artister som uppträder låtarna.
+            </p>
+            <p>
+                Vi upptäckte även att könsbalansen under åren blivit något bättre.
+                I grafen nedan syns en svag trend i en mer jämställd riktning.
+            </p>
+
+            <div id="tmMFDiff" style="margin-top: 2em; margin-bottom: 2em;">
+            </div>
+
+            <p>
+                Vi använde en enkel linjär regressionsanalys för att räkna ut när det kommer bli helt
+                jämställt på låtskrivarsidan om trenden skulle fortsätta. Resultaten var att det kommer
+                bli helt jämställd år 2045 om utvecklingen fortsätter i samma takt. Det är om 30 år!
+                Det ska dock sägas att årets Melodifestival (2015) är betydligt mer jämställd än tidigare år.
+                Det beror på att Mellodifestivalen ändrat tävlingsreglerna så att minst hälften av alla låtar
+                måste vara skrivna av minst en kvinna.
+            </p>
+
+            <p>
+                Vi räknade också de 10 låtskrivarna som var inblandade i de mest Mellolåtar,
+                och hur många av deras låtar som faktiskt vann Melodifestivalen. För att förstå
+                hur de samarbetar med andra och med varandra byggde vi också ett interaktivt nätverk.
+                Det finns en länk mellan två låtskrivare om de har samarbetat i minst en mellolåt.
+                Vi programmerade själva nätverken med hjälp av kod från
+                <a href="http://flowingdata.com/2012/08/02/how-to-make-an-interactive-network-visualization/
+" target="_blank">http://flowingdata.com/2012/08/02/how-to-make-an-interactive-network-visualization/
+                </a>
+
+            </p>
+
+        </div>
+
+        <p class="social small text-center yellow">
+            <!-- FIXME -->
+            Dela analysen på
+            <a href="https://twitter.com/intent/tweet?text=Visste%20du%20att%20bara%202%25%20av%20alla%20l%C3%A5tar%20i%20%23melfest%20%C3%A4r%20skrivna%20av%20kvinnor%2C%20j%C3%A4mf%C3%B6rt%20med%2066%25%20skrivna%20av%20m%C3%A4n%3F&hashtags=mellokollen&url=http%3A%2F%2Fwww.mellokollen.se" target="_blank">Twitter</a>
+            <a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.mellokollen.se" target="_blank">Facebook</a>
+            <a href="mailto:?subject=Har%20du%20koll%20p%C3%A5%20Mello%3F&body=Visste%20du%20att%20bara%202%25%20av%20alla%20l%C3%A5tar%20i%20Mello%20%C3%A4r%20skrivna%20av%20kvinnor%2C%20j%C3%A4mf%C3%B6rt%20med%2066%25%20skrivna%20av%20m%C3%A4n%3F%20%0D%0Ahttp%3A%2F%2Fwww.mellokollen.se">Mail</a>
+        </p>
+
+        <div class="modal fade" id="tmModalID" tabindex="-1" role="dialog" aria-labelledby="myTmModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myTmModalLabel"></h4>
+                    </div>
+
+
+                    <div class="modal-body">
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section> <!-- #thirdPost end -->
+
+
+    <section id="secondPost" class="row collapse-group" data-post="2">
+        <a id="latarna" name="latarna"></a>
+
+        <h2 class="purple">Låtarna</h2>
+        <h3>Hur låter den typiska mellolåten?</h3>
+        <p>Visst finns det något särskilt med hur Mellobidragen låter? En särksilt känsla, en viss rytm, den där schlagerglädjen. Det är nästan som att låtarna i Mello är resultatet av ett <em>hantverk</em>. Vi tittade lite närmare på det där och upptäckte att de låtar som vunnit Mello har många saker gemensamt. Särskilt om man jämför dem med de låtar som kommit allra sist i tävlingen.</p>
+
+        <div class="row hold-together">
+            <h3>Ett vinnande tempo</h3>
+            <div class="col-md-6">
+                <div id="songsWinnersTempo" class="barChart"></div>
+            </div>
+            <div class="col-md-6">
+                <div id="songsLosersTempo" class="barChart"></div>
+            </div>
+        </div>
+        <div class="row hold-together">
+            <h3>Starka känslor i vinnarlåtarna</h3>
+            <div class="col-md-6">
+                <div id="songsWinnersSentiment" class="barChart"></div>
+            </div>
+            <div class="col-md-6">
+                <div id="songsLosersSentiment" class="barChart"></div>
+            </div>
+        </div>
+
+        <div class="row hold-together">
+            <div class="col-md-4">
+                <!--<p>Vinnare använder fler ord</p>-->
+                <div id="songsUniqueWords" class="smallBarChart"></div>
+            </div>
+            <div class="col-md-4">
+                <!--<p>Vinnare sjunger på engelska</p>-->
+                <div id="songsLanguage" class="smallBarChart"></div>
+            </div>
+            <div class="col-md-4">
+                <!--<p>Vinnare använder fler ord</p>-->
+                <div id="songsWords" class="smallBarChart"></div>
+            </div>
+        </div>
+
+        <!--<div class="tspacing">-->
+        <!--</div>-->
+
+        <div class="more text-center purple">
+            <a class="btn btn-default purple down read-on">Så här räknade vi</a>
+        </div>
+
+        <div id="secondCollapse" class="collapse tpadding small">
+            <p>För att undersöka vad det är som gör den "typiska" Mellolåten valde vi att jämföra vinnare (lila färg i grafiken) med förlorare (grå färg i grafiken). Vår definition av <em>vinnare</em> är de låtar som kom på första till fjärde plats under 2002-2014. <em>Förlorarna</em> består av de 64 låtar som fick absolut minst antal röster under samma tidsperiod. Vi upptäckte snabbt att vinnarna skiljer ut sig från förlorarna på vissa punkter. De variabler där skillnaderna var särskilt stora var tempo, känslopoäng, antal unika ord per låttext, språk och <em>noise</em>.</p>
+            <ul>
+                <li>Med <em>tempo</em> menas antalet taktslag per minut, ofta kallat BPM.</li>
+                <li>Med <em>känslopoäng</em> menas den "glädje-score" vi beräknade i vårt första inlägg, <a href="#texterna">texterna</a> (se nedan).</li>
+                <li>För att beräkna <em>antal unika ord per låttext</em> har vi helt enkelt räknat antalet unika ord per låt. Ett ord som förekommer flera gånger räknas alltså bara en gång.</li>
+                <li><em>Språk</em> är helt enkelt vilket språk artisten sjunger på.</li>
+                <li><em>Noise</em> är ett lite svårförklarat begrepp, men det mäter hur högljudd en låt är i genomsnitt.</li>
+            </ul>
+            <p>Det ska i ärlighetens namn sägas att det även finns en hel del områden där det inte finns någon klar skillnad mellan vinnare och förlorare. Till exempel är ca 50% av vinnarna i moll och 50% i dur, medan knappt 60% av frlorarlåtarna är i moll och drygt 40% i dur. Knappt någon skillnad alls, alltså.</p>
+            <p>Så betyder detta att den typiska Mellovinnaren går i 125 BPM, är känsloladdad och högljudd, och har en lång text på engelska? Kanske. Det finns nog många andra saker som avgör vem som vinner Mello också, och det finns alltid gott om undantag för att bekräfta regeln. Men trenden är tydlig: för att en låt som är jättesnabb, inte handlar om känslor, har en kort text och är på svenska ska vinna Mello, ja då krävs det förmodligen både en hel del tur och en hejdundrans scenshow.</p>
+            <p>Är du nyfiken på datan bakom Mello? Eller tycker du vi har räknat fel? Ladda ned vår databas via länken längst ned på sidan och gör en egen analys!</p>
+
+
+        </div>
+
+        <p class="social small text-center purple">
+            <!-- FIXME -->
+            Dela analysen på
+            <a href="https://twitter.com/intent/tweet?text=Visste%20du%20att%20l%C3%A5tarna%20i%20%23melfest%20%C3%A4r%20resultatet%20av%20ett%20hantverk%3F&hashtags=mellokollen&url=http%3A%2F%2Fwww.mellokollen.se" target="_blank">Twitter</a>
+            <a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.mellokollen.se" target="_blank">Facebook</a>
+            <a href="mailto:?subject=Har%20du%20koll%20p%C3%A5%20Mello%3F&body=Visste%20du%20att%20l%C3%A5tarna%20i%20Mello%20%C3%A4r%20resultatet%20av%20ett%20hantverk%3F%20%0D%0Ahttp%3A%2F%2Fwww.mellokollen.se">Mail</a>
+        </p>
+
+
+
+    </section> <!-- #secondPost end -->
+
+
+    <section id="firstPost" class="row collapse-group" data-post="1">
+        <a id="texterna" name="texterna"></a>
+
+        <h2 class="blue">Texterna</h2>
+        <h3>Vad sjunger de egentligen om?</h3>
+        <p>Alla <em>vet</em> hur en Mellolåt brukar vara: glad, peppig och handlar om kärlek. Men är det verkligen så? För att ta reda på det analyserade vi låttexterna i Mello från 2002 och framåt. Och resultatet? Jodå, mer än 80% av låtarna handlar om kärlek. Men trots det är inte låtarna så uppåt som man kan tro. Vi lät en dator göra en känsloanalys av texterna och upptäckte att smärta är nästan lika vanligt som hjärta.</p>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div id="lovePieChart" class="pieChart"></div>
+            </div>
+            <div class="col-md-6">
+                <div id="wordFreqChart" class="barChart"></div>
+            </div>
+        </div>
+
+        <div class="tspacing">
+            <ul class="nav nav-pills blue text-center" role="tablist">
+                <li role="presentation" class="active">
+                    <a href="#peppigast" aria-controls="peppigast" role="tab" data-toggle="tab">Peppigast<span class="subtitle">Låtarna med högst glädjepoäng 2002-2014</span></a>
+                </li>
+                <li role="presentation">
+                    <a href="#deppigast" aria-controls="deppigast" role="tab" data-toggle="tab">Deppigast<span class="subtitle">Låtarna med lägst glädjepoäng 2002-2014</span></a>
+                </li>
+            </ul>
+            <div class="tab-content small">
+                <div role="tabpanel" class="tab-pane active" id="peppigast">
+                    <ol>
+                        <li>
+                                Björn Ranelid &amp; Sara Li: Mirakel (2012)
+                        </li>
+                        <li>
+                                Eko: Red (2014)
+                        </li>
+                        <li>
+                                Danny Saucedo: Amazing (2012)
+                        </li>
+                        <li>
+                                Kalle Moraeus &amp; Orsa Spelmän: Underbart (2010)
+                        </li>
+                        <li>
+                                Caracola: Smiling in Love (2008)
+                        </li>
+                        <li>
+                                Linda Sundblad: Lucky You (2011)
+                        </li>
+                        <li>
+                                The Moniker: Oh My God! (2011)
+                        </li>
+                        <li>
+                                Agnes: Love Love Love (2009)
+                        </li>
+                        <li>
+                                Uno &amp; Irma: God morgon (2007)
+                        </li>
+                        <li>
+                                Charlotte Perrelli: Hero (2008)
+                        </li>
+                    </ol>
+                </div>
+
+                <div role="tabpanel" class="tab-pane" id="deppigast">
+                    <ol>
+                        <li>
+                                Panetoz: Efter solsken (2014)
+                        </li>
+                        <li>
+                                Lena Philipsson: Det gör ont (2004)
+                        </li>
+                        <li>
+                                Alcazar: Blame It on the Disco (2014)
+                        </li>
+                        <li>
+                                Darin: You're Out of My Life (2010)
+                        </li>
+                        <li>
+                                Eddie Razaz: Alibi (2013)
+                        </li>
+                        <li>
+                                BWO: You're Not Alone (2009)
+                        </li>
+                        <li>
+                                Johannes Bah Kuhnke: Tonight (2010)
+                        </li>
+                        <li>
+                                MissMatch: Drop Dead (2007)
+                        </li>
+                        <li>
+                                Molly Sandén: Why Am I Crying (2012)
+                        </li>
+                        <li>
+                                Love Generation: Just A Little Bit (2012)
+                        </li>
+                    </ol>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="more text-center blue">
+            <a class="btn btn-default blue down read-on">Så här räknade vi</a>
+        </div>
+
+        <div id="firstCollapse" class="collapse tpadding small">
+            <p>Hur avgör man vad en låt handlar om? Förvånansvärt ofta är det mest effektivt att helt enkelt räkna vilka ord som är med. För att få en bra uppfattning om vad låtarna i Melodifestivalen handlar om gjorde vi först en översiktskarta av de ämnen som vanligtvis brukar förekomma i låttexter, t.ex. <em>kärlek</em>, <em>längtan/äventyr</em>, <em>tidsangivelser</em>, <em>religion</em>, <em>familj</em> och många andra. Vi skapade en lista med ord relaterade till varje ämne och räknade hur ofta ett ämne nämndes i Mellolåtarna. Inte helt förvånande vann <em>kärlek</em> helt överlägset. Mer än 80% av alla bidrag till Mello innehåller kärlekord - och då har vi säkert missat en massa metaforer. Låtar som hade få (1-3) kärleksord har vi klassat som "lite kärlek", och de som hade fler kärleksord som "mycket kärlek". Alla låtar utom fem är på svenska eller engelska, så vi begränsade oss till de två språken.</p>
+            <p>För att avgöra vilka låtar som är "peppigast" och "deppigast" har vi gjort en så kallad sentimentanalys på låttexterna. Alla ord i texten får en poäng baserad på om ordet ofta förekommer i glada eller ledsna sammanhang. Detta är ofta en mycket effektiv metod, men kan ibland leda till en del överraskande resultat. Efter solsken av Panetoz är verkligen inte någon deppig låt, men är ändå den låt som har den "ledsnaste" texten enligt vår modell.</p>
+            <p>Det samlade låtmaterialet i vår analys består av 391 av de 416 låtar som deltog i Mello åren 2002-2014. Till 25 av låtarna har vi inte kunnat hitta någon text och de ingår därför inte i datan.</p>
+            <p>Är du nyfiken på datan bakom Mello? Eller tycker du vi har räknat fel? Ladda ned vår databas via länken längst ned på sidan och gör en egen analys!</p>
+
+            <table id="loveWordsTable"></table>
+        </div>
+
+        <p class="social small text-center blue">
+            Dela analysen på
+            <a href="https://twitter.com/intent/tweet?text=Visste%20du%20att%20%C3%B6ver%2080%20procent%20av%20%23melfest%20handlar%20om%20k%C3%A4rlek%3F%20%23mellokollen&url=http%3A%2F%2Fwww.mellokollen.se" target="_blank">Twitter</a>
+            <a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.mellokollen.se" target="_blank">Facebook</a>
+            <a href="mailto:?subject=Har%20du%20koll%20p%C3%A5%20Mello%3F&body=Visste%20du%20att%20%C3%B6ver%2080%20procent%20av%20Mello%20handlar%20om%20k%C3%A4rlek%3F%20%0D%0Ahttp%3A%2F%2Fwww.mellokollen.se">Mail</a>
+        </p>
+
+
+        <div class="modal fade" id="textModalID" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel"></h4>
+                        <div class="modal-meta"></div>
+                    </div>
+
+
+                    <div class="modal-body">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- #firstPost end -->
+
+    <section id="fifthPost" class="row collapse-group" data-post="5">
+        <h2 class="orange">???</h2>
+        <p class="text-center">Kommer 6 mars</p>
+    </section> <!-- #fifthPost end -->
+
+    <section id="sixthPost" class="row collapse-group" data-post="6">
+        <h2><span class="purple">V</span><span class="blue">i</span><span class="cerise">n</span><span class="yellow">n</span><span class="purple">a</span><span class="blue">r</span><span class="cerise">n</span><span class="yellow">a</span></h2>
+        <h3>Vem vinner Mello?</h3>
+        <p class="text-center">Kommer 13 mars</p>
+    </section> <!-- #sixthPost end -->
+
+
+    <section id="getData" class="row">
+        <a href="https://github.com/LCHansson/mellodata" target="_blank"><img src="images/icon_file.svg"></a>
+        <h3>Ladda ner datan</h3>
+        <p>Självklart har vi gjort datan bakom det här öppen för alla att använda.<br>
+        <a href="https://github.com/LCHansson/mellodata" target="_blank" class="cerise">Ladda ner datan på Github.</a></p>
+    </section> <!-- #getData end -->
+
+    <footer class="row">
+        <p class="small">
+            <a href="mailto:mail@mellokollen.se">Mellokollen</a> har skapats av
+            <a href="http://lchansson.com/" target="_blank">Love Hansson</a>, <a href="mailto:lumi.moruz@gmail.com">Luminita Moruz</a> och <a href="mailto:c@perriard.se">Cédric Perriard</a>.
+            Design av <a href="http://www.hisekaldma.com/">Jonathan Hise Kaldma</a>. <br>
+            Vi &lt;3 data och vad man kan göra med den. Dela gärna om du också gör det.
+        </p>
+    </footer>
+
+</div> <!-- /container -->
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!--<script src="js/docs.min.js"></script>-->
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+<script src="js/highcharts.js"> </script>
+<script src="js/exporting.js"> </script>
+<script src="js/pattern-fill.js"> </script>
+<script src="js/jquery.dataTables.min.js"></script>
+<script src="js/polyhymnia.min.js"></script>
+
+<!-- Week3 network graph -->
+<script defer src="js/plugins.js"></script>
+<script defer src="js/script.js"></script>
+<script src="js/d3.v2.js"></script>
+<script src="js/Tooltip.js"></script>
+<script src="js/num-html.js"></script>
+
+<script src="js/week1.js"> </script>
+<script src="js/week2.js"> </script>
+<script src="js/week3.js"> </script>
+<script src="js/week4.js"> </script>
+<script src="js/main.js"> </script>
+</body>
+</html>
