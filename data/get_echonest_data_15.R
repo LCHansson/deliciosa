@@ -112,7 +112,7 @@ save(metadatalist, file="metadatalist15.Rdata")
 save(mello15_a_l_en, file = "data/mello15_a_l_en_en.Rdata")
 
 json <- toJSON(mello15_a_l_en, pretty = TRUE)
-# cat(json, file = "data/echonest_metadata15.json")
+cat(json, file = "data/mellodata_15.json")
 
 
 
