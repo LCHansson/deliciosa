@@ -87,7 +87,7 @@ body {
     br {
         display: none; /* No forced line breaks in smaller sizes */
     }
-    .modal br, .highcharts-container br {
+    .modal br, .highcharts-container br, .map-header br {
         display: inline; /* Except in song lyrics and Highcharts graphs!*/
     }
 
@@ -611,4 +611,131 @@ table.dataTable .count {
 
 .toggle-bar {
     text-align: center;
+}
+
+
+
+#artistsMapControls {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+}
+
+.artistsToggleActiveCerise {
+    background-color: #e70074;
+    color: #ffffff !important;
+}
+.artistsToggleActiveBlue {
+     background-color: #00bbdb;
+     color: #ffffff !important;
+ }
+.artistsToggleActiveGrey {
+    background-color: grey;
+    color: #ffffff !important;
+}
+.artistsToggleInActiveCerise {
+    background-color: rgba(255,255,255,0.5);
+    color: #e70074 !important;
+}
+.artistsToggleInActiveBlue {
+    background-color: rgba(255,255,255,0.5);
+    color: #00bbdb !important;
+}
+.artistsToggleInActiveGrey {
+    background-color: rgba(255,255,255,0.5);
+    color: grey !important;
+}
+
+.blockLeft {
+    display: block;
+    float: left;
+}
+
+.artistsToggleCerise {
+    padding: 2px 5px;
+    border: 1px solid #e70074;
+    text-align: center;
+    cursor: pointer;
+}
+
+.artistsToggleBlue {
+    padding: 2px 5px;
+    border: 1px solid #00bbdb;
+    text-align: center;
+    cursor: pointer;
+}
+
+.artistsToggleGrey {
+    padding: 2px 5px;
+    border: 1px solid grey;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+#artists_female, #artists_men, #artists_bands {
+    display: block;
+}
+
+#artistsMapControls nav div:last-child {
+    padding-left: 106px;
+    padding-top: 40px;
+}
+
+
+
+.artistsToggleGroup {
+    padding-left: 0;
+    text-align: right;
+}
+
+#fourthPost .slider-handle, #fourthPost .slider-selection {
+    background: none !important;
+    background-color: #e70074 !important;
+
+}
+
+.marginbottom {
+    margin-bottom: 1em;
+}
+
+/* leaflet */
+
+.leaflet-popup-content, .leaflet-popup-close-button+.leaflet-popup-content-wrapper .leaflet-popup-content {
+    padding: 0;
+}
+.leaflet-popup-close-button {
+    display: none;
+}
+
+.leaflet-popup-content-wrapper {
+    border-radius: 0;
+    padding: 0;
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    font-size: 15px;
+}
+
+
+.map-header h4 {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 15px;
+}
+.map-header {
+    padding: 15px;
+    color: #ffffff;
+}
+
+.map-body {
+    padding: 15px;
+}
+
+.map-body ul{
+    display: inline;
+    padding: 0;
+    list-style: none;
 }
