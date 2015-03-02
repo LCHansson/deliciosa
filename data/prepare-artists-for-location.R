@@ -26,4 +26,8 @@ artists <- artists %>% mutate(birthplace = "", residence = "", birthyear = "")
 write.csv(artists, file = "data/artists_links.csv", row.names = FALSE)
 
 
-
+## 2015 -----
+artists_2015 <- fromJSON("data/mellodata_15.json") %>% 
+  select(id, artist, artist_wikilink) %>% 
+  mutate(birthplace = "", birth_osm = "", residence = "", res_osm = "", birthyear = "", band = 0)
+write.csv(artists_2015, file = "data/artists_2015_links.csv", row.names = FALSE)
