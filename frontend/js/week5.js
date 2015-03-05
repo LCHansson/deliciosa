@@ -361,8 +361,8 @@ function buildSexPieChart(data, whereToRender, titleText, subtitleText, hexcol, 
     };
     var colPatDots = {
         pattern: 'images/pattern-dots-orange.png',
-        width: 5,
-        height: 5
+        width: 7,
+        height: 7
     };
     var colors = [hexcol, colPat, colPatDots, '#FFFFFF'];
     if ( data.length < 4 ){
