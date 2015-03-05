@@ -293,7 +293,17 @@ wl %>%
   mutate(language = ifelse(language == "english", "Engelska", "Svenska"))
 
 
-
+## Årets Mello ----
+json <- jsonlite::toJSON(
+  table(mello15_all$lovebins) %>%
+    as.data.frame() %>%
+    filter(1:n() > 1) %>%
+    dplyr::rename(name = Var1, freq = Freq) %>% 
+    magrittr::extract(c(3,2,1),)
+    # arrange(desc(freq))
+  ,
+  pretty = TRUE)
+cat(json, file = "frontend/data/texterna_loveprops15.json")
   
   
 
