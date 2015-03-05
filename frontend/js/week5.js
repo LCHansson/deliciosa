@@ -1,3 +1,5 @@
+/* Texterna */
+
 function buildLovePie(data, container, color, pattern, title, subtitle, legend_align) {
 
     var container = container || 'lovePie14';
@@ -106,62 +108,105 @@ function buildLovePie(data, container, color, pattern, title, subtitle, legend_a
 
 }
 
-function week5() {
-    $.ajax({
-        type: "GET",
-        url: "./data/love_words.json",
-        dataType: "json",
-        success: function (response) {
-            window.loveWords = response.love_words;
+/* Låtarna */
+
+
+/* Låtskrivarna */
+function buildSexPieChart(data, whereToRender, titleText, subtitleText, hexcol, color, addcateg) {
+
+    var addcateg = addcateg || false;
+
+    var formattedData = [];
+    var colPat = {
+        pattern: 'images/pattern-' + color + '.png',
+        width: 5,
+        height: 5
+    };
+    var colors = [hexcol, colPat, '#FFFFFF'];
+
+    for (var i=0; i<data.length; ++i) {
+        formattedData.push({
+            color: colors[i],
+            name: data[i].categ_name,
+            y: data[i].val
+        });
+    }
+
+    var pieChart = new Highcharts.Chart({
+        exporting: {
+            enabled: false
         },
-        error: function (jqXHR, textStatus, errorThrown) {
-            console.log("Error!" + textStatus);
-        }
+        credits: {
+            enabled: false
+        },
+        chart: {
+            renderTo: whereToRender,
+            plotBackgroundColor: null,
+            plotBorderWidth: null,
+            plotShadow: false
+        },
+        title: {
+            text: titleText
+        },
+        subtitle: {
+            text: subtitleText
+        },
+        tooltip: {
+            pointFormat: '<b>{point.percentage:.1f}%</b>'
+        },
+        plotOptions: {
+            pie: {
+                borderColor: hexcol,
+                borderWidth: 2,
+                allowPointSelect: true,
+                cursor: 'pointer',
+                dataLabels: {
+                    enabled: false
+                },
+                showInLegend: true,
+                point: {
+                    events: {
+                        legendItemClick: function () {
+                            return false; // <== returning false will cancel the default action
+                        }
+                    }
+                }
+            }
+        },
+        series: [
+            {
+                type: 'pie',
+                data: formattedData,
+                states: {
+                    hover: {
+                        enabled: true,
+                        halo: {
+                            attributes: {
+                                'stroke-width': 0.5,
+                                stroke: hexcol
+                            },
+                            size: 7
+                        },
+                        lineWidth: 3,
+                        marker: {
+                            lineColor: "#000000",
+                            lineWidth: 3
+                        }
+                    }
+                }
+            }]
     });
 
-    //$('#textModalID').on('show.bs.modal', function (event) {
-    //    var button = $(event.relatedTarget); // Button that triggered the modal
-    //    var filename = "data/lyrics/" + button.attr('id') + "_lyrics.json";
-    //    var modal = $(this);
-    //    modal.find('.modal-title').html("");
-    //    modal.find('.modal-body').html("");
-    //    modal.find('.modal-meta').html("");
-    //
-    //
-    //    window.location.hash = "textmodal";
-    //    window.onhashchange = function() {
-    //        if (!location.hash){
-    //            modal.modal('hide');
-    //        }
-    //    }
-    //
-    //
-    //
-    //    $.ajax({
-    //        async: false,
-    //        type: "GET",
-    //        url: filename,
-    //        dataType: "json",
-    //        success: function(response) {
-    //            var text = formatSongTexts(response.lyrics, loveWords);
-    //
-    //
-    //            modal.find('.modal-title').html(response.song_name);
-    //            modal.find('.modal-body').html(text);
-    //            var meta = "Kärleksord i blått.<br>" +
-    //                "Antal kärleksord: " + response.no_love_words +"<br>" +
-    //                "Glädjepoäng: " + response.happy_score;
-    //            modal.find('.modal-meta').html(meta);
-    //            //window.location.hash = "text";
-    //            return false;
-    //        },
-    //        error: function(jqXHR, textStatus, errorThrown) {
-    //            console.log("Error!" + textStatus   );
-    //            return true;
-    //        }
-    //    });
-    //
-    //});
+    $(pieChart.series[0].data).each(function(i, slice){
+        $(slice.legendSymbol.element).attr('stroke-width','2');
+        $(slice.legendSymbol.element).attr('stroke',  hexcol);
+
+    });
+}
+
+
+/* Init */
+function week5() {
 
     $.ajax({
         type: "GET",
@@ -187,18 +232,28 @@ function week5() {
         }
     });
 
-    // make the bar chart
-    //$.ajax({
-    //    type: "GET",
-    //    url: "./data/texterna_wordfreqs.json",
-    //    dataType: "json",
-    //    success: function (response) {
-    //        buildWordFrequencyChart(response);
-    //    },
-    //    error: function (jqXHR, textStatus, errorThrown) {
-    //        console.log("Error!" + textStatus);
-    //    }
-    //});
+    $.ajax({
+        type: "GET",
+        url: "./data/tm_tm_gender_imbalance.json",
+        dataType: "json",
+        success: function (response) {
+            buildSexPieChart(response, 'sexFigures14', '2002-2014', 'Fördelning av låtar efter kön på låtskrivaren/låtskrivarna', '#fdba00', 'yellow');
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+            console.log("Error!" + textStatus);
+        }
+    });
 
+    $.ajax({
+        type: "GET",
+        url: "./data/tm_tm_gender_imbalance15.json",
+        dataType: "json",
+        success: function (response) {
+            buildSexPieChart(response, 'sexFigures15', '2015', 'Fördelning av låtar efter kön på låtskrivaren/låtskrivarna', '#ed4d17', 'orange', true);
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+            console.log("Error!" + textStatus);
+        }
+    });
 
 }

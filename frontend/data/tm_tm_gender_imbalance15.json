@@ -1,0 +1,18 @@
+[
+    {
+        "categ_name": "Enbart män",
+        "val": 10
+    },
+    {
+        "categ_name": "Mansdominerad grupp",
+        "val": 10
+    },
+    {
+        "categ_name": "Blandad grupp",
+        "val": 7
+    },
+    {
+        "categ_name": "Enbart kvinnor",
+        "val": 1
+    }
+]

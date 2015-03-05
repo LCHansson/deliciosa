@@ -306,6 +306,13 @@ json <- jsonlite::toJSON(
 cat(json, file = "frontend/data/texterna_loveprops15.json")
   
   
-
+json <- jsonlite::toJSON(
+  table(tm_bins) %>%
+    as.data.frame() %>% 
+    dplyr::rename(categ_name = tm_bins, val = Freq) %>% 
+    arrange(desc(categ_name)),
+  pretty = TRUE
+)
+cat(json, file = "frontend/data/tm_tm_gender_imbalance15.json")
 
 
