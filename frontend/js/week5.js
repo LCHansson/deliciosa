@@ -24,6 +24,13 @@ function buildLovePie(data, container, color, pattern, title, subtitle, legend_a
             y: data[i].freq
         });
     }
+    var chartHeight = 250,
+        pieSize = 100;
+
+    if ( window.innerWidth <= 768 ){
+        chartHeight = 300;
+        pieSize = 150;
+    }
 
     var pieChart = new Highcharts.Chart({
         exporting: {
@@ -37,7 +44,10 @@ function buildLovePie(data, container, color, pattern, title, subtitle, legend_a
             plotBackgroundColor: null,
             plotBorderWidth: null,
             plotShadow: false,
-            height: 230
+            height: chartHeight
+        },
+        legend: {
+            layout: 'vertical'
         },
         title: {
             text: title
@@ -63,6 +73,7 @@ function buildLovePie(data, container, color, pattern, title, subtitle, legend_a
                 borderWidth: 2,
                 allowPointSelect: true,
                 cursor: 'pointer',
+                size: pieSize,
                 dataLabels: {
                     enabled: false
                 },
@@ -366,6 +377,14 @@ function buildSexPieChart(data, whereToRender, titleText, subtitleText, hexcol, 
         });
     }
 
+    var chartHeight = 250,
+        pieSize = 100;
+
+    if ( window.innerWidth <= 768 ){
+        chartHeight = 300;
+        pieSize = 150;
+    }
+
 
 
 
@@ -380,7 +399,11 @@ function buildSexPieChart(data, whereToRender, titleText, subtitleText, hexcol, 
             renderTo: whereToRender,
             plotBackgroundColor: null,
             plotBorderWidth: null,
-            plotShadow: false
+            plotShadow: false,
+            height: chartHeight
+        },
+        legend: {
+            layout: 'vertical'
         },
         title: {
             text: titleText
@@ -397,6 +420,7 @@ function buildSexPieChart(data, whereToRender, titleText, subtitleText, hexcol, 
                 borderWidth: 2,
                 allowPointSelect: true,
                 cursor: 'pointer',
+                size: pieSize,
                 dataLabels: {
                     enabled: false
                 },
