@@ -6,6 +6,13 @@ library("textcat")
 library("httr")
 library("jsonlite")
 library("rvest")
+library("tm")
+library("ggplot2")
+library("ggthemes")
+library("scales")
+library("stringr")
+library("dplyr")
+
 
 ## Language ----
 mello15_all <- mello15_a_l_en
@@ -86,12 +93,29 @@ for (i in 1:nrow(mello15_all)) {
 }
 
 
-## Words and sentiment ----
-lyrdata <- mello15_all %>%
-  select(translated_lyric_cleaned, artist, id, language, song_name, year)
+## Words  ----
+
+## Munge
+# Data is fetched from analysis/read_json.R
+mello_lyrics_corpus <- Corpus(VectorSource(mello15_all$lyrics))
+mello_lyrics_corpus <- tm_map(mello_lyrics_corpus, content_transformer(tolower), mc.cores=1)
+mello_lyrics_corpus <- tm_map(mello_lyrics_corpus, removePunctuation, mc.cores=1)
+mello_lyrics_corpus <- tm_map(mello_lyrics_corpus, function(x) removeWords(x, stopwords("english")), mc.cores=1)
+mello_lyrics_corpus <- tm_map(mello_lyrics_corpus, function(x) removeWords(x, stopwords("swedish")), mc.cores=1)
+
+## Analysis
+# Unique words count per song
+
+dtm <- DocumentTermMatrix(mello_lyrics_corpus)
+uw <- rowSums(as.matrix(dtm))
+mello15_all <- mello15_all %>%
+  mutate(unique_words = uw)
 
 
 ## Sentiment data ----
+lyrdata <- mello15_all %>%
+  select(translated_lyric_cleaned, artist, id, language, song_name, year)
+
 sentwords <- read.table(
   "data/sentiment_scores_en.txt",
   sep = "\t", col.names = c("word", "score")) %>% tbl_df()
