@@ -348,7 +348,15 @@ function buildSexPieChart(data, whereToRender, titleText, subtitleText, hexcol, 
         width: 5,
         height: 5
     };
-    var colors = [hexcol, colPat, '#FFFFFF'];
+    var colPatDots = {
+        pattern: 'images/pattern-dots-orange.png',
+        width: 5,
+        height: 5
+    };
+    var colors = [hexcol, colPat, colPatDots, '#FFFFFF'];
+    if ( data.length < 4 ){
+        colors = [hexcol, colPat, '#FFFFFF'];
+    }
 
     for (var i=0; i<data.length; ++i) {
         formattedData.push({
@@ -357,6 +365,9 @@ function buildSexPieChart(data, whereToRender, titleText, subtitleText, hexcol, 
             y: data[i].val
         });
     }
+
+
+
 
     var pieChart = new Highcharts.Chart({
         exporting: {
