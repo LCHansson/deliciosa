@@ -47,7 +47,8 @@ function buildLovePie(data, container, color, pattern, title, subtitle, legend_a
             height: chartHeight
         },
         legend: {
-            layout: 'vertical'
+            layout: 'vertical',
+            margin: 0
         },
         title: {
             text: title
@@ -407,7 +408,9 @@ function buildSexPieChart(data, whereToRender, titleText, subtitleText, hexcol, 
             height: chartHeight
         },
         legend: {
-            layout: 'vertical'
+            layout: 'vertical',
+            margin: 0,
+            y: addcateg ? +8 : -9
         },
         title: {
             text: titleText
