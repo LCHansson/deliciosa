@@ -76,16 +76,16 @@ for (i in 1:nrow(artists.loc)) {
     artists.loc$nearest_res_city[i] = nearest[[1]]
     artists.loc$nearest_res_distance[i] = nearest[[2]]/1000
   }
-  if (artists.loc$band[i] == 0) {
-    if (gender[[artists.loc$id[i]]]$artist_gender[1] == "F") {
-      artists.loc$gender[i] = 1
-    } else {
-      artists.loc$gender[i] = 2
-    }
-    
-  } else {
-    artists.loc$gender[i] = 3
-  }
+#   if (artists.loc$band[i] == 0) {
+#     if (gender[[artists.loc$id[i]]]$artist_gender[1] == "F") {
+#       artists.loc$gender[i] = 1
+#     } else {
+#       artists.loc$gender[i] = 2
+#     }
+#     
+#   } else {
+#     artists.loc$gender[i] = 3
+#   }
 }
 
 ## export artists with places to json ----
@@ -115,6 +115,7 @@ for (i in 1:nrow(artists.export)) {
 }
 
 artists.export <- artists.export %>% filter(artist != "Pernilla Wahlgren & Jan Johansen")
+artists.15 <- artists.export %>% filter(str_detect(id, "^2015"))
 
 cat(toJSON(artists.export), file = "frontend/data/artists.json")
 

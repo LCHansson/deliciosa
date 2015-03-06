@@ -87,7 +87,7 @@ body {
     br {
         display: none; /* No forced line breaks in smaller sizes */
     }
-    .modal br, .highcharts-container br, .map-header br {
+    .modal br, .highcharts-container br, .map-header br, .artistsCount br {
         display: inline; /* Except in song lyrics and Highcharts graphs!*/
     }
 
@@ -738,4 +738,15 @@ table.dataTable .count {
     display: inline;
     padding: 0;
     list-style: none;
+}
+
+.artistsCount {
+    font-size: 36px;
+    padding-top: 66px;
+}
+
+@media(max-width: 768px){
+    .artistsCount {
+        padding-top: 0;
+    }
 }
