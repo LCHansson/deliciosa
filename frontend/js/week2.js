@@ -148,7 +148,7 @@ function buildTempoColChart(data) {
                 gridLineWidth: 0.0,
                 labels: {
                     formatter: function() {
-                        return this.value % 20 == 0 ? this.value : "";
+                        return this.value % 20 == 0 ? this.value : null;
                     },
                     enabled: true
                 },

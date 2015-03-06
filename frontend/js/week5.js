@@ -164,7 +164,11 @@ function buildBpmBar15(data) {
                 gridLineWidth: 0.0,
                 labels: {
                     formatter: function() {
-                        return this.value % 20 == 0 ? this.value : "";
+                        var val = this.value,
+                            ret = val % 20 == 0 ? val : null;
+
+                        return ret;
+                        //return this.value;
                     },
                     enabled: true
                 },
