@@ -31,6 +31,7 @@ $(function () {
     week3();
     week4();
     week5();
+    week6();
 
     window.fbShare = function(){
         FB.ui(
