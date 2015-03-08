@@ -103,24 +103,20 @@ function buildWinnerSpider( data ){
 
         chart: {
             polar: true,
-            type: 'line'
+            type: "line"
         },
         credits: {
             enabled: false
         },
 
         title: {
-            text: 'Budget vs spending',
-            x: -80
+            text: 'Budget vs spending'
         },
 
-        pane: {
-            size: '80%'
-        },
+
 
         xAxis: {
-            categories: ['Sales', 'Marketing', 'Development', 'Customer Support',
-                'Information Technology', 'Administration'],
+            categories: data.categories,
             tickmarkPlacement: 'on',
             lineWidth: 0
         },
@@ -137,27 +133,33 @@ function buildWinnerSpider( data ){
         },
 
         legend: {
-            align: 'right',
-            verticalAlign: 'top',
-            y: 70,
-            layout: 'vertical'
+            align: 'left',
+            verticalAlign: 'bottom',
+            layout: 'horizontal'
         },
 
-        series: [{
-            name: 'Allocated Budget',
-            data: [43000, 19000, 60000, 35000, 17000, 10000],
-            pointPlacement: 'on'
-        }, {
-            name: 'Actual Spending',
-            data: [50000, 39000, 42000, 31000, 26000, 14000],
-            pointPlacement: 'on'
-        }]
+        series: data.series
 
     });
+
+
 }
 
+
+
 function week6Collapse(){
-    buildWinnerSpider();
+    $.ajax({
+        type: "GET",
+        url: "./data/winners_spider_dummy.json",
+        dataType: "json",
+        success: function(response) {
+            buildWinnerSpider(response);
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+            console.log("Error! " + textStatus);
+        }
+    });
+
 }
 
 /* Init */
