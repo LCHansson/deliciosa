@@ -5,9 +5,10 @@ function buildWinnerBars(data) {
             enabled: false
         },
         chart: {
-            renderTo: 'weightBars'
+            renderTo: 'weightBars',
+            type: 'column',
             //height: 250
-            //backgroundColor: 'rgba(255,255,255,0)'
+            backgroundColor: 'rgba(255,255,255,0)'
         },
         title: {
             text: ''
@@ -22,27 +23,28 @@ function buildWinnerBars(data) {
             //min: 0,
             //max: 23,
             //categories: categories,
+            type: 'category',
             title: {
                 text: null
             },
             gridLineWidth: 0.0,
-            labels: {
-                formatter: function() {
-                    var val = this.value,
-                        ret = val % 20 == 0 ? val : null;
-
-                    return ret;
-                    //return this.value;
-                },
-                enabled: true
-            },
+            //labels: {
+            //    formatter: function() {
+            //        var val = this.value,
+            //            ret = val % 20 == 0 ? val : null;
+            //
+            //        return ret;
+            //        return this.value;
+            //    },
+            //    enabled: true
+            //},
             tickLength: 0,
             tickWidth: 0,
             lineWidth: 0
         },
         yAxis: {
-            //min: 0,
-            //max: 0.40,
+        //    min: 0,
+        //    max: 0.40,
             title: {
                 text: null
             },
@@ -60,15 +62,19 @@ function buildWinnerBars(data) {
         },
         plotOptions: {
             column: {
-                pointPadding: 0,
-                fillOpacity: 0.9
-            },
-            areaspline: {
-                fillOpacity: 0.4,
-                marker: {
+                //pointPadding: 0,
+                //fillOpacity: 0.9,
+                stacking: 'normal',
+                dataLabels: {
                     enabled: false
                 }
             }
+            //areaspline: {
+            //    fillOpacity: 0.4,
+            //    marker: {
+            //        enabled: false
+            //    }
+            //}
         },
         //tooltip: {
         //    formatter: function() {
@@ -78,17 +84,18 @@ function buildWinnerBars(data) {
         credits: {
             enabled: false
         },
-        series: [
-            {
-                color: 'green',
-                data: data,
-                type: "column",
-                grouping: false
-                //name: "Vinnare"
-            }]
+        series: [{
+            color: '#00c609',
+            data: data,
+            name: "Sannolikhet"
+            //type: "column",
+            //grouping: false
+            //name: "Vinnare"
+        }]
     }
 
-    var chart = new Highcharts.Chart(Highcharts.merge(winnerChart, Highcharts.theme));
+    //var chart = new Highcharts.Chart(Highcharts.merge(winnerChart, Highcharts.theme));
+    var chart = new Highcharts.Chart(winnerChart);
 }
 
 /* Init */

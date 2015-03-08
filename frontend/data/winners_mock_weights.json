@@ -1,74 +1,42 @@
-{
-    "Samir & Viktor": [
-        1,
-        2,
-        3,
-        4
+[
+    [
+        "Samir & Viktor",
+        2.1
     ],
-    "JTR": [
-        1,
-        2,
-        3,
-        4
+    [
+        "JTR",
+        8.1
     ],
-    "Dinah Nah": [
-        1,
-        2,
-        3,
-        4
+    [
+        "Dinah Nah",
+        7.1
     ],
-    "Jon Henrik Fjällgren": [
-        1,
-        2,
-        3,
-        4
+    [
+        "Jessica Andersson",
+        4.1
     ],
-    "Jessica Andersson": [
-        1,
-        2,
-        3,
-        4
+    [
+        "Linus Svenning",
+        12.1
     ],
-    "Måns Zelmerlöw": [
-        1,
-        2,
-        3,
-        4
+    [
+        "Isa",
+        3.1
     ],
-    "Linus Svenning": [
-        1,
-        2,
-        3,
-        4
+    [
+        "Magnus Carlsson",
+        20.1
     ],
-    "Isa": [
-        1,
-        2,
-        3,
-        4
+    [
+        "Eric Saade",
+        27.1
     ],
-    "Magnus Carlsson": [
-        1,
-        2,
-        3,
-        4
+    [
+        "Mariette",
+        19.1
     ],
-    "Eric Saade": [
-        1,
-        2,
-        3,
-        4
-    ],
-    "Mariette": [
-        1,
-        2,
-        3,
-        4
-    ],
-    "Hasse Andersson": [
-        1,
-        2,
-        3,
-        4
+    [
+        "Hasse Andersson",
+        5.1
     ]
-}
+]
