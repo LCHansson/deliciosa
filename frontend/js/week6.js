@@ -116,8 +116,7 @@ function buildWinnerSpider( data ){
 
 
         xAxis: {
-            categories: ['Sales', 'Marketing', 'Development', 'Customer Support',
-                'Information Technology', 'Administration'],
+            categories: data.categories,
             tickmarkPlacement: 'on',
             lineWidth: 0
         },
@@ -139,13 +138,7 @@ function buildWinnerSpider( data ){
             layout: 'horizontal'
         },
 
-        series: [{
-            name: 'Allocated Budget',
-            data: [43000, 19000, 60000, 35000, 17000, 10000]
-        }, {
-            name: 'Actual Spending',
-            data: [50000, 39000, 42000, 31000, 26000, 14000]
-        }]
+        series: data.series
 
     });
 
@@ -155,7 +148,18 @@ function buildWinnerSpider( data ){
 
 
 function week6Collapse(){
-    buildWinnerSpider();
+    $.ajax({
+        type: "GET",
+        url: "./data/winners_spider_dummy.json",
+        dataType: "json",
+        success: function(response) {
+            buildWinnerSpider(response);
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+            console.log("Error! " + textStatus);
+        }
+    });
+
 }
 
 /* Init */
