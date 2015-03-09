@@ -28,6 +28,9 @@ function buildWinnerBars(data) {
                 text: null
             },
             gridLineWidth: 0.0,
+            labels: {
+                autoRotation: [-60]
+            },
             //labels: {
             //    formatter: function() {
             //        var val = this.value,
