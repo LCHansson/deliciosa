@@ -944,14 +944,24 @@ function buildScatterPlot(data) {
             headerFormat: '<span class="leaguespartansmall">{point.x}</span><br>',
             //pointFormat: '<span style="color: {series.color};">●</span> {series.name}: {point.y:.0f}%<br>',
             pointFormatter: function(){
-                var color = "";
+                var color = "",
+                    patternDef = "";
                 if (this.series.color.pattern) {
-                    color = "orange";
+                    var patternId = "tm-" + (new RegExp("/([a-z-]*).")).exec( this.series.color.pattern )[1];
+                    color = "url(#" + patternId + ")";
+                    patternDef = '<defs>' +
+                    '<pattern id="' + patternId + '" patternUnits="userSpaceOnUse" width="' + this.series.color.width + '" height="' + this.series.color.height + '">' +
+                    '<rect height="' + this.series.color.height + '" width="' + this.series.color.width + '" x="0" y="0" fill="#ffffff"/>' +
+                    '<image preserveAspectRatio="none" x="0" y="0" width="' + this.series.color.width + '" height="' + this.series.color.height + '" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="' + this.series.color.pattern + '"></image>' +
+                    '</pattern>' +
+                    '</defs>';
                 } else {
                     color = this.series.color;
                 }
-                return '<span style="color: ' + color + ';">●</span> ' +
-                    this.series.name + ': ' + Highcharts.numberFormat(this.y, 0) + '%<br>';
+                var bullet = '<svg width="8" height="8">' + patternDef +
+                    '<circle cx="4" cy="4" r="4" stroke="#fdba00" stroke-width="1" fill="' + color + '"/>' +
+                '</svg>';
+                return bullet + ' ' + this.series.name + ': ' + Highcharts.numberFormat(this.y, 0) + '%<br>';
             },
             shared: true,
             useHTML: true
