@@ -882,9 +882,10 @@ function buildScatterPlot(data) {
     }
 
 
-    $('#tmMFDiff').highcharts({
+    var areaPlot = new Highcharts.Chart({
         chart: {
-            type: 'area'
+            type: 'area',
+            renderTo: 'tmMFDiff'
         },
         plotOptions: {
             area: {
@@ -892,6 +893,15 @@ function buildScatterPlot(data) {
                 events: {
                     legendItemClick: function () {
                         return false;
+                    }
+                },
+                lineColor: '#fdba00',
+                lineWidth: 2,
+                marker: {
+                    states: {
+                        hover: {
+                            lineWidthPlus: 0
+                        }
                     }
                 }
             }
@@ -932,7 +942,17 @@ function buildScatterPlot(data) {
         },
         tooltip: {
             headerFormat: '<span class="leaguespartansmall">{point.x}</span><br>',
-            pointFormat: '<span style="color: {series.color};">●</span> {series.name}: {point.y:.0f}%<br>',
+            //pointFormat: '<span style="color: {series.color};">●</span> {series.name}: {point.y:.0f}%<br>',
+            pointFormatter: function(){
+                var color = "";
+                if (this.series.color.pattern) {
+                    color = "orange";
+                } else {
+                    color = this.series.color;
+                }
+                return '<span style="color: ' + color + ';">●</span> ' +
+                    this.series.name + ': ' + Highcharts.numberFormat(this.y, 0) + '%<br>';
+            },
             shared: true,
             useHTML: true
         },
@@ -945,16 +965,30 @@ function buildScatterPlot(data) {
         },
         series: [
             {
-                color: '#000000',
+                color: '#ffffff',
                 name: 'Kvinnor',
                 data: s2,
                 marker: {
                     symbol: "circle",
-                    radius: 0
-                }
+                    radius: 0,
+                    states: {
+                        hover: {
+                            lineColor: '#fdba00',
+                            lineWidth: 1,
+                            fillColor: "transparent",
+                            radiusPlus: 10
+                        }
+                    }
+                },
+                lineWidth: 4
+
             },
             {
-                color: '#808080',
+                color: {
+                    pattern: 'images/pattern-yellow.png',
+                    width: 5,
+                    height: 5
+                }, //'#808080',
                 name: 'Blandad',
                 data: s3,
                 marker: {
@@ -972,6 +1006,11 @@ function buildScatterPlot(data) {
             },
             enableMouseTracking: true
         }]
+    });
+    $(areaPlot.series).each(function(i, slice){
+        $(slice.legendSymbol.element).attr('stroke-width','2');
+        $(slice.legendSymbol.element).attr('stroke',  '#fdba00');
+
     });
 }
 
