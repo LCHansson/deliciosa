@@ -205,7 +205,7 @@ def scale_features(songs_in_final, feature_names, m, M, missing_data_feature_ind
             feature_matrix[i].append(s.feature_values[i])
 
     # calculate min and max for each feature
-    min_max_features = [(min(feature_matrix[i]), max(feature_matrix[i]), numpy.average(feature_matrix[i]) )
+    min_max_features = [(min(feature_matrix[i]), max(feature_matrix[i]), numpy.average(feature_matrix[i]))
                         for i in range(len(feature_names))]
     # scale the features
     for s in songs_in_final.values():
@@ -217,7 +217,8 @@ def scale_features(songs_in_final, feature_names, m, M, missing_data_feature_ind
 
             # MISSING data just put the average of all values
             if i in missing_data_feature_indexes and s.feature_values[i] == missing_data_feature_indexes[i]:
-                s.scaled_feature_values[i] = min_max_features[i][2]
+                s.scaled_feature_values[i] = m + (float(min_max_features[i][2]) - min_max_features[i][0]) / \
+                                          (min_max_features[i][1] - min_max_features[i][0]) * (M-m)
                 continue
             s.scaled_feature_values[i] = m + (float(s.feature_values[i]) - min_max_features[i][0]) / \
                                           (min_max_features[i][1] - min_max_features[i][0]) * (M-m)

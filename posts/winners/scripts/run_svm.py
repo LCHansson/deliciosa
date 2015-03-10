@@ -68,13 +68,16 @@ def write_train_test_data(songs_in_final, feature_names, out_dir, test_qids):
 1 qid:3 1:0 2:1 3:1 4:0.5 5:0 # 3D
 """
 
-def train_model(train_file, outdir, c, gamma):
+def train_model(train_file, outdir, c):
     svm_train = "../svm_light_osx.8.4_i7/svm_learn"
 
     model_file = os.path.join(outdir, 'model.txt')
     alphas_file = os.path.join(outdir, "alphas.txt")
-    return_code = subprocess.call([svm_train, "-a", alphas_file, '-z', 'p', '-c', str(c), '-t', "2", '-g', str(gamma),
-                                   train_file, model_file])
+    #if gamma:
+    #    return_code = subprocess.call([svm_train, "-a", alphas_file, '-z', 'p', '-c', str(c), '-t', "2", '-g', str(gamma),
+    #                               train_file, model_file])
+    #else:
+    return_code = subprocess.call([svm_train, "-a", alphas_file, '-z', 'p', '-c', str(c), train_file, model_file])
 
     print "Training finished with return code {}".format(return_code)
     return model_file
@@ -105,7 +108,7 @@ def print_predictions(test_data, test_qids):
     # print predictions
     test_data.sort(key=lambda s: s.svm_predicted_rank_score)
     distance = 0
-    weights = [10, 5, 4, 3, 2, 1, 1, 1, 1, 1]
+    weights = [10, 5, 4, 3, 2, 1, 1, 1, 1, 1, 1, 1]
     for qid in test_qids:
         i = 1
         print "---- Year: {} ----".format(qid)
@@ -119,10 +122,10 @@ def print_predictions(test_data, test_qids):
     print "Distance: ", distance
 
 def compute_prediction_error(test_data):
-    penalties  = [10, 7, 3]
+    penalties  = [5, 2, 1]
     error = 0
     for t in test_data:
-        print t.final_placing, t.predicted_final_placing
+        print t.qid, t.final_placing, t.predicted_final_placing
         if t.final_placing <= 3 or t.predicted_final_placing <= 3:
             diff = numpy.abs(t.final_placing -  t.predicted_final_placing)
             for i in range(len(penalties)):
@@ -131,10 +134,9 @@ def compute_prediction_error(test_data):
 
     return error
 
-def optimization_train_model(data, feature_names, outdir, c, gamma):
+def optimization_train_model(data, feature_names, outdir, c):
 
-    testing_sets = [[2002, 2007, 2012, 2015], [2003, 2008, 2013, 2015],
-       [2004, 2009, 2014, 2015], [2005, 2006, 2010, 2015]]
+    testing_sets = [[2002, 2005, 2008, 2011, 2014], [2003, 2006, 2009, 2012], [2004, 2007, 2010, 2013]]
     prediction_error = 0
     for test_qids in testing_sets:
         # remove files
@@ -145,7 +147,7 @@ def optimization_train_model(data, feature_names, outdir, c, gamma):
         train_file, train_data, test_file, test_data = write_train_test_data(data, feature_names, outdir, test_qids)
 
         # training
-        model_file = train_model(train_file, outdir, c, gamma)
+        model_file = train_model(train_file, outdir, c)
 
         # testing
         predictions_file = test_model(test_file, model_file, outdir)
@@ -172,7 +174,7 @@ def optimization_train_model(data, feature_names, outdir, c, gamma):
 
     return prediction_error
 
-def train_final_model(data, feature_names, outdir, c, gamma):
+def train_final_model(data, feature_names, outdir, c):
 
     for f in os.listdir(outdir):
         os.remove(os.path.join(outdir, f))
@@ -181,7 +183,7 @@ def train_final_model(data, feature_names, outdir, c, gamma):
     train_file, train_data, test_file, test_data = write_train_test_data(data, feature_names, outdir, [2015])
 
     # training
-    model_file = train_model(train_file, outdir, c, gamma)
+    model_file = train_model(train_file, outdir, c)
 
     predictions_file = test_model(test_file, model_file, outdir)
 
@@ -212,16 +214,15 @@ def main():
 
     parameters = []
     train_data = [d for d in data.values() if d.qid != 2015]
-    for c in [5, 10, 15, 20, 25]:
-        for gamma in [1, 1.5, 2, 2.1, 2.2, 2.3, 2.4, 2.5, 3]:
-            prediction_error = optimization_train_model(train_data, feature_names, outdir, c, gamma)
-            parameters.append((c, gamma, prediction_error))
+    for c in [3, 5, 7, 10, 13, 16, 19, 22, 25]:
+        prediction_error = optimization_train_model(train_data, feature_names, outdir, c)
+        parameters.append((c, prediction_error))
 
     print "\n ---- Build final model and calculate predictions"
-    parameters.sort(key=lambda p: p[2])
+    parameters.sort(key=lambda p: p[1])
     print parameters
 
-    train_final_model(data.values(), feature_names, outdir, parameters[0][0], parameters[0][1])
+    train_final_model(data.values(), feature_names, outdir, parameters[0][0])
 
 if __name__ == '__main__':
     main()
