@@ -108,7 +108,6 @@ def print_predictions(test_data, test_qids):
     # print predictions
     test_data.sort(key=lambda s: s.svm_predicted_rank_score)
     distance = 0
-    weights = [10, 5, 4, 3, 2, 1, 1, 1, 1, 1, 1, 1]
     for qid in test_qids:
         i = 1
         print "---- Year: {} ----".format(qid)
@@ -117,10 +116,8 @@ def print_predictions(test_data, test_qids):
                                                                                 s.song_name.encode("utf-8"),
                                                                                 i,
                                                                                 s.final_placing)
-            distance += numpy.abs(i - s.final_placing)*weights[i-1]
             i += 1
-    print "Distance: ", distance
-
+    
 def compute_prediction_error(test_data):
     penalties  = [5, 2, 1]
     error = 0

@@ -272,7 +272,7 @@ def main():
 
     # scale the features to values between -1 and 1; give a dictionary with the indexes of columns containing
     # missing data and the value that indicates that that value is missing
-    songs_in_final = scale_features(songs_in_final, feature_names, m=-1.0, M=1.0,
+    songs_in_final = scale_features(songs_in_final, feature_names, m=0.0, M=1.0,
                                     missing_data_feature_indexes={4: -1000, 5: -1000})
 
     print_songs_to_file("/Users/luminitamoruz/work/deliciosa/posts/winners/data/feature_data.json",
