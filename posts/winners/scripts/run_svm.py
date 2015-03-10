@@ -104,6 +104,27 @@ def test_model(test_file, model_file, outdir):
 #     print "Average distance (random simulation): ", numpy.average(distances)
 
 
+def print_predictions_to_file(test_data, test_qids, outfile):
+    outf = open(outfile, "w")
+    test_data.sort(key=lambda s: s.svm_predicted_rank_score)
+    distance = 0
+    for qid in test_qids:
+        i = 1
+        outf.write("---- Year: {} ----".format(qid))
+        for s in [t for t in test_data if t.qid == qid]:
+            if outfile:
+                if s.final_placing != -1:
+                    outf.write("{} - '{}': predicted position, real position: {}, {}\n".format(s.artist.encode("utf-8"),
+                                                                                s.song_name.encode("utf-8"),
+                                                                                i,
+                                                                                s.final_placing))
+                else:
+                    outf.write("{} - '{}': predicted position: {}\n".format(s.artist.encode("utf-8"),
+                                                                            s.song_name.encode("utf-8"), i))
+
+            i += 1
+    outf.close()
+
 def print_predictions(test_data, test_qids):
     # print predictions
     test_data.sort(key=lambda s: s.svm_predicted_rank_score)
@@ -117,7 +138,7 @@ def print_predictions(test_data, test_qids):
                                                                                 i,
                                                                                 s.final_placing)
             i += 1
-    
+
 def compute_prediction_error(test_data):
     penalties  = [5, 2, 1]
     error = 0
@@ -197,7 +218,26 @@ def train_final_model(data, feature_names, outdir, c):
         i += 1
 
     print_predictions(test_data, [2015])
+    print_predictions_to_file(test_data, [2015], os.path.join(outdir, "final_predictions.txt"))
 
+    return model_file
+
+
+def get_feature_weights(model_file, feature_names, out_dir):
+    tmp_outfile =os.path.join(out_dir, "tmp.txt")
+    python_path = "/Users/luminitamoruz/work/deliciosa/text-analysis/my-python/bin/python"
+    weights_script = "/Users/luminitamoruz/work/deliciosa/posts/winners/scripts/get_weights.py"
+    return_code = subprocess.call([python_path, weights_script, model_file], stdout=open(tmp_outfile, "w"))
+    print "Code", return_code, tmp_outfile
+    outf = open(os.path.join(out_dir, "final_feature_weights.txt"), "w")
+    lines = open(tmp_outfile).readlines()
+    print lines
+
+    for (fname, fvalue) in zip(feature_names, lines[1:] ):
+        fval = abs(float(fvalue.split(":")[1].strip()))
+        outf.write(str(fname) + " : " + str(fval) + "\n")
+        print (fname, fval)
+    outf.close()
 
 
 def main():
@@ -219,7 +259,10 @@ def main():
     parameters.sort(key=lambda p: p[1])
     print parameters
 
-    train_final_model(data.values(), feature_names, outdir, parameters[0][0])
+    model_file = train_final_model(data.values(), feature_names, outdir, parameters[0][0])
+    get_feature_weights(model_file, feature_names, outdir)
+
+
 
 if __name__ == '__main__':
     main()
