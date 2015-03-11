@@ -1,0 +1,16 @@
+prel_placing : 5.80805030164
+language : 1.96572007999
+tm_total_previous_in_final : 1.76664744749
+directly_to_final : 1.68146046471
+tm_total_previous_participations : 1.26115530398
+final_start_position : 0.738901096536
+previous_participating : 0.627856286765
+previous_in_final : 0.58961487374
+number_words_title : 0.422101271093
+prel_start_position : 0.327514404304
+echonest_loudness : 0.281190118363
+prel_round_no : 0.214379976529
+echonest_tempo : 0.193955856264
+tm_total_in_top_three : 0.141968466586
+number_tm : 0.13684988966
+is_band : 0.0259840464453

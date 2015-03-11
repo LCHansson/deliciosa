@@ -131,7 +131,7 @@ def print_predictions(test_data, test_qids):
     distance = 0
     for qid in test_qids:
         i = 1
-        print "---- Year: {} ----".format(qid)
+        print "---- Year: {} ----\n".format(qid)
         for s in [t for t in test_data if t.qid == qid]:
             print "{} - '{}': predicted position, real position: {}, {}".format(s.artist.encode("utf-8"),
                                                                                 s.song_name.encode("utf-8"),
@@ -194,8 +194,8 @@ def optimization_train_model(data, feature_names, outdir, c):
 
 def train_final_model(data, feature_names, outdir, c):
 
-    for f in os.listdir(outdir):
-        os.remove(os.path.join(outdir, f))
+    #for f in os.listdir(outdir):
+    #    os.remove(os.path.join(outdir, f))
 
     # write train and test data
     train_file, train_data, test_file, test_data = write_train_test_data(data, feature_names, outdir, [2015])
@@ -233,8 +233,13 @@ def get_feature_weights(model_file, feature_names, out_dir):
     lines = open(tmp_outfile).readlines()
     print lines
 
+    t = []
     for (fname, fvalue) in zip(feature_names, lines[1:] ):
         fval = abs(float(fvalue.split(":")[1].strip()))
+        t.append((fname, fval))
+
+    t.sort(key = lambda p: p[1], reverse=True)
+    for (fname, fval) in t:
         outf.write(str(fname) + " : " + str(fval) + "\n")
         print (fname, fval)
     outf.close()
@@ -259,6 +264,7 @@ def main():
     parameters.sort(key=lambda p: p[1])
     print parameters
 
+    outdir = "/Users/luminitamoruz/work/deliciosa/frontend/data"
     model_file = train_final_model(data.values(), feature_names, outdir, parameters[0][0])
     get_feature_weights(model_file, feature_names, outdir)
 
