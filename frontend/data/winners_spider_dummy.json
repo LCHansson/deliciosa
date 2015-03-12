@@ -11,6 +11,9 @@
 
   "series": [
     {
+    "color": "#00c609",
+    "lineWidth": 4,
+    "radius": 5,
     "name": "Vikt",
     "data": [5.8, 2.0, 1.8, 1.7, 1.3, 0.7, 0.6]
   }]
