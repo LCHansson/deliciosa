@@ -109,7 +109,7 @@ ol li:before {
     content: counter(ol-counter) ".";
     counter-increment: ol-counter;
     display: inline-block;
-    width: 24px;
+    width: 26px;
 }
 
 
@@ -757,8 +757,21 @@ table.dataTable .count {
 /* winner */
 #winner {
     font-size: 75px;
-    margin-top: 1.2em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
     text-transform: uppercase;
+}
+
+@media (max-width: 768px){
+    #winner {
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 1016px){
+    #winner {
+        font-size: 60px;
+    }
 }
 
 #computercopy {
@@ -767,4 +780,12 @@ table.dataTable .count {
     border-radius: 3px;
     padding: 15px;
     margin: 0 10px;
+}
+
+#sixthPost ol li:before {
+    color: #00c609;
+}
+
+#firstPost ol li:before {
+    color: #00bbdb;
 }
