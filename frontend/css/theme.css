@@ -762,15 +762,15 @@ table.dataTable .count {
     text-transform: uppercase;
 }
 
-@media (max-width: 768px){
-    #winner {
-        font-size: 40px;
-    }
-}
-
 @media(max-width: 1016px){
     #winner {
         font-size: 60px;
+    }
+}
+
+@media (max-width: 768px){
+    #winner {
+        font-size: 40px;
     }
 }
 

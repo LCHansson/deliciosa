@@ -135,7 +135,8 @@ function buildWinnerSpider( data ){
 
         tooltip: {
             shared: true,
-            pointFormat: '<span>{series.name}: <b>{point.y}</b><br/>'
+            headerFormat: '<span style="font-size: 16px;">{point.key}</span><br/>',
+            pointFormat: '<span style="font-size: 14px;">{series.name}: </span><span style="font-size: 14px; font-weight: bold">{point.y}</span>'
         },
 
         legend: {enabled: false},
