@@ -113,7 +113,7 @@ function buildWinnerSpider( data ){
         },
 
         title: {
-            text: 'Budget vs spending'
+            text: ''
         },
 
 
@@ -132,14 +132,10 @@ function buildWinnerSpider( data ){
 
         tooltip: {
             shared: true,
-            pointFormat: '<span style="color:{series.color}">{series.name}: <b>${point.y:,.0f}</b><br/>'
+            pointFormat: '<span>{series.name}: <b>{point.y}</b><br/>'
         },
 
-        legend: {
-            align: 'left',
-            verticalAlign: 'bottom',
-            layout: 'horizontal'
-        },
+        legend: {enabled: false},
 
         series: data.series
 
@@ -151,6 +147,37 @@ function buildWinnerSpider( data ){
 
 
 function week6Collapse(){
+       /*
+    $.ajax({
+        type: "GET",
+        url: "./data/winners_spider_dummy.json",
+        dataType: "json",
+        success: function(response) {
+            buildWinnerSpider(response);
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+            console.log("Error! " + textStatus);
+        }
+    });*/
+
+}
+
+/* Init */
+function week6() {
+
+       /*
+    $.ajax({
+        type: "GET",
+        url: "./data/winners_mock_weights.json",
+        dataType: "json",
+        success: function(response) {
+            buildWinnerBars(response);
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+            console.log("Error! " + textStatus);
+        }
+    });*/
+
     $.ajax({
         type: "GET",
         url: "./data/winners_spider_dummy.json",
@@ -162,24 +189,5 @@ function week6Collapse(){
             console.log("Error! " + textStatus);
         }
     });
-
-}
-
-/* Init */
-function week6() {
-
-    $.ajax({
-        type: "GET",
-        url: "./data/winners_mock_weights.json",
-        dataType: "json",
-        success: function(response) {
-            buildWinnerBars(response);
-        },
-        error: function(jqXHR, textStatus, errorThrown) {
-            console.log("Error! " + textStatus);
-        }
-    });
-
-
 
 }
