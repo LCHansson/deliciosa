@@ -134,9 +134,18 @@ function buildWinnerSpider( data ){
         },
 
         tooltip: {
-            shared: true,
-            headerFormat: '<span style="font-size: 16px;">{point.key}</span><br/>',
-            pointFormat: '<span style="font-size: 14px;">{series.name}: </span><span style="font-size: 14px; font-weight: bold">{point.y}</span>'
+            //shared: true,
+            formatter: function(){
+                var index = this.point.index;
+                var headerLabel = data.tooltip[index];
+                var output = '<span tyle="font-size: 16px;">' + headerLabel + '</span><br>' +
+                    '<span style="font-size: 14px;">' + this.series.name + ': </span>' +
+                    '<span style="font-size: 14px; font-weight: bold">' + this.y + '</span>';
+                return output;
+
+            }
+            //headerFormat: '<span style="font-size: 16px;">{point.key}</span><br/>',
+            //pointFormat: '<span style="font-size: 14px;">{series.name}: </span><span style="font-size: 14px; font-weight: bold">{point.y}</span>'
         },
 
         legend: {enabled: false},
@@ -184,7 +193,7 @@ function week6() {
 
     $.ajax({
         type: "GET",
-        url: "./data/winners_spider_dummy.json",
+        url: "./data/winners_spider.json",
         dataType: "json",
         success: function(response) {
             buildWinnerSpider(response);
