@@ -9,8 +9,8 @@
     <link rel="icon" href="images/favicon.ico">
 
     <meta property="og:title" content="Mellokollen">
-    <meta property="og:description" content="En nördig djupdykning i datan bakom Melodifestivalen.">
-    <meta property="og:image" content="images/mellokollen.png">
+    <meta property="og:description" content="Eric Saade vinner Melodifestivalen 2015! Andraplatsen går till Mariette, och tredje plats till Måns Zelmerlöw. Eller, så räknade iallafall vår dator.">
+    <meta property="og:image" content="images/winner.png">
     <meta property="og:url" content="http://www.mellokollen.se">
 
     <title>Mellokollen</title>
@@ -118,23 +118,27 @@
             </p>
 
             <p>
-                Vi har beräknat följande variabler för alla låtar som har varit i en Mello-final de senaste 13 åren:
+                Vi har beräknat följande variabler för alla låtar som har tagit sig ända till finalen de senaste 13 åren:
             </p>
             <ul>
-                <li> Variabler relaterade till låtskrivare: antal Mellolåtar som tidigare skrivits av låtskrivarna,
+                <li>
+                    Variabler relaterade till låtskrivare: antal Mellolåtar som tidigare skrivits av låtskrivarna,
                     antal Mellolåtar som skrivits av de låtskrivare som gått till final,
                     antal Mellolåtar som skrivits av de låtskrivare som nåt topp 3,
                     antal låtskrivare
                 </li>
 
-               <li> Variabler relaterade till låt: språk, antal ord i titeln, skrikighet, tempo
+               <li>
+                   Variabler relaterade till låt: språk, antal ord i titeln, skrikighet, tempo
                </li>
 
-                <li>Variabler relaterade till detävling: deltävling, placering i deltävling, startorder i deltävling,
+                <li>
+                    Variabler relaterade till detävling: deltävling, placering i deltävling, startorder i deltävling,
                     om låten gick direkt till final
                 </li>
 
-                <li>Variabler relaterade till artisten: om artisten tidigare deltagit i Melodifestivalen,
+                <li>
+                    Variabler relaterade till artisten: om artisten tidigare deltagit i Melodifestivalen,
                     om artisten tidigare varit i en final, om det är fler än en artist som framför låten
                 </li>
                 <li>
@@ -143,27 +147,30 @@
             </ul>
 
             <p>
-            Vi anpassade alla variabler till en skala mellan 0 och 1.
+                Vi anpassade alla variabler till en skala mellan 0 och 1.
             </p>
             <p>
-            För att generera prediktioner använde vi en "rank support vector machine (SVM)", vilket är en
-                maskininlärningsalgoritm (<a href="http://svmlight.joachims.org/">http://svmlight.joachims.org/</a> ).
+                För att generera prediktioner använde vi en
+                <a href="http://svmlight.joachims.org/" target="_blank" class="green">"rank support vector machine (SVM)"</a>, vilket är en
+                maskininlärningsalgoritm.
                 Varje enskilt år kodades som en separat query. Vidare använde vi en linjär kärna och ett trefaldigt korsvalideringsförfarande
                 för att välja parameter C.
             </p>
             <p>
-            Efter att ha valt parameter C använde vi samtlig träningsdata, det vill säga alla finalister från de senaste 13 åren,
+                Efter att ha valt parameter C använde vi samtlig träningsdata, det vill säga alla finalister från de senaste 13 åren,
                 för att kalibrera SVM modellen.
             </p>
 
             <p>
-            I det sista steget applicerade vi den modell SVM maskinen tagit fram för finalisterna 2015,
-                och kunde därmed ta fram en ranking. Som alla nördar förstår ger vikt vektorn för hyperplanet
+                I det sista steget applicerade vi den modell SVM maskinen tagit fram för finalisterna 2015,
+                och kunde därmed ta fram en ranking. Som alla nördar förstår ger viktvektorn för hyperplanet
                 också vikterna för variablerna.
 
             </p>
 
-	    Här är den fullständiga listan över våra förutsägelser om finalresultatet:
+            <p>
+                Här är den fullständiga listan över våra förutsägelser om finalresultatet:
+            </p>
             <ol>
                 <li>
                     Eric Saade: Sting
@@ -207,9 +214,9 @@
 
         <p class="social small text-center green">
             Dela analysen på
-            <a href="https://twitter.com/intent/tweet?text=K%c3%a4rleken%20l%c3%a4mnar%20Mello%20snabbare%20%c3%a4n%20mansdominansen!.&hashtags=mellokollen&url=http%3A%2F%2Fwww.mellokollen.se" target="_blank">Twitter</a>
+            <a href="https://twitter.com/intent/tweet?text=%40ericsaademusic%20vinner%20%23melfest!&hashtags=mellokollen&url=http%3A%2F%2Fwww.mellokollen.se" target="_blank">Twitter</a>
             <a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.mellokollen.se" target="_blank">Facebook</a>
-            <a href="mailto:?subject=Har%20du%20koll%20p%C3%A5%20Mello%3F&body=K%c3%a4rleken%20l%c3%a4mnar%20Mello%20snabbare%20%c3%a4n%20mansdominansen!%20%0D%0Ahttp%3A%2F%2Fwww.mellokollen.se">Mail</a>
+            <a href="mailto:?subject=Har%20du%20koll%20p%C3%A5%20Mello%3F&body=Eric%20Saade%20vinner%20Melodifestivalen%202015!%20%0D%0Ahttp%3A%2F%2Fwww.mellokollen.se">Mail</a>
         </p>
     </section> <!-- #sixthPost end -->
 
