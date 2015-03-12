@@ -104,12 +104,29 @@ function buildWinnerBars(data) {
 function buildWinnerSpider( data ){
 
     data.series[0].color = "#00c609";
+    var chartWidth = $('#weightSpider').innerWidth(),
+        fontSize = 16,
+        distanceLabels = 20,
+        paddingLabels = 5;
+
+    if (chartWidth <= 600){
+        fontSize = 14;
+        distanceLabels = 3;
+        paddingLabels = 0;
+    }
+    if (chartWidth <= 500){
+        fontSize = 12;
+    }
+    if (chartWidth <= 400){
+        fontSize = 11;
+    }
 
     $('#weightSpider').highcharts({
 
         chart: {
             polar: true,
-            type: "line"
+            type: "line",
+            height: Math.min(chartWidth/3*2.5, 400)
         },
         credits: {
             enabled: false
@@ -124,7 +141,13 @@ function buildWinnerSpider( data ){
         xAxis: {
             categories: data.categories,
             tickmarkPlacement: 'on',
-            lineWidth: 0
+            lineWidth: 0,
+            labels: {
+                distance: distanceLabels,
+                padding: paddingLabels,
+                format: '<span style="font-size: ' + fontSize + 'px;">{value}</span>'
+            }
+
         },
 
         yAxis: {
