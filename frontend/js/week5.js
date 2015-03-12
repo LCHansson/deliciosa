@@ -274,7 +274,7 @@ function buildNoiseBar15() {
                 enabled: false
             },
             xAxis: {
-                categories: [ "Måns/Eric", "Vinnare", "Förlorare" ],
+                categories: [ "Måns/Eric", "Vinnarlåtar" ],
                 title: {
                     text: null
                 },
@@ -331,21 +331,23 @@ function buildNoiseBar15() {
                 enabled: false
             },
             series: [
-                {
-                    color: 'grey',
-                    data: [0, 0, 10 + (-5.7418)],
-                    grouping: false,
-                    name: ""
-                },
+                //{
+                //    color: 'grey',
+                //    data: [0, 0, 10 + (-5.7418)],
+                //    grouping: false,
+                //    name: ""
+                //},
                 {
                     color: '#6e328f',
-                    data: [0, 10 + (-4.7349), 0],
+                    //data: [0, 10 + (-4.7349), 0],
+                    data: [0, 10 + (-4.7349)],
                     grouping: false,
                     name: ""
                 },
                 {
                     color: '#ed4d17',
-                    data: [10 + (-3.927), 0, 0],
+                    //data: [10 + (-3.927), 0, 0],
+                    data: [10 + (-3.927), 0],
                     grouping: false,
                     name: ""
                 }]

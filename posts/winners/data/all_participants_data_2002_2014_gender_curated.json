@@ -7150,111 +7150,27 @@
             "John Lundvik"
         ]
     },
-      "2015_1_6": {
-        "artist": "Jessica Andersson",
+   "2015_2_3": {
+        "artist": "Samir & Viktor",
         "artist_gender": [
-            "F"
-        ],
-        "tm": "Aleena Gibson (tm) & Fredrik Thomander (tm)",
-        "tm_genders": [
-            "F",
+            "M",
             "M"
         ],
-        "tm_list": [
-            "Aleena Gibson",
-            "Fredrik Thomander"
-        ]
-    },
-      "2015_1_7": {
-        "artist": "Eric Saade",
-        "artist_gender": [
-            "M"
-        ],
-        "tm": "Sam Arash Fahmi (tm) & Fredrik Kempe (tm) & Hamed \"K-one\" Pirouzpanah (tm) & David Kreuger (tm)",
-        "tm_genders": [
-           "M",
-           "M",
-           "M",
-           "M"
-        ],
-        "tm_list": [
-            "Sam Arash Fahmi",
-            "Fredrik Kempe",
-            "Hamed \"K-one\" Pirouzpanah",
-            "David Kreuger"
-        ]
-    },
-      "2015_2_6": {
-        "artist": "Magnus Carlsson",
-        "artist_gender": [
-            "M"
-        ],
-        "tm": "Thomas G:son (tm) & Lina Eriksson (tm)",
+        "tm": "Anton Malmberg Hård af Segerstad (tm) & Maria Smith (tm) & Kevin Högdahl (tm) & Viktor Thell (tm)",
         "tm_genders": [
             "M",
-            "F"
-        ],
-        "tm_list": [
-            "Thomas G:son",
-            "Lina Eriksson"
-        ]
-    },
-      "2015_2_7": {
-        "artist": "Mariette",
-        "artist_gender": [
-            "F"
-        ],
-        "tm": "Miss Li (Linda Karlsson) (tm) & Sonny Gustafsson (tm)",
-        "tm_genders": [
-            "F",
-            "M"
-        ],
-        "tm_list": [
-            "Miss Li (Linda Karlsson)",
-            "Sonny Gustafsson"
-        ]
-    },
-      "2015_3_5": {
-        "artist": "Isa",
-        "artist_gender": [
-            "F"
-        ],
-        "tm": "Isa Tengblad (tm) & Johan Ramström (tm) & Magnus Wallin (tm) & Gustaf Svenungsson (tm)  & Oscar Merner (tm)",
-        "tm_genders": [
             "F",
             "M",
-            "M",
-            "M",
             "M"
         ],
         "tm_list": [
-            "Isa Tengblad",
-            "Johan Ramström",
-            "Magnus Wallin",
-            "Gustaf Svenungsson",
-            "Oscar Merner"
+            "Anton Malmberg Hård af Segerstad",
+            "Maria Smith",
+            "Kevin Högdahl",
+            "Viktor Thell"
         ]
     },
-      "2015_3_7": {
-        "artist": "Jon Henrik Fjällgren",
-        "artist_gender": [
-            "M"
-        ],
-        "tm": "Jon Henrik Fjällgren (tm) & Erik Holmberg (tm) & Tony Malm (tm) & Josef Melin (tm)",
-        "tm_genders": [
-            "M",
-            "M",
-            "M",
-            "M"
-        ],
-        "tm_list": [
-            "Jon Henrik Fjällgren",
-            "Erik Holmberg",
-            "Tony Malm",
-            "Josef Melin"
-        ]
-    },
-      "2015_4_3": {
+       "2015_4_3": {
         "artist": "JTR",
         "artist_gender": [
             "M",
@@ -7277,7 +7193,61 @@
             "Iggy Strange Dahl"
         ]
     },
-      "2015_4_7": {
+      "2015_4_5": {
+        "artist": "Dinah Nah",
+        "artist_gender": [
+            "F"
+        ],
+        "tm": "Dinah Nah (tm) & Dr. Alban (Alban Nwapa)(tm) & Jakke Erixson (tm) & Karl-Ola Kjellholm (tm)",
+        "tm_genders": [
+            "F",
+            "M",
+            "M",
+            "M"
+        ],
+        "tm_list": [
+            "Dinah Nah",
+            "Dr. Alban (Alban Nwapa)",
+            "Jakke Erixson",
+            "Karl-Ola Kjellholm"
+        ]
+    },
+       "2015_3_7": {
+        "artist": "Jon Henrik Fjällgren",
+        "artist_gender": [
+            "M"
+        ],
+        "tm": "Jon Henrik Fjällgren (tm) & Erik Holmberg (tm) & Tony Malm (tm) & Josef Melin (tm)",
+        "tm_genders": [
+            "M",
+            "M",
+            "M",
+            "M"
+        ],
+        "tm_list": [
+            "Jon Henrik Fjällgren",
+            "Erik Holmberg",
+            "Tony Malm",
+            "Josef Melin"
+        ]
+    },
+
+      "2015_1_6": {
+        "artist": "Jessica Andersson",
+        "artist_gender": [
+            "F"
+        ],
+        "tm": "Aleena Gibson (tm) & Fredrik Thomander (tm)",
+        "tm_genders": [
+            "F",
+            "M"
+        ],
+        "tm_list": [
+            "Aleena Gibson",
+            "Fredrik Thomander"
+        ]
+    },
+     "2015_4_7": {
         "artist": "Måns Zelmerlöw",
         "artist_gender": [
             "M"
@@ -7293,6 +7263,111 @@
              "Joy Deb",
              "Linnea Deb"
         ]
-    }
-
+    },
+    "2015_2_1": {
+        "artist": "Linus Svenning",
+        "artist_gender": [
+            "M"
+        ],
+        "tm": "Aleena Gibson (tm) & Anton Malmberg Hård af Segerstad (tm) & Fredrik Kempe (tm)",
+        "tm_genders": [
+            "F",
+            "M",
+            "M"
+        ],
+        "tm_list": [
+            "Aleena Gibson",
+            "Anton Malmberg Hård af Segerstad",
+            "Fredrik Kempe"
+        ]
+    },
+        "2015_3_5": {
+        "artist": "Isa",
+        "artist_gender": [
+            "F"
+        ],
+        "tm": "Isa Tengblad (tm) & Johan Ramström (tm) & Magnus Wallin (tm) & Gustaf Svenungsson (tm)  & Oscar Merner (tm)",
+        "tm_genders": [
+            "F",
+            "M",
+            "M",
+            "M",
+            "M"
+        ],
+        "tm_list": [
+            "Isa Tengblad",
+            "Johan Ramström",
+            "Magnus Wallin",
+            "Gustaf Svenungsson",
+            "Oscar Merner"
+        ]
+    },
+        "2015_2_6": {
+        "artist": "Magnus Carlsson",
+        "artist_gender": [
+            "M"
+        ],
+        "tm": "Thomas G:son (tm) & Lina Eriksson (tm)",
+        "tm_genders": [
+            "M",
+            "F"
+        ],
+        "tm_list": [
+            "Thomas G:son",
+            "Lina Eriksson"
+        ]
+    },
+   "2015_1_7": {
+        "artist": "Eric Saade",
+        "artist_gender": [
+            "M"
+        ],
+        "tm": "Sam Arash Fahmi (tm) & Fredrik Kempe (tm) & Hamed \"K-one\" Pirouzpanah (tm) & David Kreuger (tm)",
+        "tm_genders": [
+           "M",
+           "M",
+           "M",
+           "M"
+        ],
+        "tm_list": [
+            "Sam Arash Fahmi",
+            "Fredrik Kempe",
+            "Hamed \"K-one\" Pirouzpanah",
+            "David Kreuger"
+        ]
+    },
+      "2015_2_7": {
+        "artist": "Mariette",
+        "artist_gender": [
+            "F"
+        ],
+        "tm": "Miss Li (Linda Karlsson) (tm) & Sonny Gustafsson (tm)",
+        "tm_genders": [
+            "F",
+            "M"
+        ],
+        "tm_list": [
+            "Miss Li (Linda Karlsson)",
+            "Sonny Gustafsson"
+        ]
+    },
+   "2015_4_4": {
+     "artist": "Hasse Andersson",
+     "artist_gender": [
+        "M"
+     ],
+     "tm": "Anderz Wrethov (tm) & Elin Wrethov (tm) & Johan Bejerholm (tm) & Johan Deltinger (tm)",
+     "tm_genders": [
+       "M",
+       "F",
+       "M",
+       "M"
+     ],
+     "tm_list": [
+       "Anderz Wrethov",
+       "Elin Wrethov",
+       "Johan Bejerholm",
+       "Johan Deltinger"
+     ]
+   }
 }

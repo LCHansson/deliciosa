@@ -1,0 +1,21 @@
+{
+  "categories": [
+      "Placering i deltävling",
+      "Språk",
+      "Antal gånger låtskrivarna var i Mello finalen",
+      "Har låten gått direkt till finalen?",
+      "Antal gånger låtskrivarna har deltagit i Melodiefestivalen",
+      "Start ordning i finalen",
+       "Har artisten deltagit i Melodifestivalen förut?"
+    ],
+
+  "series": [
+    {
+    "color": "#00c609",
+    "lineWidth": 4,
+    "radius": 5,
+    "name": "Vikt",
+    "data": [5.8, 2.0, 1.8, 1.7, 1.3, 0.7, 0.6]
+  }]
+
+}

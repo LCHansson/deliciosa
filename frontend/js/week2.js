@@ -50,7 +50,8 @@ function buildTempoColChart(data) {
                         formatter: function() {
                             return this.value % 20 == 0 ? this.value : "";
                         },
-                        enabled: true
+                        enabled: true,
+                        step: 1
                     },
                     tickLength: 0,
                     tickWidth: 0,
@@ -150,7 +151,8 @@ function buildTempoColChart(data) {
                     formatter: function() {
                         return this.value % 20 == 0 ? this.value : null;
                     },
-                    enabled: true
+                    enabled: true,
+                    step: 1
                 },
                 tickLength: 0,
                 tickWidth: 0,
@@ -263,14 +265,15 @@ function buildSentimentColChart(data) {
                 title: {
                     text: null
                 },
-                type: "cetegory",
+                //type: "category",
                 crossing:0,
                 gridLineWidth: 0.0,
                 labels: {
                     formatter: function() {
                         return this.value % 20 == 0 ? this.value : "";
                     },
-                    enabled: true
+                    enabled: true,
+                    step: 1
                 },
                 tickLength: 0,
                 tickWidth: 0,
@@ -357,7 +360,8 @@ function buildSentimentColChart(data) {
                     formatter: function() {
                         return this.value % 20 == 0 ? this.value : "";
                     },
-                    enabled: true
+                    enabled: true,
+                    step: 1
                 },
                 tickLength: 0,
                 tickWidth: 0,
@@ -465,7 +469,7 @@ function buildLanguageColChart(data) {
                 tickWidth: 0,
                 lineWidth: 0
             },
-            yAxis: [
+            yAxis: //[
                 { // Vinnare
                     //min: 0,
                     //max: 6,
@@ -484,7 +488,7 @@ function buildLanguageColChart(data) {
 
                     endOnTick: false,
                     isDirty: true
-                },
+                }, /*,
                 { // Förlorare
                     title: {
                         text: null
@@ -504,7 +508,8 @@ function buildLanguageColChart(data) {
 
                     endOnTick: false,
                     isDirty: true
-                }],
+                }*///],
+
 
             plotOptions: {
                 column: {

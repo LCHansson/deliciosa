@@ -882,9 +882,10 @@ function buildScatterPlot(data) {
     }
 
 
-    $('#tmMFDiff').highcharts({
+    var areaPlot = new Highcharts.Chart({
         chart: {
-            type: 'area'
+            type: 'area',
+            renderTo: 'tmMFDiff'
         },
         plotOptions: {
             area: {
@@ -892,6 +893,15 @@ function buildScatterPlot(data) {
                 events: {
                     legendItemClick: function () {
                         return false;
+                    }
+                },
+                lineColor: '#fdba00',
+                lineWidth: 2,
+                marker: {
+                    states: {
+                        hover: {
+                            lineWidthPlus: 0
+                        }
                     }
                 }
             }
@@ -932,7 +942,27 @@ function buildScatterPlot(data) {
         },
         tooltip: {
             headerFormat: '<span class="leaguespartansmall">{point.x}</span><br>',
-            pointFormat: '<span style="color: {series.color};">●</span> {series.name}: {point.y:.0f}%<br>',
+            //pointFormat: '<span style="color: {series.color};">●</span> {series.name}: {point.y:.0f}%<br>',
+            pointFormatter: function(){
+                var color = "",
+                    patternDef = "";
+                if (this.series.color.pattern) {
+                    var patternId = "tm-" + (new RegExp("/([a-z-]*).")).exec( this.series.color.pattern )[1];
+                    color = "url(#" + patternId + ")";
+                    patternDef = '<defs>' +
+                    '<pattern id="' + patternId + '" patternUnits="userSpaceOnUse" width="' + this.series.color.width + '" height="' + this.series.color.height + '">' +
+                    '<rect height="' + this.series.color.height + '" width="' + this.series.color.width + '" x="0" y="0" fill="#ffffff"/>' +
+                    '<image preserveAspectRatio="none" x="0" y="0" width="' + this.series.color.width + '" height="' + this.series.color.height + '" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="' + this.series.color.pattern + '"></image>' +
+                    '</pattern>' +
+                    '</defs>';
+                } else {
+                    color = this.series.color;
+                }
+                var bullet = '<svg width="8" height="8">' + patternDef +
+                    '<circle cx="4" cy="4" r="4" stroke="#fdba00" stroke-width="1" fill="' + color + '"/>' +
+                '</svg>';
+                return bullet + ' ' + this.series.name + ': ' + Highcharts.numberFormat(this.y, 0) + '%<br>';
+            },
             shared: true,
             useHTML: true
         },
@@ -945,16 +975,30 @@ function buildScatterPlot(data) {
         },
         series: [
             {
-                color: '#000000',
+                color: '#ffffff',
                 name: 'Kvinnor',
                 data: s2,
                 marker: {
                     symbol: "circle",
-                    radius: 0
-                }
+                    radius: 0,
+                    states: {
+                        hover: {
+                            lineColor: '#fdba00',
+                            lineWidth: 1,
+                            fillColor: "transparent",
+                            radiusPlus: 10
+                        }
+                    }
+                },
+                lineWidth: 4
+
             },
             {
-                color: '#808080',
+                color: {
+                    pattern: 'images/pattern-yellow.png',
+                    width: 5,
+                    height: 5
+                }, //'#808080',
                 name: 'Blandad',
                 data: s3,
                 marker: {
@@ -972,6 +1016,11 @@ function buildScatterPlot(data) {
             },
             enableMouseTracking: true
         }]
+    });
+    $(areaPlot.series).each(function(i, slice){
+        $(slice.legendSymbol.element).attr('stroke-width','2');
+        $(slice.legendSymbol.element).attr('stroke',  '#fdba00');
+
     });
 }
 

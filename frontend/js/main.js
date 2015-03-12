@@ -1,6 +1,7 @@
 $(function () {
-    var firstPostLoaded = false;
-    var thirdPostLoaded = false;
+    var firstPostLoaded = false,
+        thirdPostLoaded = false,
+        sixthPostLoaded = false;
     $('.read-on').on('click', function(e) {
         e.preventDefault();
         var $this = $(this);
@@ -18,6 +19,10 @@ $(function () {
             week3Collapse();
             thirdPostLoaded = true;
         }
+        if (!sixthPostLoaded & postNr == 6){
+            week6Collapse();
+            sixthPostLoaded = true;
+        }
     });
 
     $( ".nav-pills" ).find( "a" ).on( "show.bs.tab", function( e ){
@@ -31,6 +36,7 @@ $(function () {
     week3();
     week4();
     week5();
+    week6();
 
     window.fbShare = function(){
         FB.ui(
