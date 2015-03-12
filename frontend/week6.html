@@ -180,30 +180,50 @@
         </div>
 
         <div id="sixthCollapse" class="collapse tpadding small">
-            För alla låtar som har varit i en Mello final i de senaste 13 åren har vi beräknat
-            följande variabler ( grupperade efter kategori ) :
+            Vi har beräknat följande variabler för alla låtar som har varit i en Mello-final de senaste 13 åren:
 
             <ol>
-                <li> Relaterat till låtskrivarna:  Totalt antal Mello låtar som tidigare skrivna av låtskrivarna,
-                    Totalt antal Mello låtar som tidigare skrivits av de låtskrivarna som fick till final,
-                    Totalt antal Mello låtar som tidigare skrivits av de låtskrivarna som fick till toppen 3,
+                <li> Variabler relaterade till låtskrivare: Antal låtar som tidigare skrivits av låtskrivarna,
+                    antal Mello-låtar som skrivits av de låtskrivare som gått till final,
+                    antal Mello låtar som skrivits av de låtskrivare som nåt topp 3,
                     Antal låtskrivare
                 </li>
 
-               <li> Relaterat till låt: språk, Antalet ord i titeln, loudness, tempo
+               <li> Variabler relaterade till låt: språk, antal ord i titeln, skrikighet, tempo
                </li>
 
-                <li>Relaterat till detävling: deltävling, placering i deltävlingen, startorder i deltävling,
-                    om om låten gick direkt till final
+                <li>Variabler relaterade till detävling: deltävling, placering i deltävling, startorder i deltävling,
+                    om låten gick direkt till final
                 </li>
 
-                <li>Relaterat till artisten: Har artisten tidigare deltagit i Mello,
-                    Har artisten tidigare varit i en Mello final, är artisten ett band
+                <li>Variabler relaterade till artisten: Om artisten tidigare deltagit i Melodifestivalen,
+                    Om artisten tidigare varit i en final, Om det är fler än en artist som framför låten
                 </li>
                 <li>
                      Startposition i finalen
                 </li>
             </ol>
+
+            <p>
+            Vi anpassade alla variabler till en skala mellan 0 och 1.
+            </p>
+            <p>
+            För att generera prediktioner använde vi en "rank support vector machine (SVM)", vilket är en
+                maskininlärningsalgoritm (<a href="http://svmlight.joachims.org/">http://svmlight.joachims.org/</a> ).
+                Varje enskilt år kodades som en separat query. Vidare använde vi en linjär kärna och ett trefaldigt korsvalideringsförfarande
+                för att välja parameter C.
+            </p>
+            <p>
+            Efter att ha valt parameter C använde vi samtlig träningsdata, det vill säga alla finalister från de senaste 13 åren,
+                för att kalibrera SVM modellen.
+            </p>
+
+            <p>
+            I det sista steget applicerade vi den modell SVM maskinen tagit fram för finalisterna 2015,
+                och kunde därmed ta fram en ranking. Som alla nördar förstår ger vikt vektorn för hyperplanet
+                också vikterna för variablerna.
+
+            </p>
         </div>
 
         <p class="social small text-center green">
