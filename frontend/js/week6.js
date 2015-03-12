@@ -102,6 +102,9 @@ function buildWinnerBars(data) {
 }
 
 function buildWinnerSpider( data ){
+
+    data.series[0].color = "#00c609";
+
     $('#weightSpider').highcharts({
 
         chart: {
