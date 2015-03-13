@@ -785,11 +785,10 @@ table.dataTable .count {
 #sixthPost ol li:before {
     color: #00c609;
 }
-#sixthPost ul li {
+ul li {
     list-style: none;
 }
-#sixthPost ul li:before {
-    color: #00c609;
+ul li:before {
     content: '\25A0';
     display: block;
     position: relative;
@@ -797,6 +796,13 @@ table.dataTable .count {
     max-height: 0;
     left: -26px;
     top: -2px;
+}
+
+#sixthPost ul li:before {
+      color: #00c609;
+}
+#secondPost ul li:before {
+    color: #6e328f;
 }
 
 #firstPost ol li:before {
