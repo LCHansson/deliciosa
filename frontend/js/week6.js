@@ -118,7 +118,7 @@ function buildWinnerSpider( data ){
         fontSize = 12;
     }
     if (chartWidth <= 400){
-        fontSize = 11;
+        fontSize = 10;
     }
 
     $('#weightSpider').highcharts({
