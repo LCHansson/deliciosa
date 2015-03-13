@@ -103,7 +103,7 @@ function buildWinnerBars(data) {
 
 function buildWinnerSpider( data ){
 
-    data.series[0].color = "#00c609";
+    //data.series[0].color = "#00c609";
     var chartWidth = $('#weightSpider').innerWidth(),
         fontSize = 16,
         distanceLabels = 20,
@@ -111,7 +111,7 @@ function buildWinnerSpider( data ){
 
     if (chartWidth <= 600){
         fontSize = 14;
-        distanceLabels = 0;
+        distanceLabels = 3;
         paddingLabels = 0;
     }
     if (chartWidth <= 500){
@@ -153,7 +153,9 @@ function buildWinnerSpider( data ){
         yAxis: {
             gridLineInterpolation: 'polygon',
             lineWidth: 0,
-            min: 0
+            tickInterval: 2,
+            min: 0,
+            max: Math.max.apply(null, data.series[0].data)
         },
 
         tooltip: {
