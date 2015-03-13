@@ -802,3 +802,8 @@ table.dataTable .count {
 #firstPost ol li:before {
     color: #00bbdb;
 }
+
+#weightSpider {
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
