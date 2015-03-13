@@ -111,7 +111,7 @@ function buildWinnerSpider( data ){
 
     if (chartWidth <= 600){
         fontSize = 14;
-        distanceLabels = 3;
+        distanceLabels = 1;
         paddingLabels = 0;
     }
     if (chartWidth <= 500){
