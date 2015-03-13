@@ -807,3 +807,10 @@ table.dataTable .count {
     margin-bottom: 2em;
     margin-top: 2em;
 }
+
+@media (max-width: 768px) {
+    #weightSpider {
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+}

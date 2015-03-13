@@ -111,14 +111,14 @@ function buildWinnerSpider( data ){
 
     if (chartWidth <= 600){
         fontSize = 14;
-        distanceLabels = 0;
+        distanceLabels = 1;
         paddingLabels = 0;
     }
     if (chartWidth <= 500){
         fontSize = 12;
     }
     if (chartWidth <= 400){
-        fontSize = 10;
+        fontSize = 11;
     }
 
     $('#weightSpider').highcharts({
